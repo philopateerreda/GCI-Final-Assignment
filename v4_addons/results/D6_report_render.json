@@ -1,0 +1,109 @@
+{
+  "report": "v4_addons/reports/D6_report.md",
+  "report_sha256": "b937c40c333165a945da5502f8fb81c7270430e53f1fa3a247b1bb2570e37aba",
+  "results_json": "v4_addons/results/d6_text_blocks.json",
+  "tokens": [
+    {
+      "token": "1.007",
+      "name": "queue_billing_lift",
+      "spec": "f3",
+      "value": 1.0074319321515355
+    },
+    {
+      "token": "0.980",
+      "name": "queue_network_lift",
+      "spec": "f3",
+      "value": 0.9797681103472066
+    },
+    {
+      "token": "0.971",
+      "name": "queue_handset_lift",
+      "spec": "f3",
+      "value": 0.9712900471903978
+    },
+    {
+      "token": "1.027",
+      "name": "queue_residual_lift",
+      "spec": "f3",
+      "value": 1.0274432688312296
+    },
+    {
+      "token": "1.007",
+      "name": "queue_billing_lift_s9",
+      "spec": "f3",
+      "value": 1.0071649484536083
+    },
+    {
+      "token": "0.979",
+      "name": "queue_network_lift_s9",
+      "spec": "f3",
+      "value": 0.9793984962406015
+    },
+    {
+      "token": "0.972",
+      "name": "queue_handset_lift_s9",
+      "spec": "f3",
+      "value": 0.9722313527180784
+    },
+    {
+      "token": "1.027",
+      "name": "queue_residual_lift_s9",
+      "spec": "f3",
+      "value": 1.026876443418014
+    },
+    {
+      "token": "2,505",
+      "name": "queue_total",
+      "spec": "int",
+      "value": 2505
+    },
+    {
+      "token": "2.9%",
+      "name": "queue_max_abs_lift_deviation_pct",
+      "spec": "pc1",
+      "value": 2.9
+    },
+    {
+      "token": "$12,872",
+      "name": "stage1_cost",
+      "spec": "usd0",
+      "value": 12872.0
+    },
+    {
+      "token": "$20,744",
+      "name": "stage1_cost_if_floor_paid",
+      "spec": "usd0",
+      "value": 20744.0
+    },
+    {
+      "token": "$7,872",
+      "name": "floor_understatement",
+      "spec": "usd0",
+      "value": 7872.0
+    },
+    {
+      "token": "0.005",
+      "name": "harm_alpha_per_look",
+      "spec": "f3",
+      "value": 0.005
+    },
+    {
+      "token": "0.01",
+      "name": "harm_familywise_alpha",
+      "spec": "f2",
+      "value": 0.01
+    },
+    {
+      "token": "403",
+      "name": "http_status_blocked",
+      "spec": "int",
+      "value": 403
+    },
+    {
+      "token": "200",
+      "name": "http_status_ok",
+      "spec": "int",
+      "value": 200
+    }
+  ]
+}

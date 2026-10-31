@@ -1,0 +1,346 @@
+{
+  "cards": [
+    {
+      "card": "D0",
+      "deliverable": "results/d0_checks.json",
+      "outcome": "Hashes match; section-9 checks reproduced, with one SE-convention discrepancy acknowledged.",
+      "report": "reports/D0_report.md",
+      "status": "COMPLETED_ACCEPTED"
+    },
+    {
+      "card": "D1",
+      "deliverable": "WP8_status_addendum.md, MANIFEST_v4.json",
+      "outcome": "Two stale v3 documents refreshed with backups; status addendum and manifest written.",
+      "report": "reports/D1_report.md",
+      "status": "COMPLETED_ACCEPTED"
+    },
+    {
+      "card": "D2",
+      "deliverable": "YARDSTICK.md",
+      "outcome": "Yardstick sheet built; two definition discrepancies reported, not tuned.",
+      "report": "reports/D2_report.md",
+      "status": "COMPLETED_ACCEPTED"
+    },
+    {
+      "card": "D3",
+      "deliverable": "ledger_dryrun/",
+      "outcome": "Ledger dry-run for all four options; no rows retired.",
+      "report": "reports/D3_report.md",
+      "status": "COMPLETED_ACCEPTED"
+    },
+    {
+      "card": "D4",
+      "deliverable": "INTEGRATION_PROPOSAL_v4.md",
+      "outcome": "Integration proposal written; one option recommended; three decision placeholders.",
+      "report": "reports/D4_report.md",
+      "status": "COMPLETED_ACCEPTED"
+    },
+    {
+      "card": "D5",
+      "deliverable": "REPRODUCIBILITY.md",
+      "outcome": "Reproducibility supplement for all work packages; identity and closed-form checks passed.",
+      "report": "reports/D5_report.md",
+      "status": "COMPLETED_ACCEPTED"
+    },
+    {
+      "card": "D6",
+      "deliverable": "TEXT_BLOCKS.md",
+      "outcome": "Text blocks for queue composition, Floor cost, harm gate and reference access.",
+      "report": "reports/D6_report.md",
+      "status": "COMPLETED_ACCEPTED"
+    },
+    {
+      "card": "D7",
+      "deliverable": "MONITOR_WRAPUP.md",
+      "outcome": "Break-even prior replayed from the exact functions; monitor rule rewritten as exclusive states.",
+      "report": "reports/D7_report.md",
+      "status": "COMPLETED_ACCEPTED"
+    }
+  ],
+  "checks": {
+    "boundary": "card=D8; clean=True; files_checked=4571; phase=pre",
+    "check_numbers": "check_numbers: 595 bound numbers checked; 0 problems; 1 acknowledged discrepancies\n  WARN d0_checks.json:se_gamma_hat_delta_full: section-9 expectation 0.068 not matched; value 0.0605922379589923; acknowledged: the 6.8 pp quote corresponds to SE(p0hat-p1hat)/p0 with p0 held fixed (see se_gamma_hat_difference_scaled); the full two-arm delta method gives 6.06 pp; conclusion unchanged (both exceed the 4.0 pp gap several-fold)"
+  },
+  "gates": [
+    {
+      "file": "gates/H0_DECISIONS.md",
+      "gate": "H0",
+      "present": false
+    },
+    {
+      "file": "gates/H1_APPROVED.txt",
+      "gate": "H1",
+      "present": false
+    },
+    {
+      "file": "gates/H2_APPROVED.txt",
+      "gate": "H2",
+      "present": false
+    },
+    {
+      "file": "gates/H3_OPTION.txt",
+      "gate": "H3",
+      "present": false
+    }
+  ],
+  "numbers": {
+    "ack_discrepancies": {
+      "computed": true,
+      "inputs": [],
+      "note": "acknowledged section-9 discrepancies (the D0 SE-convention note)",
+      "sha256_of_source": null,
+      "source_file": null,
+      "source_key": null,
+      "tag": "[E]",
+      "value": 1
+    },
+    "bound_numbers_d0_d7": {
+      "computed": true,
+      "inputs": [],
+      "note": "bound numbers across all results/*.json registries at the time this summary was generated (D0-D7; this card adds its own registry afterwards)",
+      "sha256_of_source": null,
+      "source_file": null,
+      "source_key": null,
+      "tag": "[E]",
+      "value": 595
+    },
+    "boundary_accepted": {
+      "computed": true,
+      "inputs": [],
+      "note": "accepted changes (the D1 in-place edits and their .pre_v4 backups)",
+      "sha256_of_source": null,
+      "source_file": null,
+      "source_key": null,
+      "tag": "[E]",
+      "value": 4
+    },
+    "boundary_files": {
+      "computed": true,
+      "inputs": [],
+      "note": "files outside v4_addons/ hashed against the baseline at the D8 pre-check",
+      "sha256_of_source": null,
+      "source_file": null,
+      "source_key": null,
+      "tag": "[E]",
+      "value": 4571
+    },
+    "boundary_unexpected": {
+      "computed": true,
+      "inputs": [],
+      "note": "unexpected changes outside the write boundary",
+      "sha256_of_source": null,
+      "source_file": null,
+      "source_key": null,
+      "tag": "[E]",
+      "value": 0
+    },
+    "cards_reported": {
+      "formula": "8",
+      "inputs": [],
+      "note": "cards in the status table (D0-D7; D8 reports itself through STATE.md)",
+      "sha256_of_source": null,
+      "source_file": null,
+      "source_key": null,
+      "tag": "[E]",
+      "value": 8
+    },
+    "check_problems": {
+      "computed": true,
+      "inputs": [],
+      "note": "failures from check_numbers over the same registries",
+      "sha256_of_source": null,
+      "source_file": null,
+      "source_key": null,
+      "tag": "[E]",
+      "value": 0
+    },
+    "extend_probability": {
+      "sha256_of_source": "c675013790138bcb64f2fe06e8a378cc2b1e42076cf45367feb5cc00981750fc",
+      "source_file": "v4_addons/results/d4_proposal.json",
+      "source_key": "numbers.dq_7872_g20_p_extend.value",
+      "tag": "[E]",
+      "value": 0.919
+    },
+    "gate_files_count": {
+      "computed": true,
+      "inputs": [],
+      "note": "files present in v4_addons/gates/ at the D8 pre-check",
+      "sha256_of_source": null,
+      "source_file": null,
+      "source_key": null,
+      "tag": "[E]",
+      "value": 0
+    },
+    "gates_pending": {
+      "formula": "4",
+      "inputs": [],
+      "note": "human gates defined by the brief, none opened",
+      "sha256_of_source": null,
+      "source_file": null,
+      "source_key": null,
+      "tag": "[E]",
+      "value": 4
+    },
+    "new_model_fits": {
+      "computed": true,
+      "inputs": [],
+      "note": "no model was fitted or scored by this card",
+      "sha256_of_source": null,
+      "source_file": null,
+      "source_key": null,
+      "tag": "[E]",
+      "value": 0
+    },
+    "open_decision_items": {
+      "formula": "4",
+      "inputs": [],
+      "note": "open [DECISION NEEDED] items after D7",
+      "sha256_of_source": null,
+      "source_file": null,
+      "source_key": null,
+      "tag": "[E]",
+      "value": 4
+    },
+    "pi_star_excl_20": {
+      "sha256_of_source": "fda6721c08a5f3dd6066d556bbedac68c0e6cde5fc630b2857ef373efaeab758",
+      "source_file": "v4_addons/results/d7_monitor.json",
+      "source_key": "numbers.pi_star_excl_20.value",
+      "tag": "[E]",
+      "value": 0.010361277644274275
+    },
+    "pi_star_startup_effect_20": {
+      "sha256_of_source": "fda6721c08a5f3dd6066d556bbedac68c0e6cde5fc630b2857ef373efaeab758",
+      "source_file": "v4_addons/results/d7_monitor.json",
+      "source_key": "numbers.pi_star_startup_effect_20.value",
+      "tag": "[E]",
+      "value": 0.5102895618110355
+    },
+    "scanned_documents": {
+      "computed": true,
+      "inputs": [],
+      "note": "Track D deliverable documents scanned against their render registries",
+      "sha256_of_source": null,
+      "source_file": null,
+      "source_key": null,
+      "tag": "[E]",
+      "value": 6
+    },
+    "stage1_cost": {
+      "sha256_of_source": "abbc8faac3c8e71b323be946fbbaedaff4698c98ffe30496b172a7532a29db28",
+      "source_file": "v4_addons/results/d6_text_blocks.json",
+      "source_key": "numbers.stage1_cost.value",
+      "tag": "[E]",
+      "value": 12872.0
+    },
+    "stage1_cost_if_floor_paid": {
+      "sha256_of_source": "abbc8faac3c8e71b323be946fbbaedaff4698c98ffe30496b172a7532a29db28",
+      "source_file": "v4_addons/results/d6_text_blocks.json",
+      "source_key": "numbers.stage1_cost_if_floor_paid.value",
+      "tag": "[E]",
+      "value": 20744.0
+    },
+    "test_rows_used": {
+      "computed": true,
+      "inputs": [],
+      "note": "no test row was read by this card",
+      "sha256_of_source": null,
+      "source_file": null,
+      "source_key": null,
+      "tag": "[E]",
+      "value": 0
+    },
+    "wp5_pi_star_recorded": {
+      "sha256_of_source": "fda6721c08a5f3dd6066d556bbedac68c0e6cde5fc630b2857ef373efaeab758",
+      "source_file": "v4_addons/results/d7_monitor.json",
+      "source_key": "numbers.wp5_pi_star_recorded.value",
+      "tag": "[E]",
+      "value": 0.015464173262384629
+    }
+  },
+  "provenance": {
+    "created_utc": "2026-10-31T09:13:17.445954+00:00",
+    "input_files": [
+      {
+        "path": "v4_addons/results/boundary_log.jsonl",
+        "present": true,
+        "sha256": "0aed558c33c87748db22ef4a1742199a7a2928e2782262d73f73599d88637ecc",
+        "size": 7065
+      },
+      {
+        "path": "v4_addons/results/d4_proposal.json",
+        "present": true,
+        "sha256": "c675013790138bcb64f2fe06e8a378cc2b1e42076cf45367feb5cc00981750fc",
+        "size": 17888
+      },
+      {
+        "path": "v4_addons/results/d6_text_blocks.json",
+        "present": true,
+        "sha256": "abbc8faac3c8e71b323be946fbbaedaff4698c98ffe30496b172a7532a29db28",
+        "size": 18437
+      },
+      {
+        "path": "v4_addons/results/d7_monitor.json",
+        "present": true,
+        "sha256": "fda6721c08a5f3dd6066d556bbedac68c0e6cde5fc630b2857ef373efaeab758",
+        "size": 34171
+      },
+      {
+        "path": "v4_addons/results/state.json",
+        "present": true,
+        "sha256": "d11a03036498e53d0bb594256844793716b76783eb3af0690a64e3414500fd53",
+        "size": 5170
+      }
+    ],
+    "python_version": "3.11.9 (tags/v3.11.9:de54cf5, Apr  2 2024, 10:12:12) [MSC v.1938 64 bit (AMD64)]",
+    "row_counts": {},
+    "runtime": {
+      "env": {
+        "MKL_NUM_THREADS": "6",
+        "NUMEXPR_NUM_THREADS": "6",
+        "OMP_NUM_THREADS": "6",
+        "OPENBLAS_NUM_THREADS": "6"
+      },
+      "function_sha256": "77f490da30fa85a8826efca565835a7127fa2d629110a92afe8b0a497a437bca",
+      "pools": [
+        {
+          "architecture": "Haswell",
+          "filepath": "C:\\Users\\FGstore\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\numpy.libs\\libscipy_openblas64_-860d95b1c38e637ce4509f5fa24fbf2a.dll",
+          "internal_api": "openblas",
+          "num_threads": 6,
+          "prefix": "libscipy_openblas",
+          "threading_layer": "pthreads",
+          "user_api": "blas",
+          "version": "0.3.30"
+        },
+        {
+          "architecture": "Haswell",
+          "filepath": "C:\\Users\\FGstore\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\scipy.libs\\libscipy_openblas-64eda39e79589aedb16f58e5547eb599.dll",
+          "internal_api": "openblas",
+          "num_threads": 6,
+          "prefix": "libscipy_openblas",
+          "threading_layer": "pthreads",
+          "user_api": "blas",
+          "version": "0.3.30"
+        }
+      ],
+      "source": "v3_addons/src/common.py",
+      "thread_cap": 6
+    },
+    "script": "v4_addons/tools/d8_summary.py",
+    "script_sha256": "7e7c8900cb86779a2e67d730e9c53e84afd1efb1e641759cfd85ccc2c2498b26",
+    "seed": 20261037,
+    "tags_used": [
+      "[E]",
+      "[A]",
+      "[R]"
+    ]
+  },
+  "scanned": [
+    "../YARDSTICK.md",
+    "../INTEGRATION_PROPOSAL_v4.md",
+    "../REPRODUCIBILITY.md",
+    "../TEXT_BLOCKS.md",
+    "../MONITOR_WRAPUP.md",
+    "../WP8_status_addendum.md"
+  ]
+}

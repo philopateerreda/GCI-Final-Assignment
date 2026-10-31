@@ -1,0 +1,121 @@
+{
+  "report": "v4_addons/REPRODUCIBILITY.md",
+  "report_sha256": "058e3be569149e4ed7e7d80bc65845eb3ab0062d04cec40cf2ab229c765355ce",
+  "results_json": "v4_addons/results/d5_repro.json",
+  "tokens": [
+    {
+      "token": "15,000",
+      "name": "test_split_rows",
+      "spec": "int",
+      "value": 15000
+    },
+    {
+      "token": "20,261,029",
+      "name": "wp1_seed",
+      "spec": "int",
+      "value": 20261029
+    },
+    {
+      "token": "37.0",
+      "name": "wp2_completion_gap_minutes",
+      "spec": "f1",
+      "value": 37.0
+    },
+    {
+      "token": "20,261,030",
+      "name": "wp2_seed",
+      "spec": "int",
+      "value": 20261030
+    },
+    {
+      "token": "4.7",
+      "name": "wp3_completion_gap_minutes",
+      "spec": "f1",
+      "value": 4.7
+    },
+    {
+      "token": "20,261,031",
+      "name": "wp3_seed",
+      "spec": "int",
+      "value": 20261031
+    },
+    {
+      "token": "0.5",
+      "name": "wp4_completion_gap_minutes",
+      "spec": "f1",
+      "value": 0.5
+    },
+    {
+      "token": "20,261,032",
+      "name": "wp4_seed",
+      "spec": "int",
+      "value": 20261032
+    },
+    {
+      "token": "37.2",
+      "name": "wp5_completion_gap_minutes",
+      "spec": "f1",
+      "value": 37.2
+    },
+    {
+      "token": "20,261,033",
+      "name": "wp5_seed",
+      "spec": "int",
+      "value": 20261033
+    },
+    {
+      "token": "1.09",
+      "name": "wp2_max_centered_gap_se",
+      "spec": "f2",
+      "value": 1.09
+    },
+    {
+      "token": "1",
+      "name": "wp2_identity_checks_passed",
+      "spec": "int",
+      "value": 1
+    },
+    {
+      "token": "1",
+      "name": "wp3_closed_form_checks_passed",
+      "spec": "int",
+      "value": 1
+    },
+    {
+      "token": "1.116",
+      "name": "light_checks_wall_seconds",
+      "spec": "f3",
+      "value": 1.116
+    },
+    {
+      "token": "48",
+      "name": "wp1_simulation_points",
+      "spec": "int",
+      "value": 48
+    },
+    {
+      "token": "1,000",
+      "name": "wp1_replicates_per_point",
+      "spec": "int",
+      "value": 1000
+    },
+    {
+      "token": "10,000",
+      "name": "wp5_original_batches",
+      "spec": "int",
+      "value": 10000
+    },
+    {
+      "token": "5,000,000",
+      "name": "wp5_bootstrap_fits",
+      "spec": "int",
+      "value": 5000000
+    },
+    {
+      "token": "4,096",
+      "name": "wp2_pilots_per_scenario",
+      "spec": "int",
+      "value": 4096
+    }
+  ]
+}

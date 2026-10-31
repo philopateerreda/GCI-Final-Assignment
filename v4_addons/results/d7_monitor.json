@@ -1,0 +1,950 @@
+{
+  "crossings": {
+    "10": {
+      "excluded": {
+        "crossings": 1,
+        "direction": "negative to positive",
+        "lower_net": -8.980620550593812,
+        "lower_prior": 0.0209,
+        "prior_star": 0.020918386883250262,
+        "upper_net": 39.861918058910305,
+        "upper_prior": 0.021
+      },
+      "gamma": 0.1,
+      "included": null
+    },
+    "15": {
+      "excluded": {
+        "crossings": 1,
+        "direction": "negative to positive",
+        "lower_net": -40.16214782735733,
+        "lower_prior": 0.0138,
+        "prior_star": 0.013854823124950505,
+        "upper_net": 33.095529227015504,
+        "upper_prior": 0.0139
+      },
+      "gamma": 0.15,
+      "included": {
+        "crossings": 1,
+        "direction": "negative to positive",
+        "lower_net": -35.54339106952648,
+        "lower_prior": 0.0207,
+        "prior_star": 0.02074760398978436,
+        "upper_net": 39.121340249283094,
+        "upper_prior": 0.0208
+      }
+    },
+    "20": {
+      "excluded": {
+        "crossings": 1,
+        "direction": "negative to positive",
+        "lower_net": -60.111869232208846,
+        "lower_prior": 0.0103,
+        "prior_star": 0.010361277644274275,
+        "upper_net": 37.985683217999394,
+        "upper_prior": 0.0104
+      },
+      "gamma": 0.2,
+      "included": {
+        "crossings": 1,
+        "direction": "negative to positive",
+        "lower_net": -59.08632254870827,
+        "lower_prior": 0.0154,
+        "prior_star": 0.015464173262384629,
+        "upper_net": 32.98679381331749,
+        "upper_prior": 0.0155
+      }
+    },
+    "25": {
+      "excluded": {
+        "crossings": 1,
+        "direction": "negative to positive",
+        "lower_net": -93.68416638368763,
+        "lower_prior": 0.0082,
+        "prior_star": 0.008276043868627457,
+        "upper_net": 29.513361667723075,
+        "upper_prior": 0.0083
+      },
+      "gamma": 0.25,
+      "included": {
+        "crossings": 1,
+        "direction": "negative to positive",
+        "lower_net": -38.98185799737439,
+        "lower_prior": 0.0123,
+        "prior_star": 0.012331446873902167,
+        "upper_net": 84.97913767631144,
+        "upper_prior": 0.0124
+      }
+    },
+    "30": {
+      "excluded": {
+        "crossings": 1,
+        "direction": "negative to positive",
+        "lower_net": -133.63605354828542,
+        "lower_prior": 0.0068,
+        "prior_star": 0.00689155786480759,
+        "upper_net": 12.321974010705162,
+        "upper_prior": 0.0069
+      },
+      "gamma": 0.3,
+      "included": {
+        "crossings": 1,
+        "direction": "negative to positive",
+        "lower_net": -76.88187871006812,
+        "lower_prior": 0.0102,
+        "prior_star": 0.010252284698406333,
+        "upper_net": 70.16282280580708,
+        "upper_prior": 0.0103
+      }
+    }
+  },
+  "extraction_matches": {
+    "cutoff": true,
+    "fit_thresholds": true,
+    "measure": true,
+    "scores": true,
+    "shift": true,
+    "weights": true
+  },
+  "grid_artifact": {
+    "path": "v4_addons/results/d7_pi_star_grid.csv",
+    "present": true,
+    "sha256": "9cb579a4f96ba248bd8b354e27f60afab077203b9e10cebbb01bb186e0abb2fd",
+    "size": 78158
+  },
+  "methodology": {
+    "interpolation": "first sign change over the 0.5%-3.0% prior grid at 0.01-percentage-point steps; linear interpolation between adjacent points",
+    "net": "actual_value * gamma * 6 * 0.6 - contacts - startup(optional)",
+    "planning": "cached baseline OOF raw scores averaged over two repeats per ID, frozen sigmoid; non-test only",
+    "score": "shifted p_s times value (`bayes`)",
+    "source_functions": "AST-extracted from v2_work/common.py and v2_work/workstream_a.py; sources compared with the WP5-recorded AST",
+    "threshold": "weighted 10% cutoff on the 10k calibration cache at each assumed prior"
+  },
+  "numbers": {
+    "calibration_rows": {
+      "computed": true,
+      "inputs": [],
+      "note": "saved calibration_policy rows used for the weighted 10% cutoff",
+      "sha256_of_source": "fa0ee67c5b94431e5313633219c04c8c4c248944564659e06007e0a2aff25648",
+      "source_file": "v2_work/a_selected_calibration.csv",
+      "source_key": "partition == calibration_policy",
+      "tag": "[E]",
+      "value": 10000
+    },
+    "deployment_prior_2pct": {
+      "formula": "0.02",
+      "inputs": [],
+      "note": "deployment prior of the v2 economics and the monitor precision example",
+      "sha256_of_source": null,
+      "source_file": null,
+      "source_key": null,
+      "tag": "[R]",
+      "value": 0.02
+    },
+    "em_bias_100k": {
+      "sha256_of_source": "3a4d94fe806c00421f53688c2000bfb2293ecc16320dbb795d9b8375a8a9338e",
+      "source_file": "v3_addons/results/wp5_label_shift.json",
+      "source_key": "grid_summary[11].bias",
+      "tag": "[E]",
+      "value": 0.005151440493185826
+    },
+    "em_bias_10k": {
+      "sha256_of_source": "3a4d94fe806c00421f53688c2000bfb2293ecc16320dbb795d9b8375a8a9338e",
+      "source_file": "v3_addons/results/wp5_label_shift.json",
+      "source_key": "grid_summary[9].bias",
+      "tag": "[E]",
+      "value": 0.005777440367656506
+    },
+    "em_bias_50k": {
+      "sha256_of_source": "3a4d94fe806c00421f53688c2000bfb2293ecc16320dbb795d9b8375a8a9338e",
+      "source_file": "v3_addons/results/wp5_label_shift.json",
+      "source_key": "grid_summary[10].bias",
+      "tag": "[E]",
+      "value": 0.005048091936768494
+    },
+    "em_bias_5k": {
+      "sha256_of_source": "3a4d94fe806c00421f53688c2000bfb2293ecc16320dbb795d9b8375a8a9338e",
+      "source_file": "v3_addons/results/wp5_label_shift.json",
+      "source_key": "grid_summary[8].bias",
+      "tag": "[E]",
+      "value": 0.004530945000424221
+    },
+    "em_bias_in_label_se_100k": {
+      "formula": "(em_bias_100k * 100) / (label_se_100k * 100)",
+      "inputs": [
+        "em_bias_100k",
+        "label_se_100k"
+      ],
+      "note": "EM bias at pi=2% measured in label standard errors",
+      "sha256_of_source": null,
+      "source_file": null,
+      "source_key": null,
+      "tag": "[E]",
+      "value": 11.635917992348798
+    },
+    "em_bias_in_label_se_10k": {
+      "formula": "(em_bias_10k * 100) / (label_se_10k * 100)",
+      "inputs": [
+        "em_bias_10k",
+        "label_se_10k"
+      ],
+      "note": "EM bias at pi=2% measured in label standard errors",
+      "sha256_of_source": null,
+      "source_file": null,
+      "source_key": null,
+      "tag": "[E]",
+      "value": 4.126743119754647
+    },
+    "em_bias_in_label_se_50k": {
+      "formula": "(em_bias_50k * 100) / (label_se_50k * 100)",
+      "inputs": [
+        "em_bias_50k",
+        "label_se_50k"
+      ],
+      "note": "EM bias at pi=2% measured in label standard errors",
+      "sha256_of_source": null,
+      "source_file": null,
+      "source_key": null,
+      "tag": "[E]",
+      "value": 8.062769090916373
+    },
+    "em_bias_max": {
+      "formula": "max(em_bias_5k, em_bias_10k, em_bias_50k, em_bias_100k)",
+      "inputs": [
+        "em_bias_100k",
+        "em_bias_10k",
+        "em_bias_50k",
+        "em_bias_5k"
+      ],
+      "note": "largest recorded EM bias at pi=2% across the four grid sizes",
+      "sha256_of_source": null,
+      "source_file": null,
+      "source_key": null,
+      "tag": "[E]",
+      "value": 0.005777440367656506
+    },
+    "em_bias_min": {
+      "formula": "min(em_bias_5k, em_bias_10k, em_bias_50k, em_bias_100k)",
+      "inputs": [
+        "em_bias_100k",
+        "em_bias_10k",
+        "em_bias_50k",
+        "em_bias_5k"
+      ],
+      "note": "smallest recorded EM bias at pi=2% across the four grid sizes",
+      "sha256_of_source": null,
+      "source_file": null,
+      "source_key": null,
+      "tag": "[E]",
+      "value": 0.004530945000424221
+    },
+    "em_converged": {
+      "sha256_of_source": "3a4d94fe806c00421f53688c2000bfb2293ecc16320dbb795d9b8375a8a9338e",
+      "source_file": "v3_addons/results/wp5_label_shift.json",
+      "source_key": "acceptance_checks.all_original_em_converged.actual_converged",
+      "tag": "[E]",
+      "value": 8604
+    },
+    "em_coverage_100k": {
+      "sha256_of_source": "3a4d94fe806c00421f53688c2000bfb2293ecc16320dbb795d9b8375a8a9338e",
+      "source_file": "v3_addons/results/wp5_label_shift.json",
+      "source_key": "grid_summary[11].coverage_95_generating_prior",
+      "tag": "[E]",
+      "value": 0.69
+    },
+    "em_coverage_10k": {
+      "sha256_of_source": "3a4d94fe806c00421f53688c2000bfb2293ecc16320dbb795d9b8375a8a9338e",
+      "source_file": "v3_addons/results/wp5_label_shift.json",
+      "source_key": "grid_summary[9].coverage_95_generating_prior",
+      "tag": "[E]",
+      "value": 0.902
+    },
+    "em_coverage_50k": {
+      "sha256_of_source": "3a4d94fe806c00421f53688c2000bfb2293ecc16320dbb795d9b8375a8a9338e",
+      "source_file": "v3_addons/results/wp5_label_shift.json",
+      "source_key": "grid_summary[10].coverage_95_generating_prior",
+      "tag": "[E]",
+      "value": 0.828
+    },
+    "em_median_error_100k": {
+      "sha256_of_source": "3a4d94fe806c00421f53688c2000bfb2293ecc16320dbb795d9b8375a8a9338e",
+      "source_file": "v3_addons/results/wp5_label_shift.json",
+      "source_key": "grid_summary[11].median_error",
+      "tag": "[E]",
+      "value": 0.005212748826710923
+    },
+    "em_median_error_10k": {
+      "sha256_of_source": "3a4d94fe806c00421f53688c2000bfb2293ecc16320dbb795d9b8375a8a9338e",
+      "source_file": "v3_addons/results/wp5_label_shift.json",
+      "source_key": "grid_summary[9].median_error",
+      "tag": "[E]",
+      "value": 0.005679280738133435
+    },
+    "em_median_error_50k": {
+      "sha256_of_source": "3a4d94fe806c00421f53688c2000bfb2293ecc16320dbb795d9b8375a8a9338e",
+      "source_file": "v3_addons/results/wp5_label_shift.json",
+      "source_key": "grid_summary[10].median_error",
+      "tag": "[E]",
+      "value": 0.004992716446334887
+    },
+    "em_originals": {
+      "sha256_of_source": "3a4d94fe806c00421f53688c2000bfb2293ecc16320dbb795d9b8375a8a9338e",
+      "source_file": "v3_addons/results/wp5_label_shift.json",
+      "source_key": "acceptance_checks.all_original_em_converged.actual_total",
+      "tag": "[E]",
+      "value": 10000
+    },
+    "em_variant_run": {
+      "formula": "0",
+      "inputs": [],
+      "note": "1 if any EM variant was run; 0 because the recorded bias is far above the threshold",
+      "sha256_of_source": null,
+      "source_file": null,
+      "source_key": null,
+      "tag": "[E]",
+      "value": 0
+    },
+    "frozen_net_1pct": {
+      "sha256_of_source": "3a4d94fe806c00421f53688c2000bfb2293ecc16320dbb795d9b8375a8a9338e",
+      "source_file": "v3_addons/results/wp5_label_shift.json",
+      "source_key": "break_even.frozen_quoted_points[0].net",
+      "tag": "[E]",
+      "value": -5558.443445736175
+    },
+    "frozen_net_2pct": {
+      "sha256_of_source": "3a4d94fe806c00421f53688c2000bfb2293ecc16320dbb795d9b8375a8a9338e",
+      "source_file": "v3_addons/results/wp5_label_shift.json",
+      "source_key": "break_even.frozen_quoted_points[1].net",
+      "tag": "[E]",
+      "value": 3747.082455665277
+    },
+    "gamma_10": {
+      "formula": "0.1",
+      "inputs": [],
+      "note": "assumed prevention gamma = 0.10 requested by D7",
+      "sha256_of_source": null,
+      "source_file": null,
+      "source_key": null,
+      "tag": "[R]",
+      "value": 0.1
+    },
+    "gamma_15": {
+      "formula": "0.15",
+      "inputs": [],
+      "note": "assumed prevention gamma = 0.15 requested by D7",
+      "sha256_of_source": null,
+      "source_file": null,
+      "source_key": null,
+      "tag": "[R]",
+      "value": 0.15
+    },
+    "gamma_20": {
+      "formula": "0.2",
+      "inputs": [],
+      "note": "assumed prevention gamma = 0.20 requested by D7",
+      "sha256_of_source": null,
+      "source_file": null,
+      "source_key": null,
+      "tag": "[R]",
+      "value": 0.2
+    },
+    "gamma_25": {
+      "formula": "0.25",
+      "inputs": [],
+      "note": "assumed prevention gamma = 0.25 requested by D7",
+      "sha256_of_source": null,
+      "source_file": null,
+      "source_key": null,
+      "tag": "[R]",
+      "value": 0.25
+    },
+    "gamma_30": {
+      "formula": "0.3",
+      "inputs": [],
+      "note": "assumed prevention gamma = 0.30 requested by D7",
+      "sha256_of_source": null,
+      "source_file": null,
+      "source_key": null,
+      "tag": "[R]",
+      "value": 0.3
+    },
+    "grid_points": {
+      "sha256_of_source": "3a4d94fe806c00421f53688c2000bfb2293ecc16320dbb795d9b8375a8a9338e",
+      "source_file": "v3_addons/results/wp5_label_shift.json",
+      "source_key": "break_even.grid.points",
+      "tag": "[E]",
+      "value": 251
+    },
+    "grid_start": {
+      "sha256_of_source": "3a4d94fe806c00421f53688c2000bfb2293ecc16320dbb795d9b8375a8a9338e",
+      "source_file": "v3_addons/results/wp5_label_shift.json",
+      "source_key": "break_even.grid.start",
+      "tag": "[E]",
+      "value": 0.005
+    },
+    "grid_stop": {
+      "sha256_of_source": "3a4d94fe806c00421f53688c2000bfb2293ecc16320dbb795d9b8375a8a9338e",
+      "source_file": "v3_addons/results/wp5_label_shift.json",
+      "source_key": "break_even.grid.stop",
+      "tag": "[E]",
+      "value": 0.03
+    },
+    "interval_level": {
+      "formula": "0.95",
+      "inputs": [],
+      "note": "two-sided interval level for the observed day-60 churn rate",
+      "sha256_of_source": null,
+      "source_file": null,
+      "source_key": null,
+      "tag": "[R]",
+      "value": 0.95
+    },
+    "label_delay_days": {
+      "formula": "60",
+      "inputs": [],
+      "note": "day-60 mature label horizon; labels override any EM diagnostic",
+      "sha256_of_source": null,
+      "source_file": null,
+      "source_key": null,
+      "tag": "[R]",
+      "value": 60
+    },
+    "label_se_100k": {
+      "formula": "sqrt(deployment_prior_2pct * (1 - deployment_prior_2pct) / n_100k)",
+      "inputs": [
+        "deployment_prior_2pct",
+        "n_100k"
+      ],
+      "note": "binomial standard error of a day-60 churn rate at the 2% prior",
+      "sha256_of_source": null,
+      "source_file": null,
+      "source_key": null,
+      "tag": "[E]",
+      "value": 0.0004427188724235731
+    },
+    "label_se_10k": {
+      "formula": "sqrt(deployment_prior_2pct * (1 - deployment_prior_2pct) / n_10k)",
+      "inputs": [
+        "deployment_prior_2pct",
+        "n_10k"
+      ],
+      "note": "binomial standard error of a day-60 churn rate at the 2% prior",
+      "sha256_of_source": null,
+      "source_file": null,
+      "source_key": null,
+      "tag": "[E]",
+      "value": 0.0014
+    },
+    "label_se_50k": {
+      "formula": "sqrt(deployment_prior_2pct * (1 - deployment_prior_2pct) / n_50k)",
+      "inputs": [
+        "deployment_prior_2pct",
+        "n_50k"
+      ],
+      "note": "binomial standard error of a day-60 churn rate at the 2% prior",
+      "sha256_of_source": null,
+      "source_file": null,
+      "source_key": null,
+      "tag": "[E]",
+      "value": 0.0006260990336999411
+    },
+    "linear_pi_star_gap_pp": {
+      "formula": "(linear_pi_star_sanity - pi_star_incl_20) * 100",
+      "inputs": [
+        "linear_pi_star_sanity",
+        "pi_star_incl_20"
+      ],
+      "note": "gap between the linear shortcut and the non-test fine-grid crossing at gamma=0.20, in percentage points",
+      "sha256_of_source": null,
+      "source_file": null,
+      "source_key": null,
+      "tag": "[E]",
+      "value": 0.050909843083482564
+    },
+    "linear_pi_star_sanity": {
+      "formula": "(0.01 - frozen_net_1pct * 0.01 / (frozen_net_2pct - frozen_net_1pct))",
+      "inputs": [
+        "frozen_net_1pct",
+        "frozen_net_2pct"
+      ],
+      "note": "two-point linear shortcut between the stored 1% and 2% startup-included nets; sanity note only, not the reported crossing",
+      "sha256_of_source": null,
+      "source_file": null,
+      "source_key": null,
+      "tag": "[E]",
+      "value": 0.015973271693219455
+    },
+    "margin_fully_loaded_pp": {
+      "formula": "(deployment_prior_2pct - pi_star_incl_20) * 100",
+      "inputs": [
+        "deployment_prior_2pct",
+        "pi_star_incl_20"
+      ],
+      "note": "distance from the 2% deployment prior to the startup-included break-even prior, in percentage points",
+      "sha256_of_source": null,
+      "source_file": null,
+      "source_key": null,
+      "tag": "[E]",
+      "value": 0.45358267376153716
+    },
+    "margin_in_se_100k": {
+      "formula": "margin_fully_loaded_pp / (label_se_100k * 100)",
+      "inputs": [
+        "label_se_100k",
+        "margin_fully_loaded_pp"
+      ],
+      "note": "distance to the startup-included break-even prior, in label standard errors",
+      "sha256_of_source": null,
+      "source_file": null,
+      "source_key": null,
+      "tag": "[E]",
+      "value": 10.24538825911108
+    },
+    "margin_in_se_10k": {
+      "formula": "margin_fully_loaded_pp / (label_se_10k * 100)",
+      "inputs": [
+        "label_se_10k",
+        "margin_fully_loaded_pp"
+      ],
+      "note": "distance to the startup-included break-even prior, in label standard errors",
+      "sha256_of_source": null,
+      "source_file": null,
+      "source_key": null,
+      "tag": "[E]",
+      "value": 3.239876241153837
+    },
+    "margin_in_se_50k": {
+      "formula": "margin_fully_loaded_pp / (label_se_50k * 100)",
+      "inputs": [
+        "label_se_50k",
+        "margin_fully_loaded_pp"
+      ],
+      "note": "distance to the startup-included break-even prior, in label standard errors",
+      "sha256_of_source": null,
+      "source_file": null,
+      "source_key": null,
+      "tag": "[E]",
+      "value": 7.2445835139064805
+    },
+    "n_100k": {
+      "formula": "100000",
+      "inputs": [],
+      "note": "monitor cohort size 100000",
+      "sha256_of_source": null,
+      "source_file": null,
+      "source_key": null,
+      "tag": "[R]",
+      "value": 100000
+    },
+    "n_10k": {
+      "formula": "10000",
+      "inputs": [],
+      "note": "monitor cohort size 10000",
+      "sha256_of_source": null,
+      "source_file": null,
+      "source_key": null,
+      "tag": "[R]",
+      "value": 10000
+    },
+    "n_50k": {
+      "formula": "50000",
+      "inputs": [],
+      "note": "monitor cohort size 50000",
+      "sha256_of_source": null,
+      "source_file": null,
+      "source_key": null,
+      "tag": "[R]",
+      "value": 50000
+    },
+    "pi_star_excl_10": {
+      "computed": true,
+      "inputs": [],
+      "note": "first prior-grid crossing of net excluding the $5,000 startup at gamma=0.10; linear interpolation between adjacent grid steps",
+      "sha256_of_source": "9cb579a4f96ba248bd8b354e27f60afab077203b9e10cebbb01bb186e0abb2fd",
+      "source_file": "v4_addons/results/d7_pi_star_grid.csv",
+      "source_key": "net_excluded_10",
+      "tag": "[E]",
+      "value": 0.020918386883250262
+    },
+    "pi_star_excl_15": {
+      "computed": true,
+      "inputs": [],
+      "note": "first prior-grid crossing of net excluding the $5,000 startup at gamma=0.15; linear interpolation between adjacent grid steps",
+      "sha256_of_source": "9cb579a4f96ba248bd8b354e27f60afab077203b9e10cebbb01bb186e0abb2fd",
+      "source_file": "v4_addons/results/d7_pi_star_grid.csv",
+      "source_key": "net_excluded_15",
+      "tag": "[E]",
+      "value": 0.013854823124950505
+    },
+    "pi_star_excl_20": {
+      "computed": true,
+      "inputs": [],
+      "note": "first prior-grid crossing of net excluding the $5,000 startup at gamma=0.20; linear interpolation between adjacent grid steps",
+      "sha256_of_source": "9cb579a4f96ba248bd8b354e27f60afab077203b9e10cebbb01bb186e0abb2fd",
+      "source_file": "v4_addons/results/d7_pi_star_grid.csv",
+      "source_key": "net_excluded_20",
+      "tag": "[E]",
+      "value": 0.010361277644274275
+    },
+    "pi_star_excl_25": {
+      "computed": true,
+      "inputs": [],
+      "note": "first prior-grid crossing of net excluding the $5,000 startup at gamma=0.25; linear interpolation between adjacent grid steps",
+      "sha256_of_source": "9cb579a4f96ba248bd8b354e27f60afab077203b9e10cebbb01bb186e0abb2fd",
+      "source_file": "v4_addons/results/d7_pi_star_grid.csv",
+      "source_key": "net_excluded_25",
+      "tag": "[E]",
+      "value": 0.008276043868627457
+    },
+    "pi_star_excl_30": {
+      "computed": true,
+      "inputs": [],
+      "note": "first prior-grid crossing of net excluding the $5,000 startup at gamma=0.30; linear interpolation between adjacent grid steps",
+      "sha256_of_source": "9cb579a4f96ba248bd8b354e27f60afab077203b9e10cebbb01bb186e0abb2fd",
+      "source_file": "v4_addons/results/d7_pi_star_grid.csv",
+      "source_key": "net_excluded_30",
+      "tag": "[E]",
+      "value": 0.00689155786480759
+    },
+    "pi_star_incl_15": {
+      "computed": true,
+      "inputs": [],
+      "note": "first prior-grid crossing of net including the $5,000 startup at gamma=0.15; linear interpolation between adjacent grid steps",
+      "sha256_of_source": "9cb579a4f96ba248bd8b354e27f60afab077203b9e10cebbb01bb186e0abb2fd",
+      "source_file": "v4_addons/results/d7_pi_star_grid.csv",
+      "source_key": "net_included_15",
+      "tag": "[E]",
+      "value": 0.02074760398978436
+    },
+    "pi_star_incl_20": {
+      "computed": true,
+      "inputs": [],
+      "note": "first prior-grid crossing of net including the $5,000 startup at gamma=0.20; linear interpolation between adjacent grid steps",
+      "sha256_of_source": "9cb579a4f96ba248bd8b354e27f60afab077203b9e10cebbb01bb186e0abb2fd",
+      "source_file": "v4_addons/results/d7_pi_star_grid.csv",
+      "source_key": "net_included_20",
+      "tag": "[E]",
+      "value": 0.015464173262384629
+    },
+    "pi_star_incl_25": {
+      "computed": true,
+      "inputs": [],
+      "note": "first prior-grid crossing of net including the $5,000 startup at gamma=0.25; linear interpolation between adjacent grid steps",
+      "sha256_of_source": "9cb579a4f96ba248bd8b354e27f60afab077203b9e10cebbb01bb186e0abb2fd",
+      "source_file": "v4_addons/results/d7_pi_star_grid.csv",
+      "source_key": "net_included_25",
+      "tag": "[E]",
+      "value": 0.012331446873902167
+    },
+    "pi_star_incl_30": {
+      "computed": true,
+      "inputs": [],
+      "note": "first prior-grid crossing of net including the $5,000 startup at gamma=0.30; linear interpolation between adjacent grid steps",
+      "sha256_of_source": "9cb579a4f96ba248bd8b354e27f60afab077203b9e10cebbb01bb186e0abb2fd",
+      "source_file": "v4_addons/results/d7_pi_star_grid.csv",
+      "source_key": "net_included_30",
+      "tag": "[E]",
+      "value": 0.010252284698406333
+    },
+    "pi_star_reproduction_abs_diff": {
+      "computed": true,
+      "inputs": [],
+      "note": "absolute difference between the recomputed startup-included crossing at gamma=0.20 and the WP5-recorded crossing",
+      "sha256_of_source": null,
+      "source_file": null,
+      "source_key": null,
+      "tag": "[E]",
+      "value": 0.0
+    },
+    "pi_star_startup_effect_15": {
+      "computed": true,
+      "inputs": [],
+      "note": "how far the startup moves the break-even prior at gamma=0.15, in percentage points",
+      "sha256_of_source": "9cb579a4f96ba248bd8b354e27f60afab077203b9e10cebbb01bb186e0abb2fd",
+      "source_file": "v4_addons/results/d7_pi_star_grid.csv",
+      "source_key": "net_included_15 - net_excluded_15",
+      "tag": "[E]",
+      "value": 0.6892780864833853
+    },
+    "pi_star_startup_effect_20": {
+      "computed": true,
+      "inputs": [],
+      "note": "how far the startup moves the break-even prior at gamma=0.20, in percentage points",
+      "sha256_of_source": "9cb579a4f96ba248bd8b354e27f60afab077203b9e10cebbb01bb186e0abb2fd",
+      "source_file": "v4_addons/results/d7_pi_star_grid.csv",
+      "source_key": "net_included_20 - net_excluded_20",
+      "tag": "[E]",
+      "value": 0.5102895618110355
+    },
+    "pi_star_startup_effect_25": {
+      "computed": true,
+      "inputs": [],
+      "note": "how far the startup moves the break-even prior at gamma=0.25, in percentage points",
+      "sha256_of_source": "9cb579a4f96ba248bd8b354e27f60afab077203b9e10cebbb01bb186e0abb2fd",
+      "source_file": "v4_addons/results/d7_pi_star_grid.csv",
+      "source_key": "net_included_25 - net_excluded_25",
+      "tag": "[E]",
+      "value": 0.40554030052747103
+    },
+    "pi_star_startup_effect_30": {
+      "computed": true,
+      "inputs": [],
+      "note": "how far the startup moves the break-even prior at gamma=0.30, in percentage points",
+      "sha256_of_source": "9cb579a4f96ba248bd8b354e27f60afab077203b9e10cebbb01bb186e0abb2fd",
+      "source_file": "v4_addons/results/d7_pi_star_grid.csv",
+      "source_key": "net_included_30 - net_excluded_30",
+      "tag": "[E]",
+      "value": 0.33607268335987434
+    },
+    "planning_rows": {
+      "computed": true,
+      "inputs": [],
+      "note": "non-test planning rows (train+validation), loaded from cached OOF scores only",
+      "sha256_of_source": "4caefcbed46a834f89cfbf21387f78555e601b43a8cee81d1637c786fb0a21b3",
+      "source_file": "v1_frozen/analysis_outputs/tables/split_manifest.csv",
+      "source_key": "partition in (train, validation)",
+      "tag": "[E]",
+      "value": 75000
+    },
+    "prior_quote_high": {
+      "formula": "0.02",
+      "inputs": [],
+      "note": "high stored prior for the linear sanity shortcut",
+      "sha256_of_source": null,
+      "source_file": null,
+      "source_key": null,
+      "tag": "[R]",
+      "value": 0.02
+    },
+    "prior_quote_low": {
+      "formula": "0.01",
+      "inputs": [],
+      "note": "low stored prior for the linear sanity shortcut",
+      "sha256_of_source": null,
+      "source_file": null,
+      "source_key": null,
+      "tag": "[R]",
+      "value": 0.01
+    },
+    "startup_fixed_cost": {
+      "formula": "5000",
+      "inputs": [],
+      "note": "v2 startup cost that the fully loaded net includes and the variable-profit null excludes",
+      "sha256_of_source": null,
+      "source_file": null,
+      "source_key": null,
+      "tag": "[E]",
+      "value": 5000
+    },
+    "variant_bias_threshold": {
+      "formula": "0.15",
+      "inputs": [],
+      "note": "EM-variant continuation threshold at pi=2%, in percentage points",
+      "sha256_of_source": null,
+      "source_file": null,
+      "source_key": null,
+      "tag": "[R]",
+      "value": 0.15
+    },
+    "weighted_cutoff_share": {
+      "formula": "0.1",
+      "inputs": [],
+      "note": "intended contact fraction; the weighted cutoff is re-derived at each assumed prior",
+      "sha256_of_source": null,
+      "source_file": null,
+      "source_key": null,
+      "tag": "[R]",
+      "value": 0.1
+    },
+    "wp5_pi_star_lower_prior": {
+      "sha256_of_source": "3a4d94fe806c00421f53688c2000bfb2293ecc16320dbb795d9b8375a8a9338e",
+      "source_file": "v3_addons/results/wp5_label_shift.json",
+      "source_key": "break_even.first_crossing.lower_prior",
+      "tag": "[E]",
+      "value": 0.0154
+    },
+    "wp5_pi_star_recorded": {
+      "sha256_of_source": "3a4d94fe806c00421f53688c2000bfb2293ecc16320dbb795d9b8375a8a9338e",
+      "source_file": "v3_addons/results/wp5_label_shift.json",
+      "source_key": "break_even.first_crossing.prior_star",
+      "tag": "[E]",
+      "value": 0.015464173262384629
+    },
+    "wp5_pi_star_upper_prior": {
+      "sha256_of_source": "3a4d94fe806c00421f53688c2000bfb2293ecc16320dbb795d9b8375a8a9338e",
+      "source_file": "v3_addons/results/wp5_label_shift.json",
+      "source_key": "break_even.first_crossing.upper_prior",
+      "tag": "[E]",
+      "value": 0.0155
+    }
+  },
+  "provenance": {
+    "created_utc": "2026-10-31T09:06:00.580183+00:00",
+    "input_files": [
+      {
+        "path": "analysis_outputs/feature_manifest.json",
+        "present": true,
+        "sha256": "8e0560cedab891acfea8b440b5d7f28516de1e3adc5b06899a442dd8d07fd067",
+        "size": 2559
+      },
+      {
+        "path": "analysis_outputs/model_selection.json",
+        "present": true,
+        "sha256": "62e17913b8e7bf7bf1ac8fdd4556d242b524c884a0e929352c2b9e3bb5e9acc3",
+        "size": 321
+      },
+      {
+        "path": "telecom/Record.csv",
+        "present": true,
+        "sha256": "5bd563bb77b357920832510b78d6842060d928cb5de8c0aaf79aa2a647e2271a",
+        "size": 30182432
+      },
+      {
+        "path": "v1_frozen/analysis_outputs/tables/split_manifest.csv",
+        "present": true,
+        "sha256": "4caefcbed46a834f89cfbf21387f78555e601b43a8cee81d1637c786fb0a21b3",
+        "size": 1690023
+      },
+      {
+        "path": "v2_work/a_selected_calibration.csv",
+        "present": true,
+        "sha256": "fa0ee67c5b94431e5313633219c04c8c4c248944564659e06007e0a2aff25648",
+        "size": 1449202
+      },
+      {
+        "path": "v2_work/common.py",
+        "present": true,
+        "sha256": "c68e6bcd81a24ae6960474ea537c4574fd0139fd83126fae0a853275611b0de7",
+        "size": 4647
+      },
+      {
+        "path": "v2_work/d_results/oof/baseline_lgbm_r0_f0.npz",
+        "present": true,
+        "sha256": "7c95f578448d7cc565fe698b02d6d691818b9c072099ce3d712513a04d1c22cd",
+        "size": 425956
+      },
+      {
+        "path": "v2_work/d_results/oof/baseline_lgbm_r0_f1.npz",
+        "present": true,
+        "sha256": "ab8bdbf05930676d8a99a03c8cac339bf70894528063f90f2730f597d51cead7",
+        "size": 426238
+      },
+      {
+        "path": "v2_work/d_results/oof/baseline_lgbm_r0_f2.npz",
+        "present": true,
+        "sha256": "261e411d43e57bc07e2cea4478ea5ca14eed652d7a504cb2a92bbea2f4e2f1b8",
+        "size": 426064
+      },
+      {
+        "path": "v2_work/d_results/oof/baseline_lgbm_r0_f3.npz",
+        "present": true,
+        "sha256": "3e686c9c9e28ab042a2537c314aefef2dbc05b7c14bde743e4690ea621e0dd50",
+        "size": 426063
+      },
+      {
+        "path": "v2_work/d_results/oof/baseline_lgbm_r0_f4.npz",
+        "present": true,
+        "sha256": "c7ef34ff72ddc81ff7c7f5b9125a3958583c40978121f0dd43cafb6e46ff10cc",
+        "size": 425689
+      },
+      {
+        "path": "v2_work/d_results/oof/baseline_lgbm_r1_f0.npz",
+        "present": true,
+        "sha256": "47298f1db1f8e758d57f7f9a777ccd1c2d5bcf59f913c914ed9f970755e6f453",
+        "size": 425915
+      },
+      {
+        "path": "v2_work/d_results/oof/baseline_lgbm_r1_f1.npz",
+        "present": true,
+        "sha256": "a0f96c7b7d0af44a3332c39f6c41d35cbe17dc3505f5a57d3681135b1b9ea848",
+        "size": 426194
+      },
+      {
+        "path": "v2_work/d_results/oof/baseline_lgbm_r1_f2.npz",
+        "present": true,
+        "sha256": "96066024ef34837f2aa3b640a8ab705100ceb1d46ba43e51cfc2338f9ce09a9d",
+        "size": 426447
+      },
+      {
+        "path": "v2_work/d_results/oof/baseline_lgbm_r1_f3.npz",
+        "present": true,
+        "sha256": "d552473bfe1d333afd55a9f77a7e87de172273218c9181dbbf3f0ce1fc071636",
+        "size": 426035
+      },
+      {
+        "path": "v2_work/d_results/oof/baseline_lgbm_r1_f4.npz",
+        "present": true,
+        "sha256": "4f0fe7e92f48e7adc6aeb92290559dbed0ce34386ca3f2594df20f326d9e14e7",
+        "size": 425781
+      },
+      {
+        "path": "v2_work/workstream_a.py",
+        "present": true,
+        "sha256": "b1ccdd6d40eab51961498ff39c0522f4df57b1d0cd4309aa5b509fc30a3434b8",
+        "size": 17411
+      },
+      {
+        "path": "v3_addons/results/wp5_label_shift.json",
+        "present": true,
+        "sha256": "3a4d94fe806c00421f53688c2000bfb2293ecc16320dbb795d9b8375a8a9338e",
+        "size": 1079813
+      }
+    ],
+    "python_version": "3.11.9 (tags/v3.11.9:de54cf5, Apr  2 2024, 10:12:12) [MSC v.1938 64 bit (AMD64)]",
+    "row_counts": {
+      "calibration_rows": 10000,
+      "new_model_fits": 0,
+      "planning_rows": 75000,
+      "priors": 251,
+      "test_rows_used": 0
+    },
+    "runtime": {
+      "env": {
+        "MKL_NUM_THREADS": "6",
+        "NUMEXPR_NUM_THREADS": "6",
+        "OMP_NUM_THREADS": "6",
+        "OPENBLAS_NUM_THREADS": "6"
+      },
+      "function_sha256": "77f490da30fa85a8826efca565835a7127fa2d629110a92afe8b0a497a437bca",
+      "pools": [
+        {
+          "architecture": "Haswell",
+          "filepath": "C:\\Users\\FGstore\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\numpy.libs\\libscipy_openblas64_-860d95b1c38e637ce4509f5fa24fbf2a.dll",
+          "internal_api": "openblas",
+          "num_threads": 6,
+          "prefix": "libscipy_openblas",
+          "threading_layer": "pthreads",
+          "user_api": "blas",
+          "version": "0.3.30"
+        },
+        {
+          "architecture": "Haswell",
+          "filepath": "C:\\Users\\FGstore\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\scipy.libs\\libscipy_openblas-64eda39e79589aedb16f58e5547eb599.dll",
+          "internal_api": "openblas",
+          "num_threads": 6,
+          "prefix": "libscipy_openblas",
+          "threading_layer": "pthreads",
+          "user_api": "blas",
+          "version": "0.3.30"
+        }
+      ],
+      "source": "v3_addons/src/common.py",
+      "thread_cap": 6
+    },
+    "script": "v4_addons/tools/d7_monitor.py",
+    "script_sha256": "b3f8f47ccb13cc7ab819bdfd23ccff9792eacd8278568042a9d1c389c9185a31",
+    "seed": 20261036,
+    "tags_used": [
+      "[E]",
+      "[A]",
+      "[R]"
+    ]
+  },
+  "row_counts": {
+    "calibration_rows": 10000,
+    "new_model_fits": 0,
+    "planning_rows": 75000,
+    "priors": 251,
+    "test_rows_used": 0
+  }
+}

@@ -1,0 +1,523 @@
+{
+  "report": "v4_addons/MONITOR_WRAPUP.md",
+  "report_sha256": "c52d4b2374a6a6f092ff443447ec63a46a2c3155ce1efa9060997b8b55fc9e3e",
+  "results_json": "v4_addons/results/d7_monitor.json",
+  "tokens": [
+    {
+      "token": "75,000",
+      "name": "planning_rows",
+      "spec": "int",
+      "value": 75000
+    },
+    {
+      "token": "10,000",
+      "name": "calibration_rows",
+      "spec": "int",
+      "value": 10000
+    },
+    {
+      "token": "251",
+      "name": "grid_points",
+      "spec": "int",
+      "value": 251
+    },
+    {
+      "token": "0.5%",
+      "name": "grid_start",
+      "spec": "pct1",
+      "value": 0.005
+    },
+    {
+      "token": "3.0%",
+      "name": "grid_stop",
+      "spec": "pct1",
+      "value": 0.03
+    },
+    {
+      "token": "10%",
+      "name": "weighted_cutoff_share",
+      "spec": "pct0",
+      "value": 0.1
+    },
+    {
+      "token": "2.0918%",
+      "name": "pi_star_excl_10",
+      "spec": "pct4",
+      "value": 0.020918386883250262
+    },
+    {
+      "token": "0.10",
+      "name": "gamma_10",
+      "spec": "f2",
+      "value": 0.1
+    },
+    {
+      "token": "2.0748%",
+      "name": "pi_star_incl_15",
+      "spec": "pct4",
+      "value": 0.02074760398978436
+    },
+    {
+      "token": "1.3855%",
+      "name": "pi_star_excl_15",
+      "spec": "pct4",
+      "value": 0.013854823124950505
+    },
+    {
+      "token": "0.69 pp",
+      "name": "pi_star_startup_effect_15",
+      "spec": "ppc2",
+      "value": 0.6892780864833853
+    },
+    {
+      "token": "0.15",
+      "name": "gamma_15",
+      "spec": "f2",
+      "value": 0.15
+    },
+    {
+      "token": "1.5464%",
+      "name": "pi_star_incl_20",
+      "spec": "pct4",
+      "value": 0.015464173262384629
+    },
+    {
+      "token": "1.0361%",
+      "name": "pi_star_excl_20",
+      "spec": "pct4",
+      "value": 0.010361277644274275
+    },
+    {
+      "token": "0.51 pp",
+      "name": "pi_star_startup_effect_20",
+      "spec": "ppc2",
+      "value": 0.5102895618110355
+    },
+    {
+      "token": "0.20",
+      "name": "gamma_20",
+      "spec": "f2",
+      "value": 0.2
+    },
+    {
+      "token": "1.2331%",
+      "name": "pi_star_incl_25",
+      "spec": "pct4",
+      "value": 0.012331446873902167
+    },
+    {
+      "token": "0.8276%",
+      "name": "pi_star_excl_25",
+      "spec": "pct4",
+      "value": 0.008276043868627457
+    },
+    {
+      "token": "0.41 pp",
+      "name": "pi_star_startup_effect_25",
+      "spec": "ppc2",
+      "value": 0.40554030052747103
+    },
+    {
+      "token": "0.25",
+      "name": "gamma_25",
+      "spec": "f2",
+      "value": 0.25
+    },
+    {
+      "token": "1.0252%",
+      "name": "pi_star_incl_30",
+      "spec": "pct4",
+      "value": 0.010252284698406333
+    },
+    {
+      "token": "0.6892%",
+      "name": "pi_star_excl_30",
+      "spec": "pct4",
+      "value": 0.00689155786480759
+    },
+    {
+      "token": "0.34 pp",
+      "name": "pi_star_startup_effect_30",
+      "spec": "ppc2",
+      "value": 0.33607268335987434
+    },
+    {
+      "token": "0.30",
+      "name": "gamma_30",
+      "spec": "f2",
+      "value": 0.3
+    },
+    {
+      "token": "0.20",
+      "name": "gamma_20",
+      "spec": "f2",
+      "value": 0.2
+    },
+    {
+      "token": "1.546417%",
+      "name": "pi_star_incl_20",
+      "spec": "pct6",
+      "value": 0.015464173262384629
+    },
+    {
+      "token": "1.546417%",
+      "name": "wp5_pi_star_recorded",
+      "spec": "pct6",
+      "value": 0.015464173262384629
+    },
+    {
+      "token": "0.0",
+      "name": "pi_star_reproduction_abs_diff",
+      "spec": "raw",
+      "value": 0.0
+    },
+    {
+      "token": "1.0361%",
+      "name": "pi_star_excl_20",
+      "spec": "pct4",
+      "value": 0.010361277644274275
+    },
+    {
+      "token": "$5,000",
+      "name": "startup_fixed_cost",
+      "spec": "usd0",
+      "value": 5000
+    },
+    {
+      "token": "0.51 pp",
+      "name": "pi_star_startup_effect_20",
+      "spec": "ppc2",
+      "value": 0.5102895618110355
+    },
+    {
+      "token": "1.546417%",
+      "name": "wp5_pi_star_recorded",
+      "spec": "pct6",
+      "value": 0.015464173262384629
+    },
+    {
+      "token": "$5,000",
+      "name": "startup_fixed_cost",
+      "spec": "usd0",
+      "value": 5000
+    },
+    {
+      "token": "1%",
+      "name": "prior_quote_low",
+      "spec": "pct0",
+      "value": 0.01
+    },
+    {
+      "token": "2%",
+      "name": "prior_quote_high",
+      "spec": "pct0",
+      "value": 0.02
+    },
+    {
+      "token": "1.60%",
+      "name": "linear_pi_star_sanity",
+      "spec": "pct2",
+      "value": 0.015973271693219455
+    },
+    {
+      "token": "0.05 pp",
+      "name": "linear_pi_star_gap_pp",
+      "spec": "ppc2",
+      "value": 0.050909843083482564
+    },
+    {
+      "token": "60",
+      "name": "label_delay_days",
+      "spec": "int",
+      "value": 60
+    },
+    {
+      "token": "95%",
+      "name": "interval_level",
+      "spec": "pct0",
+      "value": 0.95
+    },
+    {
+      "token": "0.20",
+      "name": "gamma_20",
+      "spec": "f2",
+      "value": 0.2
+    },
+    {
+      "token": "95%",
+      "name": "interval_level",
+      "spec": "pct0",
+      "value": 0.95
+    },
+    {
+      "token": "1.5464%",
+      "name": "pi_star_incl_20",
+      "spec": "pct4",
+      "value": 0.015464173262384629
+    },
+    {
+      "token": "95%",
+      "name": "interval_level",
+      "spec": "pct0",
+      "value": 0.95
+    },
+    {
+      "token": "1.5464%",
+      "name": "pi_star_incl_20",
+      "spec": "pct4",
+      "value": 0.015464173262384629
+    },
+    {
+      "token": "1.5464%",
+      "name": "pi_star_incl_20",
+      "spec": "pct4",
+      "value": 0.015464173262384629
+    },
+    {
+      "token": "$5,000",
+      "name": "startup_fixed_cost",
+      "spec": "usd0",
+      "value": 5000
+    },
+    {
+      "token": "1.0361%",
+      "name": "pi_star_excl_20",
+      "spec": "pct4",
+      "value": 0.010361277644274275
+    },
+    {
+      "token": "0.51 pp",
+      "name": "pi_star_startup_effect_20",
+      "spec": "ppc2",
+      "value": 0.5102895618110355
+    },
+    {
+      "token": "2%",
+      "name": "deployment_prior_2pct",
+      "spec": "pct0",
+      "value": 0.02
+    },
+    {
+      "token": "0.454 pp",
+      "name": "margin_fully_loaded_pp",
+      "spec": "ppc3",
+      "value": 0.45358267376153716
+    },
+    {
+      "token": "95%",
+      "name": "interval_level",
+      "spec": "pct0",
+      "value": 0.95
+    },
+    {
+      "token": "10,000",
+      "name": "n_10k",
+      "spec": "int",
+      "value": 10000
+    },
+    {
+      "token": "0.140 pp",
+      "name": "label_se_10k",
+      "spec": "pp3",
+      "value": 0.0014
+    },
+    {
+      "token": "3.2",
+      "name": "margin_in_se_10k",
+      "spec": "f1",
+      "value": 3.239876241153837
+    },
+    {
+      "token": "0.568 pp",
+      "name": "em_median_error_10k",
+      "spec": "pp3",
+      "value": 0.005679280738133435
+    },
+    {
+      "token": "0.578 pp",
+      "name": "em_bias_10k",
+      "spec": "pp3",
+      "value": 0.005777440367656506
+    },
+    {
+      "token": "4.1",
+      "name": "em_bias_in_label_se_10k",
+      "spec": "f1",
+      "value": 4.126743119754647
+    },
+    {
+      "token": "90.2%",
+      "name": "em_coverage_10k",
+      "spec": "pct1",
+      "value": 0.902
+    },
+    {
+      "token": "50,000",
+      "name": "n_50k",
+      "spec": "int",
+      "value": 50000
+    },
+    {
+      "token": "0.063 pp",
+      "name": "label_se_50k",
+      "spec": "pp3",
+      "value": 0.0006260990336999411
+    },
+    {
+      "token": "7.2",
+      "name": "margin_in_se_50k",
+      "spec": "f1",
+      "value": 7.2445835139064805
+    },
+    {
+      "token": "0.499 pp",
+      "name": "em_median_error_50k",
+      "spec": "pp3",
+      "value": 0.004992716446334887
+    },
+    {
+      "token": "0.505 pp",
+      "name": "em_bias_50k",
+      "spec": "pp3",
+      "value": 0.005048091936768494
+    },
+    {
+      "token": "8.1",
+      "name": "em_bias_in_label_se_50k",
+      "spec": "f1",
+      "value": 8.062769090916373
+    },
+    {
+      "token": "82.8%",
+      "name": "em_coverage_50k",
+      "spec": "pct1",
+      "value": 0.828
+    },
+    {
+      "token": "100,000",
+      "name": "n_100k",
+      "spec": "int",
+      "value": 100000
+    },
+    {
+      "token": "0.044 pp",
+      "name": "label_se_100k",
+      "spec": "pp3",
+      "value": 0.0004427188724235731
+    },
+    {
+      "token": "10.2",
+      "name": "margin_in_se_100k",
+      "spec": "f1",
+      "value": 10.24538825911108
+    },
+    {
+      "token": "0.521 pp",
+      "name": "em_median_error_100k",
+      "spec": "pp3",
+      "value": 0.005212748826710923
+    },
+    {
+      "token": "0.515 pp",
+      "name": "em_bias_100k",
+      "spec": "pp3",
+      "value": 0.005151440493185826
+    },
+    {
+      "token": "11.6",
+      "name": "em_bias_in_label_se_100k",
+      "spec": "f1",
+      "value": 11.635917992348798
+    },
+    {
+      "token": "69.0%",
+      "name": "em_coverage_100k",
+      "spec": "pct1",
+      "value": 0.69
+    },
+    {
+      "token": "3.2",
+      "name": "margin_in_se_10k",
+      "spec": "f1",
+      "value": 3.239876241153837
+    },
+    {
+      "token": "7.2",
+      "name": "margin_in_se_50k",
+      "spec": "f1",
+      "value": 7.2445835139064805
+    },
+    {
+      "token": "10.2",
+      "name": "margin_in_se_100k",
+      "spec": "f1",
+      "value": 10.24538825911108
+    },
+    {
+      "token": "4.1",
+      "name": "em_bias_in_label_se_10k",
+      "spec": "f1",
+      "value": 4.126743119754647
+    },
+    {
+      "token": "8.1",
+      "name": "em_bias_in_label_se_50k",
+      "spec": "f1",
+      "value": 8.062769090916373
+    },
+    {
+      "token": "11.6",
+      "name": "em_bias_in_label_se_100k",
+      "spec": "f1",
+      "value": 11.635917992348798
+    },
+    {
+      "token": "8,604",
+      "name": "em_converged",
+      "spec": "int",
+      "value": 8604
+    },
+    {
+      "token": "10,000",
+      "name": "em_originals",
+      "spec": "int",
+      "value": 10000
+    },
+    {
+      "token": "69.0%",
+      "name": "em_coverage_100k",
+      "spec": "pct1",
+      "value": 0.69
+    },
+    {
+      "token": "100,000",
+      "name": "n_100k",
+      "spec": "int",
+      "value": 100000
+    },
+    {
+      "token": "0.15 pp",
+      "name": "variant_bias_threshold",
+      "spec": "ppc2",
+      "value": 0.15
+    },
+    {
+      "token": "0.453 pp",
+      "name": "em_bias_min",
+      "spec": "pp3",
+      "value": 0.004530945000424221
+    },
+    {
+      "token": "0.578 pp",
+      "name": "em_bias_max",
+      "spec": "pp3",
+      "value": 0.005777440367656506
+    },
+    {
+      "token": "0",
+      "name": "em_variant_run",
+      "spec": "int",
+      "value": 0
+    }
+  ]
+}

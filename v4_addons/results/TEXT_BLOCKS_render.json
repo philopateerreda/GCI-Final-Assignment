@@ -1,0 +1,433 @@
+{
+  "report": "v4_addons/TEXT_BLOCKS.md",
+  "report_sha256": "259bdadc777bc6a897063f1f8bfd2bbb4246c8ed52c2e1aade1c8aaecc5fef15",
+  "results_json": "v4_addons/results/d6_text_blocks.json",
+  "tokens": [
+    {
+      "token": "582",
+      "name": "queue_billing_count",
+      "spec": "int",
+      "value": 582
+    },
+    {
+      "token": "23.23%",
+      "name": "queue_billing_count_share",
+      "spec": "pct2",
+      "value": 0.23233532934131737
+    },
+    {
+      "token": "23.4%",
+      "name": "queue_billing_value_share",
+      "spec": "pct1",
+      "value": 0.23406202974538667
+    },
+    {
+      "token": "1.007",
+      "name": "queue_billing_lift",
+      "spec": "f3",
+      "value": 1.0074319321515355
+    },
+    {
+      "token": "1.007",
+      "name": "queue_billing_lift_s9",
+      "spec": "f3",
+      "value": 1.0071649484536083
+    },
+    {
+      "token": "266",
+      "name": "queue_network_count",
+      "spec": "int",
+      "value": 266
+    },
+    {
+      "token": "10.62%",
+      "name": "queue_network_count_share",
+      "spec": "pct2",
+      "value": 0.106187624750499
+    },
+    {
+      "token": "10.4%",
+      "name": "queue_network_value_share",
+      "spec": "pct1",
+      "value": 0.10403924844405467
+    },
+    {
+      "token": "0.980",
+      "name": "queue_network_lift",
+      "spec": "f3",
+      "value": 0.9797681103472066
+    },
+    {
+      "token": "0.979",
+      "name": "queue_network_lift_s9",
+      "spec": "f3",
+      "value": 0.9793984962406015
+    },
+    {
+      "token": "791",
+      "name": "queue_handset_count",
+      "spec": "int",
+      "value": 791
+    },
+    {
+      "token": "31.58%",
+      "name": "queue_handset_count_share",
+      "spec": "pct2",
+      "value": 0.3157684630738523
+    },
+    {
+      "token": "30.7%",
+      "name": "queue_handset_value_share",
+      "spec": "pct1",
+      "value": 0.3067027654002414
+    },
+    {
+      "token": "0.971",
+      "name": "queue_handset_lift",
+      "spec": "f3",
+      "value": 0.9712900471903978
+    },
+    {
+      "token": "0.972",
+      "name": "queue_handset_lift_s9",
+      "spec": "f3",
+      "value": 0.9722313527180784
+    },
+    {
+      "token": "866",
+      "name": "queue_residual_count",
+      "spec": "int",
+      "value": 866
+    },
+    {
+      "token": "34.57%",
+      "name": "queue_residual_count_share",
+      "spec": "pct2",
+      "value": 0.3457085828343313
+    },
+    {
+      "token": "35.5%",
+      "name": "queue_residual_value_share",
+      "spec": "pct1",
+      "value": 0.35519595641031726
+    },
+    {
+      "token": "1.027",
+      "name": "queue_residual_lift",
+      "spec": "f3",
+      "value": 1.0274432688312296
+    },
+    {
+      "token": "1.027",
+      "name": "queue_residual_lift_s9",
+      "spec": "f3",
+      "value": 1.026876443418014
+    },
+    {
+      "token": "2,505",
+      "name": "queue_total",
+      "spec": "int",
+      "value": 2505
+    },
+    {
+      "token": "100.00%",
+      "name": "queue_count_share_total",
+      "spec": "pct2",
+      "value": 1.0
+    },
+    {
+      "token": "100.0%",
+      "name": "queue_value_share_total",
+      "spec": "pct1",
+      "value": 1.0
+    },
+    {
+      "token": "1.000",
+      "name": "queue_parity",
+      "spec": "f3",
+      "value": 1.0
+    },
+    {
+      "token": "2.9%",
+      "name": "queue_max_abs_lift_deviation_pct",
+      "spec": "pc1",
+      "value": 2.9
+    },
+    {
+      "token": "0.0009",
+      "name": "queue_lift_exact_vs_quoted_max_diff",
+      "spec": "f4",
+      "value": 0.0009
+    },
+    {
+      "token": "2,505",
+      "name": "queue_total",
+      "spec": "int",
+      "value": 2505
+    },
+    {
+      "token": "23.23%",
+      "name": "queue_billing_count_share",
+      "spec": "pct2",
+      "value": 0.23233532934131737
+    },
+    {
+      "token": "10.62%",
+      "name": "queue_network_count_share",
+      "spec": "pct2",
+      "value": 0.106187624750499
+    },
+    {
+      "token": "31.58%",
+      "name": "queue_handset_count_share",
+      "spec": "pct2",
+      "value": 0.3157684630738523
+    },
+    {
+      "token": "34.57%",
+      "name": "queue_residual_count_share",
+      "spec": "pct2",
+      "value": 0.3457085828343313
+    },
+    {
+      "token": "23.4%",
+      "name": "queue_billing_value_share",
+      "spec": "pct1",
+      "value": 0.23406202974538667
+    },
+    {
+      "token": "10.4%",
+      "name": "queue_network_value_share",
+      "spec": "pct1",
+      "value": 0.10403924844405467
+    },
+    {
+      "token": "30.7%",
+      "name": "queue_handset_value_share",
+      "spec": "pct1",
+      "value": 0.3067027654002414
+    },
+    {
+      "token": "35.5%",
+      "name": "queue_residual_value_share",
+      "spec": "pct1",
+      "value": 0.35519595641031726
+    },
+    {
+      "token": "1.007",
+      "name": "queue_billing_lift_s9",
+      "spec": "f3",
+      "value": 1.0071649484536083
+    },
+    {
+      "token": "0.979",
+      "name": "queue_network_lift_s9",
+      "spec": "f3",
+      "value": 0.9793984962406015
+    },
+    {
+      "token": "0.972",
+      "name": "queue_handset_lift_s9",
+      "spec": "f3",
+      "value": 0.9722313527180784
+    },
+    {
+      "token": "1.027",
+      "name": "queue_residual_lift_s9",
+      "spec": "f3",
+      "value": 1.026876443418014
+    },
+    {
+      "token": "$0",
+      "name": "floor_control_contact_rate",
+      "spec": "usd0",
+      "value": 0.0
+    },
+    {
+      "token": "$12,872",
+      "name": "stage1_cost",
+      "spec": "usd0",
+      "value": 12872.0
+    },
+    {
+      "token": "7,872",
+      "name": "core_per_arm",
+      "spec": "int",
+      "value": 7872
+    },
+    {
+      "token": "$1",
+      "name": "treated_contact_rate",
+      "spec": "usd0",
+      "value": 1.0
+    },
+    {
+      "token": "$5,000",
+      "name": "startup_stage1",
+      "spec": "usd0",
+      "value": 5000.0
+    },
+    {
+      "token": "$12,872",
+      "name": "stage1_cost_rebuild",
+      "spec": "usd0",
+      "value": 12872.0
+    },
+    {
+      "token": "$12,872",
+      "name": "stage1_cost",
+      "spec": "usd0",
+      "value": 12872.0
+    },
+    {
+      "token": "7,872",
+      "name": "core_per_arm",
+      "spec": "int",
+      "value": 7872
+    },
+    {
+      "token": "$1",
+      "name": "treated_contact_rate",
+      "spec": "usd0",
+      "value": 1.0
+    },
+    {
+      "token": "$5,000",
+      "name": "startup_stage1",
+      "spec": "usd0",
+      "value": 5000.0
+    },
+    {
+      "token": "$0",
+      "name": "floor_control_contact_rate",
+      "spec": "usd0",
+      "value": 0.0
+    },
+    {
+      "token": "$12,872",
+      "name": "stage1_cost",
+      "spec": "usd0",
+      "value": 12872.0
+    },
+    {
+      "token": "$1",
+      "name": "treated_contact_rate",
+      "spec": "usd0",
+      "value": 1.0
+    },
+    {
+      "token": "$20,744",
+      "name": "stage1_cost_if_floor_paid",
+      "spec": "usd0",
+      "value": 20744.0
+    },
+    {
+      "token": "$7,872",
+      "name": "floor_understatement",
+      "spec": "usd0",
+      "value": 7872.0
+    },
+    {
+      "token": "15,744",
+      "name": "stage1_total_enrolled",
+      "spec": "int",
+      "value": 15744
+    },
+    {
+      "token": "0.5",
+      "name": "harm_look_1_fraction",
+      "spec": "f1",
+      "value": 0.5
+    },
+    {
+      "token": "1.0",
+      "name": "harm_look_2_fraction",
+      "spec": "f1",
+      "value": 1.0
+    },
+    {
+      "token": "0.005",
+      "name": "harm_alpha_per_look",
+      "spec": "f3",
+      "value": 0.005
+    },
+    {
+      "token": "0.01",
+      "name": "harm_familywise_alpha",
+      "spec": "f2",
+      "value": 0.01
+    },
+    {
+      "token": "403",
+      "name": "http_status_blocked",
+      "spec": "int",
+      "value": 403
+    },
+    {
+      "token": "200",
+      "name": "http_status_ok",
+      "spec": "int",
+      "value": 200
+    },
+    {
+      "token": "403",
+      "name": "http_status_blocked",
+      "spec": "int",
+      "value": 403
+    },
+    {
+      "token": "200",
+      "name": "http_status_ok",
+      "spec": "int",
+      "value": 200
+    },
+    {
+      "token": "200",
+      "name": "http_status_ok",
+      "spec": "int",
+      "value": 200
+    },
+    {
+      "token": "200",
+      "name": "http_status_ok",
+      "spec": "int",
+      "value": 200
+    },
+    {
+      "token": "200",
+      "name": "http_status_ok",
+      "spec": "int",
+      "value": 200
+    },
+    {
+      "token": "200",
+      "name": "http_status_ok",
+      "spec": "int",
+      "value": 200
+    },
+    {
+      "token": "403",
+      "name": "http_status_blocked",
+      "spec": "int",
+      "value": 403
+    },
+    {
+      "token": "200",
+      "name": "http_status_ok",
+      "spec": "int",
+      "value": 200
+    },
+    {
+      "token": "2",
+      "name": "hbs_url_count",
+      "spec": "int",
+      "value": 2
+    },
+    {
+      "token": "200",
+      "name": "http_status_ok",
+      "spec": "int",
+      "value": 200
+    }
+  ]
+}

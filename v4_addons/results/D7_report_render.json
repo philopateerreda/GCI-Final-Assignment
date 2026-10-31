@@ -1,0 +1,199 @@
+{
+  "report": "v4_addons/reports/D7_report.md",
+  "report_sha256": "0e9895f796b09a0b306b3c0609ffc507c70dac4a568bf8ea0274a96aa8786c47",
+  "results_json": "v4_addons/results/d7_monitor.json",
+  "tokens": [
+    {
+      "token": "2.0748%",
+      "name": "pi_star_incl_15",
+      "spec": "pct4",
+      "value": 0.02074760398978436
+    },
+    {
+      "token": "1.5464%",
+      "name": "pi_star_incl_20",
+      "spec": "pct4",
+      "value": 0.015464173262384629
+    },
+    {
+      "token": "1.2331%",
+      "name": "pi_star_incl_25",
+      "spec": "pct4",
+      "value": 0.012331446873902167
+    },
+    {
+      "token": "1.0252%",
+      "name": "pi_star_incl_30",
+      "spec": "pct4",
+      "value": 0.010252284698406333
+    },
+    {
+      "token": "2.0918%",
+      "name": "pi_star_excl_10",
+      "spec": "pct4",
+      "value": 0.020918386883250262
+    },
+    {
+      "token": "1.3855%",
+      "name": "pi_star_excl_15",
+      "spec": "pct4",
+      "value": 0.013854823124950505
+    },
+    {
+      "token": "1.0361%",
+      "name": "pi_star_excl_20",
+      "spec": "pct4",
+      "value": 0.010361277644274275
+    },
+    {
+      "token": "0.8276%",
+      "name": "pi_star_excl_25",
+      "spec": "pct4",
+      "value": 0.008276043868627457
+    },
+    {
+      "token": "0.6892%",
+      "name": "pi_star_excl_30",
+      "spec": "pct4",
+      "value": 0.00689155786480759
+    },
+    {
+      "token": "1.546417%",
+      "name": "wp5_pi_star_recorded",
+      "spec": "pct6",
+      "value": 0.015464173262384629
+    },
+    {
+      "token": "0.0",
+      "name": "pi_star_reproduction_abs_diff",
+      "spec": "raw",
+      "value": 0.0
+    },
+    {
+      "token": "0.51",
+      "name": "pi_star_startup_effect_20",
+      "spec": "f2",
+      "value": 0.5102895618110355
+    },
+    {
+      "token": "0.454",
+      "name": "margin_fully_loaded_pp",
+      "spec": "f3",
+      "value": 0.45358267376153716
+    },
+    {
+      "token": "0.140 pp",
+      "name": "label_se_10k",
+      "spec": "pp3",
+      "value": 0.0014
+    },
+    {
+      "token": "0.063 pp",
+      "name": "label_se_50k",
+      "spec": "pp3",
+      "value": 0.0006260990336999411
+    },
+    {
+      "token": "0.044 pp",
+      "name": "label_se_100k",
+      "spec": "pp3",
+      "value": 0.0004427188724235731
+    },
+    {
+      "token": "0.578 pp",
+      "name": "em_bias_10k",
+      "spec": "pp3",
+      "value": 0.005777440367656506
+    },
+    {
+      "token": "0.505 pp",
+      "name": "em_bias_50k",
+      "spec": "pp3",
+      "value": 0.005048091936768494
+    },
+    {
+      "token": "0.515 pp",
+      "name": "em_bias_100k",
+      "spec": "pp3",
+      "value": 0.005151440493185826
+    },
+    {
+      "token": "0.20",
+      "name": "gamma_20",
+      "spec": "f2",
+      "value": 0.2
+    },
+    {
+      "token": "0.0",
+      "name": "pi_star_reproduction_abs_diff",
+      "spec": "raw",
+      "value": 0.0
+    },
+    {
+      "token": "0.140 pp",
+      "name": "label_se_10k",
+      "spec": "pp3",
+      "value": 0.0014
+    },
+    {
+      "token": "0.063 pp",
+      "name": "label_se_50k",
+      "spec": "pp3",
+      "value": 0.0006260990336999411
+    },
+    {
+      "token": "0.044 pp",
+      "name": "label_se_100k",
+      "spec": "pp3",
+      "value": 0.0004427188724235731
+    },
+    {
+      "token": "2%",
+      "name": "deployment_prior_2pct",
+      "spec": "pct0",
+      "value": 0.02
+    },
+    {
+      "token": "0.15 pp",
+      "name": "variant_bias_threshold",
+      "spec": "ppc2",
+      "value": 0.15
+    },
+    {
+      "token": "1.546417%",
+      "name": "wp5_pi_star_recorded",
+      "spec": "pct6",
+      "value": 0.015464173262384629
+    },
+    {
+      "token": "1.0361%",
+      "name": "pi_star_excl_20",
+      "spec": "pct4",
+      "value": 0.010361277644274275
+    },
+    {
+      "token": "4.1",
+      "name": "em_bias_in_label_se_10k",
+      "spec": "f1",
+      "value": 4.126743119754647
+    },
+    {
+      "token": "8.1",
+      "name": "em_bias_in_label_se_50k",
+      "spec": "f1",
+      "value": 8.062769090916373
+    },
+    {
+      "token": "11.6",
+      "name": "em_bias_in_label_se_100k",
+      "spec": "f1",
+      "value": 11.635917992348798
+    },
+    {
+      "token": "0.51 pp",
+      "name": "pi_star_startup_effect_20",
+      "spec": "ppc2",
+      "value": 0.5102895618110355
+    }
+  ]
+}

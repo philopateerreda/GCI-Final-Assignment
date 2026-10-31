@@ -1,0 +1,91 @@
+{
+  "report": "v4_addons/reports/D_summary.md",
+  "report_sha256": "026111722fbfcd86035cb2404e396b534bd945d344e43d5a8a7b77cb3b82bbda",
+  "results_json": "v4_addons/results/d8_summary.json",
+  "tokens": [
+    {
+      "token": "1.546417%",
+      "name": "wp5_pi_star_recorded",
+      "spec": "pct6",
+      "value": 0.015464173262384629
+    },
+    {
+      "token": "1.0361%",
+      "name": "pi_star_excl_20",
+      "spec": "pct4",
+      "value": 0.010361277644274275
+    },
+    {
+      "token": "0.51 pp",
+      "name": "pi_star_startup_effect_20",
+      "spec": "ppc2",
+      "value": 0.5102895618110355
+    },
+    {
+      "token": "$12,872",
+      "name": "stage1_cost",
+      "spec": "usd0",
+      "value": 12872.0
+    },
+    {
+      "token": "$20,744",
+      "name": "stage1_cost_if_floor_paid",
+      "spec": "usd0",
+      "value": 20744.0
+    },
+    {
+      "token": "91.9%",
+      "name": "extend_probability",
+      "spec": "pct1",
+      "value": 0.919
+    },
+    {
+      "token": "595",
+      "name": "bound_numbers_d0_d7",
+      "spec": "int",
+      "value": 595
+    },
+    {
+      "token": "0",
+      "name": "check_problems",
+      "spec": "int",
+      "value": 0
+    },
+    {
+      "token": "1",
+      "name": "ack_discrepancies",
+      "spec": "int",
+      "value": 1
+    },
+    {
+      "token": "6",
+      "name": "scanned_documents",
+      "spec": "int",
+      "value": 6
+    },
+    {
+      "token": "4,571",
+      "name": "boundary_files",
+      "spec": "int",
+      "value": 4571
+    },
+    {
+      "token": "4",
+      "name": "boundary_accepted",
+      "spec": "int",
+      "value": 4
+    },
+    {
+      "token": "0",
+      "name": "boundary_unexpected",
+      "spec": "int",
+      "value": 0
+    },
+    {
+      "token": "0",
+      "name": "gate_files_count",
+      "spec": "int",
+      "value": 0
+    }
+  ]
+}

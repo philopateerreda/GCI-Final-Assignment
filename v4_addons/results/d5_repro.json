@@ -1,0 +1,992 @@
+{
+  "numbers": {
+    "centered_2_18_n1000000": {
+      "sha256_of_source": "cd64fe05f11e974916e461d6f12764cff53ecd7f62fb8a1e461d966611c2e405",
+      "source_file": "v3_addons/results/wp2_evsi.json",
+      "source_key": "scenarios[5].centered_evsi_per_cohort",
+      "tag": "[E]",
+      "value": 865.2270541665769
+    },
+    "centered_2_18_n7872": {
+      "sha256_of_source": "cd64fe05f11e974916e461d6f12764cff53ecd7f62fb8a1e461d966611c2e405",
+      "source_file": "v3_addons/results/wp2_evsi.json",
+      "source_key": "scenarios[4].centered_evsi_per_cohort",
+      "tag": "[E]",
+      "value": 489.3589759908417
+    },
+    "centered_6_14_n1000000": {
+      "sha256_of_source": "cd64fe05f11e974916e461d6f12764cff53ecd7f62fb8a1e461d966611c2e405",
+      "source_file": "v3_addons/results/wp2_evsi.json",
+      "source_key": "scenarios[1].centered_evsi_per_cohort",
+      "tag": "[E]",
+      "value": 187.8883446293462
+    },
+    "centered_6_14_n7872": {
+      "sha256_of_source": "cd64fe05f11e974916e461d6f12764cff53ecd7f62fb8a1e461d966611c2e405",
+      "source_file": "v3_addons/results/wp2_evsi.json",
+      "source_key": "scenarios[0].centered_evsi_per_cohort",
+      "tag": "[E]",
+      "value": 52.052009282565876
+    },
+    "centered_6_24_n1000000": {
+      "sha256_of_source": "cd64fe05f11e974916e461d6f12764cff53ecd7f62fb8a1e461d966611c2e405",
+      "source_file": "v3_addons/results/wp2_evsi.json",
+      "source_key": "scenarios[3].centered_evsi_per_cohort",
+      "tag": "[E]",
+      "value": 1071.3508611043649
+    },
+    "centered_6_24_n7872": {
+      "sha256_of_source": "cd64fe05f11e974916e461d6f12764cff53ecd7f62fb8a1e461d966611c2e405",
+      "source_file": "v3_addons/results/wp2_evsi.json",
+      "source_key": "scenarios[2].centered_evsi_per_cohort",
+      "tag": "[E]",
+      "value": 551.1397743921094
+    },
+    "centered_gap_se_2_18_n1000000": {
+      "formula": "abs(centered_2_18_n1000000 - evsi_2_18_n1000000) / centered_mc_se_2_18_n1000000",
+      "inputs": [
+        "centered_2_18_n1000000",
+        "centered_mc_se_2_18_n1000000",
+        "evsi_2_18_n1000000"
+      ],
+      "note": "centered-estimator discrepancy in MC standard errors",
+      "sha256_of_source": null,
+      "source_file": null,
+      "source_key": null,
+      "tag": "[E]",
+      "value": 0.895306405717097
+    },
+    "centered_gap_se_2_18_n7872": {
+      "formula": "abs(centered_2_18_n7872 - evsi_2_18_n7872) / centered_mc_se_2_18_n7872",
+      "inputs": [
+        "centered_2_18_n7872",
+        "centered_mc_se_2_18_n7872",
+        "evsi_2_18_n7872"
+      ],
+      "note": "centered-estimator discrepancy in MC standard errors",
+      "sha256_of_source": null,
+      "source_file": null,
+      "source_key": null,
+      "tag": "[E]",
+      "value": 1.0856736526322204
+    },
+    "centered_gap_se_6_14_n1000000": {
+      "formula": "abs(centered_6_14_n1000000 - evsi_6_14_n1000000) / centered_mc_se_6_14_n1000000",
+      "inputs": [
+        "centered_6_14_n1000000",
+        "centered_mc_se_6_14_n1000000",
+        "evsi_6_14_n1000000"
+      ],
+      "note": "centered-estimator discrepancy in MC standard errors",
+      "sha256_of_source": null,
+      "source_file": null,
+      "source_key": null,
+      "tag": "[E]",
+      "value": 0.3592902247278003
+    },
+    "centered_gap_se_6_14_n7872": {
+      "formula": "abs(centered_6_14_n7872 - evsi_6_14_n7872) / centered_mc_se_6_14_n7872",
+      "inputs": [
+        "centered_6_14_n7872",
+        "centered_mc_se_6_14_n7872",
+        "evsi_6_14_n7872"
+      ],
+      "note": "centered-estimator discrepancy in MC standard errors",
+      "sha256_of_source": null,
+      "source_file": null,
+      "source_key": null,
+      "tag": "[E]",
+      "value": 0.828658820190245
+    },
+    "centered_gap_se_6_24_n1000000": {
+      "formula": "abs(centered_6_24_n1000000 - evsi_6_24_n1000000) / centered_mc_se_6_24_n1000000",
+      "inputs": [
+        "centered_6_24_n1000000",
+        "centered_mc_se_6_24_n1000000",
+        "evsi_6_24_n1000000"
+      ],
+      "note": "centered-estimator discrepancy in MC standard errors",
+      "sha256_of_source": null,
+      "source_file": null,
+      "source_key": null,
+      "tag": "[E]",
+      "value": 0.4151849126796564
+    },
+    "centered_gap_se_6_24_n7872": {
+      "formula": "abs(centered_6_24_n7872 - evsi_6_24_n7872) / centered_mc_se_6_24_n7872",
+      "inputs": [
+        "centered_6_24_n7872",
+        "centered_mc_se_6_24_n7872",
+        "evsi_6_24_n7872"
+      ],
+      "note": "centered-estimator discrepancy in MC standard errors",
+      "sha256_of_source": null,
+      "source_file": null,
+      "source_key": null,
+      "tag": "[E]",
+      "value": 0.9939365039129603
+    },
+    "centered_mc_se_2_18_n1000000": {
+      "sha256_of_source": "cd64fe05f11e974916e461d6f12764cff53ecd7f62fb8a1e461d966611c2e405",
+      "source_file": "v3_addons/results/wp2_evsi.json",
+      "source_key": "scenarios[5].identity_discrepancy_mc_se",
+      "tag": "[E]",
+      "value": 42.02249128603248
+    },
+    "centered_mc_se_2_18_n7872": {
+      "sha256_of_source": "cd64fe05f11e974916e461d6f12764cff53ecd7f62fb8a1e461d966611c2e405",
+      "source_file": "v3_addons/results/wp2_evsi.json",
+      "source_key": "scenarios[4].identity_discrepancy_mc_se",
+      "tag": "[E]",
+      "value": 31.235321273677602
+    },
+    "centered_mc_se_6_14_n1000000": {
+      "sha256_of_source": "cd64fe05f11e974916e461d6f12764cff53ecd7f62fb8a1e461d966611c2e405",
+      "source_file": "v3_addons/results/wp2_evsi.json",
+      "source_key": "scenarios[1].identity_discrepancy_mc_se",
+      "tag": "[E]",
+      "value": 14.293041618039487
+    },
+    "centered_mc_se_6_14_n7872": {
+      "sha256_of_source": "cd64fe05f11e974916e461d6f12764cff53ecd7f62fb8a1e461d966611c2e405",
+      "source_file": "v3_addons/results/wp2_evsi.json",
+      "source_key": "scenarios[0].identity_discrepancy_mc_se",
+      "tag": "[E]",
+      "value": 8.183268085361032
+    },
+    "centered_mc_se_6_24_n1000000": {
+      "sha256_of_source": "cd64fe05f11e974916e461d6f12764cff53ecd7f62fb8a1e461d966611c2e405",
+      "source_file": "v3_addons/results/wp2_evsi.json",
+      "source_key": "scenarios[3].identity_discrepancy_mc_se",
+      "tag": "[E]",
+      "value": 32.34163646665388
+    },
+    "centered_mc_se_6_24_n7872": {
+      "sha256_of_source": "cd64fe05f11e974916e461d6f12764cff53ecd7f62fb8a1e461d966611c2e405",
+      "source_file": "v3_addons/results/wp2_evsi.json",
+      "source_key": "scenarios[2].identity_discrepancy_mc_se",
+      "tag": "[E]",
+      "value": 20.04099052930315
+    },
+    "d0_evpi_2_18_vs_wp3": {
+      "sha256_of_source": "508f0853b4f91cb04ca1750b3232bcc7e651837fac2f815e05dcc038203e6e67",
+      "source_file": "v4_addons/results/d0_checks.json",
+      "source_key": "numbers.evpi_2_18_vs_wp3.value",
+      "tag": "[E]",
+      "value": 2.2737367544323206e-13
+    },
+    "d0_evpi_6_14_vs_wp3": {
+      "sha256_of_source": "508f0853b4f91cb04ca1750b3232bcc7e651837fac2f815e05dcc038203e6e67",
+      "source_file": "v4_addons/results/d0_checks.json",
+      "source_key": "numbers.evpi_6_14_vs_wp3.value",
+      "tag": "[E]",
+      "value": 0.0
+    },
+    "d0_evpi_6_24_vs_wp3": {
+      "sha256_of_source": "508f0853b4f91cb04ca1750b3232bcc7e651837fac2f815e05dcc038203e6e67",
+      "source_file": "v4_addons/results/d0_checks.json",
+      "source_key": "numbers.evpi_6_24_vs_wp3.value",
+      "tag": "[E]",
+      "value": 9.094947017729282e-13
+    },
+    "d0_expected_net_2_18_vs_wp3": {
+      "sha256_of_source": "508f0853b4f91cb04ca1750b3232bcc7e651837fac2f815e05dcc038203e6e67",
+      "source_file": "v4_addons/results/d0_checks.json",
+      "source_key": "numbers.expected_net_2_18_vs_wp3.value",
+      "tag": "[E]",
+      "value": 0.0
+    },
+    "d0_expected_net_6_14_vs_wp3": {
+      "sha256_of_source": "508f0853b4f91cb04ca1750b3232bcc7e651837fac2f815e05dcc038203e6e67",
+      "source_file": "v4_addons/results/d0_checks.json",
+      "source_key": "numbers.expected_net_6_14_vs_wp3.value",
+      "tag": "[E]",
+      "value": 0.0
+    },
+    "d0_expected_net_6_24_vs_wp3": {
+      "sha256_of_source": "508f0853b4f91cb04ca1750b3232bcc7e651837fac2f815e05dcc038203e6e67",
+      "source_file": "v4_addons/results/d0_checks.json",
+      "source_key": "numbers.expected_net_6_24_vs_wp3.value",
+      "tag": "[E]",
+      "value": 0.0
+    },
+    "d0_net_5pct_2_18_vs_wp3": {
+      "sha256_of_source": "508f0853b4f91cb04ca1750b3232bcc7e651837fac2f815e05dcc038203e6e67",
+      "source_file": "v4_addons/results/d0_checks.json",
+      "source_key": "numbers.net_5pct_2_18_vs_wp3.value",
+      "tag": "[E]",
+      "value": 0.0
+    },
+    "d0_net_5pct_6_14_vs_wp3": {
+      "sha256_of_source": "508f0853b4f91cb04ca1750b3232bcc7e651837fac2f815e05dcc038203e6e67",
+      "source_file": "v4_addons/results/d0_checks.json",
+      "source_key": "numbers.net_5pct_6_14_vs_wp3.value",
+      "tag": "[E]",
+      "value": 0.0
+    },
+    "d0_net_5pct_6_24_vs_wp3": {
+      "sha256_of_source": "508f0853b4f91cb04ca1750b3232bcc7e651837fac2f815e05dcc038203e6e67",
+      "source_file": "v4_addons/results/d0_checks.json",
+      "source_key": "numbers.net_5pct_6_24_vs_wp3.value",
+      "tag": "[E]",
+      "value": 0.0
+    },
+    "d0_p_positive_2_18_vs_wp3": {
+      "sha256_of_source": "508f0853b4f91cb04ca1750b3232bcc7e651837fac2f815e05dcc038203e6e67",
+      "source_file": "v4_addons/results/d0_checks.json",
+      "source_key": "numbers.p_positive_2_18_vs_wp3.value",
+      "tag": "[E]",
+      "value": 0.0
+    },
+    "d0_p_positive_6_14_vs_wp3": {
+      "sha256_of_source": "508f0853b4f91cb04ca1750b3232bcc7e651837fac2f815e05dcc038203e6e67",
+      "source_file": "v4_addons/results/d0_checks.json",
+      "source_key": "numbers.p_positive_6_14_vs_wp3.value",
+      "tag": "[E]",
+      "value": 0.0
+    },
+    "d0_p_positive_6_24_vs_wp3": {
+      "sha256_of_source": "508f0853b4f91cb04ca1750b3232bcc7e651837fac2f815e05dcc038203e6e67",
+      "source_file": "v4_addons/results/d0_checks.json",
+      "source_key": "numbers.p_positive_6_24_vs_wp3.value",
+      "tag": "[E]",
+      "value": 0.0
+    },
+    "evpi_2_18_n1000000": {
+      "sha256_of_source": "cd64fe05f11e974916e461d6f12764cff53ecd7f62fb8a1e461d966611c2e405",
+      "source_file": "v3_addons/results/wp2_evsi.json",
+      "source_key": "scenarios[5].evpi",
+      "tag": "[E]",
+      "value": 832.3583536234748
+    },
+    "evpi_2_18_n7872": {
+      "sha256_of_source": "cd64fe05f11e974916e461d6f12764cff53ecd7f62fb8a1e461d966611c2e405",
+      "source_file": "v3_addons/results/wp2_evsi.json",
+      "source_key": "scenarios[4].evpi",
+      "tag": "[E]",
+      "value": 832.3583536234748
+    },
+    "evpi_6_14_n1000000": {
+      "sha256_of_source": "cd64fe05f11e974916e461d6f12764cff53ecd7f62fb8a1e461d966611c2e405",
+      "source_file": "v3_addons/results/wp2_evsi.json",
+      "source_key": "scenarios[1].evpi",
+      "tag": "[E]",
+      "value": 195.7130475430422
+    },
+    "evpi_6_14_n7872": {
+      "sha256_of_source": "cd64fe05f11e974916e461d6f12764cff53ecd7f62fb8a1e461d966611c2e405",
+      "source_file": "v3_addons/results/wp2_evsi.json",
+      "source_key": "scenarios[0].evpi",
+      "tag": "[E]",
+      "value": 195.7130475430422
+    },
+    "evpi_6_24_n1000000": {
+      "sha256_of_source": "cd64fe05f11e974916e461d6f12764cff53ecd7f62fb8a1e461d966611c2e405",
+      "source_file": "v3_addons/results/wp2_evsi.json",
+      "source_key": "scenarios[3].evpi",
+      "tag": "[E]",
+      "value": 1093.2864143914458
+    },
+    "evpi_6_24_n7872": {
+      "sha256_of_source": "cd64fe05f11e974916e461d6f12764cff53ecd7f62fb8a1e461d966611c2e405",
+      "source_file": "v3_addons/results/wp2_evsi.json",
+      "source_key": "scenarios[2].evpi",
+      "tag": "[E]",
+      "value": 1093.2864143914458
+    },
+    "evsi_2_18_n1000000": {
+      "sha256_of_source": "cd64fe05f11e974916e461d6f12764cff53ecd7f62fb8a1e461d966611c2e405",
+      "source_file": "v3_addons/results/wp2_evsi.json",
+      "source_key": "scenarios[5].evsi_per_cohort",
+      "tag": "[E]",
+      "value": 827.6040485340011
+    },
+    "evsi_2_18_n7872": {
+      "sha256_of_source": "cd64fe05f11e974916e461d6f12764cff53ecd7f62fb8a1e461d966611c2e405",
+      "source_file": "v3_addons/results/wp2_evsi.json",
+      "source_key": "scenarios[4].evsi_per_cohort",
+      "tag": "[E]",
+      "value": 455.44761065250725
+    },
+    "evsi_6_14_n1000000": {
+      "sha256_of_source": "cd64fe05f11e974916e461d6f12764cff53ecd7f62fb8a1e461d966611c2e405",
+      "source_file": "v3_addons/results/wp2_evsi.json",
+      "source_key": "scenarios[1].evsi_per_cohort",
+      "tag": "[E]",
+      "value": 193.0236947643354
+    },
+    "evsi_6_14_n7872": {
+      "sha256_of_source": "cd64fe05f11e974916e461d6f12764cff53ecd7f62fb8a1e461d966611c2e405",
+      "source_file": "v3_addons/results/wp2_evsi.json",
+      "source_key": "scenarios[0].evsi_per_cohort",
+      "tag": "[E]",
+      "value": 45.27087200565012
+    },
+    "evsi_6_24_n1000000": {
+      "sha256_of_source": "cd64fe05f11e974916e461d6f12764cff53ecd7f62fb8a1e461d966611c2e405",
+      "source_file": "v3_addons/results/wp2_evsi.json",
+      "source_key": "scenarios[3].evsi_per_cohort",
+      "tag": "[E]",
+      "value": 1084.7786206166898
+    },
+    "evsi_6_24_n7872": {
+      "sha256_of_source": "cd64fe05f11e974916e461d6f12764cff53ecd7f62fb8a1e461d966611c2e405",
+      "source_file": "v3_addons/results/wp2_evsi.json",
+      "source_key": "scenarios[2].evsi_per_cohort",
+      "tag": "[E]",
+      "value": 531.2203023304611
+    },
+    "identity_gap_2_18_n1000000": {
+      "formula": "abs(evsi_2_18_n1000000 - (evpi_2_18_n1000000 - regret_2_18_n1000000))",
+      "inputs": [
+        "evpi_2_18_n1000000",
+        "evsi_2_18_n1000000",
+        "regret_2_18_n1000000"
+      ],
+      "note": "EVSI = EVPI - E[posterior regret]; exact identity",
+      "sha256_of_source": null,
+      "source_file": null,
+      "source_key": null,
+      "tag": "[E]",
+      "value": 0.0
+    },
+    "identity_gap_2_18_n7872": {
+      "formula": "abs(evsi_2_18_n7872 - (evpi_2_18_n7872 - regret_2_18_n7872))",
+      "inputs": [
+        "evpi_2_18_n7872",
+        "evsi_2_18_n7872",
+        "regret_2_18_n7872"
+      ],
+      "note": "EVSI = EVPI - E[posterior regret]; exact identity",
+      "sha256_of_source": null,
+      "source_file": null,
+      "source_key": null,
+      "tag": "[E]",
+      "value": 0.0
+    },
+    "identity_gap_6_14_n1000000": {
+      "formula": "abs(evsi_6_14_n1000000 - (evpi_6_14_n1000000 - regret_6_14_n1000000))",
+      "inputs": [
+        "evpi_6_14_n1000000",
+        "evsi_6_14_n1000000",
+        "regret_6_14_n1000000"
+      ],
+      "note": "EVSI = EVPI - E[posterior regret]; exact identity",
+      "sha256_of_source": null,
+      "source_file": null,
+      "source_key": null,
+      "tag": "[E]",
+      "value": 0.0
+    },
+    "identity_gap_6_14_n7872": {
+      "formula": "abs(evsi_6_14_n7872 - (evpi_6_14_n7872 - regret_6_14_n7872))",
+      "inputs": [
+        "evpi_6_14_n7872",
+        "evsi_6_14_n7872",
+        "regret_6_14_n7872"
+      ],
+      "note": "EVSI = EVPI - E[posterior regret]; exact identity",
+      "sha256_of_source": null,
+      "source_file": null,
+      "source_key": null,
+      "tag": "[E]",
+      "value": 0.0
+    },
+    "identity_gap_6_24_n1000000": {
+      "formula": "abs(evsi_6_24_n1000000 - (evpi_6_24_n1000000 - regret_6_24_n1000000))",
+      "inputs": [
+        "evpi_6_24_n1000000",
+        "evsi_6_24_n1000000",
+        "regret_6_24_n1000000"
+      ],
+      "note": "EVSI = EVPI - E[posterior regret]; exact identity",
+      "sha256_of_source": null,
+      "source_file": null,
+      "source_key": null,
+      "tag": "[E]",
+      "value": 0.0
+    },
+    "identity_gap_6_24_n7872": {
+      "formula": "abs(evsi_6_24_n7872 - (evpi_6_24_n7872 - regret_6_24_n7872))",
+      "inputs": [
+        "evpi_6_24_n7872",
+        "evsi_6_24_n7872",
+        "regret_6_24_n7872"
+      ],
+      "note": "EVSI = EVPI - E[posterior regret]; exact identity",
+      "sha256_of_source": null,
+      "source_file": null,
+      "source_key": null,
+      "tag": "[E]",
+      "value": 0.0
+    },
+    "light_checks_wall_seconds": {
+      "computed": true,
+      "inputs": [],
+      "note": "wall time of the WP2 identity + WP3 closed-form re-checks in this run",
+      "sha256_of_source": null,
+      "source_file": null,
+      "source_key": null,
+      "tag": "[E]",
+      "value": 1.116
+    },
+    "regret_2_18_n1000000": {
+      "sha256_of_source": "cd64fe05f11e974916e461d6f12764cff53ecd7f62fb8a1e461d966611c2e405",
+      "source_file": "v3_addons/results/wp2_evsi.json",
+      "source_key": "scenarios[5].posterior_regret_mean",
+      "tag": "[E]",
+      "value": 4.754305089473736
+    },
+    "regret_2_18_n7872": {
+      "sha256_of_source": "cd64fe05f11e974916e461d6f12764cff53ecd7f62fb8a1e461d966611c2e405",
+      "source_file": "v3_addons/results/wp2_evsi.json",
+      "source_key": "scenarios[4].posterior_regret_mean",
+      "tag": "[E]",
+      "value": 376.9107429709676
+    },
+    "regret_6_14_n1000000": {
+      "sha256_of_source": "cd64fe05f11e974916e461d6f12764cff53ecd7f62fb8a1e461d966611c2e405",
+      "source_file": "v3_addons/results/wp2_evsi.json",
+      "source_key": "scenarios[1].posterior_regret_mean",
+      "tag": "[E]",
+      "value": 2.6893527787067986
+    },
+    "regret_6_14_n7872": {
+      "sha256_of_source": "cd64fe05f11e974916e461d6f12764cff53ecd7f62fb8a1e461d966611c2e405",
+      "source_file": "v3_addons/results/wp2_evsi.json",
+      "source_key": "scenarios[0].posterior_regret_mean",
+      "tag": "[E]",
+      "value": 150.44217553739207
+    },
+    "regret_6_24_n1000000": {
+      "sha256_of_source": "cd64fe05f11e974916e461d6f12764cff53ecd7f62fb8a1e461d966611c2e405",
+      "source_file": "v3_addons/results/wp2_evsi.json",
+      "source_key": "scenarios[3].posterior_regret_mean",
+      "tag": "[E]",
+      "value": 8.507793774755937
+    },
+    "regret_6_24_n7872": {
+      "sha256_of_source": "cd64fe05f11e974916e461d6f12764cff53ecd7f62fb8a1e461d966611c2e405",
+      "source_file": "v3_addons/results/wp2_evsi.json",
+      "source_key": "scenarios[2].posterior_regret_mean",
+      "tag": "[E]",
+      "value": 562.0661120609847
+    },
+    "test_split_rows": {
+      "sha256_of_source": "1d14a4fea10ab391631379f82cd6a82e5a65ede4f01db5b540c9aec3612eea1e",
+      "source_file": "v2_work/final_metrics.json",
+      "source_key": "v1.test_customers",
+      "tag": "[E]",
+      "value": 15000
+    },
+    "wp1_replicates_per_point": {
+      "sha256_of_source": "1342bb553dfd24e4697d210d141392f32f0ac8b43f66ea3627db95622d714305",
+      "source_file": "v3_addons/results/wp1_power.json",
+      "source_key": "provenance.row_counts.replicates_per_point",
+      "tag": "[E]",
+      "value": 1000
+    },
+    "wp1_seed": {
+      "sha256_of_source": "1342bb553dfd24e4697d210d141392f32f0ac8b43f66ea3627db95622d714305",
+      "source_file": "v3_addons/results/wp1_power.json",
+      "source_key": "provenance.seed",
+      "tag": "[E]",
+      "value": 20261029
+    },
+    "wp1_simulation_points": {
+      "sha256_of_source": "1342bb553dfd24e4697d210d141392f32f0ac8b43f66ea3627db95622d714305",
+      "source_file": "v3_addons/results/wp1_power.json",
+      "source_key": "provenance.row_counts.simulation_points",
+      "tag": "[E]",
+      "value": 48
+    },
+    "wp2_completion_gap_minutes": {
+      "computed": true,
+      "inputs": [],
+      "note": "minutes between WP1 and WP2 completion timestamps (upper bound on WP2 wall time)",
+      "sha256_of_source": "cd64fe05f11e974916e461d6f12764cff53ecd7f62fb8a1e461d966611c2e405",
+      "source_file": "v3_addons/results/wp2_evsi.json",
+      "source_key": "provenance.created_utc",
+      "tag": "[E]",
+      "value": 37.0
+    },
+    "wp2_identity_checks_passed": {
+      "computed": true,
+      "inputs": [],
+      "note": "1 if all six WP2 scenarios satisfy EVSI<=EVPI, EVSI>=0, EVSI=EVPI-regret (1e-6) and centered within 3 MC SE",
+      "sha256_of_source": null,
+      "source_file": null,
+      "source_key": null,
+      "tag": "[E]",
+      "value": 1
+    },
+    "wp2_max_centered_gap_se": {
+      "computed": true,
+      "inputs": [],
+      "note": "largest centered-estimator discrepancy across the six WP2 scenarios, in MC standard errors",
+      "sha256_of_source": "cd64fe05f11e974916e461d6f12764cff53ecd7f62fb8a1e461d966611c2e405",
+      "source_file": "v3_addons/results/wp2_evsi.json",
+      "source_key": "scenarios[].centered_evsi_per_cohort",
+      "tag": "[E]",
+      "value": 1.09
+    },
+    "wp2_pilots_per_scenario": {
+      "sha256_of_source": "cd64fe05f11e974916e461d6f12764cff53ecd7f62fb8a1e461d966611c2e405",
+      "source_file": "v3_addons/results/wp2_evsi.json",
+      "source_key": "provenance.row_counts.pilots_per_scenario",
+      "tag": "[E]",
+      "value": 4096
+    },
+    "wp2_seed": {
+      "sha256_of_source": "cd64fe05f11e974916e461d6f12764cff53ecd7f62fb8a1e461d966611c2e405",
+      "source_file": "v3_addons/results/wp2_evsi.json",
+      "source_key": "provenance.seed",
+      "tag": "[E]",
+      "value": 20261030
+    },
+    "wp3_closed_form_checks_passed": {
+      "computed": true,
+      "inputs": [],
+      "note": "1 if all WP3 closed forms re-derive within 1e-6 (from D0)",
+      "sha256_of_source": null,
+      "source_file": null,
+      "source_key": null,
+      "tag": "[E]",
+      "value": 1
+    },
+    "wp3_completion_gap_minutes": {
+      "computed": true,
+      "inputs": [],
+      "note": "minutes between WP2 and WP3 completion timestamps (upper bound on WP3 wall time)",
+      "sha256_of_source": "96aa9a75869c53079e1442a26f1f3d08f5261d735e61a5195a658955843a5dd1",
+      "source_file": "v3_addons/results/wp3_roi_band.json",
+      "source_key": "provenance.created_utc",
+      "tag": "[E]",
+      "value": 4.7
+    },
+    "wp3_seed": {
+      "sha256_of_source": "96aa9a75869c53079e1442a26f1f3d08f5261d735e61a5195a658955843a5dd1",
+      "source_file": "v3_addons/results/wp3_roi_band.json",
+      "source_key": "provenance.seed",
+      "tag": "[E]",
+      "value": 20261031
+    },
+    "wp4_completion_gap_minutes": {
+      "computed": true,
+      "inputs": [],
+      "note": "minutes between WP3 and WP4 completion timestamps (upper bound on WP4 wall time)",
+      "sha256_of_source": "1fd31cc4461349db720ba88de079a0f0f7d15f3963b283b121af6e7af77676e9",
+      "source_file": "v3_addons/results/wp4_protocol.json",
+      "source_key": "provenance.created_utc",
+      "tag": "[E]",
+      "value": 0.5
+    },
+    "wp4_seed": {
+      "sha256_of_source": "1fd31cc4461349db720ba88de079a0f0f7d15f3963b283b121af6e7af77676e9",
+      "source_file": "v3_addons/results/wp4_protocol.json",
+      "source_key": "provenance.seed",
+      "tag": "[E]",
+      "value": 20261032
+    },
+    "wp5_bootstrap_fits": {
+      "sha256_of_source": "3a4d94fe806c00421f53688c2000bfb2293ecc16320dbb795d9b8375a8a9338e",
+      "source_file": "v3_addons/results/wp5_label_shift.json",
+      "source_key": "provenance.row_counts.bootstrap_fits",
+      "tag": "[E]",
+      "value": 5000000
+    },
+    "wp5_completion_gap_minutes": {
+      "computed": true,
+      "inputs": [],
+      "note": "minutes between WP4 and WP5 completion timestamps (upper bound on WP5 wall time)",
+      "sha256_of_source": "3a4d94fe806c00421f53688c2000bfb2293ecc16320dbb795d9b8375a8a9338e",
+      "source_file": "v3_addons/results/wp5_label_shift.json",
+      "source_key": "provenance.created_utc",
+      "tag": "[E]",
+      "value": 37.2
+    },
+    "wp5_original_batches": {
+      "sha256_of_source": "3a4d94fe806c00421f53688c2000bfb2293ecc16320dbb795d9b8375a8a9338e",
+      "source_file": "v3_addons/results/wp5_label_shift.json",
+      "source_key": "provenance.row_counts.original_batches",
+      "tag": "[E]",
+      "value": 10000
+    },
+    "wp5_seed": {
+      "sha256_of_source": "3a4d94fe806c00421f53688c2000bfb2293ecc16320dbb795d9b8375a8a9338e",
+      "source_file": "v3_addons/results/wp5_label_shift.json",
+      "source_key": "provenance.seed",
+      "tag": "[E]",
+      "value": 20261033
+    }
+  },
+  "provenance": {
+    "created_utc": "2026-10-31T08:54:30.700975+00:00",
+    "input_files": [
+      {
+        "path": "v3_addons/results/wp1_power.json",
+        "present": true,
+        "sha256": "1342bb553dfd24e4697d210d141392f32f0ac8b43f66ea3627db95622d714305",
+        "size": 542362
+      },
+      {
+        "path": "v3_addons/results/wp2_evsi.json",
+        "present": true,
+        "sha256": "cd64fe05f11e974916e461d6f12764cff53ecd7f62fb8a1e461d966611c2e405",
+        "size": 60310
+      },
+      {
+        "path": "v3_addons/results/wp3_roi_band.json",
+        "present": true,
+        "sha256": "96aa9a75869c53079e1442a26f1f3d08f5261d735e61a5195a658955843a5dd1",
+        "size": 96482
+      },
+      {
+        "path": "v3_addons/results/wp4_protocol.json",
+        "present": true,
+        "sha256": "1fd31cc4461349db720ba88de079a0f0f7d15f3963b283b121af6e7af77676e9",
+        "size": 6653
+      },
+      {
+        "path": "v3_addons/results/wp5_label_shift.json",
+        "present": true,
+        "sha256": "3a4d94fe806c00421f53688c2000bfb2293ecc16320dbb795d9b8375a8a9338e",
+        "size": 1079813
+      },
+      {
+        "path": "v3_addons/src/wp1_power.py",
+        "present": true,
+        "sha256": "cc9ac2c17be3c32d0c8cc1044467b9c3b0ed74dd0c7feb10e27c74ae8b0043f5",
+        "size": 18237
+      },
+      {
+        "path": "v3_addons/src/wp2_decisions.py",
+        "present": true,
+        "sha256": "a5a8eafe627124a74ef13b6398bb436901cb57f27852caecffdf771f0e68c221",
+        "size": 12560
+      },
+      {
+        "path": "v3_addons/src/wp3_roi.py",
+        "present": true,
+        "sha256": "ce71605f22204fa3326159ee4194064d298a12c6b8ad5401a0eb9dd39807bd48",
+        "size": 36500
+      },
+      {
+        "path": "v3_addons/src/wp4_protocol.py",
+        "present": true,
+        "sha256": "84d96c8bec305e9d52a1d5f269f4738fc0a7a5a3c5d743435f3890b6fc145aca",
+        "size": 6160
+      },
+      {
+        "path": "v3_addons/src/wp5_labelshift.py",
+        "present": true,
+        "sha256": "c5d7df3f0e47795effc220aa35646e4d6f0d9f4ce018545cc273eca5acbc7f0a",
+        "size": 69672
+      },
+      {
+        "path": "v4_addons/results/d0_checks.json",
+        "present": true,
+        "sha256": "508f0853b4f91cb04ca1750b3232bcc7e651837fac2f815e05dcc038203e6e67",
+        "size": 55124
+      }
+    ],
+    "python_version": "3.11.9 (tags/v3.11.9:de54cf5, Apr  2 2024, 10:12:12) [MSC v.1938 64 bit (AMD64)]",
+    "row_counts": {},
+    "runtime": {
+      "env": {
+        "MKL_NUM_THREADS": "6",
+        "NUMEXPR_NUM_THREADS": "6",
+        "OMP_NUM_THREADS": "6",
+        "OPENBLAS_NUM_THREADS": "6"
+      },
+      "function_sha256": "77f490da30fa85a8826efca565835a7127fa2d629110a92afe8b0a497a437bca",
+      "pools": [
+        {
+          "architecture": "Haswell",
+          "filepath": "C:\\Users\\FGstore\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\numpy.libs\\libscipy_openblas64_-860d95b1c38e637ce4509f5fa24fbf2a.dll",
+          "internal_api": "openblas",
+          "num_threads": 6,
+          "prefix": "libscipy_openblas",
+          "threading_layer": "pthreads",
+          "user_api": "blas",
+          "version": "0.3.30"
+        },
+        {
+          "architecture": "Haswell",
+          "filepath": "C:\\Users\\FGstore\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\scipy.libs\\libscipy_openblas-64eda39e79589aedb16f58e5547eb599.dll",
+          "internal_api": "openblas",
+          "num_threads": 6,
+          "prefix": "libscipy_openblas",
+          "threading_layer": "pthreads",
+          "user_api": "blas",
+          "version": "0.3.30"
+        }
+      ],
+      "source": "v3_addons/src/common.py",
+      "thread_cap": 6
+    },
+    "script": "v4_addons/tools/d5_reproducibility.py",
+    "script_sha256": "9ee824ead7bb7edb13b9c875b30b878e4dc7cadeb50cdc2d7814f6a467e899ff",
+    "seed": 20261034,
+    "tags_used": [
+      "[E]",
+      "[A]",
+      "[R]"
+    ]
+  },
+  "scripts_match_recorded_sha": {
+    "WP1": true,
+    "WP2": true,
+    "WP3": true,
+    "WP4": true,
+    "WP5": true
+  },
+  "work_packages": {
+    "WP1": {
+      "args": "",
+      "created_utc": "2026-10-29T14:23:43.932275+00:00",
+      "inputs": 19,
+      "outputs": [
+        {
+          "path": "v3_addons/results/wp1_power.json",
+          "present": true,
+          "sha256": "1342bb553dfd24e4697d210d141392f32f0ac8b43f66ea3627db95622d714305",
+          "size": 542362
+        },
+        {
+          "path": "v3_addons/results/wp1_power.csv",
+          "present": true,
+          "sha256": "175374f8c495aa598915568c6d4686cba61bfd26d09f1672bc364bddc0228bea",
+          "size": 167320
+        },
+        {
+          "path": "v3_addons/results/wp1_capacity_mde.csv",
+          "present": true,
+          "sha256": "fb9ea4470f3b77334d09dd4f1ac752609ce17c5ce0cd9f3aaf81c2f11da7f97a",
+          "size": 1291
+        },
+        {
+          "path": "v3_addons/results/wp1_simulation_samples.npz",
+          "present": true,
+          "sha256": "b85da7f76a5c7562c3b207bad3b0b109913d62cd8575edf09580bb7753bfe068",
+          "size": 3627764
+        },
+        {
+          "path": "v3_addons/figures/wp1_power_curves.png",
+          "present": true,
+          "sha256": "a27cdb509efab749f76d971ef7577888b5b0addde073d4614ea7753915d7cae0",
+          "size": 33113
+        }
+      ],
+      "python": "3.11.9",
+      "row_counts": {
+        "population": 75000,
+        "replicates_per_point": 1000,
+        "selected": 12990,
+        "simulation_points": 48
+      },
+      "script": "v3_addons/src/wp1_power.py",
+      "script_sha256": "cc9ac2c17be3c32d0c8cc1044467b9c3b0ed74dd0c7feb10e27c74ae8b0043f5",
+      "script_sha256_recorded": "cc9ac2c17be3c32d0c8cc1044467b9c3b0ed74dd0c7feb10e27c74ae8b0043f5",
+      "seed": 20261029
+    },
+    "WP2": {
+      "args": "",
+      "created_utc": "2026-10-29T15:00:44.042661+00:00",
+      "inputs": 8,
+      "outputs": [
+        {
+          "path": "v3_addons/results/wp2_evsi.json",
+          "present": true,
+          "sha256": "cd64fe05f11e974916e461d6f12764cff53ecd7f62fb8a1e461d966611c2e405",
+          "size": 60310
+        },
+        {
+          "path": "v3_addons/results/wp2_decision_quality.csv",
+          "present": true,
+          "sha256": "1ad721f80356881cf37a4e5a1f15f7856760983d9aff0f5b7c1c750879423be0",
+          "size": 17005
+        },
+        {
+          "path": "v3_addons/figures/wp2_decision_map.png",
+          "present": true,
+          "sha256": "ebbb3f677bdc724fbb61b84f31eee054d769b1c74a5c10e89cb9d58b9c3d7650",
+          "size": 33274
+        }
+      ],
+      "python": "3.11.9",
+      "row_counts": {
+        "decision_rows": 72,
+        "pilots_per_scenario": 4096,
+        "scenarios": 6
+      },
+      "script": "v3_addons/src/wp2_decisions.py",
+      "script_sha256": "a5a8eafe627124a74ef13b6398bb436901cb57f27852caecffdf771f0e68c221",
+      "script_sha256_recorded": "a5a8eafe627124a74ef13b6398bb436901cb57f27852caecffdf771f0e68c221",
+      "seed": 20261030
+    },
+    "WP3": {
+      "args": "",
+      "created_utc": "2026-10-29T15:05:28.869408+00:00",
+      "inputs": 25,
+      "outputs": [
+        {
+          "path": "v3_addons/results/wp3_roi_band.json",
+          "present": true,
+          "sha256": "96aa9a75869c53079e1442a26f1f3d08f5261d735e61a5195a658955843a5dd1",
+          "size": 96482
+        },
+        {
+          "path": "v3_addons/results/wp3_net_curve.csv",
+          "present": true,
+          "sha256": "f9148028b1a8158685de1556d82617d4f2750550084463ee88d13305283fabc1",
+          "size": 194136
+        },
+        {
+          "path": "v3_addons/figures/wp3_net_curve.png",
+          "present": true,
+          "sha256": "7f36752025300149e1c6a46b1f5aaa705c4ff1ca89dd0ae3bf75dad40d5c370b",
+          "size": 28627
+        }
+      ],
+      "python": "3.11.9",
+      "row_counts": {
+        "calibration_rows": 10000,
+        "curve_rows": 480,
+        "draws_per_prior": 1000000,
+        "population_rows": 75000,
+        "priors": 3,
+        "test_rows_used": 0
+      },
+      "script": "v3_addons/src/wp3_roi.py",
+      "script_sha256": "ce71605f22204fa3326159ee4194064d298a12c6b8ad5401a0eb9dd39807bd48",
+      "script_sha256_recorded": "ce71605f22204fa3326159ee4194064d298a12c6b8ad5401a0eb9dd39807bd48",
+      "seed": 20261031
+    },
+    "WP4": {
+      "args": "",
+      "created_utc": "2026-10-29T15:06:00.700546+00:00",
+      "inputs": 7,
+      "outputs": [
+        {
+          "path": "v3_addons/results/wp4_protocol.json",
+          "present": true,
+          "sha256": "1fd31cc4461349db720ba88de079a0f0f7d15f3963b283b121af6e7af77676e9",
+          "size": 6653
+        },
+        {
+          "path": "v3_addons/protocol_addendum.md",
+          "present": true,
+          "sha256": "9c36323f3823f051022e2445d8ede5937ceadbe04b8553a0d25de887a2ad683b",
+          "size": 2774
+        }
+      ],
+      "python": "3.11.9",
+      "row_counts": {
+        "new_estimates": 0,
+        "quoted_queues": 4
+      },
+      "script": "v3_addons/src/wp4_protocol.py",
+      "script_sha256": "84d96c8bec305e9d52a1d5f269f4738fc0a7a5a3c5d743435f3890b6fc145aca",
+      "script_sha256_recorded": "84d96c8bec305e9d52a1d5f269f4738fc0a7a5a3c5d743435f3890b6fc145aca",
+      "seed": 20261032
+    },
+    "WP5": {
+      "args": " --workers 6",
+      "created_utc": "2026-10-29T15:43:15.104018+00:00",
+      "inputs": 78,
+      "outputs": [
+        {
+          "path": "v3_addons/results/wp5_label_shift.json",
+          "present": true,
+          "sha256": "3a4d94fe806c00421f53688c2000bfb2293ecc16320dbb795d9b8375a8a9338e",
+          "size": 1079813
+        },
+        {
+          "path": "v3_addons/results/wp5_label_shift_summary.csv",
+          "present": true,
+          "sha256": "7ff830d7a52f0392d25a9dc66bba4498d62c21d3d9dcfd9cad19b2c99ca929f7",
+          "size": 5719
+        },
+        {
+          "path": "v3_addons/results/wp5_break_even_grid.csv",
+          "present": true,
+          "sha256": "fea512bd2b631e217327c4cbad34101d343f74f55e2ec37411a4dfae11ab4612",
+          "size": 88767
+        },
+        {
+          "path": "v3_addons/results/wp5_calibration_oof.json",
+          "present": true,
+          "sha256": "a19d7ecadcc009b07806f3f78b7a4d016473656f0af545e5f102773d818f16b1",
+          "size": 1054830
+        },
+        {
+          "path": "v3_addons/figures/wp5_em_recovery.png",
+          "present": true,
+          "sha256": "390f433d202da86091be5389b94f2bdddde38e437a6713a0a816789970daf178",
+          "size": 32496
+        }
+      ],
+      "python": "3.11.9",
+      "row_counts": {
+        "bootstrap_fits": 5000000,
+        "calibration_policy": 10000,
+        "grids": 20,
+        "original_batches": 10000,
+        "planning_grid": 251,
+        "planning_non_test": 75000,
+        "raw_csv": 10000,
+        "summary_csv": 20,
+        "test_rows_used": 0
+      },
+      "script": "v3_addons/src/wp5_labelshift.py",
+      "script_sha256": "c5d7df3f0e47795effc220aa35646e4d6f0d9f4ce018545cc273eca5acbc7f0a",
+      "script_sha256_recorded": "c5d7df3f0e47795effc220aa35646e4d6f0d9f4ce018545cc273eca5acbc7f0a",
+      "seed": 20261033
+    }
+  },
+  "wp2_checks": [
+    {
+      "centered_gap_in_se": 0.828658820190245,
+      "evsi_le_evpi": true,
+      "evsi_nonnegative": true,
+      "identity_gap": 0.0,
+      "scenario": "6_14_n7872"
+    },
+    {
+      "centered_gap_in_se": 0.3592902247278003,
+      "evsi_le_evpi": true,
+      "evsi_nonnegative": true,
+      "identity_gap": 0.0,
+      "scenario": "6_14_n1000000"
+    },
+    {
+      "centered_gap_in_se": 0.9939365039129603,
+      "evsi_le_evpi": true,
+      "evsi_nonnegative": true,
+      "identity_gap": 0.0,
+      "scenario": "6_24_n7872"
+    },
+    {
+      "centered_gap_in_se": 0.4151849126796564,
+      "evsi_le_evpi": true,
+      "evsi_nonnegative": true,
+      "identity_gap": 0.0,
+      "scenario": "6_24_n1000000"
+    },
+    {
+      "centered_gap_in_se": 1.0856736526322204,
+      "evsi_le_evpi": true,
+      "evsi_nonnegative": true,
+      "identity_gap": 0.0,
+      "scenario": "2_18_n7872"
+    },
+    {
+      "centered_gap_in_se": 0.895306405717097,
+      "evsi_le_evpi": true,
+      "evsi_nonnegative": true,
+      "identity_gap": 0.0,
+      "scenario": "2_18_n1000000"
+    }
+  ]
+}

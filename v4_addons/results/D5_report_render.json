@@ -1,0 +1,55 @@
+{
+  "report": "v4_addons/reports/D5_report.md",
+  "report_sha256": "ff53c8982cc114b42cb84adc777ae20f1fea7b77f599c2f0553929b8a9b5670e",
+  "results_json": "v4_addons/results/d5_repro.json",
+  "tokens": [
+    {
+      "token": "20,261,029",
+      "name": "wp1_seed",
+      "spec": "int",
+      "value": 20261029
+    },
+    {
+      "token": "20,261,030",
+      "name": "wp2_seed",
+      "spec": "int",
+      "value": 20261030
+    },
+    {
+      "token": "20,261,031",
+      "name": "wp3_seed",
+      "spec": "int",
+      "value": 20261031
+    },
+    {
+      "token": "20,261,032",
+      "name": "wp4_seed",
+      "spec": "int",
+      "value": 20261032
+    },
+    {
+      "token": "20,261,033",
+      "name": "wp5_seed",
+      "spec": "int",
+      "value": 20261033
+    },
+    {
+      "token": "1",
+      "name": "wp2_identity_checks_passed",
+      "spec": "int",
+      "value": 1
+    },
+    {
+      "token": "1",
+      "name": "wp3_closed_form_checks_passed",
+      "spec": "int",
+      "value": 1
+    },
+    {
+      "token": "1.116",
+      "name": "light_checks_wall_seconds",
+      "spec": "f3",
+      "value": 1.116
+    }
+  ]
+}
