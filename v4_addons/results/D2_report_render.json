@@ -1,0 +1,307 @@
+{
+  "report": "v4_addons/reports/D2_report.md",
+  "report_sha256": "8b2404d13f6b526c72a3c264586295faee686f27b23eb0ed5e725652fb73f7e4",
+  "results_json": "v4_addons/results/yardstick.json",
+  "tokens": [
+    {
+      "token": "7,872",
+      "name": "binary_enrolled_per_arm",
+      "spec": "int",
+      "value": 7872
+    },
+    {
+      "token": "40,000",
+      "name": "first_grid_e4_profit",
+      "spec": "int",
+      "value": 40000
+    },
+    {
+      "token": "10,000",
+      "name": "first_grid_e4_effect",
+      "spec": "int",
+      "value": 10000
+    },
+    {
+      "token": "80,000",
+      "name": "v2_grid_adjusted_calibration",
+      "spec": "int",
+      "value": 80000
+    },
+    {
+      "token": "0.9725",
+      "name": "v2_80k_adjusted_calibration",
+      "spec": "f4",
+      "value": 0.9725
+    },
+    {
+      "token": "0.9525",
+      "name": "v2_80k_adjusted_test",
+      "spec": "f4",
+      "value": 0.9525
+    },
+    {
+      "token": "5,000",
+      "name": "max_per_arm_one_list",
+      "spec": "int",
+      "value": 5000.0
+    },
+    {
+      "token": "15,744",
+      "name": "stage1_total_enrolled",
+      "spec": "int",
+      "value": 15744
+    },
+    {
+      "token": "158,000",
+      "name": "planning_portfolio_proxy",
+      "spec": "int",
+      "value": 158000
+    },
+    {
+      "token": "0.760",
+      "name": "e4_effect_power_7872_deff1p1",
+      "spec": "f3",
+      "value": 0.76
+    },
+    {
+      "token": "0.254",
+      "name": "e4_profit_power_7872_deff1p1",
+      "spec": "f3",
+      "value": 0.254
+    },
+    {
+      "token": "0.556",
+      "name": "e4_effect_power_5000_deff1p1",
+      "spec": "f3",
+      "value": 0.556
+    },
+    {
+      "token": "0.179",
+      "name": "e4_profit_power_5000_deff1p1",
+      "spec": "f3",
+      "value": 0.179
+    },
+    {
+      "token": "0.527",
+      "name": "est_e2_observed_80000_profit",
+      "spec": "f3",
+      "value": 0.527
+    },
+    {
+      "token": "0.988",
+      "name": "est_e4_80000_profit",
+      "spec": "f3",
+      "value": 0.988
+    },
+    {
+      "token": "0.461",
+      "name": "spread_80k_profit_e2obs_vs_e4",
+      "spec": "f3",
+      "value": 0.46099999999999997
+    },
+    {
+      "token": "0.076",
+      "name": "dq_7872_g20_p_scale",
+      "spec": "f3",
+      "value": 0.076
+    },
+    {
+      "token": "0.919",
+      "name": "dq_7872_g20_p_extend",
+      "spec": "f3",
+      "value": 0.919
+    },
+    {
+      "token": "0.005",
+      "name": "dq_7872_g20_p_stop",
+      "spec": "f3",
+      "value": 0.005
+    },
+    {
+      "token": "0.475",
+      "name": "dq_7872_g0_p_extend",
+      "spec": "f3",
+      "value": 0.475
+    },
+    {
+      "token": "0.525",
+      "name": "dq_7872_g0_p_stop",
+      "spec": "f3",
+      "value": 0.525
+    },
+    {
+      "token": "0.0677",
+      "name": "se_gamma_hat_difference_scaled",
+      "spec": "f4",
+      "value": 0.06770666750982451
+    },
+    {
+      "token": "0.0606",
+      "name": "se_gamma_hat_delta_full",
+      "spec": "f4",
+      "value": 0.0605922379589923
+    },
+    {
+      "token": "0.0400",
+      "name": "gap_assumption_to_break_even",
+      "spec": "f4",
+      "value": 0.04000727800091572
+    },
+    {
+      "token": "0.01546417",
+      "name": "pi_star_fully_loaded",
+      "spec": "f8",
+      "value": 0.015464173262384629
+    },
+    {
+      "token": "0.01036128",
+      "name": "pi_star_startup_excluded",
+      "spec": "f8",
+      "value": 0.010361277644274275
+    },
+    {
+      "token": "$5,000",
+      "name": "wp5_fixed_cost_in_net",
+      "spec": "usd0",
+      "value": 5000.0
+    },
+    {
+      "token": "2.4212",
+      "name": "transport_ratio",
+      "spec": "f4",
+      "value": 2.4212464165819263
+    },
+    {
+      "token": "0.3176",
+      "name": "startup_per_enrollee_7872",
+      "spec": "f4",
+      "value": 0.3175813008130081
+    },
+    {
+      "token": "1.1",
+      "name": "deff_default",
+      "spec": "f1",
+      "value": 1.1
+    },
+    {
+      "token": "1.0",
+      "name": "deff_1p0",
+      "spec": "f1",
+      "value": 1.0
+    },
+    {
+      "token": "1.25",
+      "name": "deff_1p25",
+      "spec": "f2",
+      "value": 1.25
+    },
+    {
+      "token": "1.0",
+      "name": "deff_1p0",
+      "spec": "f1",
+      "value": 1.0
+    },
+    {
+      "token": "24",
+      "name": "words_deff_statement",
+      "spec": "int",
+      "value": 24
+    },
+    {
+      "token": "0.076",
+      "name": "dq_7872_g20_p_scale",
+      "spec": "f3",
+      "value": 0.076
+    },
+    {
+      "token": "0.919",
+      "name": "dq_7872_g20_p_extend",
+      "spec": "f3",
+      "value": 0.919
+    },
+    {
+      "token": "0.005",
+      "name": "dq_7872_g20_p_stop",
+      "spec": "f3",
+      "value": 0.005
+    },
+    {
+      "token": "0.475",
+      "name": "dq_7872_g0_p_extend",
+      "spec": "f3",
+      "value": 0.475
+    },
+    {
+      "token": "0.525",
+      "name": "dq_7872_g0_p_stop",
+      "spec": "f3",
+      "value": 0.525
+    },
+    {
+      "token": "6.8 pp",
+      "name": "brief_quote_se_gamma_hat",
+      "spec": "pp1",
+      "value": 0.068
+    },
+    {
+      "token": "6.77 pp",
+      "name": "se_gamma_hat_difference_scaled",
+      "spec": "pp2",
+      "value": 0.06770666750982451
+    },
+    {
+      "token": "6.06 pp",
+      "name": "se_gamma_hat_delta_full",
+      "spec": "pp2",
+      "value": 0.0605922379589923
+    },
+    {
+      "token": "1.546417%",
+      "name": "pi_star_fully_loaded",
+      "spec": "pct6",
+      "value": 0.015464173262384629
+    },
+    {
+      "token": "$5,000",
+      "name": "wp5_fixed_cost_in_net",
+      "spec": "usd0",
+      "value": 5000.0
+    },
+    {
+      "token": "1.0361%",
+      "name": "pi_star_startup_excluded",
+      "spec": "pct4",
+      "value": 0.010361277644274275
+    },
+    {
+      "token": "0.9725",
+      "name": "v2_80k_adjusted_calibration",
+      "spec": "f4",
+      "value": 0.9725
+    },
+    {
+      "token": "0.5025",
+      "name": "v2_80k_unadjusted_calibration",
+      "spec": "f4",
+      "value": 0.5025
+    },
+    {
+      "token": "0.9525",
+      "name": "v2_80k_adjusted_test",
+      "spec": "f4",
+      "value": 0.9525
+    },
+    {
+      "token": "0.3725",
+      "name": "v2_80k_unadjusted_test",
+      "spec": "f4",
+      "value": 0.3725
+    },
+    {
+      "token": "80,000",
+      "name": "v2_grid_adjusted_calibration",
+      "spec": "int",
+      "value": 80000
+    }
+  ]
+}
