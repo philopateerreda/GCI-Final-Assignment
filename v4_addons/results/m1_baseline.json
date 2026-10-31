@@ -1,0 +1,987 @@
+{
+  "baseline": {
+    "bundle_trees": 385,
+    "calibration_customers": 10000,
+    "feature_count": 87,
+    "iterations": 385,
+    "pipeline_fit_line": "v1_frozen/analysis_pipeline.py:289 final_model.fit(best_frame.loc[refit_idx], y.loc[refit_idx])",
+    "pipeline_refit_line": "v1_frozen/analysis_pipeline.py:275 refit_idx = np.concatenate([train_idx, valid_idx])",
+    "refit_customers": 75000,
+    "selected_model": "LightGBM wider leaves"
+  },
+  "bootstrap": {
+    "failed": 0,
+    "reps": 2000,
+    "valid": 2000
+  },
+  "curve_fit": {
+    "a": 0.7075819128334495,
+    "b": 18.557711420095764,
+    "c": 0.671793499023514
+  },
+  "folds": [
+    {
+      "fold": 0,
+      "holdout_hash": "c0f78d346cd571f0a8a1630487d072fd408e8422cdfd4b0df6f7e91d050b91aa",
+      "holdout_ids_hash": "461eb1ae61a4c5e551fc06de9b74ab05edcd3bd410f8361ed317a3a2888f33f5",
+      "holdout_n": 7500,
+      "repeat": 0,
+      "train_hash": "60bab1946b6a60b3b1455ca41a8b8d077463c3c2177fd168b4876a3f3e02d996",
+      "train_n": 67500
+    },
+    {
+      "fold": 1,
+      "holdout_hash": "a5d23cd00917d6c63966b2cfabd2a1ed48c846688e6b042ddf09bd8bf700cebd",
+      "holdout_ids_hash": "77f417d2f2807ac8761c25a2d5ad9e1a73d28c9d5644300e4e6932431ce0bd0a",
+      "holdout_n": 7500,
+      "repeat": 0,
+      "train_hash": "ba2fb7e4efdaafdf557bf6de1b777aa67e9383af4f06d9cbb46df5dcf041732e",
+      "train_n": 67500
+    },
+    {
+      "fold": 2,
+      "holdout_hash": "e724a8ae37e3a908d90d859663818d80c43398b71741957e682d450fd8bd7a63",
+      "holdout_ids_hash": "b0774a21050933ecce806f591782a676bf53e5f5c6d48d610004f7b4effb637a",
+      "holdout_n": 7500,
+      "repeat": 0,
+      "train_hash": "a230b88596e90ad899692d46328a0d752f0ca174d2f19897eb8d7a626fd89333",
+      "train_n": 67500
+    },
+    {
+      "fold": 3,
+      "holdout_hash": "6fdf8f127065461dc3100f4cdc7a9269d900fd7548a9376f8eb1951381889a28",
+      "holdout_ids_hash": "d6f57dd8d361712d4a2c522c141d9e1ee674772e5dbbc43c8febeb701e7770a3",
+      "holdout_n": 7500,
+      "repeat": 0,
+      "train_hash": "232c18f10f68cd8f7beef525beaf869e8ae300de7ae7526d012f8a0c820601c2",
+      "train_n": 67500
+    },
+    {
+      "fold": 4,
+      "holdout_hash": "d499688536b90bf10ac94c2cd4a9f5c061fb22355f07bba798982ff39268961f",
+      "holdout_ids_hash": "d650ef52e66437706abcbe9e9b8ac849bd0cf58b0022b5ffcdcc97fdba1acfbb",
+      "holdout_n": 7500,
+      "repeat": 0,
+      "train_hash": "09744573a8616c6a27a00c6e4c7835abcafe583884c13bc460de782d11c3bdf4",
+      "train_n": 67500
+    },
+    {
+      "fold": 5,
+      "holdout_hash": "c832d2976ad3ff2ef668423e7dec6c24dd77e9c06a1da93c32ab0967b4aadf71",
+      "holdout_ids_hash": "0ae2102e7230c7dcd7a510cb1c65104a409866ce66d7b0e92b93e23d4f7bd459",
+      "holdout_n": 7500,
+      "repeat": 0,
+      "train_hash": "7f8ae611ac3bce22a8837abb9cfe257fd886a3edc134bc514463c9f6432e63a2",
+      "train_n": 67500
+    },
+    {
+      "fold": 6,
+      "holdout_hash": "97c3ceac71356b84ff2d7c7f138eafaec44b76eeb3a8e9bdbbc6808c09b52340",
+      "holdout_ids_hash": "a73fb2f21b1c13955eae2f6db833b1e4851025a2c43087378cda21e09ac96ab5",
+      "holdout_n": 7500,
+      "repeat": 0,
+      "train_hash": "ba0a9d77b94e02a0b9f42eadbaf10de841a8e5d29ac721e8a29899be098baced",
+      "train_n": 67500
+    },
+    {
+      "fold": 7,
+      "holdout_hash": "aea3566bcf7566328d3011d1e37df5d219bedbdfe017cc3014cbd7e11cf60a5f",
+      "holdout_ids_hash": "90fdb461922bef2d429353c0b283aa3a744415864a6a4b7b3f55af6e3871eff8",
+      "holdout_n": 7500,
+      "repeat": 0,
+      "train_hash": "968f230ddaf3cbba234eaa1531b5c07ab89e38c0c4ee381999f9fba52ff88a76",
+      "train_n": 67500
+    },
+    {
+      "fold": 8,
+      "holdout_hash": "7c7baf4c71d6b74ca379451b09da875f5632b498b15542f7d3dae8e44220b281",
+      "holdout_ids_hash": "38d3d32c7e6b7dbacdfb0147668abad16dfdc4d704507b054b91e353b074a344",
+      "holdout_n": 7500,
+      "repeat": 0,
+      "train_hash": "c92665934f7096516906fadeb91396fe3b6a6ebfbb58d765a92c141c862a8c46",
+      "train_n": 67500
+    },
+    {
+      "fold": 9,
+      "holdout_hash": "1cf4926afc1240019b21ad5cb7872bcd600758791283007920212fa80e49e233",
+      "holdout_ids_hash": "f1bd0ddd9b09da0e50c1518ada6a34d7ffbd37aec7baf099b3b2eba26c2236f0",
+      "holdout_n": 7500,
+      "repeat": 0,
+      "train_hash": "0834ce4ef13364036c9df48d68f471412608c70199302942b188b983d462a23e",
+      "train_n": 67500
+    },
+    {
+      "fold": 0,
+      "holdout_hash": "67b34c007653a33cec41a450f20f738b563551b044acb20c005b0b13bd6892ad",
+      "holdout_ids_hash": "f6062fa987ff609dd254af6ce22050621dcaffd6a0d66c55a70b34b9a53328ad",
+      "holdout_n": 7500,
+      "repeat": 1,
+      "train_hash": "33637e47da082518535122231a7bbfdca04b1fa3428c9b5841e645f5dc516138",
+      "train_n": 67500
+    },
+    {
+      "fold": 1,
+      "holdout_hash": "e6742945132270a4c4d5f3bc687fc99a5d3bacb2ce60e16e9d6db969133d9c2b",
+      "holdout_ids_hash": "1baaac269ff7e5ab765ba271fb6ace12f9961ddaa6f6b2f354cb6c21c37fdb27",
+      "holdout_n": 7500,
+      "repeat": 1,
+      "train_hash": "d6b0c632b4e299cc26a06de55467f71dbb608923bc74f18ea914bd03f9e8e14f",
+      "train_n": 67500
+    },
+    {
+      "fold": 2,
+      "holdout_hash": "72412e5268b272fc06ca9d2edd0d63d2b9d33cb6859929cad0624fe37bf016d6",
+      "holdout_ids_hash": "5d474517807e9795d5fda608b98445c6afbe4772bdbbdb1687ab6590214cc0e8",
+      "holdout_n": 7500,
+      "repeat": 1,
+      "train_hash": "13bc53ee2088c89d0c705a0e6cce46c9e4acbfd7753bee3d47291dff7811f812",
+      "train_n": 67500
+    },
+    {
+      "fold": 3,
+      "holdout_hash": "bb593f0fe313fea4e5b414c6ff3d80738d6dc9ce1c95e6a3fbc7f5610de25d39",
+      "holdout_ids_hash": "52cef685b72e5a34acc68d6201f907d57d780775a0b16db46e12b8b821128ad4",
+      "holdout_n": 7500,
+      "repeat": 1,
+      "train_hash": "a4ce51cd2b698fad9c375792a1bf7bdb5439b05deb7cd2d11dbe64b94aa602c1",
+      "train_n": 67500
+    },
+    {
+      "fold": 4,
+      "holdout_hash": "3dd9767d3c89aa4ef05ca46a646ab6e6ed9ce1c592b3b1d9da1234f82efceb0b",
+      "holdout_ids_hash": "8cd199dc4fc2a3634e7a8aeb48609c40dd3844397c48750f987445a59344c888",
+      "holdout_n": 7500,
+      "repeat": 1,
+      "train_hash": "148b546897feaff534b6774b9f6ce432ee4427b243082db98840cc74d6e3bfc1",
+      "train_n": 67500
+    },
+    {
+      "fold": 5,
+      "holdout_hash": "3418b9d2fc13fd85e8c20bd9d87e114fe53ccf97f742486a04538bc02763b9ea",
+      "holdout_ids_hash": "7e3f6da56e84107eeeb936c3c68f09a73160bd2163c7a6bdb148c029ef497dce",
+      "holdout_n": 7500,
+      "repeat": 1,
+      "train_hash": "d3c32731be30c251b20da53779c58c6dee3f2bcf552cd88e6b86dbaebafbe9a5",
+      "train_n": 67500
+    },
+    {
+      "fold": 6,
+      "holdout_hash": "1c193039189dcab73509384c3c461116dc5058477eae4023094099a51f31b1bd",
+      "holdout_ids_hash": "0a9bd4e05379c15d438c458d49abffa850229eee91705d5273a48998086418bf",
+      "holdout_n": 7500,
+      "repeat": 1,
+      "train_hash": "272ff375eee72cddc1cf8cb798fce77226195bd23f462d1886470096d6328968",
+      "train_n": 67500
+    },
+    {
+      "fold": 7,
+      "holdout_hash": "0e6b21dec9cd36eabe3669715bfb4b25f914214affbceaba19dbe446786defd6",
+      "holdout_ids_hash": "3f1b8262dc427d24be1f13ec0fabdd4090732b68a92041edb5e913a7eda79ded",
+      "holdout_n": 7500,
+      "repeat": 1,
+      "train_hash": "d477b7fedb89cbe4d6a963368069b0a94b14dda61ec9b06441ce58ee2f71dc06",
+      "train_n": 67500
+    },
+    {
+      "fold": 8,
+      "holdout_hash": "82ac95478bc2660f585c4f84684f14c86b65cf3d46b075df143a16524423d781",
+      "holdout_ids_hash": "8b18f97f4d94bfcfbf1f8ff8de749c4d52e9d90ce7fc57ced8cbeca58eb5f161",
+      "holdout_n": 7500,
+      "repeat": 1,
+      "train_hash": "d5f3458e79e45ba5d6ec3e2d169481ceb0d23e0fc47f1c437caf5751f804d6a6",
+      "train_n": 67500
+    },
+    {
+      "fold": 9,
+      "holdout_hash": "71ada295e693d4ee1b1fd8d1f28aaf88206fa060c780b021b8c91f9f634386a4",
+      "holdout_ids_hash": "99d91b2d20cd0ee422dd1f60d382eb6383f7e121bbf53ef64507f8bdec79d4f7",
+      "holdout_n": 7500,
+      "repeat": 1,
+      "train_hash": "2ecc27e34e8409577d435f1db76e858e309eeb39b8cb4c5e9d07a382a779c7cd",
+      "train_n": 67500
+    }
+  ],
+  "learning_curve": [
+    {
+      "folds": 20,
+      "heldout_auc_mean": 0.678564684183236,
+      "heldout_auc_sd": 0.006065097152446678,
+      "heldout_n": 7500,
+      "paired_gain_vs_previous": null,
+      "training_n": 15000
+    },
+    {
+      "folds": 20,
+      "heldout_auc_mean": 0.6891702489885893,
+      "heldout_auc_sd": 0.00647507429347889,
+      "heldout_n": 7500,
+      "paired_gain_vs_previous": 0.010605564805353258,
+      "training_n": 30000
+    },
+    {
+      "folds": 20,
+      "heldout_auc_mean": 0.6939485687541773,
+      "heldout_auc_sd": 0.006388618492274262,
+      "heldout_n": 7500,
+      "paired_gain_vs_previous": 0.004778319765588129,
+      "training_n": 45000
+    },
+    {
+      "folds": 20,
+      "heldout_auc_mean": 0.696203463119626,
+      "heldout_auc_sd": 0.005994325803900401,
+      "heldout_n": 7500,
+      "paired_gain_vs_previous": 0.0022548943654486175,
+      "training_n": 60000
+    },
+    {
+      "folds": 20,
+      "heldout_auc_mean": 0.6968446991975317,
+      "heldout_auc_sd": 0.006012610292538198,
+      "heldout_n": 7500,
+      "paired_gain_vs_previous": 0.0006412360779057269,
+      "training_n": 67500
+    }
+  ],
+  "numbers": {
+    "additional_non_test_rows": {
+      "formula": "non_test_pool_rows - frozen_refit_customers",
+      "inputs": [
+        "frozen_refit_customers",
+        "non_test_pool_rows"
+      ],
+      "sha256_of_source": null,
+      "source_file": null,
+      "source_key": null,
+      "tag": "[E]",
+      "value": 0
+    },
+    "bootstrap_ci_level": {
+      "formula": "0.95",
+      "inputs": [],
+      "note": "two-sided percentile bootstrap interval level",
+      "sha256_of_source": null,
+      "source_file": null,
+      "source_key": null,
+      "tag": "[R]",
+      "value": 0.95
+    },
+    "bootstrap_reps": {
+      "computed": true,
+      "inputs": [],
+      "note": "fold-cluster bootstrap replicates",
+      "seed": 20261039,
+      "sha256_of_source": null,
+      "source_file": null,
+      "source_key": null,
+      "tag": "[E]",
+      "value": 2000
+    },
+    "bootstrap_valid": {
+      "computed": true,
+      "inputs": [],
+      "note": "bootstrap replicates that converged",
+      "seed": 20261039,
+      "sha256_of_source": null,
+      "source_file": null,
+      "source_key": null,
+      "tag": "[E]",
+      "value": 2000
+    },
+    "curve_a": {
+      "computed": true,
+      "inputs": [],
+      "note": "least-squares AUC(n) = a - b*n^-c intercept",
+      "seed": 20261039,
+      "sha256_of_source": null,
+      "source_file": null,
+      "source_key": null,
+      "tag": "[E]",
+      "value": 0.7075819128334495
+    },
+    "curve_auc_15000": {
+      "computed": true,
+      "inputs": [],
+      "note": "mean held-out AUC over 20 folds",
+      "seed": 20261039,
+      "sha256_of_source": null,
+      "source_file": null,
+      "source_key": null,
+      "tag": "[E]",
+      "value": 0.678564684183236
+    },
+    "curve_auc_30000": {
+      "computed": true,
+      "inputs": [],
+      "note": "mean held-out AUC over 20 folds",
+      "seed": 20261039,
+      "sha256_of_source": null,
+      "source_file": null,
+      "source_key": null,
+      "tag": "[E]",
+      "value": 0.6891702489885893
+    },
+    "curve_auc_45000": {
+      "computed": true,
+      "inputs": [],
+      "note": "mean held-out AUC over 20 folds",
+      "seed": 20261039,
+      "sha256_of_source": null,
+      "source_file": null,
+      "source_key": null,
+      "tag": "[E]",
+      "value": 0.6939485687541773
+    },
+    "curve_auc_60000": {
+      "computed": true,
+      "inputs": [],
+      "note": "mean held-out AUC over 20 folds",
+      "seed": 20261039,
+      "sha256_of_source": null,
+      "source_file": null,
+      "source_key": null,
+      "tag": "[E]",
+      "value": 0.696203463119626
+    },
+    "curve_auc_67500": {
+      "computed": true,
+      "inputs": [],
+      "note": "mean held-out AUC over 20 folds",
+      "seed": 20261039,
+      "sha256_of_source": null,
+      "source_file": null,
+      "source_key": null,
+      "tag": "[E]",
+      "value": 0.6968446991975317
+    },
+    "curve_b": {
+      "computed": true,
+      "inputs": [],
+      "note": "least-squares b coefficient",
+      "seed": 20261039,
+      "sha256_of_source": null,
+      "source_file": null,
+      "source_key": null,
+      "tag": "[E]",
+      "value": 18.557711420095764
+    },
+    "curve_c": {
+      "computed": true,
+      "inputs": [],
+      "note": "least-squares exponent c",
+      "seed": 20261039,
+      "sha256_of_source": null,
+      "source_file": null,
+      "source_key": null,
+      "tag": "[E]",
+      "value": 0.671793499023514
+    },
+    "curve_c_lower": {
+      "computed": true,
+      "inputs": [],
+      "note": "percentile bootstrap bound over fold clusters",
+      "seed": 20261039,
+      "sha256_of_source": null,
+      "source_file": null,
+      "source_key": null,
+      "tag": "[E]",
+      "value": 0.4025491507837493
+    },
+    "curve_c_upper": {
+      "computed": true,
+      "inputs": [],
+      "note": "percentile bootstrap bound over fold clusters",
+      "seed": 20261039,
+      "sha256_of_source": null,
+      "source_file": null,
+      "source_key": null,
+      "tag": "[E]",
+      "value": 0.9644966930891173
+    },
+    "curve_cache_hits": {
+      "computed": true,
+      "inputs": [],
+      "note": "cache hits in this session",
+      "seed": 20261039,
+      "sha256_of_source": null,
+      "source_file": null,
+      "source_key": null,
+      "tag": "[E]",
+      "value": 0
+    },
+    "curve_fits": {
+      "computed": true,
+      "inputs": [],
+      "note": "completed fit/hold-out evaluations",
+      "seed": 20261039,
+      "sha256_of_source": null,
+      "source_file": null,
+      "source_key": null,
+      "tag": "[E]",
+      "value": 100
+    },
+    "curve_folds": {
+      "computed": true,
+      "inputs": [],
+      "note": "stratified folds per repeat",
+      "sha256_of_source": null,
+      "source_file": null,
+      "source_key": null,
+      "tag": "[E]",
+      "value": 10
+    },
+    "curve_gain_30000_over_15000": {
+      "computed": true,
+      "inputs": [],
+      "note": "mean paired fold gain against the previous size",
+      "seed": 20261039,
+      "sha256_of_source": null,
+      "source_file": null,
+      "source_key": null,
+      "tag": "[E]",
+      "value": 0.010605564805353258
+    },
+    "curve_gain_45000_over_30000": {
+      "computed": true,
+      "inputs": [],
+      "note": "mean paired fold gain against the previous size",
+      "seed": 20261039,
+      "sha256_of_source": null,
+      "source_file": null,
+      "source_key": null,
+      "tag": "[E]",
+      "value": 0.004778319765588129
+    },
+    "curve_gain_60000_over_45000": {
+      "computed": true,
+      "inputs": [],
+      "note": "mean paired fold gain against the previous size",
+      "seed": 20261039,
+      "sha256_of_source": null,
+      "source_file": null,
+      "source_key": null,
+      "tag": "[E]",
+      "value": 0.0022548943654486175
+    },
+    "curve_gain_67500_over_60000": {
+      "computed": true,
+      "inputs": [],
+      "note": "mean paired fold gain against the previous size",
+      "seed": 20261039,
+      "sha256_of_source": null,
+      "source_file": null,
+      "source_key": null,
+      "tag": "[E]",
+      "value": 0.0006412360779057269
+    },
+    "curve_holdout_rows": {
+      "formula": "non_test_pool_rows / curve_folds",
+      "inputs": [
+        "curve_folds",
+        "non_test_pool_rows"
+      ],
+      "sha256_of_source": null,
+      "source_file": null,
+      "source_key": null,
+      "tag": "[E]",
+      "value": 7500.0
+    },
+    "curve_minus_v2_60k": {
+      "formula": "curve_auc_60000 - v2_curve_auc_60000",
+      "inputs": [
+        "curve_auc_60000",
+        "v2_curve_auc_60000"
+      ],
+      "sha256_of_source": null,
+      "source_file": null,
+      "source_key": null,
+      "tag": "[E]",
+      "value": 0.00016648541062602717
+    },
+    "curve_new_fits": {
+      "computed": true,
+      "inputs": [],
+      "note": "new fits in this session",
+      "seed": 20261039,
+      "sha256_of_source": null,
+      "source_file": null,
+      "source_key": null,
+      "tag": "[E]",
+      "value": 100
+    },
+    "curve_pred_75000": {
+      "computed": true,
+      "inputs": [],
+      "note": "fitted curve evaluated at the full non-test pool",
+      "seed": 20261039,
+      "sha256_of_source": null,
+      "source_file": null,
+      "source_key": null,
+      "tag": "[E]",
+      "value": 0.6977306943091865
+    },
+    "curve_repeats": {
+      "computed": true,
+      "inputs": [],
+      "note": "repeats of the fold design",
+      "sha256_of_source": null,
+      "source_file": null,
+      "source_key": null,
+      "tag": "[E]",
+      "value": 2
+    },
+    "curve_sd_15000": {
+      "computed": true,
+      "inputs": [],
+      "note": "fold standard deviation of held-out AUC over 20 folds",
+      "seed": 20261039,
+      "sha256_of_source": null,
+      "source_file": null,
+      "source_key": null,
+      "tag": "[E]",
+      "value": 0.006065097152446678
+    },
+    "curve_sd_30000": {
+      "computed": true,
+      "inputs": [],
+      "note": "fold standard deviation of held-out AUC over 20 folds",
+      "seed": 20261039,
+      "sha256_of_source": null,
+      "source_file": null,
+      "source_key": null,
+      "tag": "[E]",
+      "value": 0.00647507429347889
+    },
+    "curve_sd_45000": {
+      "computed": true,
+      "inputs": [],
+      "note": "fold standard deviation of held-out AUC over 20 folds",
+      "seed": 20261039,
+      "sha256_of_source": null,
+      "source_file": null,
+      "source_key": null,
+      "tag": "[E]",
+      "value": 0.006388618492274262
+    },
+    "curve_sd_60000": {
+      "computed": true,
+      "inputs": [],
+      "note": "fold standard deviation of held-out AUC over 20 folds",
+      "seed": 20261039,
+      "sha256_of_source": null,
+      "source_file": null,
+      "source_key": null,
+      "tag": "[E]",
+      "value": 0.005994325803900401
+    },
+    "curve_sd_67500": {
+      "computed": true,
+      "inputs": [],
+      "note": "fold standard deviation of held-out AUC over 20 folds",
+      "seed": 20261039,
+      "sha256_of_source": null,
+      "source_file": null,
+      "source_key": null,
+      "tag": "[E]",
+      "value": 0.006012610292538198
+    },
+    "curve_size_15000": {
+      "formula": "15000",
+      "inputs": [],
+      "note": "brief size set",
+      "sha256_of_source": null,
+      "source_file": null,
+      "source_key": null,
+      "tag": "[R]",
+      "value": 15000
+    },
+    "curve_size_30000": {
+      "formula": "30000",
+      "inputs": [],
+      "note": "brief size set",
+      "sha256_of_source": null,
+      "source_file": null,
+      "source_key": null,
+      "tag": "[R]",
+      "value": 30000
+    },
+    "curve_size_45000": {
+      "formula": "45000",
+      "inputs": [],
+      "note": "brief size set",
+      "sha256_of_source": null,
+      "source_file": null,
+      "source_key": null,
+      "tag": "[R]",
+      "value": 45000
+    },
+    "curve_size_60000": {
+      "formula": "60000",
+      "inputs": [],
+      "note": "replaces N_frozen in the brief size set: N_frozen equals the whole pool and leaves no hold-out; 60k is the largest hold-out training size used by v2",
+      "sha256_of_source": null,
+      "source_file": null,
+      "source_key": null,
+      "tag": "[R]",
+      "value": 60000
+    },
+    "curve_size_67500": {
+      "formula": "67500",
+      "inputs": [],
+      "note": "largest clean training size inside a 10-fold split of the pool",
+      "sha256_of_source": null,
+      "source_file": null,
+      "source_key": null,
+      "tag": "[R]",
+      "value": 67500
+    },
+    "delta_s_curve": {
+      "computed": true,
+      "inputs": [],
+      "note": "curve-implied gain from the largest clean training size to the full pool",
+      "seed": 20261039,
+      "sha256_of_source": null,
+      "source_file": null,
+      "source_key": null,
+      "tag": "[E]",
+      "value": 0.0007225436399593832
+    },
+    "delta_s_curve_60k_75k": {
+      "computed": true,
+      "inputs": [],
+      "note": "curve-implied gain from 60k to the full pool",
+      "seed": 20261039,
+      "sha256_of_source": null,
+      "source_file": null,
+      "source_key": null,
+      "tag": "[E]",
+      "value": 0.001593193095367762
+    },
+    "delta_s_curve_lower": {
+      "computed": true,
+      "inputs": [],
+      "note": "percentile bootstrap bound over fold clusters",
+      "seed": 20261039,
+      "sha256_of_source": null,
+      "source_file": null,
+      "source_key": null,
+      "tag": "[E]",
+      "value": 0.0005357876657926447
+    },
+    "delta_s_curve_upper": {
+      "computed": true,
+      "inputs": [],
+      "note": "percentile bootstrap bound over fold clusters",
+      "seed": 20261039,
+      "sha256_of_source": null,
+      "source_file": null,
+      "source_key": null,
+      "tag": "[E]",
+      "value": 0.0009426926219480214
+    },
+    "delta_s_identity": {
+      "computed": true,
+      "inputs": [],
+      "note": "AUC(N_all) - AUC(N_frozen) = 0 because N_all = N_frozen: the frozen refit covers every non-test row",
+      "sha256_of_source": null,
+      "source_file": null,
+      "source_key": null,
+      "tag": "[E]",
+      "value": 0.0
+    },
+    "fits_wall_seconds": {
+      "computed": true,
+      "inputs": [],
+      "note": "wall time of the learning curve (cache hits included)",
+      "seed": 20261039,
+      "sha256_of_source": null,
+      "source_file": null,
+      "source_key": null,
+      "tag": "[E]",
+      "value": 303.54996759999995
+    },
+    "frozen_bundle_trees": {
+      "computed": true,
+      "inputs": [],
+      "note": "n_estimators recorded in the frozen bundle",
+      "sha256_of_source": "8a59fe9ac8c2eafb85c442fa1531035399aeecc6530a4b6489914385ecedfa3c",
+      "source_file": "v1_frozen/analysis_outputs/models/selected_model.joblib",
+      "source_key": null,
+      "tag": "[E]",
+      "value": 385
+    },
+    "frozen_calibration_customers": {
+      "sha256_of_source": "62e17913b8e7bf7bf1ac8fdd4556d242b524c884a0e929352c2b9e3bb5e9acc3",
+      "source_file": "v1_frozen/analysis_outputs/model_selection.json",
+      "source_key": "calibration_customers",
+      "tag": "[E]",
+      "value": 10000
+    },
+    "frozen_features": {
+      "computed": true,
+      "inputs": [],
+      "note": "feature names recorded in the frozen bundle",
+      "sha256_of_source": "8a59fe9ac8c2eafb85c442fa1531035399aeecc6530a4b6489914385ecedfa3c",
+      "source_file": "v1_frozen/analysis_outputs/models/selected_model.joblib",
+      "source_key": null,
+      "tag": "[E]",
+      "value": 87
+    },
+    "frozen_iterations": {
+      "sha256_of_source": "62e17913b8e7bf7bf1ac8fdd4556d242b524c884a0e929352c2b9e3bb5e9acc3",
+      "source_file": "v1_frozen/analysis_outputs/model_selection.json",
+      "source_key": "iterations",
+      "tag": "[E]",
+      "value": 385
+    },
+    "frozen_refit_customers": {
+      "sha256_of_source": "62e17913b8e7bf7bf1ac8fdd4556d242b524c884a0e929352c2b9e3bb5e9acc3",
+      "source_file": "v1_frozen/analysis_outputs/model_selection.json",
+      "source_key": "refit_customers",
+      "tag": "[E]",
+      "value": 75000
+    },
+    "gate_passed": {
+      "formula": "1 if delta_s_identity >= gate_threshold else 0",
+      "inputs": [
+        "delta_s_identity",
+        "gate_threshold"
+      ],
+      "sha256_of_source": null,
+      "source_file": null,
+      "source_key": null,
+      "tag": "[E]",
+      "value": 0
+    },
+    "gate_threshold": {
+      "formula": "0.0015",
+      "inputs": [],
+      "note": "M1 gate: point prediction of DeltaS must be at least this value",
+      "sha256_of_source": null,
+      "source_file": null,
+      "source_key": null,
+      "tag": "[R]",
+      "value": 0.0015
+    },
+    "non_test_pool_rows": {
+      "computed": true,
+      "inputs": [],
+      "note": "train + validation rows after non_test_pool()",
+      "sha256_of_source": "4caefcbed46a834f89cfbf21387f78555e601b43a8cee81d1637c786fb0a21b3",
+      "source_file": "v1_frozen/analysis_outputs/tables/split_manifest.csv",
+      "source_key": null,
+      "tag": "[E]",
+      "value": 75000
+    },
+    "pool_calibration_overlap": {
+      "computed": true,
+      "inputs": [],
+      "note": "non-test pool rows also in the calibration-policy partition",
+      "sha256_of_source": null,
+      "source_file": null,
+      "source_key": null,
+      "tag": "[E]",
+      "value": 0
+    },
+    "pool_test_overlap": {
+      "computed": true,
+      "inputs": [],
+      "note": "non-test pool rows also in the test partition",
+      "sha256_of_source": null,
+      "source_file": null,
+      "source_key": null,
+      "tag": "[E]",
+      "value": 0
+    },
+    "split_calibration_rows": {
+      "computed": true,
+      "inputs": [],
+      "note": "calibration_policy rows in the split manifest",
+      "sha256_of_source": "4caefcbed46a834f89cfbf21387f78555e601b43a8cee81d1637c786fb0a21b3",
+      "source_file": "v1_frozen/analysis_outputs/tables/split_manifest.csv",
+      "source_key": "partition value counts",
+      "tag": "[E]",
+      "value": 10000
+    },
+    "split_test_rows": {
+      "computed": true,
+      "inputs": [],
+      "note": "test rows in the split manifest",
+      "sha256_of_source": "4caefcbed46a834f89cfbf21387f78555e601b43a8cee81d1637c786fb0a21b3",
+      "source_file": "v1_frozen/analysis_outputs/tables/split_manifest.csv",
+      "source_key": "partition value counts",
+      "tag": "[E]",
+      "value": 15000
+    },
+    "split_train_rows": {
+      "computed": true,
+      "inputs": [],
+      "note": "train rows in the split manifest",
+      "sha256_of_source": "4caefcbed46a834f89cfbf21387f78555e601b43a8cee81d1637c786fb0a21b3",
+      "source_file": "v1_frozen/analysis_outputs/tables/split_manifest.csv",
+      "source_key": "partition value counts",
+      "tag": "[E]",
+      "value": 60000
+    },
+    "split_validation_rows": {
+      "computed": true,
+      "inputs": [],
+      "note": "validation rows in the split manifest",
+      "sha256_of_source": "4caefcbed46a834f89cfbf21387f78555e601b43a8cee81d1637c786fb0a21b3",
+      "source_file": "v1_frozen/analysis_outputs/tables/split_manifest.csv",
+      "source_key": "partition value counts",
+      "tag": "[E]",
+      "value": 15000
+    },
+    "v2_curve_auc_60000": {
+      "sha256_of_source": "9801ac1065313b05cc879583f264bc2ed448b2fe05ff4d8b62ccf14a5655e1db",
+      "source_file": "v2_work/d_results/learning_curve_summary.csv",
+      "source_key": "where(training_n=60000).heldout_auc_mean",
+      "tag": "[E]",
+      "value": 0.696036977709
+    },
+    "v2_curve_training_n": {
+      "sha256_of_source": "9801ac1065313b05cc879583f264bc2ed448b2fe05ff4d8b62ccf14a5655e1db",
+      "source_file": "v2_work/d_results/learning_curve_summary.csv",
+      "source_key": "where(training_n=60000).training_n",
+      "tag": "[E]",
+      "value": 60000.0
+    },
+    "verdict_kill": {
+      "formula": "1",
+      "inputs": [],
+      "note": "M1 branch: DeltaS below the gate -> COMPLETED_REJECTED and KILL",
+      "sha256_of_source": null,
+      "source_file": null,
+      "source_key": null,
+      "tag": "[R]",
+      "value": 1
+    }
+  },
+  "provenance": {
+    "created_utc": "2026-10-31T09:40:11.706556+00:00",
+    "input_files": [
+      {
+        "path": "v1_frozen/analysis_outputs/model_selection.json",
+        "present": true,
+        "sha256": "62e17913b8e7bf7bf1ac8fdd4556d242b524c884a0e929352c2b9e3bb5e9acc3",
+        "size": 321
+      },
+      {
+        "path": "v1_frozen/analysis_outputs/models/selected_model.joblib",
+        "present": true,
+        "sha256": "8a59fe9ac8c2eafb85c442fa1531035399aeecc6530a4b6489914385ecedfa3c",
+        "size": 1375735
+      },
+      {
+        "path": "v1_frozen/analysis_outputs/tables/split_manifest.csv",
+        "present": true,
+        "sha256": "4caefcbed46a834f89cfbf21387f78555e601b43a8cee81d1637c786fb0a21b3",
+        "size": 1690023
+      },
+      {
+        "path": "v1_frozen/analysis_pipeline.py",
+        "present": true,
+        "sha256": "4a70b0878f744a10806e08b6be07fe22ed153f0b041473565d1ab2b21f28398e",
+        "size": 34327
+      },
+      {
+        "path": "v2_work/common.py",
+        "present": true,
+        "sha256": "c68e6bcd81a24ae6960474ea537c4574fd0139fd83126fae0a853275611b0de7",
+        "size": 4647
+      },
+      {
+        "path": "v2_work/d_results/learning_curve_summary.csv",
+        "present": true,
+        "sha256": "9801ac1065313b05cc879583f264bc2ed448b2fe05ff4d8b62ccf14a5655e1db",
+        "size": 578
+      },
+      {
+        "path": "v2_work/d_results/selected_model_recipe.json",
+        "present": true,
+        "sha256": "06b41e073ab8d8993e43937cb0ab9c259f82776132bdab649bdd6c11a4418d25",
+        "size": 7157
+      },
+      {
+        "path": "v2_work/workstream_d.py",
+        "present": true,
+        "sha256": "bca0612d17586fe0e5a941ab6585e06bd7a6e0581de86f0abd46726a3f66dee2",
+        "size": 71261
+      }
+    ],
+    "python_version": "3.11.9 (tags/v3.11.9:de54cf5, Apr  2 2024, 10:12:12) [MSC v.1938 64 bit (AMD64)]",
+    "row_counts": {
+      "learning_curve_folds": 100,
+      "non_test_pool": 75000
+    },
+    "runtime": {
+      "env": {
+        "MKL_NUM_THREADS": "6",
+        "NUMEXPR_NUM_THREADS": "6",
+        "OMP_NUM_THREADS": "6",
+        "OPENBLAS_NUM_THREADS": "6"
+      },
+      "function_sha256": "77f490da30fa85a8826efca565835a7127fa2d629110a92afe8b0a497a437bca",
+      "pools": [
+        {
+          "architecture": "Haswell",
+          "filepath": "C:\\Users\\FGstore\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\numpy.libs\\libscipy_openblas64_-860d95b1c38e637ce4509f5fa24fbf2a.dll",
+          "internal_api": "openblas",
+          "num_threads": 6,
+          "prefix": "libscipy_openblas",
+          "threading_layer": "pthreads",
+          "user_api": "blas",
+          "version": "0.3.30"
+        },
+        {
+          "architecture": "Haswell",
+          "filepath": "C:\\Users\\FGstore\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\scipy.libs\\libscipy_openblas-64eda39e79589aedb16f58e5547eb599.dll",
+          "internal_api": "openblas",
+          "num_threads": 6,
+          "prefix": "libscipy_openblas",
+          "threading_layer": "pthreads",
+          "user_api": "blas",
+          "version": "0.3.30"
+        },
+        {
+          "filepath": "C:\\Users\\FGstore\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\sklearn\\.libs\\vcomp140.dll",
+          "internal_api": "openmp",
+          "num_threads": 6,
+          "prefix": "vcomp",
+          "user_api": "openmp",
+          "version": null
+        }
+      ],
+      "source": "v3_addons/src/common.py",
+      "thread_cap": 6
+    },
+    "script": "v4_addons/tools/m1_learning_curve.py",
+    "script_sha256": "c8f737859b492a6c93f02baa1e2640294d2b904ad497fbab002e37b9db864ab0",
+    "seed": 20261039,
+    "tags_used": [
+      "[E]",
+      "[A]",
+      "[R]"
+    ]
+  },
+  "sizes": [
+    15000,
+    30000,
+    45000,
+    60000,
+    67500
+  ],
+  "split_counts": {
+    "calibration_policy": 10000,
+    "test": 15000,
+    "train": 60000,
+    "validation": 15000
+  },
+  "verdict": {
+    "card": "M1",
+    "decision": "KILL",
+    "gate": "FAIL",
+    "track_m_status": "COMPLETED_REJECTED"
+  }
+}

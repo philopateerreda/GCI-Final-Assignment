@@ -1,0 +1,253 @@
+{
+  "report": "v4_addons/reports/F0_report.md",
+  "report_sha256": "07d1febc24de60cd8a06cc242301c0307263cb951cf87cef86f77682ae8a9801",
+  "results_json": "v4_addons/results/f0_closeout.json",
+  "tokens": [
+    {
+      "token": "75,000",
+      "name": "closure_refit_customers",
+      "spec": "int",
+      "value": 75000
+    },
+    {
+      "token": "10,000",
+      "name": "closure_calibration_customers",
+      "spec": "int",
+      "value": 10000
+    },
+    {
+      "token": "0.678565",
+      "name": "closure_auc_15000",
+      "spec": "f6",
+      "value": 0.678564684183236
+    },
+    {
+      "token": "0.689170",
+      "name": "closure_auc_30000",
+      "spec": "f6",
+      "value": 0.6891702489885893
+    },
+    {
+      "token": "0.693949",
+      "name": "closure_auc_45000",
+      "spec": "f6",
+      "value": 0.6939485687541773
+    },
+    {
+      "token": "0.696203",
+      "name": "closure_auc_60000",
+      "spec": "f6",
+      "value": 0.696203463119626
+    },
+    {
+      "token": "0.696845",
+      "name": "closure_auc_67500",
+      "spec": "f6",
+      "value": 0.6968446991975317
+    },
+    {
+      "token": "0.000641",
+      "name": "closure_gain_last_step",
+      "spec": "f6",
+      "value": 0.0006412360779057269
+    },
+    {
+      "token": "0.707582",
+      "name": "curve_a",
+      "spec": "f6",
+      "value": 0.7075819128334495
+    },
+    {
+      "token": "18.557711",
+      "name": "curve_b",
+      "spec": "f6",
+      "value": 18.557711420095764
+    },
+    {
+      "token": "0.672",
+      "name": "curve_c",
+      "spec": "f3",
+      "value": 0.671793499023514
+    },
+    {
+      "token": "0.403",
+      "name": "curve_c_lower",
+      "spec": "f3",
+      "value": 0.4025491507837493
+    },
+    {
+      "token": "0.964",
+      "name": "curve_c_upper",
+      "spec": "f3",
+      "value": 0.9644966930891173
+    },
+    {
+      "token": "0.0000",
+      "name": "delta_s_identity",
+      "spec": "f4",
+      "value": 0.0
+    },
+    {
+      "token": "0.0015",
+      "name": "gate_threshold",
+      "spec": "f4",
+      "value": 0.0015
+    },
+    {
+      "token": "0.0008",
+      "name": "extrap_10k_gain",
+      "spec": "f4",
+      "value": 0.000794459161633309
+    },
+    {
+      "token": "0.0037",
+      "name": "extrap_double_gain",
+      "spec": "f4",
+      "value": 0.0036673541098952863
+    },
+    {
+      "token": "0.0024",
+      "name": "extrap_double_boot_lower",
+      "spec": "f4",
+      "value": 0.002422137468392843
+    },
+    {
+      "token": "0.0052",
+      "name": "extrap_double_boot_upper",
+      "spec": "f4",
+      "value": 0.005203833865837547
+    },
+    {
+      "token": "0.0052",
+      "name": "extrap_double_cond_at_c_lower",
+      "spec": "f4",
+      "value": 0.005195617596009283
+    },
+    {
+      "token": "0.0025",
+      "name": "extrap_double_cond_at_c_upper",
+      "spec": "f4",
+      "value": 0.0024709339755887294
+    },
+    {
+      "token": "7,872",
+      "name": "pilot_per_arm",
+      "spec": "int",
+      "value": 7872
+    },
+    {
+      "token": "$12,872",
+      "name": "stage1_cost",
+      "spec": "usd0",
+      "value": 12872.0
+    },
+    {
+      "token": "$5,000",
+      "name": "startup_stage1",
+      "spec": "usd0",
+      "value": 5000.0
+    },
+    {
+      "token": "0.0",
+      "name": "control_incremental_contact",
+      "spec": "f1",
+      "value": 0.0
+    },
+    {
+      "token": "7,872",
+      "name": "pilot_per_arm",
+      "spec": "int",
+      "value": 7872
+    },
+    {
+      "token": "$12,872",
+      "name": "stage1_cost",
+      "spec": "usd0",
+      "value": 12872.0
+    },
+    {
+      "token": "$5,000",
+      "name": "startup_stage1",
+      "spec": "usd0",
+      "value": 5000.0
+    },
+    {
+      "token": "0.0",
+      "name": "control_incremental_contact",
+      "spec": "f1",
+      "value": 0.0
+    },
+    {
+      "token": "0.707582",
+      "name": "curve_a",
+      "spec": "f6",
+      "value": 0.7075819128334495
+    },
+    {
+      "token": "18.557711",
+      "name": "curve_b",
+      "spec": "f6",
+      "value": 18.557711420095764
+    },
+    {
+      "token": "0.672",
+      "name": "curve_c",
+      "spec": "f3",
+      "value": 0.671793499023514
+    },
+    {
+      "token": "0.403",
+      "name": "curve_c_lower",
+      "spec": "f3",
+      "value": 0.4025491507837493
+    },
+    {
+      "token": "0.964",
+      "name": "curve_c_upper",
+      "spec": "f3",
+      "value": 0.9644966930891173
+    },
+    {
+      "token": "2,000",
+      "name": "extrap_check_reps",
+      "spec": "int",
+      "value": 2000
+    },
+    {
+      "token": "0.0024",
+      "name": "extrap_double_boot_lower",
+      "spec": "f4",
+      "value": 0.002422137468392843
+    },
+    {
+      "token": "0.0052",
+      "name": "extrap_double_boot_upper",
+      "spec": "f4",
+      "value": 0.005203833865837547
+    },
+    {
+      "token": "0.0052",
+      "name": "extrap_double_cond_at_c_lower",
+      "spec": "f4",
+      "value": 0.005195617596009283
+    },
+    {
+      "token": "0.0025",
+      "name": "extrap_double_cond_at_c_upper",
+      "spec": "f4",
+      "value": 0.0024709339755887294
+    },
+    {
+      "token": "169",
+      "name": "closure_note_words",
+      "spec": "int",
+      "value": 169
+    },
+    {
+      "token": "200",
+      "name": "closure_note_limit",
+      "spec": "int",
+      "value": 200
+    }
+  ]
+}

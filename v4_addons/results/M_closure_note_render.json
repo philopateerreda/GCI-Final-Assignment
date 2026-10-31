@@ -1,0 +1,145 @@
+{
+  "report": "v4_addons/reports/M_closure_note.md",
+  "report_sha256": "13fb06423f546074d4e62fc6091c5e07fc71f9a14d8882fc23f8a8347c262093",
+  "results_json": "v4_addons/results/f0_closeout.json",
+  "tokens": [
+    {
+      "token": "75,000",
+      "name": "closure_refit_customers",
+      "spec": "int",
+      "value": 75000
+    },
+    {
+      "token": "10,000",
+      "name": "closure_calibration_customers",
+      "spec": "int",
+      "value": 10000
+    },
+    {
+      "token": "0.0000",
+      "name": "delta_s_identity",
+      "spec": "f4",
+      "value": 0.0
+    },
+    {
+      "token": "0.0015",
+      "name": "gate_threshold",
+      "spec": "f4",
+      "value": 0.0015
+    },
+    {
+      "token": "0.678565",
+      "name": "closure_auc_15000",
+      "spec": "f6",
+      "value": 0.678564684183236
+    },
+    {
+      "token": "0.689170",
+      "name": "closure_auc_30000",
+      "spec": "f6",
+      "value": 0.6891702489885893
+    },
+    {
+      "token": "0.693949",
+      "name": "closure_auc_45000",
+      "spec": "f6",
+      "value": 0.6939485687541773
+    },
+    {
+      "token": "0.696203",
+      "name": "closure_auc_60000",
+      "spec": "f6",
+      "value": 0.696203463119626
+    },
+    {
+      "token": "0.696845",
+      "name": "closure_auc_67500",
+      "spec": "f6",
+      "value": 0.6968446991975317
+    },
+    {
+      "token": "15,000",
+      "name": "closure_size_15000",
+      "spec": "int",
+      "value": 15000
+    },
+    {
+      "token": "30,000",
+      "name": "closure_size_30000",
+      "spec": "int",
+      "value": 30000
+    },
+    {
+      "token": "45,000",
+      "name": "closure_size_45000",
+      "spec": "int",
+      "value": 45000
+    },
+    {
+      "token": "60,000",
+      "name": "closure_size_60000",
+      "spec": "int",
+      "value": 60000
+    },
+    {
+      "token": "67,500",
+      "name": "closure_size_67500",
+      "spec": "int",
+      "value": 67500
+    },
+    {
+      "token": "0.000641",
+      "name": "closure_gain_last_step",
+      "spec": "f6",
+      "value": 0.0006412360779057269
+    },
+    {
+      "token": "0.672",
+      "name": "curve_c",
+      "spec": "f3",
+      "value": 0.671793499023514
+    },
+    {
+      "token": "95%",
+      "name": "bootstrap_ci_level",
+      "spec": "pct0",
+      "value": 0.95
+    },
+    {
+      "token": "0.403",
+      "name": "curve_c_lower",
+      "spec": "f3",
+      "value": 0.4025491507837493
+    },
+    {
+      "token": "0.964",
+      "name": "curve_c_upper",
+      "spec": "f3",
+      "value": 0.9644966930891173
+    },
+    {
+      "token": "10,000",
+      "name": "extrap_10k_rows",
+      "spec": "int",
+      "value": 10000
+    },
+    {
+      "token": "0.0008",
+      "name": "extrap_10k_gain",
+      "spec": "f4",
+      "value": 0.000794459161633309
+    },
+    {
+      "token": "150,000",
+      "name": "extrap_double_rows",
+      "spec": "int",
+      "value": 150000
+    },
+    {
+      "token": "0.0037",
+      "name": "extrap_double_gain",
+      "spec": "f4",
+      "value": 0.0036673541098952863
+    }
+  ]
+}

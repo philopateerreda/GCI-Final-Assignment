@@ -1,0 +1,211 @@
+{
+  "report": "v4_addons/reports/M0_report.md",
+  "report_sha256": "50eb298a361af4f64ac4d0f2b440cb73666f00b15c53c10df849e688c9cbefb8",
+  "results_json": "v4_addons/results/m0_feasibility.json",
+  "tokens": [
+    {
+      "token": "1",
+      "name": "verdict_go",
+      "spec": "int",
+      "value": 1
+    },
+    {
+      "token": "11",
+      "name": "entry_points",
+      "spec": "int",
+      "value": 11
+    },
+    {
+      "token": "0.0",
+      "name": "calibrator_replay_max_abs_diff",
+      "spec": "f1",
+      "value": 0.0
+    },
+    {
+      "token": "3,073",
+      "name": "csv_parser_ulp_rows",
+      "spec": "int",
+      "value": 3073
+    },
+    {
+      "token": "15,000",
+      "name": "served_rows",
+      "spec": "int",
+      "value": 15000
+    },
+    {
+      "token": "15,000",
+      "name": "frozen_frame_rows",
+      "spec": "int",
+      "value": 15000
+    },
+    {
+      "token": "1",
+      "name": "final_metrics_hash_equal",
+      "spec": "int",
+      "value": 1
+    },
+    {
+      "token": "26",
+      "name": "final_metrics_keys",
+      "spec": "int",
+      "value": 26
+    },
+    {
+      "token": "0",
+      "name": "final_metrics_differing_keys",
+      "spec": "int",
+      "value": 0
+    },
+    {
+      "token": "0.23",
+      "name": "final_metrics_wall_seconds",
+      "spec": "f2",
+      "value": 0.23
+    },
+    {
+      "token": "10",
+      "name": "a_artifacts_hash_equal",
+      "spec": "int",
+      "value": 10
+    },
+    {
+      "token": "10",
+      "name": "a_artifacts_compared",
+      "spec": "int",
+      "value": 10
+    },
+    {
+      "token": "16.41",
+      "name": "a_replay_wall_seconds",
+      "spec": "f2",
+      "value": 16.41
+    },
+    {
+      "token": "278",
+      "name": "ledger_rows_total",
+      "spec": "int",
+      "value": 278
+    },
+    {
+      "token": "52",
+      "name": "ledger_rows_dependent",
+      "spec": "int",
+      "value": 52
+    },
+    {
+      "token": "25",
+      "name": "ledger_rows_narrative",
+      "spec": "int",
+      "value": 25
+    },
+    {
+      "token": "201",
+      "name": "ledger_rows_unaffected",
+      "spec": "int",
+      "value": 201
+    },
+    {
+      "token": "7",
+      "name": "ledger_affected_slides",
+      "spec": "int",
+      "value": 7
+    },
+    {
+      "token": "40",
+      "name": "dependent_final_metrics_rows",
+      "spec": "int",
+      "value": 40
+    },
+    {
+      "token": "12",
+      "name": "dependent_chart_rows",
+      "spec": "int",
+      "value": 12
+    },
+    {
+      "token": "1.5",
+      "name": "regeneration_effort_days",
+      "spec": "f1",
+      "value": 1.5
+    },
+    {
+      "token": "10",
+      "name": "a_artifacts_hash_equal",
+      "spec": "int",
+      "value": 10
+    },
+    {
+      "token": "10",
+      "name": "a_artifacts_compared",
+      "spec": "int",
+      "value": 10
+    },
+    {
+      "token": "1",
+      "name": "final_metrics_hash_equal",
+      "spec": "int",
+      "value": 1
+    },
+    {
+      "token": "52",
+      "name": "ledger_rows_dependent",
+      "spec": "int",
+      "value": 52
+    },
+    {
+      "token": "7",
+      "name": "ledger_affected_slides",
+      "spec": "int",
+      "value": 7
+    },
+    {
+      "token": "278",
+      "name": "ledger_rows_total",
+      "spec": "int",
+      "value": 278
+    },
+    {
+      "token": "52",
+      "name": "ledger_rows_dependent",
+      "spec": "int",
+      "value": 52
+    },
+    {
+      "token": "25",
+      "name": "ledger_rows_narrative",
+      "spec": "int",
+      "value": 25
+    },
+    {
+      "token": "201",
+      "name": "ledger_rows_unaffected",
+      "spec": "int",
+      "value": 201
+    },
+    {
+      "token": "1.5",
+      "name": "regeneration_effort_days",
+      "spec": "f1",
+      "value": 1.5
+    },
+    {
+      "token": "52",
+      "name": "ledger_rows_dependent",
+      "spec": "int",
+      "value": 52
+    },
+    {
+      "token": "25",
+      "name": "ledger_rows_narrative",
+      "spec": "int",
+      "value": 25
+    },
+    {
+      "token": "3,073",
+      "name": "csv_parser_ulp_rows",
+      "spec": "int",
+      "value": 3073
+    }
+  ]
+}

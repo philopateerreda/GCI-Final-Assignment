@@ -1,0 +1,811 @@
+{
+  "report": "v4_addons/reports/M1_report.md",
+  "report_sha256": "a1f05b265458fb7bbb30d58c6f7b34324c86e648054c69c017821c24bbfbd158",
+  "results_json": "v4_addons/results/m1_baseline.json",
+  "tokens": [
+    {
+      "token": "385",
+      "name": "frozen_iterations",
+      "spec": "int",
+      "value": 385
+    },
+    {
+      "token": "75,000",
+      "name": "frozen_refit_customers",
+      "spec": "int",
+      "value": 75000
+    },
+    {
+      "token": "10,000",
+      "name": "frozen_calibration_customers",
+      "spec": "int",
+      "value": 10000
+    },
+    {
+      "token": "87",
+      "name": "frozen_features",
+      "spec": "int",
+      "value": 87
+    },
+    {
+      "token": "385",
+      "name": "frozen_bundle_trees",
+      "spec": "int",
+      "value": 385
+    },
+    {
+      "token": "60,000",
+      "name": "split_train_rows",
+      "spec": "int",
+      "value": 60000
+    },
+    {
+      "token": "15,000",
+      "name": "split_validation_rows",
+      "spec": "int",
+      "value": 15000
+    },
+    {
+      "token": "10,000",
+      "name": "split_calibration_rows",
+      "spec": "int",
+      "value": 10000
+    },
+    {
+      "token": "15,000",
+      "name": "split_test_rows",
+      "spec": "int",
+      "value": 15000
+    },
+    {
+      "token": "75,000",
+      "name": "non_test_pool_rows",
+      "spec": "int",
+      "value": 75000
+    },
+    {
+      "token": "0",
+      "name": "pool_test_overlap",
+      "spec": "int",
+      "value": 0
+    },
+    {
+      "token": "0",
+      "name": "pool_calibration_overlap",
+      "spec": "int",
+      "value": 0
+    },
+    {
+      "token": "0",
+      "name": "additional_non_test_rows",
+      "spec": "int",
+      "value": 0
+    },
+    {
+      "token": "0.0000",
+      "name": "delta_s_identity",
+      "spec": "f4",
+      "value": 0.0
+    },
+    {
+      "token": "0.0015",
+      "name": "gate_threshold",
+      "spec": "f4",
+      "value": 0.0015
+    },
+    {
+      "token": "0",
+      "name": "gate_passed",
+      "spec": "int",
+      "value": 0
+    },
+    {
+      "token": "10",
+      "name": "curve_folds",
+      "spec": "int",
+      "value": 10
+    },
+    {
+      "token": "2",
+      "name": "curve_repeats",
+      "spec": "int",
+      "value": 2
+    },
+    {
+      "token": "7,500",
+      "name": "curve_holdout_rows",
+      "spec": "int",
+      "value": 7500.0
+    },
+    {
+      "token": "100",
+      "name": "curve_fits",
+      "spec": "int",
+      "value": 100
+    },
+    {
+      "token": "0.678565",
+      "name": "curve_auc_15000",
+      "spec": "f6",
+      "value": 0.678564684183236
+    },
+    {
+      "token": "0.689170",
+      "name": "curve_auc_30000",
+      "spec": "f6",
+      "value": 0.6891702489885893
+    },
+    {
+      "token": "0.693949",
+      "name": "curve_auc_45000",
+      "spec": "f6",
+      "value": 0.6939485687541773
+    },
+    {
+      "token": "0.696203",
+      "name": "curve_auc_60000",
+      "spec": "f6",
+      "value": 0.696203463119626
+    },
+    {
+      "token": "0.696845",
+      "name": "curve_auc_67500",
+      "spec": "f6",
+      "value": 0.6968446991975317
+    },
+    {
+      "token": "0.707582",
+      "name": "curve_a",
+      "spec": "f6",
+      "value": 0.7075819128334495
+    },
+    {
+      "token": "18.5577",
+      "name": "curve_b",
+      "spec": "f4",
+      "value": 18.557711420095764
+    },
+    {
+      "token": "0.672",
+      "name": "curve_c",
+      "spec": "f3",
+      "value": 0.671793499023514
+    },
+    {
+      "token": "0.403",
+      "name": "curve_c_lower",
+      "spec": "f3",
+      "value": 0.4025491507837493
+    },
+    {
+      "token": "0.964",
+      "name": "curve_c_upper",
+      "spec": "f3",
+      "value": 0.9644966930891173
+    },
+    {
+      "token": "0.697731",
+      "name": "curve_pred_75000",
+      "spec": "f6",
+      "value": 0.6977306943091865
+    },
+    {
+      "token": "0.000723",
+      "name": "delta_s_curve",
+      "spec": "f6",
+      "value": 0.0007225436399593832
+    },
+    {
+      "token": "0.000536",
+      "name": "delta_s_curve_lower",
+      "spec": "f6",
+      "value": 0.0005357876657926447
+    },
+    {
+      "token": "0.000943",
+      "name": "delta_s_curve_upper",
+      "spec": "f6",
+      "value": 0.0009426926219480214
+    },
+    {
+      "token": "0.001593",
+      "name": "delta_s_curve_60k_75k",
+      "spec": "f6",
+      "value": 0.001593193095367762
+    },
+    {
+      "token": "0.696037",
+      "name": "v2_curve_auc_60000",
+      "spec": "f6",
+      "value": 0.696036977709
+    },
+    {
+      "token": "0.000166",
+      "name": "curve_minus_v2_60k",
+      "spec": "f6",
+      "value": 0.00016648541062602717
+    },
+    {
+      "token": "303.5",
+      "name": "fits_wall_seconds",
+      "spec": "f1",
+      "value": 303.54996759999995
+    },
+    {
+      "token": "1",
+      "name": "verdict_kill",
+      "spec": "int",
+      "value": 1
+    },
+    {
+      "token": "385",
+      "name": "frozen_iterations",
+      "spec": "int",
+      "value": 385
+    },
+    {
+      "token": "87",
+      "name": "frozen_features",
+      "spec": "int",
+      "value": 87
+    },
+    {
+      "token": "75,000",
+      "name": "frozen_refit_customers",
+      "spec": "int",
+      "value": 75000
+    },
+    {
+      "token": "10,000",
+      "name": "frozen_calibration_customers",
+      "spec": "int",
+      "value": 10000
+    },
+    {
+      "token": "60,000",
+      "name": "split_train_rows",
+      "spec": "int",
+      "value": 60000
+    },
+    {
+      "token": "15,000",
+      "name": "split_validation_rows",
+      "spec": "int",
+      "value": 15000
+    },
+    {
+      "token": "75,000",
+      "name": "non_test_pool_rows",
+      "spec": "int",
+      "value": 75000
+    },
+    {
+      "token": "10,000",
+      "name": "split_calibration_rows",
+      "spec": "int",
+      "value": 10000
+    },
+    {
+      "token": "15,000",
+      "name": "split_test_rows",
+      "spec": "int",
+      "value": 15000
+    },
+    {
+      "token": "0",
+      "name": "pool_test_overlap",
+      "spec": "int",
+      "value": 0
+    },
+    {
+      "token": "0",
+      "name": "pool_calibration_overlap",
+      "spec": "int",
+      "value": 0
+    },
+    {
+      "token": "0",
+      "name": "additional_non_test_rows",
+      "spec": "int",
+      "value": 0
+    },
+    {
+      "token": "0.0000",
+      "name": "delta_s_identity",
+      "spec": "f4",
+      "value": 0.0
+    },
+    {
+      "token": "0.0015",
+      "name": "gate_threshold",
+      "spec": "f4",
+      "value": 0.0015
+    },
+    {
+      "token": "15,000",
+      "name": "curve_size_15000",
+      "spec": "int",
+      "value": 15000
+    },
+    {
+      "token": "0.678565",
+      "name": "curve_auc_15000",
+      "spec": "f6",
+      "value": 0.678564684183236
+    },
+    {
+      "token": "0.006065",
+      "name": "curve_sd_15000",
+      "spec": "f6",
+      "value": 0.006065097152446678
+    },
+    {
+      "token": "0.010606",
+      "name": "curve_gain_30000_over_15000",
+      "spec": "f6",
+      "value": 0.010605564805353258
+    },
+    {
+      "token": "30,000",
+      "name": "curve_size_30000",
+      "spec": "int",
+      "value": 30000
+    },
+    {
+      "token": "0.689170",
+      "name": "curve_auc_30000",
+      "spec": "f6",
+      "value": 0.6891702489885893
+    },
+    {
+      "token": "0.006475",
+      "name": "curve_sd_30000",
+      "spec": "f6",
+      "value": 0.00647507429347889
+    },
+    {
+      "token": "0.004778",
+      "name": "curve_gain_45000_over_30000",
+      "spec": "f6",
+      "value": 0.004778319765588129
+    },
+    {
+      "token": "45,000",
+      "name": "curve_size_45000",
+      "spec": "int",
+      "value": 45000
+    },
+    {
+      "token": "0.693949",
+      "name": "curve_auc_45000",
+      "spec": "f6",
+      "value": 0.6939485687541773
+    },
+    {
+      "token": "0.006389",
+      "name": "curve_sd_45000",
+      "spec": "f6",
+      "value": 0.006388618492274262
+    },
+    {
+      "token": "0.002255",
+      "name": "curve_gain_60000_over_45000",
+      "spec": "f6",
+      "value": 0.0022548943654486175
+    },
+    {
+      "token": "60,000",
+      "name": "curve_size_60000",
+      "spec": "int",
+      "value": 60000
+    },
+    {
+      "token": "0.696203",
+      "name": "curve_auc_60000",
+      "spec": "f6",
+      "value": 0.696203463119626
+    },
+    {
+      "token": "0.005994",
+      "name": "curve_sd_60000",
+      "spec": "f6",
+      "value": 0.005994325803900401
+    },
+    {
+      "token": "0.000641",
+      "name": "curve_gain_67500_over_60000",
+      "spec": "f6",
+      "value": 0.0006412360779057269
+    },
+    {
+      "token": "67,500",
+      "name": "curve_size_67500",
+      "spec": "int",
+      "value": 67500
+    },
+    {
+      "token": "0.696845",
+      "name": "curve_auc_67500",
+      "spec": "f6",
+      "value": 0.6968446991975317
+    },
+    {
+      "token": "0.006013",
+      "name": "curve_sd_67500",
+      "spec": "f6",
+      "value": 0.006012610292538198
+    },
+    {
+      "token": "100",
+      "name": "curve_fits",
+      "spec": "int",
+      "value": 100
+    },
+    {
+      "token": "2",
+      "name": "curve_repeats",
+      "spec": "int",
+      "value": 2
+    },
+    {
+      "token": "10",
+      "name": "curve_folds",
+      "spec": "int",
+      "value": 10
+    },
+    {
+      "token": "75,000",
+      "name": "non_test_pool_rows",
+      "spec": "int",
+      "value": 75000
+    },
+    {
+      "token": "7,500",
+      "name": "curve_holdout_rows",
+      "spec": "int",
+      "value": 7500.0
+    },
+    {
+      "token": "0.707582",
+      "name": "curve_a",
+      "spec": "f6",
+      "value": 0.7075819128334495
+    },
+    {
+      "token": "18.5577",
+      "name": "curve_b",
+      "spec": "f4",
+      "value": 18.557711420095764
+    },
+    {
+      "token": "0.672",
+      "name": "curve_c",
+      "spec": "f3",
+      "value": 0.671793499023514
+    },
+    {
+      "token": "95%",
+      "name": "bootstrap_ci_level",
+      "spec": "pct0",
+      "value": 0.95
+    },
+    {
+      "token": "0.403",
+      "name": "curve_c_lower",
+      "spec": "f3",
+      "value": 0.4025491507837493
+    },
+    {
+      "token": "0.964",
+      "name": "curve_c_upper",
+      "spec": "f3",
+      "value": 0.9644966930891173
+    },
+    {
+      "token": "2,000",
+      "name": "bootstrap_valid",
+      "spec": "int",
+      "value": 2000
+    },
+    {
+      "token": "2,000",
+      "name": "bootstrap_reps",
+      "spec": "int",
+      "value": 2000
+    },
+    {
+      "token": "303.5",
+      "name": "fits_wall_seconds",
+      "spec": "f1",
+      "value": 303.54996759999995
+    },
+    {
+      "token": "0",
+      "name": "curve_cache_hits",
+      "spec": "int",
+      "value": 0
+    },
+    {
+      "token": "0.697731",
+      "name": "curve_pred_75000",
+      "spec": "f6",
+      "value": 0.6977306943091865
+    },
+    {
+      "token": "0.000723",
+      "name": "delta_s_curve",
+      "spec": "f6",
+      "value": 0.0007225436399593832
+    },
+    {
+      "token": "95%",
+      "name": "bootstrap_ci_level",
+      "spec": "pct0",
+      "value": 0.95
+    },
+    {
+      "token": "0.000536",
+      "name": "delta_s_curve_lower",
+      "spec": "f6",
+      "value": 0.0005357876657926447
+    },
+    {
+      "token": "0.000943",
+      "name": "delta_s_curve_upper",
+      "spec": "f6",
+      "value": 0.0009426926219480214
+    },
+    {
+      "token": "60,000",
+      "name": "curve_size_60000",
+      "spec": "int",
+      "value": 60000
+    },
+    {
+      "token": "0.001593",
+      "name": "delta_s_curve_60k_75k",
+      "spec": "f6",
+      "value": 0.001593193095367762
+    },
+    {
+      "token": "75,000",
+      "name": "non_test_pool_rows",
+      "spec": "int",
+      "value": 75000
+    },
+    {
+      "token": "60,000",
+      "name": "v2_curve_training_n",
+      "spec": "int",
+      "value": 60000.0
+    },
+    {
+      "token": "0.696037",
+      "name": "v2_curve_auc_60000",
+      "spec": "f6",
+      "value": 0.696036977709
+    },
+    {
+      "token": "0.696203",
+      "name": "curve_auc_60000",
+      "spec": "f6",
+      "value": 0.696203463119626
+    },
+    {
+      "token": "0.000166",
+      "name": "curve_minus_v2_60k",
+      "spec": "f6",
+      "value": 0.00016648541062602717
+    },
+    {
+      "token": "0.000723",
+      "name": "delta_s_curve",
+      "spec": "f6",
+      "value": 0.0007225436399593832
+    },
+    {
+      "token": "0.000943",
+      "name": "delta_s_curve_upper",
+      "spec": "f6",
+      "value": 0.0009426926219480214
+    },
+    {
+      "token": "0.0015",
+      "name": "gate_threshold",
+      "spec": "f4",
+      "value": 0.0015
+    },
+    {
+      "token": "0.0000",
+      "name": "delta_s_identity",
+      "spec": "f4",
+      "value": 0.0
+    },
+    {
+      "token": "60,000",
+      "name": "curve_size_60000",
+      "spec": "int",
+      "value": 60000
+    },
+    {
+      "token": "0.001593",
+      "name": "delta_s_curve_60k_75k",
+      "spec": "f6",
+      "value": 0.001593193095367762
+    },
+    {
+      "token": "60,000",
+      "name": "curve_size_60000",
+      "spec": "int",
+      "value": 60000
+    },
+    {
+      "token": "75,000",
+      "name": "frozen_refit_customers",
+      "spec": "int",
+      "value": 75000
+    },
+    {
+      "token": "75,000",
+      "name": "frozen_refit_customers",
+      "spec": "int",
+      "value": 75000
+    },
+    {
+      "token": "67,500",
+      "name": "curve_size_67500",
+      "spec": "int",
+      "value": 67500
+    },
+    {
+      "token": "75,000",
+      "name": "non_test_pool_rows",
+      "spec": "int",
+      "value": 75000
+    },
+    {
+      "token": "7,500",
+      "name": "curve_holdout_rows",
+      "spec": "int",
+      "value": 7500.0
+    },
+    {
+      "token": "0.000723",
+      "name": "delta_s_curve",
+      "spec": "f6",
+      "value": 0.0007225436399593832
+    },
+    {
+      "token": "0.000943",
+      "name": "delta_s_curve_upper",
+      "spec": "f6",
+      "value": 0.0009426926219480214
+    },
+    {
+      "token": "75,000",
+      "name": "frozen_refit_customers",
+      "spec": "int",
+      "value": 75000
+    },
+    {
+      "token": "10,000",
+      "name": "frozen_calibration_customers",
+      "spec": "int",
+      "value": 10000
+    },
+    {
+      "token": "75,000",
+      "name": "non_test_pool_rows",
+      "spec": "int",
+      "value": 75000
+    },
+    {
+      "token": "0",
+      "name": "pool_test_overlap",
+      "spec": "int",
+      "value": 0
+    },
+    {
+      "token": "0",
+      "name": "pool_calibration_overlap",
+      "spec": "int",
+      "value": 0
+    },
+    {
+      "token": "100",
+      "name": "curve_fits",
+      "spec": "int",
+      "value": 100
+    },
+    {
+      "token": "10",
+      "name": "curve_folds",
+      "spec": "int",
+      "value": 10
+    },
+    {
+      "token": "2",
+      "name": "curve_repeats",
+      "spec": "int",
+      "value": 2
+    },
+    {
+      "token": "7,500",
+      "name": "curve_holdout_rows",
+      "spec": "int",
+      "value": 7500.0
+    },
+    {
+      "token": "0.0000",
+      "name": "delta_s_identity",
+      "spec": "f4",
+      "value": 0.0
+    },
+    {
+      "token": "0.0015",
+      "name": "gate_threshold",
+      "spec": "f4",
+      "value": 0.0015
+    },
+    {
+      "token": "75,000",
+      "name": "frozen_refit_customers",
+      "spec": "int",
+      "value": 75000
+    },
+    {
+      "token": "15,000",
+      "name": "curve_size_15000",
+      "spec": "int",
+      "value": 15000
+    },
+    {
+      "token": "30,000",
+      "name": "curve_size_30000",
+      "spec": "int",
+      "value": 30000
+    },
+    {
+      "token": "45,000",
+      "name": "curve_size_45000",
+      "spec": "int",
+      "value": 45000
+    },
+    {
+      "token": "60,000",
+      "name": "curve_size_60000",
+      "spec": "int",
+      "value": 60000
+    },
+    {
+      "token": "67,500",
+      "name": "curve_size_67500",
+      "spec": "int",
+      "value": 67500
+    },
+    {
+      "token": "60,000",
+      "name": "curve_size_60000",
+      "spec": "int",
+      "value": 60000
+    },
+    {
+      "token": "67,500",
+      "name": "curve_size_67500",
+      "spec": "int",
+      "value": 67500
+    },
+    {
+      "token": "60,000",
+      "name": "v2_curve_training_n",
+      "spec": "int",
+      "value": 60000.0
+    },
+    {
+      "token": "0.000166",
+      "name": "curve_minus_v2_60k",
+      "spec": "f6",
+      "value": 0.00016648541062602717
+    }
+  ]
+}

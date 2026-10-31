@@ -1,0 +1,1760 @@
+{
+  "a_layer": {
+    "all_hash_equal": true,
+    "files": [
+      {
+        "hash_equal": true,
+        "name": "a_policies_test.csv",
+        "produced": true,
+        "size": 5542
+      },
+      {
+        "hash_equal": true,
+        "name": "a_profit_curves_test.csv",
+        "produced": true,
+        "size": 41082
+      },
+      {
+        "hash_equal": true,
+        "name": "a_overlap_test.csv",
+        "produced": true,
+        "size": 1436
+      },
+      {
+        "hash_equal": true,
+        "name": "a_dual_valuation_test.csv",
+        "produced": true,
+        "size": 9258
+      },
+      {
+        "hash_equal": true,
+        "name": "a_value_proxy_sensitivity_test.csv",
+        "produced": true,
+        "size": 7133
+      },
+      {
+        "hash_equal": true,
+        "name": "a_bootstrap_test.csv",
+        "produced": true,
+        "size": 646624
+      },
+      {
+        "hash_equal": true,
+        "name": "a_intervals_test.csv",
+        "produced": true,
+        "size": 7155
+      },
+      {
+        "hash_equal": true,
+        "name": "a_calibration_uncertainty_test.csv",
+        "produced": true,
+        "size": 24255
+      },
+      {
+        "hash_equal": true,
+        "name": "a_summary_test.json",
+        "produced": true,
+        "size": 47602
+      },
+      {
+        "hash_equal": true,
+        "name": "a_summary.json (vs a_summary_test.json)",
+        "produced": true,
+        "size": 47602
+      }
+    ],
+    "wall_seconds": 16.41
+  },
+  "dependent_rows": [
+    {
+      "claim": "C0005",
+      "displayed": "3.7k",
+      "exact_value": 3747.082455665277,
+      "name": "ledger_C0005_value",
+      "slide": 2,
+      "source_key": "v2_work/final_metrics.json::deployment_policies.bayes.net"
+    },
+    {
+      "claim": "C0060",
+      "displayed": "29.5%",
+      "exact_value": 0.2951286030895049,
+      "name": "ledger_C0060_value",
+      "slide": 9,
+      "source_key": "v2_work/final_metrics.json::deployment_policies.bayes.value_recall"
+    },
+    {
+      "claim": "C0061",
+      "displayed": "15.0%",
+      "exact_value": 0.1502562153110172,
+      "name": "ledger_C0061_value",
+      "slide": 9,
+      "source_key": "v2_work/final_metrics.json::deployment_policies.value.value_recall"
+    },
+    {
+      "claim": "C0062",
+      "displayed": "25.6%",
+      "exact_value": 0.255800562523395,
+      "name": "ledger_C0062_value",
+      "slide": 9,
+      "source_key": "v2_work/final_metrics.json::deployment_policies.risk.value_recall"
+    },
+    {
+      "claim": "C0063",
+      "displayed": "+15.4%",
+      "exact_value": 0.1537449338584349,
+      "name": "ledger_C0063_value",
+      "slide": 9,
+      "source_key": "v2_work/final_metrics.json::deployment_relative_value_gain"
+    },
+    {
+      "claim": "C0064",
+      "displayed": "+11.3%",
+      "exact_value": 0.1126109293543485,
+      "name": "ledger_C0064_value",
+      "slide": 9,
+      "source_key": "v2_work/final_metrics.json::deployment_intervals.relative_value_gain_vs_risk.lower"
+    },
+    {
+      "claim": "C0065",
+      "displayed": "+19.7%",
+      "exact_value": 0.196668463579351,
+      "name": "ledger_C0065_value",
+      "slide": 9,
+      "source_key": "v2_work/final_metrics.json::deployment_intervals.relative_value_gain_vs_risk.upper"
+    },
+    {
+      "claim": "C0072",
+      "displayed": "582",
+      "exact_value": 582.0,
+      "name": "ledger_C0072_value",
+      "slide": 10,
+      "source_key": "v2_work/final_metrics.json::pilot_test.queues.0.raw_count"
+    },
+    {
+      "claim": "C0073",
+      "displayed": "68.7",
+      "exact_value": 68.74004858077647,
+      "name": "ledger_C0073_value",
+      "slide": 10,
+      "source_key": "v2_work/final_metrics.json::pilot_test.queues.0.mean_bill"
+    },
+    {
+      "claim": "C0074",
+      "displayed": "23.4%",
+      "exact_value": 0.2340620297453866,
+      "name": "ledger_C0074_value",
+      "slide": 10,
+      "source_key": "v2_work/final_metrics.json::pilot_test.queues.0.share_at_risk_value"
+    },
+    {
+      "claim": "C0075",
+      "displayed": "266",
+      "exact_value": 266.0,
+      "name": "ledger_C0075_value",
+      "slide": 10,
+      "source_key": "v2_work/final_metrics.json::pilot_test.queues.1.raw_count"
+    },
+    {
+      "claim": "C0076",
+      "displayed": "59.7",
+      "exact_value": 59.661242760755975,
+      "name": "ledger_C0076_value",
+      "slide": 10,
+      "source_key": "v2_work/final_metrics.json::pilot_test.queues.1.mean_bill"
+    },
+    {
+      "claim": "C0077",
+      "displayed": "10.4%",
+      "exact_value": 0.1040392484440546,
+      "name": "ledger_C0077_value",
+      "slide": 10,
+      "source_key": "v2_work/final_metrics.json::pilot_test.queues.1.share_at_risk_value"
+    },
+    {
+      "claim": "C0078",
+      "displayed": "791",
+      "exact_value": 791.0,
+      "name": "ledger_C0078_value",
+      "slide": 10,
+      "source_key": "v2_work/final_metrics.json::pilot_test.queues.2.raw_count"
+    },
+    {
+      "claim": "C0079",
+      "displayed": "62.9",
+      "exact_value": 62.86842695788842,
+      "name": "ledger_C0079_value",
+      "slide": 10,
+      "source_key": "v2_work/final_metrics.json::pilot_test.queues.2.mean_bill"
+    },
+    {
+      "claim": "C0080",
+      "displayed": "30.7%",
+      "exact_value": 0.3067027654002414,
+      "name": "ledger_C0080_value",
+      "slide": 10,
+      "source_key": "v2_work/final_metrics.json::pilot_test.queues.2.share_at_risk_value"
+    },
+    {
+      "claim": "C0081",
+      "displayed": "866",
+      "exact_value": 866.0,
+      "name": "ledger_C0081_value",
+      "slide": 10,
+      "source_key": "v2_work/final_metrics.json::pilot_test.queues.3.raw_count"
+    },
+    {
+      "claim": "C0082",
+      "displayed": "64.7",
+      "exact_value": 64.67478199897347,
+      "name": "ledger_C0082_value",
+      "slide": 10,
+      "source_key": "v2_work/final_metrics.json::pilot_test.queues.3.mean_bill"
+    },
+    {
+      "claim": "C0083",
+      "displayed": "35.5%",
+      "exact_value": 0.3551959564103172,
+      "name": "ledger_C0083_value",
+      "slide": 10,
+      "source_key": "v2_work/final_metrics.json::pilot_test.queues.3.share_at_risk_value"
+    },
+    {
+      "claim": "C0087",
+      "displayed": "3.7k",
+      "exact_value": 3747.082455665277,
+      "name": "ledger_C0087_value",
+      "slide": 11,
+      "source_key": "v2_work/final_metrics.json::deployment_policies.bayes.net"
+    },
+    {
+      "claim": "C0088",
+      "displayed": "9,985",
+      "exact_value": 9984.92153410634,
+      "name": "ledger_C0088_value",
+      "slide": 11,
+      "source_key": "v2_work/final_metrics.json::deployment_policies.bayes.contacts"
+    },
+    {
+      "claim": "C0098",
+      "displayed": "2.8k",
+      "exact_value": 2761.36950443581,
+      "name": "ledger_C0098_value",
+      "slide": 11,
+      "source_key": "v2_work/final_metrics.json::deployment_intervals.net.lower"
+    },
+    {
+      "claim": "C0099",
+      "displayed": "4.7k",
+      "exact_value": 4660.637082299275,
+      "name": "ledger_C0099_value",
+      "slide": 11,
+      "source_key": "v2_work/final_metrics.json::deployment_intervals.net.upper"
+    },
+    {
+      "claim": "C0100",
+      "displayed": "95",
+      "exact_value": 95.27908540685944,
+      "name": "ledger_C0100_value",
+      "slide": 11,
+      "source_key": "v2_work/final_metrics.json::deployment_prevented"
+    },
+    {
+      "claim": "C0101",
+      "displayed": "31.2k",
+      "exact_value": 31220.00664961936,
+      "name": "ledger_C0101_value",
+      "slide": 11,
+      "source_key": "v2_work/final_metrics.json::deployment_retained_revenue"
+    },
+    {
+      "claim": "C0102",
+      "displayed": "18.7k",
+      "exact_value": 18732.003989771616,
+      "name": "ledger_C0102_value",
+      "slide": 11,
+      "source_key": "v2_work/final_metrics.json::deployment_policies.bayes.actual_gross"
+    },
+    {
+      "claim": "C0104",
+      "displayed": "\u22125.6",
+      "exact_value": -5618.919539220531,
+      "name": "ledger_C0104_value",
+      "slide": 12,
+      "source_key": "v2_work/final_metrics.json::heatmap.0.net"
+    },
+    {
+      "claim": "C0105",
+      "displayed": "\u221215.6",
+      "exact_value": -15603.84107332687,
+      "name": "ledger_C0105_value",
+      "slide": 12,
+      "source_key": "v2_work/final_metrics.json::heatmap.1.net"
+    },
+    {
+      "claim": "C0106",
+      "displayed": "\u221245.6",
+      "exact_value": -45558.605675645886,
+      "name": "ledger_C0106_value",
+      "slide": 12,
+      "source_key": "v2_work/final_metrics.json::heatmap.2.net"
+    },
+    {
+      "claim": "C0107",
+      "displayed": "+3.7",
+      "exact_value": 3747.082455665277,
+      "name": "ledger_C0107_value",
+      "slide": 12,
+      "source_key": "v2_work/final_metrics.json::heatmap.3.net"
+    },
+    {
+      "claim": "C0108",
+      "displayed": "\u22126.2",
+      "exact_value": -6237.839078441062,
+      "name": "ledger_C0108_value",
+      "slide": 12,
+      "source_key": "v2_work/final_metrics.json::heatmap.4.net"
+    },
+    {
+      "claim": "C0109",
+      "displayed": "\u221236.2",
+      "exact_value": -36192.60368076008,
+      "name": "ledger_C0109_value",
+      "slide": 12,
+      "source_key": "v2_work/final_metrics.json::heatmap.5.net"
+    },
+    {
+      "claim": "C0110",
+      "displayed": "+13.1",
+      "exact_value": 13113.084450551089,
+      "name": "ledger_C0110_value",
+      "slide": 12,
+      "source_key": "v2_work/final_metrics.json::heatmap.6.net"
+    },
+    {
+      "claim": "C0111",
+      "displayed": "+3.1",
+      "exact_value": 3128.162916444748,
+      "name": "ledger_C0111_value",
+      "slide": 12,
+      "source_key": "v2_work/final_metrics.json::heatmap.7.net"
+    },
+    {
+      "claim": "C0112",
+      "displayed": "\u221226.8",
+      "exact_value": -26826.60168587427,
+      "name": "ledger_C0112_value",
+      "slide": 12,
+      "source_key": "v2_work/final_metrics.json::heatmap.8.net"
+    },
+    {
+      "claim": "C0122",
+      "displayed": "1.38",
+      "exact_value": 1.3752741013403111,
+      "name": "ledger_C0122_value",
+      "slide": 12,
+      "source_key": "v2_work/final_metrics.json::deployment_policies.bayes.break_even_contact_cost"
+    },
+    {
+      "claim": "C0123",
+      "displayed": "16.0%",
+      "exact_value": 0.1599927219990843,
+      "name": "ledger_C0123_value",
+      "slide": 12,
+      "source_key": "v2_work/final_metrics.json::deployment_policies.bayes.break_even_success"
+    },
+    {
+      "claim": "C0127",
+      "displayed": "\u22125.6k",
+      "exact_value": -5558.443445736175,
+      "name": "ledger_C0127_value",
+      "slide": 12,
+      "source_key": "v2_work/final_metrics.json::prior_stress.0.net"
+    },
+    {
+      "claim": "C0128",
+      "displayed": "+3.7k",
+      "exact_value": 3747.082455665277,
+      "name": "ledger_C0128_value",
+      "slide": 12,
+      "source_key": "v2_work/final_metrics.json::prior_stress.1.net"
+    },
+    {
+      "claim": "C0129",
+      "displayed": "+30.7k",
+      "exact_value": 30740.05363149663,
+      "name": "ledger_C0129_value",
+      "slide": 12,
+      "source_key": "v2_work/final_metrics.json::prior_stress.2.net"
+    },
+    {
+      "claim": "C0211",
+      "displayed": "0.619",
+      "exact_value": 0.6193292385072477,
+      "name": "ledger_C0211_value",
+      "slide": 8,
+      "source_key": "v2_work/chart_numeric_sources.json::18.value"
+    },
+    {
+      "claim": "C0212",
+      "displayed": "0.698",
+      "exact_value": 0.6978109022411016,
+      "name": "ledger_C0212_value",
+      "slide": 8,
+      "source_key": "v2_work/chart_numeric_sources.json::19.value"
+    },
+    {
+      "claim": "C0213",
+      "displayed": "0.500",
+      "exact_value": 0.5,
+      "name": "ledger_C0213_value",
+      "slide": 8,
+      "source_key": "v2_work/chart_numeric_sources.json::20.value"
+    },
+    {
+      "claim": "C0232",
+      "displayed": "1,774",
+      "exact_value": 1774.0,
+      "name": "ledger_C0232_value",
+      "slide": 5,
+      "source_key": "v2_work/chart_numeric_sources.json::39.value"
+    },
+    {
+      "claim": "C0233",
+      "displayed": "53.9",
+      "exact_value": 53.85016444911885,
+      "name": "ledger_C0233_value",
+      "slide": 5,
+      "source_key": "v2_work/chart_numeric_sources.json::40.value"
+    },
+    {
+      "claim": "C0234",
+      "displayed": "6.6%",
+      "exact_value": 0.0659507289078484,
+      "name": "ledger_C0234_value",
+      "slide": 5,
+      "source_key": "v2_work/chart_numeric_sources.json::41.value"
+    },
+    {
+      "claim": "C0235",
+      "displayed": "731",
+      "exact_value": 731.0,
+      "name": "ledger_C0235_value",
+      "slide": 5,
+      "source_key": "v2_work/chart_numeric_sources.json::42.value"
+    },
+    {
+      "claim": "C0236",
+      "displayed": "78.7",
+      "exact_value": 78.71660564863997,
+      "name": "ledger_C0236_value",
+      "slide": 5,
+      "source_key": "v2_work/chart_numeric_sources.json::43.value"
+    },
+    {
+      "claim": "C0237",
+      "displayed": "2.8%",
+      "exact_value": 0.0280273565068158,
+      "name": "ledger_C0237_value",
+      "slide": 5,
+      "source_key": "v2_work/chart_numeric_sources.json::44.value"
+    },
+    {
+      "claim": "C0238",
+      "displayed": "1,117",
+      "exact_value": 1117.0,
+      "name": "ledger_C0238_value",
+      "slide": 5,
+      "source_key": "v2_work/chart_numeric_sources.json::45.value"
+    },
+    {
+      "claim": "C0239",
+      "displayed": "24.6",
+      "exact_value": 24.572827043571245,
+      "name": "ledger_C0239_value",
+      "slide": 5,
+      "source_key": "v2_work/chart_numeric_sources.json::46.value"
+    },
+    {
+      "claim": "C0240",
+      "displayed": "4.9%",
+      "exact_value": 0.0493181304266715,
+      "name": "ledger_C0240_value",
+      "slide": 5,
+      "source_key": "v2_work/chart_numeric_sources.json::47.value"
+    }
+  ],
+  "entry_points": {
+    "analysis_pipeline.py": {
+      "path": "analysis_pipeline.py",
+      "present": true,
+      "sha256": "87ca9f1b0e14ebb5d62102a0e66a9dbe1903dff7abf79a563e661e91ff0ffe07",
+      "size": 353674
+    },
+    "v2_work/analysis_pipeline_v2.py": {
+      "path": "v2_work/analysis_pipeline_v2.py",
+      "present": true,
+      "sha256": "87ca9f1b0e14ebb5d62102a0e66a9dbe1903dff7abf79a563e661e91ff0ffe07",
+      "size": 353674
+    },
+    "v2_work/build_v2_canonical.py": {
+      "path": "v2_work/build_v2_canonical.py",
+      "present": true,
+      "sha256": "d885309cf7e4978caabca79fca38324b0d27812319bba0b438af0da68e361827",
+      "size": 9722
+    },
+    "v2_work/final_metrics.py": {
+      "path": "v2_work/final_metrics.py",
+      "present": true,
+      "sha256": "3ac156a1726ed3a5435c58b318324b2add30bae2887aff6c5f109e6e6d6edacc",
+      "size": 5754
+    },
+    "v2_work/final_protocol.py": {
+      "path": "v2_work/final_protocol.py",
+      "present": true,
+      "sha256": "be181a475db397ea42bc85899ddf4c368a19c2aeac714c0cf3bb195117f31875",
+      "size": 4924
+    },
+    "v2_work/generate_visuals.py": {
+      "path": "v2_work/generate_visuals.py",
+      "present": true,
+      "sha256": "0f835d8e4d17df55b7d7d29d3e4df35e2e014c44e589bad9518e2861a9c9d42f",
+      "size": 7479
+    },
+    "v2_work/run_frozen_batch.py": {
+      "path": "v2_work/run_frozen_batch.py",
+      "present": true,
+      "sha256": "6864317b3274c2937a52f8cd19a9f06474d486cd64da658c6bd0ed1c4031ffef",
+      "size": 9443
+    },
+    "v2_work/workstream_a.py": {
+      "path": "v2_work/workstream_a.py",
+      "present": true,
+      "sha256": "b1ccdd6d40eab51961498ff39c0522f4df57b1d0cd4309aa5b509fc30a3434b8",
+      "size": 17411
+    },
+    "v2_work/workstream_b.py": {
+      "path": "v2_work/workstream_b.py",
+      "present": true,
+      "sha256": "c4c4a10bed57d340f6596230e26035bbae472e7b0727b72daeac41a3336e5a03",
+      "size": 21109
+    },
+    "v2_work/workstream_c.py": {
+      "path": "v2_work/workstream_c.py",
+      "present": true,
+      "sha256": "accc131eee4f3ebf50886916ac54d5366850e11aa1d110f9f575fa3edad8765b",
+      "size": 58086
+    },
+    "v2_work/workstream_d.py": {
+      "path": "v2_work/workstream_d.py",
+      "present": true,
+      "sha256": "bca0612d17586fe0e5a941ab6585e06bd7a6e0581de86f0abd46726a3f66dee2",
+      "size": 71261
+    }
+  },
+  "final_metrics": {
+    "bytes_equal": true,
+    "differing_keys": [],
+    "hash_equal": true,
+    "keys": 26,
+    "wall_seconds": 0.23
+  },
+  "ledger": {
+    "by_root": {
+      "18": 1,
+      "19": 1,
+      "20": 1,
+      "39": 1,
+      "40": 1,
+      "41": 1,
+      "42": 1,
+      "43": 1,
+      "44": 1,
+      "45": 1,
+      "46": 1,
+      "47": 1,
+      "deployment_intervals": 4,
+      "deployment_policies": 9,
+      "deployment_prevented": 1,
+      "deployment_relative_value_gain": 1,
+      "deployment_retained_revenue": 1,
+      "heatmap": 9,
+      "pilot_test": 12,
+      "prior_stress": 3
+    },
+    "by_slide": {
+      "2": 1,
+      "5": 9,
+      "8": 3,
+      "9": 6,
+      "10": 12,
+      "11": 7,
+      "12": 14
+    },
+    "by_source": {
+      "v2_work/chart_numeric_sources.json": 12,
+      "v2_work/final_metrics.json": 40
+    },
+    "narrative_by_root": {
+      "audit": 5,
+      "bootstrap_intervals": 2,
+      "pilot_calibration": 1,
+      "proxy_recoverability": 3,
+      "ranking_top10": 4,
+      "selected_test_metrics": 3,
+      "strongest_nonpromoted_or_promoted_cv_candidate": 3,
+      "test_customers": 2,
+      "value_capture_relative_gain_over_risk": 2
+    },
+    "narrative_by_source": {
+      "v1_frozen/analysis_outputs/summary.json": 18,
+      "v2_work/final_metrics.json": 7
+    },
+    "rows_dependent": 52,
+    "rows_narrative": 25,
+    "rows_total": 278,
+    "rows_unaffected": 201
+  },
+  "narrative_rows": [
+    {
+      "claim": "C0001",
+      "displayed_text": "100,000",
+      "slide_number": 1,
+      "source_file_or_json_key": "v1_frozen/analysis_outputs/summary.json::audit.rows"
+    },
+    {
+      "claim": "C0003",
+      "displayed_text": "+42.4%",
+      "slide_number": 2,
+      "source_file_or_json_key": "v1_frozen/analysis_outputs/summary.json::value_capture_relative_gain_over_risk"
+    },
+    {
+      "claim": "C0004",
+      "displayed_text": "10%",
+      "slide_number": 2,
+      "source_file_or_json_key": "v1_frozen/analysis_outputs/summary.json::ranking_top10.Risk only.contact_fraction"
+    },
+    {
+      "claim": "C0020",
+      "displayed_text": "100,000",
+      "slide_number": 4,
+      "source_file_or_json_key": "v1_frozen/analysis_outputs/summary.json::audit.rows"
+    },
+    {
+      "claim": "C0021",
+      "displayed_text": "100",
+      "slide_number": 4,
+      "source_file_or_json_key": "v1_frozen/analysis_outputs/summary.json::audit.columns"
+    },
+    {
+      "claim": "C0022",
+      "displayed_text": "49.56%",
+      "slide_number": 4,
+      "source_file_or_json_key": "v1_frozen/analysis_outputs/summary.json::audit.sample_churn_rate"
+    },
+    {
+      "claim": "C0025",
+      "displayed_text": "133",
+      "slide_number": 4,
+      "source_file_or_json_key": "v1_frozen/analysis_outputs/summary.json::audit.negative_equipment_age"
+    },
+    {
+      "claim": "C0034",
+      "displayed_text": "15,000",
+      "slide_number": 7,
+      "source_file_or_json_key": "v1_frozen/analysis_outputs/summary.json::test_customers"
+    },
+    {
+      "claim": "C0039",
+      "displayed_text": "+0.001085",
+      "slide_number": 7,
+      "source_file_or_json_key": "v2_work/final_metrics.json::strongest_nonpromoted_or_promoted_cv_candidate.mean_auc_gain"
+    },
+    {
+      "claim": "C0040",
+      "displayed_text": "\u22120.000032",
+      "slide_number": 7,
+      "source_file_or_json_key": "v2_work/final_metrics.json::strongest_nonpromoted_or_promoted_cv_candidate.corrected_auc_lower"
+    },
+    {
+      "claim": "C0041",
+      "displayed_text": "+0.002203",
+      "slide_number": 7,
+      "source_file_or_json_key": "v2_work/final_metrics.json::strongest_nonpromoted_or_promoted_cv_candidate.corrected_auc_upper"
+    },
+    {
+      "claim": "C0043",
+      "displayed_text": "0.657",
+      "slide_number": 7,
+      "source_file_or_json_key": "v2_work/final_metrics.json::proxy_recoverability.0.auc"
+    },
+    {
+      "claim": "C0044",
+      "displayed_text": "0.607",
+      "slide_number": 7,
+      "source_file_or_json_key": "v2_work/final_metrics.json::proxy_recoverability.1.auc"
+    },
+    {
+      "claim": "C0045",
+      "displayed_text": "0.627",
+      "slide_number": 7,
+      "source_file_or_json_key": "v2_work/final_metrics.json::proxy_recoverability.2.auc"
+    },
+    {
+      "claim": "C0048",
+      "displayed_text": "0.6978",
+      "slide_number": 8,
+      "source_file_or_json_key": "v1_frozen/analysis_outputs/summary.json::selected_test_metrics.roc_auc"
+    },
+    {
+      "claim": "C0049",
+      "displayed_text": "15,000",
+      "slide_number": 8,
+      "source_file_or_json_key": "v1_frozen/analysis_outputs/summary.json::test_customers"
+    },
+    {
+      "claim": "C0051",
+      "displayed_text": "0.6899",
+      "slide_number": 8,
+      "source_file_or_json_key": "v1_frozen/analysis_outputs/summary.json::bootstrap_intervals.auc.lower"
+    },
+    {
+      "claim": "C0052",
+      "displayed_text": "0.7055",
+      "slide_number": 8,
+      "source_file_or_json_key": "v1_frozen/analysis_outputs/summary.json::bootstrap_intervals.auc.upper"
+    },
+    {
+      "claim": "C0053",
+      "displayed_text": "64.02%",
+      "slide_number": 8,
+      "source_file_or_json_key": "v1_frozen/analysis_outputs/summary.json::selected_test_metrics.accuracy"
+    },
+    {
+      "claim": "C0054",
+      "displayed_text": "0.2195",
+      "slide_number": 8,
+      "source_file_or_json_key": "v1_frozen/analysis_outputs/summary.json::selected_test_metrics.brier"
+    },
+    {
+      "claim": "C0067",
+      "displayed_text": "1,500",
+      "slide_number": 9,
+      "source_file_or_json_key": "v1_frozen/analysis_outputs/summary.json::ranking_top10.Risk \u00d7 recurring value.customers_contacted"
+    },
+    {
+      "claim": "C0068",
+      "displayed_text": "20.8%",
+      "slide_number": 9,
+      "source_file_or_json_key": "v1_frozen/analysis_outputs/summary.json::ranking_top10.Risk \u00d7 recurring value.recurring_value_recall"
+    },
+    {
+      "claim": "C0069",
+      "displayed_text": "14.6%",
+      "slide_number": 9,
+      "source_file_or_json_key": "v1_frozen/analysis_outputs/summary.json::ranking_top10.Risk only.recurring_value_recall"
+    },
+    {
+      "claim": "C0070",
+      "displayed_text": "+42.4%",
+      "slide_number": 9,
+      "source_file_or_json_key": "v1_frozen/analysis_outputs/summary.json::value_capture_relative_gain_over_risk"
+    },
+    {
+      "claim": "C0137",
+      "displayed_text": "80,000",
+      "slide_number": 13,
+      "source_file_or_json_key": "v2_work/final_metrics.json::pilot_calibration.simulated_required_enrolled_per_arm_grid.adjusted_contribution"
+    }
+  ],
+  "numbers": {
+    "a_artifacts_compared": {
+      "computed": true,
+      "inputs": [],
+      "note": "A test artifacts compared after regeneration from the cached probability file",
+      "sha256_of_source": null,
+      "source_file": null,
+      "source_key": null,
+      "tag": "[E]",
+      "value": 10
+    },
+    "a_artifacts_hash_equal": {
+      "computed": true,
+      "inputs": [],
+      "note": "A artifacts reproduced byte-for-byte",
+      "sha256_of_source": null,
+      "source_file": null,
+      "source_key": null,
+      "tag": "[E]",
+      "value": 10
+    },
+    "a_replay_wall_seconds": {
+      "computed": true,
+      "inputs": [],
+      "note": "wall time of the A-layer regeneration (bootstrap included)",
+      "sha256_of_source": null,
+      "source_file": null,
+      "source_key": null,
+      "tag": "[E]",
+      "value": 16.41
+    },
+    "calibrator_replay_max_abs_diff": {
+      "computed": true,
+      "inputs": [],
+      "note": "maximum absolute difference between the rebuilt p_s and the cached a_selected_test.p_s when the frozen heldout probabilities are replayed through the frozen calibrator",
+      "sha256_of_source": null,
+      "source_file": null,
+      "source_key": null,
+      "tag": "[E]",
+      "value": 0.0
+    },
+    "csv_parser_ulp_rows": {
+      "computed": true,
+      "inputs": [],
+      "note": "cached p_s values changed by pandas default parsing versus float_precision=round_trip",
+      "sha256_of_source": null,
+      "source_file": null,
+      "source_key": null,
+      "tag": "[E]",
+      "value": 3073
+    },
+    "dependent_chart_rows": {
+      "computed": true,
+      "inputs": [],
+      "note": "regeneration-dependent observed chart values (not axis ticks)",
+      "sha256_of_source": null,
+      "source_file": null,
+      "source_key": null,
+      "tag": "[E]",
+      "value": 12
+    },
+    "dependent_final_metrics_rows": {
+      "computed": true,
+      "inputs": [],
+      "note": "regeneration-dependent rows bound to final_metrics.json",
+      "sha256_of_source": null,
+      "source_file": null,
+      "source_key": null,
+      "tag": "[E]",
+      "value": 40
+    },
+    "entry_points": {
+      "formula": "11",
+      "inputs": [],
+      "note": "pipeline files whose hashes are recorded in the results JSON entry_points block",
+      "sha256_of_source": null,
+      "source_file": null,
+      "source_key": null,
+      "tag": "[E]",
+      "value": 11
+    },
+    "final_metrics_differing_keys": {
+      "computed": true,
+      "inputs": [],
+      "note": "top-level keys whose parsed values differ",
+      "sha256_of_source": null,
+      "source_file": null,
+      "source_key": null,
+      "tag": "[E]",
+      "value": 0
+    },
+    "final_metrics_hash_equal": {
+      "computed": true,
+      "inputs": [],
+      "note": "1 if the re-emitted final_metrics.json is byte-identical to the frozen file",
+      "sha256_of_source": null,
+      "source_file": null,
+      "source_key": null,
+      "tag": "[E]",
+      "value": 1
+    },
+    "final_metrics_keys": {
+      "computed": true,
+      "inputs": [],
+      "note": "top-level keys compared",
+      "sha256_of_source": null,
+      "source_file": null,
+      "source_key": null,
+      "tag": "[E]",
+      "value": 26
+    },
+    "final_metrics_wall_seconds": {
+      "computed": true,
+      "inputs": [],
+      "note": "wall time of the re-emission (no scoring)",
+      "sha256_of_source": null,
+      "source_file": null,
+      "source_key": null,
+      "tag": "[E]",
+      "value": 0.23
+    },
+    "frozen_frame_rows": {
+      "sha256_of_source": "e29da9ea2a57b1a1b58f71b8a89d0d052767f163126b78449220827bc4c8c967",
+      "source_file": "v2_work/a_selected_test.csv",
+      "source_key": "rowcount",
+      "tag": "[E]",
+      "value": 15000
+    },
+    "ledger_C0005_value": {
+      "computed": true,
+      "inputs": [],
+      "note": "ledger row C0005 exact_value: v2_work/final_metrics.json::deployment_policies.bayes.net",
+      "sha256_of_source": "b4dce03b43f6bd1b9ef3142759e0cb88682527af2f9f8824902521d88729c5b4",
+      "source_file": "analysis_outputs/claims_ledger.csv",
+      "source_key": "row C0005",
+      "tag": "[E]",
+      "value": 3747.082455665277
+    },
+    "ledger_C0060_value": {
+      "computed": true,
+      "inputs": [],
+      "note": "ledger row C0060 exact_value: v2_work/final_metrics.json::deployment_policies.bayes.value_recall",
+      "sha256_of_source": "b4dce03b43f6bd1b9ef3142759e0cb88682527af2f9f8824902521d88729c5b4",
+      "source_file": "analysis_outputs/claims_ledger.csv",
+      "source_key": "row C0060",
+      "tag": "[E]",
+      "value": 0.2951286030895049
+    },
+    "ledger_C0061_value": {
+      "computed": true,
+      "inputs": [],
+      "note": "ledger row C0061 exact_value: v2_work/final_metrics.json::deployment_policies.value.value_recall",
+      "sha256_of_source": "b4dce03b43f6bd1b9ef3142759e0cb88682527af2f9f8824902521d88729c5b4",
+      "source_file": "analysis_outputs/claims_ledger.csv",
+      "source_key": "row C0061",
+      "tag": "[E]",
+      "value": 0.1502562153110172
+    },
+    "ledger_C0062_value": {
+      "computed": true,
+      "inputs": [],
+      "note": "ledger row C0062 exact_value: v2_work/final_metrics.json::deployment_policies.risk.value_recall",
+      "sha256_of_source": "b4dce03b43f6bd1b9ef3142759e0cb88682527af2f9f8824902521d88729c5b4",
+      "source_file": "analysis_outputs/claims_ledger.csv",
+      "source_key": "row C0062",
+      "tag": "[E]",
+      "value": 0.255800562523395
+    },
+    "ledger_C0063_value": {
+      "computed": true,
+      "inputs": [],
+      "note": "ledger row C0063 exact_value: v2_work/final_metrics.json::deployment_relative_value_gain",
+      "sha256_of_source": "b4dce03b43f6bd1b9ef3142759e0cb88682527af2f9f8824902521d88729c5b4",
+      "source_file": "analysis_outputs/claims_ledger.csv",
+      "source_key": "row C0063",
+      "tag": "[E]",
+      "value": 0.1537449338584349
+    },
+    "ledger_C0064_value": {
+      "computed": true,
+      "inputs": [],
+      "note": "ledger row C0064 exact_value: v2_work/final_metrics.json::deployment_intervals.relative_value_gain_vs_risk.lower",
+      "sha256_of_source": "b4dce03b43f6bd1b9ef3142759e0cb88682527af2f9f8824902521d88729c5b4",
+      "source_file": "analysis_outputs/claims_ledger.csv",
+      "source_key": "row C0064",
+      "tag": "[E]",
+      "value": 0.1126109293543485
+    },
+    "ledger_C0065_value": {
+      "computed": true,
+      "inputs": [],
+      "note": "ledger row C0065 exact_value: v2_work/final_metrics.json::deployment_intervals.relative_value_gain_vs_risk.upper",
+      "sha256_of_source": "b4dce03b43f6bd1b9ef3142759e0cb88682527af2f9f8824902521d88729c5b4",
+      "source_file": "analysis_outputs/claims_ledger.csv",
+      "source_key": "row C0065",
+      "tag": "[E]",
+      "value": 0.196668463579351
+    },
+    "ledger_C0072_value": {
+      "computed": true,
+      "inputs": [],
+      "note": "ledger row C0072 exact_value: v2_work/final_metrics.json::pilot_test.queues.0.raw_count",
+      "sha256_of_source": "b4dce03b43f6bd1b9ef3142759e0cb88682527af2f9f8824902521d88729c5b4",
+      "source_file": "analysis_outputs/claims_ledger.csv",
+      "source_key": "row C0072",
+      "tag": "[E]",
+      "value": 582.0
+    },
+    "ledger_C0073_value": {
+      "computed": true,
+      "inputs": [],
+      "note": "ledger row C0073 exact_value: v2_work/final_metrics.json::pilot_test.queues.0.mean_bill",
+      "sha256_of_source": "b4dce03b43f6bd1b9ef3142759e0cb88682527af2f9f8824902521d88729c5b4",
+      "source_file": "analysis_outputs/claims_ledger.csv",
+      "source_key": "row C0073",
+      "tag": "[E]",
+      "value": 68.74004858077647
+    },
+    "ledger_C0074_value": {
+      "computed": true,
+      "inputs": [],
+      "note": "ledger row C0074 exact_value: v2_work/final_metrics.json::pilot_test.queues.0.share_at_risk_value",
+      "sha256_of_source": "b4dce03b43f6bd1b9ef3142759e0cb88682527af2f9f8824902521d88729c5b4",
+      "source_file": "analysis_outputs/claims_ledger.csv",
+      "source_key": "row C0074",
+      "tag": "[E]",
+      "value": 0.2340620297453866
+    },
+    "ledger_C0075_value": {
+      "computed": true,
+      "inputs": [],
+      "note": "ledger row C0075 exact_value: v2_work/final_metrics.json::pilot_test.queues.1.raw_count",
+      "sha256_of_source": "b4dce03b43f6bd1b9ef3142759e0cb88682527af2f9f8824902521d88729c5b4",
+      "source_file": "analysis_outputs/claims_ledger.csv",
+      "source_key": "row C0075",
+      "tag": "[E]",
+      "value": 266.0
+    },
+    "ledger_C0076_value": {
+      "computed": true,
+      "inputs": [],
+      "note": "ledger row C0076 exact_value: v2_work/final_metrics.json::pilot_test.queues.1.mean_bill",
+      "sha256_of_source": "b4dce03b43f6bd1b9ef3142759e0cb88682527af2f9f8824902521d88729c5b4",
+      "source_file": "analysis_outputs/claims_ledger.csv",
+      "source_key": "row C0076",
+      "tag": "[E]",
+      "value": 59.661242760755975
+    },
+    "ledger_C0077_value": {
+      "computed": true,
+      "inputs": [],
+      "note": "ledger row C0077 exact_value: v2_work/final_metrics.json::pilot_test.queues.1.share_at_risk_value",
+      "sha256_of_source": "b4dce03b43f6bd1b9ef3142759e0cb88682527af2f9f8824902521d88729c5b4",
+      "source_file": "analysis_outputs/claims_ledger.csv",
+      "source_key": "row C0077",
+      "tag": "[E]",
+      "value": 0.1040392484440546
+    },
+    "ledger_C0078_value": {
+      "computed": true,
+      "inputs": [],
+      "note": "ledger row C0078 exact_value: v2_work/final_metrics.json::pilot_test.queues.2.raw_count",
+      "sha256_of_source": "b4dce03b43f6bd1b9ef3142759e0cb88682527af2f9f8824902521d88729c5b4",
+      "source_file": "analysis_outputs/claims_ledger.csv",
+      "source_key": "row C0078",
+      "tag": "[E]",
+      "value": 791.0
+    },
+    "ledger_C0079_value": {
+      "computed": true,
+      "inputs": [],
+      "note": "ledger row C0079 exact_value: v2_work/final_metrics.json::pilot_test.queues.2.mean_bill",
+      "sha256_of_source": "b4dce03b43f6bd1b9ef3142759e0cb88682527af2f9f8824902521d88729c5b4",
+      "source_file": "analysis_outputs/claims_ledger.csv",
+      "source_key": "row C0079",
+      "tag": "[E]",
+      "value": 62.86842695788842
+    },
+    "ledger_C0080_value": {
+      "computed": true,
+      "inputs": [],
+      "note": "ledger row C0080 exact_value: v2_work/final_metrics.json::pilot_test.queues.2.share_at_risk_value",
+      "sha256_of_source": "b4dce03b43f6bd1b9ef3142759e0cb88682527af2f9f8824902521d88729c5b4",
+      "source_file": "analysis_outputs/claims_ledger.csv",
+      "source_key": "row C0080",
+      "tag": "[E]",
+      "value": 0.3067027654002414
+    },
+    "ledger_C0081_value": {
+      "computed": true,
+      "inputs": [],
+      "note": "ledger row C0081 exact_value: v2_work/final_metrics.json::pilot_test.queues.3.raw_count",
+      "sha256_of_source": "b4dce03b43f6bd1b9ef3142759e0cb88682527af2f9f8824902521d88729c5b4",
+      "source_file": "analysis_outputs/claims_ledger.csv",
+      "source_key": "row C0081",
+      "tag": "[E]",
+      "value": 866.0
+    },
+    "ledger_C0082_value": {
+      "computed": true,
+      "inputs": [],
+      "note": "ledger row C0082 exact_value: v2_work/final_metrics.json::pilot_test.queues.3.mean_bill",
+      "sha256_of_source": "b4dce03b43f6bd1b9ef3142759e0cb88682527af2f9f8824902521d88729c5b4",
+      "source_file": "analysis_outputs/claims_ledger.csv",
+      "source_key": "row C0082",
+      "tag": "[E]",
+      "value": 64.67478199897347
+    },
+    "ledger_C0083_value": {
+      "computed": true,
+      "inputs": [],
+      "note": "ledger row C0083 exact_value: v2_work/final_metrics.json::pilot_test.queues.3.share_at_risk_value",
+      "sha256_of_source": "b4dce03b43f6bd1b9ef3142759e0cb88682527af2f9f8824902521d88729c5b4",
+      "source_file": "analysis_outputs/claims_ledger.csv",
+      "source_key": "row C0083",
+      "tag": "[E]",
+      "value": 0.3551959564103172
+    },
+    "ledger_C0087_value": {
+      "computed": true,
+      "inputs": [],
+      "note": "ledger row C0087 exact_value: v2_work/final_metrics.json::deployment_policies.bayes.net",
+      "sha256_of_source": "b4dce03b43f6bd1b9ef3142759e0cb88682527af2f9f8824902521d88729c5b4",
+      "source_file": "analysis_outputs/claims_ledger.csv",
+      "source_key": "row C0087",
+      "tag": "[E]",
+      "value": 3747.082455665277
+    },
+    "ledger_C0088_value": {
+      "computed": true,
+      "inputs": [],
+      "note": "ledger row C0088 exact_value: v2_work/final_metrics.json::deployment_policies.bayes.contacts",
+      "sha256_of_source": "b4dce03b43f6bd1b9ef3142759e0cb88682527af2f9f8824902521d88729c5b4",
+      "source_file": "analysis_outputs/claims_ledger.csv",
+      "source_key": "row C0088",
+      "tag": "[E]",
+      "value": 9984.92153410634
+    },
+    "ledger_C0098_value": {
+      "computed": true,
+      "inputs": [],
+      "note": "ledger row C0098 exact_value: v2_work/final_metrics.json::deployment_intervals.net.lower",
+      "sha256_of_source": "b4dce03b43f6bd1b9ef3142759e0cb88682527af2f9f8824902521d88729c5b4",
+      "source_file": "analysis_outputs/claims_ledger.csv",
+      "source_key": "row C0098",
+      "tag": "[E]",
+      "value": 2761.36950443581
+    },
+    "ledger_C0099_value": {
+      "computed": true,
+      "inputs": [],
+      "note": "ledger row C0099 exact_value: v2_work/final_metrics.json::deployment_intervals.net.upper",
+      "sha256_of_source": "b4dce03b43f6bd1b9ef3142759e0cb88682527af2f9f8824902521d88729c5b4",
+      "source_file": "analysis_outputs/claims_ledger.csv",
+      "source_key": "row C0099",
+      "tag": "[E]",
+      "value": 4660.637082299275
+    },
+    "ledger_C0100_value": {
+      "computed": true,
+      "inputs": [],
+      "note": "ledger row C0100 exact_value: v2_work/final_metrics.json::deployment_prevented",
+      "sha256_of_source": "b4dce03b43f6bd1b9ef3142759e0cb88682527af2f9f8824902521d88729c5b4",
+      "source_file": "analysis_outputs/claims_ledger.csv",
+      "source_key": "row C0100",
+      "tag": "[E]",
+      "value": 95.27908540685944
+    },
+    "ledger_C0101_value": {
+      "computed": true,
+      "inputs": [],
+      "note": "ledger row C0101 exact_value: v2_work/final_metrics.json::deployment_retained_revenue",
+      "sha256_of_source": "b4dce03b43f6bd1b9ef3142759e0cb88682527af2f9f8824902521d88729c5b4",
+      "source_file": "analysis_outputs/claims_ledger.csv",
+      "source_key": "row C0101",
+      "tag": "[E]",
+      "value": 31220.00664961936
+    },
+    "ledger_C0102_value": {
+      "computed": true,
+      "inputs": [],
+      "note": "ledger row C0102 exact_value: v2_work/final_metrics.json::deployment_policies.bayes.actual_gross",
+      "sha256_of_source": "b4dce03b43f6bd1b9ef3142759e0cb88682527af2f9f8824902521d88729c5b4",
+      "source_file": "analysis_outputs/claims_ledger.csv",
+      "source_key": "row C0102",
+      "tag": "[E]",
+      "value": 18732.003989771616
+    },
+    "ledger_C0104_value": {
+      "computed": true,
+      "inputs": [],
+      "note": "ledger row C0104 exact_value: v2_work/final_metrics.json::heatmap.0.net",
+      "sha256_of_source": "b4dce03b43f6bd1b9ef3142759e0cb88682527af2f9f8824902521d88729c5b4",
+      "source_file": "analysis_outputs/claims_ledger.csv",
+      "source_key": "row C0104",
+      "tag": "[E]",
+      "value": -5618.919539220531
+    },
+    "ledger_C0105_value": {
+      "computed": true,
+      "inputs": [],
+      "note": "ledger row C0105 exact_value: v2_work/final_metrics.json::heatmap.1.net",
+      "sha256_of_source": "b4dce03b43f6bd1b9ef3142759e0cb88682527af2f9f8824902521d88729c5b4",
+      "source_file": "analysis_outputs/claims_ledger.csv",
+      "source_key": "row C0105",
+      "tag": "[E]",
+      "value": -15603.84107332687
+    },
+    "ledger_C0106_value": {
+      "computed": true,
+      "inputs": [],
+      "note": "ledger row C0106 exact_value: v2_work/final_metrics.json::heatmap.2.net",
+      "sha256_of_source": "b4dce03b43f6bd1b9ef3142759e0cb88682527af2f9f8824902521d88729c5b4",
+      "source_file": "analysis_outputs/claims_ledger.csv",
+      "source_key": "row C0106",
+      "tag": "[E]",
+      "value": -45558.605675645886
+    },
+    "ledger_C0107_value": {
+      "computed": true,
+      "inputs": [],
+      "note": "ledger row C0107 exact_value: v2_work/final_metrics.json::heatmap.3.net",
+      "sha256_of_source": "b4dce03b43f6bd1b9ef3142759e0cb88682527af2f9f8824902521d88729c5b4",
+      "source_file": "analysis_outputs/claims_ledger.csv",
+      "source_key": "row C0107",
+      "tag": "[E]",
+      "value": 3747.082455665277
+    },
+    "ledger_C0108_value": {
+      "computed": true,
+      "inputs": [],
+      "note": "ledger row C0108 exact_value: v2_work/final_metrics.json::heatmap.4.net",
+      "sha256_of_source": "b4dce03b43f6bd1b9ef3142759e0cb88682527af2f9f8824902521d88729c5b4",
+      "source_file": "analysis_outputs/claims_ledger.csv",
+      "source_key": "row C0108",
+      "tag": "[E]",
+      "value": -6237.839078441062
+    },
+    "ledger_C0109_value": {
+      "computed": true,
+      "inputs": [],
+      "note": "ledger row C0109 exact_value: v2_work/final_metrics.json::heatmap.5.net",
+      "sha256_of_source": "b4dce03b43f6bd1b9ef3142759e0cb88682527af2f9f8824902521d88729c5b4",
+      "source_file": "analysis_outputs/claims_ledger.csv",
+      "source_key": "row C0109",
+      "tag": "[E]",
+      "value": -36192.60368076008
+    },
+    "ledger_C0110_value": {
+      "computed": true,
+      "inputs": [],
+      "note": "ledger row C0110 exact_value: v2_work/final_metrics.json::heatmap.6.net",
+      "sha256_of_source": "b4dce03b43f6bd1b9ef3142759e0cb88682527af2f9f8824902521d88729c5b4",
+      "source_file": "analysis_outputs/claims_ledger.csv",
+      "source_key": "row C0110",
+      "tag": "[E]",
+      "value": 13113.084450551089
+    },
+    "ledger_C0111_value": {
+      "computed": true,
+      "inputs": [],
+      "note": "ledger row C0111 exact_value: v2_work/final_metrics.json::heatmap.7.net",
+      "sha256_of_source": "b4dce03b43f6bd1b9ef3142759e0cb88682527af2f9f8824902521d88729c5b4",
+      "source_file": "analysis_outputs/claims_ledger.csv",
+      "source_key": "row C0111",
+      "tag": "[E]",
+      "value": 3128.162916444748
+    },
+    "ledger_C0112_value": {
+      "computed": true,
+      "inputs": [],
+      "note": "ledger row C0112 exact_value: v2_work/final_metrics.json::heatmap.8.net",
+      "sha256_of_source": "b4dce03b43f6bd1b9ef3142759e0cb88682527af2f9f8824902521d88729c5b4",
+      "source_file": "analysis_outputs/claims_ledger.csv",
+      "source_key": "row C0112",
+      "tag": "[E]",
+      "value": -26826.60168587427
+    },
+    "ledger_C0122_value": {
+      "computed": true,
+      "inputs": [],
+      "note": "ledger row C0122 exact_value: v2_work/final_metrics.json::deployment_policies.bayes.break_even_contact_cost",
+      "sha256_of_source": "b4dce03b43f6bd1b9ef3142759e0cb88682527af2f9f8824902521d88729c5b4",
+      "source_file": "analysis_outputs/claims_ledger.csv",
+      "source_key": "row C0122",
+      "tag": "[E]",
+      "value": 1.3752741013403111
+    },
+    "ledger_C0123_value": {
+      "computed": true,
+      "inputs": [],
+      "note": "ledger row C0123 exact_value: v2_work/final_metrics.json::deployment_policies.bayes.break_even_success",
+      "sha256_of_source": "b4dce03b43f6bd1b9ef3142759e0cb88682527af2f9f8824902521d88729c5b4",
+      "source_file": "analysis_outputs/claims_ledger.csv",
+      "source_key": "row C0123",
+      "tag": "[E]",
+      "value": 0.1599927219990843
+    },
+    "ledger_C0127_value": {
+      "computed": true,
+      "inputs": [],
+      "note": "ledger row C0127 exact_value: v2_work/final_metrics.json::prior_stress.0.net",
+      "sha256_of_source": "b4dce03b43f6bd1b9ef3142759e0cb88682527af2f9f8824902521d88729c5b4",
+      "source_file": "analysis_outputs/claims_ledger.csv",
+      "source_key": "row C0127",
+      "tag": "[E]",
+      "value": -5558.443445736175
+    },
+    "ledger_C0128_value": {
+      "computed": true,
+      "inputs": [],
+      "note": "ledger row C0128 exact_value: v2_work/final_metrics.json::prior_stress.1.net",
+      "sha256_of_source": "b4dce03b43f6bd1b9ef3142759e0cb88682527af2f9f8824902521d88729c5b4",
+      "source_file": "analysis_outputs/claims_ledger.csv",
+      "source_key": "row C0128",
+      "tag": "[E]",
+      "value": 3747.082455665277
+    },
+    "ledger_C0129_value": {
+      "computed": true,
+      "inputs": [],
+      "note": "ledger row C0129 exact_value: v2_work/final_metrics.json::prior_stress.2.net",
+      "sha256_of_source": "b4dce03b43f6bd1b9ef3142759e0cb88682527af2f9f8824902521d88729c5b4",
+      "source_file": "analysis_outputs/claims_ledger.csv",
+      "source_key": "row C0129",
+      "tag": "[E]",
+      "value": 30740.05363149663
+    },
+    "ledger_C0211_value": {
+      "computed": true,
+      "inputs": [],
+      "note": "ledger row C0211 exact_value: v2_work/chart_numeric_sources.json::18.value",
+      "sha256_of_source": "b4dce03b43f6bd1b9ef3142759e0cb88682527af2f9f8824902521d88729c5b4",
+      "source_file": "analysis_outputs/claims_ledger.csv",
+      "source_key": "row C0211",
+      "tag": "[E]",
+      "value": 0.6193292385072477
+    },
+    "ledger_C0212_value": {
+      "computed": true,
+      "inputs": [],
+      "note": "ledger row C0212 exact_value: v2_work/chart_numeric_sources.json::19.value",
+      "sha256_of_source": "b4dce03b43f6bd1b9ef3142759e0cb88682527af2f9f8824902521d88729c5b4",
+      "source_file": "analysis_outputs/claims_ledger.csv",
+      "source_key": "row C0212",
+      "tag": "[E]",
+      "value": 0.6978109022411016
+    },
+    "ledger_C0213_value": {
+      "computed": true,
+      "inputs": [],
+      "note": "ledger row C0213 exact_value: v2_work/chart_numeric_sources.json::20.value",
+      "sha256_of_source": "b4dce03b43f6bd1b9ef3142759e0cb88682527af2f9f8824902521d88729c5b4",
+      "source_file": "analysis_outputs/claims_ledger.csv",
+      "source_key": "row C0213",
+      "tag": "[E]",
+      "value": 0.5
+    },
+    "ledger_C0232_value": {
+      "computed": true,
+      "inputs": [],
+      "note": "ledger row C0232 exact_value: v2_work/chart_numeric_sources.json::39.value",
+      "sha256_of_source": "b4dce03b43f6bd1b9ef3142759e0cb88682527af2f9f8824902521d88729c5b4",
+      "source_file": "analysis_outputs/claims_ledger.csv",
+      "source_key": "row C0232",
+      "tag": "[E]",
+      "value": 1774.0
+    },
+    "ledger_C0233_value": {
+      "computed": true,
+      "inputs": [],
+      "note": "ledger row C0233 exact_value: v2_work/chart_numeric_sources.json::40.value",
+      "sha256_of_source": "b4dce03b43f6bd1b9ef3142759e0cb88682527af2f9f8824902521d88729c5b4",
+      "source_file": "analysis_outputs/claims_ledger.csv",
+      "source_key": "row C0233",
+      "tag": "[E]",
+      "value": 53.85016444911885
+    },
+    "ledger_C0234_value": {
+      "computed": true,
+      "inputs": [],
+      "note": "ledger row C0234 exact_value: v2_work/chart_numeric_sources.json::41.value",
+      "sha256_of_source": "b4dce03b43f6bd1b9ef3142759e0cb88682527af2f9f8824902521d88729c5b4",
+      "source_file": "analysis_outputs/claims_ledger.csv",
+      "source_key": "row C0234",
+      "tag": "[E]",
+      "value": 0.0659507289078484
+    },
+    "ledger_C0235_value": {
+      "computed": true,
+      "inputs": [],
+      "note": "ledger row C0235 exact_value: v2_work/chart_numeric_sources.json::42.value",
+      "sha256_of_source": "b4dce03b43f6bd1b9ef3142759e0cb88682527af2f9f8824902521d88729c5b4",
+      "source_file": "analysis_outputs/claims_ledger.csv",
+      "source_key": "row C0235",
+      "tag": "[E]",
+      "value": 731.0
+    },
+    "ledger_C0236_value": {
+      "computed": true,
+      "inputs": [],
+      "note": "ledger row C0236 exact_value: v2_work/chart_numeric_sources.json::43.value",
+      "sha256_of_source": "b4dce03b43f6bd1b9ef3142759e0cb88682527af2f9f8824902521d88729c5b4",
+      "source_file": "analysis_outputs/claims_ledger.csv",
+      "source_key": "row C0236",
+      "tag": "[E]",
+      "value": 78.71660564863997
+    },
+    "ledger_C0237_value": {
+      "computed": true,
+      "inputs": [],
+      "note": "ledger row C0237 exact_value: v2_work/chart_numeric_sources.json::44.value",
+      "sha256_of_source": "b4dce03b43f6bd1b9ef3142759e0cb88682527af2f9f8824902521d88729c5b4",
+      "source_file": "analysis_outputs/claims_ledger.csv",
+      "source_key": "row C0237",
+      "tag": "[E]",
+      "value": 0.0280273565068158
+    },
+    "ledger_C0238_value": {
+      "computed": true,
+      "inputs": [],
+      "note": "ledger row C0238 exact_value: v2_work/chart_numeric_sources.json::45.value",
+      "sha256_of_source": "b4dce03b43f6bd1b9ef3142759e0cb88682527af2f9f8824902521d88729c5b4",
+      "source_file": "analysis_outputs/claims_ledger.csv",
+      "source_key": "row C0238",
+      "tag": "[E]",
+      "value": 1117.0
+    },
+    "ledger_C0239_value": {
+      "computed": true,
+      "inputs": [],
+      "note": "ledger row C0239 exact_value: v2_work/chart_numeric_sources.json::46.value",
+      "sha256_of_source": "b4dce03b43f6bd1b9ef3142759e0cb88682527af2f9f8824902521d88729c5b4",
+      "source_file": "analysis_outputs/claims_ledger.csv",
+      "source_key": "row C0239",
+      "tag": "[E]",
+      "value": 24.572827043571245
+    },
+    "ledger_C0240_value": {
+      "computed": true,
+      "inputs": [],
+      "note": "ledger row C0240 exact_value: v2_work/chart_numeric_sources.json::47.value",
+      "sha256_of_source": "b4dce03b43f6bd1b9ef3142759e0cb88682527af2f9f8824902521d88729c5b4",
+      "source_file": "analysis_outputs/claims_ledger.csv",
+      "source_key": "row C0240",
+      "tag": "[E]",
+      "value": 0.0493181304266715
+    },
+    "ledger_affected_slides": {
+      "computed": true,
+      "inputs": [],
+      "note": "distinct slide numbers carrying at least one regeneration-dependent row",
+      "sha256_of_source": null,
+      "source_file": null,
+      "source_key": null,
+      "tag": "[E]",
+      "value": 7
+    },
+    "ledger_rows_dependent": {
+      "computed": true,
+      "inputs": [],
+      "note": "ledger rows whose displayed value is recomputed by the chain from per-row probabilities or selections",
+      "sha256_of_source": null,
+      "source_file": null,
+      "source_key": null,
+      "tag": "[E]",
+      "value": 52
+    },
+    "ledger_rows_narrative": {
+      "computed": true,
+      "inputs": [],
+      "note": "v1 headline and frozen-search performance rows that regeneration does not recompute",
+      "sha256_of_source": null,
+      "source_file": null,
+      "source_key": null,
+      "tag": "[E]",
+      "value": 25
+    },
+    "ledger_rows_total": {
+      "sha256_of_source": "b4dce03b43f6bd1b9ef3142759e0cb88682527af2f9f8824902521d88729c5b4",
+      "source_file": "analysis_outputs/claims_ledger.csv",
+      "source_key": "rowcount",
+      "tag": "[E]",
+      "value": 278
+    },
+    "ledger_rows_unaffected": {
+      "computed": true,
+      "inputs": [],
+      "note": "protocol, financial, design, bibliography and axis rows",
+      "sha256_of_source": null,
+      "source_file": null,
+      "source_key": null,
+      "tag": "[E]",
+      "value": 201
+    },
+    "narrative_cv_rows": {
+      "computed": true,
+      "inputs": [],
+      "note": "narrative rows describing the frozen candidate search",
+      "sha256_of_source": null,
+      "source_file": null,
+      "source_key": null,
+      "tag": "[E]",
+      "value": 3
+    },
+    "narrative_power_rows": {
+      "computed": true,
+      "inputs": [],
+      "note": "narrative pilot-power row",
+      "sha256_of_source": null,
+      "source_file": null,
+      "source_key": null,
+      "tag": "[E]",
+      "value": 1
+    },
+    "narrative_proxy_rows": {
+      "computed": true,
+      "inputs": [],
+      "note": "narrative proxy-recoverability rows",
+      "sha256_of_source": null,
+      "source_file": null,
+      "source_key": null,
+      "tag": "[E]",
+      "value": 3
+    },
+    "narrative_v1_rows": {
+      "computed": true,
+      "inputs": [],
+      "note": "narrative rows bound to the frozen v1 summary",
+      "sha256_of_source": null,
+      "source_file": null,
+      "source_key": null,
+      "tag": "[E]",
+      "value": 18
+    },
+    "regeneration_effort_days": {
+      "formula": "1.5",
+      "inputs": [],
+      "note": "estimate: 0.5 d A/B/C wiring, 0.5 d charts+ledger+verification, 0.5 d contingency; no model fitting",
+      "sha256_of_source": null,
+      "source_file": null,
+      "source_key": null,
+      "tag": "[A]",
+      "value": 1.5
+    },
+    "regeneration_rows_slide_10": {
+      "computed": true,
+      "inputs": [],
+      "note": "regeneration-dependent ledger rows displayed on slide 10",
+      "sha256_of_source": null,
+      "source_file": null,
+      "source_key": null,
+      "tag": "[E]",
+      "value": 12
+    },
+    "regeneration_rows_slide_11": {
+      "computed": true,
+      "inputs": [],
+      "note": "regeneration-dependent ledger rows displayed on slide 11",
+      "sha256_of_source": null,
+      "source_file": null,
+      "source_key": null,
+      "tag": "[E]",
+      "value": 7
+    },
+    "regeneration_rows_slide_12": {
+      "computed": true,
+      "inputs": [],
+      "note": "regeneration-dependent ledger rows displayed on slide 12",
+      "sha256_of_source": null,
+      "source_file": null,
+      "source_key": null,
+      "tag": "[E]",
+      "value": 14
+    },
+    "regeneration_rows_slide_2": {
+      "computed": true,
+      "inputs": [],
+      "note": "regeneration-dependent ledger rows displayed on slide 2",
+      "sha256_of_source": null,
+      "source_file": null,
+      "source_key": null,
+      "tag": "[E]",
+      "value": 1
+    },
+    "regeneration_rows_slide_5": {
+      "computed": true,
+      "inputs": [],
+      "note": "regeneration-dependent ledger rows displayed on slide 5",
+      "sha256_of_source": null,
+      "source_file": null,
+      "source_key": null,
+      "tag": "[E]",
+      "value": 9
+    },
+    "regeneration_rows_slide_8": {
+      "computed": true,
+      "inputs": [],
+      "note": "regeneration-dependent ledger rows displayed on slide 8",
+      "sha256_of_source": null,
+      "source_file": null,
+      "source_key": null,
+      "tag": "[E]",
+      "value": 3
+    },
+    "regeneration_rows_slide_9": {
+      "computed": true,
+      "inputs": [],
+      "note": "regeneration-dependent ledger rows displayed on slide 9",
+      "sha256_of_source": null,
+      "source_file": null,
+      "source_key": null,
+      "tag": "[E]",
+      "value": 6
+    },
+    "served_rows": {
+      "computed": true,
+      "inputs": [],
+      "note": "rows in the cached test frame",
+      "sha256_of_source": null,
+      "source_file": null,
+      "source_key": null,
+      "tag": "[E]",
+      "value": 15000
+    },
+    "verdict_go": {
+      "formula": "1",
+      "inputs": [],
+      "note": "GO only if the re-emission is byte-exact and the A layer regenerates from the cached probability file",
+      "sha256_of_source": null,
+      "source_file": null,
+      "source_key": null,
+      "tag": "[E]",
+      "value": 1
+    }
+  },
+  "provenance": {
+    "created_utc": "2026-10-31T09:20:53.236956+00:00",
+    "input_files": [
+      {
+        "path": "analysis_outputs/claims_ledger.csv",
+        "present": true,
+        "sha256": "b4dce03b43f6bd1b9ef3142759e0cb88682527af2f9f8824902521d88729c5b4",
+        "size": 33168
+      },
+      {
+        "path": "analysis_pipeline.py",
+        "present": true,
+        "sha256": "87ca9f1b0e14ebb5d62102a0e66a9dbe1903dff7abf79a563e661e91ff0ffe07",
+        "size": 353674
+      },
+      {
+        "path": "v2_work/a_selected_test.csv",
+        "present": true,
+        "sha256": "e29da9ea2a57b1a1b58f71b8a89d0d052767f163126b78449220827bc4c8c967",
+        "size": 1682762
+      },
+      {
+        "path": "v2_work/analysis_pipeline_v2.py",
+        "present": true,
+        "sha256": "87ca9f1b0e14ebb5d62102a0e66a9dbe1903dff7abf79a563e661e91ff0ffe07",
+        "size": 353674
+      },
+      {
+        "path": "v2_work/build_v2_canonical.py",
+        "present": true,
+        "sha256": "d885309cf7e4978caabca79fca38324b0d27812319bba0b438af0da68e361827",
+        "size": 9722
+      },
+      {
+        "path": "v2_work/chart_numeric_sources.json",
+        "present": true,
+        "sha256": "f8fc130a5bc503fccf71e99626954f1e9ad687a5c88580b79afef9023113fc86",
+        "size": 34222
+      },
+      {
+        "path": "v2_work/final_metrics.json",
+        "present": true,
+        "sha256": "1d14a4fea10ab391631379f82cd6a82e5a65ede4f01db5b540c9aec3612eea1e",
+        "size": 155122
+      },
+      {
+        "path": "v2_work/final_metrics.py",
+        "present": true,
+        "sha256": "3ac156a1726ed3a5435c58b318324b2add30bae2887aff6c5f109e6e6d6edacc",
+        "size": 5754
+      },
+      {
+        "path": "v2_work/final_protocol.py",
+        "present": true,
+        "sha256": "be181a475db397ea42bc85899ddf4c368a19c2aeac714c0cf3bb195117f31875",
+        "size": 4924
+      },
+      {
+        "path": "v2_work/generate_visuals.py",
+        "present": true,
+        "sha256": "0f835d8e4d17df55b7d7d29d3e4df35e2e014c44e589bad9518e2861a9c9d42f",
+        "size": 7479
+      },
+      {
+        "path": "v2_work/run_frozen_batch.py",
+        "present": true,
+        "sha256": "6864317b3274c2937a52f8cd19a9f06474d486cd64da658c6bd0ed1c4031ffef",
+        "size": 9443
+      },
+      {
+        "path": "v2_work/workstream_a.py",
+        "present": true,
+        "sha256": "b1ccdd6d40eab51961498ff39c0522f4df57b1d0cd4309aa5b509fc30a3434b8",
+        "size": 17411
+      },
+      {
+        "path": "v2_work/workstream_b.py",
+        "present": true,
+        "sha256": "c4c4a10bed57d340f6596230e26035bbae472e7b0727b72daeac41a3336e5a03",
+        "size": 21109
+      },
+      {
+        "path": "v2_work/workstream_c.py",
+        "present": true,
+        "sha256": "accc131eee4f3ebf50886916ac54d5366850e11aa1d110f9f575fa3edad8765b",
+        "size": 58086
+      },
+      {
+        "path": "v2_work/workstream_d.py",
+        "present": true,
+        "sha256": "bca0612d17586fe0e5a941ab6585e06bd7a6e0581de86f0abd46726a3f66dee2",
+        "size": 71261
+      }
+    ],
+    "python_version": "3.11.9 (tags/v3.11.9:de54cf5, Apr  2 2024, 10:12:12) [MSC v.1938 64 bit (AMD64)]",
+    "row_counts": {},
+    "runtime": {
+      "env": {
+        "MKL_NUM_THREADS": "6",
+        "NUMEXPR_NUM_THREADS": "6",
+        "OMP_NUM_THREADS": "6",
+        "OPENBLAS_NUM_THREADS": "6"
+      },
+      "function_sha256": "77f490da30fa85a8826efca565835a7127fa2d629110a92afe8b0a497a437bca",
+      "pools": [
+        {
+          "architecture": "Haswell",
+          "filepath": "C:\\Users\\FGstore\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\numpy.libs\\libscipy_openblas64_-860d95b1c38e637ce4509f5fa24fbf2a.dll",
+          "internal_api": "openblas",
+          "num_threads": 6,
+          "prefix": "libscipy_openblas",
+          "threading_layer": "pthreads",
+          "user_api": "blas",
+          "version": "0.3.30"
+        },
+        {
+          "architecture": "Haswell",
+          "filepath": "C:\\Users\\FGstore\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\scipy.libs\\libscipy_openblas-64eda39e79589aedb16f58e5547eb599.dll",
+          "internal_api": "openblas",
+          "num_threads": 6,
+          "prefix": "libscipy_openblas",
+          "threading_layer": "pthreads",
+          "user_api": "blas",
+          "version": "0.3.30"
+        },
+        {
+          "filepath": "C:\\Windows\\System32\\vcomp140.dll",
+          "internal_api": "openmp",
+          "num_threads": 6,
+          "prefix": "vcomp",
+          "user_api": "openmp",
+          "version": null
+        },
+        {
+          "filepath": "C:\\Users\\FGstore\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\sklearn\\.libs\\vcomp140.dll",
+          "internal_api": "openmp",
+          "num_threads": 6,
+          "prefix": "vcomp",
+          "user_api": "openmp",
+          "version": null
+        }
+      ],
+      "source": "v3_addons/src/common.py",
+      "thread_cap": 6
+    },
+    "script": "v4_addons/tools/m0_feasibility.py",
+    "script_sha256": "db91ff680c1143e90b24878493405c9e4b2b82e407de87c08307f0a5205e356e",
+    "seed": 20261038,
+    "tags_used": [
+      "[E]",
+      "[A]",
+      "[R]"
+    ]
+  },
+  "verdict": "GO"
+}

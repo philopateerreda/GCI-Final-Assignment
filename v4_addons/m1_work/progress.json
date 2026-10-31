@@ -1,0 +1,16 @@
+{
+  "phase": "fitting",
+  "fold": null,
+  "new_fits": 99,
+  "cache_hits": 0,
+  "current_session_seconds": 299.43099000000075,
+  "decision_allowed": true,
+  "tag": "m1/r1/f9/n67500",
+  "recipe": {
+    "backend": "lgbm",
+    "groups": [],
+    "drop": [],
+    "sensitive": false,
+    "value_weighted": false
+  }
+}

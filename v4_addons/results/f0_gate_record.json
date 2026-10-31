@@ -1,0 +1,28 @@
+{
+  "actions": {
+    "H0_DECISIONS.md": "rewritten",
+    "H3_OPTION.txt": "unchanged"
+  },
+  "amendment": "v4 Closeout Directive section 0: G6 amended for exactly H0_DECISIONS.md and H3_OPTION.txt",
+  "card": "F0",
+  "created_utc": "2026-10-31T10:28:24.396243+00:00",
+  "delegation": "I don't want to take decisions, just tell him what you see is the smartest move.",
+  "files": {
+    "H0_DECISIONS.md": {
+      "sha256": "b080f3a4bcdc47e51f3f152c2afa950ea0836eb14a645dc9d0a58af60e431bf2",
+      "size": 5232
+    },
+    "H3_OPTION.txt": {
+      "sha256": "9df0f95051235da229f8ace491846b10bb088400b3397381b98fdc1b679fba86",
+      "size": 9
+    }
+  },
+  "gates_dir": [
+    "H0_DECISIONS.md",
+    "H3_OPTION.txt"
+  ],
+  "source": {
+    "path": "v4_addons/DECISIONS_ASSUMED.md",
+    "sha256": "9347a659f0072d44b84f7e6d2e7025055516158517d815d6840e06344ff4d202"
+  }
+}

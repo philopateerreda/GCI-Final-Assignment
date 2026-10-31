@@ -1,0 +1,501 @@
+{
+  "closure_note": {
+    "path": "v4_addons/reports/M_closure_note.md",
+    "words": 169
+  },
+  "extrapolation": {
+    "bootstrap": {
+      "conditional_lower": 0.005195617596009283,
+      "conditional_upper": 0.0024709339755887294,
+      "lower": 0.002422137468392843,
+      "upper": 0.005203833865837547,
+      "valid": 2000
+    },
+    "point_10k": 0.000794459161633309,
+    "point_double": 0.0036673541098952863,
+    "reviewer_range_reproduced": false
+  },
+  "gates": {
+    "amendment": "v4 Closeout Directive section 0: G6 amended for exactly H0_DECISIONS.md and H3_OPTION.txt",
+    "delegation": "I don't want to take decisions, just tell him what you see is the smartest move.",
+    "files": {
+      "H0_DECISIONS.md": {
+        "sha256": "b080f3a4bcdc47e51f3f152c2afa950ea0836eb14a645dc9d0a58af60e431bf2",
+        "size": 5232
+      },
+      "H3_OPTION.txt": {
+        "sha256": "9df0f95051235da229f8ace491846b10bb088400b3397381b98fdc1b679fba86",
+        "size": 9
+      }
+    },
+    "gates_dir": [
+      "H0_DECISIONS.md",
+      "H3_OPTION.txt"
+    ]
+  },
+  "numbers": {
+    "bootstrap_ci_level": {
+      "note": "two-sided bootstrap level",
+      "sha256_of_source": "3fdc66b678ce25c825ccb9d07dff2ecd38af4a05d6e54b5825efed35f2cf08b0",
+      "source_file": "v4_addons/results/m1_baseline.json",
+      "source_key": "numbers.bootstrap_ci_level.value",
+      "tag": "[R]",
+      "value": 0.95
+    },
+    "closure_auc_15000": {
+      "note": "mean held-out AUC over 20 folds",
+      "sha256_of_source": "3fdc66b678ce25c825ccb9d07dff2ecd38af4a05d6e54b5825efed35f2cf08b0",
+      "source_file": "v4_addons/results/m1_baseline.json",
+      "source_key": "numbers.curve_auc_15000.value",
+      "tag": "[E]",
+      "value": 0.678564684183236
+    },
+    "closure_auc_30000": {
+      "note": "mean held-out AUC over 20 folds",
+      "sha256_of_source": "3fdc66b678ce25c825ccb9d07dff2ecd38af4a05d6e54b5825efed35f2cf08b0",
+      "source_file": "v4_addons/results/m1_baseline.json",
+      "source_key": "numbers.curve_auc_30000.value",
+      "tag": "[E]",
+      "value": 0.6891702489885893
+    },
+    "closure_auc_45000": {
+      "note": "mean held-out AUC over 20 folds",
+      "sha256_of_source": "3fdc66b678ce25c825ccb9d07dff2ecd38af4a05d6e54b5825efed35f2cf08b0",
+      "source_file": "v4_addons/results/m1_baseline.json",
+      "source_key": "numbers.curve_auc_45000.value",
+      "tag": "[E]",
+      "value": 0.6939485687541773
+    },
+    "closure_auc_60000": {
+      "note": "mean held-out AUC over 20 folds",
+      "sha256_of_source": "3fdc66b678ce25c825ccb9d07dff2ecd38af4a05d6e54b5825efed35f2cf08b0",
+      "source_file": "v4_addons/results/m1_baseline.json",
+      "source_key": "numbers.curve_auc_60000.value",
+      "tag": "[E]",
+      "value": 0.696203463119626
+    },
+    "closure_auc_67500": {
+      "note": "mean held-out AUC over 20 folds",
+      "sha256_of_source": "3fdc66b678ce25c825ccb9d07dff2ecd38af4a05d6e54b5825efed35f2cf08b0",
+      "source_file": "v4_addons/results/m1_baseline.json",
+      "source_key": "numbers.curve_auc_67500.value",
+      "tag": "[E]",
+      "value": 0.6968446991975317
+    },
+    "closure_calibration_customers": {
+      "note": "sigmoid calibration rows",
+      "sha256_of_source": "3fdc66b678ce25c825ccb9d07dff2ecd38af4a05d6e54b5825efed35f2cf08b0",
+      "source_file": "v4_addons/results/m1_baseline.json",
+      "source_key": "numbers.frozen_calibration_customers.value",
+      "tag": "[E]",
+      "value": 10000
+    },
+    "closure_gain_last_step": {
+      "note": "paired gain of the last step",
+      "sha256_of_source": "3fdc66b678ce25c825ccb9d07dff2ecd38af4a05d6e54b5825efed35f2cf08b0",
+      "source_file": "v4_addons/results/m1_baseline.json",
+      "source_key": "numbers.curve_gain_67500_over_60000.value",
+      "tag": "[E]",
+      "value": 0.0006412360779057269
+    },
+    "closure_note_limit": {
+      "formula": "200",
+      "inputs": [],
+      "note": "closure-note word limit set by the card",
+      "sha256_of_source": null,
+      "source_file": null,
+      "source_key": null,
+      "tag": "[R]",
+      "value": 200
+    },
+    "closure_note_words": {
+      "computed": true,
+      "inputs": [],
+      "note": "word count of the rendered closure note",
+      "sha256_of_source": null,
+      "source_file": null,
+      "source_key": null,
+      "tag": "[E]",
+      "value": 169
+    },
+    "closure_refit_customers": {
+      "note": "frozen final refit rows",
+      "sha256_of_source": "3fdc66b678ce25c825ccb9d07dff2ecd38af4a05d6e54b5825efed35f2cf08b0",
+      "source_file": "v4_addons/results/m1_baseline.json",
+      "source_key": "numbers.frozen_refit_customers.value",
+      "tag": "[E]",
+      "value": 75000
+    },
+    "closure_size_15000": {
+      "note": "learning-curve training size",
+      "sha256_of_source": "3fdc66b678ce25c825ccb9d07dff2ecd38af4a05d6e54b5825efed35f2cf08b0",
+      "source_file": "v4_addons/results/m1_baseline.json",
+      "source_key": "numbers.curve_size_15000.value",
+      "tag": "[E]",
+      "value": 15000
+    },
+    "closure_size_30000": {
+      "note": "learning-curve training size",
+      "sha256_of_source": "3fdc66b678ce25c825ccb9d07dff2ecd38af4a05d6e54b5825efed35f2cf08b0",
+      "source_file": "v4_addons/results/m1_baseline.json",
+      "source_key": "numbers.curve_size_30000.value",
+      "tag": "[E]",
+      "value": 30000
+    },
+    "closure_size_45000": {
+      "note": "learning-curve training size",
+      "sha256_of_source": "3fdc66b678ce25c825ccb9d07dff2ecd38af4a05d6e54b5825efed35f2cf08b0",
+      "source_file": "v4_addons/results/m1_baseline.json",
+      "source_key": "numbers.curve_size_45000.value",
+      "tag": "[E]",
+      "value": 45000
+    },
+    "closure_size_60000": {
+      "note": "learning-curve training size",
+      "sha256_of_source": "3fdc66b678ce25c825ccb9d07dff2ecd38af4a05d6e54b5825efed35f2cf08b0",
+      "source_file": "v4_addons/results/m1_baseline.json",
+      "source_key": "numbers.curve_size_60000.value",
+      "tag": "[E]",
+      "value": 60000
+    },
+    "closure_size_67500": {
+      "note": "learning-curve training size",
+      "sha256_of_source": "3fdc66b678ce25c825ccb9d07dff2ecd38af4a05d6e54b5825efed35f2cf08b0",
+      "source_file": "v4_addons/results/m1_baseline.json",
+      "source_key": "numbers.curve_size_67500.value",
+      "tag": "[E]",
+      "value": 67500
+    },
+    "control_incremental_contact": {
+      "note": "v2 cost spec: Floor contact not incremental",
+      "sha256_of_source": "1d14a4fea10ab391631379f82cd6a82e5a65ede4f01db5b540c9aec3612eea1e",
+      "source_file": "v2_work/final_metrics.json",
+      "source_key": "pilot_calibration.spec.cost_assumptions.control_incremental_contact",
+      "tag": "[E]",
+      "value": 0.0
+    },
+    "curve_a": {
+      "note": "fitted AUC(n) = a - b n^-c",
+      "sha256_of_source": "3fdc66b678ce25c825ccb9d07dff2ecd38af4a05d6e54b5825efed35f2cf08b0",
+      "source_file": "v4_addons/results/m1_baseline.json",
+      "source_key": "numbers.curve_a.value",
+      "tag": "[E]",
+      "value": 0.7075819128334495
+    },
+    "curve_b": {
+      "note": "fitted b coefficient",
+      "sha256_of_source": "3fdc66b678ce25c825ccb9d07dff2ecd38af4a05d6e54b5825efed35f2cf08b0",
+      "source_file": "v4_addons/results/m1_baseline.json",
+      "source_key": "numbers.curve_b.value",
+      "tag": "[E]",
+      "value": 18.557711420095764
+    },
+    "curve_c": {
+      "note": "fitted exponent c",
+      "sha256_of_source": "3fdc66b678ce25c825ccb9d07dff2ecd38af4a05d6e54b5825efed35f2cf08b0",
+      "source_file": "v4_addons/results/m1_baseline.json",
+      "source_key": "numbers.curve_c.value",
+      "tag": "[E]",
+      "value": 0.671793499023514
+    },
+    "curve_c_lower": {
+      "note": "fold-cluster bootstrap lower bound",
+      "sha256_of_source": "3fdc66b678ce25c825ccb9d07dff2ecd38af4a05d6e54b5825efed35f2cf08b0",
+      "source_file": "v4_addons/results/m1_baseline.json",
+      "source_key": "numbers.curve_c_lower.value",
+      "tag": "[E]",
+      "value": 0.4025491507837493
+    },
+    "curve_c_upper": {
+      "note": "fold-cluster bootstrap upper bound",
+      "sha256_of_source": "3fdc66b678ce25c825ccb9d07dff2ecd38af4a05d6e54b5825efed35f2cf08b0",
+      "source_file": "v4_addons/results/m1_baseline.json",
+      "source_key": "numbers.curve_c_upper.value",
+      "tag": "[E]",
+      "value": 0.9644966930891173
+    },
+    "delta_s_identity": {
+      "note": "AUC(N_all) - AUC(N_frozen) = 0",
+      "sha256_of_source": "3fdc66b678ce25c825ccb9d07dff2ecd38af4a05d6e54b5825efed35f2cf08b0",
+      "source_file": "v4_addons/results/m1_baseline.json",
+      "source_key": "numbers.delta_s_identity.value",
+      "tag": "[E]",
+      "value": 0.0
+    },
+    "extension_variable_cost": {
+      "formula": "pilot_per_arm * treated_contact_cost",
+      "inputs": [
+        "pilot_per_arm",
+        "treated_contact_cost"
+      ],
+      "note": "treated contacts x $1",
+      "sha256_of_source": null,
+      "source_file": null,
+      "source_key": null,
+      "tag": "[E]",
+      "value": 7872.0
+    },
+    "extrap_10k_gain": {
+      "formula": "curve_b * (75000 ** -curve_c - 85000 ** -curve_c)",
+      "inputs": [
+        "curve_b",
+        "curve_c"
+      ],
+      "note": "extrapolation [A], not a measured result",
+      "sha256_of_source": null,
+      "source_file": null,
+      "source_key": null,
+      "tag": "[A]",
+      "value": 0.000794459161633309
+    },
+    "extrap_10k_rows": {
+      "formula": "10000",
+      "inputs": [],
+      "note": "extra training rows in the reviewer extrapolation",
+      "sha256_of_source": null,
+      "source_file": null,
+      "source_key": null,
+      "tag": "[A]",
+      "value": 10000
+    },
+    "extrap_check_reps": {
+      "computed": true,
+      "inputs": [],
+      "note": "fold-cluster bootstrap replicates for the extrapolation check",
+      "seed": 20261040,
+      "sha256_of_source": null,
+      "source_file": null,
+      "source_key": null,
+      "tag": "[R]",
+      "value": 2000
+    },
+    "extrap_check_valid": {
+      "computed": true,
+      "inputs": [],
+      "note": "finite replicates",
+      "seed": 20261040,
+      "sha256_of_source": null,
+      "source_file": null,
+      "source_key": null,
+      "tag": "[E]",
+      "value": 2000
+    },
+    "extrap_double_boot_lower": {
+      "computed": true,
+      "inputs": [],
+      "note": "joint fold-cluster bootstrap lower bound of the doubling gain",
+      "seed": 20261040,
+      "sha256_of_source": null,
+      "source_file": null,
+      "source_key": null,
+      "tag": "[A]",
+      "value": 0.002422137468392843
+    },
+    "extrap_double_boot_upper": {
+      "computed": true,
+      "inputs": [],
+      "note": "joint fold-cluster bootstrap upper bound of the doubling gain",
+      "seed": 20261040,
+      "sha256_of_source": null,
+      "source_file": null,
+      "source_key": null,
+      "tag": "[A]",
+      "value": 0.005203833865837547
+    },
+    "extrap_double_cond_at_c_lower": {
+      "computed": true,
+      "inputs": [],
+      "note": "a,b refit with c fixed at its lower bootstrap bound",
+      "seed": 20261040,
+      "sha256_of_source": null,
+      "source_file": null,
+      "source_key": null,
+      "tag": "[A]",
+      "value": 0.005195617596009283
+    },
+    "extrap_double_cond_at_c_upper": {
+      "computed": true,
+      "inputs": [],
+      "note": "a,b refit with c fixed at its upper bootstrap bound",
+      "seed": 20261040,
+      "sha256_of_source": null,
+      "source_file": null,
+      "source_key": null,
+      "tag": "[A]",
+      "value": 0.0024709339755887294
+    },
+    "extrap_double_gain": {
+      "formula": "curve_b * (75000 ** -curve_c - 150000 ** -curve_c)",
+      "inputs": [
+        "curve_b",
+        "curve_c"
+      ],
+      "note": "extrapolation [A], not a measured result",
+      "sha256_of_source": null,
+      "source_file": null,
+      "source_key": null,
+      "tag": "[A]",
+      "value": 0.0036673541098952863
+    },
+    "extrap_double_rows": {
+      "formula": "150000",
+      "inputs": [],
+      "note": "doubling target in the reviewer extrapolation",
+      "sha256_of_source": null,
+      "source_file": null,
+      "source_key": null,
+      "tag": "[A]",
+      "value": 150000
+    },
+    "gate_threshold": {
+      "note": "pre-declared M1 gate",
+      "sha256_of_source": "3fdc66b678ce25c825ccb9d07dff2ecd38af4a05d6e54b5825efed35f2cf08b0",
+      "source_file": "v4_addons/results/m1_baseline.json",
+      "source_key": "numbers.gate_threshold.value",
+      "tag": "[R]",
+      "value": 0.0015
+    },
+    "pilot_per_arm": {
+      "note": "pilot per arm with 10% allowance",
+      "sha256_of_source": "1d14a4fea10ab391631379f82cd6a82e5a65ede4f01db5b540c9aec3612eea1e",
+      "source_file": "v2_work/final_metrics.json",
+      "source_key": "v1.pilot.per_arm_with_10pct_allowance",
+      "tag": "[E]",
+      "value": 7872
+    },
+    "stage1_cost": {
+      "note": "Stage-1 envelope",
+      "sha256_of_source": "1d14a4fea10ab391631379f82cd6a82e5a65ede4f01db5b540c9aec3612eea1e",
+      "source_file": "v2_work/final_metrics.json",
+      "source_key": "pilot_calibration.spec.stage1_cost",
+      "tag": "[E]",
+      "value": 12872.0
+    },
+    "stage1_cost_check": {
+      "expected": 12872.0,
+      "expected_tolerance": 1e-09,
+      "formula": "pilot_per_arm * treated_contact_cost + startup_stage1",
+      "inputs": [
+        "pilot_per_arm",
+        "startup_stage1",
+        "treated_contact_cost"
+      ],
+      "matches_expected": true,
+      "note": "Stage-1 envelope rebuild",
+      "sha256_of_source": null,
+      "source_file": null,
+      "source_key": null,
+      "tag": "[E]",
+      "value": 12872.0
+    },
+    "startup_stage1": {
+      "note": "Stage-1 startup",
+      "sha256_of_source": "1d14a4fea10ab391631379f82cd6a82e5a65ede4f01db5b540c9aec3612eea1e",
+      "source_file": "v2_work/final_metrics.json",
+      "source_key": "pilot_calibration.spec.cost_assumptions.startup_stage1",
+      "tag": "[E]",
+      "value": 5000.0
+    },
+    "treated_contact_cost": {
+      "note": "v2 cost spec",
+      "sha256_of_source": "1d14a4fea10ab391631379f82cd6a82e5a65ede4f01db5b540c9aec3612eea1e",
+      "source_file": "v2_work/final_metrics.json",
+      "source_key": "pilot_calibration.spec.cost_assumptions.treated_contact",
+      "tag": "[E]",
+      "value": 1.0
+    }
+  },
+  "provenance": {
+    "created_utc": "2026-10-31T10:27:31.315165+00:00",
+    "input_files": [
+      {
+        "path": "v2_work/final_metrics.json",
+        "present": true,
+        "sha256": "1d14a4fea10ab391631379f82cd6a82e5a65ede4f01db5b540c9aec3612eea1e",
+        "size": 155122
+      },
+      {
+        "path": "v4_addons/DECISIONS_ASSUMED.md",
+        "present": true,
+        "sha256": "9347a659f0072d44b84f7e6d2e7025055516158517d815d6840e06344ff4d202",
+        "size": 2783
+      },
+      {
+        "path": "v4_addons/gates/H0_DECISIONS.md",
+        "present": true,
+        "sha256": "b080f3a4bcdc47e51f3f152c2afa950ea0836eb14a645dc9d0a58af60e431bf2",
+        "size": 5232
+      },
+      {
+        "path": "v4_addons/gates/H3_OPTION.txt",
+        "present": true,
+        "sha256": "9df0f95051235da229f8ace491846b10bb088400b3397381b98fdc1b679fba86",
+        "size": 9
+      },
+      {
+        "path": "v4_addons/m1_work/learning_curve_folds.csv",
+        "present": true,
+        "sha256": "d3e6f07764d2c16898264c4781c1d8af5ec238b388d8798c93f0c22dc952361f",
+        "size": 4146
+      },
+      {
+        "path": "v4_addons/results/f0_gate_record.json",
+        "present": true,
+        "sha256": "e73a56efd52d0e60321157cf653086d4842acee85e2137f10895eef67a83ce0b",
+        "size": 890
+      },
+      {
+        "path": "v4_addons/results/m1_baseline.json",
+        "present": true,
+        "sha256": "3fdc66b678ce25c825ccb9d07dff2ecd38af4a05d6e54b5825efed35f2cf08b0",
+        "size": 32149
+      }
+    ],
+    "python_version": "3.11.9 (tags/v3.11.9:de54cf5, Apr  2 2024, 10:12:12) [MSC v.1938 64 bit (AMD64)]",
+    "row_counts": {
+      "gate_files": 2,
+      "m1_folds": 100
+    },
+    "runtime": {
+      "env": {
+        "MKL_NUM_THREADS": "6",
+        "NUMEXPR_NUM_THREADS": "6",
+        "OMP_NUM_THREADS": "6",
+        "OPENBLAS_NUM_THREADS": "6"
+      },
+      "function_sha256": "77f490da30fa85a8826efca565835a7127fa2d629110a92afe8b0a497a437bca",
+      "pools": [
+        {
+          "architecture": "Haswell",
+          "filepath": "C:\\Users\\FGstore\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\numpy.libs\\libscipy_openblas64_-860d95b1c38e637ce4509f5fa24fbf2a.dll",
+          "internal_api": "openblas",
+          "num_threads": 6,
+          "prefix": "libscipy_openblas",
+          "threading_layer": "pthreads",
+          "user_api": "blas",
+          "version": "0.3.30"
+        },
+        {
+          "architecture": "Haswell",
+          "filepath": "C:\\Users\\FGstore\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\scipy.libs\\libscipy_openblas-64eda39e79589aedb16f58e5547eb599.dll",
+          "internal_api": "openblas",
+          "num_threads": 6,
+          "prefix": "libscipy_openblas",
+          "threading_layer": "pthreads",
+          "user_api": "blas",
+          "version": "0.3.30"
+        }
+      ],
+      "source": "v3_addons/src/common.py",
+      "thread_cap": 6
+    },
+    "script": "v4_addons/tools/f0_closeout.py",
+    "script_sha256": "273b2bfe8dd1ad4465de77e719e5959295dfd9f255be1baf6ca4e231f7b895c8",
+    "seed": 20261040,
+    "tags_used": [
+      "[E]",
+      "[A]",
+      "[R]"
+    ]
+  }
+}

@@ -1,0 +1,565 @@
+{
+  "report": "v4_addons/M0_dependency_map.md",
+  "report_sha256": "2b85ff9f8d3642700edf7feb38e7bb28f74a4f0cfcdaa02f0e65bedd4330b34e",
+  "results_json": "v4_addons/results/m0_feasibility.json",
+  "tokens": [
+    {
+      "token": "10",
+      "name": "a_artifacts_hash_equal",
+      "spec": "int",
+      "value": 10
+    },
+    {
+      "token": "10",
+      "name": "a_artifacts_compared",
+      "spec": "int",
+      "value": 10
+    },
+    {
+      "token": "26",
+      "name": "final_metrics_keys",
+      "spec": "int",
+      "value": 26
+    },
+    {
+      "token": "0",
+      "name": "final_metrics_differing_keys",
+      "spec": "int",
+      "value": 0
+    },
+    {
+      "token": "1.5",
+      "name": "regeneration_effort_days",
+      "spec": "f1",
+      "value": 1.5
+    },
+    {
+      "token": "11",
+      "name": "entry_points",
+      "spec": "int",
+      "value": 11
+    },
+    {
+      "token": "0.0",
+      "name": "calibrator_replay_max_abs_diff",
+      "spec": "f1",
+      "value": 0.0
+    },
+    {
+      "token": "15,000",
+      "name": "served_rows",
+      "spec": "int",
+      "value": 15000
+    },
+    {
+      "token": "1",
+      "name": "final_metrics_hash_equal",
+      "spec": "int",
+      "value": 1
+    },
+    {
+      "token": "26",
+      "name": "final_metrics_keys",
+      "spec": "int",
+      "value": 26
+    },
+    {
+      "token": "0",
+      "name": "final_metrics_differing_keys",
+      "spec": "int",
+      "value": 0
+    },
+    {
+      "token": "0.23",
+      "name": "final_metrics_wall_seconds",
+      "spec": "f2",
+      "value": 0.23
+    },
+    {
+      "token": "10",
+      "name": "a_artifacts_hash_equal",
+      "spec": "int",
+      "value": 10
+    },
+    {
+      "token": "10",
+      "name": "a_artifacts_compared",
+      "spec": "int",
+      "value": 10
+    },
+    {
+      "token": "16.41",
+      "name": "a_replay_wall_seconds",
+      "spec": "f2",
+      "value": 16.41
+    },
+    {
+      "token": "3,073",
+      "name": "csv_parser_ulp_rows",
+      "spec": "int",
+      "value": 3073
+    },
+    {
+      "token": "15,000",
+      "name": "served_rows",
+      "spec": "int",
+      "value": 15000
+    },
+    {
+      "token": "278",
+      "name": "ledger_rows_total",
+      "spec": "int",
+      "value": 278
+    },
+    {
+      "token": "52",
+      "name": "ledger_rows_dependent",
+      "spec": "int",
+      "value": 52
+    },
+    {
+      "token": "25",
+      "name": "ledger_rows_narrative",
+      "spec": "int",
+      "value": 25
+    },
+    {
+      "token": "201",
+      "name": "ledger_rows_unaffected",
+      "spec": "int",
+      "value": 201
+    },
+    {
+      "token": "7",
+      "name": "ledger_affected_slides",
+      "spec": "int",
+      "value": 7
+    },
+    {
+      "token": "40",
+      "name": "dependent_final_metrics_rows",
+      "spec": "int",
+      "value": 40
+    },
+    {
+      "token": "12",
+      "name": "dependent_chart_rows",
+      "spec": "int",
+      "value": 12
+    },
+    {
+      "token": "1",
+      "name": "regeneration_rows_slide_2",
+      "spec": "int",
+      "value": 1
+    },
+    {
+      "token": "9",
+      "name": "regeneration_rows_slide_5",
+      "spec": "int",
+      "value": 9
+    },
+    {
+      "token": "3",
+      "name": "regeneration_rows_slide_8",
+      "spec": "int",
+      "value": 3
+    },
+    {
+      "token": "6",
+      "name": "regeneration_rows_slide_9",
+      "spec": "int",
+      "value": 6
+    },
+    {
+      "token": "12",
+      "name": "regeneration_rows_slide_10",
+      "spec": "int",
+      "value": 12
+    },
+    {
+      "token": "7",
+      "name": "regeneration_rows_slide_11",
+      "spec": "int",
+      "value": 7
+    },
+    {
+      "token": "14",
+      "name": "regeneration_rows_slide_12",
+      "spec": "int",
+      "value": 14
+    },
+    {
+      "token": "3747.082455665277",
+      "name": "ledger_C0005_value",
+      "spec": "raw",
+      "value": 3747.082455665277
+    },
+    {
+      "token": "0.2951286030895049",
+      "name": "ledger_C0060_value",
+      "spec": "raw",
+      "value": 0.2951286030895049
+    },
+    {
+      "token": "0.1502562153110172",
+      "name": "ledger_C0061_value",
+      "spec": "raw",
+      "value": 0.1502562153110172
+    },
+    {
+      "token": "0.255800562523395",
+      "name": "ledger_C0062_value",
+      "spec": "raw",
+      "value": 0.255800562523395
+    },
+    {
+      "token": "0.1537449338584349",
+      "name": "ledger_C0063_value",
+      "spec": "raw",
+      "value": 0.1537449338584349
+    },
+    {
+      "token": "0.1126109293543485",
+      "name": "ledger_C0064_value",
+      "spec": "raw",
+      "value": 0.1126109293543485
+    },
+    {
+      "token": "0.196668463579351",
+      "name": "ledger_C0065_value",
+      "spec": "raw",
+      "value": 0.196668463579351
+    },
+    {
+      "token": "582.0",
+      "name": "ledger_C0072_value",
+      "spec": "raw",
+      "value": 582.0
+    },
+    {
+      "token": "68.74004858077647",
+      "name": "ledger_C0073_value",
+      "spec": "raw",
+      "value": 68.74004858077647
+    },
+    {
+      "token": "0.2340620297453866",
+      "name": "ledger_C0074_value",
+      "spec": "raw",
+      "value": 0.2340620297453866
+    },
+    {
+      "token": "266.0",
+      "name": "ledger_C0075_value",
+      "spec": "raw",
+      "value": 266.0
+    },
+    {
+      "token": "59.661242760755975",
+      "name": "ledger_C0076_value",
+      "spec": "raw",
+      "value": 59.661242760755975
+    },
+    {
+      "token": "0.1040392484440546",
+      "name": "ledger_C0077_value",
+      "spec": "raw",
+      "value": 0.1040392484440546
+    },
+    {
+      "token": "791.0",
+      "name": "ledger_C0078_value",
+      "spec": "raw",
+      "value": 791.0
+    },
+    {
+      "token": "62.86842695788842",
+      "name": "ledger_C0079_value",
+      "spec": "raw",
+      "value": 62.86842695788842
+    },
+    {
+      "token": "0.3067027654002414",
+      "name": "ledger_C0080_value",
+      "spec": "raw",
+      "value": 0.3067027654002414
+    },
+    {
+      "token": "866.0",
+      "name": "ledger_C0081_value",
+      "spec": "raw",
+      "value": 866.0
+    },
+    {
+      "token": "64.67478199897347",
+      "name": "ledger_C0082_value",
+      "spec": "raw",
+      "value": 64.67478199897347
+    },
+    {
+      "token": "0.3551959564103172",
+      "name": "ledger_C0083_value",
+      "spec": "raw",
+      "value": 0.3551959564103172
+    },
+    {
+      "token": "3747.082455665277",
+      "name": "ledger_C0087_value",
+      "spec": "raw",
+      "value": 3747.082455665277
+    },
+    {
+      "token": "9984.92153410634",
+      "name": "ledger_C0088_value",
+      "spec": "raw",
+      "value": 9984.92153410634
+    },
+    {
+      "token": "2761.36950443581",
+      "name": "ledger_C0098_value",
+      "spec": "raw",
+      "value": 2761.36950443581
+    },
+    {
+      "token": "4660.637082299275",
+      "name": "ledger_C0099_value",
+      "spec": "raw",
+      "value": 4660.637082299275
+    },
+    {
+      "token": "95.27908540685944",
+      "name": "ledger_C0100_value",
+      "spec": "raw",
+      "value": 95.27908540685944
+    },
+    {
+      "token": "31220.00664961936",
+      "name": "ledger_C0101_value",
+      "spec": "raw",
+      "value": 31220.00664961936
+    },
+    {
+      "token": "18732.003989771616",
+      "name": "ledger_C0102_value",
+      "spec": "raw",
+      "value": 18732.003989771616
+    },
+    {
+      "token": "-5618.919539220531",
+      "name": "ledger_C0104_value",
+      "spec": "raw",
+      "value": -5618.919539220531
+    },
+    {
+      "token": "-15603.84107332687",
+      "name": "ledger_C0105_value",
+      "spec": "raw",
+      "value": -15603.84107332687
+    },
+    {
+      "token": "-45558.605675645886",
+      "name": "ledger_C0106_value",
+      "spec": "raw",
+      "value": -45558.605675645886
+    },
+    {
+      "token": "3747.082455665277",
+      "name": "ledger_C0107_value",
+      "spec": "raw",
+      "value": 3747.082455665277
+    },
+    {
+      "token": "-6237.839078441062",
+      "name": "ledger_C0108_value",
+      "spec": "raw",
+      "value": -6237.839078441062
+    },
+    {
+      "token": "-36192.60368076008",
+      "name": "ledger_C0109_value",
+      "spec": "raw",
+      "value": -36192.60368076008
+    },
+    {
+      "token": "13113.084450551089",
+      "name": "ledger_C0110_value",
+      "spec": "raw",
+      "value": 13113.084450551089
+    },
+    {
+      "token": "3128.162916444748",
+      "name": "ledger_C0111_value",
+      "spec": "raw",
+      "value": 3128.162916444748
+    },
+    {
+      "token": "-26826.60168587427",
+      "name": "ledger_C0112_value",
+      "spec": "raw",
+      "value": -26826.60168587427
+    },
+    {
+      "token": "1.3752741013403111",
+      "name": "ledger_C0122_value",
+      "spec": "raw",
+      "value": 1.3752741013403111
+    },
+    {
+      "token": "0.1599927219990843",
+      "name": "ledger_C0123_value",
+      "spec": "raw",
+      "value": 0.1599927219990843
+    },
+    {
+      "token": "-5558.443445736175",
+      "name": "ledger_C0127_value",
+      "spec": "raw",
+      "value": -5558.443445736175
+    },
+    {
+      "token": "3747.082455665277",
+      "name": "ledger_C0128_value",
+      "spec": "raw",
+      "value": 3747.082455665277
+    },
+    {
+      "token": "30740.05363149663",
+      "name": "ledger_C0129_value",
+      "spec": "raw",
+      "value": 30740.05363149663
+    },
+    {
+      "token": "0.6193292385072477",
+      "name": "ledger_C0211_value",
+      "spec": "raw",
+      "value": 0.6193292385072477
+    },
+    {
+      "token": "0.6978109022411016",
+      "name": "ledger_C0212_value",
+      "spec": "raw",
+      "value": 0.6978109022411016
+    },
+    {
+      "token": "0.5",
+      "name": "ledger_C0213_value",
+      "spec": "raw",
+      "value": 0.5
+    },
+    {
+      "token": "1774.0",
+      "name": "ledger_C0232_value",
+      "spec": "raw",
+      "value": 1774.0
+    },
+    {
+      "token": "53.85016444911885",
+      "name": "ledger_C0233_value",
+      "spec": "raw",
+      "value": 53.85016444911885
+    },
+    {
+      "token": "0.0659507289078484",
+      "name": "ledger_C0234_value",
+      "spec": "raw",
+      "value": 0.0659507289078484
+    },
+    {
+      "token": "731.0",
+      "name": "ledger_C0235_value",
+      "spec": "raw",
+      "value": 731.0
+    },
+    {
+      "token": "78.71660564863997",
+      "name": "ledger_C0236_value",
+      "spec": "raw",
+      "value": 78.71660564863997
+    },
+    {
+      "token": "0.0280273565068158",
+      "name": "ledger_C0237_value",
+      "spec": "raw",
+      "value": 0.0280273565068158
+    },
+    {
+      "token": "1117.0",
+      "name": "ledger_C0238_value",
+      "spec": "raw",
+      "value": 1117.0
+    },
+    {
+      "token": "24.572827043571245",
+      "name": "ledger_C0239_value",
+      "spec": "raw",
+      "value": 24.572827043571245
+    },
+    {
+      "token": "0.0493181304266715",
+      "name": "ledger_C0240_value",
+      "spec": "raw",
+      "value": 0.0493181304266715
+    },
+    {
+      "token": "18",
+      "name": "narrative_v1_rows",
+      "spec": "int",
+      "value": 18
+    },
+    {
+      "token": "3",
+      "name": "narrative_cv_rows",
+      "spec": "int",
+      "value": 3
+    },
+    {
+      "token": "3",
+      "name": "narrative_proxy_rows",
+      "spec": "int",
+      "value": 3
+    },
+    {
+      "token": "1",
+      "name": "narrative_power_rows",
+      "spec": "int",
+      "value": 1
+    },
+    {
+      "token": "10",
+      "name": "a_artifacts_hash_equal",
+      "spec": "int",
+      "value": 10
+    },
+    {
+      "token": "10",
+      "name": "a_artifacts_compared",
+      "spec": "int",
+      "value": 10
+    },
+    {
+      "token": "278",
+      "name": "ledger_rows_total",
+      "spec": "int",
+      "value": 278
+    },
+    {
+      "token": "52",
+      "name": "ledger_rows_dependent",
+      "spec": "int",
+      "value": 52
+    },
+    {
+      "token": "3,073",
+      "name": "csv_parser_ulp_rows",
+      "spec": "int",
+      "value": 3073
+    },
+    {
+      "token": "1.5",
+      "name": "regeneration_effort_days",
+      "spec": "f1",
+      "value": 1.5
+    }
+  ]
+}
