@@ -1,0 +1,286 @@
+COMPANY A  /  CONSULTING PROOF OF CONCEPT
+Retain contribution.
+Not just customers.
+A value-aware service-recovery strategy, grounded in 100,000 
+customer records—and designed to earn its right to scale.
+Risk
+≠
+value
+philopateer  |  GCI World 2026  |  Local Python / CPU analysis
+Company A is anonymous. Model evidence is observed; intervention economics are explicitly conditional.
+
+Approve evidence—not a blanket discount campaign
+SAMPLE BENCHMARK
++42.4%
+More churned recurring value
+captured than risk-only.
+Sample top 10% of rows;
+not a deployment forecast
+or measured savings.
+CONDITIONAL ECONOMICS
+$3.7k
+At 2% assumed churn in a
+100,000-customer cohort.
+Nominal 10% outreach; costs,
+response and population
+transport are unverified.
+MANAGEMENT DECISION
+Pilot first.
+Earn the rollout.
+Test opt-in service recovery
+against usual care. The pilot
+buys causal learning—not
+proof of profitable rollout.
+Decision ladder: risk-only → value-aware triage → causal incremental-profit targeting.
+Keep the verified LightGBM baseline; scale only after fully loaded contribution and harm gates pass.
+[D1, S5–S6] Sample and deployment regimes are separate. Economics are conditional USD-equivalent assumptions. Risk ≠ response.  02
+
+Retention economics matter more than contact volume
+CURRENT MARKET CONTEXT
+0.93%  /  2.72%
+T-Mobile FY2025 postpaid / prepaid [S1].
+Monthly rate uses average customers.
+Postpaid phone ARPU: $50.37 per month.
+AT&T: 0.90%; beginning-month denominator [S2].
+COST DISCIPLINE PRECEDENT
+30% lower
+Verizon reports improved promotional retention 
+cost, Q3 2026 vs prior year.
+Management claim—not causal evidence. [S3]
+6% → 10% churn
+A specific randomized plan-recommendation campaign
+increased three-month churn—not a universal effect. [S4]
+Implication for Company A
+Offer useful, permission-based help.
+Measure adverse effects and all costs.
+Keep an untreated comparison group.
+[S1–S4] Carrier segments, denominators and horizons differ. None establishes Company A prevalence or this workflow’s treatment effect.     03
+
+100,000 customers; a useful sample, not a live forecast
+100,000
+Customers; 100 merged columns.
+No unmatched or duplicate IDs.
+49.56%
+Observed sample churn.
+Not a population churn estimate.
+Days 31–60
+Label window after observation.
+Not cumulative 60-day churn.
+What we can establish
+Behavioral segments, held-out risk ranking and 
+recurring-value prioritization.
+133 invalid negative handset ages are handled; billing 
+credits are not blindly deleted.
+What must be acquired
+Current dates, live baseline, true margins, offer 
+costs, household linkage and randomized treatment 
+outcomes.
+Currency and sampling design are unverified.
+[D1–D2] Original data audit. Customer-ID order varies with tenure and churn; random holdout is not temporal validation. Source files preserved and fingerprinted.     04
+
+Risk ≠ value: who gets the discretionary call?
+Deployment scenario: 2% prior; risk and value-aware cutoffs frozen on calibration rows. Mandatory defect remediation is not 
+rationed.
+Value-aware triage adds higher-bill accounts and drops lower-bill ones—not a causal claim about who will respond.
+[D1, M5–M6] Raw n are sample counts; bill/model-risk means are deployment-weighted. No point subsampling; axes crop the display.
+05
+
+Diagnose the issue before choosing the remedy
+Training-sample patterns suggest questions for an agent—not automatic price cuts, device swaps or causal 
+conclusions.
+Usage decline → ask what changed. Overage exposure → explain the bill. Care activity → verify whether the issue was 
+resolved.
+[D1–D2] Training n=60,000. Usage-change units are ambiguous; raw thresholds are not labeled percentages. Overage values are dataset monetary units.     06
+
+Separate selection, calibration and final testing
+Previously evaluated baseline test reused; enhancement decisions frozen before the descriptive final batch. Original split preserved.
+60,000
+Train the candidates
+15,000
+Select by ROC-AUC
+10,000
+Calibrate; set policy
+15,000
+Final held-out test
+87 operational features
+Sensitive fields excluded; operational proxies remain.
+Credit-card AUC 0.657; ownership 0.607;
+high ordinal income 0.627 (fold-local label).
+Missing targets dropped; subgroup audit ≠ fairness.
+No Range fields or inferred Mean windows.
+Headroom gate: baseline retained
+Repeated 2 × 5 non-test CV on 75,000 rows.
+Best blend mean ΔAUC: +0.001085.
+Corrected 95% CI: −0.000032 to +0.002203.
+Tail/convergence gates also failed.
+No challenger promoted; no ceiling established.
+[D1, M1–M8] Local CPU; seed 20261028. Headroom intervals are exploratory, pointwise—not selection-adjusted. Proxy prediction does not prove independence.     07
+
+Retained LightGBM: original held-out AUC 0.6978
+Original baseline reference; 15,000 reused test customers. No challenger passed the non-test gate; the chart is unchanged.
+95% AUC interval: 0.6899–0.7055
+Accuracy: 64.02%
+Brier score: 0.2195
+Ranking signal is useful for triage. Sample-calibrated probabilities are not deployment prevalence or treatment 
+responsiveness.
+[D1, M1–M2] Accuracy uses threshold 0.5. AUC interval: 300 test-row bootstrap replicates, conditional on fitted model. Refitting uncertainty not included.     08
+
+Nominal 10% outreach captures 29.5% of churned value
+2% deployment scenario: population-weighted cutoff frozen on calibration. This is not the sample top-decile comparison.
+DEPLOYMENT-WEIGHTED VALUE CAPTURE
+29.5%  Value-aware
+15.0%  Value only
+25.6%  Risk only
++15.4% relative to risk only.
+95% conditional paired interval:
++11.3% to +19.7%.
+Separate sample benchmark: top 1,500 rows capture 20.8% vs 14.6% of churned value; +42.4% relative gain—not retention lift.
+[D1, S6, M5] Curve: stable-rank diagnostic; headline: frozen cutoff. Population transport is unverified; conditional intervals exclude refit/selection uncertainty.     09
+
+One service workflow. A mandatory remediation floor.
+Service-Fix Floor — verified defects are never rationed
+Remediate every verified billing/network defect regardless of bill size, discretionary selection or campaign arm.
+Value-aware ranking only rations scarce proactive outreach; verify consent and linked-account assignment.
+Billing check
+Network check
+Handset check
+Digital residual
+582 raw rows
+68.7 mean bill
+23.4% at-risk value
+266 raw rows
+59.7 mean bill
+10.4% at-risk value
+791 raw rows
+62.9 mean bill
+30.7% at-risk value
+866 raw rows
+64.7 mean bill
+35.5% at-risk value
+Verify the bill and recent
+revenue change. Explain
+and resolve; no inferred
+promotion expiry.
+Inspect failed-call signals.
+Confirm a live issue before
+escalation; missing data
+is not a verified defect.
+Age >365 days flags an
+opt-in health check.
+No automatic replacement
+or equipment-failure claim.
+Permission-based digital
+check for remaining cases.
+Not uniformly low usage;
+no proactive billing call.
+Exclusive precedence: billing → network → handset → residual. These are action hypotheses, not diagnosed causes.
+Sample counts; mean bills and value shares weighted to the 2% scenario. No automatic subsidy or plan switch.
+[D1, S4–S8] Frozen calibration routing; descriptive reused-test queues. Comparable diagnostic/agent workflows establish feasibility, not savings.     10
+
+A conditional $3.7k business case—not a forecast
+Hypothetical 100,000-customer cohort; about 9,985 weighted contacts at nominal 10%. Budget unchanged; no test-selected 
+optimum.
+ALL ARE ASSUMPTIONS
+2% deployment churn
+20% of would-be churners
+prevented
+6 months × 60% margin
+$1 per contact; $5k fixed
+No blanket subsidy
+Net 95% interval: $2.8k–$4.7k
+Conditional scenario: 95 prevented → $31.2k retained revenue → $18.7k gross 
+contribution.
+No-contact alternative: zero without campaign launch.
+[D1, S6, M5] Dots are calibration-selected budgets, not test optima. Costs and benefits are population-weighted; transport/response are unverified. USD-equivalent, not actual currency.     11
+
+Small cost changes can erase the entire return
+Net contribution in USD-equivalent thousands; 2% assumed churn, 100,000-customer cohort, $5,000 fixed cost.
+$1 / contact
+$2 / contact
+$5 / contact
+10% prevented
+20% prevented
+30% prevented
+−5.6
+−15.6
+−45.6
++3.7
+−6.2
+−36.2
++13.1
++3.1
+−26.8
+Break-even cost
+$1.38 / contact
+Break-even prevention
+16.0%
+Prior stress, same base costs:
+1% → −5.6k
+2% → +3.7k
+5% → +30.7k
+No-contact means zero without campaign launch; an empty launched list still incurs fixed cost.
+Verify live prevalence, fully loaded support costs and causal effectiveness before committing funds.
+[D1, M5–M6] Editable scenario sensitivity, not a confidence interval. Prevention is assumed; break-even holds all other base assumptions fixed.     12
+
+Fund causal learning—not an assumed profitable rollout.
+Two disjoint learning stages
+Core: 7,872 linked accounts/arm in both + rv_only.
+$12,872 contact/startup envelope.
+Expansion: risk_only 2,000/arm; exploration 1,000/arm.
+$3,000 incremental envelope; not powered contrasts.
+Core needs 15,744 unique accounts across larger portfolios/cohorts.
+No duplicated rv_only enrollment; acquire household linkage.
+Costs exclude unquoted consent, linkage, follow-up and engineering.
+Binary learning ≠ profit proof
+Calibration simulation (planning proxy):
+adjusted contribution needs 80,000/arm;
+unadjusted not 80% powered through
+160,000/arm. No validated longitudinal
+CUPED or household-clustered power.
+Re-estimate using live data.
+Randomize linked clusters 50/50; log joint enrollment × assignment propensities, costs and outcomes.
+HT/IPW Bayes-minus-risk: only both cancels; weight incremental value in rv_only minus risk_only by deployment mass.
+Exploration supports below-cutoff learning; no unbiased claim for unconsented or unobserved accounts.
+Scale: cluster-robust 95% lower bound of fully loaded incremental contribution >0 and no harm.
+Extend: interval overlaps zero, positive upper bound, no harm, prospectively approved sample/budget cap.
+Stop: upper bound ≤0, infeasible costs or harm. Serious consent/complaint events escalate independently.
+[D1, S4–S6, M7] Binary plan: two-sided α=5%, power=80%, 10% follow-up allowance; not profit-powered.
+Harm stratum: low usage AND zero overage AND zero care; missing ≠ zero. Looks at 50%/100%; one-sided Fisher p≤0.005 each plus positive churn difference (familywise ≤0.01).     13
+
+References | Market and comparable implementations
+[S1] T-Mobile US. 2025 Annual Report / Form 10-K (published 2026). Churn and ARPU definitions.
+https://s29.q4cdn.com/310188824/files/doc_financials/2025/ar/2025-TMUS-Annual-Report-Final-Web.pdf
+FY2025 monthly churn: postpaid phone 0.93%, prepaid 2.72%. Benchmarks do not set Company A’s baseline.
+[S2] AT&T. 2025 Form 10-K (9 February 2026). Mobility statistics and device-financing discussion.
+https://www.sec.gov/Archives/edgar/data/732717/000073271726000120/t-20251231.htm
+Operator churn definitions differ; device-financing maturity is not the same as handset age.
+[S3] Verizon. Third-quarter 2026 results (26 October 2026). Retention cost and subsidy discipline.
+https://www.verizon.com/about/news/verizon-delivers-another-record-breaking-quarter
+30% promotional-retention-cost improvement is management-reported, not an experimental treatment effect.
+[S7] MCE Systems. Vodafone Turkey launches Advanced Device Care by MCE and Techpo (26 May 2020).
+https://www.mce.systems/articles/vodafone-turkey-launches-advanced-device-care-by-mce-and-techpo
+Named diagnostics deployment in >1,000 stores. Vendor case supports feasibility, not quantified causal churn impact.
+[S8] PegaWorld iNspire (2023). Vodafone’s value-driven retention experience in assisted and digital channels.
+https://www.pega.com/insights/resources/pegaworld-inspire-2023-how-vodafone-uses-pega-deliver-value-driven-retention
+Operator/vendor workflow description. No reported percentage gain is transferred into Company A’s economics.
+All sources accessed 28 October 2026. Full evidence register, caveats and additional method URLs are provided in references.txt.
+14
+
+References | Methods, data and interpretation
+[S4] Ascarza, Iyengar & Schleicher (2016). Plan Recommendations; JMR 53(1), 46–60.
+Randomized intervention: 6% control vs 10% treated three-month churn—not a universal service-contact effect.
+[S5] Ascarza (2018). Retention Futility; JMR 55(1), 80–98.
+Risk and treatment responsiveness differ; Company A has no treatment labels.
+[S6] Lemmens & Gupta (2020). Managing Churn to Maximize Profits; Marketing Science 39(5), 956–973.
+Incremental cash flow after all intervention costs—not risk scores alone—is the commercial objective.
+[M1] scikit-learn: evaluation and calibration.
+[M2] LightGBM: local CPU boosting.
+[M5] Saerens et al. (2002): prior adjustment.
+[M6] Elkan (2001): costs / known-prior correction.
+[M3] XGBoost; [M4] CatBoost: comparators.
+[M7] Deng et al. (2013): pre-period adjustment.
+[M8] Neslin et al. (2006): historical churn protocol.
+No matched AUC ceiling or measured CUPED claimed.
+[D1–D2] Supplied data, overview, assignment and tutorial; all analytical figures are original local outputs.
+Reproduction: philopateer.ipynb; frozen split, seed, packages and input hashes. Full URLs and evidence-scope caveats: references.txt.
+Qoder-assisted research, coding and drafting; computations executed locally. Full sources, caveats and assistance disclosure are in references.txt.     15

@@ -1,0 +1,2 @@
+baseline,mean_auc,corrected_mean_auc_lower,corrected_mean_auc_upper,fold_auc_sd,corrected_se,test_train_ratio,df,repeated_fold_count,decision_allowed,interpretation
+baseline_lgbm,0.696036977709,0.691884377451,0.700189577967,0.00252811609326,0.00149565365086,0.25,4,10,True,"baseline variability diagnostic, NOT an unpaired challenger test; all model gates later use corrected intervals of paired fold differences"

@@ -1,0 +1,221 @@
+{
+  "audit": {
+    "classifier_fits": 50,
+    "decision": "rejected_keep_frozen_v2_stop_model_track",
+    "failed_gates": [
+      "mean_delta_auc_ge_0_003",
+      "conservative_auc_lower_gt_0",
+      "conservative_value_capture_lower_gt_0",
+      "baseline_tail_brier_conservative_upper_le_0",
+      "baseline_tail_logloss_conservative_upper_le_0",
+      "own_tail_brier_conservative_upper_le_0",
+      "own_tail_logloss_conservative_upper_le_0"
+    ],
+    "no_new_test_look": true,
+    "repeated_oof_rows": 150000,
+    "reused_baseline_caches": 40,
+    "sigmoid_fits": 10,
+    "status": "VERIFIED_READ_ONLY",
+    "unique_customers": 75000
+  },
+  "frozen_delivery_unchanged": true,
+  "manifest": {
+    "path": "D:/progs/IDE/MainProjs/AI/GCI2026/finalA/v3_addons/results/wp8_files_created.csv",
+    "present": true,
+    "sha256": "56bb18fb50c6621dd48448d461ea93122e84c862c12aeae4dca052740af9753e",
+    "size": 36199
+  },
+  "manifest_exclusions": [
+    "D:/progs/IDE/MainProjs/AI/GCI2026/finalA/v3_addons/results/wp8_files_created.csv",
+    "D:/progs/IDE/MainProjs/AI/GCI2026/finalA/v3_addons/results/wp8_verification.json"
+  ],
+  "manifest_files": 222,
+  "model_summary": {
+    "path": "D:/progs/IDE/MainProjs/AI/GCI2026/finalA/v3_addons/results/wp8_model.json",
+    "present": true,
+    "sha256": "279e69cf17884813f75f2893feff36f236b3168ea197aab0bfe1b7db6002291f",
+    "size": 159693
+  },
+  "new_tests": {
+    "path": "D:/progs/IDE/MainProjs/AI/GCI2026/finalA/v3_addons/results/wp8_tests.json",
+    "present": true,
+    "sha256": "b96e4067cc6d02f53ce2211a15a905eba84f314d4e22533e272da930cb7fb4c2",
+    "size": 8447
+  },
+  "no_fits_performed_by_audit": true,
+  "no_new_test_look": true,
+  "original_cli_exit": "FAILED_REPORT_ROW_ORDER_AFTER_ALL_NUMERICAL_AND_INTEGRITY_CHECKS",
+  "outside_sandbox_diff": {
+    "added_outside": [],
+    "changed_outside": [],
+    "files_after": 4246,
+    "files_before": 4246,
+    "passed": true,
+    "removed_outside": []
+  },
+  "preregistration": {
+    "path": "D:/progs/IDE/MainProjs/AI/GCI2026/finalA/v3_addons/prereg_wp8.md",
+    "present": true,
+    "sha256": "15fd44322e73c281b85d173ac51fbfc631415b07a152f8a3041ae5892d32c779",
+    "size": 9190
+  },
+  "promotion": {
+    "failed_gates": [
+      "mean_delta_auc_ge_0_003",
+      "conservative_auc_lower_gt_0",
+      "conservative_value_capture_lower_gt_0",
+      "baseline_tail_brier_conservative_upper_le_0",
+      "baseline_tail_logloss_conservative_upper_le_0",
+      "own_tail_brier_conservative_upper_le_0",
+      "own_tail_logloss_conservative_upper_le_0"
+    ],
+    "gates": {
+      "all_classifier_and_sigmoid_fits_converged": true,
+      "baseline_tail_brier_conservative_upper_le_0": false,
+      "baseline_tail_logloss_conservative_upper_le_0": false,
+      "conservative_auc_lower_gt_0": false,
+      "conservative_value_capture_lower_gt_0": false,
+      "mean_delta_auc_ge_0_003": false,
+      "mean_fixed_tau_value_capture_gain_gt_0": true,
+      "own_tail_brier_conservative_upper_le_0": false,
+      "own_tail_logloss_conservative_upper_le_0": false,
+      "protected_fingerprints_and_outside_boundary_unchanged": true,
+      "ten_complete_finite_id_matched_folds": true
+    },
+    "passed": false
+  },
+  "provenance": {
+    "created_utc": "2026-10-29T17:13:39.868347+00:00",
+    "input_files": [
+      {
+        "path": "D:/progs/IDE/MainProjs/AI/GCI2026/finalA/v3_addons/prereg_wp8.md",
+        "present": true,
+        "sha256": "15fd44322e73c281b85d173ac51fbfc631415b07a152f8a3041ae5892d32c779",
+        "size": 9190
+      },
+      {
+        "path": "D:/progs/IDE/MainProjs/AI/GCI2026/finalA/v3_addons/reports/WP8_report.md",
+        "present": true,
+        "sha256": "92e82438b5cec288b6029619bf7ba2bc1b1abea99d7728a455cf47d4ed6ced73",
+        "size": 23586
+      },
+      {
+        "path": "D:/progs/IDE/MainProjs/AI/GCI2026/finalA/v3_addons/results/wp8/outside_snapshot.json",
+        "present": true,
+        "sha256": "6feb7cb3e429879187b62319cfc869f4f5b9a7d94d2e620df7cc61bcc8fcd242",
+        "size": 898200
+      },
+      {
+        "path": "D:/progs/IDE/MainProjs/AI/GCI2026/finalA/v3_addons/results/wp8/prereg_receipt.json",
+        "present": true,
+        "sha256": "c5eda54c108aa5956a83b92a264c89839c829bdc00f7d474fb1f4b003d07c8b4",
+        "size": 75818
+      },
+      {
+        "path": "D:/progs/IDE/MainProjs/AI/GCI2026/finalA/v3_addons/results/wp8_files_created.csv",
+        "present": true,
+        "sha256": "56bb18fb50c6621dd48448d461ea93122e84c862c12aeae4dca052740af9753e",
+        "size": 36199
+      },
+      {
+        "path": "D:/progs/IDE/MainProjs/AI/GCI2026/finalA/v3_addons/results/wp8_model.json",
+        "present": true,
+        "sha256": "279e69cf17884813f75f2893feff36f236b3168ea197aab0bfe1b7db6002291f",
+        "size": 159693
+      },
+      {
+        "path": "D:/progs/IDE/MainProjs/AI/GCI2026/finalA/v3_addons/results/wp8_tests.json",
+        "present": true,
+        "sha256": "b96e4067cc6d02f53ce2211a15a905eba84f314d4e22533e272da930cb7fb4c2",
+        "size": 8447
+      },
+      {
+        "path": "D:/progs/IDE/MainProjs/AI/GCI2026/finalA/v3_addons/src/common.py",
+        "present": true,
+        "sha256": "5522fe7e7c49f945db5bd12bff6b850652ee12b002014a64f44217b01d13db0d",
+        "size": 7086
+      },
+      {
+        "path": "D:/progs/IDE/MainProjs/AI/GCI2026/finalA/v3_addons/src/wp8_model.py",
+        "present": true,
+        "sha256": "e678102b5e9448c1b0f4182391036b91e898389e958fc8472c7578897eb2696e",
+        "size": 86731
+      },
+      {
+        "path": "D:/progs/IDE/MainProjs/AI/GCI2026/finalA/v3_addons/src/wp8_release_audit.py",
+        "present": true,
+        "sha256": "446c0aae67a9a5190278b34dd97d280b2221237f8a1da9b11c84e5f76a0744a3",
+        "size": 5825
+      },
+      {
+        "path": "D:/progs/IDE/MainProjs/AI/GCI2026/finalA/v3_addons/tests/test_wp8.py",
+        "present": true,
+        "sha256": "b79db9352356fe8fd36f2f13407259f3877951ff03b322d48675dd979fce54ef",
+        "size": 31828
+      }
+    ],
+    "python_version": "3.11.9 (tags/v3.11.9:de54cf5, Apr  2 2024, 10:12:12) [MSC v.1938 64 bit (AMD64)]",
+    "row_counts": {
+      "classifier_fits": 50,
+      "new_test_looks": 0,
+      "repeated_oof": 150000,
+      "sigmoid_fits": 10,
+      "tests_run": 26,
+      "unique_customers": 75000
+    },
+    "runtime_pools": [
+      {
+        "architecture": "Haswell",
+        "filepath": "C:\\Users\\FGstore\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\numpy.libs\\libscipy_openblas64_-860d95b1c38e637ce4509f5fa24fbf2a.dll",
+        "internal_api": "openblas",
+        "num_threads": 6,
+        "prefix": "libscipy_openblas",
+        "threading_layer": "pthreads",
+        "user_api": "blas",
+        "version": "0.3.30"
+      },
+      {
+        "architecture": "Haswell",
+        "filepath": "C:\\Users\\FGstore\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\scipy.libs\\libscipy_openblas-64eda39e79589aedb16f58e5547eb599.dll",
+        "internal_api": "openblas",
+        "num_threads": 6,
+        "prefix": "libscipy_openblas",
+        "threading_layer": "pthreads",
+        "user_api": "blas",
+        "version": "0.3.30"
+      },
+      {
+        "filepath": "C:\\Users\\FGstore\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\sklearn\\.libs\\vcomp140.dll",
+        "internal_api": "openmp",
+        "num_threads": 6,
+        "prefix": "vcomp",
+        "user_api": "openmp",
+        "version": null
+      }
+    ],
+    "script": "D:/progs/IDE/MainProjs/AI/GCI2026/finalA/v3_addons/src/wp8_release_audit.py",
+    "script_sha256": "446c0aae67a9a5190278b34dd97d280b2221237f8a1da9b11c84e5f76a0744a3",
+    "seed": 20261036,
+    "tags_used": [
+      "[E]",
+      "[A]",
+      "[R]"
+    ]
+  },
+  "report_order_reconstruction": {
+    "checks_skipped": false,
+    "exact_report_text_match": true,
+    "normalization": "restore original METRICS and promotion-gate insertion order only",
+    "regression_tests": 2,
+    "sealed_runner_and_artifacts_unchanged": true,
+    "value_changes": false
+  },
+  "seal": {
+    "path": "D:/progs/IDE/MainProjs/AI/GCI2026/finalA/v3_addons/results/wp8/prereg_receipt.json",
+    "present": true,
+    "sha256": "c5eda54c108aa5956a83b92a264c89839c829bdc00f7d474fb1f4b003d07c8b4",
+    "size": 75818
+  },
+  "status": "VERIFIED",
+  "wp7_unchanged": true
+}

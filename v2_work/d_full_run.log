@@ -1,0 +1,25 @@
+Traceback (most recent call last):
+  File "D:\progs\IDE\MainProjs\AI\GCI2026\finalA\v2_work\workstream_d.py", line 1242, in <module>
+    main()
+  File "D:\progs\IDE\MainProjs\AI\GCI2026\finalA\v2_work\workstream_d.py", line 1238, in main
+    return run(smoke=args.smoke, output=args.output_dir)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\progs\IDE\MainProjs\AI\GCI2026\finalA\v2_work\workstream_d.py", line 1163, in run
+    models, screens, weights = run_d4(runner, folds)
+                               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\progs\IDE\MainProjs\AI\GCI2026\finalA\v2_work\workstream_d.py", line 903, in run_d4
+    inner_results = [runner.inner_oof(fold, inner, backend, groups) for backend in BLEND_MODELS]
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\progs\IDE\MainProjs\AI\GCI2026\finalA\v2_work\workstream_d.py", line 903, in <listcomp>
+    inner_results = [runner.inner_oof(fold, inner, backend, groups) for backend in BLEND_MODELS]
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\progs\IDE\MainProjs\AI\GCI2026\finalA\v2_work\workstream_d.py", line 779, in inner_oof
+    result, metadata = self.fit(train, heldout, Recipe(backend=backend, groups=groups),
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\progs\IDE\MainProjs\AI\GCI2026\finalA\v2_work\workstream_d.py", line 685, in fit
+    self.store.npz(prediction_name, **result)
+  File "D:\progs\IDE\MainProjs\AI\GCI2026\finalA\v2_work\workstream_d.py", line 222, in npz
+    self.replace(temporary, target)
+  File "D:\progs\IDE\MainProjs\AI\GCI2026\finalA\v2_work\workstream_d.py", line 200, in replace
+    os.replace(temporary, target)
+FileNotFoundError: [WinError 2] The system cannot find the file specified: 'D:\\progs\\IDE\\MainProjs\\AI\\GCI2026\\finalA\\v2_work\\d_results\\cache\\9d461737bf4c7f6e1414ff2cd38c2f0d4594a958d80d135f8e4480e5aeaef9d1.npz.tmp' -> 'D:\\progs\\IDE\\MainProjs\\AI\\GCI2026\\finalA\\v2_work\\d_results\\cache\\9d461737bf4c7f6e1414ff2cd38c2f0d4594a958d80d135f8e4480e5aeaef9d1.npz'

@@ -1,0 +1,2 @@
+current_session_seconds,cumulative_completed_fit_seconds,completed_unique_fits,new_fits,cache_hits,execution,decision_allowed
+6173.9075872,7797.0954134,696,357,424,sequential; six CPU threads per fit,True

@@ -1,0 +1,71 @@
+{
+  "outer_repeat": 1,
+  "outer_fold": 3,
+  "selection_population": "outer development only",
+  "development_n": 48000,
+  "selected_groups": [
+    "g1_temporal"
+  ],
+  "records": [
+    {
+      "group": "g1_temporal",
+      "inner_paired_auc_mean": 0.00043378842025928083,
+      "inner_paired_auc_differences": [
+        -0.0009196485355909001,
+        0.0004224698453474396,
+        0.001798543951021303
+      ],
+      "keep": true,
+      "reason": "positive inner paired AUC"
+    },
+    {
+      "group": "g3_billing_gaps",
+      "inner_paired_auc_mean": -0.0001495947866841559,
+      "inner_paired_auc_differences": [
+        -0.001324757676759547,
+        0.0004069999109306277,
+        0.00046897340577645164
+      ],
+      "keep": false,
+      "reason": "non-positive inner paired AUC"
+    },
+    {
+      "group": "g4_call_care",
+      "inner_paired_auc_mean": -0.000352344684723227,
+      "inner_paired_auc_differences": [
+        -0.0011736367315622331,
+        0.0002952726068089495,
+        -0.00017866992941639737
+      ],
+      "keep": false,
+      "reason": "non-positive inner paired AUC"
+    },
+    {
+      "group": "g5_equipment_cycle",
+      "inner_paired_auc_mean": -0.00062092774811399,
+      "inner_paired_auc_differences": [
+        -0.0013035529282710012,
+        -0.0002335178787126191,
+        -0.00032571243735834976
+      ],
+      "keep": false,
+      "reason": "non-positive inner paired AUC"
+    },
+    {
+      "group": "g6_tenure_pricing",
+      "inner_paired_auc_mean": -2.2595479966451098e-05,
+      "inner_paired_auc_differences": [
+        -0.0007766375863151875,
+        0.0007203207745591911,
+        -1.1469628143356836e-05
+      ],
+      "keep": false,
+      "reason": "non-positive inner paired AUC"
+    },
+    {
+      "group": "g2_range",
+      "keep": false,
+      "reason": "Neither supplied CSV contains _Range columns; totmrc_Range, ovrrev_Range, mou_Range cannot be tested. No invented fields or reconstructed volatility."
+    }
+  ]
+}

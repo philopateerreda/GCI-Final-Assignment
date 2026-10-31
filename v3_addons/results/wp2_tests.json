@@ -1,0 +1,79 @@
+{
+  "errors": 0,
+  "failures": 0,
+  "provenance": {
+    "created_utc": "2026-10-29T15:03:51.731398+00:00",
+    "input_files": [
+      {
+        "path": "D:/progs/IDE/MainProjs/AI/GCI2026/finalA/v3_addons/src/common.py",
+        "present": true,
+        "sha256": "5522fe7e7c49f945db5bd12bff6b850652ee12b002014a64f44217b01d13db0d",
+        "size": 7086
+      },
+      {
+        "path": "D:/progs/IDE/MainProjs/AI/GCI2026/finalA/v3_addons/src/png_drafts.py",
+        "present": true,
+        "sha256": "4c9a2135d01750409d1d3be20d3cef404385dcdddf5306d0dcde5b746c0069c8",
+        "size": 22184
+      },
+      {
+        "path": "D:/progs/IDE/MainProjs/AI/GCI2026/finalA/v3_addons/src/reporting.py",
+        "present": true,
+        "sha256": "189d0c2ebcb7616746332e56d568e180bd364346f0422ae1c20712dbdc4f4479",
+        "size": 941
+      },
+      {
+        "path": "D:/progs/IDE/MainProjs/AI/GCI2026/finalA/v3_addons/src/wp1_power.py",
+        "present": true,
+        "sha256": "cc9ac2c17be3c32d0c8cc1044467b9c3b0ed74dd0c7feb10e27c74ae8b0043f5",
+        "size": 18237
+      },
+      {
+        "path": "D:/progs/IDE/MainProjs/AI/GCI2026/finalA/v3_addons/src/wp2_decisions.py",
+        "present": true,
+        "sha256": "a5a8eafe627124a74ef13b6398bb436901cb57f27852caecffdf771f0e68c221",
+        "size": 12560
+      },
+      {
+        "path": "D:/progs/IDE/MainProjs/AI/GCI2026/finalA/v3_addons/tests/test_decisions.py",
+        "present": true,
+        "sha256": "105cd3f52bdbd487ec0f6e39212b13ad4a1749593283d6b6284de51eea96aea5",
+        "size": 2523
+      }
+    ],
+    "python_version": "3.11.9 (tags/v3.11.9:de54cf5, Apr  2 2024, 10:12:12) [MSC v.1938 64 bit (AMD64)]",
+    "row_counts": {},
+    "runtime_pools": [
+      {
+        "architecture": "Haswell",
+        "filepath": "C:\\Users\\FGstore\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\numpy.libs\\libscipy_openblas64_-860d95b1c38e637ce4509f5fa24fbf2a.dll",
+        "internal_api": "openblas",
+        "num_threads": 6,
+        "prefix": "libscipy_openblas",
+        "threading_layer": "pthreads",
+        "user_api": "blas",
+        "version": "0.3.30"
+      },
+      {
+        "architecture": "Haswell",
+        "filepath": "C:\\Users\\FGstore\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\scipy.libs\\libscipy_openblas-64eda39e79589aedb16f58e5547eb599.dll",
+        "internal_api": "openblas",
+        "num_threads": 6,
+        "prefix": "libscipy_openblas",
+        "threading_layer": "pthreads",
+        "user_api": "blas",
+        "version": "0.3.30"
+      }
+    ],
+    "script": "D:/progs/IDE/MainProjs/AI/GCI2026/finalA/v3_addons/tests/test_decisions.py",
+    "script_sha256": "105cd3f52bdbd487ec0f6e39212b13ad4a1749593283d6b6284de51eea96aea5",
+    "seed": 20261030,
+    "tags_used": [
+      "[E]",
+      "[A]",
+      "[R]"
+    ]
+  },
+  "status": "passed",
+  "tests": 4
+}

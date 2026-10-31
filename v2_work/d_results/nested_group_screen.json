@@ -1,0 +1,742 @@
+[
+  {
+    "repeat": 0,
+    "fold": 0,
+    "group": "g1_temporal",
+    "inner_paired_auc_mean": 0.0007771063752708048,
+    "inner_paired_auc_differences": [
+      0.0015038807658711573,
+      0.0008232661563150057,
+      4.1722036262514806e-06
+    ],
+    "keep": true,
+    "reason": "positive inner paired AUC"
+  },
+  {
+    "repeat": 0,
+    "fold": 0,
+    "group": "g3_billing_gaps",
+    "inner_paired_auc_mean": -0.00031857714932862863,
+    "inner_paired_auc_differences": [
+      0.0002111099131028027,
+      -0.0002477845960081604,
+      -0.0009190567650805281
+    ],
+    "keep": false,
+    "reason": "non-positive inner paired AUC"
+  },
+  {
+    "repeat": 0,
+    "fold": 0,
+    "group": "g4_call_care",
+    "inner_paired_auc_mean": 0.0005488033354334269,
+    "inner_paired_auc_differences": [
+      0.00035363645029073965,
+      6.586441774447671e-05,
+      0.0012269091382650643
+    ],
+    "keep": true,
+    "reason": "positive inner paired AUC"
+  },
+  {
+    "repeat": 0,
+    "fold": 0,
+    "group": "g5_equipment_cycle",
+    "inner_paired_auc_mean": 1.8048132013892548e-05,
+    "inner_paired_auc_differences": [
+      4.3190806796045145e-05,
+      0.00018088884930256288,
+      -0.00016993526005693038
+    ],
+    "keep": true,
+    "reason": "positive inner paired AUC"
+  },
+  {
+    "repeat": 0,
+    "fold": 0,
+    "group": "g6_tenure_pricing",
+    "inner_paired_auc_mean": 0.00023670028742310092,
+    "inner_paired_auc_differences": [
+      0.0004947722560010304,
+      0.00038773281079329536,
+      -0.00017240420452502292
+    ],
+    "keep": true,
+    "reason": "positive inner paired AUC"
+  },
+  {
+    "repeat": 0,
+    "fold": 0,
+    "group": "g2_range",
+    "inner_paired_auc_mean": null,
+    "inner_paired_auc_differences": null,
+    "keep": false,
+    "reason": "Neither supplied CSV contains _Range columns; totmrc_Range, ovrrev_Range, mou_Range cannot be tested. No invented fields or reconstructed volatility."
+  },
+  {
+    "repeat": 0,
+    "fold": 1,
+    "group": "g1_temporal",
+    "inner_paired_auc_mean": 1.5886632987645772e-06,
+    "inner_paired_auc_differences": [
+      0.0023503987024007245,
+      -0.0009315556972329109,
+      -0.0014140770152715199
+    ],
+    "keep": true,
+    "reason": "positive inner paired AUC"
+  },
+  {
+    "repeat": 0,
+    "fold": 1,
+    "group": "g3_billing_gaps",
+    "inner_paired_auc_mean": 0.0005931912495383829,
+    "inner_paired_auc_differences": [
+      0.001980120352964465,
+      0.00010716445477865211,
+      -0.0003077110591279686
+    ],
+    "keep": true,
+    "reason": "positive inner paired AUC"
+  },
+  {
+    "repeat": 0,
+    "fold": 1,
+    "group": "g4_call_care",
+    "inner_paired_auc_mean": 0.0006773539432446037,
+    "inner_paired_auc_differences": [
+      0.0008251725522734343,
+      0.0016152017888869663,
+      -0.00040831251142658953
+    ],
+    "keep": true,
+    "reason": "positive inner paired AUC"
+  },
+  {
+    "repeat": 0,
+    "fold": 1,
+    "group": "g5_equipment_cycle",
+    "inner_paired_auc_mean": 0.0006040149948980389,
+    "inner_paired_auc_differences": [
+      0.0004511439157059982,
+      0.0014810040143699021,
+      -0.00012010294538178368
+    ],
+    "keep": true,
+    "reason": "positive inner paired AUC"
+  },
+  {
+    "repeat": 0,
+    "fold": 1,
+    "group": "g6_tenure_pricing",
+    "inner_paired_auc_mean": 0.0016530588539851825,
+    "inner_paired_auc_differences": [
+      0.002619747449414067,
+      0.0013971538445912701,
+      0.00094227526795021
+    ],
+    "keep": true,
+    "reason": "positive inner paired AUC"
+  },
+  {
+    "repeat": 0,
+    "fold": 1,
+    "group": "g2_range",
+    "inner_paired_auc_mean": null,
+    "inner_paired_auc_differences": null,
+    "keep": false,
+    "reason": "Neither supplied CSV contains _Range columns; totmrc_Range, ovrrev_Range, mou_Range cannot be tested. No invented fields or reconstructed volatility."
+  },
+  {
+    "repeat": 0,
+    "fold": 2,
+    "group": "g1_temporal",
+    "inner_paired_auc_mean": -1.284994215696352e-05,
+    "inner_paired_auc_differences": [
+      -8.560030377324779e-05,
+      -0.00029249114385310193,
+      0.00033954162115545916
+    ],
+    "keep": false,
+    "reason": "non-positive inner paired AUC"
+  },
+  {
+    "repeat": 0,
+    "fold": 2,
+    "group": "g3_billing_gaps",
+    "inner_paired_auc_mean": -9.255916989414636e-06,
+    "inner_paired_auc_differences": [
+      -8.953810526113326e-05,
+      -0.00019403048045862903,
+      0.0002558008347515184
+    ],
+    "keep": false,
+    "reason": "non-positive inner paired AUC"
+  },
+  {
+    "repeat": 0,
+    "fold": 2,
+    "group": "g4_call_care",
+    "inner_paired_auc_mean": 0.00019132193975272363,
+    "inner_paired_auc_differences": [
+      -0.00010124212635032048,
+      -0.000907928888305487,
+      0.0015831368339139784
+    ],
+    "keep": true,
+    "reason": "positive inner paired AUC"
+  },
+  {
+    "repeat": 0,
+    "fold": 2,
+    "group": "g5_equipment_cycle",
+    "inner_paired_auc_mean": 0.0008976572685513625,
+    "inner_paired_auc_differences": [
+      0.0010794263935832715,
+      0.0007872321474614585,
+      0.0008263132646093574
+    ],
+    "keep": true,
+    "reason": "positive inner paired AUC"
+  },
+  {
+    "repeat": 0,
+    "fold": 2,
+    "group": "g6_tenure_pricing",
+    "inner_paired_auc_mean": 0.0010769626632873102,
+    "inner_paired_auc_differences": [
+      0.0012013419777451295,
+      0.0006227976829477067,
+      0.001406748329169094
+    ],
+    "keep": true,
+    "reason": "positive inner paired AUC"
+  },
+  {
+    "repeat": 0,
+    "fold": 2,
+    "group": "g2_range",
+    "inner_paired_auc_mean": null,
+    "inner_paired_auc_differences": null,
+    "keep": false,
+    "reason": "Neither supplied CSV contains _Range columns; totmrc_Range, ovrrev_Range, mou_Range cannot be tested. No invented fields or reconstructed volatility."
+  },
+  {
+    "repeat": 0,
+    "fold": 3,
+    "group": "g1_temporal",
+    "inner_paired_auc_mean": -0.00029349122042154896,
+    "inner_paired_auc_differences": [
+      -0.00010596123765715948,
+      -0.0013529160826376563,
+      0.0005784036590301689
+    ],
+    "keep": false,
+    "reason": "non-positive inner paired AUC"
+  },
+  {
+    "repeat": 0,
+    "fold": 3,
+    "group": "g3_billing_gaps",
+    "inner_paired_auc_mean": 1.918376042335061e-05,
+    "inner_paired_auc_differences": [
+      0.001173074188492662,
+      -0.0015002711145073455,
+      0.00038474820728473524
+    ],
+    "keep": true,
+    "reason": "positive inner paired AUC"
+  },
+  {
+    "repeat": 0,
+    "fold": 3,
+    "group": "g4_call_care",
+    "inner_paired_auc_mean": 0.00024292484893380836,
+    "inner_paired_auc_differences": [
+      0.00013394775537511894,
+      -0.0008650349792406198,
+      0.001459861770666926
+    ],
+    "keep": true,
+    "reason": "positive inner paired AUC"
+  },
+  {
+    "repeat": 0,
+    "fold": 3,
+    "group": "g5_equipment_cycle",
+    "inner_paired_auc_mean": 0.00045217003593504373,
+    "inner_paired_auc_differences": [
+      0.000346151502224501,
+      -0.0004539253786619568,
+      0.001464283984242587
+    ],
+    "keep": true,
+    "reason": "positive inner paired AUC"
+  },
+  {
+    "repeat": 0,
+    "fold": 3,
+    "group": "g6_tenure_pricing",
+    "inner_paired_auc_mean": -0.0006534041929250703,
+    "inner_paired_auc_differences": [
+      -0.0007719184750081265,
+      -0.000408671913943337,
+      -0.0007796221898237476
+    ],
+    "keep": false,
+    "reason": "non-positive inner paired AUC"
+  },
+  {
+    "repeat": 0,
+    "fold": 3,
+    "group": "g2_range",
+    "inner_paired_auc_mean": null,
+    "inner_paired_auc_differences": null,
+    "keep": false,
+    "reason": "Neither supplied CSV contains _Range columns; totmrc_Range, ovrrev_Range, mou_Range cannot be tested. No invented fields or reconstructed volatility."
+  },
+  {
+    "repeat": 0,
+    "fold": 4,
+    "group": "g1_temporal",
+    "inner_paired_auc_mean": -6.424450205296435e-05,
+    "inner_paired_auc_differences": [
+      -0.000258707307278061,
+      -0.00019362419935275987,
+      0.0002595980004719278
+    ],
+    "keep": false,
+    "reason": "non-positive inner paired AUC"
+  },
+  {
+    "repeat": 0,
+    "fold": 4,
+    "group": "g3_billing_gaps",
+    "inner_paired_auc_mean": 0.00010015871006796573,
+    "inner_paired_auc_differences": [
+      0.0013958099917026345,
+      -0.0006783331848844165,
+      -0.00041700067661432083
+    ],
+    "keep": true,
+    "reason": "positive inner paired AUC"
+  },
+  {
+    "repeat": 0,
+    "fold": 4,
+    "group": "g4_call_care",
+    "inner_paired_auc_mean": -0.00037179409048497075,
+    "inner_paired_auc_differences": [
+      0.00040971886910101674,
+      -0.0009339933838683478,
+      -0.0005911077566875811
+    ],
+    "keep": false,
+    "reason": "non-positive inner paired AUC"
+  },
+  {
+    "repeat": 0,
+    "fold": 4,
+    "group": "g5_equipment_cycle",
+    "inner_paired_auc_mean": -0.00010036705935293859,
+    "inner_paired_auc_differences": [
+      0.0013191009936699416,
+      -0.0006624413431652876,
+      -0.0009577608285634698
+    ],
+    "keep": false,
+    "reason": "non-positive inner paired AUC"
+  },
+  {
+    "repeat": 0,
+    "fold": 4,
+    "group": "g6_tenure_pricing",
+    "inner_paired_auc_mean": -0.00031711802934908384,
+    "inner_paired_auc_differences": [
+      0.0002043281438736111,
+      -3.9315510093729245e-05,
+      -0.0011163667218271334
+    ],
+    "keep": false,
+    "reason": "non-positive inner paired AUC"
+  },
+  {
+    "repeat": 0,
+    "fold": 4,
+    "group": "g2_range",
+    "inner_paired_auc_mean": null,
+    "inner_paired_auc_differences": null,
+    "keep": false,
+    "reason": "Neither supplied CSV contains _Range columns; totmrc_Range, ovrrev_Range, mou_Range cannot be tested. No invented fields or reconstructed volatility."
+  },
+  {
+    "repeat": 1,
+    "fold": 0,
+    "group": "g1_temporal",
+    "inner_paired_auc_mean": 0.000794670592916565,
+    "inner_paired_auc_differences": [
+      0.0020395467778000498,
+      -0.00016746594661154468,
+      0.00051193094756119
+    ],
+    "keep": true,
+    "reason": "positive inner paired AUC"
+  },
+  {
+    "repeat": 1,
+    "fold": 0,
+    "group": "g3_billing_gaps",
+    "inner_paired_auc_mean": 0.0004859428409095627,
+    "inner_paired_auc_differences": [
+      0.001970713382743239,
+      0.0003233216293121455,
+      -0.0008362064893266963
+    ],
+    "keep": true,
+    "reason": "positive inner paired AUC"
+  },
+  {
+    "repeat": 1,
+    "fold": 0,
+    "group": "g4_call_care",
+    "inner_paired_auc_mean": 0.00033268182296937915,
+    "inner_paired_auc_differences": [
+      0.0014903484798054478,
+      -0.0006312202027968228,
+      0.00013891719189951246
+    ],
+    "keep": true,
+    "reason": "positive inner paired AUC"
+  },
+  {
+    "repeat": 1,
+    "fold": 0,
+    "group": "g5_equipment_cycle",
+    "inner_paired_auc_mean": -0.00039130145173379055,
+    "inner_paired_auc_differences": [
+      0.0006070308507994948,
+      -0.0008830519836676709,
+      -0.0008978832223331956
+    ],
+    "keep": false,
+    "reason": "non-positive inner paired AUC"
+  },
+  {
+    "repeat": 1,
+    "fold": 0,
+    "group": "g6_tenure_pricing",
+    "inner_paired_auc_mean": -3.0268136512560478e-05,
+    "inner_paired_auc_differences": [
+      0.0013239451145476977,
+      -0.0011504318299370153,
+      -0.0002643176941483638
+    ],
+    "keep": false,
+    "reason": "non-positive inner paired AUC"
+  },
+  {
+    "repeat": 1,
+    "fold": 0,
+    "group": "g2_range",
+    "inner_paired_auc_mean": null,
+    "inner_paired_auc_differences": null,
+    "keep": false,
+    "reason": "Neither supplied CSV contains _Range columns; totmrc_Range, ovrrev_Range, mou_Range cannot be tested. No invented fields or reconstructed volatility."
+  },
+  {
+    "repeat": 1,
+    "fold": 1,
+    "group": "g1_temporal",
+    "inner_paired_auc_mean": 0.00011076889741042557,
+    "inner_paired_auc_differences": [
+      -0.0002236733749928499,
+      0.000394655215790074,
+      0.00016132485143405262
+    ],
+    "keep": true,
+    "reason": "positive inner paired AUC"
+  },
+  {
+    "repeat": 1,
+    "fold": 1,
+    "group": "g3_billing_gaps",
+    "inner_paired_auc_mean": -0.00022182948381980575,
+    "inner_paired_auc_differences": [
+      -0.0008485180896662392,
+      -0.0002976790410514907,
+      0.0004807086792583126
+    ],
+    "keep": false,
+    "reason": "non-positive inner paired AUC"
+  },
+  {
+    "repeat": 1,
+    "fold": 1,
+    "group": "g4_call_care",
+    "inner_paired_auc_mean": 5.7046034253716016e-05,
+    "inner_paired_auc_differences": [
+      0.00038587329342409937,
+      -0.0004840995638728529,
+      0.0002693643732099016
+    ],
+    "keep": true,
+    "reason": "positive inner paired AUC"
+  },
+  {
+    "repeat": 1,
+    "fold": 1,
+    "group": "g5_equipment_cycle",
+    "inner_paired_auc_mean": 0.0005237588502869928,
+    "inner_paired_auc_differences": [
+      -0.0004060154605587396,
+      0.0017974969958638454,
+      0.00017979501555587252
+    ],
+    "keep": true,
+    "reason": "positive inner paired AUC"
+  },
+  {
+    "repeat": 1,
+    "fold": 1,
+    "group": "g6_tenure_pricing",
+    "inner_paired_auc_mean": 0.0011458533543974303,
+    "inner_paired_auc_differences": [
+      0.00031436781878602105,
+      0.0019435394272373507,
+      0.0011796528171689191
+    ],
+    "keep": true,
+    "reason": "positive inner paired AUC"
+  },
+  {
+    "repeat": 1,
+    "fold": 1,
+    "group": "g2_range",
+    "inner_paired_auc_mean": null,
+    "inner_paired_auc_differences": null,
+    "keep": false,
+    "reason": "Neither supplied CSV contains _Range columns; totmrc_Range, ovrrev_Range, mou_Range cannot be tested. No invented fields or reconstructed volatility."
+  },
+  {
+    "repeat": 1,
+    "fold": 2,
+    "group": "g1_temporal",
+    "inner_paired_auc_mean": 0.00018519126203938216,
+    "inner_paired_auc_differences": [
+      -0.000800748807330498,
+      0.0007984048778735264,
+      0.000557917715575118
+    ],
+    "keep": true,
+    "reason": "positive inner paired AUC"
+  },
+  {
+    "repeat": 1,
+    "fold": 2,
+    "group": "g3_billing_gaps",
+    "inner_paired_auc_mean": -0.00045595678419126556,
+    "inner_paired_auc_differences": [
+      0.0002333147381596845,
+      0.00018073258733874997,
+      -0.0017819176780722312
+    ],
+    "keep": false,
+    "reason": "non-positive inner paired AUC"
+  },
+  {
+    "repeat": 1,
+    "fold": 2,
+    "group": "g4_call_care",
+    "inner_paired_auc_mean": -0.0006528885284446581,
+    "inner_paired_auc_differences": [
+      -0.0012880361152650677,
+      -4.958192111592652e-05,
+      -0.0006210475489529799
+    ],
+    "keep": false,
+    "reason": "non-positive inner paired AUC"
+  },
+  {
+    "repeat": 1,
+    "fold": 2,
+    "group": "g5_equipment_cycle",
+    "inner_paired_auc_mean": -0.000143281803346366,
+    "inner_paired_auc_differences": [
+      -0.0004958504635510508,
+      0.0008491587637178277,
+      -0.000783153710205875
+    ],
+    "keep": false,
+    "reason": "non-positive inner paired AUC"
+  },
+  {
+    "repeat": 1,
+    "fold": 2,
+    "group": "g6_tenure_pricing",
+    "inner_paired_auc_mean": -0.0008756139141902949,
+    "inner_paired_auc_differences": [
+      -0.001446673260921516,
+      -0.0006337516466103921,
+      -0.0005464168350389764
+    ],
+    "keep": false,
+    "reason": "non-positive inner paired AUC"
+  },
+  {
+    "repeat": 1,
+    "fold": 2,
+    "group": "g2_range",
+    "inner_paired_auc_mean": null,
+    "inner_paired_auc_differences": null,
+    "keep": false,
+    "reason": "Neither supplied CSV contains _Range columns; totmrc_Range, ovrrev_Range, mou_Range cannot be tested. No invented fields or reconstructed volatility."
+  },
+  {
+    "repeat": 1,
+    "fold": 3,
+    "group": "g1_temporal",
+    "inner_paired_auc_mean": 0.00043378842025928083,
+    "inner_paired_auc_differences": [
+      -0.0009196485355909001,
+      0.0004224698453474396,
+      0.001798543951021303
+    ],
+    "keep": true,
+    "reason": "positive inner paired AUC"
+  },
+  {
+    "repeat": 1,
+    "fold": 3,
+    "group": "g3_billing_gaps",
+    "inner_paired_auc_mean": -0.0001495947866841559,
+    "inner_paired_auc_differences": [
+      -0.001324757676759547,
+      0.0004069999109306277,
+      0.00046897340577645164
+    ],
+    "keep": false,
+    "reason": "non-positive inner paired AUC"
+  },
+  {
+    "repeat": 1,
+    "fold": 3,
+    "group": "g4_call_care",
+    "inner_paired_auc_mean": -0.000352344684723227,
+    "inner_paired_auc_differences": [
+      -0.0011736367315622331,
+      0.0002952726068089495,
+      -0.00017866992941639737
+    ],
+    "keep": false,
+    "reason": "non-positive inner paired AUC"
+  },
+  {
+    "repeat": 1,
+    "fold": 3,
+    "group": "g5_equipment_cycle",
+    "inner_paired_auc_mean": -0.00062092774811399,
+    "inner_paired_auc_differences": [
+      -0.0013035529282710012,
+      -0.0002335178787126191,
+      -0.00032571243735834976
+    ],
+    "keep": false,
+    "reason": "non-positive inner paired AUC"
+  },
+  {
+    "repeat": 1,
+    "fold": 3,
+    "group": "g6_tenure_pricing",
+    "inner_paired_auc_mean": -2.2595479966451098e-05,
+    "inner_paired_auc_differences": [
+      -0.0007766375863151875,
+      0.0007203207745591911,
+      -1.1469628143356836e-05
+    ],
+    "keep": false,
+    "reason": "non-positive inner paired AUC"
+  },
+  {
+    "repeat": 1,
+    "fold": 3,
+    "group": "g2_range",
+    "inner_paired_auc_mean": null,
+    "inner_paired_auc_differences": null,
+    "keep": false,
+    "reason": "Neither supplied CSV contains _Range columns; totmrc_Range, ovrrev_Range, mou_Range cannot be tested. No invented fields or reconstructed volatility."
+  },
+  {
+    "repeat": 1,
+    "fold": 4,
+    "group": "g1_temporal",
+    "inner_paired_auc_mean": 0.0001805138205893675,
+    "inner_paired_auc_differences": [
+      0.0003544021339133563,
+      0.00036243399885305116,
+      -0.00017529467099830498
+    ],
+    "keep": true,
+    "reason": "positive inner paired AUC"
+  },
+  {
+    "repeat": 1,
+    "fold": 4,
+    "group": "g3_billing_gaps",
+    "inner_paired_auc_mean": 0.0003551001040184391,
+    "inner_paired_auc_differences": [
+      0.0011549634268873676,
+      0.00041515678544146173,
+      -0.0005048199002735121
+    ],
+    "keep": true,
+    "reason": "positive inner paired AUC"
+  },
+  {
+    "repeat": 1,
+    "fold": 4,
+    "group": "g4_call_care",
+    "inner_paired_auc_mean": 0.0009315296535725345,
+    "inner_paired_auc_differences": [
+      8.200627860577292e-05,
+      0.0018330934712190716,
+      0.0008794892108927588
+    ],
+    "keep": true,
+    "reason": "positive inner paired AUC"
+  },
+  {
+    "repeat": 1,
+    "fold": 4,
+    "group": "g5_equipment_cycle",
+    "inner_paired_auc_mean": -0.00013958881226838749,
+    "inner_paired_auc_differences": [
+      3.581524210438669e-05,
+      6.383301221513094e-05,
+      -0.0005184146911246801
+    ],
+    "keep": false,
+    "reason": "non-positive inner paired AUC"
+  },
+  {
+    "repeat": 1,
+    "fold": 4,
+    "group": "g6_tenure_pricing",
+    "inner_paired_auc_mean": 0.00026074913027196445,
+    "inner_paired_auc_differences": [
+      0.0013522910347822936,
+      0.0007582299269788262,
+      -0.0013282735709452265
+    ],
+    "keep": true,
+    "reason": "positive inner paired AUC"
+  },
+  {
+    "repeat": 1,
+    "fold": 4,
+    "group": "g2_range",
+    "inner_paired_auc_mean": null,
+    "inner_paired_auc_differences": null,
+    "keep": false,
+    "reason": "Neither supplied CSV contains _Range columns; totmrc_Range, ovrrev_Range, mou_Range cannot be tested. No invented fields or reconstructed volatility."
+  }
+]

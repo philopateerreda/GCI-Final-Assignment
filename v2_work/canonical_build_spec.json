@@ -1,0 +1,20 @@
+{
+  "original_code_cells_preserved": 9,
+  "v2_code_cells": 25,
+  "pipeline_sha256": "87ca9f1b0e14ebb5d62102a0e66a9dbe1903dff7abf79a563e661e91ff0ffe07",
+  "builder_sha256": "3aed8fd57639870f3f2ffd0b6d703d7b630d7d84737588e93c90d0444b42d689",
+  "embedded_modules": [
+    "common",
+    "workstream_a",
+    "workstream_b",
+    "workstream_c",
+    "workstream_d",
+    "a_budget_gate",
+    "headroom_refit",
+    "final_protocol",
+    "run_frozen_batch",
+    "final_metrics",
+    "generate_visuals"
+  ],
+  "root_modified": false
+}

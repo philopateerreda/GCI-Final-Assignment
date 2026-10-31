@@ -1,0 +1,26 @@
+{
+  "regression_checks": {
+    "auc": 0.6978109022411016,
+    "contacts": 9984.921534106341,
+    "churners": 476.3954270342972,
+    "prevented": 95.27908540685945,
+    "retained_revenue": 31220.006649619372,
+    "net": 3747.0824556652824,
+    "break_even_cost": 1.3752741013403116,
+    "break_even_prevention": 0.15999272199908424,
+    "pilot_per_arm": 7872
+  },
+  "raw_test_rows": 15000,
+  "test_churners": 7435,
+  "test_nonchurners": 7565,
+  "W1": 0.26899798251513113,
+  "W0": 12.954395241242564,
+  "selected_raw": 2505,
+  "selected_churners": 1771,
+  "selected_nonchurners": 734,
+  "sample_slide9_score": "p_s * V; top 1500 unweighted test rows",
+  "deployment_slide11_score": "p_d * V; calibration-fitted weighted threshold; 2505 test rows",
+  "gate_threshold": 1.3888888888888886,
+  "budget_threshold": 1.711493684172072,
+  "pilot_envelope_exact_assumed": 12872
+}

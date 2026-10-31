@@ -1,0 +1,238 @@
+{
+  "schema_version": "1.0",
+  "scope": {
+    "native_slides": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15],
+    "slide_7": "Split counts, operational-feature count, repeated-CV design and results, proxy audit, seed and ordinal are bound to frozen sources.",
+    "derivation_rule": "Observed values are independently sourced, never copied from displayed deck text. Extracted observed claims are not design constants. CSV records and bibliographic strings were independently transformed with the explicit Python311 interpreter before serialization."
+  },
+  "deck_order": {
+    "source_file": "v1_frozen/philopateer.pptx",
+    "source_sha256": "87a35e071bb80cd4ff738766df514604095b61a1afac7bca90644de7330a43e5",
+    "source_locator": "Presentation.slides, actual current ordering",
+    "transformation": "Read-only python-pptx enumeration; assumed presentation-design ordinal labels.",
+    "ordinals": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15],
+    "epistemic_type": "assumed"
+  },
+  "design_constants": {
+    "label_window": {
+      "source_file": "v1_frozen/references.txt",
+      "source_sha256": "02df23d392481e4eb8fc171a0ce2d790af2291890d9358b268d33038f86e8d3a",
+      "source_locator": "[D1]: Churn describes days 31-60 after observation.",
+      "transformation": "Parse documented label endpoints as assumed design-label constants, not observed counts.",
+      "start_day": 31,
+      "end_day": 60,
+      "epistemic_type": "assumed"
+    },
+    "frozen_evaluation": {
+      "source_file": "v1_frozen/analysis_pipeline.py",
+      "source_sha256": "4a70b0878f744a10806e08b6be07fe22ed153f0b041473565d1ab2b21f28398e",
+      "source_locator": "metric_row line 320; bootstrap loop line 385; intervals quantiles line 393",
+      "transformation": "Read-only ast.parse and ast.literal_eval of numeric configuration literals; confidence_level = upper_quantile - lower_quantile. The analysis code was not imported or executed.",
+      "accuracy_threshold": 0.5,
+      "bootstrap_replicates": 300,
+      "lower_quantile": 0.025,
+      "upper_quantile": 0.975,
+      "confidence_level": 0.95,
+      "epistemic_type": "assumed",
+      "caveat": "Frozen evaluation-design settings only; metrics and interval endpoints are bound directly to frozen output JSON. No scoring, bootstrap rerun or fitting was performed."
+    },
+    "enhancement_headroom": {
+      "source_file": "v2_work/d_results/run_spec.json",
+      "source_sha256": "8aedbe7d47534a3e8cf8c3e615b0448df7a36fdde0a97b4f31f57b2d77b0a3f3",
+      "source_locator": "tail_gate",
+      "transformation": "Parse the explicitly documented corrected interval confidence percentage from the frozen actual non-test run specification; divide by 100. No interval recomputation.",
+      "epistemic_type": "assumed",
+      "confidence_level": 0.95
+    },
+    "deployment_intervals": {
+      "source_file": "v2_work/workstream_a.py",
+      "source_sha256": "b1ccdd6d40eab51961498ff39c0522f4df57b1d0cd4309aa5b509fc30a3434b8",
+      "source_locator": "AST Call nodes at line 180: vals.quantile(.025), vals.quantile(.975)",
+      "transformation": "Read-only ast.parse and ast.literal_eval of the frozen interval probability literals; confidence_level = upper_quantile - lower_quantile. No importing or executing scientific code.",
+      "epistemic_type": "assumed",
+      "lower_quantile": 0.025,
+      "upper_quantile": 0.975,
+      "confidence_level": 0.95
+    },
+    "pilot_decision_gates": {
+      "source_file": "v2_work/b_design.json",
+      "source_sha256": "aaa1dfa7b8dc65bd8a84ffa8a6b6d1d7f5f1ae40cdcf2746469a85468618f245",
+      "source_locator": "decision_gates.scale; decision_gates.stop; decision_gates.harm_looks; decision_gates.one_sided_alpha_per_harm_look",
+      "transformation": "Parse numeric confidence and zero thresholds from the independently frozen decision-gate definitions; familywise_alpha_bound = len(harm_looks) * one_sided_alpha_per_harm_look (Bonferroni union bound). No contact-cost aliases or treatment-outcome computation.",
+      "epistemic_type": "assumed",
+      "scale_confidence_level": 0.95,
+      "scale_lower_bound_threshold": 0,
+      "stop_upper_bound_threshold": 0,
+      "harm_familywise_alpha_bound": 0.01
+    }
+  },
+  "source_transforms": {
+    "data_partitions": {
+      "source_file": "v1_frozen/analysis_outputs/tables/data_partitions.csv",
+      "source_sha256": "19befb2dffe5be4ae1059d4d3f5e118e06b8bd32cbf96fd92ad463c8066103ce",
+      "source_locator": "All four named partition records: partition, customers and sample_churn_rate fields.",
+      "transformation": "csv.DictReader; customers cast to int and sample_churn_rate cast to float; index by partition. No predictions or labels scored.",
+      "records": {
+        "train": {"customers": 60000, "sample_churn_rate": 0.49561666666666665},
+        "validation": {"customers": 15000, "sample_churn_rate": 0.4956},
+        "calibration_policy": {"customers": 10000, "sample_churn_rate": 0.4956},
+        "test": {"customers": 15000, "sample_churn_rate": 0.49566666666666664}
+      },
+      "epistemic_type": "observed"
+    },
+    "external_claims": {
+      "TMobile2025": {
+        "source_file": "v2_work/literature_verification.json",
+        "source_sha256": "7b1cdc95e077385de08e2560eaa18ffb6e722992077a062c50e9d8ea0848a8a6",
+        "source_locator": "sources.7.verified_claims.0.excerpt",
+        "transformation": "Extract separately named postpaid phone and prepaid percentages from the verified issuer-table transcription; Decimal(percent)/100.",
+        "source_url": "https://s29.q4cdn.com/310188824/files/doc_financials/2025/ar/2025-TMUS-Annual-Report-Final-Web.pdf",
+        "postpaid_phone_churn": 0.0093,
+        "prepaid_churn": 0.0272,
+        "postpaid_phone_arpu": {
+          "value": 50.37,
+          "source_locator": "sources.7.verified_claims.2.excerpt",
+          "transformation": "Decimal of the independently verified issuer ARPU table transcription; per customer per month."
+        },
+        "epistemic_type": "observed",
+        "caveat": "FY2025 monthly carrier rates; not Company A prevalence."
+      },
+      "ATT2025": {
+        "source_file": "v2_work/literature_verification.json",
+        "source_sha256": "7b1cdc95e077385de08e2560eaa18ffb6e722992077a062c50e9d8ea0848a8a6",
+        "source_locator": "sources.8.verified_claims.0.excerpt",
+        "transformation": "Decimal of the independently verified FY2025 postpaid phone percentage divided by 100.",
+        "postpaid_phone_churn": 0.009,
+        "epistemic_type": "observed",
+        "caveat": "Average monthly beginning-of-month subscriber churn ratios; not T-Mobile's denominator or Company A prevalence."
+      },
+      "Ascarza2016": {
+        "source_file": "v2_work/literature_verification.json",
+        "source_sha256": "7b1cdc95e077385de08e2560eaa18ffb6e722992077a062c50e9d8ea0848a8a6",
+        "source_locator": "sources.5.verified_claims.0.excerpt",
+        "transformation": "Extract control then treatment percentages from the verified published-paper abstract; Decimal(percent)/100.",
+        "source_url": "https://business.columbia.edu/sites/default/files-efs/pubfiles/12782/Perils_Ascarza.pdf",
+        "control_churn": 0.06,
+        "treatment_churn": 0.1,
+        "outcome_horizon": "Three months following cost-minimizing plan recommendations.",
+        "epistemic_type": "observed",
+        "caveat": "Specific randomized intervention; not a universal effect."
+      },
+      "S3": {
+        "source_file": "v1_frozen/references.txt",
+        "source_sha256": "02df23d392481e4eb8fc171a0ce2d790af2291890d9358b268d33038f86e8d3a",
+        "source_locator": "[S3]: promotional cost of retention improved by 30% year over year.",
+        "transformation": "Extract the reported percentage from independent original reference text, not slide text; divide by 100.",
+        "source_url": "https://www.verizon.com/about/news/verizon-delivers-another-record-breaking-quarter",
+        "promotional_retention_cost_improvement": 0.3,
+        "epistemic_type": "observed",
+        "caveat": "Management-reported aggregate comparison; not randomized or a Company A savings assumption. S3 is retained from references.txt, not independently re-audited in literature_verification.json."
+      },
+      "S7": {
+        "source_file": "v1_frozen/references.txt",
+        "source_sha256": "02df23d392481e4eb8fc171a0ce2d790af2291890d9358b268d33038f86e8d3a",
+        "source_locator": "[S7]: Named deployment: more than 1,000 Vodafone retail stores.",
+        "transformation": "Extract the strict lower bound from independent original reference text; remove comma grouping then int. This is not an exact store count.",
+        "source_url": "https://www.mce.systems/articles/vodafone-turkey-launches-advanced-device-care-by-mce-and-techpo",
+        "stores_strict_lower_bound": 1000,
+        "qualifier": "more than",
+        "epistemic_type": "observed",
+        "caveat": "Vendor-reported operational deployment; no causal churn effect asserted. S7 is retained from references.txt, not independently re-audited in literature_verification.json."
+      }
+    }
+  },
+  "bibliography": {
+    "assignment": {
+      "source_file": "v1_frozen/references.txt",
+      "source_sha256": "02df23d392481e4eb8fc171a0ce2d790af2291890d9358b268d33038f86e8d3a",
+      "source_locator": "[D1], GCI World 2026",
+      "transformation": "Extract the year from the original assignment-reference header.",
+      "year": 2026
+    },
+    "access": {
+      "source_file": "v2_work/literature_verification.json",
+      "source_sha256": "7b1cdc95e077385de08e2560eaa18ffb6e722992077a062c50e9d8ea0848a8a6",
+      "source_locator": "accessed_date",
+      "transformation": "datetime.date.fromisoformat of the evidence-register access date.",
+      "year": 2026,
+      "month": 10,
+      "day": 28
+    },
+    "TMobile2025": {
+      "source_file": "v2_work/literature_verification.json",
+      "source_sha256": "7b1cdc95e077385de08e2560eaa18ffb6e722992077a062c50e9d8ea0848a8a6",
+      "source_locator": "sources.7.bibliographic_metadata",
+      "transformation": "Parse fiscal year from reporting_period and Form number from the verified title; retain independently recorded publication year. No filing day is inferred.",
+      "reporting_year": 2025,
+      "form_number": 10,
+      "publication_year": 2026,
+      "filing_date": null,
+      "filing_date_caveat": "The exact filing date 11 February 2026 in the original reference/indexed record was not independently verified by the literature audit."
+    },
+    "ATT2025": {
+      "source_file": "v2_work/literature_verification.json",
+      "source_sha256": "7b1cdc95e077385de08e2560eaa18ffb6e722992077a062c50e9d8ea0848a8a6",
+      "source_locator": "sources.8.bibliographic_metadata",
+      "transformation": "Parse fiscal year and Form number from verified metadata and filing-date components from the explicitly verified ISO filing_date.",
+      "reporting_year": 2025,
+      "form_number": 10,
+      "publication_year": 2026,
+      "filing_date": {"year": 2026, "month": 2, "day": 9}
+    },
+    "Ascarza2016": {
+      "source_file": "v2_work/literature_verification.json",
+      "source_sha256": "7b1cdc95e077385de08e2560eaa18ffb6e722992077a062c50e9d8ea0848a8a6",
+      "source_locator": "sources.5.bibliographic_metadata",
+      "transformation": "Cast verified bibliographic volume, issue and page endpoints from numeric strings to int; retain independently recorded year.",
+      "year": 2016,
+      "volume": 53,
+      "issue": 1,
+      "pages": {"start": 46, "end": 60}
+    },
+    "Ascarza2018": {
+      "source_file": "v2_work/literature_verification.json",
+      "source_sha256": "7b1cdc95e077385de08e2560eaa18ffb6e722992077a062c50e9d8ea0848a8a6",
+      "source_locator": "sources.4.bibliographic_metadata",
+      "transformation": "Cast verified bibliographic volume, issue and page endpoints from numeric strings to int; retain independently recorded year.",
+      "year": 2018,
+      "volume": 55,
+      "issue": 1,
+      "pages": {"start": 80, "end": 98}
+    },
+    "LemmensGupta2020": {
+      "source_file": "v2_work/literature_verification.json",
+      "source_sha256": "7b1cdc95e077385de08e2560eaa18ffb6e722992077a062c50e9d8ea0848a8a6",
+      "source_locator": "sources.3.bibliographic_metadata",
+      "transformation": "Cast verified bibliographic volume, issue and page endpoints from numeric strings to int; retain independently recorded year.",
+      "year": 2020,
+      "volume": 39,
+      "issue": 5,
+      "pages": {"start": 956, "end": 973}
+    },
+    "S3": {
+      "source_file": "v1_frozen/references.txt",
+      "source_sha256": "02df23d392481e4eb8fc171a0ce2d790af2291890d9358b268d33038f86e8d3a",
+      "source_locator": "[S3] header",
+      "transformation": "Parse stated publication date and quarter reporting year from the original cited reference, never slide text.",
+      "publication_date": {"year": 2026, "month": 10, "day": 26},
+      "reporting_year": 2026,
+      "caveat": "Original reference metadata retained; S3 is not independently re-audited in literature_verification.json."
+    },
+    "S7": {
+      "source_file": "v1_frozen/references.txt",
+      "source_sha256": "02df23d392481e4eb8fc171a0ce2d790af2291890d9358b268d33038f86e8d3a",
+      "source_locator": "[S7] header",
+      "transformation": "Parse the stated publication date from the original cited reference, never slide text.",
+      "publication_date": {"year": 2020, "month": 5, "day": 26},
+      "caveat": "Original reference metadata retained; S7 is not independently re-audited in literature_verification.json."
+    },
+    "S8": {
+      "source_file": "v1_frozen/references.txt",
+      "source_sha256": "02df23d392481e4eb8fc171a0ce2d790af2291890d9358b268d33038f86e8d3a",
+      "source_locator": "[S8] header",
+      "transformation": "Extract the stated PegaWorld presentation year from the original reference.",
+      "year": 2023
+    }
+  },
+  "unbound_native_tokens": []
+}

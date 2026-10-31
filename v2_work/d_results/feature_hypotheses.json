@@ -1,0 +1,27 @@
+{
+  "g1_temporal": {
+    "status": "available",
+    "definition": "avg3/avg6/lifetime ratios and differences for mou/qty/rev; mou_Mean and rev_Mean versus avg3 are explicitly undated comparisons",
+    "window_caveat": "avg3=3 months; avg6=6 months; _Mean window unspecified. No inferred 3/4-month _Mean, time-normalized acceleration, or reinterpretation of change_* percentages as absolute changes."
+  },
+  "g2_range": {
+    "status": "unavailable",
+    "reason": "Neither supplied CSV contains _Range columns; totmrc_Range, ovrrev_Range, mou_Range cannot be tested. No invented fields or reconstructed volatility."
+  },
+  "g3_billing_gaps": {
+    "status": "available",
+    "definition": "totrev-adjrev; totmou-adjmou; totcalls-adjqty"
+  },
+  "g4_call_care": {
+    "status": "available",
+    "definition": "comp_vce_Mean/(plcd_vce_Mean+.5); inonemin_Mean/(complete_Mean+.5); ccrndmou_Mean/(custcare_Mean+.1)"
+  },
+  "g5_equipment_cycle": {
+    "status": "available",
+    "definition": "retain v1's valid eqpdays/(30.4375*max(months,1)), without duplicating it; add valid eqpdays/max(phones,1), months%12, and hnd_price exact observed price tiers, m=50 encoding. Every training value is inner-OOF; inference maps fit training only."
+  },
+  "g6_tenure_pricing": {
+    "status": "available",
+    "definition": "nonnegative totmrc_Mean/max(tenure-decile train median,1); tenure quantile edges, missing-tenure fill and price medians fit exclusively on the current fitting rows"
+  }
+}

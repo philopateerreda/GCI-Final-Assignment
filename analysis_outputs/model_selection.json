@@ -1,0 +1,10 @@
+{
+  "selected_model": "LightGBM wider leaves",
+  "iterations": 385,
+  "selection_metric": "validation ROC-AUC",
+  "refit_customers": 75000,
+  "calibration_customers": 10000,
+  "calibration": "sigmoid on model log odds",
+  "calibration_slope": 1.1192211786951733,
+  "calibration_intercept": 0.008000535328806993
+}

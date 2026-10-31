@@ -1,0 +1,1712 @@
+{
+  "authorization": "GO v3-model; single fixed preregistered WP8 candidate",
+  "fits_performed": 0,
+  "outside_snapshot_sha256": "6feb7cb3e429879187b62319cfc869f4f5b9a7d94d2e620df7cc61bcc8fcd242",
+  "planned_classifier_fits": 50,
+  "planned_sigmoid_fits": 10,
+  "provenance": {
+    "created_utc": "2026-10-29T16:59:13.151308+00:00",
+    "input_files": [
+      {
+        "path": "D:/progs/IDE/MainProjs/AI/GCI2026/finalA/analysis_outputs/feature_manifest.json",
+        "present": true,
+        "sha256": "8e0560cedab891acfea8b440b5d7f28516de1e3adc5b06899a442dd8d07fd067",
+        "size": 2559
+      },
+      {
+        "path": "D:/progs/IDE/MainProjs/AI/GCI2026/finalA/philopateer.ipynb",
+        "present": true,
+        "sha256": "aaa170b19923c087f9b38f85b546626b7465a3d17f5ae7037812c6aed5736b35",
+        "size": 1857125
+      },
+      {
+        "path": "D:/progs/IDE/MainProjs/AI/GCI2026/finalA/philopateer.pdf",
+        "present": true,
+        "sha256": "a51d2c0ff8aa6ebb0f679e680d6424b01cd7b95b9a0d23ae7a2eecc56de210ea",
+        "size": 846608
+      },
+      {
+        "path": "D:/progs/IDE/MainProjs/AI/GCI2026/finalA/philopateer.pptx",
+        "present": true,
+        "sha256": "a50a66fd77d062bdc45aeefb00ce8652b20b952de06dcb27e8ab4f15c37e46bc",
+        "size": 1310666
+      },
+      {
+        "path": "D:/progs/IDE/MainProjs/AI/GCI2026/finalA/references.txt",
+        "present": true,
+        "sha256": "b12fb18aafc83e2d599e15d04c689ee5cd85c10082c1761ab0c6f1d01606d361",
+        "size": 18843
+      },
+      {
+        "path": "D:/progs/IDE/MainProjs/AI/GCI2026/finalA/telecom/Client.csv",
+        "present": true,
+        "sha256": "264a58512dc857fff29e11ef43fd53bc4407be23aac9dcc2c0df23536c800778",
+        "size": 17937775
+      },
+      {
+        "path": "D:/progs/IDE/MainProjs/AI/GCI2026/finalA/telecom/Record.csv",
+        "present": true,
+        "sha256": "5bd563bb77b357920832510b78d6842060d928cb5de8c0aaf79aa2a647e2271a",
+        "size": 30182432
+      },
+      {
+        "path": "D:/progs/IDE/MainProjs/AI/GCI2026/finalA/v1_frozen/analysis_outputs/audit.json",
+        "present": true,
+        "sha256": "445d43f504dd36dc87f8ac3d9d637de6ed20dcc7e6a7932ffb3cbdb7143aeb8d",
+        "size": 528
+      },
+      {
+        "path": "D:/progs/IDE/MainProjs/AI/GCI2026/finalA/v1_frozen/analysis_outputs/feature_manifest.json",
+        "present": true,
+        "sha256": "8e0560cedab891acfea8b440b5d7f28516de1e3adc5b06899a442dd8d07fd067",
+        "size": 2559
+      },
+      {
+        "path": "D:/progs/IDE/MainProjs/AI/GCI2026/finalA/v1_frozen/analysis_outputs/model_selection.json",
+        "present": true,
+        "sha256": "62e17913b8e7bf7bf1ac8fdd4556d242b524c884a0e929352c2b9e3bb5e9acc3",
+        "size": 321
+      },
+      {
+        "path": "D:/progs/IDE/MainProjs/AI/GCI2026/finalA/v1_frozen/analysis_outputs/models/selected_model.joblib",
+        "present": true,
+        "sha256": "8a59fe9ac8c2eafb85c442fa1531035399aeecc6530a4b6489914385ecedfa3c",
+        "size": 1375735
+      },
+      {
+        "path": "D:/progs/IDE/MainProjs/AI/GCI2026/finalA/v1_frozen/analysis_outputs/tables/split_manifest.csv",
+        "present": true,
+        "sha256": "4caefcbed46a834f89cfbf21387f78555e601b43a8cee81d1637c786fb0a21b3",
+        "size": 1690023
+      },
+      {
+        "path": "D:/progs/IDE/MainProjs/AI/GCI2026/finalA/v1_frozen/analysis_pipeline.py",
+        "present": true,
+        "sha256": "4a70b0878f744a10806e08b6be07fe22ed153f0b041473565d1ab2b21f28398e",
+        "size": 34327
+      },
+      {
+        "path": "D:/progs/IDE/MainProjs/AI/GCI2026/finalA/v2_work/common.py",
+        "present": true,
+        "sha256": "c68e6bcd81a24ae6960474ea537c4574fd0139fd83126fae0a853275611b0de7",
+        "size": 4647
+      },
+      {
+        "path": "D:/progs/IDE/MainProjs/AI/GCI2026/finalA/v2_work/d_results/baseline_folds.json",
+        "present": true,
+        "sha256": "0db2cd905305d7dc8873bae32b4d521c67e505655884719c66f9bf58c9d9cd2c",
+        "size": 12884
+      },
+      {
+        "path": "D:/progs/IDE/MainProjs/AI/GCI2026/finalA/v2_work/d_results/cache/12870aa4bf22659b433c0b59d4ed517b75169b4ab72cbf1d8bf8c546caaefc30.json",
+        "present": true,
+        "sha256": "6f6d615ae4742af93da0d0fef75d0b030b0eadc8a31dcbe36cdc8621639a5988",
+        "size": 5175
+      },
+      {
+        "path": "D:/progs/IDE/MainProjs/AI/GCI2026/finalA/v2_work/d_results/cache/12870aa4bf22659b433c0b59d4ed517b75169b4ab72cbf1d8bf8c546caaefc30.npz",
+        "present": true,
+        "sha256": "3e219054e5ac207c9da7ecdf1eeb35788192ec6c7d7215cd666f5a3597daed8b",
+        "size": 120542
+      },
+      {
+        "path": "D:/progs/IDE/MainProjs/AI/GCI2026/finalA/v2_work/d_results/cache/1f31cfcb8a5eff011358c0937b3029fa166691d8f3311e12196041aae89d45ad.json",
+        "present": true,
+        "sha256": "52e41aead95c6645b7154fa2f1919ef5914ef3b42750adff5d709d7148c58f93",
+        "size": 5176
+      },
+      {
+        "path": "D:/progs/IDE/MainProjs/AI/GCI2026/finalA/v2_work/d_results/cache/1f31cfcb8a5eff011358c0937b3029fa166691d8f3311e12196041aae89d45ad.npz",
+        "present": true,
+        "sha256": "0d63ce870130e32901aeb0895f270a5a091e3c02b3f144955b14249ceab0f6b6",
+        "size": 120510
+      },
+      {
+        "path": "D:/progs/IDE/MainProjs/AI/GCI2026/finalA/v2_work/d_results/cache/2096c925ccfe2cc362d4384de4fabab54b5d16d6b5378ba165ac0a8467792602.json",
+        "present": true,
+        "sha256": "4aa873c0052940655447c0f9f236571177fd9af8d6bc3aa0fb67bb4fb980b822",
+        "size": 5219
+      },
+      {
+        "path": "D:/progs/IDE/MainProjs/AI/GCI2026/finalA/v2_work/d_results/cache/2096c925ccfe2cc362d4384de4fabab54b5d16d6b5378ba165ac0a8467792602.npz",
+        "present": true,
+        "sha256": "ea504ddf8bb8b00e8253e138ff51bfc71262185fd1c20c7fba18ca3f3a1a613b",
+        "size": 120493
+      },
+      {
+        "path": "D:/progs/IDE/MainProjs/AI/GCI2026/finalA/v2_work/d_results/cache/213177f9a82d23b6c2d413af12d92a6af43183147b24f7eb7b6892dc72c0012a.json",
+        "present": true,
+        "sha256": "fcb060356ca8508b4512130d4f5acb674bf1e63960109a708f21f015ea87919d",
+        "size": 5175
+      },
+      {
+        "path": "D:/progs/IDE/MainProjs/AI/GCI2026/finalA/v2_work/d_results/cache/213177f9a82d23b6c2d413af12d92a6af43183147b24f7eb7b6892dc72c0012a.npz",
+        "present": true,
+        "sha256": "199a4cb506a4fea18fc489e2f0f2729bf60516fea2ce870be5fadb81611e7d1e",
+        "size": 120514
+      },
+      {
+        "path": "D:/progs/IDE/MainProjs/AI/GCI2026/finalA/v2_work/d_results/cache/236747bf4a2922651ddd42edec071603b5eb23ca42b8de622c0fa3000e5b5f2b.json",
+        "present": true,
+        "sha256": "ee17b662254b387c9ab42eb900ea93156bc48354a6866698951ca704bca3e366",
+        "size": 5176
+      },
+      {
+        "path": "D:/progs/IDE/MainProjs/AI/GCI2026/finalA/v2_work/d_results/cache/236747bf4a2922651ddd42edec071603b5eb23ca42b8de622c0fa3000e5b5f2b.npz",
+        "present": true,
+        "sha256": "6c0c8d198eaf0139da56f092241238cb761ddcbb0fedba473fa0317014680cfb",
+        "size": 120481
+      },
+      {
+        "path": "D:/progs/IDE/MainProjs/AI/GCI2026/finalA/v2_work/d_results/cache/3a82fc846f2742235ea5be033b4ab4a028b0eaf255bcd10c180ee8ac01997381.json",
+        "present": true,
+        "sha256": "13c22144915d52d53c833855dccf60b1bc77e7a64c81995f0f5957985f0b1634",
+        "size": 5175
+      },
+      {
+        "path": "D:/progs/IDE/MainProjs/AI/GCI2026/finalA/v2_work/d_results/cache/3a82fc846f2742235ea5be033b4ab4a028b0eaf255bcd10c180ee8ac01997381.npz",
+        "present": true,
+        "sha256": "e0ad58c20020043864d9a6cac2bc42a0451cc032ddac9f27dd7715d3dfaafb01",
+        "size": 120500
+      },
+      {
+        "path": "D:/progs/IDE/MainProjs/AI/GCI2026/finalA/v2_work/d_results/cache/448e7cf70d1550f11235d33b0e81d13a4da4de7c9a21b8752f3d6ca3b5290e6b.json",
+        "present": true,
+        "sha256": "a2876a2b8c71913a869d18a10d4b320bf12e049aa0b72b0985e31aef0aa4e19b",
+        "size": 5220
+      },
+      {
+        "path": "D:/progs/IDE/MainProjs/AI/GCI2026/finalA/v2_work/d_results/cache/448e7cf70d1550f11235d33b0e81d13a4da4de7c9a21b8752f3d6ca3b5290e6b.npz",
+        "present": true,
+        "sha256": "bb96cb30faa0b3b1e55400b3c63044973a701e160134d7e6ab97e580728c17d5",
+        "size": 120539
+      },
+      {
+        "path": "D:/progs/IDE/MainProjs/AI/GCI2026/finalA/v2_work/d_results/cache/5301f26a454ae00a4661e54cfa168353390767539ecf4eff288866e06ff198a5.json",
+        "present": true,
+        "sha256": "7f986aea53ac536dc254de3a377170038a7bd77fae1f8e9a9dee261144339c78",
+        "size": 5176
+      },
+      {
+        "path": "D:/progs/IDE/MainProjs/AI/GCI2026/finalA/v2_work/d_results/cache/5301f26a454ae00a4661e54cfa168353390767539ecf4eff288866e06ff198a5.npz",
+        "present": true,
+        "sha256": "50d8589679c650db36cf0be21c6d1c3e32a24aa7e4c1ff900b688fd4d1d3fa14",
+        "size": 120521
+      },
+      {
+        "path": "D:/progs/IDE/MainProjs/AI/GCI2026/finalA/v2_work/d_results/cache/5728907ca6e78aaa77316ed2ad470d3a215265ebb22322f76bf73680ca4e86ae.json",
+        "present": true,
+        "sha256": "b3270c57aa6b50aa14873f18844a3363f250f9efceaf37b02091e90c36b3edf6",
+        "size": 5175
+      },
+      {
+        "path": "D:/progs/IDE/MainProjs/AI/GCI2026/finalA/v2_work/d_results/cache/5728907ca6e78aaa77316ed2ad470d3a215265ebb22322f76bf73680ca4e86ae.npz",
+        "present": true,
+        "sha256": "3bd808ae859347673714fc19e4dbf7e2eeeb467c0945f36bd8e894687fda06ca",
+        "size": 120518
+      },
+      {
+        "path": "D:/progs/IDE/MainProjs/AI/GCI2026/finalA/v2_work/d_results/cache/5763cfd21f2c8d13317f152fd17f8d86c46f907efc2c6981a15f5bc07ccbf6d9.json",
+        "present": true,
+        "sha256": "a1c4eae7dce9ca6093ded57842a37e9ba4862db4c817ff8a42507604a648966b",
+        "size": 5176
+      },
+      {
+        "path": "D:/progs/IDE/MainProjs/AI/GCI2026/finalA/v2_work/d_results/cache/5763cfd21f2c8d13317f152fd17f8d86c46f907efc2c6981a15f5bc07ccbf6d9.npz",
+        "present": true,
+        "sha256": "38b9dc40d6fb6543c569cc964dcfdd426ffe39de0ef01475898beac83221ffda",
+        "size": 120501
+      },
+      {
+        "path": "D:/progs/IDE/MainProjs/AI/GCI2026/finalA/v2_work/d_results/cache/654631a1f21f575337cc54a1e1e8e23f63e4ed967352baf88bc7857f64f7ab2e.json",
+        "present": true,
+        "sha256": "9466ca997853f7f73dd8ffb73a8583e966e194219bf31db39a9bf1d5d6672271",
+        "size": 5218
+      },
+      {
+        "path": "D:/progs/IDE/MainProjs/AI/GCI2026/finalA/v2_work/d_results/cache/654631a1f21f575337cc54a1e1e8e23f63e4ed967352baf88bc7857f64f7ab2e.npz",
+        "present": true,
+        "sha256": "d9946b515bce4e8ed681fa61e1f35ae4eb0bfca8aa8dc54d3610fb72c1231867",
+        "size": 120507
+      },
+      {
+        "path": "D:/progs/IDE/MainProjs/AI/GCI2026/finalA/v2_work/d_results/cache/70c2f183b3b91da75e48a011f1a749dd8c191fcf7248267a82c28cafa3484ecf.json",
+        "present": true,
+        "sha256": "5f524df90534fde419357df36d9a3bb5061be8e7a5807c65df1818e3f5f675bd",
+        "size": 5219
+      },
+      {
+        "path": "D:/progs/IDE/MainProjs/AI/GCI2026/finalA/v2_work/d_results/cache/70c2f183b3b91da75e48a011f1a749dd8c191fcf7248267a82c28cafa3484ecf.npz",
+        "present": true,
+        "sha256": "25c36d201a24d15bda141a24c3b61a9e0dd981dbfd7c9ca494b57a001c7871bc",
+        "size": 120520
+      },
+      {
+        "path": "D:/progs/IDE/MainProjs/AI/GCI2026/finalA/v2_work/d_results/cache/76b0cf56879e9ddf347ab2ce7a93b8d265343dc92ad054b97fcb945827b147c6.json",
+        "present": true,
+        "sha256": "2b0164cc8527c6e5351394cc482615d9dd12ca0f97229bd92e0d634a9b8838d5",
+        "size": 5220
+      },
+      {
+        "path": "D:/progs/IDE/MainProjs/AI/GCI2026/finalA/v2_work/d_results/cache/76b0cf56879e9ddf347ab2ce7a93b8d265343dc92ad054b97fcb945827b147c6.npz",
+        "present": true,
+        "sha256": "61a8ceae070b986822e8b31338d869f3223be982623598586ca0aa8ae817e64c",
+        "size": 120519
+      },
+      {
+        "path": "D:/progs/IDE/MainProjs/AI/GCI2026/finalA/v2_work/d_results/cache/79c4a8d36916261a3710d98e0d6a5d4e3d7181f41c46a6cf4ce7561e7465ebf1.json",
+        "present": true,
+        "sha256": "5da82b2a612582faa3b0369048c08a64a1feb0ec8c5be23c296a87cb9e8d6795",
+        "size": 5219
+      },
+      {
+        "path": "D:/progs/IDE/MainProjs/AI/GCI2026/finalA/v2_work/d_results/cache/79c4a8d36916261a3710d98e0d6a5d4e3d7181f41c46a6cf4ce7561e7465ebf1.npz",
+        "present": true,
+        "sha256": "d899acf52a8c867aa074fcdd1730c1ed2c4f5126f6ad21150e0a63b7e44b8926",
+        "size": 120455
+      },
+      {
+        "path": "D:/progs/IDE/MainProjs/AI/GCI2026/finalA/v2_work/d_results/cache/7ae398d6b53a8cf289c94dc382c5fba3c5fd99e51a1e7bbf3b4fb3d10da7801a.json",
+        "present": true,
+        "sha256": "4bec9b183965fedcf8577f325b64cd9bd9fddfb1fff0e4dc77213ddae6ade639",
+        "size": 5220
+      },
+      {
+        "path": "D:/progs/IDE/MainProjs/AI/GCI2026/finalA/v2_work/d_results/cache/7ae398d6b53a8cf289c94dc382c5fba3c5fd99e51a1e7bbf3b4fb3d10da7801a.npz",
+        "present": true,
+        "sha256": "8650c996a22afbbbd15a8e0bf18db585f1b5bd731cdda62b34df123f0d58088b",
+        "size": 120550
+      },
+      {
+        "path": "D:/progs/IDE/MainProjs/AI/GCI2026/finalA/v2_work/d_results/cache/7c840239dc05a5cc577710e2f473f936430aafe671d1109886acc40b23b106a3.json",
+        "present": true,
+        "sha256": "a76f9898308d263820f9d5379426cd0af5160f1f549a1c3f0198d3a81839779b",
+        "size": 5175
+      },
+      {
+        "path": "D:/progs/IDE/MainProjs/AI/GCI2026/finalA/v2_work/d_results/cache/7c840239dc05a5cc577710e2f473f936430aafe671d1109886acc40b23b106a3.npz",
+        "present": true,
+        "sha256": "4fc4db6e2cbefd06e947e6c00f92ee8bc4bb5e1afa4aaa0995897af395d50ef4",
+        "size": 120509
+      },
+      {
+        "path": "D:/progs/IDE/MainProjs/AI/GCI2026/finalA/v2_work/d_results/cache/81266f9589f4ffdbc2d697eb01efe4dbf9bdcd8d1f71d7acdeb3126d8f13ca33.json",
+        "present": true,
+        "sha256": "d9f1e7756facd0a830e66f41cd3f039a49f36861002a19122c81399494322c4a",
+        "size": 5176
+      },
+      {
+        "path": "D:/progs/IDE/MainProjs/AI/GCI2026/finalA/v2_work/d_results/cache/81266f9589f4ffdbc2d697eb01efe4dbf9bdcd8d1f71d7acdeb3126d8f13ca33.npz",
+        "present": true,
+        "sha256": "a86c77bca6d18f8ab54c5883d75a3cab24be467938a7193f0b432becfd3448c6",
+        "size": 120492
+      },
+      {
+        "path": "D:/progs/IDE/MainProjs/AI/GCI2026/finalA/v2_work/d_results/cache/8674b12e2e82a8d99ce3d45c02e745a6ef410ae3cf4e43bbeb07c7cd923aa6c9.json",
+        "present": true,
+        "sha256": "9991e98f2b627e84556d70361256003a755cce7234b6ee1952f18c0aaf98a024",
+        "size": 5175
+      },
+      {
+        "path": "D:/progs/IDE/MainProjs/AI/GCI2026/finalA/v2_work/d_results/cache/8674b12e2e82a8d99ce3d45c02e745a6ef410ae3cf4e43bbeb07c7cd923aa6c9.npz",
+        "present": true,
+        "sha256": "044f738f9e7e2df8f64d65fc1d361529757efab6ed12547e3a4da1ae38f0ae03",
+        "size": 120505
+      },
+      {
+        "path": "D:/progs/IDE/MainProjs/AI/GCI2026/finalA/v2_work/d_results/cache/898fe9da090cef469eaaa1f613fdc95d02a8182ab8461843143873136ad9c376.json",
+        "present": true,
+        "sha256": "1cff12a51f43a62608b62730bd7a4c5e4546d740cd71cdf034306ba7316850b2",
+        "size": 5220
+      },
+      {
+        "path": "D:/progs/IDE/MainProjs/AI/GCI2026/finalA/v2_work/d_results/cache/898fe9da090cef469eaaa1f613fdc95d02a8182ab8461843143873136ad9c376.npz",
+        "present": true,
+        "sha256": "a21501b5b25a8058c3709e57a10ade0de2de2b12c1a5b41b5bc354452a3a7be4",
+        "size": 120561
+      },
+      {
+        "path": "D:/progs/IDE/MainProjs/AI/GCI2026/finalA/v2_work/d_results/cache/8c5e86e80279ccda5c96084bbd5963ede623038ea74a5231c192c6d12f165162.json",
+        "present": true,
+        "sha256": "56327911e8e40ff51affdafcb4b84d9142912c216ad625266071567486e17de6",
+        "size": 5176
+      },
+      {
+        "path": "D:/progs/IDE/MainProjs/AI/GCI2026/finalA/v2_work/d_results/cache/8c5e86e80279ccda5c96084bbd5963ede623038ea74a5231c192c6d12f165162.npz",
+        "present": true,
+        "sha256": "d78862b63a9faa56edc5f4c26d8b0b8bad887710707e9cd5f501a39a671e087d",
+        "size": 120557
+      },
+      {
+        "path": "D:/progs/IDE/MainProjs/AI/GCI2026/finalA/v2_work/d_results/cache/90364fa66b597e5b13a62425e47d85ec401e901a98d59bebb729aa6f563ae04a.json",
+        "present": true,
+        "sha256": "a9617db6cb4a09b4cb3101ac66ed5902ef597d947bf75f2a62d5e2316839a279",
+        "size": 5175
+      },
+      {
+        "path": "D:/progs/IDE/MainProjs/AI/GCI2026/finalA/v2_work/d_results/cache/90364fa66b597e5b13a62425e47d85ec401e901a98d59bebb729aa6f563ae04a.npz",
+        "present": true,
+        "sha256": "97cf998bdd63d0b9de7f8625d8b43ca694a03bf7dd2498fdc91265c8531a95b0",
+        "size": 120520
+      },
+      {
+        "path": "D:/progs/IDE/MainProjs/AI/GCI2026/finalA/v2_work/d_results/cache/9fc5ceff1b113f3fb4b85cc7e2c45a847ab374b470cd8a5f4d99a7b54e32715e.json",
+        "present": true,
+        "sha256": "850d829b2d1ddd6f4e1300dc619c4a25c45b53ec4863c7085a77fdd6449c79eb",
+        "size": 5219
+      },
+      {
+        "path": "D:/progs/IDE/MainProjs/AI/GCI2026/finalA/v2_work/d_results/cache/9fc5ceff1b113f3fb4b85cc7e2c45a847ab374b470cd8a5f4d99a7b54e32715e.npz",
+        "present": true,
+        "sha256": "3d0d39b5ff4f855cf2463841e205d7e737c77775ddd2045e6e7492051d9621f5",
+        "size": 120501
+      },
+      {
+        "path": "D:/progs/IDE/MainProjs/AI/GCI2026/finalA/v2_work/d_results/cache/a608c220bcf7714493fa33e1e5a7d075a787188bb5744740fe9c7bfce5cdeba7.json",
+        "present": true,
+        "sha256": "28a9831a86bf60d7c25f849e20e69cc44919209bb6fa398dfdb3a4701a5fa4ce",
+        "size": 5220
+      },
+      {
+        "path": "D:/progs/IDE/MainProjs/AI/GCI2026/finalA/v2_work/d_results/cache/a608c220bcf7714493fa33e1e5a7d075a787188bb5744740fe9c7bfce5cdeba7.npz",
+        "present": true,
+        "sha256": "104e6bf1c1ddc2f54ae1b55d2c798a1313843457fbce30dafd1dacb435e1f970",
+        "size": 120520
+      },
+      {
+        "path": "D:/progs/IDE/MainProjs/AI/GCI2026/finalA/v2_work/d_results/cache/b94142370a45d6877ed762f34514dcc2eb34101d18d3bfa07a9069fe054ab626.json",
+        "present": true,
+        "sha256": "1dd17a5fc2dc02baffd511f3012e114bee0cc0555f1ce6a7aff9c64852a001e6",
+        "size": 5219
+      },
+      {
+        "path": "D:/progs/IDE/MainProjs/AI/GCI2026/finalA/v2_work/d_results/cache/b94142370a45d6877ed762f34514dcc2eb34101d18d3bfa07a9069fe054ab626.npz",
+        "present": true,
+        "sha256": "c4dfa6f964df56fa030cab79b87a5b74465d372a85407da2a954ba8cb97abf75",
+        "size": 120546
+      },
+      {
+        "path": "D:/progs/IDE/MainProjs/AI/GCI2026/finalA/v2_work/d_results/cache/c0b76e1971370db0c1b156b81ab7a784c8034789acc1402b44e1b2a5eac8bab0.json",
+        "present": true,
+        "sha256": "29352a513bbf5f0ba0df265c58d32ad3b301f67f4dacbdb11be983515f26ffda",
+        "size": 5176
+      },
+      {
+        "path": "D:/progs/IDE/MainProjs/AI/GCI2026/finalA/v2_work/d_results/cache/c0b76e1971370db0c1b156b81ab7a784c8034789acc1402b44e1b2a5eac8bab0.npz",
+        "present": true,
+        "sha256": "909f9c2a83a5a0a42f2f866d76a1dbe5393df8651c3cd1b92bc17147ca959add",
+        "size": 120589
+      },
+      {
+        "path": "D:/progs/IDE/MainProjs/AI/GCI2026/finalA/v2_work/d_results/cache/ce6a2f2e27fcad5f4ee6917e1b1e4c3c5dbce90d83cef40cb9341c5b163ce21d.json",
+        "present": true,
+        "sha256": "50970fdd83a3d164e9c84cd31756d257e3bc87c7f91e2a622f24eef357bcf7c8",
+        "size": 5175
+      },
+      {
+        "path": "D:/progs/IDE/MainProjs/AI/GCI2026/finalA/v2_work/d_results/cache/ce6a2f2e27fcad5f4ee6917e1b1e4c3c5dbce90d83cef40cb9341c5b163ce21d.npz",
+        "present": true,
+        "sha256": "d17087aba14a7f0b5008a8e339bcac72dda789365770206267f72ac988913191",
+        "size": 120518
+      },
+      {
+        "path": "D:/progs/IDE/MainProjs/AI/GCI2026/finalA/v2_work/d_results/cache/dadbc34931afe5797781adbc1d7c361bb42f8922cda9b70a49e5e44d99e5c69e.json",
+        "present": true,
+        "sha256": "1af9379fae267ec38e63e8a93467be3740ed4af450595f92272052c11a49195d",
+        "size": 5219
+      },
+      {
+        "path": "D:/progs/IDE/MainProjs/AI/GCI2026/finalA/v2_work/d_results/cache/dadbc34931afe5797781adbc1d7c361bb42f8922cda9b70a49e5e44d99e5c69e.npz",
+        "present": true,
+        "sha256": "af67966f4ec27e179b80715bba893e53f342540e033875c1006fa10cdde15d87",
+        "size": 120545
+      },
+      {
+        "path": "D:/progs/IDE/MainProjs/AI/GCI2026/finalA/v2_work/d_results/cache/e2a2b4b53fa935182a91586f2b704d47ed7d51198bbc0e466b5b1afeacbfc02e.json",
+        "present": true,
+        "sha256": "4e30e754989280f8010cb9b5710c5ce4daa645dee41846566ee27385d3379129",
+        "size": 5176
+      },
+      {
+        "path": "D:/progs/IDE/MainProjs/AI/GCI2026/finalA/v2_work/d_results/cache/e2a2b4b53fa935182a91586f2b704d47ed7d51198bbc0e466b5b1afeacbfc02e.npz",
+        "present": true,
+        "sha256": "22c1cd6a7744bf8662885f96f52a40780ed3e3b76de8cf0a174c7cbc2d27a60f",
+        "size": 120539
+      },
+      {
+        "path": "D:/progs/IDE/MainProjs/AI/GCI2026/finalA/v2_work/d_results/cache/ea8c10c4ed6af8834ff903172e3b69196d55a90e18d23c2d71bbb9fa50fff01f.json",
+        "present": true,
+        "sha256": "f5c5a094014441e63b2cfa1c332fb6a2997f97bdbb6580bac00b7e81dee0fbbc",
+        "size": 5175
+      },
+      {
+        "path": "D:/progs/IDE/MainProjs/AI/GCI2026/finalA/v2_work/d_results/cache/ea8c10c4ed6af8834ff903172e3b69196d55a90e18d23c2d71bbb9fa50fff01f.npz",
+        "present": true,
+        "sha256": "f3d67fec0be395a76d403490e3697419129d9585d518b26a3dbe385ed79be713",
+        "size": 120507
+      },
+      {
+        "path": "D:/progs/IDE/MainProjs/AI/GCI2026/finalA/v2_work/d_results/cache/ee429b16f3fe4df9991085133fd7a6c35489ab0223934ae8652b87a739137398.json",
+        "present": true,
+        "sha256": "678359f0294415f54a38d38ac2a1d97abff6951e1c3d6d06978b6a812d88e5ce",
+        "size": 5175
+      },
+      {
+        "path": "D:/progs/IDE/MainProjs/AI/GCI2026/finalA/v2_work/d_results/cache/ee429b16f3fe4df9991085133fd7a6c35489ab0223934ae8652b87a739137398.npz",
+        "present": true,
+        "sha256": "5e7a0e5711cdd6ef0a0ddfc9e4f0d15eb9f3d7f19455976d6e0520700eb880a2",
+        "size": 120551
+      },
+      {
+        "path": "D:/progs/IDE/MainProjs/AI/GCI2026/finalA/v2_work/d_results/folds/baseline_lgbm_r0_f0_recipe.json",
+        "present": true,
+        "sha256": "331718d340b4db594e80f7b014863236afa5b11a582cf3180086cdd0c833188b",
+        "size": 505
+      },
+      {
+        "path": "D:/progs/IDE/MainProjs/AI/GCI2026/finalA/v2_work/d_results/folds/baseline_lgbm_r0_f1_recipe.json",
+        "present": true,
+        "sha256": "e34feba046e085aae95f783ab64918a4831acf4a9f56ed62a7722f1dec90ef40",
+        "size": 505
+      },
+      {
+        "path": "D:/progs/IDE/MainProjs/AI/GCI2026/finalA/v2_work/d_results/folds/baseline_lgbm_r0_f2_recipe.json",
+        "present": true,
+        "sha256": "ccd4749e8b6e60f2c700da1ea5f9fb02ac4fa19b6494144094abdcb9f4c415a8",
+        "size": 493
+      },
+      {
+        "path": "D:/progs/IDE/MainProjs/AI/GCI2026/finalA/v2_work/d_results/folds/baseline_lgbm_r0_f3_recipe.json",
+        "present": true,
+        "sha256": "ccd4749e8b6e60f2c700da1ea5f9fb02ac4fa19b6494144094abdcb9f4c415a8",
+        "size": 493
+      },
+      {
+        "path": "D:/progs/IDE/MainProjs/AI/GCI2026/finalA/v2_work/d_results/folds/baseline_lgbm_r0_f4_recipe.json",
+        "present": true,
+        "sha256": "de6a3d484272fc28cbb7bfc3e8bd5525b52d7ad30eb494a81ef81d601368a117",
+        "size": 505
+      },
+      {
+        "path": "D:/progs/IDE/MainProjs/AI/GCI2026/finalA/v2_work/d_results/folds/baseline_lgbm_r1_f0_recipe.json",
+        "present": true,
+        "sha256": "8665e61187744c77b6963bf4561cff60605dbe39b94dbfe8f325060d65b3c0fa",
+        "size": 505
+      },
+      {
+        "path": "D:/progs/IDE/MainProjs/AI/GCI2026/finalA/v2_work/d_results/folds/baseline_lgbm_r1_f1_recipe.json",
+        "present": true,
+        "sha256": "b379a1d6dea4311a2d8288ed5be21b600cf622ce93564ae15608a6cf6414ca60",
+        "size": 517
+      },
+      {
+        "path": "D:/progs/IDE/MainProjs/AI/GCI2026/finalA/v2_work/d_results/folds/baseline_lgbm_r1_f2_recipe.json",
+        "present": true,
+        "sha256": "d0feeffc02f81d20da6633621c342f5ce6491f0a90e76aeebb25110d6f6d4ce6",
+        "size": 505
+      },
+      {
+        "path": "D:/progs/IDE/MainProjs/AI/GCI2026/finalA/v2_work/d_results/folds/baseline_lgbm_r1_f3_recipe.json",
+        "present": true,
+        "sha256": "ccd4749e8b6e60f2c700da1ea5f9fb02ac4fa19b6494144094abdcb9f4c415a8",
+        "size": 493
+      },
+      {
+        "path": "D:/progs/IDE/MainProjs/AI/GCI2026/finalA/v2_work/d_results/folds/baseline_lgbm_r1_f4_recipe.json",
+        "present": true,
+        "sha256": "20680fbd275ee241237a48c5a9476fa4bc95bdb71132e53210fbd3af7ea89c88",
+        "size": 517
+      },
+      {
+        "path": "D:/progs/IDE/MainProjs/AI/GCI2026/finalA/v2_work/d_results/oof/baseline_lgbm_r0_f0.npz",
+        "present": true,
+        "sha256": "7c95f578448d7cc565fe698b02d6d691818b9c072099ce3d712513a04d1c22cd",
+        "size": 425956
+      },
+      {
+        "path": "D:/progs/IDE/MainProjs/AI/GCI2026/finalA/v2_work/d_results/oof/baseline_lgbm_r0_f1.npz",
+        "present": true,
+        "sha256": "ab8bdbf05930676d8a99a03c8cac339bf70894528063f90f2730f597d51cead7",
+        "size": 426238
+      },
+      {
+        "path": "D:/progs/IDE/MainProjs/AI/GCI2026/finalA/v2_work/d_results/oof/baseline_lgbm_r0_f2.npz",
+        "present": true,
+        "sha256": "261e411d43e57bc07e2cea4478ea5ca14eed652d7a504cb2a92bbea2f4e2f1b8",
+        "size": 426064
+      },
+      {
+        "path": "D:/progs/IDE/MainProjs/AI/GCI2026/finalA/v2_work/d_results/oof/baseline_lgbm_r0_f3.npz",
+        "present": true,
+        "sha256": "3e686c9c9e28ab042a2537c314aefef2dbc05b7c14bde743e4690ea621e0dd50",
+        "size": 426063
+      },
+      {
+        "path": "D:/progs/IDE/MainProjs/AI/GCI2026/finalA/v2_work/d_results/oof/baseline_lgbm_r0_f4.npz",
+        "present": true,
+        "sha256": "c7ef34ff72ddc81ff7c7f5b9125a3958583c40978121f0dd43cafb6e46ff10cc",
+        "size": 425689
+      },
+      {
+        "path": "D:/progs/IDE/MainProjs/AI/GCI2026/finalA/v2_work/d_results/oof/baseline_lgbm_r1_f0.npz",
+        "present": true,
+        "sha256": "47298f1db1f8e758d57f7f9a777ccd1c2d5bcf59f913c914ed9f970755e6f453",
+        "size": 425915
+      },
+      {
+        "path": "D:/progs/IDE/MainProjs/AI/GCI2026/finalA/v2_work/d_results/oof/baseline_lgbm_r1_f1.npz",
+        "present": true,
+        "sha256": "a0f96c7b7d0af44a3332c39f6c41d35cbe17dc3505f5a57d3681135b1b9ea848",
+        "size": 426194
+      },
+      {
+        "path": "D:/progs/IDE/MainProjs/AI/GCI2026/finalA/v2_work/d_results/oof/baseline_lgbm_r1_f2.npz",
+        "present": true,
+        "sha256": "96066024ef34837f2aa3b640a8ab705100ceb1d46ba43e51cfc2338f9ce09a9d",
+        "size": 426447
+      },
+      {
+        "path": "D:/progs/IDE/MainProjs/AI/GCI2026/finalA/v2_work/d_results/oof/baseline_lgbm_r1_f3.npz",
+        "present": true,
+        "sha256": "d552473bfe1d333afd55a9f77a7e87de172273218c9181dbbf3f0ce1fc071636",
+        "size": 426035
+      },
+      {
+        "path": "D:/progs/IDE/MainProjs/AI/GCI2026/finalA/v2_work/d_results/oof/baseline_lgbm_r1_f4.npz",
+        "present": true,
+        "sha256": "4f0fe7e92f48e7adc6aeb92290559dbed0ce34386ca3f2594df20f326d9e14e7",
+        "size": 425781
+      },
+      {
+        "path": "D:/progs/IDE/MainProjs/AI/GCI2026/finalA/v2_work/d_results/run_spec.json",
+        "present": true,
+        "sha256": "8aedbe7d47534a3e8cf8c3e615b0448df7a36fdde0a97b4f31f57b2d77b0a3f3",
+        "size": 5242
+      },
+      {
+        "path": "D:/progs/IDE/MainProjs/AI/GCI2026/finalA/v2_work/final_metrics.json",
+        "present": true,
+        "sha256": "1d14a4fea10ab391631379f82cd6a82e5a65ede4f01db5b540c9aec3612eea1e",
+        "size": 155122
+      },
+      {
+        "path": "D:/progs/IDE/MainProjs/AI/GCI2026/finalA/v2_work/final_protocol.py",
+        "present": true,
+        "sha256": "be181a475db397ea42bc85899ddf4c368a19c2aeac714c0cf3bb195117f31875",
+        "size": 4924
+      },
+      {
+        "path": "D:/progs/IDE/MainProjs/AI/GCI2026/finalA/v2_work/workstream_d.py",
+        "present": true,
+        "sha256": "bca0612d17586fe0e5a941ab6585e06bd7a6e0581de86f0abd46726a3f66dee2",
+        "size": 71261
+      },
+      {
+        "path": "D:/progs/IDE/MainProjs/AI/GCI2026/finalA/v3_addons/prereg_wp8.md",
+        "present": true,
+        "sha256": "15fd44322e73c281b85d173ac51fbfc631415b07a152f8a3041ae5892d32c779",
+        "size": 9190
+      },
+      {
+        "path": "D:/progs/IDE/MainProjs/AI/GCI2026/finalA/v3_addons/results/wp7_files_created.csv",
+        "present": true,
+        "sha256": "f21aa0d9a657f81d9314a3a6a5f7af56238e493b18eb8d974a6ee64f19ffe8f5",
+        "size": 5665
+      },
+      {
+        "path": "D:/progs/IDE/MainProjs/AI/GCI2026/finalA/v3_addons/results/wp7_final_verification.json",
+        "present": true,
+        "sha256": "e72d418b0a77f98ffd37862c555370683878a8df241777d6039b0fe79865f755",
+        "size": 11092
+      },
+      {
+        "path": "D:/progs/IDE/MainProjs/AI/GCI2026/finalA/v3_addons/results/wp8/outside_snapshot.json",
+        "present": true,
+        "sha256": "6feb7cb3e429879187b62319cfc869f4f5b9a7d94d2e620df7cc61bcc8fcd242",
+        "size": 898200
+      },
+      {
+        "path": "D:/progs/IDE/MainProjs/AI/GCI2026/finalA/v3_addons/src/common.py",
+        "present": true,
+        "sha256": "5522fe7e7c49f945db5bd12bff6b850652ee12b002014a64f44217b01d13db0d",
+        "size": 7086
+      },
+      {
+        "path": "D:/progs/IDE/MainProjs/AI/GCI2026/finalA/v3_addons/src/wp8_model.py",
+        "present": true,
+        "sha256": "e678102b5e9448c1b0f4182391036b91e898389e958fc8472c7578897eb2696e",
+        "size": 86731
+      },
+      {
+        "path": "D:/progs/IDE/MainProjs/AI/GCI2026/finalA/v3_addons/tests/test_wp8.py",
+        "present": true,
+        "sha256": "b79db9352356fe8fd36f2f13407259f3877951ff03b322d48675dd979fce54ef",
+        "size": 31828
+      }
+    ],
+    "python_version": "3.11.9 (tags/v3.11.9:de54cf5, Apr  2 2024, 10:12:12) [MSC v.1938 64 bit (AMD64)]",
+    "row_counts": {
+      "pool": 75000,
+      "train": 60000,
+      "validation": 15000
+    },
+    "runtime_pools": [
+      {
+        "architecture": "Haswell",
+        "filepath": "C:\\Users\\FGstore\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\numpy.libs\\libscipy_openblas64_-860d95b1c38e637ce4509f5fa24fbf2a.dll",
+        "internal_api": "openblas",
+        "num_threads": 6,
+        "prefix": "libscipy_openblas",
+        "threading_layer": "pthreads",
+        "user_api": "blas",
+        "version": "0.3.30"
+      },
+      {
+        "architecture": "Haswell",
+        "filepath": "C:\\Users\\FGstore\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\scipy.libs\\libscipy_openblas-64eda39e79589aedb16f58e5547eb599.dll",
+        "internal_api": "openblas",
+        "num_threads": 6,
+        "prefix": "libscipy_openblas",
+        "threading_layer": "pthreads",
+        "user_api": "blas",
+        "version": "0.3.30"
+      },
+      {
+        "filepath": "C:\\Users\\FGstore\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\sklearn\\.libs\\vcomp140.dll",
+        "internal_api": "openmp",
+        "num_threads": 6,
+        "prefix": "vcomp",
+        "user_api": "openmp",
+        "version": null
+      }
+    ],
+    "script": "D:/progs/IDE/MainProjs/AI/GCI2026/finalA/v3_addons/src/wp8_model.py",
+    "script_sha256": "e678102b5e9448c1b0f4182391036b91e898389e958fc8472c7578897eb2696e",
+    "seed": 20261036,
+    "tags_used": [
+      "[E]",
+      "[A]",
+      "[R]"
+    ]
+  },
+  "signature": {
+    "baseline_refits": 0,
+    "bootstrap_draws_each": 100000,
+    "bootstrap_seed": 20261036,
+    "candidate": "wp8_fixed_contrasts",
+    "categorical_features": [
+      "new_cell",
+      "dualband",
+      "refurb_new",
+      "hnd_webcap"
+    ],
+    "classifier_fits": 50,
+    "classifier_parameters": {
+      "colsample_bytree": 0.85,
+      "deterministic": true,
+      "force_col_wise": true,
+      "learning_rate": 0.03,
+      "min_child_samples": 100,
+      "n_estimators": 385,
+      "n_jobs": 6,
+      "num_leaves": 31,
+      "random_state": 20261028,
+      "reg_lambda": 12,
+      "subsample": 0.85,
+      "subsample_freq": 1,
+      "verbosity": -1
+    },
+    "deployment_prior": 0.02,
+    "features": [
+      "rev_Mean",
+      "mou_Mean",
+      "totmrc_Mean",
+      "da_Mean",
+      "ovrmou_Mean",
+      "ovrrev_Mean",
+      "vceovr_Mean",
+      "datovr_Mean",
+      "roam_Mean",
+      "change_mou",
+      "change_rev",
+      "drop_vce_Mean",
+      "drop_dat_Mean",
+      "blck_vce_Mean",
+      "blck_dat_Mean",
+      "unan_vce_Mean",
+      "unan_dat_Mean",
+      "plcd_vce_Mean",
+      "plcd_dat_Mean",
+      "recv_vce_Mean",
+      "recv_sms_Mean",
+      "comp_vce_Mean",
+      "comp_dat_Mean",
+      "custcare_Mean",
+      "ccrndmou_Mean",
+      "cc_mou_Mean",
+      "inonemin_Mean",
+      "threeway_Mean",
+      "mou_cvce_Mean",
+      "mou_cdat_Mean",
+      "mou_rvce_Mean",
+      "owylis_vce_Mean",
+      "mouowylisv_Mean",
+      "iwylis_vce_Mean",
+      "mouiwylisv_Mean",
+      "peak_vce_Mean",
+      "peak_dat_Mean",
+      "mou_peav_Mean",
+      "mou_pead_Mean",
+      "opk_vce_Mean",
+      "opk_dat_Mean",
+      "mou_opkv_Mean",
+      "mou_opkd_Mean",
+      "drop_blk_Mean",
+      "attempt_Mean",
+      "complete_Mean",
+      "callfwdv_Mean",
+      "callwait_Mean",
+      "months",
+      "uniqsubs",
+      "actvsubs",
+      "new_cell",
+      "totcalls",
+      "totmou",
+      "totrev",
+      "adjrev",
+      "adjmou",
+      "adjqty",
+      "avgrev",
+      "avgmou",
+      "avgqty",
+      "avg3mou",
+      "avg3qty",
+      "avg3rev",
+      "avg6mou",
+      "avg6qty",
+      "avg6rev",
+      "dualband",
+      "refurb_new",
+      "hnd_price",
+      "phones",
+      "models",
+      "hnd_webcap",
+      "eqpdays",
+      "equipment_age_invalid",
+      "usage_recent_to_lifetime",
+      "usage_three_to_six_months",
+      "revenue_recent_to_lifetime",
+      "revenue_three_to_six_months",
+      "overage_charge_share",
+      "recurring_charge_share",
+      "failed_call_index",
+      "care_calls_per_100_attempts",
+      "equipment_age_to_tenure",
+      "inactive_household_lines",
+      "usage_change_scaled",
+      "revenue_change_scaled",
+      "wp8_mou_3_6_contrast",
+      "wp8_mou_mean_3_contrast",
+      "wp8_mou_contrast_difference",
+      "wp8_mou_log_curvature",
+      "wp8_rev_3_6_contrast",
+      "wp8_rev_mean_3_contrast",
+      "wp8_rev_contrast_difference",
+      "wp8_rev_log_curvature",
+      "wp8_qty_3_6_contrast",
+      "wp8_qty_3_lifetime_contrast",
+      "wp8_qty_log_3_6",
+      "wp8_tenure_equipment_gap",
+      "wp8_price_per_month",
+      "wp8_phones_per_month",
+      "wp8_models_per_phone",
+      "wp8_days_per_model",
+      "wp8_price_tenure_peer_ratio",
+      "wp8_days_tenure_peer_ratio",
+      "wp8_recurring_usage_peer_ratio",
+      "wp8_missing_total",
+      "wp8_missing_recent_history",
+      "wp8_missing_billing",
+      "wp8_missing_care",
+      "wp8_missing_equipment",
+      "wp8_missing_tenure_lines",
+      "wp8_missing_calls_usage"
+    ],
+    "fold_indices": [
+      {
+        "calibration": "69c62e287d9c33e56a6062f234126d1f751d70983c1003799d4f44d1fa89cf7e",
+        "development": "b9266aa6053fac71a4d6c74d1b216b906bc4950fdc6d4b1f3e6c6c4194d30506",
+        "tag": "r0_f0",
+        "test": "b75fea96624e673aa85e8b811df7ac1bea563a2fd8593e79a8fb1c2807fd718b",
+        "train": "3209476993dad68a8d4149e72a140fb8306effc64afd216b443f2e208385845a"
+      },
+      {
+        "calibration": "f23b1ae93ccc318299a9fba20f82d2e97efc20eb4d9043094f5837f375204534",
+        "development": "ab8af34a19ebebcaf757f711f4fc38766138b1c14d3f3efd2ca2595503ab61b2",
+        "tag": "r0_f1",
+        "test": "ca65a72110d9062ffcaf56a501f5f40cb01e0217d9804c7f0de61956cd4b0a1d",
+        "train": "f5789f63c2e11c2e3445c3527d1b91c56453c671750a42cfb45e813c1ccaaf88"
+      },
+      {
+        "calibration": "02d72a9c217ddc97d6d4a27356d89c5ae12a139baea5902b11ea3087e5d7dd61",
+        "development": "b3c35f9db174a8713ac9c931c11c9312ed695065b81194443da93a81388dca37",
+        "tag": "r0_f2",
+        "test": "5be7e5b4141be96b7492372158b68c810f71074252df0dfaec3d51a61715ffca",
+        "train": "24170aebfb076ccad045bbb3803319a070ff785c27368019c320730c770cee64"
+      },
+      {
+        "calibration": "bfc26d53234d82aa426b9bb02b510d74ae51ca1e54cc38ec61842fc1e3e07c12",
+        "development": "d7450cb8e4be333471150a8575f86e68c5e9520c761bc7453e5a4c5fda8544bc",
+        "tag": "r0_f3",
+        "test": "f8bfa840c48137091a030b545c22f6893904b8e0ff57172c0d081c9d6e0c71f9",
+        "train": "cff249b599925c3a324557053fcde7a0f8c2ba9c15da703dfc3dd41e5461d7a4"
+      },
+      {
+        "calibration": "e9143414d5d9b8ce7b002a981ace27990db3baa36a209d5f2f5c020ec9c85730",
+        "development": "05036340783e6f069a4706bb25b6a4ea80dca1e819e5775d9bc83ee546c3b2d2",
+        "tag": "r0_f4",
+        "test": "9b06fd682459d25ddbac4aad4de0f36f811a6040ccedcfc64ebef49e78143dfb",
+        "train": "73f52f130e4a27a49b88e2c5f178da8d86622f95c033300fd391d5018e3dea2a"
+      },
+      {
+        "calibration": "8ad5ecd0966ece85e001c5d6a773d60ca357ea60232e754265f52555c6c4def4",
+        "development": "068aec961629ef030d94b852f3d007f1d4e694c7b9f771dd2e2ee45f866bb0d5",
+        "tag": "r1_f0",
+        "test": "a37ac68dc4b63540a051872f25dba29a08d158a5bc7b1ce8b609d2d1f368d6e8",
+        "train": "88764fea0aa5d38e173d2d17da416a7f136b5359cf03bd7bbe0c9e2bfed8f27f"
+      },
+      {
+        "calibration": "4506ca7b13794640fead1fc9035fd2fd4ead8c0d9ae4ba6acf7235f2749aca0f",
+        "development": "ae232fad1efe72f816ad7dc6692ce7af7eefaa28bbbf2da252f036dbf376b706",
+        "tag": "r1_f1",
+        "test": "8814450e4a8d5e4b09baf93938863cbdde208002734940c6507cb45f8ee62b8f",
+        "train": "771c94a77accfc8c6467dada0ea1063b3761ff1c425b42cdfce978dc08f5d94e"
+      },
+      {
+        "calibration": "f87aab1ad6d96504c519516871bcd0d8e26929d6229f259a532f7dc6a72c667c",
+        "development": "d4249f8db034b76b93e3515d6581f3ac5ba66225e676e47307b86c10459a9874",
+        "tag": "r1_f2",
+        "test": "343d2c09715e8159e82283b1161c20b9faf598382c8e8b3fedca032ed373615e",
+        "train": "62851eea0b5a799d16e066d939df45da5cd657eecaf59a9248cba054293f8461"
+      },
+      {
+        "calibration": "dcf29d1258237786728070ca63e67ebe0158c8d2ab76c9a150eeeeffda735451",
+        "development": "65243357f371329dc95c2fe3613ef273b7b6a9ce802f53411b5d314a5ff4475d",
+        "tag": "r1_f3",
+        "test": "bd329e3e5e068dc7824ccf9afe602aabc291747432a5719bc0a02bbdc8a80e98",
+        "train": "bdd22b959e1bd4935c69abe90b8927583f6b3b3a79dc68a25c86fba489014292"
+      },
+      {
+        "calibration": "01730d8ed5477700a41bd2dc8780030e2e9dc920c7206ecff1e265b4b9698665",
+        "development": "034c56846e84525a75691572ff1028ba4bb51ab392ccc6b42aa5ceb1ea91e852",
+        "tag": "r1_f4",
+        "test": "268b14d346cb2eaa3d27493487dfafa218bd2ed8aa14672031a11159f1bad4ca",
+        "train": "df239c2f2b8905c228929d3d6b03aff15a493df758d621e39c0669102fbaf5d3"
+      }
+    ],
+    "historical_source_sha256": {
+      "telecom/Client.csv": "264a58512dc857fff29e11ef43fd53bc4407be23aac9dcc2c0df23536c800778",
+      "telecom/Record.csv": "5bd563bb77b357920832510b78d6842060d928cb5de8c0aaf79aa2a647e2271a"
+    },
+    "input_files": [
+      {
+        "path": "D:/progs/IDE/MainProjs/AI/GCI2026/finalA/analysis_outputs/feature_manifest.json",
+        "present": true,
+        "sha256": "8e0560cedab891acfea8b440b5d7f28516de1e3adc5b06899a442dd8d07fd067",
+        "size": 2559
+      },
+      {
+        "path": "D:/progs/IDE/MainProjs/AI/GCI2026/finalA/philopateer.ipynb",
+        "present": true,
+        "sha256": "aaa170b19923c087f9b38f85b546626b7465a3d17f5ae7037812c6aed5736b35",
+        "size": 1857125
+      },
+      {
+        "path": "D:/progs/IDE/MainProjs/AI/GCI2026/finalA/philopateer.pdf",
+        "present": true,
+        "sha256": "a51d2c0ff8aa6ebb0f679e680d6424b01cd7b95b9a0d23ae7a2eecc56de210ea",
+        "size": 846608
+      },
+      {
+        "path": "D:/progs/IDE/MainProjs/AI/GCI2026/finalA/philopateer.pptx",
+        "present": true,
+        "sha256": "a50a66fd77d062bdc45aeefb00ce8652b20b952de06dcb27e8ab4f15c37e46bc",
+        "size": 1310666
+      },
+      {
+        "path": "D:/progs/IDE/MainProjs/AI/GCI2026/finalA/references.txt",
+        "present": true,
+        "sha256": "b12fb18aafc83e2d599e15d04c689ee5cd85c10082c1761ab0c6f1d01606d361",
+        "size": 18843
+      },
+      {
+        "path": "D:/progs/IDE/MainProjs/AI/GCI2026/finalA/telecom/Client.csv",
+        "present": true,
+        "sha256": "264a58512dc857fff29e11ef43fd53bc4407be23aac9dcc2c0df23536c800778",
+        "size": 17937775
+      },
+      {
+        "path": "D:/progs/IDE/MainProjs/AI/GCI2026/finalA/telecom/Record.csv",
+        "present": true,
+        "sha256": "5bd563bb77b357920832510b78d6842060d928cb5de8c0aaf79aa2a647e2271a",
+        "size": 30182432
+      },
+      {
+        "path": "D:/progs/IDE/MainProjs/AI/GCI2026/finalA/v1_frozen/analysis_outputs/audit.json",
+        "present": true,
+        "sha256": "445d43f504dd36dc87f8ac3d9d637de6ed20dcc7e6a7932ffb3cbdb7143aeb8d",
+        "size": 528
+      },
+      {
+        "path": "D:/progs/IDE/MainProjs/AI/GCI2026/finalA/v1_frozen/analysis_outputs/feature_manifest.json",
+        "present": true,
+        "sha256": "8e0560cedab891acfea8b440b5d7f28516de1e3adc5b06899a442dd8d07fd067",
+        "size": 2559
+      },
+      {
+        "path": "D:/progs/IDE/MainProjs/AI/GCI2026/finalA/v1_frozen/analysis_outputs/model_selection.json",
+        "present": true,
+        "sha256": "62e17913b8e7bf7bf1ac8fdd4556d242b524c884a0e929352c2b9e3bb5e9acc3",
+        "size": 321
+      },
+      {
+        "path": "D:/progs/IDE/MainProjs/AI/GCI2026/finalA/v1_frozen/analysis_outputs/models/selected_model.joblib",
+        "present": true,
+        "sha256": "8a59fe9ac8c2eafb85c442fa1531035399aeecc6530a4b6489914385ecedfa3c",
+        "size": 1375735
+      },
+      {
+        "path": "D:/progs/IDE/MainProjs/AI/GCI2026/finalA/v1_frozen/analysis_outputs/tables/split_manifest.csv",
+        "present": true,
+        "sha256": "4caefcbed46a834f89cfbf21387f78555e601b43a8cee81d1637c786fb0a21b3",
+        "size": 1690023
+      },
+      {
+        "path": "D:/progs/IDE/MainProjs/AI/GCI2026/finalA/v1_frozen/analysis_pipeline.py",
+        "present": true,
+        "sha256": "4a70b0878f744a10806e08b6be07fe22ed153f0b041473565d1ab2b21f28398e",
+        "size": 34327
+      },
+      {
+        "path": "D:/progs/IDE/MainProjs/AI/GCI2026/finalA/v2_work/common.py",
+        "present": true,
+        "sha256": "c68e6bcd81a24ae6960474ea537c4574fd0139fd83126fae0a853275611b0de7",
+        "size": 4647
+      },
+      {
+        "path": "D:/progs/IDE/MainProjs/AI/GCI2026/finalA/v2_work/d_results/baseline_folds.json",
+        "present": true,
+        "sha256": "0db2cd905305d7dc8873bae32b4d521c67e505655884719c66f9bf58c9d9cd2c",
+        "size": 12884
+      },
+      {
+        "path": "D:/progs/IDE/MainProjs/AI/GCI2026/finalA/v2_work/d_results/cache/12870aa4bf22659b433c0b59d4ed517b75169b4ab72cbf1d8bf8c546caaefc30.json",
+        "present": true,
+        "sha256": "6f6d615ae4742af93da0d0fef75d0b030b0eadc8a31dcbe36cdc8621639a5988",
+        "size": 5175
+      },
+      {
+        "path": "D:/progs/IDE/MainProjs/AI/GCI2026/finalA/v2_work/d_results/cache/12870aa4bf22659b433c0b59d4ed517b75169b4ab72cbf1d8bf8c546caaefc30.npz",
+        "present": true,
+        "sha256": "3e219054e5ac207c9da7ecdf1eeb35788192ec6c7d7215cd666f5a3597daed8b",
+        "size": 120542
+      },
+      {
+        "path": "D:/progs/IDE/MainProjs/AI/GCI2026/finalA/v2_work/d_results/cache/1f31cfcb8a5eff011358c0937b3029fa166691d8f3311e12196041aae89d45ad.json",
+        "present": true,
+        "sha256": "52e41aead95c6645b7154fa2f1919ef5914ef3b42750adff5d709d7148c58f93",
+        "size": 5176
+      },
+      {
+        "path": "D:/progs/IDE/MainProjs/AI/GCI2026/finalA/v2_work/d_results/cache/1f31cfcb8a5eff011358c0937b3029fa166691d8f3311e12196041aae89d45ad.npz",
+        "present": true,
+        "sha256": "0d63ce870130e32901aeb0895f270a5a091e3c02b3f144955b14249ceab0f6b6",
+        "size": 120510
+      },
+      {
+        "path": "D:/progs/IDE/MainProjs/AI/GCI2026/finalA/v2_work/d_results/cache/2096c925ccfe2cc362d4384de4fabab54b5d16d6b5378ba165ac0a8467792602.json",
+        "present": true,
+        "sha256": "4aa873c0052940655447c0f9f236571177fd9af8d6bc3aa0fb67bb4fb980b822",
+        "size": 5219
+      },
+      {
+        "path": "D:/progs/IDE/MainProjs/AI/GCI2026/finalA/v2_work/d_results/cache/2096c925ccfe2cc362d4384de4fabab54b5d16d6b5378ba165ac0a8467792602.npz",
+        "present": true,
+        "sha256": "ea504ddf8bb8b00e8253e138ff51bfc71262185fd1c20c7fba18ca3f3a1a613b",
+        "size": 120493
+      },
+      {
+        "path": "D:/progs/IDE/MainProjs/AI/GCI2026/finalA/v2_work/d_results/cache/213177f9a82d23b6c2d413af12d92a6af43183147b24f7eb7b6892dc72c0012a.json",
+        "present": true,
+        "sha256": "fcb060356ca8508b4512130d4f5acb674bf1e63960109a708f21f015ea87919d",
+        "size": 5175
+      },
+      {
+        "path": "D:/progs/IDE/MainProjs/AI/GCI2026/finalA/v2_work/d_results/cache/213177f9a82d23b6c2d413af12d92a6af43183147b24f7eb7b6892dc72c0012a.npz",
+        "present": true,
+        "sha256": "199a4cb506a4fea18fc489e2f0f2729bf60516fea2ce870be5fadb81611e7d1e",
+        "size": 120514
+      },
+      {
+        "path": "D:/progs/IDE/MainProjs/AI/GCI2026/finalA/v2_work/d_results/cache/236747bf4a2922651ddd42edec071603b5eb23ca42b8de622c0fa3000e5b5f2b.json",
+        "present": true,
+        "sha256": "ee17b662254b387c9ab42eb900ea93156bc48354a6866698951ca704bca3e366",
+        "size": 5176
+      },
+      {
+        "path": "D:/progs/IDE/MainProjs/AI/GCI2026/finalA/v2_work/d_results/cache/236747bf4a2922651ddd42edec071603b5eb23ca42b8de622c0fa3000e5b5f2b.npz",
+        "present": true,
+        "sha256": "6c0c8d198eaf0139da56f092241238cb761ddcbb0fedba473fa0317014680cfb",
+        "size": 120481
+      },
+      {
+        "path": "D:/progs/IDE/MainProjs/AI/GCI2026/finalA/v2_work/d_results/cache/3a82fc846f2742235ea5be033b4ab4a028b0eaf255bcd10c180ee8ac01997381.json",
+        "present": true,
+        "sha256": "13c22144915d52d53c833855dccf60b1bc77e7a64c81995f0f5957985f0b1634",
+        "size": 5175
+      },
+      {
+        "path": "D:/progs/IDE/MainProjs/AI/GCI2026/finalA/v2_work/d_results/cache/3a82fc846f2742235ea5be033b4ab4a028b0eaf255bcd10c180ee8ac01997381.npz",
+        "present": true,
+        "sha256": "e0ad58c20020043864d9a6cac2bc42a0451cc032ddac9f27dd7715d3dfaafb01",
+        "size": 120500
+      },
+      {
+        "path": "D:/progs/IDE/MainProjs/AI/GCI2026/finalA/v2_work/d_results/cache/448e7cf70d1550f11235d33b0e81d13a4da4de7c9a21b8752f3d6ca3b5290e6b.json",
+        "present": true,
+        "sha256": "a2876a2b8c71913a869d18a10d4b320bf12e049aa0b72b0985e31aef0aa4e19b",
+        "size": 5220
+      },
+      {
+        "path": "D:/progs/IDE/MainProjs/AI/GCI2026/finalA/v2_work/d_results/cache/448e7cf70d1550f11235d33b0e81d13a4da4de7c9a21b8752f3d6ca3b5290e6b.npz",
+        "present": true,
+        "sha256": "bb96cb30faa0b3b1e55400b3c63044973a701e160134d7e6ab97e580728c17d5",
+        "size": 120539
+      },
+      {
+        "path": "D:/progs/IDE/MainProjs/AI/GCI2026/finalA/v2_work/d_results/cache/5301f26a454ae00a4661e54cfa168353390767539ecf4eff288866e06ff198a5.json",
+        "present": true,
+        "sha256": "7f986aea53ac536dc254de3a377170038a7bd77fae1f8e9a9dee261144339c78",
+        "size": 5176
+      },
+      {
+        "path": "D:/progs/IDE/MainProjs/AI/GCI2026/finalA/v2_work/d_results/cache/5301f26a454ae00a4661e54cfa168353390767539ecf4eff288866e06ff198a5.npz",
+        "present": true,
+        "sha256": "50d8589679c650db36cf0be21c6d1c3e32a24aa7e4c1ff900b688fd4d1d3fa14",
+        "size": 120521
+      },
+      {
+        "path": "D:/progs/IDE/MainProjs/AI/GCI2026/finalA/v2_work/d_results/cache/5728907ca6e78aaa77316ed2ad470d3a215265ebb22322f76bf73680ca4e86ae.json",
+        "present": true,
+        "sha256": "b3270c57aa6b50aa14873f18844a3363f250f9efceaf37b02091e90c36b3edf6",
+        "size": 5175
+      },
+      {
+        "path": "D:/progs/IDE/MainProjs/AI/GCI2026/finalA/v2_work/d_results/cache/5728907ca6e78aaa77316ed2ad470d3a215265ebb22322f76bf73680ca4e86ae.npz",
+        "present": true,
+        "sha256": "3bd808ae859347673714fc19e4dbf7e2eeeb467c0945f36bd8e894687fda06ca",
+        "size": 120518
+      },
+      {
+        "path": "D:/progs/IDE/MainProjs/AI/GCI2026/finalA/v2_work/d_results/cache/5763cfd21f2c8d13317f152fd17f8d86c46f907efc2c6981a15f5bc07ccbf6d9.json",
+        "present": true,
+        "sha256": "a1c4eae7dce9ca6093ded57842a37e9ba4862db4c817ff8a42507604a648966b",
+        "size": 5176
+      },
+      {
+        "path": "D:/progs/IDE/MainProjs/AI/GCI2026/finalA/v2_work/d_results/cache/5763cfd21f2c8d13317f152fd17f8d86c46f907efc2c6981a15f5bc07ccbf6d9.npz",
+        "present": true,
+        "sha256": "38b9dc40d6fb6543c569cc964dcfdd426ffe39de0ef01475898beac83221ffda",
+        "size": 120501
+      },
+      {
+        "path": "D:/progs/IDE/MainProjs/AI/GCI2026/finalA/v2_work/d_results/cache/654631a1f21f575337cc54a1e1e8e23f63e4ed967352baf88bc7857f64f7ab2e.json",
+        "present": true,
+        "sha256": "9466ca997853f7f73dd8ffb73a8583e966e194219bf31db39a9bf1d5d6672271",
+        "size": 5218
+      },
+      {
+        "path": "D:/progs/IDE/MainProjs/AI/GCI2026/finalA/v2_work/d_results/cache/654631a1f21f575337cc54a1e1e8e23f63e4ed967352baf88bc7857f64f7ab2e.npz",
+        "present": true,
+        "sha256": "d9946b515bce4e8ed681fa61e1f35ae4eb0bfca8aa8dc54d3610fb72c1231867",
+        "size": 120507
+      },
+      {
+        "path": "D:/progs/IDE/MainProjs/AI/GCI2026/finalA/v2_work/d_results/cache/70c2f183b3b91da75e48a011f1a749dd8c191fcf7248267a82c28cafa3484ecf.json",
+        "present": true,
+        "sha256": "5f524df90534fde419357df36d9a3bb5061be8e7a5807c65df1818e3f5f675bd",
+        "size": 5219
+      },
+      {
+        "path": "D:/progs/IDE/MainProjs/AI/GCI2026/finalA/v2_work/d_results/cache/70c2f183b3b91da75e48a011f1a749dd8c191fcf7248267a82c28cafa3484ecf.npz",
+        "present": true,
+        "sha256": "25c36d201a24d15bda141a24c3b61a9e0dd981dbfd7c9ca494b57a001c7871bc",
+        "size": 120520
+      },
+      {
+        "path": "D:/progs/IDE/MainProjs/AI/GCI2026/finalA/v2_work/d_results/cache/76b0cf56879e9ddf347ab2ce7a93b8d265343dc92ad054b97fcb945827b147c6.json",
+        "present": true,
+        "sha256": "2b0164cc8527c6e5351394cc482615d9dd12ca0f97229bd92e0d634a9b8838d5",
+        "size": 5220
+      },
+      {
+        "path": "D:/progs/IDE/MainProjs/AI/GCI2026/finalA/v2_work/d_results/cache/76b0cf56879e9ddf347ab2ce7a93b8d265343dc92ad054b97fcb945827b147c6.npz",
+        "present": true,
+        "sha256": "61a8ceae070b986822e8b31338d869f3223be982623598586ca0aa8ae817e64c",
+        "size": 120519
+      },
+      {
+        "path": "D:/progs/IDE/MainProjs/AI/GCI2026/finalA/v2_work/d_results/cache/79c4a8d36916261a3710d98e0d6a5d4e3d7181f41c46a6cf4ce7561e7465ebf1.json",
+        "present": true,
+        "sha256": "5da82b2a612582faa3b0369048c08a64a1feb0ec8c5be23c296a87cb9e8d6795",
+        "size": 5219
+      },
+      {
+        "path": "D:/progs/IDE/MainProjs/AI/GCI2026/finalA/v2_work/d_results/cache/79c4a8d36916261a3710d98e0d6a5d4e3d7181f41c46a6cf4ce7561e7465ebf1.npz",
+        "present": true,
+        "sha256": "d899acf52a8c867aa074fcdd1730c1ed2c4f5126f6ad21150e0a63b7e44b8926",
+        "size": 120455
+      },
+      {
+        "path": "D:/progs/IDE/MainProjs/AI/GCI2026/finalA/v2_work/d_results/cache/7ae398d6b53a8cf289c94dc382c5fba3c5fd99e51a1e7bbf3b4fb3d10da7801a.json",
+        "present": true,
+        "sha256": "4bec9b183965fedcf8577f325b64cd9bd9fddfb1fff0e4dc77213ddae6ade639",
+        "size": 5220
+      },
+      {
+        "path": "D:/progs/IDE/MainProjs/AI/GCI2026/finalA/v2_work/d_results/cache/7ae398d6b53a8cf289c94dc382c5fba3c5fd99e51a1e7bbf3b4fb3d10da7801a.npz",
+        "present": true,
+        "sha256": "8650c996a22afbbbd15a8e0bf18db585f1b5bd731cdda62b34df123f0d58088b",
+        "size": 120550
+      },
+      {
+        "path": "D:/progs/IDE/MainProjs/AI/GCI2026/finalA/v2_work/d_results/cache/7c840239dc05a5cc577710e2f473f936430aafe671d1109886acc40b23b106a3.json",
+        "present": true,
+        "sha256": "a76f9898308d263820f9d5379426cd0af5160f1f549a1c3f0198d3a81839779b",
+        "size": 5175
+      },
+      {
+        "path": "D:/progs/IDE/MainProjs/AI/GCI2026/finalA/v2_work/d_results/cache/7c840239dc05a5cc577710e2f473f936430aafe671d1109886acc40b23b106a3.npz",
+        "present": true,
+        "sha256": "4fc4db6e2cbefd06e947e6c00f92ee8bc4bb5e1afa4aaa0995897af395d50ef4",
+        "size": 120509
+      },
+      {
+        "path": "D:/progs/IDE/MainProjs/AI/GCI2026/finalA/v2_work/d_results/cache/81266f9589f4ffdbc2d697eb01efe4dbf9bdcd8d1f71d7acdeb3126d8f13ca33.json",
+        "present": true,
+        "sha256": "d9f1e7756facd0a830e66f41cd3f039a49f36861002a19122c81399494322c4a",
+        "size": 5176
+      },
+      {
+        "path": "D:/progs/IDE/MainProjs/AI/GCI2026/finalA/v2_work/d_results/cache/81266f9589f4ffdbc2d697eb01efe4dbf9bdcd8d1f71d7acdeb3126d8f13ca33.npz",
+        "present": true,
+        "sha256": "a86c77bca6d18f8ab54c5883d75a3cab24be467938a7193f0b432becfd3448c6",
+        "size": 120492
+      },
+      {
+        "path": "D:/progs/IDE/MainProjs/AI/GCI2026/finalA/v2_work/d_results/cache/8674b12e2e82a8d99ce3d45c02e745a6ef410ae3cf4e43bbeb07c7cd923aa6c9.json",
+        "present": true,
+        "sha256": "9991e98f2b627e84556d70361256003a755cce7234b6ee1952f18c0aaf98a024",
+        "size": 5175
+      },
+      {
+        "path": "D:/progs/IDE/MainProjs/AI/GCI2026/finalA/v2_work/d_results/cache/8674b12e2e82a8d99ce3d45c02e745a6ef410ae3cf4e43bbeb07c7cd923aa6c9.npz",
+        "present": true,
+        "sha256": "044f738f9e7e2df8f64d65fc1d361529757efab6ed12547e3a4da1ae38f0ae03",
+        "size": 120505
+      },
+      {
+        "path": "D:/progs/IDE/MainProjs/AI/GCI2026/finalA/v2_work/d_results/cache/898fe9da090cef469eaaa1f613fdc95d02a8182ab8461843143873136ad9c376.json",
+        "present": true,
+        "sha256": "1cff12a51f43a62608b62730bd7a4c5e4546d740cd71cdf034306ba7316850b2",
+        "size": 5220
+      },
+      {
+        "path": "D:/progs/IDE/MainProjs/AI/GCI2026/finalA/v2_work/d_results/cache/898fe9da090cef469eaaa1f613fdc95d02a8182ab8461843143873136ad9c376.npz",
+        "present": true,
+        "sha256": "a21501b5b25a8058c3709e57a10ade0de2de2b12c1a5b41b5bc354452a3a7be4",
+        "size": 120561
+      },
+      {
+        "path": "D:/progs/IDE/MainProjs/AI/GCI2026/finalA/v2_work/d_results/cache/8c5e86e80279ccda5c96084bbd5963ede623038ea74a5231c192c6d12f165162.json",
+        "present": true,
+        "sha256": "56327911e8e40ff51affdafcb4b84d9142912c216ad625266071567486e17de6",
+        "size": 5176
+      },
+      {
+        "path": "D:/progs/IDE/MainProjs/AI/GCI2026/finalA/v2_work/d_results/cache/8c5e86e80279ccda5c96084bbd5963ede623038ea74a5231c192c6d12f165162.npz",
+        "present": true,
+        "sha256": "d78862b63a9faa56edc5f4c26d8b0b8bad887710707e9cd5f501a39a671e087d",
+        "size": 120557
+      },
+      {
+        "path": "D:/progs/IDE/MainProjs/AI/GCI2026/finalA/v2_work/d_results/cache/90364fa66b597e5b13a62425e47d85ec401e901a98d59bebb729aa6f563ae04a.json",
+        "present": true,
+        "sha256": "a9617db6cb4a09b4cb3101ac66ed5902ef597d947bf75f2a62d5e2316839a279",
+        "size": 5175
+      },
+      {
+        "path": "D:/progs/IDE/MainProjs/AI/GCI2026/finalA/v2_work/d_results/cache/90364fa66b597e5b13a62425e47d85ec401e901a98d59bebb729aa6f563ae04a.npz",
+        "present": true,
+        "sha256": "97cf998bdd63d0b9de7f8625d8b43ca694a03bf7dd2498fdc91265c8531a95b0",
+        "size": 120520
+      },
+      {
+        "path": "D:/progs/IDE/MainProjs/AI/GCI2026/finalA/v2_work/d_results/cache/9fc5ceff1b113f3fb4b85cc7e2c45a847ab374b470cd8a5f4d99a7b54e32715e.json",
+        "present": true,
+        "sha256": "850d829b2d1ddd6f4e1300dc619c4a25c45b53ec4863c7085a77fdd6449c79eb",
+        "size": 5219
+      },
+      {
+        "path": "D:/progs/IDE/MainProjs/AI/GCI2026/finalA/v2_work/d_results/cache/9fc5ceff1b113f3fb4b85cc7e2c45a847ab374b470cd8a5f4d99a7b54e32715e.npz",
+        "present": true,
+        "sha256": "3d0d39b5ff4f855cf2463841e205d7e737c77775ddd2045e6e7492051d9621f5",
+        "size": 120501
+      },
+      {
+        "path": "D:/progs/IDE/MainProjs/AI/GCI2026/finalA/v2_work/d_results/cache/a608c220bcf7714493fa33e1e5a7d075a787188bb5744740fe9c7bfce5cdeba7.json",
+        "present": true,
+        "sha256": "28a9831a86bf60d7c25f849e20e69cc44919209bb6fa398dfdb3a4701a5fa4ce",
+        "size": 5220
+      },
+      {
+        "path": "D:/progs/IDE/MainProjs/AI/GCI2026/finalA/v2_work/d_results/cache/a608c220bcf7714493fa33e1e5a7d075a787188bb5744740fe9c7bfce5cdeba7.npz",
+        "present": true,
+        "sha256": "104e6bf1c1ddc2f54ae1b55d2c798a1313843457fbce30dafd1dacb435e1f970",
+        "size": 120520
+      },
+      {
+        "path": "D:/progs/IDE/MainProjs/AI/GCI2026/finalA/v2_work/d_results/cache/b94142370a45d6877ed762f34514dcc2eb34101d18d3bfa07a9069fe054ab626.json",
+        "present": true,
+        "sha256": "1dd17a5fc2dc02baffd511f3012e114bee0cc0555f1ce6a7aff9c64852a001e6",
+        "size": 5219
+      },
+      {
+        "path": "D:/progs/IDE/MainProjs/AI/GCI2026/finalA/v2_work/d_results/cache/b94142370a45d6877ed762f34514dcc2eb34101d18d3bfa07a9069fe054ab626.npz",
+        "present": true,
+        "sha256": "c4dfa6f964df56fa030cab79b87a5b74465d372a85407da2a954ba8cb97abf75",
+        "size": 120546
+      },
+      {
+        "path": "D:/progs/IDE/MainProjs/AI/GCI2026/finalA/v2_work/d_results/cache/c0b76e1971370db0c1b156b81ab7a784c8034789acc1402b44e1b2a5eac8bab0.json",
+        "present": true,
+        "sha256": "29352a513bbf5f0ba0df265c58d32ad3b301f67f4dacbdb11be983515f26ffda",
+        "size": 5176
+      },
+      {
+        "path": "D:/progs/IDE/MainProjs/AI/GCI2026/finalA/v2_work/d_results/cache/c0b76e1971370db0c1b156b81ab7a784c8034789acc1402b44e1b2a5eac8bab0.npz",
+        "present": true,
+        "sha256": "909f9c2a83a5a0a42f2f866d76a1dbe5393df8651c3cd1b92bc17147ca959add",
+        "size": 120589
+      },
+      {
+        "path": "D:/progs/IDE/MainProjs/AI/GCI2026/finalA/v2_work/d_results/cache/ce6a2f2e27fcad5f4ee6917e1b1e4c3c5dbce90d83cef40cb9341c5b163ce21d.json",
+        "present": true,
+        "sha256": "50970fdd83a3d164e9c84cd31756d257e3bc87c7f91e2a622f24eef357bcf7c8",
+        "size": 5175
+      },
+      {
+        "path": "D:/progs/IDE/MainProjs/AI/GCI2026/finalA/v2_work/d_results/cache/ce6a2f2e27fcad5f4ee6917e1b1e4c3c5dbce90d83cef40cb9341c5b163ce21d.npz",
+        "present": true,
+        "sha256": "d17087aba14a7f0b5008a8e339bcac72dda789365770206267f72ac988913191",
+        "size": 120518
+      },
+      {
+        "path": "D:/progs/IDE/MainProjs/AI/GCI2026/finalA/v2_work/d_results/cache/dadbc34931afe5797781adbc1d7c361bb42f8922cda9b70a49e5e44d99e5c69e.json",
+        "present": true,
+        "sha256": "1af9379fae267ec38e63e8a93467be3740ed4af450595f92272052c11a49195d",
+        "size": 5219
+      },
+      {
+        "path": "D:/progs/IDE/MainProjs/AI/GCI2026/finalA/v2_work/d_results/cache/dadbc34931afe5797781adbc1d7c361bb42f8922cda9b70a49e5e44d99e5c69e.npz",
+        "present": true,
+        "sha256": "af67966f4ec27e179b80715bba893e53f342540e033875c1006fa10cdde15d87",
+        "size": 120545
+      },
+      {
+        "path": "D:/progs/IDE/MainProjs/AI/GCI2026/finalA/v2_work/d_results/cache/e2a2b4b53fa935182a91586f2b704d47ed7d51198bbc0e466b5b1afeacbfc02e.json",
+        "present": true,
+        "sha256": "4e30e754989280f8010cb9b5710c5ce4daa645dee41846566ee27385d3379129",
+        "size": 5176
+      },
+      {
+        "path": "D:/progs/IDE/MainProjs/AI/GCI2026/finalA/v2_work/d_results/cache/e2a2b4b53fa935182a91586f2b704d47ed7d51198bbc0e466b5b1afeacbfc02e.npz",
+        "present": true,
+        "sha256": "22c1cd6a7744bf8662885f96f52a40780ed3e3b76de8cf0a174c7cbc2d27a60f",
+        "size": 120539
+      },
+      {
+        "path": "D:/progs/IDE/MainProjs/AI/GCI2026/finalA/v2_work/d_results/cache/ea8c10c4ed6af8834ff903172e3b69196d55a90e18d23c2d71bbb9fa50fff01f.json",
+        "present": true,
+        "sha256": "f5c5a094014441e63b2cfa1c332fb6a2997f97bdbb6580bac00b7e81dee0fbbc",
+        "size": 5175
+      },
+      {
+        "path": "D:/progs/IDE/MainProjs/AI/GCI2026/finalA/v2_work/d_results/cache/ea8c10c4ed6af8834ff903172e3b69196d55a90e18d23c2d71bbb9fa50fff01f.npz",
+        "present": true,
+        "sha256": "f3d67fec0be395a76d403490e3697419129d9585d518b26a3dbe385ed79be713",
+        "size": 120507
+      },
+      {
+        "path": "D:/progs/IDE/MainProjs/AI/GCI2026/finalA/v2_work/d_results/cache/ee429b16f3fe4df9991085133fd7a6c35489ab0223934ae8652b87a739137398.json",
+        "present": true,
+        "sha256": "678359f0294415f54a38d38ac2a1d97abff6951e1c3d6d06978b6a812d88e5ce",
+        "size": 5175
+      },
+      {
+        "path": "D:/progs/IDE/MainProjs/AI/GCI2026/finalA/v2_work/d_results/cache/ee429b16f3fe4df9991085133fd7a6c35489ab0223934ae8652b87a739137398.npz",
+        "present": true,
+        "sha256": "5e7a0e5711cdd6ef0a0ddfc9e4f0d15eb9f3d7f19455976d6e0520700eb880a2",
+        "size": 120551
+      },
+      {
+        "path": "D:/progs/IDE/MainProjs/AI/GCI2026/finalA/v2_work/d_results/folds/baseline_lgbm_r0_f0_recipe.json",
+        "present": true,
+        "sha256": "331718d340b4db594e80f7b014863236afa5b11a582cf3180086cdd0c833188b",
+        "size": 505
+      },
+      {
+        "path": "D:/progs/IDE/MainProjs/AI/GCI2026/finalA/v2_work/d_results/folds/baseline_lgbm_r0_f1_recipe.json",
+        "present": true,
+        "sha256": "e34feba046e085aae95f783ab64918a4831acf4a9f56ed62a7722f1dec90ef40",
+        "size": 505
+      },
+      {
+        "path": "D:/progs/IDE/MainProjs/AI/GCI2026/finalA/v2_work/d_results/folds/baseline_lgbm_r0_f2_recipe.json",
+        "present": true,
+        "sha256": "ccd4749e8b6e60f2c700da1ea5f9fb02ac4fa19b6494144094abdcb9f4c415a8",
+        "size": 493
+      },
+      {
+        "path": "D:/progs/IDE/MainProjs/AI/GCI2026/finalA/v2_work/d_results/folds/baseline_lgbm_r0_f3_recipe.json",
+        "present": true,
+        "sha256": "ccd4749e8b6e60f2c700da1ea5f9fb02ac4fa19b6494144094abdcb9f4c415a8",
+        "size": 493
+      },
+      {
+        "path": "D:/progs/IDE/MainProjs/AI/GCI2026/finalA/v2_work/d_results/folds/baseline_lgbm_r0_f4_recipe.json",
+        "present": true,
+        "sha256": "de6a3d484272fc28cbb7bfc3e8bd5525b52d7ad30eb494a81ef81d601368a117",
+        "size": 505
+      },
+      {
+        "path": "D:/progs/IDE/MainProjs/AI/GCI2026/finalA/v2_work/d_results/folds/baseline_lgbm_r1_f0_recipe.json",
+        "present": true,
+        "sha256": "8665e61187744c77b6963bf4561cff60605dbe39b94dbfe8f325060d65b3c0fa",
+        "size": 505
+      },
+      {
+        "path": "D:/progs/IDE/MainProjs/AI/GCI2026/finalA/v2_work/d_results/folds/baseline_lgbm_r1_f1_recipe.json",
+        "present": true,
+        "sha256": "b379a1d6dea4311a2d8288ed5be21b600cf622ce93564ae15608a6cf6414ca60",
+        "size": 517
+      },
+      {
+        "path": "D:/progs/IDE/MainProjs/AI/GCI2026/finalA/v2_work/d_results/folds/baseline_lgbm_r1_f2_recipe.json",
+        "present": true,
+        "sha256": "d0feeffc02f81d20da6633621c342f5ce6491f0a90e76aeebb25110d6f6d4ce6",
+        "size": 505
+      },
+      {
+        "path": "D:/progs/IDE/MainProjs/AI/GCI2026/finalA/v2_work/d_results/folds/baseline_lgbm_r1_f3_recipe.json",
+        "present": true,
+        "sha256": "ccd4749e8b6e60f2c700da1ea5f9fb02ac4fa19b6494144094abdcb9f4c415a8",
+        "size": 493
+      },
+      {
+        "path": "D:/progs/IDE/MainProjs/AI/GCI2026/finalA/v2_work/d_results/folds/baseline_lgbm_r1_f4_recipe.json",
+        "present": true,
+        "sha256": "20680fbd275ee241237a48c5a9476fa4bc95bdb71132e53210fbd3af7ea89c88",
+        "size": 517
+      },
+      {
+        "path": "D:/progs/IDE/MainProjs/AI/GCI2026/finalA/v2_work/d_results/oof/baseline_lgbm_r0_f0.npz",
+        "present": true,
+        "sha256": "7c95f578448d7cc565fe698b02d6d691818b9c072099ce3d712513a04d1c22cd",
+        "size": 425956
+      },
+      {
+        "path": "D:/progs/IDE/MainProjs/AI/GCI2026/finalA/v2_work/d_results/oof/baseline_lgbm_r0_f1.npz",
+        "present": true,
+        "sha256": "ab8bdbf05930676d8a99a03c8cac339bf70894528063f90f2730f597d51cead7",
+        "size": 426238
+      },
+      {
+        "path": "D:/progs/IDE/MainProjs/AI/GCI2026/finalA/v2_work/d_results/oof/baseline_lgbm_r0_f2.npz",
+        "present": true,
+        "sha256": "261e411d43e57bc07e2cea4478ea5ca14eed652d7a504cb2a92bbea2f4e2f1b8",
+        "size": 426064
+      },
+      {
+        "path": "D:/progs/IDE/MainProjs/AI/GCI2026/finalA/v2_work/d_results/oof/baseline_lgbm_r0_f3.npz",
+        "present": true,
+        "sha256": "3e686c9c9e28ab042a2537c314aefef2dbc05b7c14bde743e4690ea621e0dd50",
+        "size": 426063
+      },
+      {
+        "path": "D:/progs/IDE/MainProjs/AI/GCI2026/finalA/v2_work/d_results/oof/baseline_lgbm_r0_f4.npz",
+        "present": true,
+        "sha256": "c7ef34ff72ddc81ff7c7f5b9125a3958583c40978121f0dd43cafb6e46ff10cc",
+        "size": 425689
+      },
+      {
+        "path": "D:/progs/IDE/MainProjs/AI/GCI2026/finalA/v2_work/d_results/oof/baseline_lgbm_r1_f0.npz",
+        "present": true,
+        "sha256": "47298f1db1f8e758d57f7f9a777ccd1c2d5bcf59f913c914ed9f970755e6f453",
+        "size": 425915
+      },
+      {
+        "path": "D:/progs/IDE/MainProjs/AI/GCI2026/finalA/v2_work/d_results/oof/baseline_lgbm_r1_f1.npz",
+        "present": true,
+        "sha256": "a0f96c7b7d0af44a3332c39f6c41d35cbe17dc3505f5a57d3681135b1b9ea848",
+        "size": 426194
+      },
+      {
+        "path": "D:/progs/IDE/MainProjs/AI/GCI2026/finalA/v2_work/d_results/oof/baseline_lgbm_r1_f2.npz",
+        "present": true,
+        "sha256": "96066024ef34837f2aa3b640a8ab705100ceb1d46ba43e51cfc2338f9ce09a9d",
+        "size": 426447
+      },
+      {
+        "path": "D:/progs/IDE/MainProjs/AI/GCI2026/finalA/v2_work/d_results/oof/baseline_lgbm_r1_f3.npz",
+        "present": true,
+        "sha256": "d552473bfe1d333afd55a9f77a7e87de172273218c9181dbbf3f0ce1fc071636",
+        "size": 426035
+      },
+      {
+        "path": "D:/progs/IDE/MainProjs/AI/GCI2026/finalA/v2_work/d_results/oof/baseline_lgbm_r1_f4.npz",
+        "present": true,
+        "sha256": "4f0fe7e92f48e7adc6aeb92290559dbed0ce34386ca3f2594df20f326d9e14e7",
+        "size": 425781
+      },
+      {
+        "path": "D:/progs/IDE/MainProjs/AI/GCI2026/finalA/v2_work/d_results/run_spec.json",
+        "present": true,
+        "sha256": "8aedbe7d47534a3e8cf8c3e615b0448df7a36fdde0a97b4f31f57b2d77b0a3f3",
+        "size": 5242
+      },
+      {
+        "path": "D:/progs/IDE/MainProjs/AI/GCI2026/finalA/v2_work/final_metrics.json",
+        "present": true,
+        "sha256": "1d14a4fea10ab391631379f82cd6a82e5a65ede4f01db5b540c9aec3612eea1e",
+        "size": 155122
+      },
+      {
+        "path": "D:/progs/IDE/MainProjs/AI/GCI2026/finalA/v2_work/final_protocol.py",
+        "present": true,
+        "sha256": "be181a475db397ea42bc85899ddf4c368a19c2aeac714c0cf3bb195117f31875",
+        "size": 4924
+      },
+      {
+        "path": "D:/progs/IDE/MainProjs/AI/GCI2026/finalA/v2_work/workstream_d.py",
+        "present": true,
+        "sha256": "bca0612d17586fe0e5a941ab6585e06bd7a6e0581de86f0abd46726a3f66dee2",
+        "size": 71261
+      },
+      {
+        "path": "D:/progs/IDE/MainProjs/AI/GCI2026/finalA/v3_addons/prereg_wp8.md",
+        "present": true,
+        "sha256": "15fd44322e73c281b85d173ac51fbfc631415b07a152f8a3041ae5892d32c779",
+        "size": 9190
+      },
+      {
+        "path": "D:/progs/IDE/MainProjs/AI/GCI2026/finalA/v3_addons/results/wp7_files_created.csv",
+        "present": true,
+        "sha256": "f21aa0d9a657f81d9314a3a6a5f7af56238e493b18eb8d974a6ee64f19ffe8f5",
+        "size": 5665
+      },
+      {
+        "path": "D:/progs/IDE/MainProjs/AI/GCI2026/finalA/v3_addons/results/wp7_final_verification.json",
+        "present": true,
+        "sha256": "e72d418b0a77f98ffd37862c555370683878a8df241777d6039b0fe79865f755",
+        "size": 11092
+      },
+      {
+        "path": "D:/progs/IDE/MainProjs/AI/GCI2026/finalA/v3_addons/src/common.py",
+        "present": true,
+        "sha256": "5522fe7e7c49f945db5bd12bff6b850652ee12b002014a64f44217b01d13db0d",
+        "size": 7086
+      },
+      {
+        "path": "D:/progs/IDE/MainProjs/AI/GCI2026/finalA/v3_addons/src/wp8_model.py",
+        "present": true,
+        "sha256": "e678102b5e9448c1b0f4182391036b91e898389e958fc8472c7578897eb2696e",
+        "size": 86731
+      },
+      {
+        "path": "D:/progs/IDE/MainProjs/AI/GCI2026/finalA/v3_addons/tests/test_wp8.py",
+        "present": true,
+        "sha256": "b79db9352356fe8fd36f2f13407259f3877951ff03b322d48675dd979fce54ef",
+        "size": 31828
+      }
+    ],
+    "interpreter": "C:/Users/FGstore/AppData/Local/Programs/Python/Python311/python.exe",
+    "missingness_families": {
+      "billing": [
+        "rev_Mean",
+        "totmrc_Mean",
+        "da_Mean",
+        "ovrrev_Mean",
+        "vceovr_Mean",
+        "datovr_Mean",
+        "roam_Mean",
+        "totrev",
+        "adjrev",
+        "avgrev"
+      ],
+      "calls_usage": [
+        "mou_Mean",
+        "ovrmou_Mean",
+        "drop_vce_Mean",
+        "drop_dat_Mean",
+        "blck_vce_Mean",
+        "blck_dat_Mean",
+        "unan_vce_Mean",
+        "unan_dat_Mean",
+        "plcd_vce_Mean",
+        "plcd_dat_Mean",
+        "recv_vce_Mean",
+        "recv_sms_Mean",
+        "comp_vce_Mean",
+        "comp_dat_Mean",
+        "inonemin_Mean",
+        "threeway_Mean",
+        "mou_cvce_Mean",
+        "mou_cdat_Mean",
+        "mou_rvce_Mean",
+        "owylis_vce_Mean",
+        "mouowylisv_Mean",
+        "iwylis_vce_Mean",
+        "mouiwylisv_Mean",
+        "peak_vce_Mean",
+        "peak_dat_Mean",
+        "mou_peav_Mean",
+        "mou_pead_Mean",
+        "opk_vce_Mean",
+        "opk_dat_Mean",
+        "mou_opkv_Mean",
+        "mou_opkd_Mean",
+        "drop_blk_Mean",
+        "attempt_Mean",
+        "complete_Mean",
+        "callfwdv_Mean",
+        "callwait_Mean",
+        "totcalls",
+        "totmou",
+        "adjmou",
+        "adjqty",
+        "avgmou",
+        "avgqty"
+      ],
+      "care": [
+        "custcare_Mean",
+        "ccrndmou_Mean",
+        "cc_mou_Mean"
+      ],
+      "equipment": [
+        "hnd_price",
+        "phones",
+        "models",
+        "eqpdays"
+      ],
+      "recent_history": [
+        "change_mou",
+        "change_rev",
+        "avg3mou",
+        "avg3qty",
+        "avg3rev",
+        "avg6mou",
+        "avg6qty",
+        "avg6rev"
+      ],
+      "tenure_lines": [
+        "months",
+        "uniqsubs",
+        "actvsubs"
+      ]
+    },
+    "pool_ids_sha256": "2ac1259b0a941404f1cb147b46f3fef02c8656b57c3f71641181c787b31ed4d2",
+    "pool_y_sha256": "50924ec89830204156294ab5d904441db43da2dcf1b2dbe6bd8d2bc61f09bec7",
+    "prereg_sha256": "15fd44322e73c281b85d173ac51fbfc631415b07a152f8a3041ae5892d32c779",
+    "protected_fingerprints": [
+      {
+        "path": "D:/progs/IDE/MainProjs/AI/GCI2026/finalA/philopateer.ipynb",
+        "present": true,
+        "sha256": "aaa170b19923c087f9b38f85b546626b7465a3d17f5ae7037812c6aed5736b35",
+        "size": 1857125
+      },
+      {
+        "path": "D:/progs/IDE/MainProjs/AI/GCI2026/finalA/philopateer.pdf",
+        "present": true,
+        "sha256": "a51d2c0ff8aa6ebb0f679e680d6424b01cd7b95b9a0d23ae7a2eecc56de210ea",
+        "size": 846608
+      },
+      {
+        "path": "D:/progs/IDE/MainProjs/AI/GCI2026/finalA/philopateer.pptx",
+        "present": true,
+        "sha256": "a50a66fd77d062bdc45aeefb00ce8652b20b952de06dcb27e8ab4f15c37e46bc",
+        "size": 1310666
+      },
+      {
+        "path": "D:/progs/IDE/MainProjs/AI/GCI2026/finalA/references.txt",
+        "present": true,
+        "sha256": "b12fb18aafc83e2d599e15d04c689ee5cd85c10082c1761ab0c6f1d01606d361",
+        "size": 18843
+      },
+      {
+        "path": "D:/progs/IDE/MainProjs/AI/GCI2026/finalA/v2_work/final_protocol.py",
+        "present": true,
+        "sha256": "be181a475db397ea42bc85899ddf4c368a19c2aeac714c0cf3bb195117f31875",
+        "size": 4924
+      },
+      {
+        "path": "D:/progs/IDE/MainProjs/AI/GCI2026/finalA/v2_work/final_metrics.json",
+        "present": true,
+        "sha256": "1d14a4fea10ab391631379f82cd6a82e5a65ede4f01db5b540c9aec3612eea1e",
+        "size": 155122
+      },
+      {
+        "path": "D:/progs/IDE/MainProjs/AI/GCI2026/finalA/v1_frozen/analysis_outputs/models/selected_model.joblib",
+        "present": true,
+        "sha256": "8a59fe9ac8c2eafb85c442fa1531035399aeecc6530a4b6489914385ecedfa3c",
+        "size": 1375735
+      },
+      {
+        "path": "D:/progs/IDE/MainProjs/AI/GCI2026/finalA/v3_addons/results/wp7_final_verification.json",
+        "present": true,
+        "sha256": "e72d418b0a77f98ffd37862c555370683878a8df241777d6039b0fe79865f755",
+        "size": 11092
+      },
+      {
+        "path": "D:/progs/IDE/MainProjs/AI/GCI2026/finalA/v3_addons/results/wp7_files_created.csv",
+        "present": true,
+        "sha256": "f21aa0d9a657f81d9314a3a6a5f7af56238e493b18eb8d974a6ee64f19ffe8f5",
+        "size": 5665
+      }
+    ],
+    "python": "3.11.9 (tags/v3.11.9:de54cf5, Apr  2 2024, 10:12:12) [MSC v.1938 64 bit (AMD64)]",
+    "raw_numeric_sha256": "f9166ed8239ce726d8519eb0ed00f2d4f71857cd60a94e35ed93cab5da105f00",
+    "schema": 1,
+    "script_sha256": "e678102b5e9448c1b0f4182391036b91e898389e958fc8472c7578897eb2696e",
+    "seed": 20261028,
+    "sigmoid_fits": 10,
+    "sigmoid_parameters": {
+      "C": 1000,
+      "max_iter": 1000,
+      "random_state": 20261028,
+      "solver": "lbfgs"
+    },
+    "tau": 1.711493684172072,
+    "tests_sha256": "b79db9352356fe8fd36f2f13407259f3877951ff03b322d48675dd979fce54ef",
+    "versions": {
+      "lightgbm": "4.7.0",
+      "numpy": "2.3.3",
+      "pandas": "3.0.6",
+      "scikit-learn": "1.9.1",
+      "scipy": "1.17.1",
+      "threadpoolctl": "3.7.0"
+    }
+  },
+  "signature_sha256": "72dc76232b476cc9780b950f68f7062fd6d6c91bebbc118cdfe8ba687948f853",
+  "status": "SEALED_NO_FITS"
+}

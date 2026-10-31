@@ -1,0 +1,164 @@
+{
+  "artifact": {
+    "path": "D:/progs/IDE/MainProjs/AI/GCI2026/finalA/v3_addons/protocol_addendum.md",
+    "present": true,
+    "sha256": "9c36323f3823f051022e2445d8ede5937ceadbe04b8553a0d25de887a2ad683b",
+    "size": 2774
+  },
+  "new_numerical_estimates": 0,
+  "provenance": {
+    "created_utc": "2026-10-29T15:06:00.700546+00:00",
+    "input_files": [
+      {
+        "path": "D:/progs/IDE/MainProjs/AI/GCI2026/finalA/FINAL_ASSESSMENT_HANDOFF.md",
+        "present": true,
+        "sha256": "07c3965e8a5730e895164e5ac18c3b0a1cadf5f4f026214e868c18d1585ec6ab",
+        "size": 54432
+      },
+      {
+        "path": "D:/progs/IDE/MainProjs/AI/GCI2026/finalA/references.txt",
+        "present": true,
+        "sha256": "b12fb18aafc83e2d599e15d04c689ee5cd85c10082c1761ab0c6f1d01606d361",
+        "size": 18843
+      },
+      {
+        "path": "D:/progs/IDE/MainProjs/AI/GCI2026/finalA/v2_work/final_metrics.json",
+        "present": true,
+        "sha256": "1d14a4fea10ab391631379f82cd6a82e5a65ede4f01db5b540c9aec3612eea1e",
+        "size": 155122
+      },
+      {
+        "path": "D:/progs/IDE/MainProjs/AI/GCI2026/finalA/v3_addons/results/sources/ascarza_2016_source.txt",
+        "present": true,
+        "sha256": "0cfda524a29346e7db5640034deda927f4150d2f2b1eaa86688a0fd504aea326",
+        "size": 135867
+      },
+      {
+        "path": "D:/progs/IDE/MainProjs/AI/GCI2026/finalA/v3_addons/src/common.py",
+        "present": true,
+        "sha256": "5522fe7e7c49f945db5bd12bff6b850652ee12b002014a64f44217b01d13db0d",
+        "size": 7086
+      },
+      {
+        "path": "D:/progs/IDE/MainProjs/AI/GCI2026/finalA/v3_addons/src/reporting.py",
+        "present": true,
+        "sha256": "189d0c2ebcb7616746332e56d568e180bd364346f0422ae1c20712dbdc4f4479",
+        "size": 941
+      },
+      {
+        "path": "D:/progs/IDE/MainProjs/AI/GCI2026/finalA/v3_addons/src/wp4_protocol.py",
+        "present": true,
+        "sha256": "84d96c8bec305e9d52a1d5f269f4738fc0a7a5a3c5d743435f3890b6fc145aca",
+        "size": 6160
+      }
+    ],
+    "python_version": "3.11.9 (tags/v3.11.9:de54cf5, Apr  2 2024, 10:12:12) [MSC v.1938 64 bit (AMD64)]",
+    "row_counts": {
+      "new_estimates": 0,
+      "quoted_queues": 4
+    },
+    "runtime_pools": [
+      {
+        "architecture": "Haswell",
+        "filepath": "C:\\Users\\FGstore\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\numpy.libs\\libscipy_openblas64_-860d95b1c38e637ce4509f5fa24fbf2a.dll",
+        "internal_api": "openblas",
+        "num_threads": 6,
+        "prefix": "libscipy_openblas",
+        "threading_layer": "pthreads",
+        "user_api": "blas",
+        "version": "0.3.30"
+      },
+      {
+        "architecture": "Haswell",
+        "filepath": "C:\\Users\\FGstore\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\scipy.libs\\libscipy_openblas-64eda39e79589aedb16f58e5547eb599.dll",
+        "internal_api": "openblas",
+        "num_threads": 6,
+        "prefix": "libscipy_openblas",
+        "threading_layer": "pthreads",
+        "user_api": "blas",
+        "version": "0.3.30"
+      }
+    ],
+    "script": "D:/progs/IDE/MainProjs/AI/GCI2026/finalA/v3_addons/src/wp4_protocol.py",
+    "script_sha256": "84d96c8bec305e9d52a1d5f269f4738fc0a7a5a3c5d743435f3890b6fc145aca",
+    "seed": 20261032,
+    "tags_used": [
+      "[E]",
+      "[A]",
+      "[R]"
+    ]
+  },
+  "quoted_harm_gate": {
+    "extend": "Contribution CI overlaps0 with positive upper bound, no harm, and a prospectively approved maximum-sample/budget extension; no unplanned optional peeking.",
+    "harm_looks": [
+      0.5,
+      1.0
+    ],
+    "harm_stop": "Positive treatment-minus-control churn and one-sided Fisher exact p<=.005 at either planned look; familywise alpha<=.01 for this stratum. Serious complaints/consent violations trigger immediate safety escalation independent of statistical significance.",
+    "harm_stratum": "mou_Mean<=original60k p25 AND ovrrev_Mean=0 AND custcare_Mean=0; missing diagnostic is not zero.",
+    "one_sided_alpha_per_harm_look": 0.005,
+    "scale": "Final cluster-robust95% LCB of incremental contribution after all contact/incentive/implementation costs >0 AND no guardrail breach; report policy value with logged enrollment/assignment propensities.",
+    "source_scope": "Ascarza2016 tested plan recommendations, not this exact stratum/action. The low-usage guardrail is a preregistered safety hypothesis, not an established backfire segment.",
+    "stop": "Contribution upper bound<=0, infeasible fully loaded costs, or customer-harm guardrail."
+  },
+  "quoted_queue_rows": [
+    {
+      "at_risk_value": 6089.515104228647,
+      "mean_bill": 68.74004858077647,
+      "name": "billing_check",
+      "operational_hypothesis_not_cause": true,
+      "queue": 1,
+      "raw_count": 582,
+      "raw_harm_stratum": 38,
+      "raw_low_usage": 56,
+      "share_at_risk_value": 0.23406202974538667,
+      "weighted_contacts": 2452.6137296534716
+    },
+    {
+      "at_risk_value": 2706.755023537323,
+      "mean_bill": 59.661242760755975,
+      "name": "network_check",
+      "operational_hypothesis_not_cause": true,
+      "queue": 2,
+      "raw_count": 266,
+      "raw_harm_stratum": 53,
+      "raw_low_usage": 91,
+      "share_at_risk_value": 0.10403924844405467,
+      "weighted_contacts": 1010.2728604948547
+    },
+    {
+      "at_risk_value": 7979.385312710152,
+      "mean_bill": 62.868426957888424,
+      "name": "handset_check",
+      "operational_hypothesis_not_cause": true,
+      "queue": 3,
+      "raw_count": 791,
+      "raw_harm_stratum": 214,
+      "raw_low_usage": 283,
+      "share_at_risk_value": 0.3067027654002414,
+      "weighted_contacts": 2914.767020278412
+    },
+    {
+      "at_risk_value": 9241.016767540012,
+      "mean_bill": 64.67478199897347,
+      "name": "digital_only_residual",
+      "operational_hypothesis_not_cause": true,
+      "queue": 4,
+      "raw_count": 866,
+      "raw_harm_stratum": 129,
+      "raw_low_usage": 185,
+      "share_at_risk_value": 0.35519595641031726,
+      "weighted_contacts": 3607.2679236796007
+    }
+  ],
+  "source_scope": {
+    "ascarza": "Accessible full-text abstract and field experiment sections read; 6%/10% over three months, plan recommendations.",
+    "hbs": "403 Forbidden, not described as read"
+  },
+  "status": "DONE",
+  "tags": {
+    "estimand": "[R] proposed ITT by linked household; no linkage observed",
+    "queue_table": "[E] frozen quotation, [A] economics; no gamma_q findings"
+  },
+  "word_count": 368
+}

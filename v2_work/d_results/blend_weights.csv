@@ -1,0 +1,11 @@
+repeat,fold,selected_groups,lgbm,catboost,xgboost,spline_logistic,source,inner_components_converged,optimizer_iterations,decision_allowed
+0,0,g1_temporal|g4_call_care|g5_equipment_cycle|g6_tenure_pricing,0.518391836678,0.168697686623,0.312910476699,2.19550939928e-18,3-fold OOF inside outer development; calibration/outer labels excluded,False,15,True
+0,1,g1_temporal|g3_billing_gaps|g4_call_care|g5_equipment_cycle|g6_tenure_pricing,0.473918595076,0.264639456064,0.242613566546,0.0188283823138,3-fold OOF inside outer development; calibration/outer labels excluded,False,23,True
+0,2,g4_call_care|g5_equipment_cycle|g6_tenure_pricing,0.60850388571,0.232329584238,0.138440898542,0.0207256315095,3-fold OOF inside outer development; calibration/outer labels excluded,False,15,True
+0,3,g3_billing_gaps|g4_call_care|g5_equipment_cycle,0.436547159923,0.255134845368,0.308317994709,0,3-fold OOF inside outer development; calibration/outer labels excluded,False,15,True
+0,4,g3_billing_gaps,0.507406988938,0.175582208582,0.31701080248,0,3-fold OOF inside outer development; calibration/outer labels excluded,False,17,True
+1,0,g1_temporal|g3_billing_gaps|g4_call_care,0.614132600327,0.17000009382,0.215867305853,3.90312782095e-18,3-fold OOF inside outer development; calibration/outer labels excluded,False,15,True
+1,1,g1_temporal|g4_call_care|g5_equipment_cycle|g6_tenure_pricing,0.490308556056,0.257170634211,0.237719652315,0.0148011574186,3-fold OOF inside outer development; calibration/outer labels excluded,False,15,True
+1,2,g1_temporal,0.296176575067,0.211398235849,0.492425189084,0,3-fold OOF inside outer development; calibration/outer labels excluded,False,15,True
+1,3,g1_temporal,0.369302971646,0.191981690352,0.43790118114,0.000814156862407,3-fold OOF inside outer development; calibration/outer labels excluded,False,17,True
+1,4,g1_temporal|g3_billing_gaps|g4_call_care|g6_tenure_pricing,0.568887375438,0.184734815577,0.239446929263,0.00693087972182,3-fold OOF inside outer development; calibration/outer labels excluded,False,15,True

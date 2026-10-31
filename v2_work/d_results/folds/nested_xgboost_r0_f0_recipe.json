@@ -1,0 +1,88 @@
+{
+  "recipe": {
+    "backend": "xgboost",
+    "groups": [
+      "g1_temporal",
+      "g4_call_care",
+      "g5_equipment_cycle",
+      "g6_tenure_pricing"
+    ],
+    "drop": [],
+    "sensitive": false,
+    "value_weighted": false
+  },
+  "development_value_limits": {
+    "median": 44.99,
+    "p99": 114.99
+  },
+  "outer_training_value_limits": {
+    "median": 44.99,
+    "p99": 115.31960000000015
+  },
+  "calibration_source": "20% held-out slice of outer training fold; never original 10k",
+  "threshold_source": "calibrated development-fit predictions on that slice only",
+  "extra": {
+    "group_screen": [
+      {
+        "group": "g1_temporal",
+        "inner_paired_auc_mean": 0.0007771063752708048,
+        "inner_paired_auc_differences": [
+          0.0015038807658711573,
+          0.0008232661563150057,
+          4.1722036262514806e-06
+        ],
+        "keep": true,
+        "reason": "positive inner paired AUC"
+      },
+      {
+        "group": "g3_billing_gaps",
+        "inner_paired_auc_mean": -0.00031857714932862863,
+        "inner_paired_auc_differences": [
+          0.0002111099131028027,
+          -0.0002477845960081604,
+          -0.0009190567650805281
+        ],
+        "keep": false,
+        "reason": "non-positive inner paired AUC"
+      },
+      {
+        "group": "g4_call_care",
+        "inner_paired_auc_mean": 0.0005488033354334269,
+        "inner_paired_auc_differences": [
+          0.00035363645029073965,
+          6.586441774447671e-05,
+          0.0012269091382650643
+        ],
+        "keep": true,
+        "reason": "positive inner paired AUC"
+      },
+      {
+        "group": "g5_equipment_cycle",
+        "inner_paired_auc_mean": 1.8048132013892548e-05,
+        "inner_paired_auc_differences": [
+          4.3190806796045145e-05,
+          0.00018088884930256288,
+          -0.00016993526005693038
+        ],
+        "keep": true,
+        "reason": "positive inner paired AUC"
+      },
+      {
+        "group": "g6_tenure_pricing",
+        "inner_paired_auc_mean": 0.00023670028742310092,
+        "inner_paired_auc_differences": [
+          0.0004947722560010304,
+          0.00038773281079329536,
+          -0.00017240420452502292
+        ],
+        "keep": true,
+        "reason": "positive inner paired AUC"
+      },
+      {
+        "group": "g2_range",
+        "keep": false,
+        "reason": "Neither supplied CSV contains _Range columns; totmrc_Range, ovrrev_Range, mou_Range cannot be tested. No invented fields or reconstructed volatility."
+      }
+    ]
+  }
+}

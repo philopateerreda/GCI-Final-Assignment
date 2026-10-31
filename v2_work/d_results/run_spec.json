@@ -1,0 +1,116 @@
+{
+  "schema_version": 1,
+  "seed": 20261028,
+  "cpu_threads": 6,
+  "interpreter": "C:\\Users\\FGstore\\AppData\\Local\\Programs\\Python\\Python311\\python.exe",
+  "smoke": false,
+  "decision_allowed": true,
+  "input_rows": 75000,
+  "input_hash": "dbcba55a2bbdceb33dc7c4150b3cf387f9f4e648a22057fea37d3f75d52c98cc",
+  "source_hashes": {
+    "D:\\progs\\IDE\\MainProjs\\AI\\GCI2026\\finalA\\v2_work\\workstream_d.py": "bca0612d17586fe0e5a941ab6585e06bd7a6e0581de86f0abd46726a3f66dee2",
+    "D:\\progs\\IDE\\MainProjs\\AI\\GCI2026\\finalA\\v2_work\\common.py": "c68e6bcd81a24ae6960474ea537c4574fd0139fd83126fae0a853275611b0de7",
+    "D:\\progs\\IDE\\MainProjs\\AI\\GCI2026\\finalA\\v1_frozen\\analysis_pipeline.py": "4a70b0878f744a10806e08b6be07fe22ed153f0b041473565d1ab2b21f28398e",
+    "D:\\progs\\IDE\\MainProjs\\AI\\GCI2026\\finalA\\v1_frozen\\analysis_outputs\\model_selection.json": "62e17913b8e7bf7bf1ac8fdd4556d242b524c884a0e929352c2b9e3bb5e9acc3",
+    "D:\\progs\\IDE\\MainProjs\\AI\\GCI2026\\finalA\\v1_frozen\\analysis_outputs\\feature_manifest.json": "8e0560cedab891acfea8b440b5d7f28516de1e3adc5b06899a442dd8d07fd067",
+    "D:\\progs\\IDE\\MainProjs\\AI\\GCI2026\\finalA\\v1_frozen\\analysis_outputs\\tables\\split_manifest.csv": "4caefcbed46a834f89cfbf21387f78555e601b43a8cee81d1637c786fb0a21b3"
+  },
+  "versions": {
+    "numpy": "2.3.3",
+    "pandas": "3.0.6",
+    "scipy": "1.17.1",
+    "scikit-learn": "1.9.1",
+    "lightgbm": "4.7.0",
+    "catboost": "1.2.10",
+    "xgboost": "3.2.0",
+    "threadpoolctl": "3.7.0"
+  },
+  "outer_repeats": 2,
+  "outer_folds": 5,
+  "inner_folds": 3,
+  "model_specs": {
+    "lgbm": {
+      "n_estimators": 385,
+      "learning_rate": 0.03,
+      "num_leaves": 31,
+      "min_child_samples": 100,
+      "reg_lambda": 12,
+      "subsample": 0.85,
+      "subsample_freq": 1,
+      "colsample_bytree": 0.85,
+      "n_jobs": 6,
+      "random_state": 20261028,
+      "verbosity": -1,
+      "deterministic": true,
+      "force_col_wise": true
+    },
+    "catboost": {
+      "iterations": 500,
+      "learning_rate": 0.04,
+      "depth": 6,
+      "l2_leaf_reg": 8,
+      "loss_function": "Logloss",
+      "random_seed": 20261028,
+      "thread_count": 6,
+      "task_type": "CPU",
+      "allow_writing_files": false,
+      "verbose": false
+    },
+    "xgboost": {
+      "n_estimators": 500,
+      "learning_rate": 0.04,
+      "max_depth": 5,
+      "min_child_weight": 20,
+      "reg_lambda": 12,
+      "subsample": 0.85,
+      "colsample_bytree": 0.85,
+      "tree_method": "hist",
+      "enable_categorical": true,
+      "eval_metric": "logloss",
+      "n_jobs": 6,
+      "random_state": 20261028
+    },
+    "spline_logistic": {
+      "C": 0.1,
+      "solver": "lbfgs",
+      "max_iter": 1500,
+      "random_state": 20261028
+    }
+  },
+  "calibration_fraction": 0.2,
+  "contact_share": 0.1,
+  "deployment_prior": 0.02,
+  "group_notes": {
+    "g1_temporal": {
+      "status": "available",
+      "definition": "avg3/avg6/lifetime ratios and differences for mou/qty/rev; mou_Mean and rev_Mean versus avg3 are explicitly undated comparisons",
+      "window_caveat": "avg3=3 months; avg6=6 months; _Mean window unspecified. No inferred 3/4-month _Mean, time-normalized acceleration, or reinterpretation of change_* percentages as absolute changes."
+    },
+    "g2_range": {
+      "status": "unavailable",
+      "reason": "Neither supplied CSV contains _Range columns; totmrc_Range, ovrrev_Range, mou_Range cannot be tested. No invented fields or reconstructed volatility."
+    },
+    "g3_billing_gaps": {
+      "status": "available",
+      "definition": "totrev-adjrev; totmou-adjmou; totcalls-adjqty"
+    },
+    "g4_call_care": {
+      "status": "available",
+      "definition": "comp_vce_Mean/(plcd_vce_Mean+.5); inonemin_Mean/(complete_Mean+.5); ccrndmou_Mean/(custcare_Mean+.1)"
+    },
+    "g5_equipment_cycle": {
+      "status": "available",
+      "definition": "retain v1's valid eqpdays/(30.4375*max(months,1)), without duplicating it; add valid eqpdays/max(phones,1), months%12, and hnd_price exact observed price tiers, m=50 encoding. Every training value is inner-OOF; inference maps fit training only."
+    },
+    "g6_tenure_pricing": {
+      "status": "available",
+      "definition": "nonnegative totmrc_Mean/max(tenure-decile train median,1); tenure quantile edges, missing-tenure fill and price medians fit exclusively on the current fitting rows"
+    }
+  },
+  "interval": "corrected t: variance*(1/10+outer test/train=.25), conservative df=4",
+  "primary_auc": "raw-score sample ROC AUC; calibrated AUC reported separately",
+  "primary_tail": "Brier/logloss of prior-shifted probabilities on outcome-reweighted outer samples in the baseline-defined nominal weighted10% tail; cutoff comes ONLY from the outer-training internal calibration slice",
+  "tail_gate": "corrected 95% upper<=0 for paired Brier/logloss degradation on baseline-fixed AND own-policy tails; no noninferiority margin",
+  "restricted_rows": "exact original train+validation only; no original 10k/15k decisions",
+  "execution": "sequential CPU; fixed specs, no sweeps; predictions cached, models not persisted"
+}

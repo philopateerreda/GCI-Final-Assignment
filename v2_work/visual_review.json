@@ -1,0 +1,25 @@
+{
+  "status": "passed",
+  "slides_reviewed": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15],
+  "clipped_text_or_unintended_overlaps": 0,
+  "render_sha256": {
+    "analysis_outputs/slide_renders/Slide1.PNG": "ef4b87f2483e1881bbddfa7150b65ef16d50ea9e7f7034fa78b8e2a23fa869d0",
+    "analysis_outputs/slide_renders/Slide2.PNG": "8ce7f571b9b6ddd2ff0a4673f77a71a7778fb062c4b25f41ac1d5311a3c90555",
+    "analysis_outputs/slide_renders/Slide3.PNG": "399c30e05244e04dec3c5473d98366f4410262626001f886157b6e8445b0ec5a",
+    "analysis_outputs/slide_renders/Slide4.PNG": "1a104d0c1040fb526e9f4f57bb14425c6c8e03d3bbff071a51b94d1ebf081547",
+    "analysis_outputs/slide_renders/Slide5.PNG": "9c5491c8c173474ebd544e239f3e2efcfddfb51f8dcb2fd704528ce1a48e1342",
+    "analysis_outputs/slide_renders/Slide6.PNG": "6983a4a9ee9938db04d5cecf7122a61304c16bf92929bb3a9d71bff48dc1e33a",
+    "analysis_outputs/slide_renders/Slide7.PNG": "45e079d2d5cc12f02927bf1d19882596a21390a2bd4d4a626dfbebda0009857c",
+    "analysis_outputs/slide_renders/Slide8.PNG": "96e1e14a7fe287b9e1286e8fdf3cbbb647f7978546c5ce36a0db935cd2aa9ab0",
+    "analysis_outputs/slide_renders/Slide9.PNG": "6ef12775fb8cbe1d887183db1b0e5a5749ccd01c1aae4db6c20ed123224f6d2c",
+    "analysis_outputs/slide_renders/Slide10.PNG": "17d262012f254a46dd820f2727243523a8e52a5a08bddecc59f822162485d532",
+    "analysis_outputs/slide_renders/Slide11.PNG": "57807c2fc3fdc4cb40efd544d1050651673ee55c2eb446b4db4418173fac32c9",
+    "analysis_outputs/slide_renders/Slide12.PNG": "b075a67b7a9c8c18ff20d02109809d4f901c5215efd3b8d6c802046095bac291",
+    "analysis_outputs/slide_renders/Slide13.PNG": "7dcd3d270ac4387c986279b7f30e6908ba0a967ec5ba85a35cec4e9f8ca71849",
+    "analysis_outputs/slide_renders/Slide14.PNG": "02db4a716a538698c4a23d604f410d501c0cab8d6899cb9c91aa55becc6cd464",
+    "analysis_outputs/slide_renders/Slide15.PNG": "68193e32c0991412d6b6efe4585d56f98cf773b4e33d681fda7112cccf04e276"
+  },
+  "contact_sheet_sha256": "c41252dd2b76523fbc086b7891d75f691c291135e7ef1d936aff378d8133b08f",
+  "delivery_checks_sha256": "a48b7aaa7406d5a22d9dadd6a4a79490f939064af64bddcdb02d7f74ddd53437",
+  "review_scope": "All fifteen final PowerPoint-exported 1600x900 slide images and the PDF contact sheet were inspected visually. No clipped text or unintended overlaps were observed. This receipt records visual inspection separately from numerical, geometry and saved-file checks."
+}

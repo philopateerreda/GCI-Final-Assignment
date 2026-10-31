@@ -1,0 +1,57 @@
+{
+  "seed": 20261028,
+  "threads": 6,
+  "frozen_utc": "2026-10-28T17:50:06.978275+00:00",
+  "v1_test_previously_evaluated": true,
+  "test_selected_decisions": false,
+  "model_candidate": "baseline_lgbm",
+  "gate_d_passed": false,
+  "calibrator": "sigmoid",
+  "headline_fraction": 0.1,
+  "hashes": {
+    "a_budget_gate.py": "a67f6769048b8d15d7cef51fbfbf1f2fc59b34187cb5e12b8ef0b81d32ca87cb",
+    "a_calibrator.joblib": "c2cb492d958af024a0b06f7f206282835c1e857d1e9fbb7ed2df138ccdf9ae60",
+    "a_selected_calibration.csv": "fa0ee67c5b94431e5313633219c04c8c4c248944564659e06007e0a2aff25648",
+    "a_spec.json": "2f258d7d0ff9360d0ff0673abcb8c41e5c6462b2181d8d09dc5e86b4be5c8431",
+    "b_design.json": "aaa1dfa7b8dc65bd8a84ffa8a6b6d1d7f5f1ae40cdcf2746469a85468618f245",
+    "c_proxy_cv.csv": "278f87277bf1c5ea1d997c3f28d3814d623bf87e89022150a5d94aff0a4578fe",
+    "common.py": "c68e6bcd81a24ae6960474ea537c4574fd0139fd83126fae0a853275611b0de7",
+    "d_results/gate_d.json": "47901b9ed984a8fab418d702303ad7477c86840ab94ed850399257ea4d4302fc",
+    "d_results/run_spec.json": "8aedbe7d47534a3e8cf8c3e615b0448df7a36fdde0a97b4f31f57b2d77b0a3f3",
+    "d_results/selected_model_recipe.json": "06b41e073ab8d8993e43937cb0ab9c259f82776132bdab649bdd6c11a4418d25",
+    "final_metrics.py": "3ac156a1726ed3a5435c58b318324b2add30bae2887aff6c5f109e6e6d6edacc",
+    "final_protocol.py": "be181a475db397ea42bc85899ddf4c368a19c2aeac714c0cf3bb195117f31875",
+    "generate_visuals.py": "0f835d8e4d17df55b7d7d29d3e4df35e2e014c44e589bad9518e2861a9c9d42f",
+    "headroom_refit.py": "0f90e553a37700b0d949d0e8eb7347f4f0cb3105ae3971e69906048963201e41",
+    "run_frozen_batch.py": "6864317b3274c2937a52f8cd19a9f06474d486cd64da658c6bd0ed1c4031ffef",
+    "workstream_a.py": "b1ccdd6d40eab51961498ff39c0522f4df57b1d0cd4309aa5b509fc30a3434b8",
+    "workstream_b.py": "c4c4a10bed57d340f6596230e26035bbae472e7b0727b72daeac41a3336e5a03",
+    "workstream_c.py": "accc131eee4f3ebf50886916ac54d5366850e11aa1d110f9f575fa3edad8765b",
+    "workstream_d.py": "bca0612d17586fe0e5a941ab6585e06bd7a6e0581de86f0abd46726a3f66dee2"
+  },
+  "baseline_hashes": {
+    "v1_frozen/analysis_pipeline.py": "4a70b0878f744a10806e08b6be07fe22ed153f0b041473565d1ab2b21f28398e",
+    "v1_frozen/analysis_outputs/models/selected_model.joblib": "8a59fe9ac8c2eafb85c442fa1531035399aeecc6530a4b6489914385ecedfa3c",
+    "v1_frozen/analysis_outputs/tables/split_manifest.csv": "4caefcbed46a834f89cfbf21387f78555e601b43a8cee81d1637c786fb0a21b3",
+    "v1_frozen/analysis_outputs/tables/heldout_predictions.csv": "c525318b3e589a60054ad6d33eeefe9456c5c9c874e7565efc5495672b170d8d",
+    "v1_frozen/analysis_outputs/source_manifest.json": "60861fb36607bcf143e313ca94390a67eb38b90c8b431144bb6f8cdb5156686a"
+  },
+  "protected_original_hashes": {
+    "ENG_Company _A_ Dataset Overview.docx": "9953e825565d5278d2f65082e425be42d9a53b453fe84b35903bd9fc7ca4660b",
+    "README.docx": "15328594161bb07cebefa73f643e04539c87a81ff4c2d76093c02f9c67f64aa2",
+    "tutorial (2).ipynb": "fb62cf4c39d32dd0b8f20908d682e1b0d029dbd3db51e4861a805a957930dae6",
+    "telecom/Client.csv": "264a58512dc857fff29e11ef43fd53bc4407be23aac9dcc2c0df23536c800778",
+    "telecom/Record.csv": "5bd563bb77b357920832510b78d6842060d928cb5de8c0aaf79aa2a647e2271a"
+  },
+  "final_test_rule": "One frozen descriptive batch; no model, calibrator, budget, routing or pilot selection on final test. Canonical notebook replay may reuse verified results without a second decision search.",
+  "service_fix_floor": "Remediate every verified billing/network defect irrespective of bill size or discretionary selection.",
+  "financial_assumptions": {
+    "population": 100000,
+    "prior": 0.02,
+    "prevention": 0.2,
+    "retained_months": 6,
+    "margin": 0.6,
+    "contact_cost": 1.0,
+    "fixed_cost": 5000.0
+  }
+}

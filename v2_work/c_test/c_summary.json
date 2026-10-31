@@ -1,0 +1,505 @@
+{
+  "protocol": "C-20261028-fold-local-income-v1",
+  "partition": "test",
+  "smoke": false,
+  "publishable": true,
+  "seed": 20261028,
+  "threads": 6,
+  "interpreter": "C:\\Users\\FGstore\\AppData\\Local\\Programs\\Python\\Python311\\python.exe",
+  "bootstrap_replicates": 300,
+  "selected_input": {
+    "path": "D:\\progs\\IDE\\MainProjs\\AI\\GCI2026\\finalA\\v2_work\\a_selected_test.csv",
+    "sha256": "e29da9ea2a57b1a1b58f71b8a89d0d052767f163126b78449220827bc4c8c967",
+    "policies": "A selections consumed unchanged; no C cutoff/budget fitting"
+  },
+  "thresholds": {
+    "model_sample": 0.5,
+    "deployment_equivalent": 0.02034789905118441,
+    "sample_prior_for_equivalence": 0.4956,
+    "deployment_prior": 0.02,
+    "classification_rule_used": "p_s >= 0.5, never a policy-capture threshold",
+    "max_A_pd_difference_from_common_shift": 6.661338147750939e-16,
+    "equivalence_note": "deployment equivalent assumes common.shift; model metrics use the declared sample threshold even if A's mapping differs"
+  },
+  "population": {
+    "n": 15000,
+    "n_positive": 7435,
+    "deployment_mass": 100000.0,
+    "weighted_churn_prior": 0.020000000000000004,
+    "sample_churn_prior_observed": 0.49566666666666664,
+    "deployment_mass_note": "A scenario weights, not actual population counts; smoke subset is not renormalized"
+  },
+  "audit": {
+    "attributes": [
+      "income",
+      "ownrent",
+      "marital",
+      "creditcd",
+      "prizm_social_one"
+    ],
+    "reference_group_source": "original_75k_train_plus_validation",
+    "reference_groups": {
+      "income": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8",
+        "9",
+        "__MISSING__"
+      ],
+      "ownrent": [
+        "O",
+        "R",
+        "__MISSING__"
+      ],
+      "marital": [
+        "A",
+        "B",
+        "M",
+        "S",
+        "U",
+        "__MISSING__"
+      ],
+      "creditcd": [
+        "N",
+        "Y",
+        "__MISSING__"
+      ],
+      "prizm_social_one": [
+        "C",
+        "R",
+        "S",
+        "T",
+        "U",
+        "__MISSING__"
+      ]
+    },
+    "metric_rows": 1064,
+    "suppressed_metric_rows": 62,
+    "missing_groups": [
+      {
+        "attribute": "income",
+        "group": "__MISSING__",
+        "n": 3747,
+        "n_positive": 1938,
+        "n_negative": 1809
+      },
+      {
+        "attribute": "ownrent",
+        "group": "__MISSING__",
+        "n": 5044,
+        "n_positive": 2561,
+        "n_negative": 2483
+      },
+      {
+        "attribute": "marital",
+        "group": "__MISSING__",
+        "n": 247,
+        "n_positive": 120,
+        "n_negative": 127
+      },
+      {
+        "attribute": "creditcd",
+        "group": "__MISSING__",
+        "n": 247,
+        "n_positive": 120,
+        "n_negative": 127
+      },
+      {
+        "attribute": "prizm_social_one",
+        "group": "__MISSING__",
+        "n": 1108,
+        "n_positive": 592,
+        "n_negative": 516
+      }
+    ],
+    "absent_groups": [],
+    "new_groups": [],
+    "small_n_rule": "n<200; class-specific denominators need >=30; selected precision additionally checked",
+    "counts_never_suppressed": true,
+    "ci_method": "300 paired IID within-group row resamples; fixed A weights, models and lists; percentile 95%, descriptive, no multiplicity correction"
+  },
+  "proxy_cv": {
+    "status": "reused_non_test_cache",
+    "path": "D:\\progs\\IDE\\MainProjs\\AI\\GCI2026\\finalA\\v2_work\\c_proxy_cv.csv",
+    "source_partition": "original_train_60000_plus_validation_15000",
+    "test_used": false,
+    "fits_allowed_only_by_proxy_cv": true,
+    "new_fits_this_invocation": 0,
+    "parameters": {
+      "objective": "binary",
+      "n_estimators": 160,
+      "learning_rate": 0.04,
+      "max_depth": 4,
+      "num_leaves": 15,
+      "min_child_samples": 200,
+      "subsample": 0.8,
+      "subsample_freq": 1,
+      "colsample_bytree": 0.8,
+      "reg_alpha": 1.0,
+      "reg_lambda": 10.0,
+      "class_weight": "balanced",
+      "n_jobs": 6,
+      "random_state": 20261028,
+      "verbosity": -1,
+      "deterministic": true,
+      "force_col_wise": true
+    },
+    "target_definitions_verified_non_test": {
+      "creditcd": {
+        "observed_values": {
+          "N": 23290,
+          "Y": 50404,
+          "__MISSING__": 1306
+        },
+        "coding": {
+          "N": 0,
+          "Y": 1
+        },
+        "label_definition": "credit-card present (Y=1)",
+        "missing_targets_dropped": 1306,
+        "verification_source": "once-run original-75k cache, not this audited partition"
+      },
+      "ownrent": {
+        "observed_values": {
+          "O": 48247,
+          "R": 1493,
+          "__MISSING__": 25260
+        },
+        "coding": {
+          "O": 1,
+          "R": 0
+        },
+        "label_definition": "home owner (O=1)",
+        "missing_targets_dropped": 25260,
+        "verification_source": "once-run original-75k cache, not this audited partition"
+      },
+      "income_high": {
+        "observed_values": {
+          "1.0": 3003,
+          "2.0": 1698,
+          "3.0": 4418,
+          "4.0": 5825,
+          "5.0": 6194,
+          "6.0": 14087,
+          "7.0": 8701,
+          "8.0": 3840,
+          "9.0": 8146,
+          "__MISSING__": 19088
+        },
+        "coding": {
+          "income<=fold_training_median": 0,
+          "income>fold_training_median": 1
+        },
+        "label_definition": "high income ordinal code, strictly above the fold-training observed median",
+        "missing_targets_dropped": 19088,
+        "verification_source": "once-run original-75k cache, not this audited partition",
+        "original_60000_train_reference_threshold": 6.0
+      }
+    },
+    "cache_fingerprint": "1f5bccaf189660f67e97b0a966d668fd0ce637ed0b038e28853239b56f241744",
+    "pooled_descriptive_results": [
+      {
+        "target": "creditcd",
+        "scope": "pooled_oof",
+        "fold": 0,
+        "source_partition": "original_train_60000_plus_validation_15000",
+        "test_used": false,
+        "feature_count": 87,
+        "n_folds": 5,
+        "n": 73694,
+        "n_positive": 50404,
+        "n_negative": 23290,
+        "positive_fraction": 0.6839634162889787,
+        "n_train": null,
+        "n_train_positive": null,
+        "n_train_negative": null,
+        "auc": 0.6569128943503602,
+        "auc_ci_low": 0.6525406137899119,
+        "auc_ci_high": 0.6612941865748795,
+        "baseline_auc": 0.5,
+        "auc_minus_baseline": 0.1569128943503601,
+        "auc_minus_baseline_ci_low": 0.1525406137899119,
+        "auc_minus_baseline_ci_high": 0.1612941865748794,
+        "balanced_accuracy": 0.6135791495144309,
+        "balanced_accuracy_ci_low": 0.6100581369089921,
+        "balanced_accuracy_ci_high": 0.6177964835669226,
+        "baseline_balanced_accuracy": 0.5,
+        "balanced_accuracy_minus_baseline": 0.1135791495144309,
+        "balanced_accuracy_minus_baseline_ci_low": 0.1100581369089921,
+        "balanced_accuracy_minus_baseline_ci_high": 0.1177964835669226,
+        "classification_threshold": 0.5,
+        "fold_training_income_threshold": null,
+        "original_60000_train_income_reference_threshold": null,
+        "label_definition": "credit-card present (Y=1)",
+        "target_coding_json": "{\"N\": 0, \"Y\": 1}",
+        "verified_observed_values_json": "{\"N\": 23290, \"Y\": 50404, \"__MISSING__\": 1306}",
+        "missing_targets_dropped": 1306,
+        "unseen_fold_validation_categories_json": "{}",
+        "positive_probability_column": "model.classes_ == 1; never flip/maximize AUC after scoring",
+        "model_parameters_json": "{\"class_weight\": \"balanced\", \"colsample_bytree\": 0.8, \"deterministic\": true, \"force_col_wise\": true, \"learning_rate\": 0.04, \"max_depth\": 4, \"min_child_samples\": 200, \"n_estimators\": 160, \"n_jobs\": 6, \"num_leaves\": 15, \"objective\": \"binary\", \"random_state\": 20261028, \"reg_alpha\": 1.0, \"reg_lambda\": 10.0, \"subsample\": 0.8, \"subsample_freq\": 1, \"verbosity\": -1}",
+        "bootstrap_replicates": 300,
+        "ci_interpretation": "descriptive stratified held-out-row bootstrap; models and income thresholds fixed, no refit uncertainty",
+        "protocol": "C-20261028-fold-local-income-v1",
+        "cache_fingerprint": "1f5bccaf189660f67e97b0a966d668fd0ce637ed0b038e28853239b56f241744",
+        "fold_income_thresholds_json": "[]",
+        "pooled_label_caveat": "one explicit binary coding across all folds"
+      },
+      {
+        "target": "ownrent",
+        "scope": "pooled_oof",
+        "fold": 0,
+        "source_partition": "original_train_60000_plus_validation_15000",
+        "test_used": false,
+        "feature_count": 87,
+        "n_folds": 5,
+        "n": 49740,
+        "n_positive": 48247,
+        "n_negative": 1493,
+        "positive_fraction": 0.9699839163650984,
+        "n_train": null,
+        "n_train_positive": null,
+        "n_train_negative": null,
+        "auc": 0.6069850068658333,
+        "auc_ci_low": 0.5928267902535639,
+        "auc_ci_high": 0.6204129451024452,
+        "baseline_auc": 0.5,
+        "auc_minus_baseline": 0.1069850068658333,
+        "auc_minus_baseline_ci_low": 0.0928267902535638,
+        "auc_minus_baseline_ci_high": 0.1204129451024451,
+        "balanced_accuracy": 0.5693919646656381,
+        "balanced_accuracy_ci_low": 0.5568777997586681,
+        "balanced_accuracy_ci_high": 0.5805783993440986,
+        "baseline_balanced_accuracy": 0.5,
+        "balanced_accuracy_minus_baseline": 0.0693919646656381,
+        "balanced_accuracy_minus_baseline_ci_low": 0.0568777997586681,
+        "balanced_accuracy_minus_baseline_ci_high": 0.0805783993440986,
+        "classification_threshold": 0.5,
+        "fold_training_income_threshold": null,
+        "original_60000_train_income_reference_threshold": null,
+        "label_definition": "home owner (O=1)",
+        "target_coding_json": "{\"O\": 1, \"R\": 0}",
+        "verified_observed_values_json": "{\"O\": 48247, \"R\": 1493, \"__MISSING__\": 25260}",
+        "missing_targets_dropped": 25260,
+        "unseen_fold_validation_categories_json": "{}",
+        "positive_probability_column": "model.classes_ == 1; never flip/maximize AUC after scoring",
+        "model_parameters_json": "{\"class_weight\": \"balanced\", \"colsample_bytree\": 0.8, \"deterministic\": true, \"force_col_wise\": true, \"learning_rate\": 0.04, \"max_depth\": 4, \"min_child_samples\": 200, \"n_estimators\": 160, \"n_jobs\": 6, \"num_leaves\": 15, \"objective\": \"binary\", \"random_state\": 20261028, \"reg_alpha\": 1.0, \"reg_lambda\": 10.0, \"subsample\": 0.8, \"subsample_freq\": 1, \"verbosity\": -1}",
+        "bootstrap_replicates": 300,
+        "ci_interpretation": "descriptive stratified held-out-row bootstrap; models and income thresholds fixed, no refit uncertainty",
+        "protocol": "C-20261028-fold-local-income-v1",
+        "cache_fingerprint": "1f5bccaf189660f67e97b0a966d668fd0ce637ed0b038e28853239b56f241744",
+        "fold_income_thresholds_json": "[]",
+        "pooled_label_caveat": "one explicit binary coding across all folds"
+      },
+      {
+        "target": "income_high",
+        "scope": "pooled_oof",
+        "fold": 0,
+        "source_partition": "original_train_60000_plus_validation_15000",
+        "test_used": false,
+        "feature_count": 87,
+        "n_folds": 5,
+        "n": 55912,
+        "n_positive": 20687,
+        "n_negative": 35225,
+        "positive_fraction": 0.3699921304907712,
+        "n_train": null,
+        "n_train_positive": null,
+        "n_train_negative": null,
+        "auc": 0.627282012618163,
+        "auc_ci_low": 0.6226638466545009,
+        "auc_ci_high": 0.631582523428808,
+        "baseline_auc": 0.5,
+        "auc_minus_baseline": 0.1272820126181629,
+        "auc_minus_baseline_ci_low": 0.1226638466545009,
+        "auc_minus_baseline_ci_high": 0.131582523428808,
+        "balanced_accuracy": 0.5887838599329498,
+        "balanced_accuracy_ci_low": 0.584487665613089,
+        "balanced_accuracy_ci_high": 0.592353444559097,
+        "baseline_balanced_accuracy": 0.5,
+        "balanced_accuracy_minus_baseline": 0.0887838599329498,
+        "balanced_accuracy_minus_baseline_ci_low": 0.0844876656130889,
+        "balanced_accuracy_minus_baseline_ci_high": 0.092353444559097,
+        "classification_threshold": 0.5,
+        "fold_training_income_threshold": null,
+        "original_60000_train_income_reference_threshold": 6.0,
+        "label_definition": "high income ordinal code, strictly above the fold-training observed median",
+        "target_coding_json": "{\"income<=fold_training_median\": 0, \"income>fold_training_median\": 1}",
+        "verified_observed_values_json": "{\"1.0\": 3003, \"2.0\": 1698, \"3.0\": 4418, \"4.0\": 5825, \"5.0\": 6194, \"6.0\": 14087, \"7.0\": 8701, \"8.0\": 3840, \"9.0\": 8146, \"__MISSING__\": 19088}",
+        "missing_targets_dropped": 19088,
+        "unseen_fold_validation_categories_json": "{}",
+        "positive_probability_column": "model.classes_ == 1; never flip/maximize AUC after scoring",
+        "model_parameters_json": "{\"class_weight\": \"balanced\", \"colsample_bytree\": 0.8, \"deterministic\": true, \"force_col_wise\": true, \"learning_rate\": 0.04, \"max_depth\": 4, \"min_child_samples\": 200, \"n_estimators\": 160, \"n_jobs\": 6, \"num_leaves\": 15, \"objective\": \"binary\", \"random_state\": 20261028, \"reg_alpha\": 1.0, \"reg_lambda\": 10.0, \"subsample\": 0.8, \"subsample_freq\": 1, \"verbosity\": -1}",
+        "bootstrap_replicates": 300,
+        "ci_interpretation": "descriptive stratified held-out-row bootstrap; models and income thresholds fixed, no refit uncertainty",
+        "protocol": "C-20261028-fold-local-income-v1",
+        "cache_fingerprint": "1f5bccaf189660f67e97b0a966d668fd0ce637ed0b038e28853239b56f241744",
+        "fold_income_thresholds_json": "[6.0, 6.0, 6.0, 6.0, 6.0]",
+        "pooled_label_caveat": "fold-local income definitions can vary; pooled OOF AUC is descriptive, read fold results too"
+      }
+    ],
+    "income_reference_note": "original60k median is a reporting reference; actual target median is fitted within each CV train fold; ties low, no artificial label balancing",
+    "baseline_auc": 0.5,
+    "baseline_balanced_accuracy": 0.5,
+    "auc_orientation": "explicit positive class=1; no post-result flipping",
+    "ci_scope": "descriptive stratified OOF row bootstrap, not model-refit or independent-fold uncertainty"
+  },
+  "equity": {
+    "rows": 244,
+    "policy_difference": "bayes_minus_risk",
+    "regimes": [
+      "unweighted sample",
+      "A deployment weighted"
+    ],
+    "counts_and_differences": "exact descriptive; all population/selection denominators visible",
+    "quantiles": "inverse weighted empirical CDF; same definition with unit sample weights",
+    "bill_columns": {
+      "value": "A training-capped/imputed policy value",
+      "raw_totmrc_Mean": "unimputed, uncapped source billing"
+    },
+    "income_units": "ordinal estimated-income code 1-9, never dollars",
+    "service_fix_floor": "mandatory remediation of every verified network/billing defect regardless of bill or selection",
+    "claim_word": "audited"
+  },
+  "diagnostic_ceiling": {
+    "status": "D_outputs_available_read_only_unverified",
+    "fit_owner": "D",
+    "C_sensitive_fits": 0,
+    "sensitive_columns": [
+      "asl_flag",
+      "area"
+    ],
+    "sources": [
+      {
+        "path": "D:\\progs\\IDE\\MainProjs\\AI\\GCI2026\\finalA\\v2_work\\d_results\\diagnostic_ceiling_summary.csv",
+        "sha256": "0119745bd9b349c384a15c40f58a7c33457a17a209fad189cd3432b774fdfe61",
+        "raw_D_output": [
+          {
+            "candidate": "diagnostic_ceiling_asl_area",
+            "metric": "auc",
+            "n_pairs": 10,
+            "mean": 0.00246441597121,
+            "lower": 0.000693505407149,
+            "upper": 0.00423532653526,
+            "corrected_se": 0.000637833811567,
+            "test_train_ratio": 0.25,
+            "df": 4,
+            "complete": true
+          },
+          {
+            "candidate": "diagnostic_ceiling_asl_area",
+            "metric": "baseline_tail_brier",
+            "n_pairs": 10,
+            "mean": 7.82800664734e-06,
+            "lower": -0.000130487371657,
+            "upper": 0.000146143384951,
+            "corrected_se": 4.9817436709e-05,
+            "test_train_ratio": 0.25,
+            "df": 4,
+            "complete": true
+          },
+          {
+            "candidate": "diagnostic_ceiling_asl_area",
+            "metric": "baseline_tail_logloss",
+            "n_pairs": 10,
+            "mean": -0.000194204922049,
+            "lower": -0.00104269857689,
+            "upper": 0.000654288732796,
+            "corrected_se": 0.00030560433313,
+            "test_train_ratio": 0.25,
+            "df": 4,
+            "complete": true
+          },
+          {
+            "candidate": "diagnostic_ceiling_asl_area",
+            "metric": "own_tail_brier",
+            "n_pairs": 10,
+            "mean": 0.00153592075239,
+            "lower": -0.000371513068739,
+            "upper": 0.00344335457352,
+            "corrected_se": 0.00068700577496,
+            "test_train_ratio": 0.25,
+            "df": 4,
+            "complete": true
+          },
+          {
+            "candidate": "diagnostic_ceiling_asl_area",
+            "metric": "own_tail_logloss",
+            "n_pairs": 10,
+            "mean": 0.00506399332194,
+            "lower": -0.00146567050256,
+            "upper": 0.0115936571464,
+            "corrected_se": 0.00235180728489,
+            "test_train_ratio": 0.25,
+            "df": 4,
+            "complete": true
+          },
+          {
+            "candidate": "diagnostic_ceiling_asl_area",
+            "metric": "weighted_value_capture",
+            "n_pairs": 10,
+            "mean": 0.00188111191915,
+            "lower": -0.00588201620372,
+            "upper": 0.00964424004202,
+            "corrected_se": 0.00279606757156,
+            "test_train_ratio": 0.25,
+            "df": 4,
+            "complete": true
+          },
+          {
+            "candidate": "diagnostic_ceiling_asl_area",
+            "metric": "sample_brier",
+            "n_pairs": 10,
+            "mean": -0.000680896972142,
+            "lower": -0.00116702057651,
+            "upper": -0.000194773367777,
+            "corrected_se": 0.000175088498402,
+            "test_train_ratio": 0.25,
+            "df": 4,
+            "complete": true
+          },
+          {
+            "candidate": "diagnostic_ceiling_asl_area",
+            "metric": "sample_logloss",
+            "n_pairs": 10,
+            "mean": -0.00145825231894,
+            "lower": -0.00254531551757,
+            "upper": -0.000371189120315,
+            "corrected_se": 0.000391530593056,
+            "test_train_ratio": 0.25,
+            "df": 4,
+            "complete": true
+          }
+        ]
+      }
+    ],
+    "boundary": "Quarantined raw D diagnostic results, separate from deployed baseline and proxy CV.",
+    "numerical_claims": [],
+    "review_required": [
+      "Verify paired non-test CV baseline and explicit asl_flag/area ablations.",
+      "Verify delta-AUC direction, uncertainty, fold protocol and provenance with D.",
+      "Do not use D's test numbers for choices or treat ceiling results as deployable."
+    ]
+  },
+  "discipline": {
+    "root_edits": false,
+    "sensitive_C_fits": 0,
+    "test_decisions": false,
+    "v1_test_previously_evaluated": true,
+    "test_audit_repetition_guard": "exclusive started marker and archived completed summary; later C4 updates use bridge-only",
+    "causal_retention_claim": false,
+    "citation_verification_owner": "main"
+  },
+  "outputs": {
+    "archive_directory": "D:\\progs\\IDE\\MainProjs\\AI\\GCI2026\\finalA\\v2_work\\c_test",
+    "subgroups": "D:\\progs\\IDE\\MainProjs\\AI\\GCI2026\\finalA\\v2_work\\c_test\\c_subgroup_robustness.csv",
+    "equity": "D:\\progs\\IDE\\MainProjs\\AI\\GCI2026\\finalA\\v2_work\\c_test\\c_equity.csv",
+    "summary": "D:\\progs\\IDE\\MainProjs\\AI\\GCI2026\\finalA\\v2_work\\c_test\\c_summary.json",
+    "governance": "D:\\progs\\IDE\\MainProjs\\AI\\GCI2026\\finalA\\v2_work\\c_test\\c_governance.md",
+    "canonical_note": "top-level requested filenames mirror the latest full audit; partition archives preserve calibration/test separately; smoke never replaces either"
+  }
+}

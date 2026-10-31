@@ -1,0 +1,6 @@
+
+V3 SUPPORTING ANALYSIS — APPLY ONLY IF OPTION C IS APPROVED
+
+[M9] EMP package contributors. empChurn source code and documentation. Accessed 29 October 2026.
+https://rdrr.io/cran/EMP/src/R/empChurn.R
+Verified coverage: source-code and documentation pages; function defaults alpha=6, beta=14. Beta(6,14) is used only as an assumed prevention-prior sensitivity, not an empirical Company A prevention rate. The reported quantity is prior-integrated net at the frozen nominal 10% threshold, not EMPC; no threshold is optimized or promoted. Other priors are assumed: Beta(6,24), centered on 20%, and Beta(2,18), the reviewer's pessimistic stress prior.

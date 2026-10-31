@@ -1,0 +1,9 @@
+n_per_arm,gamma,effect_power,profit_power,method,deff,effect_gamma_mde_80_interpolated,profit_gamma_mde_80_interpolated,tag
+5000,0.1,0.198,0.026,E4_V_stratified,1.0,0.259882005899705,,"[E] simulation conditional on [A]; MDE linear interpolation, not an exact minimum"
+5000,0.16,0.429,0.079,E4_V_stratified,1.0,0.259882005899705,,"[E] simulation conditional on [A]; MDE linear interpolation, not an exact minimum"
+5000,0.2,0.597,0.199,E4_V_stratified,1.0,0.259882005899705,,"[E] simulation conditional on [A]; MDE linear interpolation, not an exact minimum"
+5000,0.3,0.936,0.607,E4_V_stratified,1.0,0.259882005899705,,"[E] simulation conditional on [A]; MDE linear interpolation, not an exact minimum"
+7872,0.1,0.275,0.021,E4_V_stratified,1.0,0.2067632850241546,,"[E] simulation conditional on [A]; MDE linear interpolation, not an exact minimum"
+7872,0.16,0.599,0.115,E4_V_stratified,1.0,0.2067632850241546,,"[E] simulation conditional on [A]; MDE linear interpolation, not an exact minimum"
+7872,0.2,0.786,0.279,E4_V_stratified,1.0,0.2067632850241546,,"[E] simulation conditional on [A]; MDE linear interpolation, not an exact minimum"
+7872,0.3,0.993,0.798,E4_V_stratified,1.0,0.2067632850241546,,"[E] simulation conditional on [A]; MDE linear interpolation, not an exact minimum"

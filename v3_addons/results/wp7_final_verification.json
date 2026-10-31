@@ -1,0 +1,290 @@
+{
+  "artifacts": [
+    {
+      "path": "D:/progs/IDE/MainProjs/AI/GCI2026/finalA/v3_addons/results/inventory.json",
+      "present": true,
+      "sha256": "c1ec315ff45436d914af3061f9e9d201d34e7d9b8dddd825c2672d9bba2f5369",
+      "size": 23203
+    },
+    {
+      "path": "D:/progs/IDE/MainProjs/AI/GCI2026/finalA/v3_addons/results/wp1_power.json",
+      "present": true,
+      "sha256": "1342bb553dfd24e4697d210d141392f32f0ac8b43f66ea3627db95622d714305",
+      "size": 542362
+    },
+    {
+      "path": "D:/progs/IDE/MainProjs/AI/GCI2026/finalA/v3_addons/results/wp2_evsi.json",
+      "present": true,
+      "sha256": "cd64fe05f11e974916e461d6f12764cff53ecd7f62fb8a1e461d966611c2e405",
+      "size": 60310
+    },
+    {
+      "path": "D:/progs/IDE/MainProjs/AI/GCI2026/finalA/v3_addons/results/wp3_roi_band.json",
+      "present": true,
+      "sha256": "96aa9a75869c53079e1442a26f1f3d08f5261d735e61a5195a658955843a5dd1",
+      "size": 96482
+    },
+    {
+      "path": "D:/progs/IDE/MainProjs/AI/GCI2026/finalA/v3_addons/results/wp4_protocol.json",
+      "present": true,
+      "sha256": "1fd31cc4461349db720ba88de079a0f0f7d15f3963b283b121af6e7af77676e9",
+      "size": 6653
+    },
+    {
+      "path": "D:/progs/IDE/MainProjs/AI/GCI2026/finalA/v3_addons/results/wp5_label_shift.json",
+      "present": true,
+      "sha256": "3a4d94fe806c00421f53688c2000bfb2293ecc16320dbb795d9b8375a8a9338e",
+      "size": 1079813
+    },
+    {
+      "path": "D:/progs/IDE/MainProjs/AI/GCI2026/finalA/v3_addons/results/wp6_citations.json",
+      "present": true,
+      "sha256": "26a248816181b2b00365547974e50e2802f49102548f98c5ff827ef50f5ddee1",
+      "size": 11097
+    },
+    {
+      "path": "D:/progs/IDE/MainProjs/AI/GCI2026/finalA/v3_addons/INTEGRATION_PROPOSAL.md",
+      "present": true,
+      "sha256": "6d2a5eea5b7bbb0ba65f3362ccae9a2ce0ce267bec419e6c64a0ffdaca16a29e",
+      "size": 11400
+    },
+    {
+      "path": "D:/progs/IDE/MainProjs/AI/GCI2026/finalA/v3_addons/HANDBACK.md",
+      "present": true,
+      "sha256": "466fcf6b77650f204d489a12e7cce318d2b2d5714578cdb6807999747eba043b",
+      "size": 3273
+    },
+    {
+      "path": "D:/progs/IDE/MainProjs/AI/GCI2026/finalA/v3_addons/results/wp7_files_created.csv",
+      "present": true,
+      "sha256": "f21aa0d9a657f81d9314a3a6a5f7af56238e493b18eb8d974a6ee64f19ffe8f5",
+      "size": 5665
+    },
+    {
+      "path": "D:/progs/IDE/MainProjs/AI/GCI2026/finalA/v3_addons/results/wp7_readonly_deck_ledger.json",
+      "present": true,
+      "sha256": "741759c8fae3e023b9913f43ae26a13d8c47fdc7fe21d444f7eff74e6e67db7a",
+      "size": 193264
+    },
+    {
+      "path": "D:/progs/IDE/MainProjs/AI/GCI2026/finalA/v3_addons/reports/WP7_report.md",
+      "present": true,
+      "sha256": "bd50eda47616aea40254190219e1dd7a803222f057770e79da00310d47aceb92",
+      "size": 4363
+    },
+    {
+      "path": "D:/progs/IDE/MainProjs/AI/GCI2026/finalA/v3_addons/results/final_new_code_tests.json",
+      "present": true,
+      "sha256": "32ff1543fd942b966fcba72170cc75749fcbc9790f3e785bc3a43e3851649931",
+      "size": 35102
+    }
+  ],
+  "authorized_calibration_sigmoid_fits": 5,
+  "deliveries": [
+    {
+      "path": "D:/progs/IDE/MainProjs/AI/GCI2026/finalA/philopateer.pdf",
+      "present": true,
+      "sha256": "a51d2c0ff8aa6ebb0f679e680d6424b01cd7b95b9a0d23ae7a2eecc56de210ea",
+      "size": 846608
+    },
+    {
+      "path": "D:/progs/IDE/MainProjs/AI/GCI2026/finalA/philopateer.pptx",
+      "present": true,
+      "sha256": "a50a66fd77d062bdc45aeefb00ce8652b20b952de06dcb27e8ab4f15c37e46bc",
+      "size": 1310666
+    },
+    {
+      "path": "D:/progs/IDE/MainProjs/AI/GCI2026/finalA/philopateer.ipynb",
+      "present": true,
+      "sha256": "aaa170b19923c087f9b38f85b546626b7465a3d17f5ae7037812c6aed5736b35",
+      "size": 1857125
+    },
+    {
+      "path": "D:/progs/IDE/MainProjs/AI/GCI2026/finalA/references.txt",
+      "present": true,
+      "sha256": "b12fb18aafc83e2d599e15d04c689ee5cd85c10082c1761ab0c6f1d01606d361",
+      "size": 18843
+    }
+  ],
+  "directory_diff": {
+    "added_outside": [],
+    "changed_outside": [],
+    "files_after": 4246,
+    "files_before": 4246,
+    "passed": true,
+    "removed_outside": []
+  },
+  "file_count": 118,
+  "historical_stop_resolution": "Earlier initialization/helper failures were superseded by the authorized import-order fix and compliant full WP0/WP1 reruns. Historical stop records are retained; their old statuses are not current results.",
+  "human_gate": "STOP after WP7; wait for A/B/C. GO v3-model has not been authorized.",
+  "new_code_validation": {
+    "existing_implementation_tests": 15,
+    "final_checks": 8,
+    "passed": true
+  },
+  "no_base_classifier_training": true,
+  "no_integration": true,
+  "no_new_test_computations": true,
+  "no_submission": true,
+  "provenance": {
+    "created_utc": "2026-10-29T15:46:49.745474+00:00",
+    "input_files": [
+      {
+        "path": "D:/progs/IDE/MainProjs/AI/GCI2026/finalA/analysis_outputs/claims_ledger.csv",
+        "present": true,
+        "sha256": "b4dce03b43f6bd1b9ef3142759e0cb88682527af2f9f8824902521d88729c5b4",
+        "size": 33168
+      },
+      {
+        "path": "D:/progs/IDE/MainProjs/AI/GCI2026/finalA/philopateer.ipynb",
+        "present": true,
+        "sha256": "aaa170b19923c087f9b38f85b546626b7465a3d17f5ae7037812c6aed5736b35",
+        "size": 1857125
+      },
+      {
+        "path": "D:/progs/IDE/MainProjs/AI/GCI2026/finalA/philopateer.pdf",
+        "present": true,
+        "sha256": "a51d2c0ff8aa6ebb0f679e680d6424b01cd7b95b9a0d23ae7a2eecc56de210ea",
+        "size": 846608
+      },
+      {
+        "path": "D:/progs/IDE/MainProjs/AI/GCI2026/finalA/philopateer.pptx",
+        "present": true,
+        "sha256": "a50a66fd77d062bdc45aeefb00ce8652b20b952de06dcb27e8ab4f15c37e46bc",
+        "size": 1310666
+      },
+      {
+        "path": "D:/progs/IDE/MainProjs/AI/GCI2026/finalA/references.txt",
+        "present": true,
+        "sha256": "b12fb18aafc83e2d599e15d04c689ee5cd85c10082c1761ab0c6f1d01606d361",
+        "size": 18843
+      },
+      {
+        "path": "D:/progs/IDE/MainProjs/AI/GCI2026/finalA/v3_addons/results/final_new_code_tests.json",
+        "present": true,
+        "sha256": "32ff1543fd942b966fcba72170cc75749fcbc9790f3e785bc3a43e3851649931",
+        "size": 35102
+      },
+      {
+        "path": "D:/progs/IDE/MainProjs/AI/GCI2026/finalA/v3_addons/results/inventory.json",
+        "present": true,
+        "sha256": "c1ec315ff45436d914af3061f9e9d201d34e7d9b8dddd825c2672d9bba2f5369",
+        "size": 23203
+      },
+      {
+        "path": "D:/progs/IDE/MainProjs/AI/GCI2026/finalA/v3_addons/results/wp1_power.json",
+        "present": true,
+        "sha256": "1342bb553dfd24e4697d210d141392f32f0ac8b43f66ea3627db95622d714305",
+        "size": 542362
+      },
+      {
+        "path": "D:/progs/IDE/MainProjs/AI/GCI2026/finalA/v3_addons/results/wp2_evsi.json",
+        "present": true,
+        "sha256": "cd64fe05f11e974916e461d6f12764cff53ecd7f62fb8a1e461d966611c2e405",
+        "size": 60310
+      },
+      {
+        "path": "D:/progs/IDE/MainProjs/AI/GCI2026/finalA/v3_addons/results/wp3_roi_band.json",
+        "present": true,
+        "sha256": "96aa9a75869c53079e1442a26f1f3d08f5261d735e61a5195a658955843a5dd1",
+        "size": 96482
+      },
+      {
+        "path": "D:/progs/IDE/MainProjs/AI/GCI2026/finalA/v3_addons/results/wp4_protocol.json",
+        "present": true,
+        "sha256": "1fd31cc4461349db720ba88de079a0f0f7d15f3963b283b121af6e7af77676e9",
+        "size": 6653
+      },
+      {
+        "path": "D:/progs/IDE/MainProjs/AI/GCI2026/finalA/v3_addons/results/wp5_label_shift.json",
+        "present": true,
+        "sha256": "3a4d94fe806c00421f53688c2000bfb2293ecc16320dbb795d9b8375a8a9338e",
+        "size": 1079813
+      },
+      {
+        "path": "D:/progs/IDE/MainProjs/AI/GCI2026/finalA/v3_addons/results/wp6_citations.json",
+        "present": true,
+        "sha256": "26a248816181b2b00365547974e50e2802f49102548f98c5ff827ef50f5ddee1",
+        "size": 11097
+      },
+      {
+        "path": "D:/progs/IDE/MainProjs/AI/GCI2026/finalA/v3_addons/results/wp6_references_append_option_c.txt",
+        "present": true,
+        "sha256": "42f6a6a7141bff2af8a5aa343264a34e173243cf3fb90840cc4c31dfadbaaa31",
+        "size": 657
+      },
+      {
+        "path": "D:/progs/IDE/MainProjs/AI/GCI2026/finalA/v3_addons/results/write_boundary_before.json",
+        "present": true,
+        "sha256": "e7616e3f66541f3fa5e6f6a625702c29034c5b9e6d1b7d452d1bf5e3e3f94bc1",
+        "size": 866828
+      },
+      {
+        "path": "D:/progs/IDE/MainProjs/AI/GCI2026/finalA/v3_addons/src/common.py",
+        "present": true,
+        "sha256": "5522fe7e7c49f945db5bd12bff6b850652ee12b002014a64f44217b01d13db0d",
+        "size": 7086
+      },
+      {
+        "path": "D:/progs/IDE/MainProjs/AI/GCI2026/finalA/v3_addons/src/reporting.py",
+        "present": true,
+        "sha256": "189d0c2ebcb7616746332e56d568e180bd364346f0422ae1c20712dbdc4f4479",
+        "size": 941
+      },
+      {
+        "path": "D:/progs/IDE/MainProjs/AI/GCI2026/finalA/v3_addons/src/wp7_handback.py",
+        "present": true,
+        "sha256": "9b476cf3f27b3baba53742b443d2a5429f8192b8124f5384d4e41805c79f35d9",
+        "size": 24372
+      }
+    ],
+    "python_version": "3.11.9 (tags/v3.11.9:de54cf5, Apr  2 2024, 10:12:12) [MSC v.1938 64 bit (AMD64)]",
+    "row_counts": {
+      "claim_rows": 278,
+      "outside_files": 4246,
+      "slides": 15
+    },
+    "runtime_pools": [
+      {
+        "architecture": "Haswell",
+        "filepath": "C:\\Users\\FGstore\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\numpy.libs\\libscipy_openblas64_-860d95b1c38e637ce4509f5fa24fbf2a.dll",
+        "internal_api": "openblas",
+        "num_threads": 6,
+        "prefix": "libscipy_openblas",
+        "threading_layer": "pthreads",
+        "user_api": "blas",
+        "version": "0.3.30"
+      },
+      {
+        "architecture": "Haswell",
+        "filepath": "C:\\Users\\FGstore\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\scipy.libs\\libscipy_openblas-64eda39e79589aedb16f58e5547eb599.dll",
+        "internal_api": "openblas",
+        "num_threads": 6,
+        "prefix": "libscipy_openblas",
+        "threading_layer": "pthreads",
+        "user_api": "blas",
+        "version": "0.3.30"
+      }
+    ],
+    "script": "D:/progs/IDE/MainProjs/AI/GCI2026/finalA/v3_addons/src/wp7_handback.py",
+    "script_sha256": "9b476cf3f27b3baba53742b443d2a5429f8192b8124f5384d4e41805c79f35d9",
+    "seed": 20261035,
+    "tags_used": [
+      "[E]",
+      "[A]",
+      "[R]"
+    ]
+  },
+  "status": "DONE",
+  "work_packages": {
+    "WP0": "DONE",
+    "WP1": "DONE_WITH_ORACLE_CAVEAT",
+    "WP2": "DONE",
+    "WP3": "DONE",
+    "WP4": "DONE",
+    "WP5": "PARTIAL",
+    "WP6": "DONE",
+    "WP7": "DONE",
+    "WP8": "OFF"
+  }
+}

@@ -1,0 +1,5 @@
+D:\progs\IDE\MainProjs\AI\GCI2026\finalA\v2_work\workstream_c.py:487: Pandas4Warning: Constructing a Categorical with a dtype and values containing non-null entries not in that dtype's categories is deprecated and will raise in a future version.
+  held[column] = pd.Categorical(held[column], categories=vocabulary)
+D:\progs\IDE\MainProjs\AI\GCI2026\finalA\v2_work\workstream_c.py:487: Pandas4Warning: Constructing a Categorical with a dtype and values containing non-null entries not in that dtype's categories is deprecated and will raise in a future version.
+  held[column] = pd.Categorical(held[column], categories=vocabulary)
+Wrote C audits to D:\progs\IDE\MainProjs\AI\GCI2026\finalA\v2_work\c_calibration; proxy CV: completed_once_original_75k.

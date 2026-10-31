@@ -1,0 +1,98 @@
+[
+  {
+    "candidate": "diagnostic_ceiling_asl_area",
+    "metric": "auc",
+    "n_pairs": 10,
+    "mean": 0.0024644159712051694,
+    "lower": 0.0006935054071492883,
+    "upper": 0.00423532653526105,
+    "corrected_se": 0.0006378338115673718,
+    "test_train_ratio": 0.25,
+    "df": 4,
+    "complete": true
+  },
+  {
+    "candidate": "diagnostic_ceiling_asl_area",
+    "metric": "baseline_tail_brier",
+    "n_pairs": 10,
+    "mean": 7.8280066473424e-06,
+    "lower": -0.0001304873716568067,
+    "upper": 0.0001461433849514915,
+    "corrected_se": 4.981743670898025e-05,
+    "test_train_ratio": 0.25,
+    "df": 4,
+    "complete": true
+  },
+  {
+    "candidate": "diagnostic_ceiling_asl_area",
+    "metric": "baseline_tail_logloss",
+    "n_pairs": 10,
+    "mean": -0.00019420492204906824,
+    "lower": -0.0010426985768937555,
+    "upper": 0.0006542887327956189,
+    "corrected_se": 0.0003056043331295184,
+    "test_train_ratio": 0.25,
+    "df": 4,
+    "complete": true
+  },
+  {
+    "candidate": "diagnostic_ceiling_asl_area",
+    "metric": "own_tail_brier",
+    "n_pairs": 10,
+    "mean": 0.001535920752390394,
+    "lower": -0.0003715130687393976,
+    "upper": 0.0034433545735201854,
+    "corrected_se": 0.0006870057749598137,
+    "test_train_ratio": 0.25,
+    "df": 4,
+    "complete": true
+  },
+  {
+    "candidate": "diagnostic_ceiling_asl_area",
+    "metric": "own_tail_logloss",
+    "n_pairs": 10,
+    "mean": 0.00506399332193592,
+    "lower": -0.0014656705025596828,
+    "upper": 0.011593657146431523,
+    "corrected_se": 0.002351807284887929,
+    "test_train_ratio": 0.25,
+    "df": 4,
+    "complete": true
+  },
+  {
+    "candidate": "diagnostic_ceiling_asl_area",
+    "metric": "weighted_value_capture",
+    "n_pairs": 10,
+    "mean": 0.0018811119191495973,
+    "lower": -0.00588201620371649,
+    "upper": 0.009644240042015684,
+    "corrected_se": 0.002796067571562177,
+    "test_train_ratio": 0.25,
+    "df": 4,
+    "complete": true
+  },
+  {
+    "candidate": "diagnostic_ceiling_asl_area",
+    "metric": "sample_brier",
+    "n_pairs": 10,
+    "mean": -0.0006808969721422697,
+    "lower": -0.0011670205765071167,
+    "upper": -0.0001947733677774228,
+    "corrected_se": 0.0001750884984020657,
+    "test_train_ratio": 0.25,
+    "df": 4,
+    "complete": true
+  },
+  {
+    "candidate": "diagnostic_ceiling_asl_area",
+    "metric": "sample_logloss",
+    "n_pairs": 10,
+    "mean": -0.0014582523189411334,
+    "lower": -0.0025453155175671344,
+    "upper": -0.0003711891203151323,
+    "corrected_se": 0.0003915305930561732,
+    "test_train_ratio": 0.25,
+    "df": 4,
+    "complete": true
+  }
+]

@@ -1,0 +1,35 @@
+{
+  "recipe": {
+    "backend": "lgbm",
+    "groups": [],
+    "drop": [
+      "change_mou",
+      "change_rev",
+      "avg3mou",
+      "avg3qty",
+      "avg3rev",
+      "avg6mou",
+      "avg6qty",
+      "avg6rev",
+      "usage_recent_to_lifetime",
+      "usage_three_to_six_months",
+      "revenue_recent_to_lifetime",
+      "revenue_three_to_six_months",
+      "usage_change_scaled",
+      "revenue_change_scaled"
+    ],
+    "sensitive": false,
+    "value_weighted": false
+  },
+  "development_value_limits": {
+    "median": 44.99,
+    "p99": 114.99
+  },
+  "outer_training_value_limits": {
+    "median": 44.99,
+    "p99": 115.38900000000075
+  },
+  "calibration_source": "20% held-out slice of outer training fold; never original 10k",
+  "threshold_source": "calibrated development-fit predictions on that slice only",
+  "extra": null
+}

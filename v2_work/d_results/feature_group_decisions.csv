@@ -1,0 +1,7 @@
+group,available,mean_auc_gain,corrected_lower,corrected_upper,keep,positive_cv_signal,decision_allowed,reason,caveat
+g1_temporal,True,1.16188370348e-05,-0.00198652756503,0.0020097652391,True,True,True,"positive paired CV signal, not automatic promotion",global diagnostic summary; nested candidates select inside each outer train
+g2_range,False,,,,False,,False,"Neither supplied CSV contains _Range columns; totmrc_Range, ovrrev_Range, mou_Range cannot be tested. No invented fields or reconstructed volatility.",
+g3_billing_gaps,True,0.000117466857808,-0.00047029430741,0.000705228023025,True,True,True,"positive paired CV signal, not automatic promotion",global diagnostic summary; nested candidates select inside each outer train
+g4_call_care,True,0.000159176689551,-0.0010724417925,0.0013907951716,True,True,True,"positive paired CV signal, not automatic promotion",global diagnostic summary; nested candidates select inside each outer train
+g5_equipment_cycle,True,-0.00013223950143,-0.000853770343006,0.000589291340146,False,False,True,rejected: non-positive paired CV improvement,global diagnostic summary; nested candidates select inside each outer train
+g6_tenure_pricing,True,-0.000141728334306,-0.00102773451695,0.000744277848336,False,False,True,rejected: non-positive paired CV improvement,global diagnostic summary; nested candidates select inside each outer train

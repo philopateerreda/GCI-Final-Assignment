@@ -1,0 +1,14 @@
+{
+  "illustrative_control_churn": 0.04771148430230854,
+  "assumed_relative_reduction": 0.2,
+  "illustrative_treatment_churn": 0.03816918744184683,
+  "absolute_effect_pp": 0.9542296860461708,
+  "alpha_two_sided": 0.05,
+  "power": 0.8,
+  "minimum_per_arm_normal_approximation": 7084,
+  "per_arm_with_10pct_allowance": 7872,
+  "randomization_unit": "household/account where linkage is available; not provided in this dataset",
+  "primary_decision_metric": "incremental contribution net of all intervention, incentive and implementation costs",
+  "outcome_window": "observed churn in days 31\u201360; also monitor days 0\u201330 and at least six months of realized contribution",
+  "warning": "Power calculation is illustrative; re-estimate from actual baseline and inflate for household clustering."
+}

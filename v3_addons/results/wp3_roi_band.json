@@ -1,0 +1,2826 @@
+{
+  "acceptance": {
+    "a2_b18.beta_sf_vs_betaincc": {
+      "absolute_deviation": 0.0,
+      "absolute_tolerance": 1e-12,
+      "beta_sf": 0.16823329149846597,
+      "betaincc": 0.16823329149846597,
+      "passed": true
+    },
+    "a2_b18.closed.finite_nonnegative_evpi": {
+      "evpi": 832.3583536234748,
+      "no_clipping": true,
+      "passed": true
+    },
+    "a2_b18.closed_vs_brief.evpi_horizon12": {
+      "absolute_deviation": 4.300243481698999,
+      "actual": 9988.300243481699,
+      "passed": true,
+      "reference": 9984.0,
+      "relative_deviation": 0.0004307134897535055,
+      "signed_deviation": 4.300243481698999,
+      "tolerance": {
+        "denominator": "abs(reference)",
+        "relative": 0.01
+      }
+    },
+    "a2_b18.closed_vs_brief.evpi_per_cohort": {
+      "absolute_deviation": 0.3583536234748408,
+      "actual": 832.3583536234748,
+      "passed": true,
+      "reference": 832.0,
+      "relative_deviation": 0.0004307134897534144,
+      "signed_deviation": 0.3583536234748408,
+      "tolerance": {
+        "denominator": "abs(reference)",
+        "relative": 0.01
+      }
+    },
+    "a2_b18.closed_vs_brief.expected_net": {
+      "absolute_deviation": 0.08046077946892183,
+      "actual": -5618.919539220531,
+      "passed": true,
+      "reference": -5619.0,
+      "relative_deviation": 1.4319412612372634e-05,
+      "signed_deviation": 0.08046077946892183,
+      "tolerance": {
+        "denominator": "abs(reference)",
+        "relative": 0.01
+      }
+    },
+    "a2_b18.closed_vs_brief.net_5pct": {
+      "absolute_deviation": 0.2791238260233513,
+      "actual": -13202.279123826023,
+      "passed": true,
+      "reference": -13202.0,
+      "relative_deviation": 2.114254098040837e-05,
+      "signed_deviation": -0.2791238260233513,
+      "tolerance": {
+        "denominator": "abs(reference)",
+        "relative": 0.01
+      }
+    },
+    "a2_b18.closed_vs_brief.p_positive": {
+      "absolute_deviation": 0.00023329149846595953,
+      "actual": 0.16823329149846597,
+      "passed": true,
+      "reference": 0.168,
+      "relative_deviation": 0.0013886398718211876,
+      "signed_deviation": 0.00023329149846595953,
+      "tolerance": {
+        "absolute": 0.005
+      }
+    },
+    "a2_b18.eplus_quad": {
+      "absolute_deviation": 1.3877787807814457e-17,
+      "closed_form": 0.008887018752269903,
+      "passed": true,
+      "quadrature": 0.008887018752269916,
+      "quadrature_error_estimate": 9.866572839045591e-17,
+      "strict_absolute_tolerance": 1e-09
+    },
+    "a2_b18.mc.finite_nonnegative_evpi": {
+      "evpi": 832.3576015964123,
+      "no_clipping": true,
+      "passed": true
+    },
+    "a2_b18.mc_vs_brief.evpi_horizon12": {
+      "absolute_deviation": 4.2912191569485,
+      "actual": 9988.291219156949,
+      "passed": true,
+      "reference": 9984.0,
+      "relative_deviation": 0.00042980961107256616,
+      "signed_deviation": 4.2912191569485,
+      "tolerance": {
+        "denominator": "abs(reference)",
+        "relative": 0.01
+      }
+    },
+    "a2_b18.mc_vs_brief.evpi_per_cohort": {
+      "absolute_deviation": 0.35760159641233713,
+      "actual": 832.3576015964123,
+      "passed": true,
+      "reference": 832.0,
+      "relative_deviation": 0.00042980961107252056,
+      "signed_deviation": 0.35760159641233713,
+      "tolerance": {
+        "denominator": "abs(reference)",
+        "relative": 0.01
+      }
+    },
+    "a2_b18.mc_vs_brief.expected_net": {
+      "absolute_deviation": 0.07971167295181658,
+      "actual": -5618.920288327048,
+      "passed": true,
+      "reference": -5619.0,
+      "relative_deviation": 1.4186095915966646e-05,
+      "signed_deviation": 0.07971167295181658,
+      "tolerance": {
+        "denominator": "abs(reference)",
+        "relative": 0.01
+      }
+    },
+    "a2_b18.mc_vs_brief.net_5pct": {
+      "absolute_deviation": 0.2795969178805535,
+      "actual": -13202.27959691788,
+      "passed": true,
+      "reference": -13202.0,
+      "relative_deviation": 2.117837584309601e-05,
+      "signed_deviation": -0.2795969178805535,
+      "tolerance": {
+        "denominator": "abs(reference)",
+        "relative": 0.01
+      }
+    },
+    "a2_b18.mc_vs_brief.p_positive": {
+      "absolute_deviation": 0.00023399999999998422,
+      "actual": 0.168234,
+      "passed": true,
+      "reference": 0.168,
+      "relative_deviation": 0.0013928571428570488,
+      "signed_deviation": 0.00023399999999998422,
+      "tolerance": {
+        "absolute": 0.005
+      }
+    },
+    "a2_b18.mc_vs_closed.eplus": {
+      "absolute_deviation": 8.02932844518045e-09,
+      "actual": 0.008887010722941457,
+      "passed": true,
+      "reference": 0.008887018752269903,
+      "relative_deviation": 9.034895355801536e-07,
+      "signed_deviation": -8.02932844518045e-09,
+      "tolerance": {
+        "denominator": "abs(reference)",
+        "relative": 0.01
+      }
+    },
+    "a2_b18.mc_vs_closed.evpi_horizon12": {
+      "absolute_deviation": 0.009024324750498636,
+      "actual": 9988.291219156949,
+      "passed": true,
+      "reference": 9988.300243481699,
+      "relative_deviation": 9.034895358084427e-07,
+      "signed_deviation": -0.009024324750498636,
+      "tolerance": {
+        "denominator": "abs(reference)",
+        "relative": 0.01
+      }
+    },
+    "a2_b18.mc_vs_closed.evpi_per_cohort": {
+      "absolute_deviation": 0.0007520270625036574,
+      "actual": 832.3576015964123,
+      "passed": true,
+      "reference": 832.3583536234748,
+      "relative_deviation": 9.034895357629148e-07,
+      "signed_deviation": -0.0007520270625036574,
+      "tolerance": {
+        "denominator": "abs(reference)",
+        "relative": 0.01
+      }
+    },
+    "a2_b18.mc_vs_closed.expected_net": {
+      "absolute_deviation": 0.0007491065171052469,
+      "actual": -5618.920288327048,
+      "passed": true,
+      "reference": -5618.919539220531,
+      "relative_deviation": 1.333186054501084e-07,
+      "signed_deviation": -0.0007491065171052469,
+      "tolerance": {
+        "denominator": "abs(reference)",
+        "relative": 0.01
+      }
+    },
+    "a2_b18.mc_vs_closed.expected_positive_net": {
+      "absolute_deviation": 0.0007520270625036574,
+      "actual": 832.3576015964123,
+      "passed": true,
+      "reference": 832.3583536234748,
+      "relative_deviation": 9.034895357629148e-07,
+      "signed_deviation": -0.0007520270625036574,
+      "tolerance": {
+        "denominator": "abs(reference)",
+        "relative": 0.01
+      }
+    },
+    "a2_b18.mc_vs_closed.net_5pct": {
+      "absolute_deviation": 0.0004730918572022347,
+      "actual": -13202.27959691788,
+      "passed": true,
+      "reference": -13202.279123826023,
+      "relative_deviation": 3.583410506360606e-08,
+      "signed_deviation": -0.0004730918572022347,
+      "tolerance": {
+        "denominator": "abs(reference)",
+        "relative": 0.01
+      }
+    },
+    "a2_b18.mc_vs_closed.p_positive": {
+      "absolute_deviation": 7.085015340246859e-07,
+      "actual": 0.168234,
+      "passed": true,
+      "reference": 0.16823329149846597,
+      "relative_deviation": 4.211422886124452e-06,
+      "signed_deviation": 7.085015340246859e-07,
+      "tolerance": {
+        "absolute": 0.005
+      }
+    },
+    "a2_b18.stratified_draws": {
+      "draws": 1000000,
+      "minimum_draws": 1000000,
+      "passed": true,
+      "sampling": "(arange(N) + rng(3).random(N)) / N, transformed by scipy.stats.beta.ppf; non-iid"
+    },
+    "a6_b14.beta_sf_vs_betaincc": {
+      "absolute_deviation": 0.0,
+      "absolute_tolerance": 1e-12,
+      "beta_sf": 0.9300037463815178,
+      "betaincc": 0.9300037463815178,
+      "passed": true
+    },
+    "a6_b14.closed.finite_nonnegative_evpi": {
+      "evpi": 195.7130475430422,
+      "no_clipping": true,
+      "passed": true
+    },
+    "a6_b14.closed_vs_brief.evpi_horizon12": {
+      "absolute_deviation": 3.4434294834936736,
+      "actual": 2348.5565705165063,
+      "passed": true,
+      "reference": 2352.0,
+      "relative_deviation": 0.0014640431477439088,
+      "signed_deviation": -3.4434294834936736,
+      "tolerance": {
+        "denominator": "abs(reference)",
+        "relative": 0.01
+      }
+    },
+    "a6_b14.closed_vs_brief.evpi_per_cohort": {
+      "absolute_deviation": 0.28695245695780613,
+      "actual": 195.7130475430422,
+      "passed": true,
+      "reference": 196.0,
+      "relative_deviation": 0.0014640431477439088,
+      "signed_deviation": -0.28695245695780613,
+      "tolerance": {
+        "denominator": "abs(reference)",
+        "relative": 0.01
+      }
+    },
+    "a6_b14.closed_vs_brief.expected_net": {
+      "absolute_deviation": 0.08445055107949884,
+      "actual": 13113.08445055108,
+      "passed": true,
+      "reference": 13113.0,
+      "relative_deviation": 6.440215898688236e-06,
+      "signed_deviation": 0.08445055107949884,
+      "tolerance": {
+        "denominator": "abs(reference)",
+        "relative": 0.01
+      }
+    },
+    "a6_b14.closed_vs_brief.net_5pct": {
+      "absolute_deviation": 0.080918021607431,
+      "actual": -1172.9190819783926,
+      "passed": true,
+      "reference": -1173.0,
+      "relative_deviation": 6.898382063719608e-05,
+      "signed_deviation": 0.080918021607431,
+      "tolerance": {
+        "denominator": "abs(reference)",
+        "relative": 0.01
+      }
+    },
+    "a6_b14.closed_vs_brief.p_positive": {
+      "absolute_deviation": 3.7463815177884996e-06,
+      "actual": 0.9300037463815178,
+      "passed": true,
+      "reference": 0.93,
+      "relative_deviation": 4.028367223428494e-06,
+      "signed_deviation": 3.7463815177884996e-06,
+      "tolerance": {
+        "absolute": 0.005
+      }
+    },
+    "a6_b14.eplus_quad": {
+      "absolute_deviation": 5.551115123125783e-17,
+      "closed_form": 0.1420968894236968,
+      "passed": true,
+      "quadrature": 0.14209688942369675,
+      "quadrature_error_estimate": 1.5775923836580303e-15,
+      "strict_absolute_tolerance": 1e-09
+    },
+    "a6_b14.mc.finite_nonnegative_evpi": {
+      "evpi": 195.7129926259222,
+      "no_clipping": true,
+      "passed": true
+    },
+    "a6_b14.mc_vs_brief.evpi_horizon12": {
+      "absolute_deviation": 3.4440884889336303,
+      "actual": 2348.5559115110664,
+      "passed": true,
+      "reference": 2352.0,
+      "relative_deviation": 0.0014643233371316455,
+      "signed_deviation": -3.4440884889336303,
+      "tolerance": {
+        "denominator": "abs(reference)",
+        "relative": 0.01
+      }
+    },
+    "a6_b14.mc_vs_brief.evpi_per_cohort": {
+      "absolute_deviation": 0.2870073740778025,
+      "actual": 195.7129926259222,
+      "passed": true,
+      "reference": 196.0,
+      "relative_deviation": 0.0014643233371316455,
+      "signed_deviation": -0.2870073740778025,
+      "tolerance": {
+        "denominator": "abs(reference)",
+        "relative": 0.01
+      }
+    },
+    "a6_b14.mc_vs_brief.expected_net": {
+      "absolute_deviation": 0.08315582840077695,
+      "actual": 13113.0831558284,
+      "passed": true,
+      "reference": 13113.0,
+      "relative_deviation": 6.341480088521083e-06,
+      "signed_deviation": 0.08315582840077695,
+      "tolerance": {
+        "denominator": "abs(reference)",
+        "relative": 0.01
+      }
+    },
+    "a6_b14.mc_vs_brief.net_5pct": {
+      "absolute_deviation": 0.12857485383597123,
+      "actual": -1172.871425146164,
+      "passed": true,
+      "reference": -1173.0,
+      "relative_deviation": 0.0001096119811048348,
+      "signed_deviation": 0.12857485383597123,
+      "tolerance": {
+        "denominator": "abs(reference)",
+        "relative": 0.01
+      }
+    },
+    "a6_b14.mc_vs_brief.p_positive": {
+      "absolute_deviation": 4.000000000004e-06,
+      "actual": 0.930004,
+      "passed": true,
+      "reference": 0.93,
+      "relative_deviation": 4.301075268821506e-06,
+      "signed_deviation": 4.000000000004e-06,
+      "tolerance": {
+        "absolute": 0.005
+      }
+    },
+    "a6_b14.mc_vs_closed.eplus": {
+      "absolute_deviation": 1.4409988369212812e-08,
+      "actual": 0.14209687501370843,
+      "passed": true,
+      "reference": 0.1420968894236968,
+      "relative_deviation": 1.0140959754752893e-07,
+      "signed_deviation": -1.4409988369212812e-08,
+      "tolerance": {
+        "denominator": "abs(reference)",
+        "relative": 0.01
+      }
+    },
+    "a6_b14.mc_vs_closed.evpi_horizon12": {
+      "absolute_deviation": 0.0006590054399566725,
+      "actual": 2348.5559115110664,
+      "passed": true,
+      "reference": 2348.5565705165063,
+      "relative_deviation": 2.8060019853460065e-07,
+      "signed_deviation": -0.0006590054399566725,
+      "tolerance": {
+        "denominator": "abs(reference)",
+        "relative": 0.01
+      }
+    },
+    "a6_b14.mc_vs_closed.evpi_per_cohort": {
+      "absolute_deviation": 5.4917119996389374e-05,
+      "actual": 195.7129926259222,
+      "passed": true,
+      "reference": 195.7130475430422,
+      "relative_deviation": 2.8060019853460065e-07,
+      "signed_deviation": -5.4917119996389374e-05,
+      "tolerance": {
+        "denominator": "abs(reference)",
+        "relative": 0.01
+      }
+    },
+    "a6_b14.mc_vs_closed.expected_net": {
+      "absolute_deviation": 0.0012947226787218824,
+      "actual": 13113.0831558284,
+      "passed": true,
+      "reference": 13113.08445055108,
+      "relative_deviation": 9.873517429131416e-08,
+      "signed_deviation": -0.0012947226787218824,
+      "tolerance": {
+        "denominator": "abs(reference)",
+        "relative": 0.01
+      }
+    },
+    "a6_b14.mc_vs_closed.expected_positive_net": {
+      "absolute_deviation": 0.0013496397987182718,
+      "actual": 13308.796148454323,
+      "passed": true,
+      "reference": 13308.797498094122,
+      "relative_deviation": 1.0140959759223522e-07,
+      "signed_deviation": -0.0013496397987182718,
+      "tolerance": {
+        "denominator": "abs(reference)",
+        "relative": 0.01
+      }
+    },
+    "a6_b14.mc_vs_closed.net_5pct": {
+      "absolute_deviation": 0.047656832228540225,
+      "actual": -1172.871425146164,
+      "passed": true,
+      "reference": -1172.9190819783926,
+      "relative_deviation": 4.063096334672655e-05,
+      "signed_deviation": 0.047656832228540225,
+      "tolerance": {
+        "denominator": "abs(reference)",
+        "relative": 0.01
+      }
+    },
+    "a6_b14.mc_vs_closed.p_positive": {
+      "absolute_deviation": 2.5361848221550076e-07,
+      "actual": 0.930004,
+      "passed": true,
+      "reference": 0.9300037463815178,
+      "relative_deviation": 2.7270694682928533e-07,
+      "signed_deviation": 2.5361848221550076e-07,
+      "tolerance": {
+        "absolute": 0.005
+      }
+    },
+    "a6_b14.stratified_draws": {
+      "draws": 1000000,
+      "minimum_draws": 1000000,
+      "passed": true,
+      "sampling": "(arange(N) + rng(3).random(N)) / N, transformed by scipy.stats.beta.ppf; non-iid"
+    },
+    "a6_b24.beta_sf_vs_betaincc": {
+      "absolute_deviation": 0.0,
+      "absolute_tolerance": 1e-12,
+      "beta_sf": 0.6850373137534997,
+      "betaincc": 0.6850373137534997,
+      "passed": true
+    },
+    "a6_b24.closed.finite_nonnegative_evpi": {
+      "evpi": 1093.2864143914458,
+      "no_clipping": true,
+      "passed": true
+    },
+    "a6_b24.closed_vs_brief.evpi_horizon12": {
+      "absolute_deviation": 3.4369726973491197,
+      "actual": 13119.43697269735,
+      "passed": true,
+      "reference": 13116.0,
+      "relative_deviation": 0.00026204427396684353,
+      "signed_deviation": 3.4369726973491197,
+      "tolerance": {
+        "denominator": "abs(reference)",
+        "relative": 0.01
+      }
+    },
+    "a6_b24.closed_vs_brief.evpi_per_cohort": {
+      "absolute_deviation": 0.28641439144576,
+      "actual": 1093.2864143914458,
+      "passed": true,
+      "reference": 1093.0,
+      "relative_deviation": 0.00026204427396684353,
+      "signed_deviation": 0.28641439144576,
+      "tolerance": {
+        "denominator": "abs(reference)",
+        "relative": 0.01
+      }
+    },
+    "a6_b24.closed_vs_brief.expected_net": {
+      "absolute_deviation": 0.08245566527693882,
+      "actual": 3747.082455665277,
+      "passed": true,
+      "reference": 3747.0,
+      "relative_deviation": 2.2005782032809932e-05,
+      "signed_deviation": 0.08245566527693882,
+      "tolerance": {
+        "denominator": "abs(reference)",
+        "relative": 0.01
+      }
+    },
+    "a6_b24.closed_vs_brief.net_5pct": {
+      "absolute_deviation": 0.35991349699725106,
+      "actual": -6166.359913496997,
+      "passed": true,
+      "reference": -6166.0,
+      "relative_deviation": 5.8370661206171106e-05,
+      "signed_deviation": -0.35991349699725106,
+      "tolerance": {
+        "denominator": "abs(reference)",
+        "relative": 0.01
+      }
+    },
+    "a6_b24.closed_vs_brief.p_positive": {
+      "absolute_deviation": 3.731375349969035e-05,
+      "actual": 0.6850373137534997,
+      "passed": true,
+      "reference": 0.685,
+      "relative_deviation": 5.447263284626328e-05,
+      "signed_deviation": 3.731375349969035e-05,
+      "tolerance": {
+        "absolute": 0.005
+      }
+    },
+    "a6_b24.eplus_quad": {
+      "absolute_deviation": 6.245004513516506e-17,
+      "closed_form": 0.05168020327883496,
+      "passed": true,
+      "quadrature": 0.0516802032788349,
+      "quadrature_error_estimate": 6.845425108106913e-16,
+      "strict_absolute_tolerance": 1e-09
+    },
+    "a6_b24.mc.finite_nonnegative_evpi": {
+      "evpi": 1093.286475919882,
+      "no_clipping": true,
+      "passed": true
+    },
+    "a6_b24.mc_vs_brief.evpi_horizon12": {
+      "absolute_deviation": 3.4377110385830747,
+      "actual": 13119.437711038583,
+      "passed": true,
+      "reference": 13116.0,
+      "relative_deviation": 0.0002621005671380813,
+      "signed_deviation": 3.4377110385830747,
+      "tolerance": {
+        "denominator": "abs(reference)",
+        "relative": 0.01
+      }
+    },
+    "a6_b24.mc_vs_brief.evpi_per_cohort": {
+      "absolute_deviation": 0.2864759198819229,
+      "actual": 1093.286475919882,
+      "passed": true,
+      "reference": 1093.0,
+      "relative_deviation": 0.0002621005671380813,
+      "signed_deviation": 0.2864759198819229,
+      "tolerance": {
+        "denominator": "abs(reference)",
+        "relative": 0.01
+      }
+    },
+    "a6_b24.mc_vs_brief.expected_net": {
+      "absolute_deviation": 0.08118781572738953,
+      "actual": 3747.0811878157274,
+      "passed": true,
+      "reference": 3747.0,
+      "relative_deviation": 2.166741812847332e-05,
+      "signed_deviation": 0.08118781572738953,
+      "tolerance": {
+        "denominator": "abs(reference)",
+        "relative": 0.01
+      }
+    },
+    "a6_b24.mc_vs_brief.net_5pct": {
+      "absolute_deviation": 0.33896382435614214,
+      "actual": -6166.338963824356,
+      "passed": true,
+      "reference": -6166.0,
+      "relative_deviation": 5.497304968474573e-05,
+      "signed_deviation": -0.33896382435614214,
+      "tolerance": {
+        "denominator": "abs(reference)",
+        "relative": 0.01
+      }
+    },
+    "a6_b24.mc_vs_brief.p_positive": {
+      "absolute_deviation": 3.6999999999953737e-05,
+      "actual": 0.685037,
+      "passed": true,
+      "reference": 0.685,
+      "relative_deviation": 5.4014598540078443e-05,
+      "signed_deviation": 3.6999999999953737e-05,
+      "tolerance": {
+        "absolute": 0.005
+      }
+    },
+    "a6_b24.mc_vs_closed.eplus": {
+      "absolute_deviation": 1.2879787056330194e-08,
+      "actual": 0.05168019039904791,
+      "passed": true,
+      "reference": 0.05168020327883496,
+      "relative_deviation": 2.492209054759071e-07,
+      "signed_deviation": -1.2879787056330194e-08,
+      "tolerance": {
+        "denominator": "abs(reference)",
+        "relative": 0.01
+      }
+    },
+    "a6_b24.mc_vs_closed.evpi_horizon12": {
+      "absolute_deviation": 0.0007383412339549977,
+      "actual": 13119.437711038583,
+      "passed": true,
+      "reference": 13119.43697269735,
+      "relative_deviation": 5.6278423799096556e-08,
+      "signed_deviation": 0.0007383412339549977,
+      "tolerance": {
+        "denominator": "abs(reference)",
+        "relative": 0.01
+      }
+    },
+    "a6_b24.mc_vs_closed.evpi_per_cohort": {
+      "absolute_deviation": 6.152843616291648e-05,
+      "actual": 1093.286475919882,
+      "passed": true,
+      "reference": 1093.2864143914458,
+      "relative_deviation": 5.6278423799096556e-08,
+      "signed_deviation": 6.152843616291648e-05,
+      "tolerance": {
+        "denominator": "abs(reference)",
+        "relative": 0.01
+      }
+    },
+    "a6_b24.mc_vs_closed.expected_net": {
+      "absolute_deviation": 0.0012678495495492825,
+      "actual": 3747.0811878157274,
+      "passed": true,
+      "reference": 3747.082455665277,
+      "relative_deviation": 3.383564585381353e-07,
+      "signed_deviation": -0.0012678495495492825,
+      "tolerance": {
+        "denominator": "abs(reference)",
+        "relative": 0.01
+      }
+    },
+    "a6_b24.mc_vs_closed.expected_positive_net": {
+      "absolute_deviation": 0.001206321113386366,
+      "actual": 4840.367663735609,
+      "passed": true,
+      "reference": 4840.368870056723,
+      "relative_deviation": 2.492209056315639e-07,
+      "signed_deviation": -0.001206321113386366,
+      "tolerance": {
+        "denominator": "abs(reference)",
+        "relative": 0.01
+      }
+    },
+    "a6_b24.mc_vs_closed.net_5pct": {
+      "absolute_deviation": 0.02094967264110892,
+      "actual": -6166.338963824356,
+      "passed": true,
+      "reference": -6166.359913496997,
+      "relative_deviation": 3.397413212169799e-06,
+      "signed_deviation": 0.02094967264110892,
+      "tolerance": {
+        "denominator": "abs(reference)",
+        "relative": 0.01
+      }
+    },
+    "a6_b24.mc_vs_closed.p_positive": {
+      "absolute_deviation": 3.1375349973661315e-07,
+      "actual": 0.685037,
+      "passed": true,
+      "reference": 0.6850373137534997,
+      "relative_deviation": 4.5800935720928125e-07,
+      "signed_deviation": -3.1375349973661315e-07,
+      "tolerance": {
+        "absolute": 0.005
+      }
+    },
+    "a6_b24.stratified_draws": {
+      "draws": 1000000,
+      "minimum_draws": 1000000,
+      "passed": true,
+      "sampling": "(arange(N) + rng(3).random(N)) / N, transformed by scipy.stats.beta.ppf; non-iid"
+    },
+    "budget.calibration_ids": {
+      "expected_rows": 10000,
+      "passed": true,
+      "rows": 10000,
+      "split": "calibration_policy",
+      "test_rows_used": 0
+    },
+    "budget.no_contact.cost_0.25": {
+      "note": "No contact means no campaign and no startup charge; reported separately.",
+      "passed": true,
+      "quoted_no_contact_net": 0.0,
+      "reference": 0.0
+    },
+    "budget.no_contact.cost_1": {
+      "note": "No contact means no campaign and no startup charge; reported separately.",
+      "passed": true,
+      "quoted_no_contact_net": 0.0,
+      "reference": 0.0
+    },
+    "budget.no_contact.cost_2": {
+      "note": "No contact means no campaign and no startup charge; reported separately.",
+      "passed": true,
+      "quoted_no_contact_net": 0.0,
+      "reference": 0.0
+    },
+    "budget.no_contact.cost_5": {
+      "note": "No contact means no campaign and no startup charge; reported separately.",
+      "passed": true,
+      "quoted_no_contact_net": 0.0,
+      "reference": 0.0
+    },
+    "budget.stored_fraction_net.cost_0.25": {
+      "absolute_tolerance": 1e-06,
+      "note": "Additional exact-replay arithmetic audit, not a retuned winner criterion.",
+      "passed": true,
+      "quoted_net": 25920.96947222077,
+      "reproduced_net": 25920.96947222077,
+      "signed_deviation": 0.0
+    },
+    "budget.stored_fraction_net.cost_1": {
+      "absolute_tolerance": 1e-06,
+      "note": "Additional exact-replay arithmetic audit, not a retuned winner criterion.",
+      "passed": true,
+      "quoted_net": 6009.390224575029,
+      "reproduced_net": 6009.390224575029,
+      "signed_deviation": 0.0
+    },
+    "budget.stored_fraction_net.cost_2": {
+      "absolute_tolerance": 1e-06,
+      "note": "Additional exact-replay arithmetic audit, not a retuned winner criterion.",
+      "passed": true,
+      "quoted_net": -1891.4441011486588,
+      "reproduced_net": -1891.4441011486588,
+      "signed_deviation": 0.0
+    },
+    "budget.stored_fraction_net.cost_5": {
+      "absolute_tolerance": 1e-06,
+      "note": "Additional exact-replay arithmetic audit, not a retuned winner criterion.",
+      "passed": true,
+      "quoted_net": -5732.581368528379,
+      "reproduced_net": -5732.581368528378,
+      "signed_deviation": 9.094947017729282e-13
+    },
+    "budget.stored_vs_brief.cost_0.25": {
+      "brief_fraction": 0.3,
+      "passed": true,
+      "signed_deviation": 0.0,
+      "source": {
+        "path": "D:/progs/IDE/MainProjs/AI/GCI2026/finalA/v2_work/a_budget_choices.csv",
+        "present": true,
+        "sha256": "846ba54ed56421ac06da6b452df72986ba94a2500372610425448aab9a125a2b",
+        "size": 334
+      },
+      "stored_fraction": 0.3,
+      "tag": "[E] quoted stored calibration-only diagnostic",
+      "tolerance": 0.01
+    },
+    "budget.stored_vs_brief.cost_1": {
+      "brief_fraction": 0.18,
+      "passed": true,
+      "signed_deviation": 0.0,
+      "source": {
+        "path": "D:/progs/IDE/MainProjs/AI/GCI2026/finalA/v2_work/a_budget_choices.csv",
+        "present": true,
+        "sha256": "846ba54ed56421ac06da6b452df72986ba94a2500372610425448aab9a125a2b",
+        "size": 334
+      },
+      "stored_fraction": 0.18,
+      "tag": "[E] quoted stored calibration-only diagnostic",
+      "tolerance": 0.01
+    },
+    "budget.stored_vs_brief.cost_2": {
+      "brief_fraction": 0.03,
+      "passed": true,
+      "signed_deviation": 0.0,
+      "source": {
+        "path": "D:/progs/IDE/MainProjs/AI/GCI2026/finalA/v2_work/a_budget_choices.csv",
+        "present": true,
+        "sha256": "846ba54ed56421ac06da6b452df72986ba94a2500372610425448aab9a125a2b",
+        "size": 334
+      },
+      "stored_fraction": 0.03,
+      "tag": "[E] quoted stored calibration-only diagnostic",
+      "tolerance": 0.01
+    },
+    "budget.stored_vs_brief.cost_5": {
+      "brief_fraction": 0.01,
+      "passed": true,
+      "signed_deviation": 0.0,
+      "source": {
+        "path": "D:/progs/IDE/MainProjs/AI/GCI2026/finalA/v2_work/a_budget_choices.csv",
+        "present": true,
+        "sha256": "846ba54ed56421ac06da6b452df72986ba94a2500372610425448aab9a125a2b",
+        "size": 334
+      },
+      "stored_fraction": 0.01,
+      "tag": "[E] quoted stored calibration-only diagnostic",
+      "tolerance": 0.01
+    },
+    "budget.weight_mass": {
+      "absolute_tolerance": 1e-08,
+      "actual": 99999.99999999999,
+      "passed": true,
+      "reference": 100000
+    },
+    "budget.winner.cost_0.25": {
+      "passed": true,
+      "reproduced_fraction": 0.3,
+      "signed_deviation": 0.0,
+      "stored_fraction": 0.3,
+      "tolerance": 0.01
+    },
+    "budget.winner.cost_1": {
+      "passed": true,
+      "reproduced_fraction": 0.18,
+      "signed_deviation": 0.0,
+      "stored_fraction": 0.18,
+      "tolerance": 0.01
+    },
+    "budget.winner.cost_2": {
+      "passed": true,
+      "reproduced_fraction": 0.03,
+      "signed_deviation": 0.0,
+      "stored_fraction": 0.03,
+      "tolerance": 0.01
+    },
+    "budget.winner.cost_5": {
+      "passed": true,
+      "reproduced_fraction": 0.01,
+      "signed_deviation": 0.0,
+      "stored_fraction": 0.01,
+      "tolerance": 0.01
+    },
+    "curve.artifact_hashes": {
+      "artifacts": [
+        {
+          "path": "D:/progs/IDE/MainProjs/AI/GCI2026/finalA/v3_addons/results/wp3_net_curve.csv",
+          "present": true,
+          "sha256": "f9148028b1a8158685de1556d82617d4f2750550084463ee88d13305283fabc1",
+          "size": 194136
+        },
+        {
+          "path": "D:/progs/IDE/MainProjs/AI/GCI2026/finalA/v3_addons/figures/wp3_net_curve.png",
+          "present": true,
+          "sha256": "7f36752025300149e1c6a46b1f5aaa705c4ff1ca89dd0ae3bf75dad40d5c370b",
+          "size": 28627
+        }
+      ],
+      "passed": true
+    },
+    "curve.complete_finite_cost_prior_grid": {
+      "costs": [
+        0.25,
+        1.0,
+        2.0,
+        5.0
+      ],
+      "expected_rows": 480,
+      "fractions": "1..40% in 1% steps",
+      "passed": true,
+      "priors": [
+        [
+          6,
+          14
+        ],
+        [
+          6,
+          24
+        ],
+        [
+          2,
+          18
+        ]
+      ],
+      "rows": 480
+    },
+    "curve.population_ids": {
+      "expected_rows": 75000,
+      "passed": true,
+      "rows": 75000,
+      "split": "train + validation",
+      "test_rows_used": 0
+    },
+    "curve.weight_mass": {
+      "absolute_tolerance": 1e-08,
+      "actual": 100000.0,
+      "passed": true,
+      "reference": 100000
+    },
+    "roi.quoted_constants_valid": {
+      "G": 93660.01994885807,
+      "K": 14984.92153410634,
+      "passed": true,
+      "source": {
+        "path": "D:/progs/IDE/MainProjs/AI/GCI2026/finalA/v2_work/final_metrics.json",
+        "present": true,
+        "sha256": "1d14a4fea10ab391631379f82cd6a82e5a65ede4f01db5b540c9aec3612eea1e",
+        "size": 155122
+      },
+      "test_rows_used": 0
+    },
+    "roi.three_priors_complete": {
+      "completed": 3,
+      "expected": 3,
+      "passed": true
+    }
+  },
+  "artifacts": [
+    {
+      "path": "D:/progs/IDE/MainProjs/AI/GCI2026/finalA/v3_addons/results/wp3_net_curve.csv",
+      "present": true,
+      "sha256": "f9148028b1a8158685de1556d82617d4f2750550084463ee88d13305283fabc1",
+      "size": 194136
+    },
+    {
+      "path": "D:/progs/IDE/MainProjs/AI/GCI2026/finalA/v3_addons/figures/wp3_net_curve.png",
+      "present": true,
+      "sha256": "7f36752025300149e1c6a46b1f5aaa705c4ff1ca89dd0ae3bf75dad40d5c370b",
+      "size": 28627
+    }
+  ],
+  "assumptions": {
+    "economics": "Six retained months, .60 incremental margin, assumed contact costs .25/1/2/5, fixed startup 5000, USD-equivalent units; not verified operating facts.",
+    "frozen_roi": "100000 hypothetical-customer frozen nominal 10% threshold: net(gamma)=G*gamma-K; G and K are quoted aggregates via stored_constants, not recomputed from test rows. K quotes the frozen $1/contact plus fixed startup assumption.",
+    "gamma": "Beta(6,14), Beta(6,24), Beta(2,18) prevention-rate priors are assumptions; uniform independent prevention across selected would-be churners is assumed, not inferred from churn risk or value. No treatment labels exist; response heterogeneity is not estimated.",
+    "horizon12": "12 identical future cohorts under the same gamma/economics; EVPI x12 is conditional arithmetic, not a discounted cash forecast.",
+    "population": "75000 non-test train+validation observations class-weighted to 100000 hypothetical customers at 2% prior; label shift and within-class representativeness are unverified.",
+    "value": "Frozen capped recurring-charge proxy, not observed incremental contribution or treatment responsiveness."
+  },
+  "audit_reproduction": {
+    "cutoff": "Stable descending score; left searchsorted at fraction*sum(w); include all score >= cutoff ties.",
+    "deployment_prior": 0.02,
+    "deployment_size": 100000,
+    "fixed_startup": 5000.0,
+    "legacy_sample_prior": 0.4956,
+    "margin": 0.6,
+    "net": "sum(w*mask*y*value)*.2*3.6 - cost*contacts - 5000",
+    "new_curve_rule": "Eligible for conditional non-test curves; no promotion.",
+    "no_contact_net": 0.0,
+    "passed": true,
+    "prohibition": "Stored frozen_threshold and in-sample p_s are not used for OOF budget replay.",
+    "replay_grid": [
+      {
+        "achieved_contact_fraction": 0.010002726611148769,
+        "boundary_ties": 1,
+        "contacts": 1000.2726611148767,
+        "cost": 0.25,
+        "intended_fraction": 0.01,
+        "net": -981.2862282327146,
+        "raw_count": 310,
+        "selected_churn_value": 5928.863801452784,
+        "threshold": 4.429909094300848
+      },
+      {
+        "achieved_contact_fraction": 0.02002680207555273,
+        "boundary_ties": 1,
+        "contacts": 2002.6802075552728,
+        "cost": 0.25,
+        "intended_fraction": 0.02,
+        "net": 1604.5236236521023,
+        "raw_count": 531,
+        "selected_churn_value": 9868.324549362389,
+        "threshold": 3.2198098144808487
+      },
+      {
+        "achieved_contact_fraction": 0.030059534210329246,
+        "boundary_ties": 1,
+        "contacts": 3005.9534210329243,
+        "cost": 0.25,
+        "intended_fraction": 0.03,
+        "net": 3368.9743856589594,
+        "raw_count": 707,
+        "selected_churn_value": 12667.309362384985,
+        "threshold": 2.7023718654875193
+      },
+      {
+        "achieved_contact_fraction": 0.04000752058239391,
+        "boundary_ties": 1,
+        "contacts": 4000.75205823939,
+        "cost": 0.25,
+        "intended_fraction": 0.04,
+        "net": 4873.395384952017,
+        "raw_count": 862,
+        "selected_churn_value": 15102.199165988699,
+        "threshold": 2.4549297665791907
+      },
+      {
+        "achieved_contact_fraction": 0.05006043027972087,
+        "boundary_ties": 1,
+        "contacts": 5006.043027972086,
+        "cost": 0.25,
+        "intended_fraction": 0.05,
+        "net": 6677.97177084814,
+        "raw_count": 1043,
+        "selected_churn_value": 17957.614622001613,
+        "threshold": 2.1979075218515507
+      },
+      {
+        "achieved_contact_fraction": 0.060065499472279134,
+        "boundary_ties": 1,
+        "contacts": 6006.5499472279125,
+        "cost": 0.25,
+        "intended_fraction": 0.06,
+        "net": 7611.103413915542,
+        "raw_count": 1165,
+        "selected_churn_value": 19601.029028781275,
+        "threshold": 2.0928699970766007
+      },
+      {
+        "achieved_contact_fraction": 0.0700094503318337,
+        "boundary_ties": 1,
+        "contacts": 7000.945033183369,
+        "cost": 0.25,
+        "intended_fraction": 0.07,
+        "net": 9015.376070998107,
+        "raw_count": 1319,
+        "selected_churn_value": 21896.68379068604,
+        "threshold": 1.9564640458433824
+      },
+      {
+        "achieved_contact_fraction": 0.08014365592471481,
+        "boundary_ties": 1,
+        "contacts": 8014.36559247148,
+        "cost": 0.25,
+        "intended_fraction": 0.08,
+        "net": 10440.91951713249,
+        "raw_count": 1473,
+        "selected_churn_value": 24228.48738229217,
+        "threshold": 1.8472362714571424
+      },
+      {
+        "achieved_contact_fraction": 0.09009567780928955,
+        "boundary_ties": 1,
+        "contacts": 9009.567780928954,
+        "cost": 0.25,
+        "intended_fraction": 0.09,
+        "net": 11823.87613224476,
+        "raw_count": 1629,
+        "selected_churn_value": 26494.816774273608,
+        "threshold": 1.7589822617653146
+      },
+      {
+        "achieved_contact_fraction": 0.10007249841427719,
+        "boundary_ties": 1,
+        "contacts": 10007.249841427718,
+        "cost": 0.25,
+        "intended_fraction": 0.1,
+        "net": 12534.90089557043,
+        "raw_count": 1744,
+        "selected_churn_value": 27828.76854989911,
+        "threshold": 1.7064006668719545
+      },
+      {
+        "achieved_contact_fraction": 0.11011792273193635,
+        "boundary_ties": 1,
+        "contacts": 11011.792273193634,
+        "cost": 0.25,
+        "intended_fraction": 0.11,
+        "net": 13543.901122980045,
+        "raw_count": 1876,
+        "selected_churn_value": 29578.957210108958,
+        "threshold": 1.6408459346057607
+      },
+      {
+        "achieved_contact_fraction": 0.12016738256210562,
+        "boundary_ties": 1,
+        "contacts": 12016.73825621056,
+        "cost": 0.25,
+        "intended_fraction": 0.12,
+        "net": 14483.849392358985,
+        "raw_count": 2009,
+        "selected_churn_value": 31233.380495016143,
+        "threshold": 1.5860951498644686
+      },
+      {
+        "achieved_contact_fraction": 0.1301684162421538,
+        "boundary_ties": 1,
+        "contacts": 13016.841624215378,
+        "cost": 0.25,
+        "intended_fraction": 0.13,
+        "net": 15214.144412333564,
+        "raw_count": 2130,
+        "selected_churn_value": 32594.93724776029,
+        "threshold": 1.5428469697072014
+      },
+      {
+        "achieved_contact_fraction": 0.14007604748911756,
+        "boundary_ties": 1,
+        "contacts": 14007.604748911754,
+        "cost": 0.25,
+        "intended_fraction": 0.14,
+        "net": 16407.41807668006,
+        "raw_count": 2275,
+        "selected_churn_value": 34596.27675542777,
+        "threshold": 1.4918841643254195
+      },
+      {
+        "achieved_contact_fraction": 0.15007304565665566,
+        "boundary_ties": 1,
+        "contacts": 15007.304565665563,
+        "cost": 0.25,
+        "intended_fraction": 0.15,
+        "net": 17157.306943314845,
+        "raw_count": 2395,
+        "selected_churn_value": 35984.90706212671,
+        "threshold": 1.4503175404261601
+      },
+      {
+        "achieved_contact_fraction": 0.1600498662616433,
+        "boundary_ties": 1,
+        "contacts": 16004.986626164327,
+        "cost": 0.25,
+        "intended_fraction": 0.16,
+        "net": 17854.96489792381,
+        "raw_count": 2510,
+        "selected_churn_value": 37300.293825645684,
+        "threshold": 1.4110947962836744
+      },
+      {
+        "achieved_contact_fraction": 0.17019272852489697,
+        "boundary_ties": 1,
+        "contacts": 17019.272852489696,
+        "cost": 0.25,
+        "intended_fraction": 0.17,
+        "net": 18395.95096846111,
+        "raw_count": 2619,
+        "selected_churn_value": 38403.846085532685,
+        "threshold": 1.3751406639662183
+      },
+      {
+        "achieved_contact_fraction": 0.1800801822093103,
+        "boundary_ties": 1,
+        "contacts": 18008.018220931026,
+        "cost": 0.25,
+        "intended_fraction": 0.18,
+        "net": 19515.403890273297,
+        "raw_count": 2759,
+        "selected_churn_value": 40301.956174313964,
+        "threshold": 1.33130231900841
+      },
+      {
+        "achieved_contact_fraction": 0.19004893178927773,
+        "boundary_ties": 1,
+        "contacts": 19004.89317892777,
+        "cost": 0.25,
+        "intended_fraction": 0.19,
+        "net": 20209.0597270453,
+        "raw_count": 2872,
+        "selected_churn_value": 41611.504196912836,
+        "threshold": 1.2949106250462947
+      },
+      {
+        "achieved_contact_fraction": 0.20018775854002135,
+        "boundary_ties": 1,
+        "contacts": 20018.77585400213,
+        "cost": 0.25,
+        "intended_fraction": 0.2,
+        "net": 20662.353726557583,
+        "raw_count": 2980,
+        "selected_churn_value": 42593.12179174738,
+        "threshold": 1.2626165866538512
+      },
+      {
+        "achieved_contact_fraction": 0.210120188507398,
+        "boundary_ties": 1,
+        "contacts": 21012.018850739798,
+        "cost": 0.25,
+        "intended_fraction": 0.21,
+        "net": 21156.986803039028,
+        "raw_count": 3084,
+        "selected_churn_value": 43624.988216283295,
+        "threshold": 1.2369633628463386
+      },
+      {
+        "achieved_contact_fraction": 0.22005665398728477,
+        "boundary_ties": 1,
+        "contacts": 22005.665398728474,
+        "cost": 0.25,
+        "intended_fraction": 0.22,
+        "net": 21701.083640618126,
+        "raw_count": 3189,
+        "selected_churn_value": 44725.69443097256,
+        "threshold": 1.2093937050007317
+      },
+      {
+        "achieved_contact_fraction": 0.2300052260047018,
+        "boundary_ties": 1,
+        "contacts": 23000.522600470176,
+        "cost": 0.25,
+        "intended_fraction": 0.23,
+        "net": 22240.307354710545,
+        "raw_count": 3297,
+        "selected_churn_value": 45820.05278448345,
+        "threshold": 1.1824749538002033
+      },
+      {
+        "achieved_contact_fraction": 0.24011983968038486,
+        "boundary_ties": 1,
+        "contacts": 24011.983968038483,
+        "cost": 0.25,
+        "intended_fraction": 0.24,
+        "net": 22693.814652044624,
+        "raw_count": 3399,
+        "selected_churn_value": 46801.12589451978,
+        "threshold": 1.1600759043256448
+      },
+      {
+        "achieved_contact_fraction": 0.2500199855476808,
+        "boundary_ties": 1,
+        "contacts": 25001.998554768077,
+        "cost": 0.25,
+        "intended_fraction": 0.25,
+        "net": 23097.58293756561,
+        "raw_count": 3495,
+        "selected_churn_value": 47705.670244802255,
+        "threshold": 1.1365747655633445
+      },
+      {
+        "achieved_contact_fraction": 0.2600250547402391,
+        "boundary_ties": 1,
+        "contacts": 26002.505474023907,
+        "cost": 0.25,
+        "intended_fraction": 0.26,
+        "net": 23813.456207751653,
+        "raw_count": 3617,
+        "selected_churn_value": 49047.33691146893,
+        "threshold": 1.1039769412063318
+      },
+      {
+        "achieved_contact_fraction": 0.2700503014953478,
+        "boundary_ties": 1,
+        "contacts": 27005.030149534778,
+        "cost": 0.25,
+        "intended_fraction": 0.27,
+        "net": 24546.10300497563,
+        "raw_count": 3744,
+        "selected_churn_value": 50413.000753276836,
+        "threshold": 1.0807888069555698
+      },
+      {
+        "achieved_contact_fraction": 0.28015280863350056,
+        "boundary_ties": 1,
+        "contacts": 28015.280863350054,
+        "cost": 0.25,
+        "intended_fraction": 0.28,
+        "net": 24941.168675190092,
+        "raw_count": 3843,
+        "selected_churn_value": 51312.48457087167,
+        "threshold": 1.0533802732521569
+      },
+      {
+        "achieved_contact_fraction": 0.2900892741133873,
+        "boundary_ties": 1,
+        "contacts": 29008.92741133873,
+        "cost": 0.25,
+        "intended_fraction": 0.29,
+        "net": 25463.527033350307,
+        "raw_count": 3948,
+        "selected_churn_value": 52382.9984530347,
+        "threshold": 1.0333794917431587
+      },
+      {
+        "achieved_contact_fraction": 0.30001766856825396,
+        "boundary_ties": 1,
+        "contacts": 30001.76685682539,
+        "cost": 0.25,
+        "intended_fraction": 0.3,
+        "net": 25920.96947222077,
+        "raw_count": 4051,
+        "selected_churn_value": 53363.07109225988,
+        "threshold": 1.0143624141588636
+      },
+      {
+        "achieved_contact_fraction": 0.010002726611148769,
+        "boundary_ties": 1,
+        "contacts": 1000.2726611148767,
+        "cost": 1.0,
+        "intended_fraction": 0.01,
+        "net": -1731.4907240688717,
+        "raw_count": 310,
+        "selected_churn_value": 5928.863801452784,
+        "threshold": 4.429909094300848
+      },
+      {
+        "achieved_contact_fraction": 0.02002680207555273,
+        "boundary_ties": 1,
+        "contacts": 2002.6802075552728,
+        "cost": 1.0,
+        "intended_fraction": 0.02,
+        "net": 102.51346798564737,
+        "raw_count": 531,
+        "selected_churn_value": 9868.324549362389,
+        "threshold": 3.2198098144808487
+      },
+      {
+        "achieved_contact_fraction": 0.030059534210329246,
+        "boundary_ties": 1,
+        "contacts": 3005.9534210329243,
+        "cost": 1.0,
+        "intended_fraction": 0.03,
+        "net": 1114.509319884266,
+        "raw_count": 707,
+        "selected_churn_value": 12667.309362384985,
+        "threshold": 2.7023718654875193
+      },
+      {
+        "achieved_contact_fraction": 0.04000752058239391,
+        "boundary_ties": 1,
+        "contacts": 4000.75205823939,
+        "cost": 1.0,
+        "intended_fraction": 0.04,
+        "net": 1872.8313412724747,
+        "raw_count": 862,
+        "selected_churn_value": 15102.199165988699,
+        "threshold": 2.4549297665791907
+      },
+      {
+        "achieved_contact_fraction": 0.05006043027972087,
+        "boundary_ties": 1,
+        "contacts": 5006.043027972086,
+        "cost": 1.0,
+        "intended_fraction": 0.05,
+        "net": 2923.439499869075,
+        "raw_count": 1043,
+        "selected_churn_value": 17957.614622001613,
+        "threshold": 2.1979075218515507
+      },
+      {
+        "achieved_contact_fraction": 0.060065499472279134,
+        "boundary_ties": 1,
+        "contacts": 6006.5499472279125,
+        "cost": 1.0,
+        "intended_fraction": 0.06,
+        "net": 3106.190953494607,
+        "raw_count": 1165,
+        "selected_churn_value": 19601.029028781275,
+        "threshold": 2.0928699970766007
+      },
+      {
+        "achieved_contact_fraction": 0.0700094503318337,
+        "boundary_ties": 1,
+        "contacts": 7000.945033183369,
+        "cost": 1.0,
+        "intended_fraction": 0.07,
+        "net": 3764.6672961105796,
+        "raw_count": 1319,
+        "selected_churn_value": 21896.68379068604,
+        "threshold": 1.9564640458433824
+      },
+      {
+        "achieved_contact_fraction": 0.08014365592471481,
+        "boundary_ties": 1,
+        "contacts": 8014.36559247148,
+        "cost": 1.0,
+        "intended_fraction": 0.08,
+        "net": 4430.145322778881,
+        "raw_count": 1473,
+        "selected_churn_value": 24228.48738229217,
+        "threshold": 1.8472362714571424
+      },
+      {
+        "achieved_contact_fraction": 0.09009567780928955,
+        "boundary_ties": 1,
+        "contacts": 9009.567780928954,
+        "cost": 1.0,
+        "intended_fraction": 0.09,
+        "net": 5066.700296548044,
+        "raw_count": 1629,
+        "selected_churn_value": 26494.816774273608,
+        "threshold": 1.7589822617653146
+      },
+      {
+        "achieved_contact_fraction": 0.10007249841427719,
+        "boundary_ties": 1,
+        "contacts": 10007.249841427718,
+        "cost": 1.0,
+        "intended_fraction": 0.1,
+        "net": 5029.463514499643,
+        "raw_count": 1744,
+        "selected_churn_value": 27828.76854989911,
+        "threshold": 1.7064006668719545
+      },
+      {
+        "achieved_contact_fraction": 0.11011792273193635,
+        "boundary_ties": 1,
+        "contacts": 11011.792273193634,
+        "cost": 1.0,
+        "intended_fraction": 0.11,
+        "net": 5285.056918084818,
+        "raw_count": 1876,
+        "selected_churn_value": 29578.957210108958,
+        "threshold": 1.6408459346057607
+      },
+      {
+        "achieved_contact_fraction": 0.12016738256210562,
+        "boundary_ties": 1,
+        "contacts": 12016.73825621056,
+        "cost": 1.0,
+        "intended_fraction": 0.12,
+        "net": 5471.295700201066,
+        "raw_count": 2009,
+        "selected_churn_value": 31233.380495016143,
+        "threshold": 1.5860951498644686
+      },
+      {
+        "achieved_contact_fraction": 0.1301684162421538,
+        "boundary_ties": 1,
+        "contacts": 13016.841624215378,
+        "cost": 1.0,
+        "intended_fraction": 0.13,
+        "net": 5451.51319417203,
+        "raw_count": 2130,
+        "selected_churn_value": 32594.93724776029,
+        "threshold": 1.5428469697072014
+      },
+      {
+        "achieved_contact_fraction": 0.14007604748911756,
+        "boundary_ties": 1,
+        "contacts": 14007.604748911754,
+        "cost": 1.0,
+        "intended_fraction": 0.14,
+        "net": 5901.714514996243,
+        "raw_count": 2275,
+        "selected_churn_value": 34596.27675542777,
+        "threshold": 1.4918841643254195
+      },
+      {
+        "achieved_contact_fraction": 0.15007304565665566,
+        "boundary_ties": 1,
+        "contacts": 15007.304565665563,
+        "cost": 1.0,
+        "intended_fraction": 0.15,
+        "net": 5901.828519065672,
+        "raw_count": 2395,
+        "selected_churn_value": 35984.90706212671,
+        "threshold": 1.4503175404261601
+      },
+      {
+        "achieved_contact_fraction": 0.1600498662616433,
+        "boundary_ties": 1,
+        "contacts": 16004.986626164327,
+        "cost": 1.0,
+        "intended_fraction": 0.16,
+        "net": 5851.224928300568,
+        "raw_count": 2510,
+        "selected_churn_value": 37300.293825645684,
+        "threshold": 1.4110947962836744
+      },
+      {
+        "achieved_contact_fraction": 0.17019272852489697,
+        "boundary_ties": 1,
+        "contacts": 17019.272852489696,
+        "cost": 1.0,
+        "intended_fraction": 0.17,
+        "net": 5631.496329093839,
+        "raw_count": 2619,
+        "selected_churn_value": 38403.846085532685,
+        "threshold": 1.3751406639662183
+      },
+      {
+        "achieved_contact_fraction": 0.1800801822093103,
+        "boundary_ties": 1,
+        "contacts": 18008.018220931026,
+        "cost": 1.0,
+        "intended_fraction": 0.18,
+        "net": 6009.390224575029,
+        "raw_count": 2759,
+        "selected_churn_value": 40301.956174313964,
+        "threshold": 1.33130231900841
+      },
+      {
+        "achieved_contact_fraction": 0.19004893178927773,
+        "boundary_ties": 1,
+        "contacts": 19004.89317892777,
+        "cost": 1.0,
+        "intended_fraction": 0.19,
+        "net": 5955.389842849472,
+        "raw_count": 2872,
+        "selected_churn_value": 41611.504196912836,
+        "threshold": 1.2949106250462947
+      },
+      {
+        "achieved_contact_fraction": 0.20018775854002135,
+        "boundary_ties": 1,
+        "contacts": 20018.77585400213,
+        "cost": 1.0,
+        "intended_fraction": 0.2,
+        "net": 5648.271836055985,
+        "raw_count": 2980,
+        "selected_churn_value": 42593.12179174738,
+        "threshold": 1.2626165866538512
+      },
+      {
+        "achieved_contact_fraction": 0.210120188507398,
+        "boundary_ties": 1,
+        "contacts": 21012.018850739798,
+        "cost": 1.0,
+        "intended_fraction": 0.21,
+        "net": 5397.97266498418,
+        "raw_count": 3084,
+        "selected_churn_value": 43624.988216283295,
+        "threshold": 1.2369633628463386
+      },
+      {
+        "achieved_contact_fraction": 0.22005665398728477,
+        "boundary_ties": 1,
+        "contacts": 22005.665398728474,
+        "cost": 1.0,
+        "intended_fraction": 0.22,
+        "net": 5196.834591571773,
+        "raw_count": 3189,
+        "selected_churn_value": 44725.69443097256,
+        "threshold": 1.2093937050007317
+      },
+      {
+        "achieved_contact_fraction": 0.2300052260047018,
+        "boundary_ties": 1,
+        "contacts": 23000.522600470176,
+        "cost": 1.0,
+        "intended_fraction": 0.23,
+        "net": 4989.915404357911,
+        "raw_count": 3297,
+        "selected_churn_value": 45820.05278448345,
+        "threshold": 1.1824749538002033
+      },
+      {
+        "achieved_contact_fraction": 0.24011983968038486,
+        "boundary_ties": 1,
+        "contacts": 24011.983968038483,
+        "cost": 1.0,
+        "intended_fraction": 0.24,
+        "net": 4684.826676015764,
+        "raw_count": 3399,
+        "selected_churn_value": 46801.12589451978,
+        "threshold": 1.1600759043256448
+      },
+      {
+        "achieved_contact_fraction": 0.2500199855476808,
+        "boundary_ties": 1,
+        "contacts": 25001.998554768077,
+        "cost": 1.0,
+        "intended_fraction": 0.25,
+        "net": 4346.084021489551,
+        "raw_count": 3495,
+        "selected_churn_value": 47705.670244802255,
+        "threshold": 1.1365747655633445
+      },
+      {
+        "achieved_contact_fraction": 0.2600250547402391,
+        "boundary_ties": 1,
+        "contacts": 26002.505474023907,
+        "cost": 1.0,
+        "intended_fraction": 0.26,
+        "net": 4311.577102233721,
+        "raw_count": 3617,
+        "selected_churn_value": 49047.33691146893,
+        "threshold": 1.1039769412063318
+      },
+      {
+        "achieved_contact_fraction": 0.2700503014953478,
+        "boundary_ties": 1,
+        "contacts": 27005.030149534778,
+        "cost": 1.0,
+        "intended_fraction": 0.27,
+        "net": 4292.330392824548,
+        "raw_count": 3744,
+        "selected_churn_value": 50413.000753276836,
+        "threshold": 1.0807888069555698
+      },
+      {
+        "achieved_contact_fraction": 0.28015280863350056,
+        "boundary_ties": 1,
+        "contacts": 28015.280863350054,
+        "cost": 1.0,
+        "intended_fraction": 0.28,
+        "net": 3929.7080276775523,
+        "raw_count": 3843,
+        "selected_churn_value": 51312.48457087167,
+        "threshold": 1.0533802732521569
+      },
+      {
+        "achieved_contact_fraction": 0.2900892741133873,
+        "boundary_ties": 1,
+        "contacts": 29008.92741133873,
+        "cost": 1.0,
+        "intended_fraction": 0.29,
+        "net": 3706.831474846258,
+        "raw_count": 3948,
+        "selected_churn_value": 52382.9984530347,
+        "threshold": 1.0333794917431587
+      },
+      {
+        "achieved_contact_fraction": 0.30001766856825396,
+        "boundary_ties": 1,
+        "contacts": 30001.76685682539,
+        "cost": 1.0,
+        "intended_fraction": 0.3,
+        "net": 3419.644329601728,
+        "raw_count": 4051,
+        "selected_churn_value": 53363.07109225988,
+        "threshold": 1.0143624141588636
+      },
+      {
+        "achieved_contact_fraction": 0.010002726611148769,
+        "boundary_ties": 1,
+        "contacts": 1000.2726611148767,
+        "cost": 2.0,
+        "intended_fraction": 0.01,
+        "net": -2731.7633851837486,
+        "raw_count": 310,
+        "selected_churn_value": 5928.863801452784,
+        "threshold": 4.429909094300848
+      },
+      {
+        "achieved_contact_fraction": 0.02002680207555273,
+        "boundary_ties": 1,
+        "contacts": 2002.6802075552728,
+        "cost": 2.0,
+        "intended_fraction": 0.02,
+        "net": -1900.166739569625,
+        "raw_count": 531,
+        "selected_churn_value": 9868.324549362389,
+        "threshold": 3.2198098144808487
+      },
+      {
+        "achieved_contact_fraction": 0.030059534210329246,
+        "boundary_ties": 1,
+        "contacts": 3005.9534210329243,
+        "cost": 2.0,
+        "intended_fraction": 0.03,
+        "net": -1891.4441011486588,
+        "raw_count": 707,
+        "selected_churn_value": 12667.309362384985,
+        "threshold": 2.7023718654875193
+      },
+      {
+        "achieved_contact_fraction": 0.04000752058239391,
+        "boundary_ties": 1,
+        "contacts": 4000.75205823939,
+        "cost": 2.0,
+        "intended_fraction": 0.04,
+        "net": -2127.9207169669153,
+        "raw_count": 862,
+        "selected_churn_value": 15102.199165988699,
+        "threshold": 2.4549297665791907
+      },
+      {
+        "achieved_contact_fraction": 0.05006043027972087,
+        "boundary_ties": 1,
+        "contacts": 5006.043027972086,
+        "cost": 2.0,
+        "intended_fraction": 0.05,
+        "net": -2082.603528103011,
+        "raw_count": 1043,
+        "selected_churn_value": 17957.614622001613,
+        "threshold": 2.1979075218515507
+      },
+      {
+        "achieved_contact_fraction": 0.060065499472279134,
+        "boundary_ties": 1,
+        "contacts": 6006.5499472279125,
+        "cost": 2.0,
+        "intended_fraction": 0.06,
+        "net": -2900.3589937333054,
+        "raw_count": 1165,
+        "selected_churn_value": 19601.029028781275,
+        "threshold": 2.0928699970766007
+      },
+      {
+        "achieved_contact_fraction": 0.0700094503318337,
+        "boundary_ties": 1,
+        "contacts": 7000.945033183369,
+        "cost": 2.0,
+        "intended_fraction": 0.07,
+        "net": -3236.277737072789,
+        "raw_count": 1319,
+        "selected_churn_value": 21896.68379068604,
+        "threshold": 1.9564640458433824
+      },
+      {
+        "achieved_contact_fraction": 0.08014365592471481,
+        "boundary_ties": 1,
+        "contacts": 8014.36559247148,
+        "cost": 2.0,
+        "intended_fraction": 0.08,
+        "net": -3584.2202696925997,
+        "raw_count": 1473,
+        "selected_churn_value": 24228.48738229217,
+        "threshold": 1.8472362714571424
+      },
+      {
+        "achieved_contact_fraction": 0.09009567780928955,
+        "boundary_ties": 1,
+        "contacts": 9009.567780928954,
+        "cost": 2.0,
+        "intended_fraction": 0.09,
+        "net": -3942.8674843809094,
+        "raw_count": 1629,
+        "selected_churn_value": 26494.816774273608,
+        "threshold": 1.7589822617653146
+      },
+      {
+        "achieved_contact_fraction": 0.10007249841427719,
+        "boundary_ties": 1,
+        "contacts": 10007.249841427718,
+        "cost": 2.0,
+        "intended_fraction": 0.1,
+        "net": -4977.786326928075,
+        "raw_count": 1744,
+        "selected_churn_value": 27828.76854989911,
+        "threshold": 1.7064006668719545
+      },
+      {
+        "achieved_contact_fraction": 0.11011792273193635,
+        "boundary_ties": 1,
+        "contacts": 11011.792273193634,
+        "cost": 2.0,
+        "intended_fraction": 0.11,
+        "net": -5726.735355108816,
+        "raw_count": 1876,
+        "selected_churn_value": 29578.957210108958,
+        "threshold": 1.6408459346057607
+      },
+      {
+        "achieved_contact_fraction": 0.12016738256210562,
+        "boundary_ties": 1,
+        "contacts": 12016.73825621056,
+        "cost": 2.0,
+        "intended_fraction": 0.12,
+        "net": -6545.442556009493,
+        "raw_count": 2009,
+        "selected_churn_value": 31233.380495016143,
+        "threshold": 1.5860951498644686
+      },
+      {
+        "achieved_contact_fraction": 0.1301684162421538,
+        "boundary_ties": 1,
+        "contacts": 13016.841624215378,
+        "cost": 2.0,
+        "intended_fraction": 0.13,
+        "net": -7565.328430043348,
+        "raw_count": 2130,
+        "selected_churn_value": 32594.93724776029,
+        "threshold": 1.5428469697072014
+      },
+      {
+        "achieved_contact_fraction": 0.14007604748911756,
+        "boundary_ties": 1,
+        "contacts": 14007.604748911754,
+        "cost": 2.0,
+        "intended_fraction": 0.14,
+        "net": -8105.89023391551,
+        "raw_count": 2275,
+        "selected_churn_value": 34596.27675542777,
+        "threshold": 1.4918841643254195
+      },
+      {
+        "achieved_contact_fraction": 0.15007304565665566,
+        "boundary_ties": 1,
+        "contacts": 15007.304565665563,
+        "cost": 2.0,
+        "intended_fraction": 0.15,
+        "net": -9105.476046599892,
+        "raw_count": 2395,
+        "selected_churn_value": 35984.90706212671,
+        "threshold": 1.4503175404261601
+      },
+      {
+        "achieved_contact_fraction": 0.1600498662616433,
+        "boundary_ties": 1,
+        "contacts": 16004.986626164327,
+        "cost": 2.0,
+        "intended_fraction": 0.16,
+        "net": -10153.76169786376,
+        "raw_count": 2510,
+        "selected_churn_value": 37300.293825645684,
+        "threshold": 1.4110947962836744
+      },
+      {
+        "achieved_contact_fraction": 0.17019272852489697,
+        "boundary_ties": 1,
+        "contacts": 17019.272852489696,
+        "cost": 2.0,
+        "intended_fraction": 0.17,
+        "net": -11387.776523395856,
+        "raw_count": 2619,
+        "selected_churn_value": 38403.846085532685,
+        "threshold": 1.3751406639662183
+      },
+      {
+        "achieved_contact_fraction": 0.1800801822093103,
+        "boundary_ties": 1,
+        "contacts": 18008.018220931026,
+        "cost": 2.0,
+        "intended_fraction": 0.18,
+        "net": -11998.627996355997,
+        "raw_count": 2759,
+        "selected_churn_value": 40301.956174313964,
+        "threshold": 1.33130231900841
+      },
+      {
+        "achieved_contact_fraction": 0.19004893178927773,
+        "boundary_ties": 1,
+        "contacts": 19004.89317892777,
+        "cost": 2.0,
+        "intended_fraction": 0.19,
+        "net": -13049.503336078298,
+        "raw_count": 2872,
+        "selected_churn_value": 41611.504196912836,
+        "threshold": 1.2949106250462947
+      },
+      {
+        "achieved_contact_fraction": 0.20018775854002135,
+        "boundary_ties": 1,
+        "contacts": 20018.77585400213,
+        "cost": 2.0,
+        "intended_fraction": 0.2,
+        "net": -14370.504017946147,
+        "raw_count": 2980,
+        "selected_churn_value": 42593.12179174738,
+        "threshold": 1.2626165866538512
+      },
+      {
+        "achieved_contact_fraction": 0.210120188507398,
+        "boundary_ties": 1,
+        "contacts": 21012.018850739798,
+        "cost": 2.0,
+        "intended_fraction": 0.21,
+        "net": -15614.046185755618,
+        "raw_count": 3084,
+        "selected_churn_value": 43624.988216283295,
+        "threshold": 1.2369633628463386
+      },
+      {
+        "achieved_contact_fraction": 0.22005665398728477,
+        "boundary_ties": 1,
+        "contacts": 22005.665398728474,
+        "cost": 2.0,
+        "intended_fraction": 0.22,
+        "net": -16808.8308071567,
+        "raw_count": 3189,
+        "selected_churn_value": 44725.69443097256,
+        "threshold": 1.2093937050007317
+      },
+      {
+        "achieved_contact_fraction": 0.2300052260047018,
+        "boundary_ties": 1,
+        "contacts": 23000.522600470176,
+        "cost": 2.0,
+        "intended_fraction": 0.23,
+        "net": -18010.607196112265,
+        "raw_count": 3297,
+        "selected_churn_value": 45820.05278448345,
+        "threshold": 1.1824749538002033
+      },
+      {
+        "achieved_contact_fraction": 0.24011983968038486,
+        "boundary_ties": 1,
+        "contacts": 24011.983968038483,
+        "cost": 2.0,
+        "intended_fraction": 0.24,
+        "net": -19327.15729202272,
+        "raw_count": 3399,
+        "selected_churn_value": 46801.12589451978,
+        "threshold": 1.1600759043256448
+      },
+      {
+        "achieved_contact_fraction": 0.2500199855476808,
+        "boundary_ties": 1,
+        "contacts": 25001.998554768077,
+        "cost": 2.0,
+        "intended_fraction": 0.25,
+        "net": -20655.914533278527,
+        "raw_count": 3495,
+        "selected_churn_value": 47705.670244802255,
+        "threshold": 1.1365747655633445
+      },
+      {
+        "achieved_contact_fraction": 0.2600250547402391,
+        "boundary_ties": 1,
+        "contacts": 26002.505474023907,
+        "cost": 2.0,
+        "intended_fraction": 0.26,
+        "net": -21690.928371790185,
+        "raw_count": 3617,
+        "selected_churn_value": 49047.33691146893,
+        "threshold": 1.1039769412063318
+      },
+      {
+        "achieved_contact_fraction": 0.2700503014953478,
+        "boundary_ties": 1,
+        "contacts": 27005.030149534778,
+        "cost": 2.0,
+        "intended_fraction": 0.27,
+        "net": -22712.69975671023,
+        "raw_count": 3744,
+        "selected_churn_value": 50413.000753276836,
+        "threshold": 1.0807888069555698
+      },
+      {
+        "achieved_contact_fraction": 0.28015280863350056,
+        "boundary_ties": 1,
+        "contacts": 28015.280863350054,
+        "cost": 2.0,
+        "intended_fraction": 0.28,
+        "net": -24085.5728356725,
+        "raw_count": 3843,
+        "selected_churn_value": 51312.48457087167,
+        "threshold": 1.0533802732521569
+      },
+      {
+        "achieved_contact_fraction": 0.2900892741133873,
+        "boundary_ties": 1,
+        "contacts": 29008.92741133873,
+        "cost": 2.0,
+        "intended_fraction": 0.29,
+        "net": -25302.09593649247,
+        "raw_count": 3948,
+        "selected_churn_value": 52382.9984530347,
+        "threshold": 1.0333794917431587
+      },
+      {
+        "achieved_contact_fraction": 0.30001766856825396,
+        "boundary_ties": 1,
+        "contacts": 30001.76685682539,
+        "cost": 2.0,
+        "intended_fraction": 0.3,
+        "net": -26582.122527223662,
+        "raw_count": 4051,
+        "selected_churn_value": 53363.07109225988,
+        "threshold": 1.0143624141588636
+      },
+      {
+        "achieved_contact_fraction": 0.010002726611148769,
+        "boundary_ties": 1,
+        "contacts": 1000.2726611148767,
+        "cost": 5.0,
+        "intended_fraction": 0.01,
+        "net": -5732.581368528378,
+        "raw_count": 310,
+        "selected_churn_value": 5928.863801452784,
+        "threshold": 4.429909094300848
+      },
+      {
+        "achieved_contact_fraction": 0.02002680207555273,
+        "boundary_ties": 1,
+        "contacts": 2002.6802075552728,
+        "cost": 5.0,
+        "intended_fraction": 0.02,
+        "net": -7908.207362235444,
+        "raw_count": 531,
+        "selected_churn_value": 9868.324549362389,
+        "threshold": 3.2198098144808487
+      },
+      {
+        "achieved_contact_fraction": 0.030059534210329246,
+        "boundary_ties": 1,
+        "contacts": 3005.9534210329243,
+        "cost": 5.0,
+        "intended_fraction": 0.03,
+        "net": -10909.304364247431,
+        "raw_count": 707,
+        "selected_churn_value": 12667.309362384985,
+        "threshold": 2.7023718654875193
+      },
+      {
+        "achieved_contact_fraction": 0.04000752058239391,
+        "boundary_ties": 1,
+        "contacts": 4000.75205823939,
+        "cost": 5.0,
+        "intended_fraction": 0.04,
+        "net": -14130.176891685087,
+        "raw_count": 862,
+        "selected_churn_value": 15102.199165988699,
+        "threshold": 2.4549297665791907
+      },
+      {
+        "achieved_contact_fraction": 0.05006043027972087,
+        "boundary_ties": 1,
+        "contacts": 5006.043027972086,
+        "cost": 5.0,
+        "intended_fraction": 0.05,
+        "net": -17100.732612019267,
+        "raw_count": 1043,
+        "selected_churn_value": 17957.614622001613,
+        "threshold": 2.1979075218515507
+      },
+      {
+        "achieved_contact_fraction": 0.060065499472279134,
+        "boundary_ties": 1,
+        "contacts": 6006.5499472279125,
+        "cost": 5.0,
+        "intended_fraction": 0.06,
+        "net": -20920.008835417044,
+        "raw_count": 1165,
+        "selected_churn_value": 19601.029028781275,
+        "threshold": 2.0928699970766007
+      },
+      {
+        "achieved_contact_fraction": 0.0700094503318337,
+        "boundary_ties": 1,
+        "contacts": 7000.945033183369,
+        "cost": 5.0,
+        "intended_fraction": 0.07,
+        "net": -24239.11283662289,
+        "raw_count": 1319,
+        "selected_churn_value": 21896.68379068604,
+        "threshold": 1.9564640458433824
+      },
+      {
+        "achieved_contact_fraction": 0.08014365592471481,
+        "boundary_ties": 1,
+        "contacts": 8014.36559247148,
+        "cost": 5.0,
+        "intended_fraction": 0.08,
+        "net": -27627.317047107044,
+        "raw_count": 1473,
+        "selected_churn_value": 24228.48738229217,
+        "threshold": 1.8472362714571424
+      },
+      {
+        "achieved_contact_fraction": 0.09009567780928955,
+        "boundary_ties": 1,
+        "contacts": 9009.567780928954,
+        "cost": 5.0,
+        "intended_fraction": 0.09,
+        "net": -30971.570827167772,
+        "raw_count": 1629,
+        "selected_churn_value": 26494.816774273608,
+        "threshold": 1.7589822617653146
+      },
+      {
+        "achieved_contact_fraction": 0.10007249841427719,
+        "boundary_ties": 1,
+        "contacts": 10007.249841427718,
+        "cost": 5.0,
+        "intended_fraction": 0.1,
+        "net": -34999.53585121123,
+        "raw_count": 1744,
+        "selected_churn_value": 27828.76854989911,
+        "threshold": 1.7064006668719545
+      },
+      {
+        "achieved_contact_fraction": 0.11011792273193635,
+        "boundary_ties": 1,
+        "contacts": 11011.792273193634,
+        "cost": 5.0,
+        "intended_fraction": 0.11,
+        "net": -38762.11217468972,
+        "raw_count": 1876,
+        "selected_churn_value": 29578.957210108958,
+        "threshold": 1.6408459346057607
+      },
+      {
+        "achieved_contact_fraction": 0.12016738256210562,
+        "boundary_ties": 1,
+        "contacts": 12016.73825621056,
+        "cost": 5.0,
+        "intended_fraction": 0.12,
+        "net": -42595.65732464117,
+        "raw_count": 2009,
+        "selected_churn_value": 31233.380495016143,
+        "threshold": 1.5860951498644686
+      },
+      {
+        "achieved_contact_fraction": 0.1301684162421538,
+        "boundary_ties": 1,
+        "contacts": 13016.841624215378,
+        "cost": 5.0,
+        "intended_fraction": 0.13,
+        "net": -46615.85330268948,
+        "raw_count": 2130,
+        "selected_churn_value": 32594.93724776029,
+        "threshold": 1.5428469697072014
+      },
+      {
+        "achieved_contact_fraction": 0.14007604748911756,
+        "boundary_ties": 1,
+        "contacts": 14007.604748911754,
+        "cost": 5.0,
+        "intended_fraction": 0.14,
+        "net": -50128.70448065078,
+        "raw_count": 2275,
+        "selected_churn_value": 34596.27675542777,
+        "threshold": 1.4918841643254195
+      },
+      {
+        "achieved_contact_fraction": 0.15007304565665566,
+        "boundary_ties": 1,
+        "contacts": 15007.304565665563,
+        "cost": 5.0,
+        "intended_fraction": 0.15,
+        "net": -54127.38974359658,
+        "raw_count": 2395,
+        "selected_churn_value": 35984.90706212671,
+        "threshold": 1.4503175404261601
+      },
+      {
+        "achieved_contact_fraction": 0.1600498662616433,
+        "boundary_ties": 1,
+        "contacts": 16004.986626164327,
+        "cost": 5.0,
+        "intended_fraction": 0.16,
+        "net": -58168.72157635674,
+        "raw_count": 2510,
+        "selected_churn_value": 37300.293825645684,
+        "threshold": 1.4110947962836744
+      },
+      {
+        "achieved_contact_fraction": 0.17019272852489697,
+        "boundary_ties": 1,
+        "contacts": 17019.272852489696,
+        "cost": 5.0,
+        "intended_fraction": 0.17,
+        "net": -62445.59508086494,
+        "raw_count": 2619,
+        "selected_churn_value": 38403.846085532685,
+        "threshold": 1.3751406639662183
+      },
+      {
+        "achieved_contact_fraction": 0.1800801822093103,
+        "boundary_ties": 1,
+        "contacts": 18008.018220931026,
+        "cost": 5.0,
+        "intended_fraction": 0.18,
+        "net": -66022.68265914908,
+        "raw_count": 2759,
+        "selected_churn_value": 40301.956174313964,
+        "threshold": 1.33130231900841
+      },
+      {
+        "achieved_contact_fraction": 0.19004893178927773,
+        "boundary_ties": 1,
+        "contacts": 19004.89317892777,
+        "cost": 5.0,
+        "intended_fraction": 0.19,
+        "net": -70064.18287286161,
+        "raw_count": 2872,
+        "selected_churn_value": 41611.504196912836,
+        "threshold": 1.2949106250462947
+      },
+      {
+        "achieved_contact_fraction": 0.20018775854002135,
+        "boundary_ties": 1,
+        "contacts": 20018.77585400213,
+        "cost": 5.0,
+        "intended_fraction": 0.2,
+        "net": -74426.83157995254,
+        "raw_count": 2980,
+        "selected_churn_value": 42593.12179174738,
+        "threshold": 1.2626165866538512
+      },
+      {
+        "achieved_contact_fraction": 0.210120188507398,
+        "boundary_ties": 1,
+        "contacts": 21012.018850739798,
+        "cost": 5.0,
+        "intended_fraction": 0.21,
+        "net": -78650.10273797502,
+        "raw_count": 3084,
+        "selected_churn_value": 43624.988216283295,
+        "threshold": 1.2369633628463386
+      },
+      {
+        "achieved_contact_fraction": 0.22005665398728477,
+        "boundary_ties": 1,
+        "contacts": 22005.665398728474,
+        "cost": 5.0,
+        "intended_fraction": 0.22,
+        "net": -82825.82700334213,
+        "raw_count": 3189,
+        "selected_churn_value": 44725.69443097256,
+        "threshold": 1.2093937050007317
+      },
+      {
+        "achieved_contact_fraction": 0.2300052260047018,
+        "boundary_ties": 1,
+        "contacts": 23000.522600470176,
+        "cost": 5.0,
+        "intended_fraction": 0.23,
+        "net": -87012.17499752279,
+        "raw_count": 3297,
+        "selected_churn_value": 45820.05278448345,
+        "threshold": 1.1824749538002033
+      },
+      {
+        "achieved_contact_fraction": 0.24011983968038486,
+        "boundary_ties": 1,
+        "contacts": 24011.983968038483,
+        "cost": 5.0,
+        "intended_fraction": 0.24,
+        "net": -91363.10919613818,
+        "raw_count": 3399,
+        "selected_churn_value": 46801.12589451978,
+        "threshold": 1.1600759043256448
+      },
+      {
+        "achieved_contact_fraction": 0.2500199855476808,
+        "boundary_ties": 1,
+        "contacts": 25001.998554768077,
+        "cost": 5.0,
+        "intended_fraction": 0.25,
+        "net": -95661.91019758275,
+        "raw_count": 3495,
+        "selected_churn_value": 47705.670244802255,
+        "threshold": 1.1365747655633445
+      },
+      {
+        "achieved_contact_fraction": 0.2600250547402391,
+        "boundary_ties": 1,
+        "contacts": 26002.505474023907,
+        "cost": 5.0,
+        "intended_fraction": 0.26,
+        "net": -99698.4447938619,
+        "raw_count": 3617,
+        "selected_churn_value": 49047.33691146893,
+        "threshold": 1.1039769412063318
+      },
+      {
+        "achieved_contact_fraction": 0.2700503014953478,
+        "boundary_ties": 1,
+        "contacts": 27005.030149534778,
+        "cost": 5.0,
+        "intended_fraction": 0.27,
+        "net": -103727.79020531455,
+        "raw_count": 3744,
+        "selected_churn_value": 50413.000753276836,
+        "threshold": 1.0807888069555698
+      },
+      {
+        "achieved_contact_fraction": 0.28015280863350056,
+        "boundary_ties": 1,
+        "contacts": 28015.280863350054,
+        "cost": 5.0,
+        "intended_fraction": 0.28,
+        "net": -108131.41542572266,
+        "raw_count": 3843,
+        "selected_churn_value": 51312.48457087167,
+        "threshold": 1.0533802732521569
+      },
+      {
+        "achieved_contact_fraction": 0.2900892741133873,
+        "boundary_ties": 1,
+        "contacts": 29008.92741133873,
+        "cost": 5.0,
+        "intended_fraction": 0.29,
+        "net": -112328.87817050866,
+        "raw_count": 3948,
+        "selected_churn_value": 52382.9984530347,
+        "threshold": 1.0333794917431587
+      },
+      {
+        "achieved_contact_fraction": 0.30001766856825396,
+        "boundary_ties": 1,
+        "contacts": 30001.76685682539,
+        "cost": 5.0,
+        "intended_fraction": 0.3,
+        "net": -116587.42309769985,
+        "raw_count": 4051,
+        "selected_churn_value": 53363.07109225988,
+        "threshold": 1.0143624141588636
+      }
+    ],
+    "retained_months": 6,
+    "rows": 10000,
+    "score": "expit(logit(clip(p_s_oof,1e-6,1-1e-6))+logit(.02)-logit(.4956))*value",
+    "status": "REPRODUCED",
+    "stored_choices": [
+      {
+        "calibration_oof_net": 25920.96947222077,
+        "cost": 0.25,
+        "fraction": 0.3,
+        "frozen_threshold": 1.01437210454265,
+        "launch_allowed_by_assumed_calibration_net": true,
+        "no_contact_net": 0.0
+      },
+      {
+        "calibration_oof_net": 6009.390224575029,
+        "cost": 1.0,
+        "fraction": 0.18,
+        "frozen_threshold": 1.3296292108091934,
+        "launch_allowed_by_assumed_calibration_net": true,
+        "no_contact_net": 0.0
+      },
+      {
+        "calibration_oof_net": -1891.4441011486588,
+        "cost": 2.0,
+        "fraction": 0.03,
+        "frozen_threshold": 2.680008864411434,
+        "launch_allowed_by_assumed_calibration_net": false,
+        "no_contact_net": 0.0
+      },
+      {
+        "calibration_oof_net": -5732.581368528379,
+        "cost": 5.0,
+        "fraction": 0.01,
+        "frozen_threshold": 4.481670516111727,
+        "launch_allowed_by_assumed_calibration_net": false,
+        "no_contact_net": 0.0
+      }
+    ],
+    "success": 0.2,
+    "winners": [
+      {
+        "achieved_contact_fraction": 0.30001766856825396,
+        "boundary_ties": 1,
+        "contacts": 30001.76685682539,
+        "cost": 0.25,
+        "fraction_deviation": 0.0,
+        "intended_fraction": 0.3,
+        "net": 25920.96947222077,
+        "net_at_stored_fraction": 25920.96947222077,
+        "net_at_stored_fraction_deviation": 0.0,
+        "no_contact_net": 0.0,
+        "quoted_calibration_oof_net": 25920.96947222077,
+        "raw_count": 4051,
+        "selected_churn_value": 53363.07109225988,
+        "stored_fraction": 0.3,
+        "tag": "[E] legacy calibration-only diagnostic",
+        "threshold": 1.0143624141588636
+      },
+      {
+        "achieved_contact_fraction": 0.1800801822093103,
+        "boundary_ties": 1,
+        "contacts": 18008.018220931026,
+        "cost": 1.0,
+        "fraction_deviation": 0.0,
+        "intended_fraction": 0.18,
+        "net": 6009.390224575029,
+        "net_at_stored_fraction": 6009.390224575029,
+        "net_at_stored_fraction_deviation": 0.0,
+        "no_contact_net": 0.0,
+        "quoted_calibration_oof_net": 6009.390224575029,
+        "raw_count": 2759,
+        "selected_churn_value": 40301.956174313964,
+        "stored_fraction": 0.18,
+        "tag": "[E] legacy calibration-only diagnostic",
+        "threshold": 1.33130231900841
+      },
+      {
+        "achieved_contact_fraction": 0.030059534210329246,
+        "boundary_ties": 1,
+        "contacts": 3005.9534210329243,
+        "cost": 2.0,
+        "fraction_deviation": 0.0,
+        "intended_fraction": 0.03,
+        "net": -1891.4441011486588,
+        "net_at_stored_fraction": -1891.4441011486588,
+        "net_at_stored_fraction_deviation": 0.0,
+        "no_contact_net": 0.0,
+        "quoted_calibration_oof_net": -1891.4441011486588,
+        "raw_count": 707,
+        "selected_churn_value": 12667.309362384985,
+        "stored_fraction": 0.03,
+        "tag": "[E] legacy calibration-only diagnostic",
+        "threshold": 2.7023718654875193
+      },
+      {
+        "achieved_contact_fraction": 0.010002726611148769,
+        "boundary_ties": 1,
+        "contacts": 1000.2726611148767,
+        "cost": 5.0,
+        "fraction_deviation": 0.0,
+        "intended_fraction": 0.01,
+        "net": -5732.581368528378,
+        "net_at_stored_fraction": -5732.581368528378,
+        "net_at_stored_fraction_deviation": 9.094947017729282e-13,
+        "no_contact_net": 0.0,
+        "quoted_calibration_oof_net": -5732.581368528379,
+        "raw_count": 310,
+        "selected_churn_value": 5928.863801452784,
+        "stored_fraction": 0.01,
+        "tag": "[E] legacy calibration-only diagnostic",
+        "threshold": 4.429909094300848
+      }
+    ]
+  },
+  "band": {
+    "brief_approximation": {
+      "central": 0.69,
+      "lower": 0.17,
+      "upper": 0.93
+    },
+    "central": 0.6850373137534997,
+    "central_prior": [
+      6,
+      24
+    ],
+    "interpretation": "Sensitivity across three assumed priors, not a confidence/credible interval.",
+    "lower": 0.16823329149846597,
+    "statement": "P(net>0) between 17% and 93% depending on the prevention-rate prior; central 69% (Beta(6,24)); computed probabilities 0.168233/0.930004/0.685037.",
+    "upper": 0.9300037463815178
+  },
+  "budget_optimized": false,
+  "constants_source": {
+    "accessor": "common.stored_constants",
+    "file": {
+      "path": "D:/progs/IDE/MainProjs/AI/GCI2026/finalA/v2_work/final_metrics.json",
+      "present": true,
+      "sha256": "1d14a4fea10ab391631379f82cd6a82e5a65ede4f01db5b540c9aec3612eea1e",
+      "size": 155122
+    },
+    "test_rows_recomputed": 0
+  },
+  "deviations": [
+    "[E] Preregistered randomized stratified inverse-CDF Monte Carlo replaces iid draws to reduce quantile uncertainty; one million draws/prior are non-iid and no iid MCSE is reported.",
+    "[E] PNG deliberately shows only the three $1 curves; its title discloses that all twelve cost/prior curves remain in the full SHA-bound CSV (when reproduction succeeds).",
+    "[E] Added a $0 no-campaign audit and $0.000001 absolute replay-net check at the stored fraction; no new budget selection criterion is tuned."
+  ],
+  "method": {
+    "closed_form": "scipy.stats.beta mean/ppf/sf, scipy.special.betaincc; eplus=mean*betaincc(a+1,b,g_star)-g_star*betaincc(a,b,g_star). E(net+)=G*eplus; EVPI=E(net+)-max(0,E(net)).",
+    "monte_carlo": "N=1000000 per prior, (arange(N)+rng(3).random(N))/N then beta.ppf; single sequential seeded generator, fixed prior order; non-iid randomized stratification. Linear empirical 5th percentile. No adaptive draws, tuning, clipping, or iid MCSE.",
+    "quadrature": "scipy.integrate.quad eplus on [g_star,1], abs difference strictly below 1e-9.",
+    "references": "User-supplied approximate brief values, retained as references, never substituted for computed estimates.",
+    "tolerances": {
+      "budget_fraction_absolute": 0.01,
+      "dollars_relative": 0.01,
+      "probability_absolute": 0.005
+    }
+  },
+  "name": "prior-integrated net at the frozen 10% threshold",
+  "net_curve": {
+    "budget_optimized": false,
+    "csv": {
+      "path": "D:/progs/IDE/MainProjs/AI/GCI2026/finalA/v3_addons/results/wp3_net_curve.csv",
+      "present": true,
+      "sha256": "f9148028b1a8158685de1556d82617d4f2750550084463ee88d13305283fabc1",
+      "size": 194136
+    },
+    "csv_rows": 480,
+    "figure": {
+      "path": "D:/progs/IDE/MainProjs/AI/GCI2026/finalA/v3_addons/figures/wp3_net_curve.png",
+      "present": true,
+      "sha256": "7f36752025300149e1c6a46b1f5aaa705c4ff1ca89dd0ae3bf75dad40d5c370b",
+      "size": 28627
+    },
+    "figure_scope": "$1 cost only, three prior curves; full four-cost/three-prior grid in CSV.",
+    "legend": "Three short one-line labels; helper legend height is below 600 pixels.",
+    "legend_labels": [
+      "B(6,14) $1",
+      "B(6,24) $1",
+      "B(2,18) $1"
+    ],
+    "no_contact_net": 0.0,
+    "promoted": false,
+    "source_rows": 75000,
+    "status": "WRITTEN"
+  },
+  "no_contact_net": 0.0,
+  "p_positive_band": {
+    "brief_approximation": {
+      "central": 0.69,
+      "lower": 0.17,
+      "upper": 0.93
+    },
+    "central": 0.6850373137534997,
+    "central_prior": [
+      6,
+      24
+    ],
+    "interpretation": "Sensitivity across three assumed priors, not a confidence/credible interval.",
+    "lower": 0.16823329149846597,
+    "statement": "P(net>0) between 17% and 93% depending on the prevention-rate prior; central 69% (Beta(6,24)); computed probabilities 0.168233/0.930004/0.685037.",
+    "upper": 0.9300037463815178
+  },
+  "population_attempted": true,
+  "priors": [
+    {
+      "a": 6,
+      "b": 14,
+      "brief_reference": {
+        "evpi_per_cohort": 196.0,
+        "expected_net": 13113.0,
+        "net_5pct": -1173.0,
+        "p_positive": 0.93
+      },
+      "closed_form": {
+        "eplus": 0.1420968894236968,
+        "evpi_horizon12": 2348.5565705165063,
+        "evpi_per_cohort": 195.7130475430422,
+        "expected_net": 13113.08445055108,
+        "expected_positive_net": 13308.797498094122,
+        "net_5pct": -1172.9190819783926,
+        "p_positive": 0.9300037463815178
+      },
+      "draws": 1000000,
+      "g_star": 0.1599927219990843,
+      "gamma_mean": 0.3,
+      "label": "Beta(6,14)",
+      "monte_carlo": {
+        "eplus": 0.14209687501370843,
+        "evpi_horizon12": 2348.5559115110664,
+        "evpi_per_cohort": 195.7129926259222,
+        "expected_net": 13113.0831558284,
+        "expected_positive_net": 13308.796148454323,
+        "net_5pct": -1172.871425146164,
+        "p_positive": 0.930004
+      },
+      "quadrature": {
+        "absolute_difference": 5.551115123125783e-17,
+        "eplus": 0.14209688942369675,
+        "error_estimate": 1.5775923836580303e-15
+      },
+      "tag": "[E] integration conditional on [A] prevention/economics"
+    },
+    {
+      "a": 6,
+      "b": 24,
+      "brief_reference": {
+        "evpi_per_cohort": 1093.0,
+        "expected_net": 3747.0,
+        "net_5pct": -6166.0,
+        "p_positive": 0.685
+      },
+      "closed_form": {
+        "eplus": 0.05168020327883496,
+        "evpi_horizon12": 13119.43697269735,
+        "evpi_per_cohort": 1093.2864143914458,
+        "expected_net": 3747.082455665277,
+        "expected_positive_net": 4840.368870056723,
+        "net_5pct": -6166.359913496997,
+        "p_positive": 0.6850373137534997
+      },
+      "draws": 1000000,
+      "g_star": 0.1599927219990843,
+      "gamma_mean": 0.2,
+      "label": "Beta(6,24)",
+      "monte_carlo": {
+        "eplus": 0.05168019039904791,
+        "evpi_horizon12": 13119.437711038583,
+        "evpi_per_cohort": 1093.286475919882,
+        "expected_net": 3747.0811878157274,
+        "expected_positive_net": 4840.367663735609,
+        "net_5pct": -6166.338963824356,
+        "p_positive": 0.685037
+      },
+      "quadrature": {
+        "absolute_difference": 6.245004513516506e-17,
+        "eplus": 0.0516802032788349,
+        "error_estimate": 6.845425108106913e-16
+      },
+      "tag": "[E] integration conditional on [A] prevention/economics"
+    },
+    {
+      "a": 2,
+      "b": 18,
+      "brief_reference": {
+        "evpi_per_cohort": 832.0,
+        "expected_net": -5619.0,
+        "net_5pct": -13202.0,
+        "p_positive": 0.168
+      },
+      "closed_form": {
+        "eplus": 0.008887018752269903,
+        "evpi_horizon12": 9988.300243481699,
+        "evpi_per_cohort": 832.3583536234748,
+        "expected_net": -5618.919539220531,
+        "expected_positive_net": 832.3583536234748,
+        "net_5pct": -13202.279123826023,
+        "p_positive": 0.16823329149846597
+      },
+      "draws": 1000000,
+      "g_star": 0.1599927219990843,
+      "gamma_mean": 0.1,
+      "label": "Beta(2,18)",
+      "monte_carlo": {
+        "eplus": 0.008887010722941457,
+        "evpi_horizon12": 9988.291219156949,
+        "evpi_per_cohort": 832.3576015964123,
+        "expected_net": -5618.920288327048,
+        "expected_positive_net": 832.3576015964123,
+        "net_5pct": -13202.27959691788,
+        "p_positive": 0.168234
+      },
+      "quadrature": {
+        "absolute_difference": 1.3877787807814457e-17,
+        "eplus": 0.008887018752269916,
+        "error_estimate": 9.866572839045591e-17
+      },
+      "tag": "[E] integration conditional on [A] prevention/economics"
+    }
+  ],
+  "prospective_policy_promoted": false,
+  "provenance": {
+    "created_utc": "2026-10-29T15:05:28.869408+00:00",
+    "input_files": [
+      {
+        "path": "D:/progs/IDE/MainProjs/AI/GCI2026/finalA/analysis_outputs/feature_manifest.json",
+        "present": true,
+        "sha256": "8e0560cedab891acfea8b440b5d7f28516de1e3adc5b06899a442dd8d07fd067",
+        "size": 2559
+      },
+      {
+        "path": "D:/progs/IDE/MainProjs/AI/GCI2026/finalA/analysis_outputs/model_selection.json",
+        "present": true,
+        "sha256": "62e17913b8e7bf7bf1ac8fdd4556d242b524c884a0e929352c2b9e3bb5e9acc3",
+        "size": 321
+      },
+      {
+        "path": "D:/progs/IDE/MainProjs/AI/GCI2026/finalA/telecom/Record.csv",
+        "present": true,
+        "sha256": "5bd563bb77b357920832510b78d6842060d928cb5de8c0aaf79aa2a647e2271a",
+        "size": 30182432
+      },
+      {
+        "path": "D:/progs/IDE/MainProjs/AI/GCI2026/finalA/v1_frozen/analysis_outputs/tables/split_manifest.csv",
+        "present": true,
+        "sha256": "4caefcbed46a834f89cfbf21387f78555e601b43a8cee81d1637c786fb0a21b3",
+        "size": 1690023
+      },
+      {
+        "path": "D:/progs/IDE/MainProjs/AI/GCI2026/finalA/v2_work/a_budget_choices.csv",
+        "present": true,
+        "sha256": "846ba54ed56421ac06da6b452df72986ba94a2500372610425448aab9a125a2b",
+        "size": 334
+      },
+      {
+        "path": "D:/progs/IDE/MainProjs/AI/GCI2026/finalA/v2_work/a_selected_calibration.csv",
+        "present": true,
+        "sha256": "fa0ee67c5b94431e5313633219c04c8c4c248944564659e06007e0a2aff25648",
+        "size": 1449202
+      },
+      {
+        "path": "D:/progs/IDE/MainProjs/AI/GCI2026/finalA/v2_work/common.py",
+        "present": true,
+        "sha256": "c68e6bcd81a24ae6960474ea537c4574fd0139fd83126fae0a853275611b0de7",
+        "size": 4647
+      },
+      {
+        "path": "D:/progs/IDE/MainProjs/AI/GCI2026/finalA/v2_work/d_results/oof/baseline_lgbm_r0_f0.npz",
+        "present": true,
+        "sha256": "7c95f578448d7cc565fe698b02d6d691818b9c072099ce3d712513a04d1c22cd",
+        "size": 425956
+      },
+      {
+        "path": "D:/progs/IDE/MainProjs/AI/GCI2026/finalA/v2_work/d_results/oof/baseline_lgbm_r0_f1.npz",
+        "present": true,
+        "sha256": "ab8bdbf05930676d8a99a03c8cac339bf70894528063f90f2730f597d51cead7",
+        "size": 426238
+      },
+      {
+        "path": "D:/progs/IDE/MainProjs/AI/GCI2026/finalA/v2_work/d_results/oof/baseline_lgbm_r0_f2.npz",
+        "present": true,
+        "sha256": "261e411d43e57bc07e2cea4478ea5ca14eed652d7a504cb2a92bbea2f4e2f1b8",
+        "size": 426064
+      },
+      {
+        "path": "D:/progs/IDE/MainProjs/AI/GCI2026/finalA/v2_work/d_results/oof/baseline_lgbm_r0_f3.npz",
+        "present": true,
+        "sha256": "3e686c9c9e28ab042a2537c314aefef2dbc05b7c14bde743e4690ea621e0dd50",
+        "size": 426063
+      },
+      {
+        "path": "D:/progs/IDE/MainProjs/AI/GCI2026/finalA/v2_work/d_results/oof/baseline_lgbm_r0_f4.npz",
+        "present": true,
+        "sha256": "c7ef34ff72ddc81ff7c7f5b9125a3958583c40978121f0dd43cafb6e46ff10cc",
+        "size": 425689
+      },
+      {
+        "path": "D:/progs/IDE/MainProjs/AI/GCI2026/finalA/v2_work/d_results/oof/baseline_lgbm_r1_f0.npz",
+        "present": true,
+        "sha256": "47298f1db1f8e758d57f7f9a777ccd1c2d5bcf59f913c914ed9f970755e6f453",
+        "size": 425915
+      },
+      {
+        "path": "D:/progs/IDE/MainProjs/AI/GCI2026/finalA/v2_work/d_results/oof/baseline_lgbm_r1_f1.npz",
+        "present": true,
+        "sha256": "a0f96c7b7d0af44a3332c39f6c41d35cbe17dc3505f5a57d3681135b1b9ea848",
+        "size": 426194
+      },
+      {
+        "path": "D:/progs/IDE/MainProjs/AI/GCI2026/finalA/v2_work/d_results/oof/baseline_lgbm_r1_f2.npz",
+        "present": true,
+        "sha256": "96066024ef34837f2aa3b640a8ab705100ceb1d46ba43e51cfc2338f9ce09a9d",
+        "size": 426447
+      },
+      {
+        "path": "D:/progs/IDE/MainProjs/AI/GCI2026/finalA/v2_work/d_results/oof/baseline_lgbm_r1_f3.npz",
+        "present": true,
+        "sha256": "d552473bfe1d333afd55a9f77a7e87de172273218c9181dbbf3f0ce1fc071636",
+        "size": 426035
+      },
+      {
+        "path": "D:/progs/IDE/MainProjs/AI/GCI2026/finalA/v2_work/d_results/oof/baseline_lgbm_r1_f4.npz",
+        "present": true,
+        "sha256": "4f0fe7e92f48e7adc6aeb92290559dbed0ce34386ca3f2594df20f326d9e14e7",
+        "size": 425781
+      },
+      {
+        "path": "D:/progs/IDE/MainProjs/AI/GCI2026/finalA/v2_work/final_metrics.json",
+        "present": true,
+        "sha256": "1d14a4fea10ab391631379f82cd6a82e5a65ede4f01db5b540c9aec3612eea1e",
+        "size": 155122
+      },
+      {
+        "path": "D:/progs/IDE/MainProjs/AI/GCI2026/finalA/v2_work/workstream_a.py",
+        "present": true,
+        "sha256": "b1ccdd6d40eab51961498ff39c0522f4df57b1d0cd4309aa5b509fc30a3434b8",
+        "size": 17411
+      },
+      {
+        "path": "D:/progs/IDE/MainProjs/AI/GCI2026/finalA/v3_addons/reports/WP2_report.md",
+        "present": true,
+        "sha256": "dbf0005a3895c2f55239c35aefb041ee481a6b8a0849ce0e0d56352b539c3ebd",
+        "size": 4323
+      },
+      {
+        "path": "D:/progs/IDE/MainProjs/AI/GCI2026/finalA/v3_addons/results/wp2_evsi.json",
+        "present": true,
+        "sha256": "cd64fe05f11e974916e461d6f12764cff53ecd7f62fb8a1e461d966611c2e405",
+        "size": 60310
+      },
+      {
+        "path": "D:/progs/IDE/MainProjs/AI/GCI2026/finalA/v3_addons/src/common.py",
+        "present": true,
+        "sha256": "5522fe7e7c49f945db5bd12bff6b850652ee12b002014a64f44217b01d13db0d",
+        "size": 7086
+      },
+      {
+        "path": "D:/progs/IDE/MainProjs/AI/GCI2026/finalA/v3_addons/src/png_drafts.py",
+        "present": true,
+        "sha256": "4c9a2135d01750409d1d3be20d3cef404385dcdddf5306d0dcde5b746c0069c8",
+        "size": 22184
+      },
+      {
+        "path": "D:/progs/IDE/MainProjs/AI/GCI2026/finalA/v3_addons/src/reporting.py",
+        "present": true,
+        "sha256": "189d0c2ebcb7616746332e56d568e180bd364346f0422ae1c20712dbdc4f4479",
+        "size": 941
+      },
+      {
+        "path": "D:/progs/IDE/MainProjs/AI/GCI2026/finalA/v3_addons/src/wp3_roi.py",
+        "present": true,
+        "sha256": "ce71605f22204fa3326159ee4194064d298a12c6b8ad5401a0eb9dd39807bd48",
+        "size": 36500
+      }
+    ],
+    "python_version": "3.11.9 (tags/v3.11.9:de54cf5, Apr  2 2024, 10:12:12) [MSC v.1938 64 bit (AMD64)]",
+    "row_counts": {
+      "calibration_rows": 10000,
+      "curve_rows": 480,
+      "draws_per_prior": 1000000,
+      "population_rows": 75000,
+      "priors": 3,
+      "test_rows_used": 0
+    },
+    "runtime_pools": [
+      {
+        "architecture": "Haswell",
+        "filepath": "C:\\Users\\FGstore\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\numpy.libs\\libscipy_openblas64_-860d95b1c38e637ce4509f5fa24fbf2a.dll",
+        "internal_api": "openblas",
+        "num_threads": 6,
+        "prefix": "libscipy_openblas",
+        "threading_layer": "pthreads",
+        "user_api": "blas",
+        "version": "0.3.30"
+      },
+      {
+        "architecture": "Haswell",
+        "filepath": "C:\\Users\\FGstore\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\scipy.libs\\libscipy_openblas-64eda39e79589aedb16f58e5547eb599.dll",
+        "internal_api": "openblas",
+        "num_threads": 6,
+        "prefix": "libscipy_openblas",
+        "threading_layer": "pthreads",
+        "user_api": "blas",
+        "version": "0.3.30"
+      }
+    ],
+    "script": "D:/progs/IDE/MainProjs/AI/GCI2026/finalA/v3_addons/src/wp3_roi.py",
+    "script_sha256": "ce71605f22204fa3326159ee4194064d298a12c6b8ad5401a0eb9dd39807bd48",
+    "seed": 20261031,
+    "tags_used": [
+      "[E]",
+      "[A]",
+      "[R]"
+    ]
+  },
+  "quoted_constants": {
+    "G": 93660.01994885807,
+    "K": 14984.92153410634,
+    "contact_mass": 9984.92153410634,
+    "g_star": 0.1599927219990843,
+    "net": 3747.082455665277,
+    "p0": 0.04771148430230854
+  },
+  "status": "DONE",
+  "tags_used": [
+    "[E]",
+    "[A]",
+    "[R]"
+  ],
+  "upstream_wp2": {
+    "note": "Terminal completion establishes order, not approval of WP2 checks.",
+    "report": {
+      "path": "D:/progs/IDE/MainProjs/AI/GCI2026/finalA/v3_addons/reports/WP2_report.md",
+      "present": true,
+      "sha256": "dbf0005a3895c2f55239c35aefb041ee481a6b8a0849ce0e0d56352b539c3ebd",
+      "size": 4323
+    },
+    "result": {
+      "path": "D:/progs/IDE/MainProjs/AI/GCI2026/finalA/v3_addons/results/wp2_evsi.json",
+      "present": true,
+      "sha256": "cd64fe05f11e974916e461d6f12764cff53ecd7f62fb8a1e461d966611c2e405",
+      "size": 60310
+    },
+    "status": "DONE"
+  }
+}

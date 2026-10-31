@@ -1,0 +1,225 @@
+{
+  "acceptance": {
+    "all_read_statuses_present": true,
+    "arxiv_identity_verified": true,
+    "ascarza_quote_supported_by_accessible_copy": true,
+    "blocked_pages_not_claimed_read": true,
+    "emp_default_verified": true,
+    "no_duplicate_existing_citations": true,
+    "no_root_reference_edit": true,
+    "only_used_new_source_marked_Y": true
+  },
+  "add_to_references_rule": "M9 Y only if Option C actually cites the package-default prior; otherwise apply no append.",
+  "artifacts": [
+    {
+      "path": "D:/progs/IDE/MainProjs/AI/GCI2026/finalA/v3_addons/results/wp6_citation_register.csv",
+      "present": true,
+      "sha256": "f17a49c7a157d3180dc090fcfcf3efc91729804d3ea58055616bc0aa098b805f",
+      "size": 3342
+    },
+    {
+      "path": "D:/progs/IDE/MainProjs/AI/GCI2026/finalA/v3_addons/results/wp6_references_append_option_c.txt",
+      "present": true,
+      "sha256": "42f6a6a7141bff2af8a5aa343264a34e173243cf3fb90840cc4c31dfadbaaa31",
+      "size": 657
+    },
+    {
+      "path": "D:/progs/IDE/MainProjs/AI/GCI2026/finalA/v3_addons/results/wp6_omnicampus_references_draft.txt",
+      "present": true,
+      "sha256": "fea1bf2914ae6acc3409f6cc86baa95a011ebf51858e447e1f56ed22f85cbce5",
+      "size": 1102
+    }
+  ],
+  "citation_register": [
+    {
+      "add_to_references": "Y",
+      "authors": "EMP package contributors",
+      "id": "M9",
+      "read_status": "Source-code and documentation pages opened; exact function signature inspected; not a research-paper full-text claim.",
+      "title": "empChurn: source code and documentation",
+      "url": "https://rdrr.io/cran/EMP/src/R/empChurn.R",
+      "used_for": "Option C only: source of the assumed Beta(6,14) package-default sensitivity prior on slide 12; not a measured Company A effect.",
+      "year": "accessed 2026"
+    },
+    {
+      "add_to_references": "N",
+      "authors": "H\u00f6ppner; Stripling; Baesens; vanden Broucke; Verdonck",
+      "id": "PROFTREE",
+      "read_status": "Metadata and abstract page opened; initial submission 21 December 2017; full paper not read.",
+      "title": "Profit Driven Decision Trees for Churn Prediction",
+      "url": "https://arxiv.org/abs/1712.08101",
+      "used_for": "Supporting citation-identity correction only: this identifier is H\u00f6ppner et al., not Verbraken; no proposed PDF claim relies on it.",
+      "year": "2017"
+    },
+    {
+      "add_to_references": "N",
+      "authors": "Eva Ascarza; Raghuram Iyengar; Martin Schleicher",
+      "id": "S4_COPY",
+      "read_status": "Accessible full-text copy downloaded; abstract and relevant field-experiment sections read, not the entire paper.",
+      "title": "The Perils of Proactive Churn Prevention Using Plan Recommendations: Evidence from a Field Experiment",
+      "url": "https://business.columbia.edu/sites/default/files-efs/pubfiles/12782/Perils_Ascarza.pdf",
+      "used_for": "Existing S4 and supporting WP4: rounded 6% control versus 10% treated churn over three months after plan recommendations; existing reference already includes this copy, no duplicate append.",
+      "year": "2016"
+    },
+    {
+      "add_to_references": "N",
+      "authors": "Eva Ascarza; Raghuram Iyengar; Martin Schleicher",
+      "id": "S4_HBS",
+      "read_status": "Access failed with HTTP 403; page not read.",
+      "title": "HBS item page for the plan-recommendation field experiment",
+      "url": "https://www.hbs.edu/faculty/Pages/item.aspx?num=54941",
+      "used_for": "Access audit only; cannot support the numerical quotation. Accessible S4_COPY supports it.",
+      "year": "2016"
+    },
+    {
+      "add_to_references": "N",
+      "authors": "Claude Nadeau; Yoshua Bengio",
+      "id": "NB",
+      "read_status": "Author manuscript dated 18 June 2001 downloaded; abstract and section 3.1 read. Published 2003 Machine Learning 52:239\u2013281 is corroborated by Bouckaert\u2013Frank reference 6; publisher page returned 303 and was not read.",
+      "title": "Inference for the Generalization Error",
+      "url": "https://www.iro.umontreal.ca/~lisa/pointeurs/nadeau_MLJ1597.pdf",
+      "used_for": "Supporting corrected-variance audit: (1/J + n_test/n_train)*s\u00b2 uses a surrogate correlation; it may over- or underestimate variance. No new PDF claim or post-hoc degrees-of-freedom change.",
+      "year": "2003 published; 2001 manuscript read"
+    },
+    {
+      "add_to_references": "N",
+      "authors": "Remco R. Bouckaert; Eibe Frank",
+      "id": "BF",
+      "read_status": "Accessible full text downloaded and read, including sections 3.2\u20133.3 and references.",
+      "title": "Evaluating the Replicability of Significance Tests for Comparing Learning Algorithms",
+      "url": "https://www.cs.waikato.ac.nz/ml/publications/2004/bouckaert-frank.pdf",
+      "used_for": "Supporting heuristic repeated-k-fold variance correction and degrees-of-freedom audit; does not justify shopping for a passing df or treating repeated folds as independent. Not used in proposed PDF edits.",
+      "year": "2004"
+    },
+    {
+      "add_to_references": "N",
+      "authors": "Marco Saerens; Patrice Latinne; Christine Decaestecker",
+      "id": "M5",
+      "read_status": "PubMed metadata and original abstract opened; Neural Computation 14(1):21\u201341. Explicit EM update equation is not displayed; no full-text equation verification.",
+      "title": "Adjusting the outputs of a classifier to new a priori probabilities: a simple procedure",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/11747533/",
+      "used_for": "Existing M5; proposed diagnostic-only monitor wording must say implemented from standard derivation and validated by simulation, paper read from abstract only. Existing reference needs no duplicate append.",
+      "year": "2002"
+    }
+  ],
+  "no_integration": true,
+  "provenance": {
+    "created_utc": "2026-10-29T15:44:37.586209+00:00",
+    "input_files": [
+      {
+        "path": "D:/progs/IDE/MainProjs/AI/GCI2026/finalA/references.txt",
+        "present": true,
+        "sha256": "b12fb18aafc83e2d599e15d04c689ee5cd85c10082c1761ab0c6f1d01606d361",
+        "size": 18843
+      },
+      {
+        "path": "D:/progs/IDE/MainProjs/AI/GCI2026/finalA/v3_addons/reports/WP5_report.md",
+        "present": true,
+        "sha256": "7eadb863a180e4f951734b6c6a326f0e0a0809517c44f5cd73abb9ce644fdf61",
+        "size": 15211
+      },
+      {
+        "path": "D:/progs/IDE/MainProjs/AI/GCI2026/finalA/v3_addons/results/sources/ascarza_2016_source.pdf",
+        "present": true,
+        "sha256": "9e02694d5c2699ec9b59dc4a03ad42d3eca8d3c39a461a7e362bce87d7ab9e8c",
+        "size": 967934
+      },
+      {
+        "path": "D:/progs/IDE/MainProjs/AI/GCI2026/finalA/v3_addons/results/sources/ascarza_2016_source.txt",
+        "present": true,
+        "sha256": "0cfda524a29346e7db5640034deda927f4150d2f2b1eaa86688a0fd504aea326",
+        "size": 135867
+      },
+      {
+        "path": "D:/progs/IDE/MainProjs/AI/GCI2026/finalA/v3_addons/results/sources/bouckaert_frank_2004.pdf",
+        "present": true,
+        "sha256": "ff5379a16cfb0f64bb80900c809f8c74ed01bf1c4c22cc9f54597f9e94fbb386",
+        "size": 87710
+      },
+      {
+        "path": "D:/progs/IDE/MainProjs/AI/GCI2026/finalA/v3_addons/results/sources/bouckaert_frank_2004.txt",
+        "present": true,
+        "sha256": "f057ac41e049f2c29abc362db9c755e4bdd2f5567107aa0766c7974da9e13443",
+        "size": 31421
+      },
+      {
+        "path": "D:/progs/IDE/MainProjs/AI/GCI2026/finalA/v3_addons/results/sources/nadeau_bengio_source.pdf",
+        "present": true,
+        "sha256": "e3a1ec656312feba41dec7fa474fe8b0780472bb77427655e1fee6c3f664df54",
+        "size": 674619
+      },
+      {
+        "path": "D:/progs/IDE/MainProjs/AI/GCI2026/finalA/v3_addons/results/sources/nadeau_bengio_source.txt",
+        "present": true,
+        "sha256": "3ae5f35cbb5e329ce21b7b01d20f654fe3b41bf41a848de2943dfe6e2a761967",
+        "size": 227099
+      },
+      {
+        "path": "D:/progs/IDE/MainProjs/AI/GCI2026/finalA/v3_addons/results/wp5_label_shift.json",
+        "present": true,
+        "sha256": "3a4d94fe806c00421f53688c2000bfb2293ecc16320dbb795d9b8375a8a9338e",
+        "size": 1079813
+      },
+      {
+        "path": "D:/progs/IDE/MainProjs/AI/GCI2026/finalA/v3_addons/src/common.py",
+        "present": true,
+        "sha256": "5522fe7e7c49f945db5bd12bff6b850652ee12b002014a64f44217b01d13db0d",
+        "size": 7086
+      },
+      {
+        "path": "D:/progs/IDE/MainProjs/AI/GCI2026/finalA/v3_addons/src/reporting.py",
+        "present": true,
+        "sha256": "189d0c2ebcb7616746332e56d568e180bd364346f0422ae1c20712dbdc4f4479",
+        "size": 941
+      },
+      {
+        "path": "D:/progs/IDE/MainProjs/AI/GCI2026/finalA/v3_addons/src/wp6_citations.py",
+        "present": true,
+        "sha256": "3f82e1869df450ff962e43aeb9d678855f9272e14b40040129ffb2082b9d96a5",
+        "size": 9977
+      }
+    ],
+    "python_version": "3.11.9 (tags/v3.11.9:de54cf5, Apr  2 2024, 10:12:12) [MSC v.1938 64 bit (AMD64)]",
+    "row_counts": {
+      "citation_rows": 7
+    },
+    "runtime_pools": [
+      {
+        "architecture": "Haswell",
+        "filepath": "C:\\Users\\FGstore\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\numpy.libs\\libscipy_openblas64_-860d95b1c38e637ce4509f5fa24fbf2a.dll",
+        "internal_api": "openblas",
+        "num_threads": 6,
+        "prefix": "libscipy_openblas",
+        "threading_layer": "pthreads",
+        "user_api": "blas",
+        "version": "0.3.30"
+      },
+      {
+        "architecture": "Haswell",
+        "filepath": "C:\\Users\\FGstore\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\scipy.libs\\libscipy_openblas-64eda39e79589aedb16f58e5547eb599.dll",
+        "internal_api": "openblas",
+        "num_threads": 6,
+        "prefix": "libscipy_openblas",
+        "threading_layer": "pthreads",
+        "user_api": "blas",
+        "version": "0.3.30"
+      }
+    ],
+    "script": "D:/progs/IDE/MainProjs/AI/GCI2026/finalA/v3_addons/src/wp6_citations.py",
+    "script_sha256": "3f82e1869df450ff962e43aeb9d678855f9272e14b40040129ffb2082b9d96a5",
+    "seed": 20261034,
+    "tags_used": [
+      "[E]",
+      "[A]",
+      "[R]"
+    ]
+  },
+  "source_observations": {
+    "ascarza": "6% control and 10% treatment over three months after cost-minimizing plan recommendations; intervention-specific.",
+    "bouckaert": "Repeated k-fold correction (1/(k*r) + n_test/n_train)*s\u00b2; heuristic distributional/df choices do not permit retrospective df shopping.",
+    "emp_signature": "function(scores, classes, alpha = 6, beta = 14, clv = 200, d = 10, f = 1)",
+    "m5": "Implemented from the standard derivation and validated by simulation; paper read from abstract only.",
+    "nadeau": "(1/J + n_test/n_train)*s\u00b2 approximates covariance using a surrogate correlation; not universally unbiased."
+  },
+  "status": "DONE"
+}

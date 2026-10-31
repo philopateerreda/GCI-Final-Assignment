@@ -1,0 +1,81 @@
+{
+  "provenance": {
+    "created_utc": "2026-10-29T15:45:39.009214+00:00",
+    "input_files": [
+      {
+        "path": "D:/progs/IDE/MainProjs/AI/GCI2026/finalA/v3_addons/src/common.py",
+        "present": true,
+        "sha256": "5522fe7e7c49f945db5bd12bff6b850652ee12b002014a64f44217b01d13db0d",
+        "size": 7086
+      },
+      {
+        "path": "D:/progs/IDE/MainProjs/AI/GCI2026/finalA/v3_addons/src/reporting.py",
+        "present": true,
+        "sha256": "189d0c2ebcb7616746332e56d568e180bd364346f0422ae1c20712dbdc4f4479",
+        "size": 941
+      },
+      {
+        "path": "D:/progs/IDE/MainProjs/AI/GCI2026/finalA/v3_addons/src/wp7_handback.py",
+        "present": true,
+        "sha256": "9b476cf3f27b3baba53742b443d2a5429f8192b8124f5384d4e41805c79f35d9",
+        "size": 24372
+      },
+      {
+        "path": "D:/progs/IDE/MainProjs/AI/GCI2026/finalA/v3_addons/tests/test_final_validation.py",
+        "present": true,
+        "sha256": "c2692ac51ef7a922f4e44e702f113fc1739c87fc93b873d20038276573926055",
+        "size": 13843
+      }
+    ],
+    "python_version": "3.11.9 (tags/v3.11.9:de54cf5, Apr  2 2024, 10:12:12) [MSC v.1938 64 bit (AMD64)]",
+    "row_counts": {},
+    "runtime_pools": [
+      {
+        "architecture": "Haswell",
+        "filepath": "C:\\Users\\FGstore\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\numpy.libs\\libscipy_openblas64_-860d95b1c38e637ce4509f5fa24fbf2a.dll",
+        "internal_api": "openblas",
+        "num_threads": 6,
+        "prefix": "libscipy_openblas",
+        "threading_layer": "pthreads",
+        "user_api": "blas",
+        "version": "0.3.30"
+      },
+      {
+        "architecture": "Haswell",
+        "filepath": "C:\\Users\\FGstore\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\scipy.libs\\libscipy_openblas-64eda39e79589aedb16f58e5547eb599.dll",
+        "internal_api": "openblas",
+        "num_threads": 6,
+        "prefix": "libscipy_openblas",
+        "threading_layer": "pthreads",
+        "user_api": "blas",
+        "version": "0.3.30"
+      }
+    ],
+    "script": "D:/progs/IDE/MainProjs/AI/GCI2026/finalA/v3_addons/tests/test_final_validation.py",
+    "script_sha256": "c2692ac51ef7a922f4e44e702f113fc1739c87fc93b873d20038276573926055",
+    "seed": 20261035,
+    "tags_used": [
+      "[E]",
+      "[A]",
+      "[R]"
+    ]
+  },
+  "values": [
+    -1.282801342617864,
+    -1.1695834702305663,
+    -0.37801061847954176,
+    -0.660330779654035,
+    -0.16829015759404187,
+    0.7903317348232112,
+    -0.3721340292949403,
+    1.0271511114699161,
+    1.2476709046746495,
+    -0.7211249029794949,
+    0.6020724335837947,
+    1.741449217470679,
+    -1.1813809777481883,
+    2.3770667434185726,
+    0.4685399583366014,
+    0.9193793317031911
+  ]
+}

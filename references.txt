@@ -1,0 +1,120 @@
+COMPANY A | CONTRIBUTION-FOCUSED SERVICE RECOVERY
+Omnicampus account: philopateer
+Evidence accessed: 28 October 2026
+
+DATA AND ASSIGNMENT
+
+[D1] GCI World 2026, Company A supplied historical dataset: telecom/Client.csv (100,000 x 50) and telecom/Record.csv (100,000 x 51). One-to-one join on Customer_ID gives 100,000 x 100. Dataset owner is anonymous. Churn describes days 31-60 after observation. Currency, dates, household identifiers, actual sampling design and interventions are not supplied. Original charts, scores and scenario tables are generated locally by philopateer.ipynb; source SHA-256 hashes are recorded in analysis_outputs/source_manifest.json and audit.json. Business EDA uses the 60,000-row training partition; final model metrics and ranking comparisons use 15,000 held-out rows.
+
+[D2] GCI World 2026. README.docx and ENG_Company _A_ Dataset Overview.docx, supplied assignment and feature documentation; tutorial (2).ipynb, supplied reference walkthrough. The tutorial was read for context, not submitted as original analysis or reused as measured model results. Source documents contain inconsistent seasonal labels; the explicit README deadline is 28 November 2026, 11:30 UTC. The supplied data dictionary calls change_mou/change_rev percentages, but the units remain uncertain and are not presented as percentage-point effects in this work.
+
+MARKET CONTEXT AND COMPARABLE IMPLEMENTATIONS
+
+[S1] T-Mobile US, Inc. 2025 Annual Report, including Form 10-K for the year ended 31 December 2025 (published 2026). Sections: customer churn; postpaid phone ARPU; postpaid ARPA.
+https://www.sec.gov/Archives/edgar/data/1283699/000128369926000010/tmus-20251231.htm
+Verified values: FY2025 monthly postpaid phone churn 0.93%; monthly prepaid churn 2.72%; postpaid phone ARPU $50.37/customer/month; postpaid ARPA $148.97/account/month. Churn is based on deactivations divided by average relevant customers and reporting months, subject to the company's stated exclusions. Accounts and subscribers are different denominators. These benchmarks are not Company A's prevalence or margin and do not calibrate its model.
+
+[S2] AT&T Inc. (9 February 2026). 2025 Form 10-K, year ended 31 December 2025. Mobility operational statistics and management discussion.
+https://www.sec.gov/Archives/edgar/data/732717/000073271726000120/t-20251231.htm
+Reported FY2025 postpaid phone churn 0.90%, versus 0.76% in 2024. Period churn averages monthly cancellations divided by beginning-of-month subscribers. Management links part of the increase to customers reaching the end of device financing periods. Financing maturity is not the same as handset age; no causal effect is inferred for Company A.
+
+[S3] Verizon Communications (26 October 2026). Verizon delivers another record-breaking quarter with 3Q 2026 results driven by strong postpaid phone and account additions.
+https://www.verizon.com/about/news/verizon-delivers-another-record-breaking-quarter
+The release reports that promotional cost of retention improved by 30% year over year and describes customer-first offerings and loyalty rather than heavy subsidies. This is a management-reported aggregate comparison, not a randomized effect and not a savings assumption for Company A.
+
+[S7] MCE Systems (26 May 2020). Vodafone Turkey launches Advanced Device Care by MCE and Techpo.
+https://www.mce.systems/articles/vodafone-turkey-launches-advanced-device-care-by-mce-and-techpo
+Named deployment: more than 1,000 Vodafone retail stores, free device health checks, diagnostics/repair triage and CRM-related integrations. The source is an operator/vendor case; it establishes operational precedent, not a causal churn benefit or Company A delivery cost. No NPS or churn improvement is imported into the scenario.
+
+[S8] PegaWorld iNspire (2023). How Vodafone Uses Pega to Deliver a Value-driven Retention Experience in Assisted and Digital Channels. Vodafone UK presentation and public transcript.
+https://www.pega.com/insights/resources/pegaworld-inspire-2023-how-vodafone-uses-pega-deliver-value-driven-retention
+Qualitative precedent: assisted/digital workflow combining customer context, commercial constraints and agent recommendations. Self-reported implementation; no causal savings or percentage gains are used in this submission. The proposal does not require purchasing this platform.
+
+CAUSAL RETENTION AND PROFIT-TARGETING RESEARCH
+
+[S4] Ascarza, E., Iyengar, R., & Schleicher, M. (2016). The Perils of Proactive Churn Prevention Using Plan Recommendations: Evidence from a Field Experiment. Journal of Marketing Research, 53(1), 46-60.
+https://www.hbs.edu/faculty/Pages/item.aspx?num=54941
+Reported field experiment: 6% control-group churn versus 10% treatment-group churn over three months following proactive cost-minimizing plan recommendations. The finding motivates untreated controls and early-harm monitoring; it does not prove all helpful service contact is harmful.
+
+[S5] Ascarza, E. (2018). Retention Futility: Targeting High-Risk Customers Might Be Ineffective. Journal of Marketing Research, 55(1), 80-98.
+https://www.hbs.edu/faculty/Pages/item.aspx?num=54936
+Two field experiments illustrate the distinction between churn risk and responsiveness to an intervention. The Company A risk model is a triage and experiment-stratification tool, not an uplift model.
+
+[S6] Lemmens, A., & Gupta, S. (2020). Managing Churn to Maximize Profits. Marketing Science, 39(5), 956-973. Online publication 27 August 2020.
+https://pure.eur.nl/en/publications/managing-churn-to-maximize-profits/
+Targets incremental effects on churn and post-campaign cash flows after intervention costs and optimizes campaign size. This informs the profit-based objective and no-contact option, but the supplied Company A data do not contain the randomized interventions needed to reproduce causal profit targeting.
+
+MODELING AND EVALUATION METHODS
+
+[M1] scikit-learn developers. User Guide: supervised learning, model evaluation, probability calibration and permutation importance. Stable online documentation, accessed 28 October 2026. Local scikit-learn version recorded in environment.json.
+https://scikit-learn.org/stable/modules/calibration.html
+https://scikit-learn.org/stable/modules/model_evaluation.html
+https://scikit-learn.org/stable/modules/permutation_importance.html
+Methods used: logistic regression; training-fitted imputation/scaling/one-hot encoding; stratified splits; ROC-AUC, average precision, Brier score and log loss; sigmoid calibration fitted to log odds; permutation importance. Empirical uncertainty uses a paired test-row percentile bootstrap. It is conditional on the fitted model and dataset, not a full uncertainty interval for deployment profit.
+
+[M2] LightGBM contributors. LightGBM Python API and parameter documentation. Accessed 28 October 2026.
+https://lightgbm.readthedocs.io/en/stable/
+Local CPU gradient boosting with native categorical inputs, validation-only early stopping and explicit regularization. Exact package version and hyperparameters are in the notebook and environment.json.
+
+[M3] XGBoost contributors. XGBoost documentation: categorical data and tree boosting. Accessed 28 October 2026.
+https://xgboost.readthedocs.io/en/stable/
+Used as an independent tabular model comparator with histogram trees, categorical support and validation-only early stopping.
+
+[M4] CatBoost contributors. CatBoost documentation. Accessed 28 October 2026.
+https://catboost.ai/en/docs/
+Used as a mixed-feature boosted-tree comparator with explicit categorical columns, fixed seed and local CPU thread budget.
+
+BUSINESS ASSUMPTIONS: NOT EXTERNAL FACTS
+
+USD-equivalent monetary scenario; actual dataset currency is unspecified. Hypothetical portfolio 100,000 customers, not a claim about Company A's customer base. Assumed future-window churn prevalence 2%, with 1% and 5% sensitivities. Uniform prevention of 20% of would-be churners, tested at 10% and 30%; six incremental retained months; 60% incremental margin; variable contact cost $1, tested at $2 and $5; fixed cost $5,000. No blanket discount, handset subsidy or measured treatment benefit is included. Costs must be fully loaded and re-estimated prospectively.
+
+Class-prior odds adjustment plus class-stratified retrospective weights assume the supplied churn/non-churn examples are representative within outcome class and that only the class prior changes. This has not been established. Population financial outputs are conditional simulations, not forecasts, measured uplift, guaranteed savings or an annualized result. The primary deployment decision requires randomized evidence of incremental net contribution.
+
+PRODUCTION ASSISTANCE
+
+Qoder generative-AI assistance was used for research synthesis, code development, interpretation checks and presentation drafting. Numerical results were generated by local Python execution on the user's device using the supplied dataset. External facts are attributed above; no external figures are copied. The course instructions request an AI chat-history URL; no public conversation URL has been supplied or fabricated. The account holder should review the evidence and any portal-specific disclosure before submission.
+
+
+ENHANCEMENT LITERATURE AND VERIFIED EVIDENCE COPIES
+
+[S1] Accessible evidence copy: https://s29.q4cdn.com/310188824/files/doc_financials/2025/ar/2025-TMUS-Annual-Report-Final-Web.pdf
+Coverage: verified_issuer_form10k_tables_and_definitions_from_annual_report_copy. These are external FY2025 monthly carrier metrics, not Company A prevalence, revenue currency, profitability, or a compatible churn-label horizon. T-Mobile's average-customer/period-month denominator and exclusions differ from AT&T's average of monthly beginning-of-month ratios. Do not interpret the 0.03 percentage-point headline difference as a controlled comparison. Postpaid phone ARPU and postpaid ARPA use different units/populations.
+
+[S2] Accessible evidence copy: https://investors.att.com/~/media/Files/A/ATT-IR-V2/financial-reports/annual-reports/2025/2025-annual-report-complete.pdf
+Coverage: verified_issuer_form10k_tables_and_definitions_from_annual_report_copy. Management attribution is not a randomized causal estimate. Financing maturity is not the same variable as handset age, and no Company A causal effect or 365-day cutoff is verified. The beginning-of-month denominator belongs to S2/AT&T, not S1/T-Mobile; carrier segment definitions and label horizons limit comparisons.
+
+[S4] Accessible evidence copy: https://business.columbia.edu/sites/default/files-efs/pubfiles/12782/Perils_Ascarza.pdf
+Coverage: verified_published_article_abstract_and_relevant_body. The causal backfire finding concerns that randomized plan-recommendation intervention, not every technical fix or service contact. The exact blueprint stratum 'low usage, zero overage, zero care calls' was not verified as a reported subgroup; label it a proposed harm-monitoring hypothesis. 'Global plan re-evaluation' should not replace the authors' more specific, supported mechanism language or be claimed as an established Company A cause. The 6%/10% are reported rounded group rates over three months, not monthly rates.
+
+[S5] Accessible evidence copy: https://evaascarza.com/papers/ascarza_18.pdf
+Coverage: verified_published_article_abstract_and_relevant_body. These are results for the studied campaigns and populations, not a universal theorem that all high-risk customers are unresponsive. The evidence does not turn an observational churn model into an uplift model or establish that Company A's proposed service recovery works. Below-cutoff exploration and overlap/positivity are design proposals needing actual randomized treatment/control outcomes.
+
+[M5] Marco Saerens, Patrice Latinne, Christine Decaestecker (2002). Adjusting the outputs of a classifier to new a priori probabilities: a simple procedure. Neural Computation, 21-41.
+https://pubmed.ncbi.nlm.nih.gov/11747533/
+Verified coverage: verified_metadata_and_original_abstract_only. Prior-probability adjustment rationale, citing the verified article metadata/abstract. Do not cite a fabricated full-text page or claim a guaranteed Company A improvement. Do not claim the exact odds formula or a specific equation/page was directly inspected in this inaccessible article. The blueprint's known-prior odds correction is independently verified by algebra and Elkan2001, printed p. 975. Fixed-prior correction and estimation of an unknown prior by EM are different procedures. The 2% deployment prior, stable class-conditional distributions, and adequate probability calibration are assumptions here, not facts established for Company A.
+
+[M6] Charles Elkan (2001). The Foundations of Cost-Sensitive Learning. Proceedings of the Seventeenth International Joint Conference on Artificial Intelligence (IJCAI 2001), 973-978.
+https://ijcai.org/proceedings/2001/0133.pdf
+Verified coverage: verified_official_full_paper_and_prior_shift_theorem. Cost-sensitive expected decisions and conditional known-prior odds correction. Use the official proceedings URL rather than treating inaccessible ResearchGate as inspected full text. The theorem concerns true probabilities under a pure base-rate change; applying it to model estimates requires additional calibration/transport assumptions. Minimum-cost classification is not evidence of retention treatment effectiveness. Ranking by p*V is expected-value optimal only for the specified objective under equal costs, an appropriate horizon-matched V, and any uniform response/margin assumptions; it is not universally optimal causal profit targeting.
+
+[M7] Alex Deng, Ya Xu, Ron Kohavi, Toby Walker (2013). Improving the Sensitivity of Online Controlled Experiments by Utilizing Pre-Experiment Data. Proceedings of the Sixth ACM International Conference on Web Search and Data Mining (WSDM '13), 123-132.
+https://exp-platform.com/Documents/2013-02-CUPED-ImprovingSensitivityOfControlledExperiments.pdf
+Verified coverage: verified_full_supplied_prepublication_manuscript. Prospective pre-experiment covariate-adjustment rationale, with variance reduction re-estimated on live pre-period/outcome pairs. Never import Bing's 50% as a Company A estimate. The assignment has no observed longitudinal pre/post treatment outcomes. A cross-sectional simulation using pre-treatment billing/risk covariates can illustrate ANCOVA-style adjustment but cannot verify live CUPED variance reduction, sample-size savings, or power for net contribution. Savings depend on actual pre/post correlation, covariate quality, matching coverage, randomization unit, and outcome distribution. Household clustering, unequal treatment effects, and sequential monitoring require separate design treatment.
+
+[M8] Scott A. Neslin, Sunil Gupta, Wagner Kamakura, Junxiang Lu, Charlotte H. Mason (2006). Defection Detection: Measuring and Understanding the Predictive Accuracy of Customer Churn Models. Journal of Marketing Research, 204-211.
+http://www.2lvw.nl/blog/wp-content/uploads/2020/05/20200514_Neslin_model_0fb0fc3d857c4c8f9ff6a84aec5e197fe8cb-1.pdf
+Verified coverage: verified_full_published_article_copy. Historical churn-tournament protocol and distinction between enriched calibration data and low-prevalence validation. Do not use as evidence of a universal 0.684 ceiling or matched benchmark. No universal ~0.684 Cell2Cell ROC-AUC benchmark was verified. Neither superiority of the local 0.6978 nor an information ceiling follows from this paper. Feature set, sampling, train/validation populations, temporal protocol, and metric definitions differ. Even a conventional conversion AUC=(Gini+1)/2 would be a conditional derivation, not a directly reported benchmark. The paper's broad three-month predictor description does not establish the exact window of every _Mean/_Range column in the supplied assignment.
+
+ENHANCEMENT DISCIPLINE AND INTERPRETATION
+
+The 15,000-customer test partition was previously evaluated for v1. Enhancement model, feature, calibrator and budget decisions use only the original 75,000 train/validation rows or the separate 10,000 calibration-policy rows. A frozen specification precedes the final descriptive test batch. Reproducibility replay is not a second model-selection search. Prior reuse and pointwise exploratory confidence intervals limit confirmatory interpretation.
+
+Sample benchmark: sample-calibrated p_s times recurring value, 1,500 of 15,000 unweighted rows. Deployment scenario: prior-shifted p_d times recurring value with outcome-stratified evaluation weights; its calibration-fitted 10% nominal budget can have a different achieved test mass and raw customer count. These are distinct regimes. A non-binding marginal variable-profit gate does not prove overconfidence.
+
+Model headroom uses paired 2 x 5 repeated non-test CV with a conservative corrected-t interval, variance multiplied by 1/10 + mean(held-out/train), with four degrees of freedom. These are pointwise, exploratory intervals, not simultaneous selection-adjusted guarantees. Unsuccessful experiments do not prove an information ceiling.
+
+The supplied CSVs contain no _Range fields; the dictionary does not establish the _Mean window length. avg3 and avg6 are used only with their verified three-/six-month definitions. Income is an ordinal code 1-9, not currency. Excluded-attribute recoverability is audited on non-test operational features; exclusion is not a fairness certificate. asl_flag and area are quarantined diagnostic-ceiling variables, never deployable decision features.
+
+Mandatory Service-Fix Floor: fix every verified network fault or billing error irrespective of bill size or discretionary list selection. Value-aware ranking rations only scarce proactive discretionary outreach. Routing and the low-usage/zero-overage/zero-care monitoring stratum are operational hypotheses, not treatment-effect findings.
+
+The staged pilot logs eligibility, inclusion and treatment propensities; adds sampled risk-only drops and below-cutoff learning accounts without double-counting value-aware additions. Monte Carlo contribution and ANCOVA/CUPED-style power are cross-sectional simulation proxies, not verified longitudinal variance reduction. Re-estimate live baseline, pre/post billing covariance, household clustering, measurement costs, intervention effects and sequential thresholds before launch. The approximately $13k core contact/startup envelope is a churn-learning experiment, not profit-powered rollout proof; Stage 2 learning allocations are not powered policy comparisons. Enrollment must span enough unique linked accounts across a larger portfolio or successive cohorts, rather than treating one 100,000-account financial scenario as sufficient pilot capacity.

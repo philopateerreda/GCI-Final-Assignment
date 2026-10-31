@@ -1,0 +1,42 @@
+{
+  "issue_count": 0,
+  "slide_count": 15,
+  "checked_revision": 21,
+  "saved_revision": 22,
+  "pptx_sha256": "a50a66fd77d062bdc45aeefb00ce8652b20b952de06dcb27e8ab4f15c37e46bc",
+  "check_tool": "mcp__plugin_Presentations_office__check_deck",
+  "check_result": {
+    "revision": 21,
+    "dirty": true,
+    "slideCount": 15,
+    "pageGenerationSupported": true,
+    "result": {
+      "pages": [
+        {"slideIndex": 0, "issues": []},
+        {"slideIndex": 1, "issues": []},
+        {"slideIndex": 2, "issues": []},
+        {"slideIndex": 3, "issues": []},
+        {"slideIndex": 4, "issues": []},
+        {"slideIndex": 5, "issues": []},
+        {"slideIndex": 6, "issues": []},
+        {"slideIndex": 7, "issues": []},
+        {"slideIndex": 8, "issues": []},
+        {"slideIndex": 9, "issues": []},
+        {"slideIndex": 10, "issues": []},
+        {"slideIndex": 11, "issues": []},
+        {"slideIndex": 12, "issues": []},
+        {"slideIndex": 13, "issues": []},
+        {"slideIndex": 14, "issues": []}
+      ]
+    }
+  },
+  "save_result": {
+    "path": "D:\\progs\\IDE\\MainProjs\\AI\\GCI2026\\finalA\\philopateer.pptx",
+    "revision": 22,
+    "dirty": false,
+    "slideCount": 15,
+    "pageGenerationSupported": true,
+    "validation": "saved-file-reopened; visual-review-required"
+  },
+  "scope": "Actual Office geometry/shaped-text audit and saved-file reopen after the slide 5 display-disclosure correction. Full-size rendered visual review and PowerPoint export remain separate requirements."
+}

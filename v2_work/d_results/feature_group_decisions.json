@@ -1,0 +1,74 @@
+[
+  {
+    "group": "g1_temporal",
+    "available": true,
+    "mean_auc_gain": 1.1618837034810258e-05,
+    "corrected_lower": -0.0019865275650261605,
+    "corrected_upper": 0.0020097652390957807,
+    "keep": true,
+    "positive_cv_signal": true,
+    "decision_allowed": true,
+    "reason": "positive paired CV signal, not automatic promotion",
+    "caveat": "global diagnostic summary; nested candidates select inside each outer train"
+  },
+  {
+    "group": "g2_range",
+    "available": false,
+    "mean_auc_gain": null,
+    "corrected_lower": null,
+    "corrected_upper": null,
+    "keep": false,
+    "positive_cv_signal": null,
+    "decision_allowed": false,
+    "reason": "Neither supplied CSV contains _Range columns; totmrc_Range, ovrrev_Range, mou_Range cannot be tested. No invented fields or reconstructed volatility.",
+    "caveat": null
+  },
+  {
+    "group": "g3_billing_gaps",
+    "available": true,
+    "mean_auc_gain": 0.00011746685780757992,
+    "corrected_lower": -0.00047029430741015094,
+    "corrected_upper": 0.0007052280230253108,
+    "keep": true,
+    "positive_cv_signal": true,
+    "decision_allowed": true,
+    "reason": "positive paired CV signal, not automatic promotion",
+    "caveat": "global diagnostic summary; nested candidates select inside each outer train"
+  },
+  {
+    "group": "g4_call_care",
+    "available": true,
+    "mean_auc_gain": 0.00015917668955138796,
+    "corrected_lower": -0.0010724417924974567,
+    "corrected_upper": 0.0013907951716002327,
+    "keep": true,
+    "positive_cv_signal": true,
+    "decision_allowed": true,
+    "reason": "positive paired CV signal, not automatic promotion",
+    "caveat": "global diagnostic summary; nested candidates select inside each outer train"
+  },
+  {
+    "group": "g5_equipment_cycle",
+    "available": true,
+    "mean_auc_gain": -0.00013223950143019801,
+    "corrected_lower": -0.0008537703430064503,
+    "corrected_upper": 0.0005892913401460544,
+    "keep": false,
+    "positive_cv_signal": false,
+    "decision_allowed": true,
+    "reason": "rejected: non-positive paired CV improvement",
+    "caveat": "global diagnostic summary; nested candidates select inside each outer train"
+  },
+  {
+    "group": "g6_tenure_pricing",
+    "available": true,
+    "mean_auc_gain": -0.00014172833430621258,
+    "corrected_lower": -0.001027734516948822,
+    "corrected_upper": 0.000744277848336397,
+    "keep": false,
+    "positive_cv_signal": false,
+    "decision_allowed": true,
+    "reason": "rejected: non-positive paired CV improvement",
+    "caveat": "global diagnostic summary; nested candidates select inside each outer train"
+  }
+]

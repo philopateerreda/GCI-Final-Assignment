@@ -1,0 +1,33 @@
+{
+  "recipe": {
+    "backend": "lgbm",
+    "groups": [],
+    "drop": [
+      "rev_Mean",
+      "totmrc_Mean",
+      "da_Mean",
+      "ovrrev_Mean",
+      "vceovr_Mean",
+      "datovr_Mean",
+      "roam_Mean",
+      "totrev",
+      "adjrev",
+      "avgrev",
+      "overage_charge_share",
+      "recurring_charge_share"
+    ],
+    "sensitive": false,
+    "value_weighted": false
+  },
+  "development_value_limits": {
+    "median": 44.99,
+    "p99": 114.99
+  },
+  "outer_training_value_limits": {
+    "median": 44.99,
+    "p99": 115.38900000000075
+  },
+  "calibration_source": "20% held-out slice of outer training fold; never original 10k",
+  "threshold_source": "calibrated development-fit predictions on that slice only",
+  "extra": null
+}

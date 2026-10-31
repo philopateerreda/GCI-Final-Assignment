@@ -1,0 +1,140 @@
+{
+  "calibrator": "sigmoid",
+  "calibration_candidates": [
+    {
+      "method": "sigmoid",
+      "oof_log_loss": 0.6226436638847613,
+      "paired_logloss_improvement": 0.0,
+      "ci_lower": 0.0,
+      "ci_upper": 0.0,
+      "tail_brier": 0.19018787376837534,
+      "passes": false
+    },
+    {
+      "method": "beta",
+      "oof_log_loss": 0.6227965550266505,
+      "paired_logloss_improvement": -0.00015289114188922706,
+      "ci_lower": -0.0003456902904548913,
+      "ci_upper": 5.093543374491216e-05,
+      "tail_brier": 0.19075019799201803,
+      "passes": false
+    },
+    {
+      "method": "isotonic",
+      "oof_log_loss": 0.6262250233067324,
+      "paired_logloss_improvement": -0.003581359421970951,
+      "ci_lower": -0.007454128032832552,
+      "ci_upper": -0.0008886102499432529,
+      "tail_brier": 0.18884887942021694,
+      "passes": false
+    }
+  ],
+  "base_fraction": 0.1,
+  "optimal_budgets_calibration_only": [
+    {
+      "cost": 0.25,
+      "fraction": 0.3,
+      "calibration_oof_net": 25920.96947222077,
+      "frozen_threshold": 1.01437210454265,
+      "no_contact_net": 0.0,
+      "launch_allowed_by_assumed_calibration_net": true
+    },
+    {
+      "cost": 1.0,
+      "fraction": 0.18,
+      "calibration_oof_net": 6009.390224575029,
+      "frozen_threshold": 1.3296292108091934,
+      "no_contact_net": 0.0,
+      "launch_allowed_by_assumed_calibration_net": true
+    },
+    {
+      "cost": 2.0,
+      "fraction": 0.03,
+      "calibration_oof_net": -1891.4441011486588,
+      "frozen_threshold": 2.680008864411434,
+      "no_contact_net": 0.0,
+      "launch_allowed_by_assumed_calibration_net": false
+    },
+    {
+      "cost": 5.0,
+      "fraction": 0.01,
+      "calibration_oof_net": -5732.581368528379,
+      "frozen_threshold": 4.481670516111727,
+      "no_contact_net": 0.0,
+      "launch_allowed_by_assumed_calibration_net": false
+    }
+  ],
+  "test_used_for_selection": false,
+  "value_proxy": "totmrc_Mean",
+  "gate_a": "Prior-regime reconciliation qualifies: v1 already used Bayes deployment score in financial scenario. New calibrator and budgets require non-test evidence; test empirical maxima remain diagnostic only.",
+  "thresholds": {
+    "0.01": {
+      "risk": 0.018455386870436012,
+      "value": 76.76,
+      "sample_rv": 34.97351948545642,
+      "bayes": 0.8544340365225732,
+      "profit_gate": 1.3888888888888886
+    },
+    "0.02": {
+      "risk": 0.036833373400463214,
+      "value": 76.6825,
+      "sample_rv": 35.03243182491035,
+      "bayes": 1.711493684172072,
+      "profit_gate": 1.711493684172072
+    },
+    "0.05": {
+      "risk": 0.09130717136936546,
+      "value": 76.0375,
+      "sample_rv": 35.22377171896487,
+      "bayes": 4.259485055979885,
+      "profit_gate": 4.259485055979885
+    }
+  },
+  "budget_gate": [
+    {
+      "cost": 0.25,
+      "calibration_selected_fraction": 0.3,
+      "paired_net_gain_vs10": 13386.068576650341,
+      "ci_lower": 12554.104184969481,
+      "ci_upper": 14388.652003544994,
+      "positive_net_under_assumptions": true,
+      "exploratory_conditional_interval_excludes0": true,
+      "eligible_for_headline_promotion": false,
+      "reason": "Fraction optimized on same policy-calibration support; conditional interval omits search uncertainty. Retain predeclared10% headline; prospective experiment determines campaign size. Include no-contact option with0 net; grid endpoints are constrained optima."
+    },
+    {
+      "cost": 1.0,
+      "calibration_selected_fraction": 0.18,
+      "paired_net_gain_vs10": 979.9267100753859,
+      "ci_lower": -23.64910676703421,
+      "ci_upper": 2159.1280639819474,
+      "positive_net_under_assumptions": true,
+      "exploratory_conditional_interval_excludes0": false,
+      "eligible_for_headline_promotion": false,
+      "reason": "Fraction optimized on same policy-calibration support; conditional interval omits search uncertainty. Retain predeclared10% headline; prospective experiment determines campaign size. Include no-contact option with0 net; grid endpoints are constrained optima."
+    },
+    {
+      "cost": 2.0,
+      "calibration_selected_fraction": 0.03,
+      "paired_net_gain_vs10": 3086.3422257794164,
+      "ci_lower": 1660.8704568675748,
+      "ci_upper": 4728.546237374924,
+      "positive_net_under_assumptions": false,
+      "exploratory_conditional_interval_excludes0": true,
+      "eligible_for_headline_promotion": false,
+      "reason": "Fraction optimized on same policy-calibration support; conditional interval omits search uncertainty. Retain predeclared10% headline; prospective experiment determines campaign size. Include no-contact option with0 net; grid endpoints are constrained optima."
+    },
+    {
+      "cost": 5.0,
+      "calibration_selected_fraction": 0.01,
+      "paired_net_gain_vs10": 29266.95448268285,
+      "ci_lower": 25685.86261135475,
+      "ci_upper": 33008.08002891406,
+      "positive_net_under_assumptions": false,
+      "exploratory_conditional_interval_excludes0": true,
+      "eligible_for_headline_promotion": false,
+      "reason": "Fraction optimized on same policy-calibration support; conditional interval omits search uncertainty. Retain predeclared10% headline; prospective experiment determines campaign size. Include no-contact option with0 net; grid endpoints are constrained optima."
+    }
+  ],
+  "promoted_headline_fraction": 0.1
+}

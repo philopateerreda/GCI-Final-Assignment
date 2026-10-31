@@ -1,0 +1,879 @@
+{
+  "errors": 0,
+  "existing_implementation_tests": 15,
+  "failures": 0,
+  "heavy_simulations_rerun": false,
+  "new_test_rows_used": 0,
+  "old_suite_run": false,
+  "passed": true,
+  "provenance": {
+    "created_utc": "2026-10-29T15:45:40.733966+00:00",
+    "input_files": [
+      {
+        "path": "D:/progs/IDE/MainProjs/AI/GCI2026/finalA/v3_addons/results/inventory.json",
+        "present": true,
+        "sha256": "c1ec315ff45436d914af3061f9e9d201d34e7d9b8dddd825c2672d9bba2f5369",
+        "size": 23203
+      },
+      {
+        "path": "D:/progs/IDE/MainProjs/AI/GCI2026/finalA/v3_addons/results/wp1_power.json",
+        "present": true,
+        "sha256": "1342bb553dfd24e4697d210d141392f32f0ac8b43f66ea3627db95622d714305",
+        "size": 542362
+      },
+      {
+        "path": "D:/progs/IDE/MainProjs/AI/GCI2026/finalA/v3_addons/results/wp1_tests.json",
+        "present": true,
+        "sha256": "9f9129b81b4e43c39806149d49b00f7d80b62b123d8ebb6c8cb079f4f9e89330",
+        "size": 2492
+      },
+      {
+        "path": "D:/progs/IDE/MainProjs/AI/GCI2026/finalA/v3_addons/results/wp2_evsi.json",
+        "present": true,
+        "sha256": "cd64fe05f11e974916e461d6f12764cff53ecd7f62fb8a1e461d966611c2e405",
+        "size": 60310
+      },
+      {
+        "path": "D:/progs/IDE/MainProjs/AI/GCI2026/finalA/v3_addons/results/wp2_tests.json",
+        "present": true,
+        "sha256": "a01ae1010569e609ff4a6926d0a1c1f20280314f93ec8d749fcc4db5daf39e5c",
+        "size": 2954
+      },
+      {
+        "path": "D:/progs/IDE/MainProjs/AI/GCI2026/finalA/v3_addons/results/wp3_roi_band.json",
+        "present": true,
+        "sha256": "96aa9a75869c53079e1442a26f1f3d08f5261d735e61a5195a658955843a5dd1",
+        "size": 96482
+      },
+      {
+        "path": "D:/progs/IDE/MainProjs/AI/GCI2026/finalA/v3_addons/results/wp4_protocol.json",
+        "present": true,
+        "sha256": "1fd31cc4461349db720ba88de079a0f0f7d15f3963b283b121af6e7af77676e9",
+        "size": 6653
+      },
+      {
+        "path": "D:/progs/IDE/MainProjs/AI/GCI2026/finalA/v3_addons/results/wp5_label_shift.json",
+        "present": true,
+        "sha256": "3a4d94fe806c00421f53688c2000bfb2293ecc16320dbb795d9b8375a8a9338e",
+        "size": 1079813
+      },
+      {
+        "path": "D:/progs/IDE/MainProjs/AI/GCI2026/finalA/v3_addons/results/wp5_tests.json",
+        "present": true,
+        "sha256": "98f28360681b04f3dc74293f41208da88a2e7b9aa4de0ea5e3b586787f15c66b",
+        "size": 2770
+      },
+      {
+        "path": "D:/progs/IDE/MainProjs/AI/GCI2026/finalA/v3_addons/results/wp6_citations.json",
+        "present": true,
+        "sha256": "26a248816181b2b00365547974e50e2802f49102548f98c5ff827ef50f5ddee1",
+        "size": 11097
+      },
+      {
+        "path": "D:/progs/IDE/MainProjs/AI/GCI2026/finalA/v3_addons/src/common.py",
+        "present": true,
+        "sha256": "5522fe7e7c49f945db5bd12bff6b850652ee12b002014a64f44217b01d13db0d",
+        "size": 7086
+      },
+      {
+        "path": "D:/progs/IDE/MainProjs/AI/GCI2026/finalA/v3_addons/src/reporting.py",
+        "present": true,
+        "sha256": "189d0c2ebcb7616746332e56d568e180bd364346f0422ae1c20712dbdc4f4479",
+        "size": 941
+      },
+      {
+        "path": "D:/progs/IDE/MainProjs/AI/GCI2026/finalA/v3_addons/src/wp7_handback.py",
+        "present": true,
+        "sha256": "9b476cf3f27b3baba53742b443d2a5429f8192b8124f5384d4e41805c79f35d9",
+        "size": 24372
+      },
+      {
+        "path": "D:/progs/IDE/MainProjs/AI/GCI2026/finalA/v3_addons/tests/final_seed_determinism_fixture.json",
+        "present": true,
+        "sha256": "e02cd44401c7bf05bc1ad1a1df8a844f257a317dfdc89575a9b7eb3a2bbb3d99",
+        "size": 2836
+      },
+      {
+        "path": "D:/progs/IDE/MainProjs/AI/GCI2026/finalA/v3_addons/tests/test_final_validation.py",
+        "present": true,
+        "sha256": "c2692ac51ef7a922f4e44e702f113fc1739c87fc93b873d20038276573926055",
+        "size": 13843
+      }
+    ],
+    "python_version": "3.11.9 (tags/v3.11.9:de54cf5, Apr  2 2024, 10:12:12) [MSC v.1938 64 bit (AMD64)]",
+    "row_counts": {
+      "new_test_rows": 0,
+      "old_tests_run": 0,
+      "wp5_bootstraps": 5000000,
+      "wp5_originals": 10000
+    },
+    "runtime_pools": [
+      {
+        "architecture": "Haswell",
+        "filepath": "C:\\Users\\FGstore\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\numpy.libs\\libscipy_openblas64_-860d95b1c38e637ce4509f5fa24fbf2a.dll",
+        "internal_api": "openblas",
+        "num_threads": 6,
+        "prefix": "libscipy_openblas",
+        "threading_layer": "pthreads",
+        "user_api": "blas",
+        "version": "0.3.30"
+      },
+      {
+        "architecture": "Haswell",
+        "filepath": "C:\\Users\\FGstore\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\scipy.libs\\libscipy_openblas-64eda39e79589aedb16f58e5547eb599.dll",
+        "internal_api": "openblas",
+        "num_threads": 6,
+        "prefix": "libscipy_openblas",
+        "threading_layer": "pthreads",
+        "user_api": "blas",
+        "version": "0.3.30"
+      }
+    ],
+    "script": "D:/progs/IDE/MainProjs/AI/GCI2026/finalA/v3_addons/tests/test_final_validation.py",
+    "script_sha256": "c2692ac51ef7a922f4e44e702f113fc1739c87fc93b873d20038276573926055",
+    "seed": 20261035,
+    "tags_used": [
+      "[E]",
+      "[A]",
+      "[R]"
+    ]
+  },
+  "scope": "New-code output verification; a PARTIAL scientific result is preserved, not counted as an implementation-test failure.",
+  "tests": 8,
+  "verified_current_files": [
+    {
+      "path": "C:/Users/FGstore/.qoder/tmp/D--progs-IDE-MainProjs-AI-GCI2026-finalA/attachments/3462e263-cc13-4104-9c41-44f49963bbaa/4ec2074d-b034-4447-85ba-967f007db8e9.txt",
+      "present": true,
+      "sha256": "a86cbb9698f01401acd2d7b10877355c4b9703ec15f43b7f80361fae3f89dda9",
+      "size": 34853
+    },
+    {
+      "path": "D:/progs/IDE/MainProjs/AI/GCI2026/finalA/analysis_outputs/feature_manifest.json",
+      "present": true,
+      "sha256": "8e0560cedab891acfea8b440b5d7f28516de1e3adc5b06899a442dd8d07fd067",
+      "size": 2559
+    },
+    {
+      "path": "D:/progs/IDE/MainProjs/AI/GCI2026/finalA/analysis_outputs/model_selection.json",
+      "present": true,
+      "sha256": "62e17913b8e7bf7bf1ac8fdd4556d242b524c884a0e929352c2b9e3bb5e9acc3",
+      "size": 321
+    },
+    {
+      "path": "D:/progs/IDE/MainProjs/AI/GCI2026/finalA/analysis_outputs/source_manifest.json",
+      "present": true,
+      "sha256": "60861fb36607bcf143e313ca94390a67eb38b90c8b431144bb6f8cdb5156686a",
+      "size": 707
+    },
+    {
+      "path": "D:/progs/IDE/MainProjs/AI/GCI2026/finalA/FINAL_ASSESSMENT_HANDOFF.md",
+      "present": true,
+      "sha256": "07c3965e8a5730e895164e5ac18c3b0a1cadf5f4f026214e868c18d1585ec6ab",
+      "size": 54432
+    },
+    {
+      "path": "D:/progs/IDE/MainProjs/AI/GCI2026/finalA/FINAL_ASSESSMENT_READING_NOTE.md",
+      "present": true,
+      "sha256": "e2473d649350aa8ead0d4a7e25467055491d73b5b839e30801530aa6169091a7",
+      "size": 13912
+    },
+    {
+      "path": "D:/progs/IDE/MainProjs/AI/GCI2026/finalA/FINAL_V2_UPGRADE_REPORT.md",
+      "present": true,
+      "sha256": "6fa8a015a18b21640ff1c7ace2835777bd6cfc939c8f4cbd5cfcbcbab8c29ee1",
+      "size": 3824
+    },
+    {
+      "path": "D:/progs/IDE/MainProjs/AI/GCI2026/finalA/references.txt",
+      "present": true,
+      "sha256": "b12fb18aafc83e2d599e15d04c689ee5cd85c10082c1761ab0c6f1d01606d361",
+      "size": 18843
+    },
+    {
+      "path": "D:/progs/IDE/MainProjs/AI/GCI2026/finalA/telecom/Client.csv",
+      "present": true,
+      "sha256": "264a58512dc857fff29e11ef43fd53bc4407be23aac9dcc2c0df23536c800778",
+      "size": 17937775
+    },
+    {
+      "path": "D:/progs/IDE/MainProjs/AI/GCI2026/finalA/telecom/Record.csv",
+      "present": true,
+      "sha256": "5bd563bb77b357920832510b78d6842060d928cb5de8c0aaf79aa2a647e2271a",
+      "size": 30182432
+    },
+    {
+      "path": "D:/progs/IDE/MainProjs/AI/GCI2026/finalA/v1_frozen/analysis_outputs/models/selected_model.joblib",
+      "present": true,
+      "sha256": "8a59fe9ac8c2eafb85c442fa1531035399aeecc6530a4b6489914385ecedfa3c",
+      "size": 1375735
+    },
+    {
+      "path": "D:/progs/IDE/MainProjs/AI/GCI2026/finalA/v1_frozen/analysis_outputs/tables/split_manifest.csv",
+      "present": true,
+      "sha256": "4caefcbed46a834f89cfbf21387f78555e601b43a8cee81d1637c786fb0a21b3",
+      "size": 1690023
+    },
+    {
+      "path": "D:/progs/IDE/MainProjs/AI/GCI2026/finalA/v2_work/a_budget_choices.csv",
+      "present": true,
+      "sha256": "846ba54ed56421ac06da6b452df72986ba94a2500372610425448aab9a125a2b",
+      "size": 334
+    },
+    {
+      "path": "D:/progs/IDE/MainProjs/AI/GCI2026/finalA/v2_work/a_calibrator.joblib",
+      "present": true,
+      "sha256": "c2cb492d958af024a0b06f7f206282835c1e857d1e9fbb7ed2df138ccdf9ae60",
+      "size": 929
+    },
+    {
+      "path": "D:/progs/IDE/MainProjs/AI/GCI2026/finalA/v2_work/a_selected_calibration.csv",
+      "present": true,
+      "sha256": "fa0ee67c5b94431e5313633219c04c8c4c248944564659e06007e0a2aff25648",
+      "size": 1449202
+    },
+    {
+      "path": "D:/progs/IDE/MainProjs/AI/GCI2026/finalA/v2_work/a_spec.json",
+      "present": true,
+      "sha256": "2f258d7d0ff9360d0ff0673abcb8c41e5c6462b2181d8d09dc5e86b4be5c8431",
+      "size": 5484
+    },
+    {
+      "path": "D:/progs/IDE/MainProjs/AI/GCI2026/finalA/v2_work/b_design.json",
+      "present": true,
+      "sha256": "aaa1dfa7b8dc65bd8a84ffa8a6b6d1d7f5f1ae40cdcf2746469a85468618f245",
+      "size": 7187
+    },
+    {
+      "path": "D:/progs/IDE/MainProjs/AI/GCI2026/finalA/v2_work/common.py",
+      "present": true,
+      "sha256": "c68e6bcd81a24ae6960474ea537c4574fd0139fd83126fae0a853275611b0de7",
+      "size": 4647
+    },
+    {
+      "path": "D:/progs/IDE/MainProjs/AI/GCI2026/finalA/v2_work/d_results/gate_d.csv",
+      "present": true,
+      "sha256": "40a951d0c38267b0b2058e939e6cadc05e138fb4c542e34285f730d09c8483db",
+      "size": 2696
+    },
+    {
+      "path": "D:/progs/IDE/MainProjs/AI/GCI2026/finalA/v2_work/d_results/oof/baseline_lgbm_r0_f0.npz",
+      "present": true,
+      "sha256": "7c95f578448d7cc565fe698b02d6d691818b9c072099ce3d712513a04d1c22cd",
+      "size": 425956
+    },
+    {
+      "path": "D:/progs/IDE/MainProjs/AI/GCI2026/finalA/v2_work/d_results/oof/baseline_lgbm_r0_f1.npz",
+      "present": true,
+      "sha256": "ab8bdbf05930676d8a99a03c8cac339bf70894528063f90f2730f597d51cead7",
+      "size": 426238
+    },
+    {
+      "path": "D:/progs/IDE/MainProjs/AI/GCI2026/finalA/v2_work/d_results/oof/baseline_lgbm_r0_f2.npz",
+      "present": true,
+      "sha256": "261e411d43e57bc07e2cea4478ea5ca14eed652d7a504cb2a92bbea2f4e2f1b8",
+      "size": 426064
+    },
+    {
+      "path": "D:/progs/IDE/MainProjs/AI/GCI2026/finalA/v2_work/d_results/oof/baseline_lgbm_r0_f3.npz",
+      "present": true,
+      "sha256": "3e686c9c9e28ab042a2537c314aefef2dbc05b7c14bde743e4690ea621e0dd50",
+      "size": 426063
+    },
+    {
+      "path": "D:/progs/IDE/MainProjs/AI/GCI2026/finalA/v2_work/d_results/oof/baseline_lgbm_r0_f4.npz",
+      "present": true,
+      "sha256": "c7ef34ff72ddc81ff7c7f5b9125a3958583c40978121f0dd43cafb6e46ff10cc",
+      "size": 425689
+    },
+    {
+      "path": "D:/progs/IDE/MainProjs/AI/GCI2026/finalA/v2_work/d_results/oof/baseline_lgbm_r1_f0.npz",
+      "present": true,
+      "sha256": "47298f1db1f8e758d57f7f9a777ccd1c2d5bcf59f913c914ed9f970755e6f453",
+      "size": 425915
+    },
+    {
+      "path": "D:/progs/IDE/MainProjs/AI/GCI2026/finalA/v2_work/d_results/oof/baseline_lgbm_r1_f1.npz",
+      "present": true,
+      "sha256": "a0f96c7b7d0af44a3332c39f6c41d35cbe17dc3505f5a57d3681135b1b9ea848",
+      "size": 426194
+    },
+    {
+      "path": "D:/progs/IDE/MainProjs/AI/GCI2026/finalA/v2_work/d_results/oof/baseline_lgbm_r1_f2.npz",
+      "present": true,
+      "sha256": "96066024ef34837f2aa3b640a8ab705100ceb1d46ba43e51cfc2338f9ce09a9d",
+      "size": 426447
+    },
+    {
+      "path": "D:/progs/IDE/MainProjs/AI/GCI2026/finalA/v2_work/d_results/oof/baseline_lgbm_r1_f3.npz",
+      "present": true,
+      "sha256": "d552473bfe1d333afd55a9f77a7e87de172273218c9181dbbf3f0ce1fc071636",
+      "size": 426035
+    },
+    {
+      "path": "D:/progs/IDE/MainProjs/AI/GCI2026/finalA/v2_work/d_results/oof/baseline_lgbm_r1_f4.npz",
+      "present": true,
+      "sha256": "4f0fe7e92f48e7adc6aeb92290559dbed0ce34386ca3f2594df20f326d9e14e7",
+      "size": 425781
+    },
+    {
+      "path": "D:/progs/IDE/MainProjs/AI/GCI2026/finalA/v2_work/final_metrics.json",
+      "present": true,
+      "sha256": "1d14a4fea10ab391631379f82cd6a82e5a65ede4f01db5b540c9aec3612eea1e",
+      "size": 155122
+    },
+    {
+      "path": "D:/progs/IDE/MainProjs/AI/GCI2026/finalA/v2_work/final_protocol.py",
+      "present": true,
+      "sha256": "be181a475db397ea42bc85899ddf4c368a19c2aeac714c0cf3bb195117f31875",
+      "size": 4924
+    },
+    {
+      "path": "D:/progs/IDE/MainProjs/AI/GCI2026/finalA/v2_work/run_frozen_batch.py",
+      "present": true,
+      "sha256": "6864317b3274c2937a52f8cd19a9f06474d486cd64da658c6bd0ed1c4031ffef",
+      "size": 9443
+    },
+    {
+      "path": "D:/progs/IDE/MainProjs/AI/GCI2026/finalA/v2_work/workstream_a.py",
+      "present": true,
+      "sha256": "b1ccdd6d40eab51961498ff39c0522f4df57b1d0cd4309aa5b509fc30a3434b8",
+      "size": 17411
+    },
+    {
+      "path": "D:/progs/IDE/MainProjs/AI/GCI2026/finalA/v2_work/workstream_b.py",
+      "present": true,
+      "sha256": "c4c4a10bed57d340f6596230e26035bbae472e7b0727b72daeac41a3336e5a03",
+      "size": 21109
+    },
+    {
+      "path": "D:/progs/IDE/MainProjs/AI/GCI2026/finalA/v2_work/workstream_d.py",
+      "present": true,
+      "sha256": "bca0612d17586fe0e5a941ab6585e06bd7a6e0581de86f0abd46726a3f66dee2",
+      "size": 71261
+    },
+    {
+      "path": "D:/progs/IDE/MainProjs/AI/GCI2026/finalA/v3_addons/figures/wp1_power_curves.png",
+      "present": true,
+      "sha256": "a27cdb509efab749f76d971ef7577888b5b0addde073d4614ea7753915d7cae0",
+      "size": 33113
+    },
+    {
+      "path": "D:/progs/IDE/MainProjs/AI/GCI2026/finalA/v3_addons/figures/wp2_decision_map.png",
+      "present": true,
+      "sha256": "ebbb3f677bdc724fbb61b84f31eee054d769b1c74a5c10e89cb9d58b9c3d7650",
+      "size": 33274
+    },
+    {
+      "path": "D:/progs/IDE/MainProjs/AI/GCI2026/finalA/v3_addons/figures/wp3_net_curve.png",
+      "present": true,
+      "sha256": "7f36752025300149e1c6a46b1f5aaa705c4ff1ca89dd0ae3bf75dad40d5c370b",
+      "size": 28627
+    },
+    {
+      "path": "D:/progs/IDE/MainProjs/AI/GCI2026/finalA/v3_addons/figures/wp5_em_recovery.png",
+      "present": true,
+      "sha256": "390f433d202da86091be5389b94f2bdddde38e437a6713a0a816789970daf178",
+      "size": 32496
+    },
+    {
+      "path": "D:/progs/IDE/MainProjs/AI/GCI2026/finalA/v3_addons/protocol_addendum.md",
+      "present": true,
+      "sha256": "9c36323f3823f051022e2445d8ede5937ceadbe04b8553a0d25de887a2ad683b",
+      "size": 2774
+    },
+    {
+      "path": "D:/progs/IDE/MainProjs/AI/GCI2026/finalA/v3_addons/reports/WP2_report.md",
+      "present": true,
+      "sha256": "dbf0005a3895c2f55239c35aefb041ee481a6b8a0849ce0e0d56352b539c3ebd",
+      "size": 4323
+    },
+    {
+      "path": "D:/progs/IDE/MainProjs/AI/GCI2026/finalA/v3_addons/reports/WP3_report.md",
+      "present": true,
+      "sha256": "b491ba1f9b986d1585d852dfcd9d0c2de2380b8c3f6b9cace1299c6b2c2111a5",
+      "size": 17775
+    },
+    {
+      "path": "D:/progs/IDE/MainProjs/AI/GCI2026/finalA/v3_addons/reports/WP4_report.md",
+      "present": true,
+      "sha256": "169cb1c6f36d1f51ead1122e3127d83b04a51091f6f80074ff1c890c9741cf00",
+      "size": 2288
+    },
+    {
+      "path": "D:/progs/IDE/MainProjs/AI/GCI2026/finalA/v3_addons/reports/WP5_report.md",
+      "present": true,
+      "sha256": "7eadb863a180e4f951734b6c6a326f0e0a0809517c44f5cd73abb9ce644fdf61",
+      "size": 15211
+    },
+    {
+      "path": "D:/progs/IDE/MainProjs/AI/GCI2026/finalA/v3_addons/results/sources/ascarza_2016_source.pdf",
+      "present": true,
+      "sha256": "9e02694d5c2699ec9b59dc4a03ad42d3eca8d3c39a461a7e362bce87d7ab9e8c",
+      "size": 967934
+    },
+    {
+      "path": "D:/progs/IDE/MainProjs/AI/GCI2026/finalA/v3_addons/results/sources/ascarza_2016_source.txt",
+      "present": true,
+      "sha256": "0cfda524a29346e7db5640034deda927f4150d2f2b1eaa86688a0fd504aea326",
+      "size": 135867
+    },
+    {
+      "path": "D:/progs/IDE/MainProjs/AI/GCI2026/finalA/v3_addons/results/sources/bouckaert_frank_2004.pdf",
+      "present": true,
+      "sha256": "ff5379a16cfb0f64bb80900c809f8c74ed01bf1c4c22cc9f54597f9e94fbb386",
+      "size": 87710
+    },
+    {
+      "path": "D:/progs/IDE/MainProjs/AI/GCI2026/finalA/v3_addons/results/sources/bouckaert_frank_2004.txt",
+      "present": true,
+      "sha256": "f057ac41e049f2c29abc362db9c755e4bdd2f5567107aa0766c7974da9e13443",
+      "size": 31421
+    },
+    {
+      "path": "D:/progs/IDE/MainProjs/AI/GCI2026/finalA/v3_addons/results/sources/nadeau_bengio_source.pdf",
+      "present": true,
+      "sha256": "e3a1ec656312feba41dec7fa474fe8b0780472bb77427655e1fee6c3f664df54",
+      "size": 674619
+    },
+    {
+      "path": "D:/progs/IDE/MainProjs/AI/GCI2026/finalA/v3_addons/results/sources/nadeau_bengio_source.txt",
+      "present": true,
+      "sha256": "3ae5f35cbb5e329ce21b7b01d20f654fe3b41bf41a848de2943dfe6e2a761967",
+      "size": 227099
+    },
+    {
+      "path": "D:/progs/IDE/MainProjs/AI/GCI2026/finalA/v3_addons/results/wp1_capacity_mde.csv",
+      "present": true,
+      "sha256": "fb9ea4470f3b77334d09dd4f1ac752609ce17c5ce0cd9f3aaf81c2f11da7f97a",
+      "size": 1291
+    },
+    {
+      "path": "D:/progs/IDE/MainProjs/AI/GCI2026/finalA/v3_addons/results/wp1_power.csv",
+      "present": true,
+      "sha256": "175374f8c495aa598915568c6d4686cba61bfd26d09f1672bc364bddc0228bea",
+      "size": 167320
+    },
+    {
+      "path": "D:/progs/IDE/MainProjs/AI/GCI2026/finalA/v3_addons/results/wp1_power.json",
+      "present": true,
+      "sha256": "1342bb553dfd24e4697d210d141392f32f0ac8b43f66ea3627db95622d714305",
+      "size": 542362
+    },
+    {
+      "path": "D:/progs/IDE/MainProjs/AI/GCI2026/finalA/v3_addons/results/wp1_simulation_samples.npz",
+      "present": true,
+      "sha256": "b85da7f76a5c7562c3b207bad3b0b109913d62cd8575edf09580bb7753bfe068",
+      "size": 3627764
+    },
+    {
+      "path": "D:/progs/IDE/MainProjs/AI/GCI2026/finalA/v3_addons/results/wp2_decision_quality.csv",
+      "present": true,
+      "sha256": "1ad721f80356881cf37a4e5a1f15f7856760983d9aff0f5b7c1c750879423be0",
+      "size": 17005
+    },
+    {
+      "path": "D:/progs/IDE/MainProjs/AI/GCI2026/finalA/v3_addons/results/wp2_evsi.json",
+      "present": true,
+      "sha256": "cd64fe05f11e974916e461d6f12764cff53ecd7f62fb8a1e461d966611c2e405",
+      "size": 60310
+    },
+    {
+      "path": "D:/progs/IDE/MainProjs/AI/GCI2026/finalA/v3_addons/results/wp3_net_curve.csv",
+      "present": true,
+      "sha256": "f9148028b1a8158685de1556d82617d4f2750550084463ee88d13305283fabc1",
+      "size": 194136
+    },
+    {
+      "path": "D:/progs/IDE/MainProjs/AI/GCI2026/finalA/v3_addons/results/wp3_roi_band.json",
+      "present": true,
+      "sha256": "96aa9a75869c53079e1442a26f1f3d08f5261d735e61a5195a658955843a5dd1",
+      "size": 96482
+    },
+    {
+      "path": "D:/progs/IDE/MainProjs/AI/GCI2026/finalA/v3_addons/results/wp4_protocol.json",
+      "present": true,
+      "sha256": "1fd31cc4461349db720ba88de079a0f0f7d15f3963b283b121af6e7af77676e9",
+      "size": 6653
+    },
+    {
+      "path": "D:/progs/IDE/MainProjs/AI/GCI2026/finalA/v3_addons/results/wp5_break_even_grid.csv",
+      "present": true,
+      "sha256": "fea512bd2b631e217327c4cbad34101d343f74f55e2ec37411a4dfae11ab4612",
+      "size": 88767
+    },
+    {
+      "path": "D:/progs/IDE/MainProjs/AI/GCI2026/finalA/v3_addons/results/wp5_calibration_oof.csv",
+      "present": true,
+      "sha256": "88e58cc3c95e7dc65760f16f66e751a229e7263a27db9b1729c29e3e6ef68194",
+      "size": 1952387
+    },
+    {
+      "path": "D:/progs/IDE/MainProjs/AI/GCI2026/finalA/v3_addons/results/wp5_calibration_oof.json",
+      "present": true,
+      "sha256": "a19d7ecadcc009b07806f3f78b7a4d016473656f0af545e5f102773d818f16b1",
+      "size": 1054830
+    },
+    {
+      "path": "D:/progs/IDE/MainProjs/AI/GCI2026/finalA/v3_addons/results/wp5_grid_00.json",
+      "present": true,
+      "sha256": "fe9adc5f8421378ca2e08be6ffa9e80021895f35713899c681ad84d2f9827c75",
+      "size": 12216
+    },
+    {
+      "path": "D:/progs/IDE/MainProjs/AI/GCI2026/finalA/v3_addons/results/wp5_grid_00.npz",
+      "present": true,
+      "sha256": "185e7c5ce2b61e0ecfca364c2560fc544f3940068faff4018bb25c78d72c610a",
+      "size": 1488102
+    },
+    {
+      "path": "D:/progs/IDE/MainProjs/AI/GCI2026/finalA/v3_addons/results/wp5_grid_01.json",
+      "present": true,
+      "sha256": "95a6ac4cee86ba20ac741f3c9733a8bf7e520f216854dc98da666ed6f7667874",
+      "size": 12217
+    },
+    {
+      "path": "D:/progs/IDE/MainProjs/AI/GCI2026/finalA/v3_addons/results/wp5_grid_01.npz",
+      "present": true,
+      "sha256": "e7fd6d825261d705184c9fc22a601348ac3af97e89c3b4db5bd6f5239d02e553",
+      "size": 1619891
+    },
+    {
+      "path": "D:/progs/IDE/MainProjs/AI/GCI2026/finalA/v3_addons/results/wp5_grid_02.json",
+      "present": true,
+      "sha256": "194aaea39fc436e0cbb52cddd78bb79b54d3ae61bad604280b115639c549c57d",
+      "size": 12217
+    },
+    {
+      "path": "D:/progs/IDE/MainProjs/AI/GCI2026/finalA/v3_addons/results/wp5_grid_02.npz",
+      "present": true,
+      "sha256": "dadcd75f742bd46c0a46e007393b9103bed4acb8baf37541d925528f309fc836",
+      "size": 1909739
+    },
+    {
+      "path": "D:/progs/IDE/MainProjs/AI/GCI2026/finalA/v3_addons/results/wp5_grid_03.json",
+      "present": true,
+      "sha256": "41c96a39b5e8d38316e12d22cf80c670e3367e4ab3666181e991dde31136295b",
+      "size": 12218
+    },
+    {
+      "path": "D:/progs/IDE/MainProjs/AI/GCI2026/finalA/v3_addons/results/wp5_grid_03.npz",
+      "present": true,
+      "sha256": "d45b524a1d0b94d26539e0a630955d14701efae56c1e0dee95f88339744c0f4a",
+      "size": 1948944
+    },
+    {
+      "path": "D:/progs/IDE/MainProjs/AI/GCI2026/finalA/v3_addons/results/wp5_grid_04.json",
+      "present": true,
+      "sha256": "8eeec5f50c05fe39c125ed830a57fd56c73bf390aeea02444a28cec76c158940",
+      "size": 12215
+    },
+    {
+      "path": "D:/progs/IDE/MainProjs/AI/GCI2026/finalA/v3_addons/results/wp5_grid_04.npz",
+      "present": true,
+      "sha256": "def731536c84f39e5521064cae066b73dcbb8db065a8a9bedf829bfc393e3c09",
+      "size": 1624665
+    },
+    {
+      "path": "D:/progs/IDE/MainProjs/AI/GCI2026/finalA/v3_addons/results/wp5_grid_05.json",
+      "present": true,
+      "sha256": "f86fbfc88a21d5f8b660da16d7ef5b9eddee29cbc58502623e5f21102eef6bd0",
+      "size": 12216
+    },
+    {
+      "path": "D:/progs/IDE/MainProjs/AI/GCI2026/finalA/v3_addons/results/wp5_grid_05.npz",
+      "present": true,
+      "sha256": "75658921ee20b24ffd0abd9d524ab232fcdba7d12fb180decbd32795862a4768",
+      "size": 1804655
+    },
+    {
+      "path": "D:/progs/IDE/MainProjs/AI/GCI2026/finalA/v3_addons/results/wp5_grid_06.json",
+      "present": true,
+      "sha256": "ba42f801215dfe1e3be1929efe43249cfbcbd69cd69144167affad0c53cc113b",
+      "size": 12216
+    },
+    {
+      "path": "D:/progs/IDE/MainProjs/AI/GCI2026/finalA/v3_addons/results/wp5_grid_06.npz",
+      "present": true,
+      "sha256": "b80a4b5a58f2c15ad1428a44fdd3522b863859e6b660205c85fccc03fe58505e",
+      "size": 1952918
+    },
+    {
+      "path": "D:/progs/IDE/MainProjs/AI/GCI2026/finalA/v3_addons/results/wp5_grid_07.json",
+      "present": true,
+      "sha256": "c94d9d83cf26e6d80042b4f62a0e787437983e5dfd964fb8b898e13de325a655",
+      "size": 12217
+    },
+    {
+      "path": "D:/progs/IDE/MainProjs/AI/GCI2026/finalA/v3_addons/results/wp5_grid_07.npz",
+      "present": true,
+      "sha256": "6cb1350c8561c4b6c18f2be8c86e59124c0bee427c3d0fca12e42ac92e7b5251",
+      "size": 1951196
+    },
+    {
+      "path": "D:/progs/IDE/MainProjs/AI/GCI2026/finalA/v3_addons/results/wp5_grid_08.json",
+      "present": true,
+      "sha256": "c17a51148b4d53c52d4bd9e031c62cccb411104b84ce6c8ec5f6d33b3b9de447",
+      "size": 12215
+    },
+    {
+      "path": "D:/progs/IDE/MainProjs/AI/GCI2026/finalA/v3_addons/results/wp5_grid_08.npz",
+      "present": true,
+      "sha256": "7ab9a38834be1c728bfd79d6be10a13b93c3985d361800ac35780a7fa84258df",
+      "size": 1800745
+    },
+    {
+      "path": "D:/progs/IDE/MainProjs/AI/GCI2026/finalA/v3_addons/results/wp5_grid_09.json",
+      "present": true,
+      "sha256": "18327249dfdbe5191661e5c837c7c4ec31321abd3059a160b353486adf1e1bb4",
+      "size": 12216
+    },
+    {
+      "path": "D:/progs/IDE/MainProjs/AI/GCI2026/finalA/v3_addons/results/wp5_grid_09.npz",
+      "present": true,
+      "sha256": "ac4ebc1ec1c820662c5e4d481b619bf9db461542398ffd5e07b65c9cef84363d",
+      "size": 1918741
+    },
+    {
+      "path": "D:/progs/IDE/MainProjs/AI/GCI2026/finalA/v3_addons/results/wp5_grid_10.json",
+      "present": true,
+      "sha256": "fdf19d0657cec09a27c66c6d14fbcac5ca1af252b0109fc3463f26721f315a8f",
+      "size": 12214
+    },
+    {
+      "path": "D:/progs/IDE/MainProjs/AI/GCI2026/finalA/v3_addons/results/wp5_grid_10.npz",
+      "present": true,
+      "sha256": "06e082d6234f991851b9eef6a522098483ec695d0c0b198292eaeb5a54550177",
+      "size": 1951666
+    },
+    {
+      "path": "D:/progs/IDE/MainProjs/AI/GCI2026/finalA/v3_addons/results/wp5_grid_11.json",
+      "present": true,
+      "sha256": "7dcd772020b79244b85e576035de5889e18430520ca031f9917107f332e29408",
+      "size": 12215
+    },
+    {
+      "path": "D:/progs/IDE/MainProjs/AI/GCI2026/finalA/v3_addons/results/wp5_grid_11.npz",
+      "present": true,
+      "sha256": "c675875dd602d00e29c3b2de980913252dbdc68371785abe1b42eb736a56206f",
+      "size": 1942550
+    },
+    {
+      "path": "D:/progs/IDE/MainProjs/AI/GCI2026/finalA/v3_addons/results/wp5_grid_12.json",
+      "present": true,
+      "sha256": "a47739e2e104f8688338d34600cad8d729928d61e0ac277fc3c28440e754837c",
+      "size": 12216
+    },
+    {
+      "path": "D:/progs/IDE/MainProjs/AI/GCI2026/finalA/v3_addons/results/wp5_grid_12.npz",
+      "present": true,
+      "sha256": "38b6a4e2128d0685f8532f311f742868c61ca107d8a0454c3d9c234b9836035b",
+      "size": 1914072
+    },
+    {
+      "path": "D:/progs/IDE/MainProjs/AI/GCI2026/finalA/v3_addons/results/wp5_grid_13.json",
+      "present": true,
+      "sha256": "9b90026605a597e9ab9d15dd2f57ddcb6c13fbc05fa24860ca3a793cd8c826fa",
+      "size": 12217
+    },
+    {
+      "path": "D:/progs/IDE/MainProjs/AI/GCI2026/finalA/v3_addons/results/wp5_grid_13.npz",
+      "present": true,
+      "sha256": "334be09658a15d7db2dab07d3d6df69968971611b3b67d823e6512d2e4722d1c",
+      "size": 1950342
+    },
+    {
+      "path": "D:/progs/IDE/MainProjs/AI/GCI2026/finalA/v3_addons/results/wp5_grid_14.json",
+      "present": true,
+      "sha256": "264a9d2b3dba544519b2b635ff9e7446faa2ef6a4aa4227e4517e5d9a6a1b163",
+      "size": 12214
+    },
+    {
+      "path": "D:/progs/IDE/MainProjs/AI/GCI2026/finalA/v3_addons/results/wp5_grid_14.npz",
+      "present": true,
+      "sha256": "13d6778a5241eda12d406a9f38629fe2e9686cd4e1f4e02e5e9e0d1ed4dcea1b",
+      "size": 1944446
+    },
+    {
+      "path": "D:/progs/IDE/MainProjs/AI/GCI2026/finalA/v3_addons/results/wp5_grid_15.json",
+      "present": true,
+      "sha256": "25fcae8ecbaf7f7727ead6deb121c45038a9a1bed6bd6f3c66cc2c672803efa1",
+      "size": 12215
+    },
+    {
+      "path": "D:/progs/IDE/MainProjs/AI/GCI2026/finalA/v3_addons/results/wp5_grid_15.npz",
+      "present": true,
+      "sha256": "9c6491d67733335d9b388ff42d768a5a4cbbd7fe60ef0cea860c12ff9b80be78",
+      "size": 1929197
+    },
+    {
+      "path": "D:/progs/IDE/MainProjs/AI/GCI2026/finalA/v3_addons/results/wp5_grid_16.json",
+      "present": true,
+      "sha256": "155c2fdf82e413e02e62479cc6e5ef68de5c7b2a18831cfdbb0a39ebebbb7dc9",
+      "size": 12216
+    },
+    {
+      "path": "D:/progs/IDE/MainProjs/AI/GCI2026/finalA/v3_addons/results/wp5_grid_16.npz",
+      "present": true,
+      "sha256": "a2a8fb4ceb818982ab52d88c5caadf79f2f057b41a53aa36abe91abff892c9c3",
+      "size": 1951664
+    },
+    {
+      "path": "D:/progs/IDE/MainProjs/AI/GCI2026/finalA/v3_addons/results/wp5_grid_17.json",
+      "present": true,
+      "sha256": "902b16b3907801b29e442316c6d1dd6015f1feb70acdba98a396d069c65aa479",
+      "size": 12214
+    },
+    {
+      "path": "D:/progs/IDE/MainProjs/AI/GCI2026/finalA/v3_addons/results/wp5_grid_17.npz",
+      "present": true,
+      "sha256": "d8cf9f0c562aeeb6a2acb1620db4bc096bc199b1692ea45c9ba07949eca65449",
+      "size": 1949753
+    },
+    {
+      "path": "D:/progs/IDE/MainProjs/AI/GCI2026/finalA/v3_addons/results/wp5_grid_18.json",
+      "present": true,
+      "sha256": "2f2fb30fb2e91c6c2408adf99ac295c98b55f9d9e8223ea071c4ec1831b05d29",
+      "size": 12214
+    },
+    {
+      "path": "D:/progs/IDE/MainProjs/AI/GCI2026/finalA/v3_addons/results/wp5_grid_18.npz",
+      "present": true,
+      "sha256": "d3a907ea1a654859864556957eb5c6c79992c42b5a7a157b7323289787405570",
+      "size": 1938677
+    },
+    {
+      "path": "D:/progs/IDE/MainProjs/AI/GCI2026/finalA/v3_addons/results/wp5_grid_19.json",
+      "present": true,
+      "sha256": "434d9ee80b3983088c75700de3a83e17ec466966a32e99d1eb869b5cbb06e91f",
+      "size": 12215
+    },
+    {
+      "path": "D:/progs/IDE/MainProjs/AI/GCI2026/finalA/v3_addons/results/wp5_grid_19.npz",
+      "present": true,
+      "sha256": "8d5f48fee400de4615511a1766211bcfe20810ed3bd8ac31cb1e1cce53c79438",
+      "size": 1922122
+    },
+    {
+      "path": "D:/progs/IDE/MainProjs/AI/GCI2026/finalA/v3_addons/results/wp5_label_shift.json",
+      "present": true,
+      "sha256": "3a4d94fe806c00421f53688c2000bfb2293ecc16320dbb795d9b8375a8a9338e",
+      "size": 1079813
+    },
+    {
+      "path": "D:/progs/IDE/MainProjs/AI/GCI2026/finalA/v3_addons/results/wp5_label_shift_raw.csv",
+      "present": true,
+      "sha256": "e9a5a77a018d7fab5ed64ec54ef5d8771e4d29bef194a8c26139010d5555e904",
+      "size": 1838998
+    },
+    {
+      "path": "D:/progs/IDE/MainProjs/AI/GCI2026/finalA/v3_addons/results/wp5_label_shift_summary.csv",
+      "present": true,
+      "sha256": "7ff830d7a52f0392d25a9dc66bba4498d62c21d3d9dcfd9cad19b2c99ca929f7",
+      "size": 5719
+    },
+    {
+      "path": "D:/progs/IDE/MainProjs/AI/GCI2026/finalA/v3_addons/results/wp5_tests.json",
+      "present": true,
+      "sha256": "98f28360681b04f3dc74293f41208da88a2e7b9aa4de0ea5e3b586787f15c66b",
+      "size": 2770
+    },
+    {
+      "path": "D:/progs/IDE/MainProjs/AI/GCI2026/finalA/v3_addons/results/wp6_citation_register.csv",
+      "present": true,
+      "sha256": "f17a49c7a157d3180dc090fcfcf3efc91729804d3ea58055616bc0aa098b805f",
+      "size": 3342
+    },
+    {
+      "path": "D:/progs/IDE/MainProjs/AI/GCI2026/finalA/v3_addons/results/wp6_omnicampus_references_draft.txt",
+      "present": true,
+      "sha256": "fea1bf2914ae6acc3409f6cc86baa95a011ebf51858e447e1f56ed22f85cbce5",
+      "size": 1102
+    },
+    {
+      "path": "D:/progs/IDE/MainProjs/AI/GCI2026/finalA/v3_addons/results/wp6_references_append_option_c.txt",
+      "present": true,
+      "sha256": "42f6a6a7141bff2af8a5aa343264a34e173243cf3fb90840cc4c31dfadbaaa31",
+      "size": 657
+    },
+    {
+      "path": "D:/progs/IDE/MainProjs/AI/GCI2026/finalA/v3_addons/src/common.py",
+      "present": true,
+      "sha256": "5522fe7e7c49f945db5bd12bff6b850652ee12b002014a64f44217b01d13db0d",
+      "size": 7086
+    },
+    {
+      "path": "D:/progs/IDE/MainProjs/AI/GCI2026/finalA/v3_addons/src/png_drafts.py",
+      "present": true,
+      "sha256": "4c9a2135d01750409d1d3be20d3cef404385dcdddf5306d0dcde5b746c0069c8",
+      "size": 22184
+    },
+    {
+      "path": "D:/progs/IDE/MainProjs/AI/GCI2026/finalA/v3_addons/src/reporting.py",
+      "present": true,
+      "sha256": "189d0c2ebcb7616746332e56d568e180bd364346f0422ae1c20712dbdc4f4479",
+      "size": 941
+    },
+    {
+      "path": "D:/progs/IDE/MainProjs/AI/GCI2026/finalA/v3_addons/src/wp0_preflight.py",
+      "present": true,
+      "sha256": "93207f24f9f190a04709c3581fbb846990804d888b976d03145de583806f44e1",
+      "size": 9999
+    },
+    {
+      "path": "D:/progs/IDE/MainProjs/AI/GCI2026/finalA/v3_addons/src/wp1_power.py",
+      "present": true,
+      "sha256": "cc9ac2c17be3c32d0c8cc1044467b9c3b0ed74dd0c7feb10e27c74ae8b0043f5",
+      "size": 18237
+    },
+    {
+      "path": "D:/progs/IDE/MainProjs/AI/GCI2026/finalA/v3_addons/src/wp2_decisions.py",
+      "present": true,
+      "sha256": "a5a8eafe627124a74ef13b6398bb436901cb57f27852caecffdf771f0e68c221",
+      "size": 12560
+    },
+    {
+      "path": "D:/progs/IDE/MainProjs/AI/GCI2026/finalA/v3_addons/src/wp3_roi.py",
+      "present": true,
+      "sha256": "ce71605f22204fa3326159ee4194064d298a12c6b8ad5401a0eb9dd39807bd48",
+      "size": 36500
+    },
+    {
+      "path": "D:/progs/IDE/MainProjs/AI/GCI2026/finalA/v3_addons/src/wp4_protocol.py",
+      "present": true,
+      "sha256": "84d96c8bec305e9d52a1d5f269f4738fc0a7a5a3c5d743435f3890b6fc145aca",
+      "size": 6160
+    },
+    {
+      "path": "D:/progs/IDE/MainProjs/AI/GCI2026/finalA/v3_addons/src/wp5_labelshift.py",
+      "present": true,
+      "sha256": "c5d7df3f0e47795effc220aa35646e4d6f0d9f4ce018545cc273eca5acbc7f0a",
+      "size": 69672
+    },
+    {
+      "path": "D:/progs/IDE/MainProjs/AI/GCI2026/finalA/v3_addons/src/wp6_citations.py",
+      "present": true,
+      "sha256": "3f82e1869df450ff962e43aeb9d678855f9272e14b40040129ffb2082b9d96a5",
+      "size": 9977
+    },
+    {
+      "path": "D:/progs/IDE/MainProjs/AI/GCI2026/finalA/v3_addons/tests/test_decisions.py",
+      "present": true,
+      "sha256": "105cd3f52bdbd487ec0f6e39212b13ad4a1749593283d6b6284de51eea96aea5",
+      "size": 2523
+    },
+    {
+      "path": "D:/progs/IDE/MainProjs/AI/GCI2026/finalA/v3_addons/tests/test_wp1.py",
+      "present": true,
+      "sha256": "8210f294f3537507931c948bb2593656bef4cc6484325c8e98b830f537c13ea3",
+      "size": 3737
+    },
+    {
+      "path": "D:/progs/IDE/MainProjs/AI/GCI2026/finalA/v3_addons/tests/test_wp5.py",
+      "present": true,
+      "sha256": "f7d87b69c779e0655fac9c2cdd9185e57e8421153acfdc1a56db0d98535b6851",
+      "size": 7490
+    }
+  ],
+  "wp5_scientific_acceptance": false,
+  "wp5_scientific_status": "PARTIAL"
+}

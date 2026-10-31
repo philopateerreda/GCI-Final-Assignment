@@ -1,0 +1,5 @@
+partition,customers,sample_churn_rate
+train,60000,0.49561666666666665
+validation,15000,0.4956
+calibration_policy,10000,0.4956
+test,15000,0.49566666666666664

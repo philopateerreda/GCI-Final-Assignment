@@ -1,0 +1,18 @@
+{
+  "rows": 278,
+  "source_files": [
+    "v1_frozen/analysis_outputs/feature_manifest.json",
+    "v1_frozen/analysis_outputs/model_selection.json",
+    "v1_frozen/analysis_outputs/summary.json",
+    "v2_work/b_design.json",
+    "v2_work/chart_numeric_sources.json",
+    "v2_work/d_results/run_spec.json",
+    "v2_work/final_metrics.json",
+    "v2_work/literature_verification.json",
+    "v2_work/static_claim_sources.json"
+  ],
+  "ledger_sha256": "b4dce03b43f6bd1b9ef3142759e0cb88682527af2f9f8824902521d88729c5b4",
+  "binding_sha256": "d99b8dcb5b9b0bd68bf5aa6949e0898c2667f6c7e0d8c0171fcb16ba9d2f2392",
+  "native_number_coverage": true,
+  "derivation": "Every displayed quantity is formatted from an explicit independent source binding; no source values are inferred from slide text."
+}

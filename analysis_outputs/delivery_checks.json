@@ -1,0 +1,73 @@
+{
+  "pdf_pages": 15,
+  "pdf_bytes": 846608,
+  "pptx_slides": 15,
+  "pptx_bytes": 1310666,
+  "executed_notebook_code_cells": 25,
+  "notebook_errors": 0,
+  "notebook_matches_pipeline": true,
+  "original_nine_code_cells_preserved": true,
+  "slide_headlines_match_analysis": true,
+  "source_files_unchanged": true,
+  "deterministic_v1_prediction_sha256": "c525318b3e589a60054ad6d33eeefe9456c5c9c874e7565efc5495672b170d8d",
+  "powerpoint_export": "successful",
+  "out_of_bounds_shapes": [],
+  "protocol_sha256": "700ca4446024aeb1d844e46513c2a4118f698035cd50c4e9a5b0f6f07218c66a",
+  "gate_d_passed": false,
+  "claims_check": {
+    "ledger_rows": 278,
+    "all_native_numeric_mentions_covered": true,
+    "values_verified_against_source_json": true,
+    "all_chart_numeric_mentions_covered": true,
+    "chart_exact_source_bindings_and_regimes_verified": true,
+    "new_chart_plotted_coordinates_independently_verified": true,
+    "chart_values_and_axis_scales_registered": true,
+    "slide_citations_match_references": true,
+    "static_source_provenance_hashes_verified": [
+      "v1_frozen/analysis_outputs/tables/data_partitions.csv",
+      "v1_frozen/analysis_pipeline.py",
+      "v1_frozen/philopateer.pptx",
+      "v1_frozen/references.txt",
+      "v2_work/b_design.json",
+      "v2_work/d_results/run_spec.json",
+      "v2_work/literature_verification.json",
+      "v2_work/workstream_a.py"
+    ],
+    "chart_slides_checked": [
+      5,
+      6,
+      8,
+      9,
+      11
+    ],
+    "all_embedded_chart_sha256_match_sources": true,
+    "ledger_sha256": "b4dce03b43f6bd1b9ef3142759e0cb88682527af2f9f8824902521d88729c5b4"
+  },
+  "office_geometry_issue_count": 0,
+  "office_geometry_check_sha256": "31569f42fac021a6790e23ff56092b2913680d33cbb701ec407de1e61bd938a7",
+  "render_sha256": {
+    "analysis_outputs/slide_renders/Slide1.PNG": "ef4b87f2483e1881bbddfa7150b65ef16d50ea9e7f7034fa78b8e2a23fa869d0",
+    "analysis_outputs/slide_renders/Slide2.PNG": "8ce7f571b9b6ddd2ff0a4673f77a71a7778fb062c4b25f41ac1d5311a3c90555",
+    "analysis_outputs/slide_renders/Slide3.PNG": "399c30e05244e04dec3c5473d98366f4410262626001f886157b6e8445b0ec5a",
+    "analysis_outputs/slide_renders/Slide4.PNG": "1a104d0c1040fb526e9f4f57bb14425c6c8e03d3bbff071a51b94d1ebf081547",
+    "analysis_outputs/slide_renders/Slide5.PNG": "9c5491c8c173474ebd544e239f3e2efcfddfb51f8dcb2fd704528ce1a48e1342",
+    "analysis_outputs/slide_renders/Slide6.PNG": "6983a4a9ee9938db04d5cecf7122a61304c16bf92929bb3a9d71bff48dc1e33a",
+    "analysis_outputs/slide_renders/Slide7.PNG": "45e079d2d5cc12f02927bf1d19882596a21390a2bd4d4a626dfbebda0009857c",
+    "analysis_outputs/slide_renders/Slide8.PNG": "96e1e14a7fe287b9e1286e8fdf3cbbb647f7978546c5ce36a0db935cd2aa9ab0",
+    "analysis_outputs/slide_renders/Slide9.PNG": "6ef12775fb8cbe1d887183db1b0e5a5749ccd01c1aae4db6c20ed123224f6d2c",
+    "analysis_outputs/slide_renders/Slide10.PNG": "17d262012f254a46dd820f2727243523a8e52a5a08bddecc59f822162485d532",
+    "analysis_outputs/slide_renders/Slide11.PNG": "57807c2fc3fdc4cb40efd544d1050651673ee55c2eb446b4db4418173fac32c9",
+    "analysis_outputs/slide_renders/Slide12.PNG": "b075a67b7a9c8c18ff20d02109809d4f901c5215efd3b8d6c802046095bac291",
+    "analysis_outputs/slide_renders/Slide13.PNG": "7dcd3d270ac4387c986279b7f30e6908ba0a967ec5ba85a35cec4e9f8ca71849",
+    "analysis_outputs/slide_renders/Slide14.PNG": "02db4a716a538698c4a23d604f410d501c0cab8d6899cb9c91aa55becc6cd464",
+    "analysis_outputs/slide_renders/Slide15.PNG": "68193e32c0991412d6b6efe4585d56f98cf773b4e33d681fda7112cccf04e276"
+  },
+  "delivery_sha256": {
+    "philopateer.pdf": "a51d2c0ff8aa6ebb0f679e680d6424b01cd7b95b9a0d23ae7a2eecc56de210ea",
+    "philopateer.pptx": "a50a66fd77d062bdc45aeefb00ce8652b20b952de06dcb27e8ab4f15c37e46bc",
+    "philopateer.ipynb": "aaa170b19923c087f9b38f85b546626b7465a3d17f5ae7037812c6aed5736b35",
+    "references.txt": "b12fb18aafc83e2d599e15d04c689ee5cd85c10082c1761ab0c6f1d01606d361"
+  },
+  "visual_review": "Pending full-size review of all fifteen rendered slides and contact sheet.",
+  "submission_note": "Not submitted. No AI conversation URL was supplied or fabricated."
+}

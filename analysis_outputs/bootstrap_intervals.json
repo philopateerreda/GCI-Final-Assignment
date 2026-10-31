@@ -1,0 +1,14 @@
+{
+  "auc": {
+    "lower": 0.689902981889822,
+    "upper": 0.7054949137349805
+  },
+  "value_capture_difference_pp": {
+    "lower": 5.418038432110333,
+    "upper": 7.083590859030723
+  },
+  "value_capture_relative_gain": {
+    "lower": 0.363554223188793,
+    "upper": 0.4899396334795961
+  }
+}

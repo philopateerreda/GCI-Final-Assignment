@@ -1,0 +1,30 @@
+Traceback (most recent call last):
+  File "D:\progs\IDE\MainProjs\AI\GCI2026\finalA\v2_work\workstream_d.py", line 1147, in run
+    baselines, ablations, ceiling = run_d2(runner, folds, features)
+                                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\progs\IDE\MainProjs\AI\GCI2026\finalA\v2_work\workstream_d.py", line 821, in run_d2
+    result, metadata = runner.fit(train, fold.test, Recipe(),
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\progs\IDE\MainProjs\AI\GCI2026\finalA\v2_work\workstream_d.py", line 614, in fit
+    self.progress("fitting", tag=tag, recipe=asdict(recipe))
+  File "D:\progs\IDE\MainProjs\AI\GCI2026\finalA\v2_work\workstream_d.py", line 587, in progress
+    self.store.json("progress.json", dict(phase=phase,
+  File "D:\progs\IDE\MainProjs\AI\GCI2026\finalA\v2_work\workstream_d.py", line 201, in json
+    os.replace(temporary, target)
+PermissionError: [WinError 5] Access is denied: 'D:\\progs\\IDE\\MainProjs\\AI\\GCI2026\\finalA\\v2_work\\d_smoke\\progress.json.tmp' -> 'D:\\progs\\IDE\\MainProjs\\AI\\GCI2026\\finalA\\v2_work\\d_smoke\\progress.json'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\progs\IDE\MainProjs\AI\GCI2026\finalA\v2_work\workstream_d.py", line 1231, in <module>
+    main()
+  File "D:\progs\IDE\MainProjs\AI\GCI2026\finalA\v2_work\workstream_d.py", line 1227, in main
+    return run(smoke=args.smoke, output=args.output_dir)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\progs\IDE\MainProjs\AI\GCI2026\finalA\v2_work\workstream_d.py", line 1215, in run
+    runner.progress("interrupted_or_failed", error_type=type(error).__name__, error=str(error),
+  File "D:\progs\IDE\MainProjs\AI\GCI2026\finalA\v2_work\workstream_d.py", line 587, in progress
+    self.store.json("progress.json", dict(phase=phase,
+  File "D:\progs\IDE\MainProjs\AI\GCI2026\finalA\v2_work\workstream_d.py", line 201, in json
+    os.replace(temporary, target)
+PermissionError: [WinError 5] Access is denied: 'D:\\progs\\IDE\\MainProjs\\AI\\GCI2026\\finalA\\v2_work\\d_smoke\\progress.json.tmp' -> 'D:\\progs\\IDE\\MainProjs\\AI\\GCI2026\\finalA\\v2_work\\d_smoke\\progress.json'

@@ -1,0 +1,106 @@
+{
+  "directory_diff": {
+    "added_outside": [],
+    "changed_outside": [],
+    "files_after": 4246,
+    "files_before": 4246,
+    "passed": true,
+    "removed_outside": []
+  },
+  "files_created": [
+    "AGENTS.md",
+    "reports/STOP_REPORT.md",
+    "reports/WP0_report.md",
+    "reports/WP1_report.md",
+    "results/inventory.json",
+    "results/stop_report.json",
+    "results/wp1_capacity_mde.csv",
+    "results/wp1_power.csv",
+    "results/wp1_power.json",
+    "results/wp1_simulation_samples.npz",
+    "results/wp1_tests.json",
+    "results/write_boundary_before.json",
+    "src/__validation_only__.png",
+    "src/common.py",
+    "src/png_drafts.py",
+    "src/stop_report.py",
+    "src/wp0_preflight.py",
+    "src/wp1_power.py",
+    "tests/seed_determinism_fixture.json",
+    "tests/test_wp1.py"
+  ],
+  "no_integration": true,
+  "no_model_training": true,
+  "no_new_test_metrics": true,
+  "other_findings": [
+    "[E] WP1 ran all 48 n/prevention points but then failed because the concurrently prepared PNG helper was not yet available. No full WP1 completion is claimed.",
+    "[E] The draft report wrote DONE before figure generation. Its status and the affected JSON statuses are now marked BLOCKED.",
+    "[E] Literal Appendix C E2/E3 use latent prevented outcomes, unavailable to actual randomized trials. They are explicitly oracle diagnostics, not valid pilot-capacity claims.",
+    "[E] CSV source scanning filters non-test IDs before parsing numeric V; no test outcomes or values enter a scientific data frame or new metric. The reviewer strict no-read concern is stronger than the brief actual no-new-test-computation rule.",
+    "[E] Full handoff exists; the named concise handoff is missing. No input required training or test-split reconstruction.",
+    "[E] The PNG helper agent was stopped. Its helper source and a validation-only PNG inside src are retained as unfinished drafts.",
+    "[E] All task-owned analytical/background work has stopped; no package was installed and no submission was made."
+  ],
+  "provenance": {
+    "created_utc": "2026-10-29T14:35:56.390446+00:00",
+    "input_files": [
+      {
+        "path": "D:/progs/IDE/MainProjs/AI/GCI2026/finalA/v3_addons/results/write_boundary_before.json",
+        "present": true,
+        "sha256": "e7616e3f66541f3fa5e6f6a625702c29034c5b9e6d1b7d452d1bf5e3e3f94bc1",
+        "size": 866828
+      },
+      {
+        "path": "D:/progs/IDE/MainProjs/AI/GCI2026/finalA/v3_addons/src/wp1_power.py",
+        "present": true,
+        "sha256": "fdc30d4acba2ef73390eb8a9f0aab05471db79e23eb792729c2ab47504e963e8",
+        "size": 17888
+      },
+      {
+        "path": "D:/progs/IDE/MainProjs/AI/GCI2026/finalA/v3_addons/src/wp0_preflight.py",
+        "present": true,
+        "sha256": "83402f96f934b43c6a0bd215b3e604c55b402b04f536952e7bc889dc17bacf97",
+        "size": 9676
+      },
+      {
+        "path": "D:/progs/IDE/MainProjs/AI/GCI2026/finalA/v3_addons/src/common.py",
+        "present": true,
+        "sha256": "03f5200ff6c18fe124e62ea3200efd04d4d93d6649377565cb7e4a3dfcae5d84",
+        "size": 6098
+      }
+    ],
+    "python_version": "3.11.9 (tags/v3.11.9:de54cf5, Apr  2 2024, 10:12:12) [MSC v.1938 64 bit (AMD64)]",
+    "row_counts": {
+      "outside_files": 4246
+    },
+    "script": "D:/progs/IDE/MainProjs/AI/GCI2026/finalA/v3_addons/src/stop_report.py",
+    "script_sha256": "1694d6ec92069d730b0e37d277f7ed2744e4f4b89182d14cd84bc0c50641f8ea",
+    "seed": 20261028,
+    "tags_used": [
+      "[E]",
+      "[A]",
+      "[R]"
+    ]
+  },
+  "reason": "[E] NumPy/SciPy were initialized before common.py applied thread environment variables. Data-free np.show_runtime inspection confirmed both OpenBLAS pools configured for 12 threads, exceeding the six-thread maximum.",
+  "requested_human_decision": "[R] Authorize sandbox-only import-order correction, explicit six-thread launch environment, runtime verification before numerics, helper validation, and compliant WP0/WP1 rerun; or retain the stop.",
+  "runtime_inspection": {
+    "method": "Data-free import of wp1_power followed by numpy.show_runtime; no simulation/data load in inspection.",
+    "numpy_openblas_threads": 12,
+    "required_maximum": 6,
+    "scipy_openblas_threads": 12
+  },
+  "status": "BLOCKED_WAITING_FOR_HUMAN",
+  "stop_condition": "Section 1 HARD GUARDRAILS: six threads maximum was not enforced before BLAS initialization",
+  "wp_status": {
+    "WP0": "BLOCKED: integrity/input checks passed; numerical outputs quarantined for runtime compliance",
+    "WP1": "BLOCKED: draft numerical grid saved; figure export failed; outputs quarantined",
+    "WP2": "NOT_STARTED",
+    "WP3": "NOT_STARTED",
+    "WP4": "NOT_STARTED",
+    "WP5": "NOT_STARTED",
+    "WP6": "NOT_STARTED",
+    "WP7": "NOT_REACHED",
+    "WP8": "OFF"
+  }
+}

@@ -1,0 +1,10 @@
+B calibration MC n=1,000/arm: binary_churn=17.0%, unadjusted_contribution=0.2%, adjusted_contribution=0.0%
+B calibration MC n=2,500/arm: binary_churn=35.8%, unadjusted_contribution=0.0%, adjusted_contribution=0.2%
+B calibration MC n=5,000/arm: binary_churn=66.0%, unadjusted_contribution=2.8%, adjusted_contribution=3.0%
+B calibration MC n=7,872/arm: binary_churn=85.8%, unadjusted_contribution=3.5%, adjusted_contribution=6.2%
+B calibration MC n=10,000/arm: binary_churn=90.0%, unadjusted_contribution=4.0%, adjusted_contribution=12.5%
+B calibration MC n=20,000/arm: binary_churn=99.8%, unadjusted_contribution=14.5%, adjusted_contribution=38.0%
+B calibration MC n=40,000/arm: binary_churn=100.0%, unadjusted_contribution=22.2%, adjusted_contribution=76.5%
+B calibration MC n=80,000/arm: binary_churn=100.0%, unadjusted_contribution=50.2%, adjusted_contribution=97.2%
+B calibration MC n=160,000/arm: binary_churn=100.0%, unadjusted_contribution=79.2%, adjusted_contribution=100.0%
+B completed: calibration {'binary_churn': 7872, 'unadjusted_contribution': None, 'adjusted_contribution': 80000}

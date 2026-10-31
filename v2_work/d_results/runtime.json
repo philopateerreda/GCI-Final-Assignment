@@ -1,0 +1,9 @@
+{
+  "current_session_seconds": 6173.907587199996,
+  "cumulative_completed_fit_seconds": 7797.095413400006,
+  "completed_unique_fits": 696,
+  "new_fits": 357,
+  "cache_hits": 424,
+  "execution": "sequential; six CPU threads per fit",
+  "decision_allowed": true
+}

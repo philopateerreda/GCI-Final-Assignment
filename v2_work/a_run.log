@@ -1,0 +1,2 @@
+A calibration selection: sigmoid ; fixed base budget10%; optimal fractions chosen on calibration OOF only
+calibration A policy comparison: [('risk', 26.98, 2195.23), ('value', 15.95, -4832.69), ('sample_rv', 27.59, 2590.86), ('bayes', 31.15, 4869.16), ('profit_gate', 31.15, 4869.16)]

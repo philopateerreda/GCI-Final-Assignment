@@ -1,0 +1,10 @@
+{
+  "phase": "complete",
+  "fold": null,
+  "new_fits": 357,
+  "cache_hits": 424,
+  "current_session_seconds": 6173.9371250999975,
+  "decision_allowed": true,
+  "selected_candidate": "baseline_lgbm",
+  "gate_d_passed": false
+}

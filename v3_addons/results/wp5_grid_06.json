@@ -1,0 +1,288 @@
+{
+  "artifact": {
+    "path": "D:/progs/IDE/MainProjs/AI/GCI2026/finalA/v3_addons/results/wp5_grid_06.npz",
+    "present": true,
+    "sha256": "b80a4b5a58f2c15ad1428a44fdd3522b863859e6b660205c85fccc03fe58505e",
+    "size": 1952918
+  },
+  "bootstrap_failures": 0,
+  "computation_complete": true,
+  "confidence_interval": "Linear 2.5/97.5 percentiles of all 500 returned estimates, including explicitly flagged failed iterates.",
+  "identity": {
+    "batch_size": 50000,
+    "bootstrap_replicates": 500,
+    "folded_score_sha256": "88e58cc3c95e7dc65760f16f66e751a229e7263a27db9b1729c29e3e6ef68194",
+    "grid_index": 6,
+    "input_fingerprint": "16cc895ee500502700a21d4e19b7097a0e35bfe58e3bb0ee660d1f267fbd43d1",
+    "original_replicates": 500,
+    "script_sha256": "c5d7df3f0e47795effc220aa35646e4d6f0d9f4ce018545cc273eca5acbc7f0a",
+    "seed": 20261028,
+    "task_seed": 20261033,
+    "true_prior": 0.01
+  },
+  "original_converged": 443,
+  "provenance": {
+    "created_utc": "2026-10-29T15:30:46.256302+00:00",
+    "input_files": [
+      {
+        "path": "C:/Users/FGstore/.qoder/tmp/D--progs-IDE-MainProjs-AI-GCI2026-finalA/attachments/3462e263-cc13-4104-9c41-44f49963bbaa/4ec2074d-b034-4447-85ba-967f007db8e9.txt",
+        "present": true,
+        "sha256": "a86cbb9698f01401acd2d7b10877355c4b9703ec15f43b7f80361fae3f89dda9",
+        "size": 34853
+      },
+      {
+        "path": "D:/progs/IDE/MainProjs/AI/GCI2026/finalA/analysis_outputs/feature_manifest.json",
+        "present": true,
+        "sha256": "8e0560cedab891acfea8b440b5d7f28516de1e3adc5b06899a442dd8d07fd067",
+        "size": 2559
+      },
+      {
+        "path": "D:/progs/IDE/MainProjs/AI/GCI2026/finalA/analysis_outputs/model_selection.json",
+        "present": true,
+        "sha256": "62e17913b8e7bf7bf1ac8fdd4556d242b524c884a0e929352c2b9e3bb5e9acc3",
+        "size": 321
+      },
+      {
+        "path": "D:/progs/IDE/MainProjs/AI/GCI2026/finalA/analysis_outputs/source_manifest.json",
+        "present": true,
+        "sha256": "60861fb36607bcf143e313ca94390a67eb38b90c8b431144bb6f8cdb5156686a",
+        "size": 707
+      },
+      {
+        "path": "D:/progs/IDE/MainProjs/AI/GCI2026/finalA/references.txt",
+        "present": true,
+        "sha256": "b12fb18aafc83e2d599e15d04c689ee5cd85c10082c1761ab0c6f1d01606d361",
+        "size": 18843
+      },
+      {
+        "path": "D:/progs/IDE/MainProjs/AI/GCI2026/finalA/telecom/Record.csv",
+        "present": true,
+        "sha256": "5bd563bb77b357920832510b78d6842060d928cb5de8c0aaf79aa2a647e2271a",
+        "size": 30182432
+      },
+      {
+        "path": "D:/progs/IDE/MainProjs/AI/GCI2026/finalA/v1_frozen/analysis_outputs/models/selected_model.joblib",
+        "present": true,
+        "sha256": "8a59fe9ac8c2eafb85c442fa1531035399aeecc6530a4b6489914385ecedfa3c",
+        "size": 1375735
+      },
+      {
+        "path": "D:/progs/IDE/MainProjs/AI/GCI2026/finalA/v1_frozen/analysis_outputs/tables/split_manifest.csv",
+        "present": true,
+        "sha256": "4caefcbed46a834f89cfbf21387f78555e601b43a8cee81d1637c786fb0a21b3",
+        "size": 1690023
+      },
+      {
+        "path": "D:/progs/IDE/MainProjs/AI/GCI2026/finalA/v2_work/a_calibrator.joblib",
+        "present": true,
+        "sha256": "c2cb492d958af024a0b06f7f206282835c1e857d1e9fbb7ed2df138ccdf9ae60",
+        "size": 929
+      },
+      {
+        "path": "D:/progs/IDE/MainProjs/AI/GCI2026/finalA/v2_work/a_selected_calibration.csv",
+        "present": true,
+        "sha256": "fa0ee67c5b94431e5313633219c04c8c4c248944564659e06007e0a2aff25648",
+        "size": 1449202
+      },
+      {
+        "path": "D:/progs/IDE/MainProjs/AI/GCI2026/finalA/v2_work/a_spec.json",
+        "present": true,
+        "sha256": "2f258d7d0ff9360d0ff0673abcb8c41e5c6462b2181d8d09dc5e86b4be5c8431",
+        "size": 5484
+      },
+      {
+        "path": "D:/progs/IDE/MainProjs/AI/GCI2026/finalA/v2_work/common.py",
+        "present": true,
+        "sha256": "c68e6bcd81a24ae6960474ea537c4574fd0139fd83126fae0a853275611b0de7",
+        "size": 4647
+      },
+      {
+        "path": "D:/progs/IDE/MainProjs/AI/GCI2026/finalA/v2_work/d_results/oof/baseline_lgbm_r0_f0.npz",
+        "present": true,
+        "sha256": "7c95f578448d7cc565fe698b02d6d691818b9c072099ce3d712513a04d1c22cd",
+        "size": 425956
+      },
+      {
+        "path": "D:/progs/IDE/MainProjs/AI/GCI2026/finalA/v2_work/d_results/oof/baseline_lgbm_r0_f1.npz",
+        "present": true,
+        "sha256": "ab8bdbf05930676d8a99a03c8cac339bf70894528063f90f2730f597d51cead7",
+        "size": 426238
+      },
+      {
+        "path": "D:/progs/IDE/MainProjs/AI/GCI2026/finalA/v2_work/d_results/oof/baseline_lgbm_r0_f2.npz",
+        "present": true,
+        "sha256": "261e411d43e57bc07e2cea4478ea5ca14eed652d7a504cb2a92bbea2f4e2f1b8",
+        "size": 426064
+      },
+      {
+        "path": "D:/progs/IDE/MainProjs/AI/GCI2026/finalA/v2_work/d_results/oof/baseline_lgbm_r0_f3.npz",
+        "present": true,
+        "sha256": "3e686c9c9e28ab042a2537c314aefef2dbc05b7c14bde743e4690ea621e0dd50",
+        "size": 426063
+      },
+      {
+        "path": "D:/progs/IDE/MainProjs/AI/GCI2026/finalA/v2_work/d_results/oof/baseline_lgbm_r0_f4.npz",
+        "present": true,
+        "sha256": "c7ef34ff72ddc81ff7c7f5b9125a3958583c40978121f0dd43cafb6e46ff10cc",
+        "size": 425689
+      },
+      {
+        "path": "D:/progs/IDE/MainProjs/AI/GCI2026/finalA/v2_work/d_results/oof/baseline_lgbm_r1_f0.npz",
+        "present": true,
+        "sha256": "47298f1db1f8e758d57f7f9a777ccd1c2d5bcf59f913c914ed9f970755e6f453",
+        "size": 425915
+      },
+      {
+        "path": "D:/progs/IDE/MainProjs/AI/GCI2026/finalA/v2_work/d_results/oof/baseline_lgbm_r1_f1.npz",
+        "present": true,
+        "sha256": "a0f96c7b7d0af44a3332c39f6c41d35cbe17dc3505f5a57d3681135b1b9ea848",
+        "size": 426194
+      },
+      {
+        "path": "D:/progs/IDE/MainProjs/AI/GCI2026/finalA/v2_work/d_results/oof/baseline_lgbm_r1_f2.npz",
+        "present": true,
+        "sha256": "96066024ef34837f2aa3b640a8ab705100ceb1d46ba43e51cfc2338f9ce09a9d",
+        "size": 426447
+      },
+      {
+        "path": "D:/progs/IDE/MainProjs/AI/GCI2026/finalA/v2_work/d_results/oof/baseline_lgbm_r1_f3.npz",
+        "present": true,
+        "sha256": "d552473bfe1d333afd55a9f77a7e87de172273218c9181dbbf3f0ce1fc071636",
+        "size": 426035
+      },
+      {
+        "path": "D:/progs/IDE/MainProjs/AI/GCI2026/finalA/v2_work/d_results/oof/baseline_lgbm_r1_f4.npz",
+        "present": true,
+        "sha256": "4f0fe7e92f48e7adc6aeb92290559dbed0ce34386ca3f2594df20f326d9e14e7",
+        "size": 425781
+      },
+      {
+        "path": "D:/progs/IDE/MainProjs/AI/GCI2026/finalA/v2_work/final_metrics.json",
+        "present": true,
+        "sha256": "1d14a4fea10ab391631379f82cd6a82e5a65ede4f01db5b540c9aec3612eea1e",
+        "size": 155122
+      },
+      {
+        "path": "D:/progs/IDE/MainProjs/AI/GCI2026/finalA/v2_work/workstream_a.py",
+        "present": true,
+        "sha256": "b1ccdd6d40eab51961498ff39c0522f4df57b1d0cd4309aa5b509fc30a3434b8",
+        "size": 17411
+      },
+      {
+        "path": "D:/progs/IDE/MainProjs/AI/GCI2026/finalA/v3_addons/reports/WP3_report.md",
+        "present": true,
+        "sha256": "b491ba1f9b986d1585d852dfcd9d0c2de2380b8c3f6b9cace1299c6b2c2111a5",
+        "size": 17775
+      },
+      {
+        "path": "D:/progs/IDE/MainProjs/AI/GCI2026/finalA/v3_addons/reports/WP4_report.md",
+        "present": true,
+        "sha256": "169cb1c6f36d1f51ead1122e3127d83b04a51091f6f80074ff1c890c9741cf00",
+        "size": 2288
+      },
+      {
+        "path": "D:/progs/IDE/MainProjs/AI/GCI2026/finalA/v3_addons/results/wp3_roi_band.json",
+        "present": true,
+        "sha256": "96aa9a75869c53079e1442a26f1f3d08f5261d735e61a5195a658955843a5dd1",
+        "size": 96482
+      },
+      {
+        "path": "D:/progs/IDE/MainProjs/AI/GCI2026/finalA/v3_addons/results/wp4_protocol.json",
+        "present": true,
+        "sha256": "1fd31cc4461349db720ba88de079a0f0f7d15f3963b283b121af6e7af77676e9",
+        "size": 6653
+      },
+      {
+        "path": "D:/progs/IDE/MainProjs/AI/GCI2026/finalA/v3_addons/results/wp5_calibration_oof.csv",
+        "present": true,
+        "sha256": "88e58cc3c95e7dc65760f16f66e751a229e7263a27db9b1729c29e3e6ef68194",
+        "size": 1952387
+      },
+      {
+        "path": "D:/progs/IDE/MainProjs/AI/GCI2026/finalA/v3_addons/results/wp5_calibration_oof.json",
+        "present": true,
+        "sha256": "a19d7ecadcc009b07806f3f78b7a4d016473656f0af545e5f102773d818f16b1",
+        "size": 1054830
+      },
+      {
+        "path": "D:/progs/IDE/MainProjs/AI/GCI2026/finalA/v3_addons/results/wp5_tests.json",
+        "present": true,
+        "sha256": "98f28360681b04f3dc74293f41208da88a2e7b9aa4de0ea5e3b586787f15c66b",
+        "size": 2770
+      },
+      {
+        "path": "D:/progs/IDE/MainProjs/AI/GCI2026/finalA/v3_addons/src/common.py",
+        "present": true,
+        "sha256": "5522fe7e7c49f945db5bd12bff6b850652ee12b002014a64f44217b01d13db0d",
+        "size": 7086
+      },
+      {
+        "path": "D:/progs/IDE/MainProjs/AI/GCI2026/finalA/v3_addons/src/png_drafts.py",
+        "present": true,
+        "sha256": "4c9a2135d01750409d1d3be20d3cef404385dcdddf5306d0dcde5b746c0069c8",
+        "size": 22184
+      },
+      {
+        "path": "D:/progs/IDE/MainProjs/AI/GCI2026/finalA/v3_addons/src/reporting.py",
+        "present": true,
+        "sha256": "189d0c2ebcb7616746332e56d568e180bd364346f0422ae1c20712dbdc4f4479",
+        "size": 941
+      },
+      {
+        "path": "D:/progs/IDE/MainProjs/AI/GCI2026/finalA/v3_addons/src/wp5_labelshift.py",
+        "present": true,
+        "sha256": "c5d7df3f0e47795effc220aa35646e4d6f0d9f4ce018545cc273eca5acbc7f0a",
+        "size": 69672
+      }
+    ],
+    "python_version": "3.11.9 (tags/v3.11.9:de54cf5, Apr  2 2024, 10:12:12) [MSC v.1938 64 bit (AMD64)]",
+    "row_counts": {
+      "bootstrap_fits": 250000,
+      "calibration_pool": 10000,
+      "original_replicates": 500,
+      "test_rows_used": 0
+    },
+    "runtime_pools": [
+      {
+        "architecture": "Haswell",
+        "filepath": "C:\\Users\\FGstore\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\numpy.libs\\libscipy_openblas64_-860d95b1c38e637ce4509f5fa24fbf2a.dll",
+        "internal_api": "openblas",
+        "num_threads": 6,
+        "prefix": "libscipy_openblas",
+        "threading_layer": "pthreads",
+        "user_api": "blas",
+        "version": "0.3.30"
+      },
+      {
+        "architecture": "Haswell",
+        "filepath": "C:\\Users\\FGstore\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\scipy.libs\\libscipy_openblas-64eda39e79589aedb16f58e5547eb599.dll",
+        "internal_api": "openblas",
+        "num_threads": 6,
+        "prefix": "libscipy_openblas",
+        "threading_layer": "pthreads",
+        "user_api": "blas",
+        "version": "0.3.30"
+      }
+    ],
+    "script": "D:/progs/IDE/MainProjs/AI/GCI2026/finalA/v3_addons/src/wp5_labelshift.py",
+    "script_sha256": "c5d7df3f0e47795effc220aa35646e4d6f0d9f4ce018545cc273eca5acbc7f0a",
+    "seed": 20261033,
+    "tags_used": [
+      "[E]",
+      "[A]",
+      "[R]"
+    ]
+  },
+  "resampling": "Exactly 500 Mult(n,original_scorecounts/n), not stratified bootstrap, Poisson, subsampling, delta method, or quantized support.",
+  "rng": "numpy.random.SeedSequence(SEED+5, spawn_key=(grid_index, replicate_index)); one independent stream per original batch.",
+  "solver_flags": {
+    "0": "converged interior root",
+    "1": "exact lower endpoint KKT maximizer (0)",
+    "2": "exact upper endpoint KKT maximizer (1)",
+    "3": "flat likelihood; nonidentifiable, counted as failure",
+    "4": "iteration cap; counted as failure",
+    "5": "nonfinite derivative/information; counted as failure"
+  },
+  "status": "PARTIAL",
+  "zero_removal": "Original positive-count score supports only; zero contributions inside each resample remain algebraically zero."
+}

@@ -1,0 +1,714 @@
+{
+  "schema_version": "1.0",
+  "accessed_date": "2026-10-28",
+  "scope": {
+    "task": "Research-only verification of the full enhancement blueprint; no model, dataset, notebook, deck, configuration, or references edits.",
+    "blueprint_path": "D:/progs/obsidian/Obsidian Vault/01_Projects/GCI2026/2- final A/2-second iteration/qoder_ultimate_enhancement_blueprint.md",
+    "original_references_path": "D:/progs/IDE/MainProjs/AI/GCI2026/finalA/references.txt",
+    "output_directory": "D:/progs/IDE/MainProjs/AI/GCI2026/finalA/v2_work",
+    "local_data_accessed_or_uploaded": false,
+    "scripts": "Inline commands used only C:/Users/FGstore/AppData/Local/Programs/Python/Python311/python.exe. No script files or package installations were created.",
+    "public_downloads": "Only public source PDFs and one public-paper page image were written alongside the requested artifacts. A mismatched remote-sensing paper was identified and removed, not treated as Saerens2002.",
+    "limitations": "This audit verifies external literature and conditional arithmetic, not the provenance of local v1 scores, selected customers, calibration, financial outputs, or pilot simulations. Search snippets alone were not used to verify substantive experimental findings.",
+    "excerpt_convention": "Quotation excerpts normalize line breaks and PDF ligatures. Printed page numbers are given only when visible. The CUPED supplied copy is a prepublication manuscript, so its locators use PDF page ordinals rather than invented published page numbers."
+  },
+  "sources": [
+    {
+      "id": "Saerens2002",
+      "bibliographic_metadata": {
+        "authors": ["Marco Saerens", "Patrice Latinne", "Christine Decaestecker"],
+        "year": 2002,
+        "title": "Adjusting the outputs of a classifier to new a priori probabilities: a simple procedure",
+        "venue": "Neural Computation",
+        "volume": "14",
+        "issue": "1",
+        "pages": "21-41",
+        "publication_month": "2002-01",
+        "doi": "10.1162/089976602753284446",
+        "metadata_evidence": "PubMed PMID 11747533, bibliographic record."
+      },
+      "supplied_url": "https://direct.mit.edu/neco/article/14/1/21/6577/Adjusting-the-Outputs-of-a-Classifier-to-New-a",
+      "accessed_url": "https://pubmed.ncbi.nlm.nih.gov/11747533/",
+      "url_provenance": "Discovered public search result; original supplied URL retained above.",
+      "access_status": "Supplied MIT article returned HTTP 403. A discovered MIT PDF also returned HTTP 403. PubMed bibliographic record and abstract were accessible. Original full text was not obtained.",
+      "verification_coverage": "verified_metadata_and_original_abstract_only",
+      "local_source_path": null,
+      "verified_claims": [
+        {
+          "claim": "Classifier posteriors trained under one class prior can require adjustment before use under a different prior, without refitting the classifier.",
+          "excerpt": "we present a simple iterative procedure for adjusting the outputs of the trained classifier with respect to these new a priori probabilities without having to refit the model, even when these probabilities are not known in advance.",
+          "locator": "PubMed abstract",
+          "printed_page": null,
+          "pdf_page": null,
+          "confidence": "high"
+        },
+        {
+          "claim": "The article's unknown-prior procedure is an EM procedure that also estimates new class priors.",
+          "excerpt": "This iterative algorithm is a straightforward instance of the expectation-maximization (EM) algorithm and is shown to maximize the likelihood of the new data.",
+          "locator": "PubMed abstract",
+          "printed_page": null,
+          "pdf_page": null,
+          "confidence": "high"
+        }
+      ],
+      "scope_caveat": "Do not claim the exact odds formula or a specific equation/page was directly inspected in this inaccessible article. The blueprint's known-prior odds correction is independently verified by algebra and Elkan2001, printed p. 975. Fixed-prior correction and estimation of an unknown prior by EM are different procedures. The 2% deployment prior, stable class-conditional distributions, and adequate probability calibration are assumptions here, not facts established for Company A.",
+      "permitted_reference_use": "Prior-probability adjustment rationale, citing the verified article metadata/abstract. Do not cite a fabricated full-text page or claim a guaranteed Company A improvement."
+    },
+    {
+      "id": "Neslin2006",
+      "bibliographic_metadata": {
+        "authors": ["Scott A. Neslin", "Sunil Gupta", "Wagner Kamakura", "Junxiang Lu", "Charlotte H. Mason"],
+        "year": 2006,
+        "title": "Defection Detection: Measuring and Understanding the Predictive Accuracy of Customer Churn Models",
+        "venue": "Journal of Marketing Research",
+        "volume": "43",
+        "issue": "2",
+        "pages": "204-211",
+        "publication_month": "2006-05",
+        "doi": "10.1509/jmkr.43.2.204",
+        "metadata_evidence": "Downloaded published-paper title page; issue and DOI corroborated by indexed UNC and Sage records.",
+        "doi_record_url": "https://journals.sagepub.com/doi/abs/10.1509/jmkr.43.2.204"
+      },
+      "supplied_url": "https://cdr.lib.unc.edu/concern/articles/v692th53r",
+      "accessed_url": "http://www.2lvw.nl/blog/wp-content/uploads/2020/05/20200514_Neslin_model_0fb0fc3d857c4c8f9ff6a84aec5e197fe8cb-1.pdf",
+      "url_provenance": "Exact discovered public search link; published article copy on a third-party host.",
+      "access_status": "Supplied UNC page fetch failed. Discovered PDF downloaded successfully and its published title, authors, pagination, body, and Table 1 were inspected. The host is not the publisher.",
+      "verification_coverage": "verified_full_published_article_copy",
+      "local_source_path": "D:/progs/IDE/MainProjs/AI/GCI2026/finalA/v2_work/literature_Neslin2006.pdf",
+      "verified_claims": [
+        {
+          "claim": "Tournament calibration data had 100,000 customers and 171 potential predictors; predictor period and label timing differ from assumptions that all Cell2Cell versions share one protocol.",
+          "excerpt": "The calibration data contained 171 potential predictor variables for 100,000 customers. The predictors were calculated over a three-month period, and churn was measured in the fifth month.",
+          "locator": "Tournament Structure / Data",
+          "printed_page": 205,
+          "pdf_page": 2,
+          "confidence": "high"
+        },
+        {
+          "claim": "Calibration data were enriched to 50% churn despite a company monthly rate of 1.8%.",
+          "excerpt": "Although the monthly churn rate for the company was 1.8%, 50% of the customers in the calibration data were churners.",
+          "locator": "Tournament Structure / Data",
+          "printed_page": 205,
+          "pdf_page": 2,
+          "confidence": "high"
+        },
+        {
+          "claim": "The current and later validation populations had 51,306 and 100,462 customers, respectively, with 1.80% churn in each.",
+          "excerpt": "The current score data were compiled at the same time as the calibration data and included 51,306 customers, 1.80% of whom were churners.",
+          "additional_excerpt": "The future score data included 100,462 customers, 1.80% of whom were churners.",
+          "locator": "Data; future data compiled roughly three months later",
+          "printed_page": 206,
+          "pdf_page": 3,
+          "confidence": "high"
+        },
+        {
+          "claim": "The reported contest criteria were top-decile lift and Gini, not a universal ROC-AUC benchmark of 0.684.",
+          "excerpt": "They were top-decile lift ... and the Gini coefficient",
+          "locator": "Data / prediction criteria; ellipsis omits equation-reference parenthesis",
+          "printed_page": 206,
+          "pdf_page": 3,
+          "confidence": "high"
+        },
+        {
+          "claim": "Table 1 reports protocol-specific Gini and lift statistics.",
+          "excerpt": "Gini current: mean 0.269, minimum 0.06, maximum 0.41; Gini future: mean 0.265, minimum 0.05, maximum 0.40. Lift current: mean 2.140, minimum 1.07, maximum 2.90; lift future: mean 2.130, minimum 1.19, maximum 3.01.",
+          "excerpt_type": "Verified table transcription, not prose quotation",
+          "locator": "Table 1, A: Descriptive Statistics",
+          "printed_page": 207,
+          "pdf_page": 4,
+          "confidence": "high"
+        }
+      ],
+      "scope_caveat": "No universal ~0.684 Cell2Cell ROC-AUC benchmark was verified. Neither superiority of the local 0.6978 nor an information ceiling follows from this paper. Feature set, sampling, train/validation populations, temporal protocol, and metric definitions differ. Even a conventional conversion AUC=(Gini+1)/2 would be a conditional derivation, not a directly reported benchmark. The paper's broad three-month predictor description does not establish the exact window of every _Mean/_Range column in the supplied assignment.",
+      "permitted_reference_use": "Historical churn-tournament protocol and distinction between enriched calibration data and low-prevalence validation. Do not use as evidence of a universal 0.684 ceiling or matched benchmark."
+    },
+    {
+      "id": "CUPED2013",
+      "bibliographic_metadata": {
+        "authors": ["Alex Deng", "Ya Xu", "Ron Kohavi", "Toby Walker"],
+        "year": 2013,
+        "title": "Improving the Sensitivity of Online Controlled Experiments by Utilizing Pre-Experiment Data",
+        "venue": "Proceedings of the Sixth ACM International Conference on Web Search and Data Mining (WSDM '13)",
+        "pages": "123-132",
+        "publication_date": "2013-02-04",
+        "doi": "10.1145/2433396.2433413",
+        "metadata_evidence": "Supplied 10-page prepublication manuscript title page; published pagination/date/DOI corroborated by indexed ACM abstract record. The ACM full page returned 403.",
+        "published_metadata_url": "https://dl.acm.org/doi/abs/10.1145/2433396.2433413"
+      },
+      "supplied_url": "https://exp-platform.com/Documents/2013-02-CUPED-ImprovingSensitivityOfControlledExperiments.pdf",
+      "accessed_url": "https://exp-platform.com/Documents/2013-02-CUPED-ImprovingSensitivityOfControlledExperiments.pdf",
+      "url_provenance": "Exact supplied URL.",
+      "access_status": "Public PDF downloaded successfully. WebFetch could not parse its PDF binary and Read lacked Poppler, so the existing PyMuPDF installation under explicit Python 3.11 was used to inspect the text.",
+      "verification_coverage": "verified_full_supplied_prepublication_manuscript",
+      "local_source_path": "D:/progs/IDE/MainProjs/AI/GCI2026/finalA/v2_work/literature_CUPED2013.pdf",
+      "verified_claims": [
+        {
+          "claim": "CUPED uses pre-experiment data to reduce metric variability.",
+          "excerpt": "We propose an approach (CUPED) that utilizes data from the pre-experiment period to reduce metric variability and hence achieve better sensitivity.",
+          "locator": "Abstract",
+          "printed_page": null,
+          "pdf_page": 1,
+          "confidence": "high"
+        },
+        {
+          "claim": "The roughly 50% variance reduction is a reported Bing result, not a guaranteed reduction for every pilot.",
+          "excerpt": "The results on Bing's experimentation system are very successful: we can reduce variance by about 50%, effectively achieving the same statistical power with only half of the users, or half the duration.",
+          "locator": "Abstract",
+          "printed_page": null,
+          "pdf_page": 1,
+          "confidence": "high"
+        },
+        {
+          "claim": "Optimal single-control-variate adjustment depends on covariance and correlation, with a connection to OLS adjustment.",
+          "excerpt": "The larger rho, the better the variance reduction.",
+          "excerpt_type": "ASCII normalization of the paper's Greek rho",
+          "verified_equations": ["theta = cov(Y, X) / var(X)", "var(Y_cv_mean) = var(Y_mean) * (1 - rho^2)"],
+          "locator": "Section 3.2.1, equations (4)-(5); OLS connection immediately below",
+          "printed_page": null,
+          "pdf_page": 4,
+          "confidence": "high"
+        },
+        {
+          "claim": "Constructing the covariate from pre-launch information avoids treatment-induced covariate differences; the paper specifies a common adjustment coefficient for both arms.",
+          "excerpt": "By using only information from before the launch of the experiment to construct the control variate, the randomization between treatment and control ensures that we have EX(t) = EX(c).",
+          "additional_excerpt": "For Delta_cv to be unbiased, the same theta has to be used for both control and treatment.",
+          "excerpt_type": "Line-break and mathematical-symbol normalization",
+          "locator": "Section 3.2.2",
+          "printed_page": null,
+          "pdf_pages": [4, 5],
+          "confidence": "high"
+        }
+      ],
+      "scope_caveat": "The assignment has no observed longitudinal pre/post treatment outcomes. A cross-sectional simulation using pre-treatment billing/risk covariates can illustrate ANCOVA-style adjustment but cannot verify live CUPED variance reduction, sample-size savings, or power for net contribution. Savings depend on actual pre/post correlation, covariate quality, matching coverage, randomization unit, and outcome distribution. Household clustering, unequal treatment effects, and sequential monitoring require separate design treatment.",
+      "permitted_reference_use": "Prospective pre-experiment covariate-adjustment rationale, with variance reduction re-estimated on live pre-period/outcome pairs. Never import Bing's 50% as a Company A estimate."
+    },
+    {
+      "id": "LemmensGupta2020",
+      "bibliographic_metadata": {
+        "authors": ["Aurelie Lemmens", "Sunil Gupta"],
+        "year": 2020,
+        "title": "Managing churn to maximize profits",
+        "venue": "Marketing Science",
+        "volume": "39",
+        "issue": "5",
+        "pages": "956-973",
+        "online_publication_date": "2020-08-27",
+        "doi": "10.1287/mksc.2020.1229",
+        "metadata_evidence": "Supplied Erasmus University publication record, including E-pub ahead of print date."
+      },
+      "supplied_url": "https://pure.eur.nl/en/publications/managing-churn-to-maximize-profits/",
+      "accessed_url": "https://pure.eur.nl/en/publications/managing-churn-to-maximize-profits/",
+      "url_provenance": "Exact supplied URL.",
+      "access_status": "University bibliographic record and full abstract were accessible. Its linked /files/212338405/Managing_Churn_to_Maximize_Profits.pdf returned HTTP 403; journal full text was not inspected.",
+      "verification_coverage": "verified_metadata_and_original_abstract_only",
+      "local_source_path": null,
+      "verified_claims": [
+        {
+          "claim": "Profit targeting accounts for the intervention's incremental effects on churn and post-campaign cash flows, after intervention cost.",
+          "excerpt": "customers are ranked based on the incremental impact of the intervention on churn and post-campaign cash flows, after accounting for the cost of the intervention",
+          "locator": "University publication record / Abstract",
+          "printed_page": null,
+          "pdf_page": null,
+          "confidence": "high"
+        },
+        {
+          "claim": "The proposed method optimizes retention-campaign size, and the abstract reports two field experiments.",
+          "excerpt": "Finally, it provides a method to optimize the size of the retention campaign. Two field experiments affirm that our approach leads to significantly more profitable campaigns than competing models.",
+          "locator": "University publication record / Abstract",
+          "printed_page": null,
+          "pdf_page": null,
+          "confidence": "high"
+        }
+      ],
+      "scope_caveat": "This supports an incremental-profit objective and campaign-size optimization, not a claim that p(churn) times a current bill is causal profit or that the blueprint's empirically chosen contact fraction is a transportable optimum. Exact full-text equations, effect sizes, and intervention details were not verified. Company A intervention response, post-campaign cash flows, and costs remain unobserved/assumed.",
+      "permitted_reference_use": "Profit-aware targeting and campaign-size rationale; retain the boundary between predictive value-at-risk and causal incremental profit."
+    },
+    {
+      "id": "Ascarza2018",
+      "bibliographic_metadata": {
+        "authors": ["Eva Ascarza"],
+        "year": 2018,
+        "title": "Retention Futility: Targeting High-Risk Customers Might Be Ineffective",
+        "venue": "Journal of Marketing Research",
+        "volume": "55",
+        "issue": "1",
+        "pages": "80-98",
+        "publication_month": "2018-02",
+        "doi": "10.1509/jmr.16.0163",
+        "metadata_evidence": "Published-paper title page from the author's public PDF; supplied HBS record is indexed but was blocked on direct retrieval."
+      },
+      "supplied_url": "https://www.hbs.edu/faculty/Pages/item.aspx?num=54936",
+      "accessed_url": "https://evaascarza.com/papers/ascarza_18.pdf",
+      "url_provenance": "Exact relative Paper link discovered by inspecting anchors on https://evaascarza.com; resolved against that site's URL.",
+      "discovery_url": "https://evaascarza.com",
+      "access_status": "Supplied HBS page and discovered HBS PDF returned HTTP 403. Author-hosted published article downloaded successfully; the abstract, title page, and introduction were inspected.",
+      "verification_coverage": "verified_published_article_abstract_and_relevant_body",
+      "local_source_path": "D:/progs/IDE/MainProjs/AI/GCI2026/finalA/v2_work/literature_Ascarza2018.pdf",
+      "verified_claims": [
+        {
+          "claim": "Two field experiments demonstrate that the customers at greatest predicted churn risk need not be the best retention targets.",
+          "excerpt": "Combining two field experiments with machine learning techniques, the author demonstrates that customers identified as having the highest risk of churning are not necessarily the best targets for proactive churn programs.",
+          "locator": "Abstract",
+          "printed_page": 80,
+          "pdf_page": 1,
+          "confidence": "high"
+        },
+        {
+          "claim": "The paper recommends targeting based on heterogeneous responsiveness to the intervention rather than equating risk with responsiveness.",
+          "excerpt": "firms should focus their modeling efforts on identifying the observed heterogeneity in response to the intervention and to target customers on the basis of their sensitivity to the intervention, regardless of their risk of churning.",
+          "locator": "Abstract; introduction elaborates on printed p. 81",
+          "printed_page": 80,
+          "pdf_page": 1,
+          "confidence": "high"
+        }
+      ],
+      "scope_caveat": "These are results for the studied campaigns and populations, not a universal theorem that all high-risk customers are unresponsive. The evidence does not turn an observational churn model into an uplift model or establish that Company A's proposed service recovery works. Below-cutoff exploration and overlap/positivity are design proposals needing actual randomized treatment/control outcomes.",
+      "permitted_reference_use": "Risk is not responsiveness; motivate randomized treatment/control learning and avoid presenting the current risk model as causal uplift."
+    },
+    {
+      "id": "Ascarza2016",
+      "bibliographic_metadata": {
+        "authors": ["Eva Ascarza", "Raghuram Iyengar", "Martin Schleicher"],
+        "year": 2016,
+        "title": "The Perils of Proactive Churn Prevention Using Plan Recommendations: Evidence from a Field Experiment",
+        "venue": "Journal of Marketing Research",
+        "volume": "53",
+        "issue": "1",
+        "pages": "46-60",
+        "publication_month": "2016-02",
+        "doi": "10.1509/jmr.13.0483",
+        "metadata_evidence": "Published-paper title page and reprint notice in Columbia-hosted PDF."
+      },
+      "supplied_url": "https://www.hbs.edu/faculty/Pages/item.aspx?num=54941",
+      "accessed_url": "https://business.columbia.edu/sites/default/files-efs/pubfiles/12782/Perils_Ascarza.pdf",
+      "url_provenance": "Exact discovered public search result on an author-affiliated university domain.",
+      "access_status": "Supplied HBS page returned HTTP 403. Columbia public PDF downloaded successfully; published title, pagination, numerical abstract, and introduction were inspected. The download also includes supplementary pages.",
+      "verification_coverage": "verified_published_article_abstract_and_relevant_body",
+      "local_source_path": "D:/progs/IDE/MainProjs/AI/GCI2026/finalA/v2_work/literature_Ascarza2016.pdf",
+      "verified_claims": [
+        {
+          "claim": "The reported three-month churn was 6% in control versus 10% in treatment following cost-minimizing plan recommendations.",
+          "excerpt": "whereas only 6% of customers in the control condition churned during the three months following the intervention, 10% did so in the treatment group.",
+          "locator": "Abstract",
+          "printed_page": 46,
+          "pdf_page": 1,
+          "confidence": "high"
+        },
+        {
+          "claim": "The paper proposes and finds supporting data for reduced switching inertia and increased salience of prior usage as explanations.",
+          "excerpt": "The authors propose two explanations for how the campaign increased churn, namely, (1) by lowering customers' inertia to switch plans and (2) by increasing the salience of past-usage patterns among potential churners. The data provide support for both explanations.",
+          "locator": "Abstract",
+          "printed_page": 46,
+          "pdf_page": 1,
+          "confidence": "high"
+        }
+      ],
+      "scope_caveat": "The causal backfire finding concerns that randomized plan-recommendation intervention, not every technical fix or service contact. The exact blueprint stratum 'low usage, zero overage, zero care calls' was not verified as a reported subgroup; label it a proposed harm-monitoring hypothesis. 'Global plan re-evaluation' should not replace the authors' more specific, supported mechanism language or be claimed as an established Company A cause. The 6%/10% are reported rounded group rates over three months, not monthly rates.",
+      "permitted_reference_use": "Use untreated controls and preregistered harm monitoring; cite 6% versus 10% with the intervention and three-month horizon stated."
+    },
+    {
+      "id": "Elkan2001",
+      "bibliographic_metadata": {
+        "authors": ["Charles Elkan"],
+        "year": 2001,
+        "title": "The Foundations of Cost-Sensitive Learning",
+        "venue": "Proceedings of the Seventeenth International Joint Conference on Artificial Intelligence (IJCAI 2001)",
+        "pages": "973-978",
+        "doi": null,
+        "metadata_evidence": "Official IJCAI proceedings landing page and six-page proceedings PDF. The landing page lists 973-977, but the primary PDF visibly runs 973 through 978; use 973-978."
+      },
+      "supplied_url": "https://www.researchgate.net/publication/2365611_The_Foundations_of_Cost-Sensitive_Learning",
+      "accessed_url": "https://ijcai.org/proceedings/2001/0133.pdf",
+      "url_provenance": "PDF link discovered on the official proceedings page returned by public search.",
+      "discovery_url": "https://ijcai.org/proceedings/2001/133",
+      "access_status": "Supplied ResearchGate URL returned HTTP 403. Official IJCAI landing page and linked PDF were accessible. Printed p. 975 was also rendered and visually inspected to verify the theorem and assumptions despite garbled PDF equation extraction.",
+      "verification_coverage": "verified_official_full_paper_and_prior_shift_theorem",
+      "local_source_path": "D:/progs/IDE/MainProjs/AI/GCI2026/finalA/v2_work/literature_Elkan2001.pdf",
+      "verified_page_image_path": "D:/progs/IDE/MainProjs/AI/GCI2026/finalA/v2_work/literature_Elkan2001_page975.png",
+      "verified_claims": [
+        {
+          "claim": "Optimal classification decisions minimize expected cost computed from the conditional class probabilities.",
+          "excerpt": "an example should be predicted to have the class that leads to the lowest expected cost, where the expectation is computed using the conditional probability of each class given the example.",
+          "locator": "Section 1, Foundations",
+          "printed_page": 973,
+          "pdf_page": 1,
+          "confidence": "high"
+        },
+        {
+          "claim": "The changed-base-rate posterior theorem assumes unchanged distributions within positive and negative classes.",
+          "excerpt": "We make the assumption that the shift in base rate is the only change in the population to which x belongs. Formally, we assume that within the positive and negative subpopulations, example probabilities are unchanged",
+          "locator": "Section 3, New probabilities given a new base rate; Theorem 2",
+          "printed_page": 975,
+          "pdf_page": 3,
+          "confidence": "high"
+        },
+        {
+          "claim": "Theorem 2 is algebraically equivalent to the blueprint's known-prior binary odds adjustment.",
+          "verified_equation": "p' = b' * (p - p*b) / (b - p*b + b'*p - b*b')",
+          "excerpt_type": "Equation transcribed from visually inspected official PDF page",
+          "locator": "Section 3, Theorem 2",
+          "printed_page": 975,
+          "pdf_page": 3,
+          "confidence": "high"
+        }
+      ],
+      "scope_caveat": "The theorem concerns true probabilities under a pure base-rate change; applying it to model estimates requires additional calibration/transport assumptions. Minimum-cost classification is not evidence of retention treatment effectiveness. Ranking by p*V is expected-value optimal only for the specified objective under equal costs, an appropriate horizon-matched V, and any uniform response/margin assumptions; it is not universally optimal causal profit targeting.",
+      "permitted_reference_use": "Cost-sensitive expected decisions and conditional known-prior odds correction. Use the official proceedings URL rather than treating inaccessible ResearchGate as inspected full text."
+    },
+    {
+      "id": "TMobile2025",
+      "existing_reference_id": "S1",
+      "bibliographic_metadata": {
+        "authors": ["T-Mobile US, Inc."],
+        "year": 2026,
+        "title": "2025 Annual Report, including Form 10-K for the year ended December 31, 2025",
+        "source_type": "Issuer annual report and Form 10-K",
+        "reporting_period": "Year ended 2025-12-31",
+        "filing_date": null,
+        "filing_date_caveat": "Original references and indexed 10-K result give 2026-02-11; the exact filing date was not independently read from the accessible annual report. Do not treat filename dates as filing dates."
+      },
+      "supplied_url": "https://www.sec.gov/Archives/edgar/data/1283699/000128369926000010/tmus-20251231.htm",
+      "accessed_url": "https://s29.q4cdn.com/310188824/files/doc_financials/2025/ar/2025-TMUS-Annual-Report-Final-Web.pdf",
+      "url_provenance": "Exact discovered issuer-hosted/CDN annual-report link from public search.",
+      "access_status": "Original SEC URL was attempted: WebFetch exposed truncated/XBRL-dominated content, while direct Python retrieval returned 403. A discovered Q4 10-K PDF link returned 404. The issuer's 155-page annual report downloaded successfully and its Form 10-K tables and definitions were directly inspected.",
+      "verification_coverage": "verified_issuer_form10k_tables_and_definitions_from_annual_report_copy",
+      "local_source_path": "D:/progs/IDE/MainProjs/AI/GCI2026/finalA/v2_work/literature_TMobile2025_annual.pdf",
+      "verified_claims": [
+        {
+          "claim": "FY2025 monthly postpaid phone churn was 0.93%; prepaid churn was 2.72%.",
+          "excerpt": "2025: Postpaid phone churn 0.93%; Prepaid churn 2.72%.",
+          "excerpt_type": "Verified table transcription",
+          "locator": "Form 10-K, Churn table, Year Ended December 31",
+          "printed_page": 43,
+          "pdf_page": 55,
+          "confidence": "high"
+        },
+        {
+          "claim": "The churn denominator is average customers in the specified period, with further division by the number of months, and company-specific deactivation exclusions.",
+          "excerpt": "Churn represents the number of customers whose service was deactivated as a percentage of the average number of customers during the specified period further divided by the number of months in the period.",
+          "additional_excerpt": "The number of customers whose service was deactivated is presented net of customers that subsequently had their service restored within a certain period of time and excludes customers who received service for less than a certain minimum period of time.",
+          "locator": "Form 10-K, Churn definition immediately preceding the table",
+          "printed_page": 43,
+          "pdf_page": 55,
+          "confidence": "high"
+        },
+        {
+          "claim": "FY2025 postpaid phone ARPU was $50.37 per customer per month, not per account.",
+          "excerpt": "2025: Postpaid phone ARPU $50.37.",
+          "excerpt_type": "Verified table transcription",
+          "additional_excerpt": "Average Revenue per User (ARPU) represents the average monthly service revenue earned per customer.",
+          "locator": "Form 10-K, Average Revenue Per User definition and ARPU table",
+          "printed_page": 44,
+          "pdf_page": 56,
+          "confidence": "high"
+        },
+        {
+          "claim": "FY2025 postpaid ARPA was $148.97 per account per month.",
+          "excerpt": "2025: Postpaid ARPA $148.97.",
+          "excerpt_type": "Verified table transcription",
+          "locator": "Form 10-K, Postpaid Average Revenue Per Account definition and ARPA table",
+          "printed_page": 43,
+          "pdf_page": 55,
+          "confidence": "high"
+        }
+      ],
+      "scope_caveat": "These are external FY2025 monthly carrier metrics, not Company A prevalence, revenue currency, profitability, or a compatible churn-label horizon. T-Mobile's average-customer/period-month denominator and exclusions differ from AT&T's average of monthly beginning-of-month ratios. Do not interpret the 0.03 percentage-point headline difference as a controlled comparison. Postpaid phone ARPU and postpaid ARPA use different units/populations.",
+      "permitted_reference_use": "Cite S1 only beside the T-Mobile figures; preserve carrier, segment, fiscal year, monthly unit, and denominator caveat."
+    },
+    {
+      "id": "ATT2025",
+      "existing_reference_id": "S2",
+      "bibliographic_metadata": {
+        "authors": ["AT&T Inc."],
+        "year": 2026,
+        "title": "2025 Annual Report, including Form 10-K for the year ended December 31, 2025",
+        "source_type": "Issuer annual report and Form 10-K",
+        "reporting_period": "Year ended 2025-12-31",
+        "filing_date": "2026-02-09",
+        "filing_date_evidence": "Accessible annual report PDF p. 103 explicitly refers to the Form 10-K as filed with the SEC on February 9, 2026."
+      },
+      "supplied_url": "https://www.sec.gov/Archives/edgar/data/732717/000073271726000120/t-20251231.htm",
+      "accessed_url": "https://investors.att.com/~/media/Files/A/ATT-IR-V2/financial-reports/annual-reports/2025/2025-annual-report-complete.pdf",
+      "url_provenance": "Exact discovered issuer investor-relations annual-report link from public search.",
+      "access_status": "Original SEC URL was attempted: WebFetch returned inconsistent/truncated content and direct Python retrieval returned 403. The issuer annual report downloaded successfully; its original Form 10-K Mobility table, footnote, management discussion, and filing-date statement were directly inspected.",
+      "verification_coverage": "verified_issuer_form10k_tables_and_definitions_from_annual_report_copy",
+      "local_source_path": "D:/progs/IDE/MainProjs/AI/GCI2026/finalA/v2_work/literature_ATT2025.pdf",
+      "verified_claims": [
+        {
+          "claim": "FY2025 postpaid phone churn was 0.90%, versus 0.76% in 2024; total postpaid churn is a different figure.",
+          "excerpt": "Postpaid Phone Churn: 2025 0.90%; 2024 0.76%; 2023 0.81%. Postpaid Churn: 2025 1.05%; 2024 0.92%; 2023 0.98%.",
+          "excerpt_type": "Verified Mobility table transcription",
+          "locator": "Form 10-K, Communications Business Unit Discussion / Mobility Results",
+          "printed_page": 23,
+          "pdf_page": 32,
+          "confidence": "high"
+        },
+        {
+          "claim": "AT&T computes monthly churn using beginning-of-month subscribers, then averages those monthly rates for the reporting period.",
+          "excerpt": "Calculated by dividing the aggregate number of wireless subscribers who canceled service during a month by the total number of wireless subscribers at the beginning of that month. The churn rate for the period is equal to the average of the churn rate for each month of that period.",
+          "locator": "Mobility table, footnote 4",
+          "printed_page": 23,
+          "pdf_page": 32,
+          "confidence": "high"
+        },
+        {
+          "claim": "Management attributes part of the 2025 increase to customers reaching the end of device financing periods.",
+          "excerpt": "Postpaid churn and postpaid phone churn were higher in 2025, partially driven by an increase in our customer base that reached the end of device financing periods, which normalized in the second half of 2025.",
+          "locator": "Form 10-K, Mobility / Churn management discussion",
+          "printed_page": 24,
+          "pdf_page": 33,
+          "confidence": "high"
+        }
+      ],
+      "scope_caveat": "Management attribution is not a randomized causal estimate. Financing maturity is not the same variable as handset age, and no Company A causal effect or 365-day cutoff is verified. The beginning-of-month denominator belongs to S2/AT&T, not S1/T-Mobile; carrier segment definitions and label horizons limit comparisons.",
+      "permitted_reference_use": "Cite S2 beside AT&T's 0.90% and its beginning-of-month denominator caveat; frame financing maturity only as external contextual evidence."
+    },
+    {
+      "id": "DeLong1988",
+      "role": "Additional discovered methodological source for the blueprint's unsupported noise-floor inference",
+      "bibliographic_metadata": {
+        "authors": ["E. R. DeLong", "D. M. DeLong", "D. L. Clarke-Pearson"],
+        "year": 1988,
+        "title": "Comparing the areas under two or more correlated receiver operating characteristic curves: a nonparametric approach",
+        "venue": "Biometrics",
+        "volume": "44",
+        "issue": "3",
+        "pages": "837-845",
+        "doi": null,
+        "metadata_evidence": "PubMed PMID 3203132; DOI not verified and intentionally omitted."
+      },
+      "supplied_url": null,
+      "accessed_url": "https://pubmed.ncbi.nlm.nih.gov/3203132/",
+      "url_provenance": "Discovered public search result.",
+      "access_status": "PubMed metadata and original abstract accessible; full article not inspected.",
+      "verification_coverage": "verified_metadata_and_original_abstract_only",
+      "local_source_path": null,
+      "verified_claims": [
+        {
+          "claim": "ROC comparisons on the same individuals must account for correlation; marginal model SE is not the SE of a paired difference.",
+          "excerpt": "When two or more empirical curves are constructed based on tests performed on the same individuals, statistical analysis on differences between curves must take into account the correlated nature of the data.",
+          "locator": "PubMed abstract",
+          "printed_page": null,
+          "pdf_page": null,
+          "confidence": "high"
+        },
+        {
+          "claim": "The paper estimates a covariance matrix using generalized U-statistics.",
+          "excerpt": "This paper presents a nonparametric approach to the analysis of areas under correlated ROC curves, by using the theory on generalized U-statistics to generate an estimated covariance matrix.",
+          "locator": "PubMed abstract",
+          "printed_page": null,
+          "pdf_page": null,
+          "confidence": "high"
+        }
+      ],
+      "scope_caveat": "This supports paired ROC inference, not a verified numerical Company A SE. No local score vectors or DeLong computation were inspected in this audit. Dependence from repeated model selection, training variation, clustered customers, or overlapping CV folds requires further care.",
+      "permitted_reference_use": "Optional methodological citation if paired AUC inference is actually used; do not imply DeLong was run when only bootstrap was run."
+    }
+  ],
+  "claim_audit": [
+    {
+      "id": "benchmark_0684",
+      "blueprint_lines": [9, 177, 189],
+      "claim": "0.6978 is strong relative to a universal published Cell2Cell benchmark of approximately 0.684, or failed challenger experiments prove the information ceiling.",
+      "status": "unsupported_comparability_and_ceiling_claim",
+      "evidence_ids": ["Neslin2006"],
+      "finding": "Neslin reports protocol-specific lift/Gini, with 171 predictors and separate low-prevalence current/future validation populations. No universal 0.684 AUC benchmark or information ceiling was established. A search found 0.684 in other study snippets, but those studies' exact metrics and protocols were not verified; they are not evidence of a universal benchmark.",
+      "safe_replacement": "Report the locally measured AUC and its conditional uncertainty; describe Neslin as historical tournament context, not a matched leaderboard or ceiling.",
+      "confidence": "high"
+    },
+    {
+      "id": "auc_se_and_paired_difference",
+      "blueprint_lines": [9, 175],
+      "claim": "N=15,000 alone establishes AUC SE approximately 0.004 and proves a 0.0014 inter-model spread is sampling noise.",
+      "status": "not_verified_and_not_implied_by_N_alone",
+      "evidence_ids": ["DeLong1988"],
+      "finding": "AUC uncertainty depends on positive/negative counts and score distributions/ties; uncertainty of a same-customer model difference also depends on covariance. An individual-model SE cannot decide significance of the paired difference.",
+      "conditional_arithmetic": "The blueprint's stated interval 0.6899-0.7055 has normal-equivalent half-width/1.96 = 0.0039795918. This is only an approximate interpretation of a supplied interval, not independent validation of its bootstrap SE or provenance.",
+      "safe_replacement": "Estimate uncertainty from the actual labels and predictions using paired bootstrap or an appropriate paired ROC method; report the interval for the model difference.",
+      "confidence": "high"
+    },
+    {
+      "id": "known_prior_odds_formula",
+      "blueprint_lines": [10, 98, 99, 114],
+      "claim": "Known-prior Bayes correction is p_d = gamma*p_s/(gamma*p_s + 1-p_s), with gamma equal to deployment odds divided by sample odds.",
+      "status": "verified_mathematical_result_conditional_on_assumptions",
+      "evidence_ids": ["Elkan2001", "Saerens2002"],
+      "verified_values_from_supplied_assumptions": {
+        "pi_s": 0.49562,
+        "pi_d": 0.02,
+        "gamma": 0.02076887411273779
+      },
+      "scope_caveat": "No tunable exponent is needed once both priors are fixed, but deployment prevalence is an assumed scenario parameter. Calibration, outcome definition, and class-conditional transportability remain unverified. Not a universal Bayes-optimal retention policy.",
+      "confidence": "high_for_algebra_not_for_transportability"
+    },
+    {
+      "id": "ranking_reversal_example",
+      "blueprint_lines": [100, 101, 102, 103, 104],
+      "claim": "Risk-only order is preserved by fixed positive gamma, but multiplying by heterogeneous customer values can reverse the order after prior shift.",
+      "status": "verified_conditional_arithmetic",
+      "evidence_ids": ["Elkan2001"],
+      "verified_values": {
+        "customer_A_sample_probability": 0.5,
+        "customer_A_value": 90,
+        "customer_A_deployment_probability": 0.020346304280477106,
+        "customer_A_deployment_expected_value": 1.8311673852429395,
+        "customer_B_sample_probability": 0.8,
+        "customer_B_value": 55,
+        "customer_B_deployment_probability": 0.07670332929068657,
+        "customer_B_deployment_expected_value": 4.218683110987762
+      },
+      "finding": "The reversal and displayed $1.83/$4.22 are correct. A's percentage rounds to 2.03%, not 2.04%, when the specified pi_s=0.49562 is used. Risk-only monotonicity follows because derivative gamma/[1+(gamma-1)*p]^2 is positive for gamma>0. Weighted deployment contact mass need not equal unweighted sample row count.",
+      "confidence": "high"
+    },
+    {
+      "id": "weighted_contact_arithmetic",
+      "blueprint_lines": [20, 88, 89],
+      "claim": "The supplied class counts and selected counts reproduce about 9,984.92 weighted contacts and 476.40 weighted churners.",
+      "status": "verified_arithmetic_only_local_counts_unverified",
+      "evidence_ids": [],
+      "inputs_from_blueprint_not_local_data": {"cohort": 100000, "pi_d": 0.02, "test_positive": 7435, "test_negative": 7565, "selected_positive": 1771, "selected_negative": 734},
+      "verified_values": {
+        "W1": 0.26899798251513113,
+        "W0": 12.954395241242564,
+        "weighted_selected_nonchurners": 9508.526107072043,
+        "weighted_selected_churners": 476.39542703429726,
+        "weighted_contacts": 9984.92153410634,
+        "raw_selected_rows": 2505
+      },
+      "finding": "Total and weighted churner rounding are correct. The nonchurner subtotal rounds to 9,508.53, not 9,508.52. Counts, actual ranking score, calibration threshold, and pipeline provenance were not checked.",
+      "confidence": "high_for_arithmetic_only"
+    },
+    {
+      "id": "positive_contribution_gate",
+      "blueprint_lines": [21, 87, 115, 122],
+      "claim": "tau=0.20, M=6, m=0.60, c=$1 imply a p_d*V gate of $1.3889; the unbinding gate proves overconfidence.",
+      "status": "gate_arithmetic_verified_overconfidence_inference_unverified",
+      "evidence_ids": ["Elkan2001", "LemmensGupta2020"],
+      "verified_gate": 1.3888888888888886,
+      "finding": "The threshold c/(tau*M*m) is correct under the specified units and assumptions. Whether it bound on the actual list is a local question. An aggregate predicted/realized discrepancy can reflect finite-sample variation, transport error, calibration error, outcome weighting, or economic-assumption error; it does not by itself identify tail overconfidence or prove a specific tail rank fell below $1.",
+      "scope_caveat": "This is an expected marginal variable-cost gate under uniform response/horizon/margin, not causal evidence. A whole-campaign decision must also account for fixed cost and a no-campaign option.",
+      "confidence": "high_for_algebra_only"
+    },
+    {
+      "id": "weighted_realized_return_expression",
+      "blueprint_lines": [21, 108, 121, 122],
+      "claim": "The empirical per-row expression W1*y*tau*M*m*V - c can be summed as deployment-weighted net contribution without weighting contact cost.",
+      "status": "conditional_weighting_correction_needed",
+      "evidence_ids": [],
+      "finding": "If W1/W0 represent customers in the deployment cohort, contacted-row variable cost must also use its cohort weight. A coherent retrospective total is sum_selected W_y*(y*tau*M*m*V - c), less any fixed campaign cost. Using W1*y for churn-linked gross value is equivalent, but subtracting one unweighted c for every raw row is not equivalent to deployment-cohort contact cost.",
+      "scope_caveat": "Actual implementation was not inspected; this identifies a possible mismatch in the written formula, not a verified pipeline bug.",
+      "confidence": "high"
+    },
+    {
+      "id": "risk_times_value_optimality",
+      "blueprint_lines": [10, 115, 119, 136],
+      "claim": "Calibrated p*V is Bayes-optimal for retention or profit without further qualifications.",
+      "status": "valid_for_restricted_expected_value_objective_not_universal_causal_profit",
+      "evidence_ids": ["Elkan2001", "Ascarza2018", "LemmensGupta2020"],
+      "finding": "For a fixed equal-cost contact budget and a correctly specified expected loss-at-risk objective, selecting largest p_i*V_i maximizes the sum of that objective. Causal incremental profit instead depends on treatment effects, incremental cash flows, costs, horizon, and margin; heterogeneous responsiveness or costs can change the ranking.",
+      "counterexample": "A high-risk high-bill customer with zero or negative treatment responsiveness can have lower incremental profit than a lower-risk customer who responds positively.",
+      "confidence": "high"
+    },
+    {
+      "id": "cuped_pilot_power",
+      "blueprint_lines": [142, 143, 146, 147],
+      "claim": "CUPED/ANCOVA simulation establishes the required live net-contribution sample size or guarantees variance reduction.",
+      "status": "method_rationale_verified_company_specific_power_unverified",
+      "evidence_ids": ["CUPED2013"],
+      "finding": "Keep the blueprint's explicit cross-sectional simulation-proxy disclosure. Actual pre/post contribution pairs, response assumptions, household clustering, outcome tails, allowance rules, and analysis/monitoring plan are required to validate prospective power. Do not import the paper's Bing variance reduction.",
+      "confidence": "high"
+    },
+    {
+      "id": "pilot_7872_and_13k",
+      "blueprint_lines": [34, 84, 141, 144],
+      "claim": "Approximately 7,872 customers per arm and a ~$13k pilot are externally established facts.",
+      "status": "conditional_planning_arithmetic_not_external_fact",
+      "evidence_ids": [],
+      "illustrative_calculation": {
+        "control_rate_from_supplied_weighted_counts": 0.04771148430230856,
+        "treatment_rate_assuming_20_percent_prevention": 0.03816918744184685,
+        "two_sided_alpha": 0.05,
+        "power": 0.8,
+        "normal_approximation_uninflated_n_per_arm": 7083.762531638636,
+        "n_per_arm_after_dividing_by_0_9_for_10_percent_loss": 7870.847257376262,
+        "n_per_arm_after_multiplying_by_1_1": 7792.1387848025
+      },
+      "finding": "The stated order of magnitude is arithmetically plausible for those assumed rates and 10% attrition, but it is not independently reproduced from local code. A 10% loss allowance requires division by 0.9, not multiplication by 1.1. Roughly 7,900 treated contacts at $1 plus $5,000 fixed cost is ~$12,900 only if control measurement and other design/delivery costs are not additional. Net-contribution power remains unverified.",
+      "confidence": "moderate_for_order_of_magnitude_high_for_arithmetic"
+    },
+    {
+      "id": "ascarza_backfire_and_monitor_stratum",
+      "blueprint_lines": [149, 153],
+      "claim": "Ascarza2016 validates a low-usage/zero-overage/zero-care-call harm stratum or proves all proactive contact backfires.",
+      "status": "numeric_finding_verified_proposed_stratum_not_verified",
+      "evidence_ids": ["Ascarza2016"],
+      "finding": "6% control versus 10% treatment over three months is verified for cost-minimizing plan recommendations. The blueprint's exact monitoring stratum and digital-only routing are operational hypotheses/design choices, not reported validated subgroups or demonstrated safe interventions.",
+      "confidence": "high"
+    },
+    {
+      "id": "carrier_values_and_denominators",
+      "blueprint_lines": [168],
+      "claim": "S1 supports T-Mobile 0.93%, 2.72%, $50.37; S2 supports AT&T 0.90% and beginning-of-month churn denominator.",
+      "status": "verified_from_issuer_annual_report_form10k_copies",
+      "evidence_ids": ["TMobile2025", "ATT2025"],
+      "finding": "The values and citation split are correct. T-Mobile: average-customer denominator over the specified period then divide by months, with exclusions. AT&T: monthly cancellations / beginning-of-month subscribers, then average monthly churn rates. All quoted churn values are FY2025 monthly metrics; $50.37 is postpaid phone ARPU per customer/month.",
+      "confidence": "high"
+    },
+    {
+      "id": "mean_range_window_length",
+      "blueprint_lines": [11, 74, 85],
+      "claim": "Every relevant _Mean/_Range is documented as four months, and max(Range/Mean)=3 or 4 proves that exact window length.",
+      "status": "assignment_window_unverified_and_proof_claim_invalid_without_extra_assumptions",
+      "evidence_ids": ["Neslin2006"],
+      "finding": "Neslin describes predictors over three months, while an indexed user-uploaded secondary documentation snippet says previous four months; the secondary full text/provenance could not be inspected. Neither establishes each assignment field's definition. For n equal-weight nonnegative observations with Range=max-min and Mean=sum/n, Range/Mean <= n. An observed ratio 3 is possible for four months, for example [3, 1, 0, 0], and does not prove n=3. A ratio 4 can also occur with more than four observations, for example [4, 1, 0, 0, 0].",
+      "secondary_unverified_url": "https://www.scribd.com/document/437911415/Data-Documentation-2",
+      "scope_caveat": "Negative values, missing-month handling, differing windows, scaling, and rounding can invalidate even that bound. Main should verify each field against the immutable supplied dictionary; empirical extrema are diagnostics, not proof.",
+      "confidence": "high_for_math_unknown_for_assignment_window"
+    },
+    {
+      "id": "other_local_and_governance_claims",
+      "blueprint_lines": [12, 20, 21, 32, 84, 160, 164, 166, 189],
+      "claim": "Local v1 metrics, tail calibration, weighted financial outcomes, sensitive-feature effects, fairness, or feature-space information ceiling are literature-verified.",
+      "status": "not_audited_local_evidence_or_proposed_governance",
+      "evidence_ids": [],
+      "finding": "Local AUC/CI, +42.4% value capture, precision, prevention, retained revenue, net contribution, and break-even results need pipeline/output provenance and Main's experiments. 'Service-Fix Floor', treatment monitoring, exclusion/ablation choices, and a 365-day device check are proposed policies. No group-specific fairness, subprime-proxy prevalence, subgroup harm, or information ceiling was verified from the seven sources. Neither proxy exclusion nor a failed model search proves fairness or absence of predictive signal.",
+      "confidence": "high_for_scope_boundary_not_for_unchecked_metrics"
+    }
+  ],
+  "conclusion": {
+    "verified_facts": [
+      "All seven named papers' identities and core relevant claims were verified at least from an original abstract or published-paper text; full-text coverage differs and is explicitly recorded.",
+      "Ascarza2016 reports 6% control versus 10% treatment churn over three months for proactive cost-minimizing plan recommendations.",
+      "Ascarza2018 distinguishes risk from responsiveness; LemmensGupta2020 motivates incremental-profit targeting and campaign-size optimization.",
+      "Known-prior binary odds adjustment is supported by Elkan's official theorem under stable within-class distributions.",
+      "T-Mobile's 0.93%, 2.72%, $50.37 and AT&T's 0.90%/0.76% plus their distinct churn denominators are verified from original issuer annual-report Form 10-K copies."
+    ],
+    "reasonable_inferences": [
+      "The blueprint's prior-shift ranking-reversal example and $1.3889 gate are mathematically sound conditional examples, with small rounding corrections noted.",
+      "The approximately 7,900-per-arm/$13k pilot order of magnitude is plausible under the stated binary-outcome and cost assumptions, not established live contribution-outcome power."
+    ],
+    "assumptions_not_external_facts": [
+      "2% deployment prevalence and within-class transportability.",
+      "Uniform 20% prevention, six retained months, 60% margin, $1 contact cost, and $5,000 fixed cost.",
+      "Billing proxies represent suitable incremental customer value and retain compatible units/horizons.",
+      "Proposed monitoring strata, service-fix floor, operational triage mechanisms, and model/policy gates."
+    ],
+    "unsupported_or_unknown": [
+      "Universal ~0.684 Cell2Cell benchmark, model information ceiling, and AUC SE derived from N alone.",
+      "Whether the 0.0014 paired model spread is statistically distinguishable.",
+      "Exact assignment _Mean/_Range window definitions and all local results/provenance.",
+      "Live contribution-outcome power, causal retention benefit, tail calibration, and subgroup harm/equity.",
+      "Saerens2002 and LemmensGupta2020 full-text-specific equation/page/effect-size claims; inaccessible full text was not treated as inspected.",
+      "T-Mobile's exact filing date was not independently read beyond indexed metadata."
+    ],
+    "confidence": "High for directly inspected excerpts, carrier figures/definitions, and stated mathematical checks; unknown for Company A transport, causal effectiveness, and local experimental results.",
+    "next_actions_for_main": [
+      "Add only verified AND actually used literature to slide references; preserve exact original and accessible evidence URLs without fabricating a chat URL.",
+      "Remove the universal benchmark/ceiling and N-only noise assertions; use paired intervals computed from actual score vectors.",
+      "Keep S1 on T-Mobile figures and S2 on AT&T and its denominator footnote.",
+      "Verify assignment field windows against the immutable dictionary and local arithmetic/provenance; do not infer exact windows from extrema alone.",
+      "Label 2% deployment and financial/power inputs as assumptions; label cross-sectional variance reduction as simulation until live pre/post billing outcomes validate it.",
+      "Preregister causal outcomes, costs, cluster-aware analysis, harm monitoring, and below-cutoff exploration before the live pilot."
+    ]
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "protocol_sha256": "700ca4446024aeb1d844e46513c2a4118f698035cd50c4e9a5b0f6f07218c66a",
+  "artifact_hashes": {
+    "v2_work/a_calibration_uncertainty_test.csv": "0ea7d87d81fe3df1268cdcfbf9d60713b81896f17a72dd8cc57b0e07f36ca619",
+    "v2_work/a_dual_valuation_test.csv": "f9dccec16bdf8fac592200da1d560a1e618c8e429f3993e9db761b7b421dc1fe",
+    "v2_work/a_intervals_test.csv": "c88eb85dc0c3a56d526b74ee7e92b62f2318d491ead9019890f7a3802c5faf46",
+    "v2_work/a_overlap_test.csv": "6fa32eba66748a4a11e7b18e891f156b77e7084b9e336dbe9d2fdade3a30b339",
+    "v2_work/a_policies_test.csv": "e27895912cb0a624feb555c2e33f8cbca1492cd0f31b277cdc620450015c8285",
+    "v2_work/a_profit_curves_test.csv": "51b71465da92e9a182a55d91ec075725ef6f2c59267734500f44e1901d7013c7",
+    "v2_work/a_selected_test.csv": "e29da9ea2a57b1a1b58f71b8a89d0d052767f163126b78449220827bc4c8c967",
+    "v2_work/a_summary_test.json": "359c7337febac5878f8c44d94e2b522346c2566b901e5afd5b2b7bcf9f3ea5a6",
+    "v2_work/a_value_proxy_sensitivity_test.csv": "2df5b35a06446c1ced1ecaa4540ce7cd1e564d29a31d5a738f9f62b8441b3282",
+    "v2_work/b_assignments_test.csv": "293d4c19075b615905ef8e9ba9916952e6e4a1195ea31611252ab28a5b944815",
+    "v2_work/b_cells_test.csv": "dd2617ca3dd36657fa5ef7b34eb3259ba9cc7287d98a0c9a8ae1d28374466b11",
+    "v2_work/b_power_test.csv": "14c44504eb6154b3e3119aa328b4ade2d81f085212e676b95895956b4c9f2217",
+    "v2_work/b_queues_test.csv": "278e4fc4099485b69b6bfa6a941727010a37c3a840fefb9a4c7305b5dc86a79a",
+    "v2_work/b_summary_test.json": "f0197c0c653f02d12684cf3797a00f9081ff257d0f4d5325a07668c13e939bbd",
+    "v2_work/c_test/c_equity.csv": "1f1547bd9a445cac427e0b4d5df85b12c03a10b4635fe3ca5807e294757afaaa",
+    "v2_work/c_test/c_subgroup_robustness.csv": "c97d9bc6a2df6cbe8fc981b2fe6c3915c2c4027ee8f9060b3f8fda5d44bd05d2",
+    "v2_work/c_test/c_summary.json": "0d546b456ec507f7d2973c5e588e54e3282a8f8b73ae49691234df3889db155d"
+  },
+  "v1_test_previously_evaluated": true,
+  "new_test_decisions": false,
+  "completed_one_frozen_descriptive_batch": true
+}

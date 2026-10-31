@@ -1,0 +1,15 @@
+{
+  "rows": 100000,
+  "columns": 100,
+  "sample_churn_rate": 0.49562,
+  "merged_memory_mib": 80.14993095397949,
+  "id_join": "one-to-one; no unmatched customers",
+  "duplicate_predictor_rows": 0,
+  "negative_equipment_age": 133,
+  "negative_recurring_charge": 23,
+  "missing_recurring_charge": 357,
+  "source_sha256": {
+    "telecom\\Client.csv": "264a58512dc857fff29e11ef43fd53bc4407be23aac9dcc2c0df23536c800778",
+    "telecom\\Record.csv": "5bd563bb77b357920832510b78d6842060d928cb5de8c0aaf79aa2a647e2271a"
+  }
+}

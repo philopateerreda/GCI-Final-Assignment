@@ -1,0 +1,22 @@
+{
+  "ENG_Company _A_ Dataset Overview.docx": {
+    "sha256": "9953e825565d5278d2f65082e425be42d9a53b453fe84b35903bd9fc7ca4660b",
+    "bytes": 787254
+  },
+  "README.docx": {
+    "sha256": "15328594161bb07cebefa73f643e04539c87a81ff4c2d76093c02f9c67f64aa2",
+    "bytes": 791212
+  },
+  "tutorial (2).ipynb": {
+    "sha256": "fb62cf4c39d32dd0b8f20908d682e1b0d029dbd3db51e4861a805a957930dae6",
+    "bytes": 1110775
+  },
+  "telecom\\Client.csv": {
+    "sha256": "264a58512dc857fff29e11ef43fd53bc4407be23aac9dcc2c0df23536c800778",
+    "bytes": 17937775
+  },
+  "telecom\\Record.csv": {
+    "sha256": "5bd563bb77b357920832510b78d6842060d928cb5de8c0aaf79aa2a647e2271a",
+    "bytes": 30182432
+  }
+}

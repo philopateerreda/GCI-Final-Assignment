@@ -1,0 +1,580 @@
+{
+  "code_paths": {
+    "budget_search": {
+      "function": "prepare",
+      "lines": "89-101",
+      "note": "Uses saved p_s_oof, fractions 1%-30%, costs .25/1/2/5, then freezes thresholds. prepare fits and writes: never call.",
+      "path": "v2_work/workstream_a.py"
+    },
+    "oof_cache": {
+      "function": "evaluate_arrays",
+      "lines": "698-719",
+      "note": "Ten baseline-only NPZs contain Customer_ID/y/raw; two cross-fitted raw predictions averaged once per account; no models imported.",
+      "path": "v2_work/workstream_d.py"
+    },
+    "pilot_power": {
+      "function": "power",
+      "lines": "157-202",
+      "note": "floor(.9*enrolled), observed total contribution, fixed calibration adjustment, variable and allocated startup costs; called only through a writing entrypoint in v2.",
+      "path": "v2_work/workstream_b.py"
+    },
+    "prior_stress": {
+      "function": "analyze",
+      "lines": "111-119",
+      "note": "Loops frozen prior-specific calibration thresholds; measure computes scenario weights and economics. analyze writes files: never call.",
+      "path": "v2_work/workstream_a.py"
+    },
+    "value": {
+      "function": "values",
+      "lines": "57-60",
+      "note": "Nonnegative value, original-training median fill and p99. New loader uses saved 44.99 and 115.5159 without recomputing training thresholds.",
+      "path": "v2_work/common.py"
+    }
+  },
+  "constants": {
+    "G": 93660.01994885807,
+    "K": 14984.92153410634,
+    "contact_mass": 9984.92153410634,
+    "g_star": 0.1599927219990843,
+    "net": 3747.082455665277,
+    "p0": 0.04771148430230854
+  },
+  "deliverable_checks": [
+    {
+      "expected_sha256": "a51d2c0ff8aa6ebb0f679e680d6424b01cd7b95b9a0d23ae7a2eecc56de210ea",
+      "passed": true,
+      "path": "D:/progs/IDE/MainProjs/AI/GCI2026/finalA/philopateer.pdf",
+      "present": true,
+      "sha256": "a51d2c0ff8aa6ebb0f679e680d6424b01cd7b95b9a0d23ae7a2eecc56de210ea",
+      "size": 846608
+    },
+    {
+      "expected_sha256": "a50a66fd77d062bdc45aeefb00ce8652b20b952de06dcb27e8ab4f15c37e46bc",
+      "passed": true,
+      "path": "D:/progs/IDE/MainProjs/AI/GCI2026/finalA/philopateer.pptx",
+      "present": true,
+      "sha256": "a50a66fd77d062bdc45aeefb00ce8652b20b952de06dcb27e8ab4f15c37e46bc",
+      "size": 1310666
+    },
+    {
+      "expected_sha256": "aaa170b19923c087f9b38f85b546626b7465a3d17f5ae7037812c6aed5736b35",
+      "passed": true,
+      "path": "D:/progs/IDE/MainProjs/AI/GCI2026/finalA/philopateer.ipynb",
+      "present": true,
+      "sha256": "aaa170b19923c087f9b38f85b546626b7465a3d17f5ae7037812c6aed5736b35",
+      "size": 1857125
+    },
+    {
+      "expected_sha256": "b12fb18aafc83e2d599e15d04c689ee5cd85c10082c1761ab0c6f1d01606d361",
+      "passed": true,
+      "path": "D:/progs/IDE/MainProjs/AI/GCI2026/finalA/references.txt",
+      "present": true,
+      "sha256": "b12fb18aafc83e2d599e15d04c689ee5cd85c10082c1761ab0c6f1d01606d361",
+      "size": 18843
+    }
+  ],
+  "deviations": [
+    "Named concise handoff absent; existing complete handoff read instead. It requires no training/test reconstruction.",
+    "No root project-rule file written. Scoped v3_addons/AGENTS.md copies section 1 within the authorized boundary."
+  ],
+  "headline_prior_checks": [
+    {
+      "a": 6,
+      "b": 24,
+      "e_net": 3747.082455665277,
+      "evpi": 1093.2864143914458,
+      "p_pos": 0.6850373137534997,
+      "var5": -6166.359913496997
+    },
+    {
+      "a": 6,
+      "b": 14,
+      "e_net": 13113.08445055108,
+      "evpi": 195.7130475430422,
+      "p_pos": 0.9300037463815178,
+      "var5": -1172.9190819783926
+    },
+    {
+      "a": 2,
+      "b": 18,
+      "e_net": -5618.919539220531,
+      "evpi": 832.3583536234748,
+      "p_pos": 0.16823329149846597,
+      "var5": -13202.279123826023
+    }
+  ],
+  "inventory": [
+    {
+      "path": "D:/progs/IDE/MainProjs/AI/GCI2026/finalA/v2_work/final_metrics.json",
+      "present": true,
+      "sha256": "1d14a4fea10ab391631379f82cd6a82e5a65ede4f01db5b540c9aec3612eea1e",
+      "size": 155122
+    },
+    {
+      "path": "D:/progs/IDE/MainProjs/AI/GCI2026/finalA/v2_work/b_design.json",
+      "present": true,
+      "sha256": "aaa1dfa7b8dc65bd8a84ffa8a6b6d1d7f5f1ae40cdcf2746469a85468618f245",
+      "size": 7187
+    },
+    {
+      "path": "D:/progs/IDE/MainProjs/AI/GCI2026/finalA/v2_work/d_results/gate_d.csv",
+      "present": true,
+      "sha256": "40a951d0c38267b0b2058e939e6cadc05e138fb4c542e34285f730d09c8483db",
+      "size": 2696
+    },
+    {
+      "path": "D:/progs/IDE/MainProjs/AI/GCI2026/finalA/v2_work/a_selected_calibration.csv",
+      "present": true,
+      "sha256": "fa0ee67c5b94431e5313633219c04c8c4c248944564659e06007e0a2aff25648",
+      "size": 1449202
+    },
+    {
+      "path": "D:/progs/IDE/MainProjs/AI/GCI2026/finalA/v2_work/a_spec.json",
+      "present": true,
+      "sha256": "2f258d7d0ff9360d0ff0673abcb8c41e5c6462b2181d8d09dc5e86b4be5c8431",
+      "size": 5484
+    },
+    {
+      "path": "D:/progs/IDE/MainProjs/AI/GCI2026/finalA/v2_work/a_budget_choices.csv",
+      "present": true,
+      "sha256": "846ba54ed56421ac06da6b452df72986ba94a2500372610425448aab9a125a2b",
+      "size": 334
+    },
+    {
+      "path": "D:/progs/IDE/MainProjs/AI/GCI2026/finalA/analysis_outputs/model_selection.json",
+      "present": true,
+      "sha256": "62e17913b8e7bf7bf1ac8fdd4556d242b524c884a0e929352c2b9e3bb5e9acc3",
+      "size": 321
+    },
+    {
+      "path": "D:/progs/IDE/MainProjs/AI/GCI2026/finalA/analysis_outputs/source_manifest.json",
+      "present": true,
+      "sha256": "60861fb36607bcf143e313ca94390a67eb38b90c8b431144bb6f8cdb5156686a",
+      "size": 707
+    },
+    {
+      "path": "D:/progs/IDE/MainProjs/AI/GCI2026/finalA/analysis_outputs/feature_manifest.json",
+      "present": true,
+      "sha256": "8e0560cedab891acfea8b440b5d7f28516de1e3adc5b06899a442dd8d07fd067",
+      "size": 2559
+    },
+    {
+      "path": "D:/progs/IDE/MainProjs/AI/GCI2026/finalA/v1_frozen/analysis_outputs/tables/split_manifest.csv",
+      "present": true,
+      "sha256": "4caefcbed46a834f89cfbf21387f78555e601b43a8cee81d1637c786fb0a21b3",
+      "size": 1690023
+    },
+    {
+      "path": "D:/progs/IDE/MainProjs/AI/GCI2026/finalA/telecom/Client.csv",
+      "present": true,
+      "sha256": "264a58512dc857fff29e11ef43fd53bc4407be23aac9dcc2c0df23536c800778",
+      "size": 17937775
+    },
+    {
+      "path": "D:/progs/IDE/MainProjs/AI/GCI2026/finalA/telecom/Record.csv",
+      "present": true,
+      "sha256": "5bd563bb77b357920832510b78d6842060d928cb5de8c0aaf79aa2a647e2271a",
+      "size": 30182432
+    },
+    {
+      "path": "D:/progs/IDE/MainProjs/AI/GCI2026/finalA/FINAL_ASSESSMENT_HANDOFF_CONCISE.md",
+      "present": false,
+      "sha256": null,
+      "size": null
+    },
+    {
+      "path": "D:/progs/IDE/MainProjs/AI/GCI2026/finalA/FINAL_ASSESSMENT_HANDOFF.md",
+      "present": true,
+      "sha256": "07c3965e8a5730e895164e5ac18c3b0a1cadf5f4f026214e868c18d1585ec6ab",
+      "size": 54432
+    },
+    {
+      "path": "D:/progs/IDE/MainProjs/AI/GCI2026/finalA/FINAL_V2_UPGRADE_REPORT.md",
+      "present": true,
+      "sha256": "6fa8a015a18b21640ff1c7ace2835777bd6cfc939c8f4cbd5cfcbcbab8c29ee1",
+      "size": 3824
+    },
+    {
+      "path": "D:/progs/IDE/MainProjs/AI/GCI2026/finalA/FINAL_ASSESSMENT_READING_NOTE.md",
+      "present": true,
+      "sha256": "e2473d649350aa8ead0d4a7e25467055491d73b5b839e30801530aa6169091a7",
+      "size": 13912
+    },
+    {
+      "path": "D:/progs/IDE/MainProjs/AI/GCI2026/finalA/v2_work/common.py",
+      "present": true,
+      "sha256": "c68e6bcd81a24ae6960474ea537c4574fd0139fd83126fae0a853275611b0de7",
+      "size": 4647
+    },
+    {
+      "path": "D:/progs/IDE/MainProjs/AI/GCI2026/finalA/v2_work/workstream_a.py",
+      "present": true,
+      "sha256": "b1ccdd6d40eab51961498ff39c0522f4df57b1d0cd4309aa5b509fc30a3434b8",
+      "size": 17411
+    },
+    {
+      "path": "D:/progs/IDE/MainProjs/AI/GCI2026/finalA/v2_work/workstream_b.py",
+      "present": true,
+      "sha256": "c4c4a10bed57d340f6596230e26035bbae472e7b0727b72daeac41a3336e5a03",
+      "size": 21109
+    },
+    {
+      "path": "D:/progs/IDE/MainProjs/AI/GCI2026/finalA/v2_work/workstream_d.py",
+      "present": true,
+      "sha256": "bca0612d17586fe0e5a941ab6585e06bd7a6e0581de86f0abd46726a3f66dee2",
+      "size": 71261
+    },
+    {
+      "path": "D:/progs/IDE/MainProjs/AI/GCI2026/finalA/v2_work/run_frozen_batch.py",
+      "present": true,
+      "sha256": "6864317b3274c2937a52f8cd19a9f06474d486cd64da658c6bd0ed1c4031ffef",
+      "size": 9443
+    },
+    {
+      "path": "D:/progs/IDE/MainProjs/AI/GCI2026/finalA/v2_work/final_protocol.py",
+      "present": true,
+      "sha256": "be181a475db397ea42bc85899ddf4c368a19c2aeac714c0cf3bb195117f31875",
+      "size": 4924
+    },
+    {
+      "path": "D:/progs/IDE/MainProjs/AI/GCI2026/finalA/v2_work/d_results/oof/baseline_lgbm_r0_f0.npz",
+      "present": true,
+      "sha256": "7c95f578448d7cc565fe698b02d6d691818b9c072099ce3d712513a04d1c22cd",
+      "size": 425956
+    },
+    {
+      "path": "D:/progs/IDE/MainProjs/AI/GCI2026/finalA/v2_work/d_results/oof/baseline_lgbm_r0_f1.npz",
+      "present": true,
+      "sha256": "ab8bdbf05930676d8a99a03c8cac339bf70894528063f90f2730f597d51cead7",
+      "size": 426238
+    },
+    {
+      "path": "D:/progs/IDE/MainProjs/AI/GCI2026/finalA/v2_work/d_results/oof/baseline_lgbm_r0_f2.npz",
+      "present": true,
+      "sha256": "261e411d43e57bc07e2cea4478ea5ca14eed652d7a504cb2a92bbea2f4e2f1b8",
+      "size": 426064
+    },
+    {
+      "path": "D:/progs/IDE/MainProjs/AI/GCI2026/finalA/v2_work/d_results/oof/baseline_lgbm_r0_f3.npz",
+      "present": true,
+      "sha256": "3e686c9c9e28ab042a2537c314aefef2dbc05b7c14bde743e4690ea621e0dd50",
+      "size": 426063
+    },
+    {
+      "path": "D:/progs/IDE/MainProjs/AI/GCI2026/finalA/v2_work/d_results/oof/baseline_lgbm_r0_f4.npz",
+      "present": true,
+      "sha256": "c7ef34ff72ddc81ff7c7f5b9125a3958583c40978121f0dd43cafb6e46ff10cc",
+      "size": 425689
+    },
+    {
+      "path": "D:/progs/IDE/MainProjs/AI/GCI2026/finalA/v2_work/d_results/oof/baseline_lgbm_r1_f0.npz",
+      "present": true,
+      "sha256": "47298f1db1f8e758d57f7f9a777ccd1c2d5bcf59f913c914ed9f970755e6f453",
+      "size": 425915
+    },
+    {
+      "path": "D:/progs/IDE/MainProjs/AI/GCI2026/finalA/v2_work/d_results/oof/baseline_lgbm_r1_f1.npz",
+      "present": true,
+      "sha256": "a0f96c7b7d0af44a3332c39f6c41d35cbe17dc3505f5a57d3681135b1b9ea848",
+      "size": 426194
+    },
+    {
+      "path": "D:/progs/IDE/MainProjs/AI/GCI2026/finalA/v2_work/d_results/oof/baseline_lgbm_r1_f2.npz",
+      "present": true,
+      "sha256": "96066024ef34837f2aa3b640a8ab705100ceb1d46ba43e51cfc2338f9ce09a9d",
+      "size": 426447
+    },
+    {
+      "path": "D:/progs/IDE/MainProjs/AI/GCI2026/finalA/v2_work/d_results/oof/baseline_lgbm_r1_f3.npz",
+      "present": true,
+      "sha256": "d552473bfe1d333afd55a9f77a7e87de172273218c9181dbbf3f0ce1fc071636",
+      "size": 426035
+    },
+    {
+      "path": "D:/progs/IDE/MainProjs/AI/GCI2026/finalA/v2_work/d_results/oof/baseline_lgbm_r1_f4.npz",
+      "present": true,
+      "sha256": "4f0fe7e92f48e7adc6aeb92290559dbed0ce34386ca3f2594df20f326d9e14e7",
+      "size": 425781
+    },
+    {
+      "path": "C:/Users/FGstore/.qoder/tmp/D--progs-IDE-MainProjs-AI-GCI2026-finalA/attachments/3462e263-cc13-4104-9c41-44f49963bbaa/4ec2074d-b034-4447-85ba-967f007db8e9.txt",
+      "present": true,
+      "sha256": "a86cbb9698f01401acd2d7b10877355c4b9703ec15f43b7f80361fae3f89dda9",
+      "size": 34853
+    }
+  ],
+  "missing_inputs": [
+    "D:/progs/IDE/MainProjs/AI/GCI2026/finalA/FINAL_ASSESSMENT_HANDOFF_CONCISE.md"
+  ],
+  "population": {
+    "choice": "Baseline non-test OOF, average two raw scores per unique Customer_ID, frozen v1 sigmoid, saved original-train V limits, assumed 2% prior",
+    "difference_percentage_points": 0.07134440293299904,
+    "reference_control_churn": 0.04771148430230854,
+    "repeat_averaging_is_not_independent_replication": true,
+    "sanity_half_percentage_point_pass": true,
+    "selected_control_churn": 0.04842492833163853,
+    "selected_deployment_mass": 10249.982853969133
+  },
+  "provenance": {
+    "created_utc": "2026-10-29T14:14:59.003524+00:00",
+    "input_files": [
+      {
+        "path": "C:/Users/FGstore/.qoder/tmp/D--progs-IDE-MainProjs-AI-GCI2026-finalA/attachments/3462e263-cc13-4104-9c41-44f49963bbaa/4ec2074d-b034-4447-85ba-967f007db8e9.txt",
+        "present": true,
+        "sha256": "a86cbb9698f01401acd2d7b10877355c4b9703ec15f43b7f80361fae3f89dda9",
+        "size": 34853
+      },
+      {
+        "path": "D:/progs/IDE/MainProjs/AI/GCI2026/finalA/analysis_outputs/feature_manifest.json",
+        "present": true,
+        "sha256": "8e0560cedab891acfea8b440b5d7f28516de1e3adc5b06899a442dd8d07fd067",
+        "size": 2559
+      },
+      {
+        "path": "D:/progs/IDE/MainProjs/AI/GCI2026/finalA/analysis_outputs/model_selection.json",
+        "present": true,
+        "sha256": "62e17913b8e7bf7bf1ac8fdd4556d242b524c884a0e929352c2b9e3bb5e9acc3",
+        "size": 321
+      },
+      {
+        "path": "D:/progs/IDE/MainProjs/AI/GCI2026/finalA/analysis_outputs/source_manifest.json",
+        "present": true,
+        "sha256": "60861fb36607bcf143e313ca94390a67eb38b90c8b431144bb6f8cdb5156686a",
+        "size": 707
+      },
+      {
+        "path": "D:/progs/IDE/MainProjs/AI/GCI2026/finalA/FINAL_ASSESSMENT_HANDOFF.md",
+        "present": true,
+        "sha256": "07c3965e8a5730e895164e5ac18c3b0a1cadf5f4f026214e868c18d1585ec6ab",
+        "size": 54432
+      },
+      {
+        "path": "D:/progs/IDE/MainProjs/AI/GCI2026/finalA/FINAL_ASSESSMENT_HANDOFF_CONCISE.md",
+        "present": false,
+        "sha256": null,
+        "size": null
+      },
+      {
+        "path": "D:/progs/IDE/MainProjs/AI/GCI2026/finalA/FINAL_ASSESSMENT_READING_NOTE.md",
+        "present": true,
+        "sha256": "e2473d649350aa8ead0d4a7e25467055491d73b5b839e30801530aa6169091a7",
+        "size": 13912
+      },
+      {
+        "path": "D:/progs/IDE/MainProjs/AI/GCI2026/finalA/FINAL_V2_UPGRADE_REPORT.md",
+        "present": true,
+        "sha256": "6fa8a015a18b21640ff1c7ace2835777bd6cfc939c8f4cbd5cfcbcbab8c29ee1",
+        "size": 3824
+      },
+      {
+        "path": "D:/progs/IDE/MainProjs/AI/GCI2026/finalA/telecom/Client.csv",
+        "present": true,
+        "sha256": "264a58512dc857fff29e11ef43fd53bc4407be23aac9dcc2c0df23536c800778",
+        "size": 17937775
+      },
+      {
+        "path": "D:/progs/IDE/MainProjs/AI/GCI2026/finalA/telecom/Record.csv",
+        "present": true,
+        "sha256": "5bd563bb77b357920832510b78d6842060d928cb5de8c0aaf79aa2a647e2271a",
+        "size": 30182432
+      },
+      {
+        "path": "D:/progs/IDE/MainProjs/AI/GCI2026/finalA/v1_frozen/analysis_outputs/tables/split_manifest.csv",
+        "present": true,
+        "sha256": "4caefcbed46a834f89cfbf21387f78555e601b43a8cee81d1637c786fb0a21b3",
+        "size": 1690023
+      },
+      {
+        "path": "D:/progs/IDE/MainProjs/AI/GCI2026/finalA/v2_work/a_budget_choices.csv",
+        "present": true,
+        "sha256": "846ba54ed56421ac06da6b452df72986ba94a2500372610425448aab9a125a2b",
+        "size": 334
+      },
+      {
+        "path": "D:/progs/IDE/MainProjs/AI/GCI2026/finalA/v2_work/a_selected_calibration.csv",
+        "present": true,
+        "sha256": "fa0ee67c5b94431e5313633219c04c8c4c248944564659e06007e0a2aff25648",
+        "size": 1449202
+      },
+      {
+        "path": "D:/progs/IDE/MainProjs/AI/GCI2026/finalA/v2_work/a_spec.json",
+        "present": true,
+        "sha256": "2f258d7d0ff9360d0ff0673abcb8c41e5c6462b2181d8d09dc5e86b4be5c8431",
+        "size": 5484
+      },
+      {
+        "path": "D:/progs/IDE/MainProjs/AI/GCI2026/finalA/v2_work/b_design.json",
+        "present": true,
+        "sha256": "aaa1dfa7b8dc65bd8a84ffa8a6b6d1d7f5f1ae40cdcf2746469a85468618f245",
+        "size": 7187
+      },
+      {
+        "path": "D:/progs/IDE/MainProjs/AI/GCI2026/finalA/v2_work/common.py",
+        "present": true,
+        "sha256": "c68e6bcd81a24ae6960474ea537c4574fd0139fd83126fae0a853275611b0de7",
+        "size": 4647
+      },
+      {
+        "path": "D:/progs/IDE/MainProjs/AI/GCI2026/finalA/v2_work/d_results/gate_d.csv",
+        "present": true,
+        "sha256": "40a951d0c38267b0b2058e939e6cadc05e138fb4c542e34285f730d09c8483db",
+        "size": 2696
+      },
+      {
+        "path": "D:/progs/IDE/MainProjs/AI/GCI2026/finalA/v2_work/d_results/oof/baseline_lgbm_r0_f0.npz",
+        "present": true,
+        "sha256": "7c95f578448d7cc565fe698b02d6d691818b9c072099ce3d712513a04d1c22cd",
+        "size": 425956
+      },
+      {
+        "path": "D:/progs/IDE/MainProjs/AI/GCI2026/finalA/v2_work/d_results/oof/baseline_lgbm_r0_f1.npz",
+        "present": true,
+        "sha256": "ab8bdbf05930676d8a99a03c8cac339bf70894528063f90f2730f597d51cead7",
+        "size": 426238
+      },
+      {
+        "path": "D:/progs/IDE/MainProjs/AI/GCI2026/finalA/v2_work/d_results/oof/baseline_lgbm_r0_f2.npz",
+        "present": true,
+        "sha256": "261e411d43e57bc07e2cea4478ea5ca14eed652d7a504cb2a92bbea2f4e2f1b8",
+        "size": 426064
+      },
+      {
+        "path": "D:/progs/IDE/MainProjs/AI/GCI2026/finalA/v2_work/d_results/oof/baseline_lgbm_r0_f3.npz",
+        "present": true,
+        "sha256": "3e686c9c9e28ab042a2537c314aefef2dbc05b7c14bde743e4690ea621e0dd50",
+        "size": 426063
+      },
+      {
+        "path": "D:/progs/IDE/MainProjs/AI/GCI2026/finalA/v2_work/d_results/oof/baseline_lgbm_r0_f4.npz",
+        "present": true,
+        "sha256": "c7ef34ff72ddc81ff7c7f5b9125a3958583c40978121f0dd43cafb6e46ff10cc",
+        "size": 425689
+      },
+      {
+        "path": "D:/progs/IDE/MainProjs/AI/GCI2026/finalA/v2_work/d_results/oof/baseline_lgbm_r1_f0.npz",
+        "present": true,
+        "sha256": "47298f1db1f8e758d57f7f9a777ccd1c2d5bcf59f913c914ed9f970755e6f453",
+        "size": 425915
+      },
+      {
+        "path": "D:/progs/IDE/MainProjs/AI/GCI2026/finalA/v2_work/d_results/oof/baseline_lgbm_r1_f1.npz",
+        "present": true,
+        "sha256": "a0f96c7b7d0af44a3332c39f6c41d35cbe17dc3505f5a57d3681135b1b9ea848",
+        "size": 426194
+      },
+      {
+        "path": "D:/progs/IDE/MainProjs/AI/GCI2026/finalA/v2_work/d_results/oof/baseline_lgbm_r1_f2.npz",
+        "present": true,
+        "sha256": "96066024ef34837f2aa3b640a8ab705100ceb1d46ba43e51cfc2338f9ce09a9d",
+        "size": 426447
+      },
+      {
+        "path": "D:/progs/IDE/MainProjs/AI/GCI2026/finalA/v2_work/d_results/oof/baseline_lgbm_r1_f3.npz",
+        "present": true,
+        "sha256": "d552473bfe1d333afd55a9f77a7e87de172273218c9181dbbf3f0ce1fc071636",
+        "size": 426035
+      },
+      {
+        "path": "D:/progs/IDE/MainProjs/AI/GCI2026/finalA/v2_work/d_results/oof/baseline_lgbm_r1_f4.npz",
+        "present": true,
+        "sha256": "4f0fe7e92f48e7adc6aeb92290559dbed0ce34386ca3f2594df20f326d9e14e7",
+        "size": 425781
+      },
+      {
+        "path": "D:/progs/IDE/MainProjs/AI/GCI2026/finalA/v2_work/final_metrics.json",
+        "present": true,
+        "sha256": "1d14a4fea10ab391631379f82cd6a82e5a65ede4f01db5b540c9aec3612eea1e",
+        "size": 155122
+      },
+      {
+        "path": "D:/progs/IDE/MainProjs/AI/GCI2026/finalA/v2_work/final_protocol.py",
+        "present": true,
+        "sha256": "be181a475db397ea42bc85899ddf4c368a19c2aeac714c0cf3bb195117f31875",
+        "size": 4924
+      },
+      {
+        "path": "D:/progs/IDE/MainProjs/AI/GCI2026/finalA/v2_work/run_frozen_batch.py",
+        "present": true,
+        "sha256": "6864317b3274c2937a52f8cd19a9f06474d486cd64da658c6bd0ed1c4031ffef",
+        "size": 9443
+      },
+      {
+        "path": "D:/progs/IDE/MainProjs/AI/GCI2026/finalA/v2_work/workstream_a.py",
+        "present": true,
+        "sha256": "b1ccdd6d40eab51961498ff39c0522f4df57b1d0cd4309aa5b509fc30a3434b8",
+        "size": 17411
+      },
+      {
+        "path": "D:/progs/IDE/MainProjs/AI/GCI2026/finalA/v2_work/workstream_b.py",
+        "present": true,
+        "sha256": "c4c4a10bed57d340f6596230e26035bbae472e7b0727b72daeac41a3336e5a03",
+        "size": 21109
+      },
+      {
+        "path": "D:/progs/IDE/MainProjs/AI/GCI2026/finalA/v2_work/workstream_d.py",
+        "present": true,
+        "sha256": "bca0612d17586fe0e5a941ab6585e06bd7a6e0581de86f0abd46726a3f66dee2",
+        "size": 71261
+      },
+      {
+        "path": "D:/progs/IDE/MainProjs/AI/GCI2026/finalA/v3_addons/src/common.py",
+        "present": true,
+        "sha256": "5522fe7e7c49f945db5bd12bff6b850652ee12b002014a64f44217b01d13db0d",
+        "size": 7086
+      },
+      {
+        "path": "D:/progs/IDE/MainProjs/AI/GCI2026/finalA/v3_addons/src/wp0_preflight.py",
+        "present": true,
+        "sha256": "93207f24f9f190a04709c3581fbb846990804d888b976d03145de583806f44e1",
+        "size": 9999
+      }
+    ],
+    "python_version": "3.11.9 (tags/v3.11.9:de54cf5, Apr  2 2024, 10:12:12) [MSC v.1938 64 bit (AMD64)]",
+    "row_counts": {
+      "calibration_rows": 10000,
+      "repeated_oof": 150000,
+      "selected_non_test_rows": 12990,
+      "unique_non_test_customers": 75000
+    },
+    "runtime_pools": [
+      {
+        "architecture": "Haswell",
+        "filepath": "C:\\Users\\FGstore\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\numpy.libs\\libscipy_openblas64_-860d95b1c38e637ce4509f5fa24fbf2a.dll",
+        "internal_api": "openblas",
+        "num_threads": 6,
+        "prefix": "libscipy_openblas",
+        "threading_layer": "pthreads",
+        "user_api": "blas",
+        "version": "0.3.30"
+      },
+      {
+        "architecture": "Haswell",
+        "filepath": "C:\\Users\\FGstore\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\scipy.libs\\libscipy_openblas-64eda39e79589aedb16f58e5547eb599.dll",
+        "internal_api": "openblas",
+        "num_threads": 6,
+        "prefix": "libscipy_openblas",
+        "threading_layer": "pthreads",
+        "user_api": "blas",
+        "version": "0.3.30"
+      }
+    ],
+    "script": "D:/progs/IDE/MainProjs/AI/GCI2026/finalA/v3_addons/src/wp0_preflight.py",
+    "script_sha256": "93207f24f9f190a04709c3581fbb846990804d888b976d03145de583806f44e1",
+    "seed": 20261028,
+    "tags_used": [
+      "[E]",
+      "[A]",
+      "[R]"
+    ]
+  },
+  "read_only_checks": {
+    "completed_batch_verified": true,
+    "immutable_v1_files": 67
+  },
+  "status": "DONE",
+  "tags": {
+    "assumptions": "2% prior, six months, 60% margin, monetary interpretation, prevention priors.",
+    "evidence": "Computed non-test population checks and arithmetic from frozen JSON scalars.",
+    "recommendation": "Use unique-account non-test OOF population for WP1; no model change."
+  }
+}

@@ -1,0 +1,55 @@
+[IPKernelApp] WARNING | Kernel is running over TCP without encryption. All communication (including code and outputs) is sent in plain text and is susceptible to eavesdropping. Use IPC transport or launch with kernel manager-provisioned CurveZMQ keys to enable transport encryption.
+Executing cell 0: # Company A | Retain contribution, not just customers
+Executing cell 1: ## 1. Local environment
+Executing cell 2: from pathlib import Path
+Executing cell 3: ## 2. Integrity and evaluation design
+Executing cell 4: client_path = ROOT / 'telecom' / 'Client.csv'
+Executing cell 5: ## 3. Original EDA: find a business decision, not just a correlation
+Executing cell 6: eda = data.loc[train_idx].copy()
+Executing cell 7: ## 4. Use actionable operational information; minimize sensitive data
+Executing cell 8: excluded = ['Customer_ID', 'churn', 'crclscod', 'asl_flag', 'prizm_social_one', 'area
+Executing cell 9: ## 5. Compare alternatives, then calibrate
+Executing cell 10: numeric_pipeline = Pipeline([('imputer', SimpleImputer(strategy='median', add_indicat
+Executing cell 11: ## 6. Final held-out evaluation and the equal-budget business comparison
+Executing cell 12: raw_test = final_model.predict_proba(best_frame.loc[test_idx])[:, 1]
+Executing cell 13: ## 7. Explain the model and check where it weakens
+Executing cell 14: perm_index = rng.choice(test_idx, size=4000, replace=False)
+Executing cell 15: ## 8. Translate ranking into conditional economics—without pretending 50% churn is no
+Executing cell 16: SAMPLE_PRIOR = float(y.loc[cal_idx].mean())
+Executing cell 17: ## 9. Buy evidence before scaling
+Executing cell 18: control_rate = float(base.churn_precision)
+Executing cell 19: ## 10. Frozen enhancement protocol and self-contained reproduction
+Executing cell 20: import importlib
+Executing cell 21: ### Embedded module: common
+Executing cell 22: _v2_materialize('common', ''.join([
+Executing cell 23: ### Embedded module: workstream_a
+Executing cell 24: _v2_materialize('workstream_a', ''.join([
+Executing cell 25: ### Embedded module: workstream_b
+Executing cell 26: _v2_materialize('workstream_b', ''.join([
+Executing cell 27: ### Embedded module: workstream_c
+Executing cell 28: _v2_materialize('workstream_c', ''.join([
+Executing cell 29: ### Embedded module: workstream_d
+Executing cell 30: _v2_materialize('workstream_d', ''.join([
+Executing cell 31: ### Embedded module: a_budget_gate
+Executing cell 32: _v2_materialize('a_budget_gate', ''.join([
+Executing cell 33: ### Embedded module: headroom_refit
+Executing cell 34: _v2_materialize('headroom_refit', ''.join([
+Executing cell 35: ### Embedded module: final_protocol
+Executing cell 36: _v2_materialize('final_protocol', ''.join([
+Executing cell 37: ### Embedded module: run_frozen_batch
+Executing cell 38: _v2_materialize('run_frozen_batch', ''.join([
+Executing cell 39: ### Embedded module: final_metrics
+Executing cell 40: _v2_materialize('final_metrics', ''.join([
+Executing cell 41: ### Embedded module: generate_visuals
+Executing cell 42: _v2_materialize('generate_visuals', ''.join([
+Executing cell 43: ## 11. Preserve the original baseline evidence
+Executing cell 44: _v2_baseline = V2_ROOT / 'v1_frozen'
+Executing cell 45: ## 12. A–D: non-test decisions first
+Executing cell 46: v2_run.non_test()
+Executing cell 47: ## 13. One frozen descriptive final batch
+Executing cell 48: v2_run.final_test()
+Executing cell 49: ## 14. Evidence register and operational boundaries
+Executing cell 50: v2_run.show_results()
+Executing cell 51: ## References and evidence register
+Executed successfully: D:\progs\IDE\MainProjs\AI\GCI2026\finalA\philopateer.ipynb
+[IPKernelApp] WARNING | Parent appears to have exited, shutting down.

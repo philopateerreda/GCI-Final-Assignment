@@ -1,0 +1,235 @@
+{
+  "columns": [
+    {
+      "column": "rev_Mean",
+      "range_column_present": false,
+      "max_range_mean_ratio": null
+    },
+    {
+      "column": "mou_Mean",
+      "range_column_present": false,
+      "max_range_mean_ratio": null
+    },
+    {
+      "column": "totmrc_Mean",
+      "range_column_present": false,
+      "max_range_mean_ratio": null
+    },
+    {
+      "column": "da_Mean",
+      "range_column_present": false,
+      "max_range_mean_ratio": null
+    },
+    {
+      "column": "ovrmou_Mean",
+      "range_column_present": false,
+      "max_range_mean_ratio": null
+    },
+    {
+      "column": "ovrrev_Mean",
+      "range_column_present": false,
+      "max_range_mean_ratio": null
+    },
+    {
+      "column": "vceovr_Mean",
+      "range_column_present": false,
+      "max_range_mean_ratio": null
+    },
+    {
+      "column": "datovr_Mean",
+      "range_column_present": false,
+      "max_range_mean_ratio": null
+    },
+    {
+      "column": "roam_Mean",
+      "range_column_present": false,
+      "max_range_mean_ratio": null
+    },
+    {
+      "column": "drop_vce_Mean",
+      "range_column_present": false,
+      "max_range_mean_ratio": null
+    },
+    {
+      "column": "drop_dat_Mean",
+      "range_column_present": false,
+      "max_range_mean_ratio": null
+    },
+    {
+      "column": "blck_vce_Mean",
+      "range_column_present": false,
+      "max_range_mean_ratio": null
+    },
+    {
+      "column": "blck_dat_Mean",
+      "range_column_present": false,
+      "max_range_mean_ratio": null
+    },
+    {
+      "column": "unan_vce_Mean",
+      "range_column_present": false,
+      "max_range_mean_ratio": null
+    },
+    {
+      "column": "unan_dat_Mean",
+      "range_column_present": false,
+      "max_range_mean_ratio": null
+    },
+    {
+      "column": "plcd_vce_Mean",
+      "range_column_present": false,
+      "max_range_mean_ratio": null
+    },
+    {
+      "column": "plcd_dat_Mean",
+      "range_column_present": false,
+      "max_range_mean_ratio": null
+    },
+    {
+      "column": "recv_vce_Mean",
+      "range_column_present": false,
+      "max_range_mean_ratio": null
+    },
+    {
+      "column": "recv_sms_Mean",
+      "range_column_present": false,
+      "max_range_mean_ratio": null
+    },
+    {
+      "column": "comp_vce_Mean",
+      "range_column_present": false,
+      "max_range_mean_ratio": null
+    },
+    {
+      "column": "comp_dat_Mean",
+      "range_column_present": false,
+      "max_range_mean_ratio": null
+    },
+    {
+      "column": "custcare_Mean",
+      "range_column_present": false,
+      "max_range_mean_ratio": null
+    },
+    {
+      "column": "ccrndmou_Mean",
+      "range_column_present": false,
+      "max_range_mean_ratio": null
+    },
+    {
+      "column": "cc_mou_Mean",
+      "range_column_present": false,
+      "max_range_mean_ratio": null
+    },
+    {
+      "column": "inonemin_Mean",
+      "range_column_present": false,
+      "max_range_mean_ratio": null
+    },
+    {
+      "column": "threeway_Mean",
+      "range_column_present": false,
+      "max_range_mean_ratio": null
+    },
+    {
+      "column": "mou_cvce_Mean",
+      "range_column_present": false,
+      "max_range_mean_ratio": null
+    },
+    {
+      "column": "mou_cdat_Mean",
+      "range_column_present": false,
+      "max_range_mean_ratio": null
+    },
+    {
+      "column": "mou_rvce_Mean",
+      "range_column_present": false,
+      "max_range_mean_ratio": null
+    },
+    {
+      "column": "owylis_vce_Mean",
+      "range_column_present": false,
+      "max_range_mean_ratio": null
+    },
+    {
+      "column": "mouowylisv_Mean",
+      "range_column_present": false,
+      "max_range_mean_ratio": null
+    },
+    {
+      "column": "iwylis_vce_Mean",
+      "range_column_present": false,
+      "max_range_mean_ratio": null
+    },
+    {
+      "column": "mouiwylisv_Mean",
+      "range_column_present": false,
+      "max_range_mean_ratio": null
+    },
+    {
+      "column": "peak_vce_Mean",
+      "range_column_present": false,
+      "max_range_mean_ratio": null
+    },
+    {
+      "column": "peak_dat_Mean",
+      "range_column_present": false,
+      "max_range_mean_ratio": null
+    },
+    {
+      "column": "mou_peav_Mean",
+      "range_column_present": false,
+      "max_range_mean_ratio": null
+    },
+    {
+      "column": "mou_pead_Mean",
+      "range_column_present": false,
+      "max_range_mean_ratio": null
+    },
+    {
+      "column": "opk_vce_Mean",
+      "range_column_present": false,
+      "max_range_mean_ratio": null
+    },
+    {
+      "column": "opk_dat_Mean",
+      "range_column_present": false,
+      "max_range_mean_ratio": null
+    },
+    {
+      "column": "mou_opkv_Mean",
+      "range_column_present": false,
+      "max_range_mean_ratio": null
+    },
+    {
+      "column": "mou_opkd_Mean",
+      "range_column_present": false,
+      "max_range_mean_ratio": null
+    },
+    {
+      "column": "drop_blk_Mean",
+      "range_column_present": false,
+      "max_range_mean_ratio": null
+    },
+    {
+      "column": "attempt_Mean",
+      "range_column_present": false,
+      "max_range_mean_ratio": null
+    },
+    {
+      "column": "complete_Mean",
+      "range_column_present": false,
+      "max_range_mean_ratio": null
+    },
+    {
+      "column": "callfwdv_Mean",
+      "range_column_present": false,
+      "max_range_mean_ratio": null
+    },
+    {
+      "column": "callwait_Mean",
+      "range_column_present": false,
+      "max_range_mean_ratio": null
+    }
+  ],
+  "conclusion": "The supplied overview never states a three- or four-month window for _Mean; no _Range fields exist in either CSV. avg3/avg6 windows are explicitly three/six months. Do not invent missing fields or claim the window is empirically proved. Even if a range/mean ratio equalled four, it would bound the window, not logically establish its length without nonnegativity and authoritative metadata."
+}

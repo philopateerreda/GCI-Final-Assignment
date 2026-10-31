@@ -1,0 +1,26 @@
+{
+  "protocol": "C-20261028-fold-local-income-v1",
+  "cache_fingerprint": "1f5bccaf189660f67e97b0a966d668fd0ce637ed0b038e28853239b56f241744",
+  "parameters": {
+    "objective": "binary",
+    "n_estimators": 160,
+    "learning_rate": 0.04,
+    "max_depth": 4,
+    "num_leaves": 15,
+    "min_child_samples": 200,
+    "subsample": 0.8,
+    "subsample_freq": 1,
+    "colsample_bytree": 0.8,
+    "reg_alpha": 1.0,
+    "reg_lambda": 10.0,
+    "class_weight": "balanced",
+    "n_jobs": 6,
+    "random_state": 20261028,
+    "verbosity": -1,
+    "deterministic": true,
+    "force_col_wise": true
+  },
+  "planned_fits": 15,
+  "source_partition": "original_train_60000_plus_validation_15000",
+  "test_used": false
+}

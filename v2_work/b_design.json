@@ -1,0 +1,134 @@
+{
+  "protocol": "B1-B5 frozen calibration planning, not observed treatment evidence",
+  "seed": 20261028,
+  "threads": 6,
+  "selection_partition": "calibration_policy",
+  "test_selected": false,
+  "maturity_ladder": [
+    "risk-only triage (benchmark)",
+    "value-aware service triage (PoC)",
+    "causal incremental-profit targeting (requires pilot labels)"
+  ],
+  "normal_binary_reference": {
+    "p0": 0.04771148430230854,
+    "p1": 0.03816918744184683,
+    "relative_prevention_assumption": 0.2,
+    "alpha_two_sided": 0.05,
+    "power": 0.8,
+    "followup_loss_allowance": 0.1,
+    "minimum_complete_per_arm": 7084,
+    "enrolled_per_arm": 7872,
+    "provenance": "Previously published v1 planning reference, retained rather than retuned on v2 test."
+  },
+  "allocation": {
+    "core_per_arm": 7872,
+    "risk_only_per_arm_stage2": 2000,
+    "exploration_per_arm_stage2": 1000
+  },
+  "cost_assumptions": {
+    "treated_contact": 1.0,
+    "control_incremental_contact": 0.0,
+    "startup_stage1": 5000.0,
+    "incremental_stage2_fixed": 0.0
+  },
+  "stage1_cost": 12872.0,
+  "stage2_incremental_cost": 3000.0,
+  "total_staged_cost": 15872.0,
+  "stage1_total_enrolled": 15744,
+  "stage2_incremental_enrolled": 6000,
+  "stage2_power_claim": "2000/arm risk-only and 1000/arm exploration are assumed learning allocations, NOT powered evidence of positive contribution.",
+  "stage_cost_caveat": "Illustrative contact/startup envelope only; shared measurement is assumed existing. Actual linkage, consent, engineering, clustering, follow-up and legal costs must be quoted before launch. No subsidy/discount.",
+  "planning_portfolio_calibration_proxy": 158000,
+  "capacity_caveat": "Stage 1 needs 15744 core accounts, exceeding a single approximately10000-account top list in a100000-account scenario. Enroll across a larger eligible portfolio or successive cohorts; do not equate the pilot with one financial-scenario cohort.",
+  "enrollment_probability_planning_proxy": {
+    "both": 0.9962158844832534,
+    "rv_only": 0.9962158844832534,
+    "risk_only": 0.5780323574757604,
+    "exploration": 0.014784570101576027
+  },
+  "treatment_probability_given_enrollment": 0.5,
+  "randomization_unit": "Linked household/account, linkage required before launch; Customer_ID is not claimed to be household-disjoint.",
+  "stratification": "Cell and pre-treatment risk-value band; account clusters stay in one arm.",
+  "cell_disjointness": "both+rv_only are stage1 core; rv_only is never enrolled twice. Stage2 adds risk_only and below-union exploration, each disjoint from stage1.",
+  "logging": [
+    "eligibility/consent",
+    "household linkage",
+    "cell/risk-value stratum",
+    "enrollment probability",
+    "treatment probability",
+    "assignment/contact",
+    "pre-period covariates",
+    "churn/contribution/costs",
+    "opt-out/complaint/harm"
+  ],
+  "ipw_rule": "Within eligible consented linked accounts use joint e_T=s*.5, e_C=s*.5; HT/IPW contrast T*Y/e_T-C*Y/e_C, including outcome-specific contact costs. Only the agreed region (both) cancels in the Bayes-minus-risk policy contrast: deployment-mass-weighted incremental contribution in rv_only minus that in risk_only; stage1 core includes rv_only and must not be cancelled as a whole. Exploration gives positive support below both cutoffs. Consent/nonresponse and household clustering require separate treatment; no unbiased claim for unconsented/unobserved accounts.",
+  "routing": {
+    "billing_gap_p90": 0.3404255319148936,
+    "absolute_change_rev_p90": 47.882000000000005,
+    "failed_call_ratio_p90": 0.1390728476415947,
+    "low_usage_p25": 151.75,
+    "handset_days": 365,
+    "training_rows": 60000,
+    "precedence": [
+      "billing_check",
+      "network_check",
+      "handset_check",
+      "digital_only_residual"
+    ],
+    "window_caveat": "No Range columns. Billing uses verified 3/6-month comparisons and separately an ambiguously scaled change_rev flag, never an inferred Mean window or causal promo expiry.",
+    "residual_caveat": "The fourth queue is a low-usage DIGITAL CHECK plus all remaining cases; not every residual is demonstrably low usage. Missing diagnostics do not prove a defect."
+  },
+  "covariate_limits_train_only": {
+    "totmrc_Mean": {
+      "median": 44.99,
+      "p99": 115.51589999999989
+    },
+    "avg3rev": {
+      "median": 48.0,
+      "p99": 237.0
+    }
+  },
+  "calibration_only_adjustment_beta": [
+    7.375052765119869,
+    3.469269920776152,
+    -0.01106109327004301,
+    -163.12565686632593
+  ],
+  "simulation": {
+    "replicates": 400,
+    "enrolled_n_grid": [
+      1000,
+      2500,
+      5000,
+      7872,
+      10000,
+      20000,
+      40000,
+      80000,
+      160000
+    ],
+    "prevention": 0.2,
+    "retained_months": 6,
+    "margin": 0.6,
+    "variable_cost": 1.0,
+    "startup": 5000.0,
+    "outcome": "Simulated six-month contribution=3.6*V*(1-future_churn)-treatment_contact_cost; treatment prevents20% of otherwise churners. Assumes six-month contribution is lost when the specified future-month churn event occurs.",
+    "effective_n": "floor(.9*enrolled), random missing follow-up proxy; full enrolled treatment cost and startup still charged.",
+    "adjustment": "Fixed weighted OLS control-outcome coefficients fit on calibration rows only, covariate preprocessing on original60k; test never fits adjustment.",
+    "required_n_rule": "Smallest preregistered grid point with simulated power>=.8; Monte Carlo Wilson95% interval reported. Beyond-grid requirements recorded unavailable. Final test required_n is descriptive, never a new enrollment decision.",
+    "honesty": "No longitudinal pre/post contribution pairs or treatment/control labels. This cross-sectional independent-account proxy is NOT measured CUPED, causal lift or household-clustered profit power; re-estimate from live pre-period billing and clustering."
+  },
+  "decision_gates": {
+    "scale": "Final cluster-robust95% LCB of incremental contribution after all contact/incentive/implementation costs >0 AND no guardrail breach; report policy value with logged enrollment/assignment propensities.",
+    "extend": "Contribution CI overlaps0 with positive upper bound, no harm, and a prospectively approved maximum-sample/budget extension; no unplanned optional peeking.",
+    "stop": "Contribution upper bound<=0, infeasible fully loaded costs, or customer-harm guardrail.",
+    "harm_stratum": "mou_Mean<=original60k p25 AND ovrrev_Mean=0 AND custcare_Mean=0; missing diagnostic is not zero.",
+    "harm_looks": [
+      0.5,
+      1.0
+    ],
+    "one_sided_alpha_per_harm_look": 0.005,
+    "harm_stop": "Positive treatment-minus-control churn and one-sided Fisher exact p<=.005 at either planned look; familywise alpha<=.01 for this stratum. Serious complaints/consent violations trigger immediate safety escalation independent of statistical significance.",
+    "source_scope": "Ascarza2016 tested plan recommendations, not this exact stratum/action. The low-usage guardrail is a preregistered safety hypothesis, not an established backfire segment."
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "recipe": {
+    "backend": "lgbm",
+    "groups": [],
+    "drop": [
+      "new_cell",
+      "dualband",
+      "refurb_new",
+      "hnd_price",
+      "phones",
+      "models",
+      "hnd_webcap",
+      "eqpdays",
+      "equipment_age_invalid",
+      "equipment_age_to_tenure"
+    ],
+    "sensitive": false,
+    "value_weighted": false
+  },
+  "development_value_limits": {
+    "median": 44.99,
+    "p99": 118.8716250000003
+  },
+  "outer_training_value_limits": {
+    "median": 44.99,
+    "p99": 118.115
+  },
+  "calibration_source": "20% held-out slice of outer training fold; never original 10k",
+  "threshold_source": "calibrated development-fit predictions on that slice only",
+  "extra": null
+}

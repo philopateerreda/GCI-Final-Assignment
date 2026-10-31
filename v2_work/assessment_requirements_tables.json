@@ -1,0 +1,47 @@
+[
+  [
+    "Deadline",
+    "2026 November 28th, 11:30 UTC"
+  ],
+  [
+    "Submission\nvia",
+    "Omnicampus\nhttps://edu.omnicamp.us/en/courses/170/"
+  ],
+  [
+    "You are a new associate at an IT consulting firm. The sales team has just secured a PoC (Proof of Concept)* project from a company. The company has a large dataset but has limited in-house expertise to utilize them for business. Your job is to run EDA and build at least one machine learning model on the dataset. From evidence and market analysis, you need to define the client’s core business problem. Then, you will create a data-driven business proposal with quantified impact (e.g. revenue lift, cost savings, risk reduction, etc.). \nAs an associate, your proposal must be data-driven and machine learning-based. A strong proposal may lead to a formal consulting contract and give you the opportunity to lead a machine learning–based business development project."
+  ],
+  [
+    "Move beyond mere technical reporting; form a clear business proposal driven by insights from the data.\nBase your business proposal on actual EDA of the dataset, highlighting client-specific challenges.\nAppropriately build and report at least one machine learning or statistical model\nName the model, evaluation metric, and score\nExplain how the model’s quantitative insights inform your proposal\nUse external sources (data, reports, papers, etc.) and conduct market analysis. Cite sources clearly.\nMake the presentation understandable to client executives with no ML background.\nUse multiple data visualizations, not just raw numbers.\nEnsure logical consistency from analysis through proposal."
+  ],
+  [
+    "Cite all external data, methods, figures, or text. Lack of citation may be judged as plagiarism.\nEven if not verbatim copy/paste, any method or visualization borrowed from a source requires citation. \nYou may use additional open data in your analysis and model building, but cite everything. \nYou may include your own market research; again, cite if referencing external data."
+  ],
+  [
+    "Submission Portal",
+    "Omnicampus\nhttps://edu.omnicamp.us/en/courses/170/reports/125/"
+  ],
+  [
+    "Deadline ",
+    "November 28th 11:30 UTC"
+  ],
+  [
+    "Required Materials",
+    "1. Slides (PDF format)\nUp to 15 slides total (including title page, table of contents, section dividers, references, etc.).\nSubmit as a PDF exported from PowerPoint, Keynote, Google Slides, Figma, etc.\nSlides beyond 15 may be disregarded for evaluation.\n\n2. List of References  \nEnter URLs or literature citations in the specified “References” field in Omnicampus.\nIf you used any generative AI, please paste the URL to the chat history.\nCitations must be included in the slides as well\nThe list must match citations used in your slides.\n\n3. Notebook\nIn .ipynb or .py format (or ZIP format if multiple files), containing reproducible analysis."
+  ],
+  [
+    "File Naming",
+    "Slides and notebook should have your Omnicampus account name as the file name.\nSlides:[OmnicampusAccountName.pdf]\nNotebook: [OmnicampusAccountName.ipynb], [OmnicampusAccountName.py], or [OmnicampusAccountName.zip]"
+  ],
+  [
+    "File Size",
+    "Slide File Size: ≤ 10MB\nList of References: No restrictions\nNotebook: No restrictions"
+  ],
+  [
+    "Resubmission",
+    "You may resubmit multiple times before the deadline. Only your final submission is evaluated."
+  ],
+  [
+    "Late Submissions",
+    "No late additions or updates to references/notebooks will be accepted once the deadline has passed."
+  ]
+]

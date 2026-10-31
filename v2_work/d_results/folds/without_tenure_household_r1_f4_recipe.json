@@ -1,0 +1,25 @@
+{
+  "recipe": {
+    "backend": "lgbm",
+    "groups": [],
+    "drop": [
+      "months",
+      "uniqsubs",
+      "actvsubs",
+      "inactive_household_lines"
+    ],
+    "sensitive": false,
+    "value_weighted": false
+  },
+  "development_value_limits": {
+    "median": 44.99,
+    "p99": 118.17984999999976
+  },
+  "outer_training_value_limits": {
+    "median": 44.99,
+    "p99": 117.85327500000004
+  },
+  "calibration_source": "20% held-out slice of outer training fold; never original 10k",
+  "threshold_source": "calibrated development-fit predictions on that slice only",
+  "extra": null
+}

@@ -1,0 +1,1448 @@
+{
+  "partition": "calibration",
+  "spec": {
+    "calibrator": "sigmoid",
+    "calibration_candidates": [
+      {
+        "method": "sigmoid",
+        "oof_log_loss": 0.6226436638847613,
+        "paired_logloss_improvement": 0.0,
+        "ci_lower": 0.0,
+        "ci_upper": 0.0,
+        "tail_brier": 0.19018787376837534,
+        "passes": false
+      },
+      {
+        "method": "beta",
+        "oof_log_loss": 0.6227965550266505,
+        "paired_logloss_improvement": -0.00015289114188922706,
+        "ci_lower": -0.0003456902904548913,
+        "ci_upper": 5.093543374491216e-05,
+        "tail_brier": 0.19075019799201803,
+        "passes": false
+      },
+      {
+        "method": "isotonic",
+        "oof_log_loss": 0.6262250233067324,
+        "paired_logloss_improvement": -0.003581359421970951,
+        "ci_lower": -0.007454128032832552,
+        "ci_upper": -0.0008886102499432529,
+        "tail_brier": 0.18884887942021694,
+        "passes": false
+      }
+    ],
+    "base_fraction": 0.1,
+    "optimal_budgets_calibration_only": [
+      {
+        "cost": 0.25,
+        "fraction": 0.3,
+        "calibration_oof_net": 25920.96947222077,
+        "frozen_threshold": 1.01437210454265,
+        "no_contact_net": 0.0,
+        "launch_allowed_by_assumed_calibration_net": true
+      },
+      {
+        "cost": 1.0,
+        "fraction": 0.18,
+        "calibration_oof_net": 6009.390224575029,
+        "frozen_threshold": 1.3296292108091934,
+        "no_contact_net": 0.0,
+        "launch_allowed_by_assumed_calibration_net": true
+      },
+      {
+        "cost": 2.0,
+        "fraction": 0.03,
+        "calibration_oof_net": -1891.4441011486588,
+        "frozen_threshold": 2.680008864411434,
+        "no_contact_net": 0.0,
+        "launch_allowed_by_assumed_calibration_net": false
+      },
+      {
+        "cost": 5.0,
+        "fraction": 0.01,
+        "calibration_oof_net": -5732.581368528379,
+        "frozen_threshold": 4.481670516111727,
+        "no_contact_net": 0.0,
+        "launch_allowed_by_assumed_calibration_net": false
+      }
+    ],
+    "test_used_for_selection": false,
+    "value_proxy": "totmrc_Mean",
+    "gate_a": "Prior-regime reconciliation qualifies: v1 already used Bayes deployment score in financial scenario. New calibrator and budgets require non-test evidence; test empirical maxima remain diagnostic only.",
+    "thresholds": {
+      "0.01": {
+        "risk": 0.018455386870436012,
+        "value": 76.76,
+        "sample_rv": 34.97351948545642,
+        "bayes": 0.8544340365225732,
+        "profit_gate": 1.3888888888888886
+      },
+      "0.02": {
+        "risk": 0.036833373400463214,
+        "value": 76.6825,
+        "sample_rv": 35.03243182491035,
+        "bayes": 1.711493684172072,
+        "profit_gate": 1.711493684172072
+      },
+      "0.05": {
+        "risk": 0.09130717136936546,
+        "value": 76.0375,
+        "sample_rv": 35.22377171896487,
+        "bayes": 4.259485055979885,
+        "profit_gate": 4.259485055979885
+      }
+    },
+    "budget_gate": [
+      {
+        "cost": 0.25,
+        "calibration_selected_fraction": 0.3,
+        "paired_net_gain_vs10": 13386.068576650341,
+        "ci_lower": 12554.104184969481,
+        "ci_upper": 14388.652003544994,
+        "positive_net_under_assumptions": true,
+        "exploratory_conditional_interval_excludes0": true,
+        "eligible_for_headline_promotion": false,
+        "reason": "Fraction optimized on same policy-calibration support; conditional interval omits search uncertainty. Retain predeclared10% headline; prospective experiment determines campaign size. Include no-contact option with0 net; grid endpoints are constrained optima."
+      },
+      {
+        "cost": 1.0,
+        "calibration_selected_fraction": 0.18,
+        "paired_net_gain_vs10": 979.9267100753859,
+        "ci_lower": -23.64910676703421,
+        "ci_upper": 2159.1280639819474,
+        "positive_net_under_assumptions": true,
+        "exploratory_conditional_interval_excludes0": false,
+        "eligible_for_headline_promotion": false,
+        "reason": "Fraction optimized on same policy-calibration support; conditional interval omits search uncertainty. Retain predeclared10% headline; prospective experiment determines campaign size. Include no-contact option with0 net; grid endpoints are constrained optima."
+      },
+      {
+        "cost": 2.0,
+        "calibration_selected_fraction": 0.03,
+        "paired_net_gain_vs10": 3086.3422257794164,
+        "ci_lower": 1660.8704568675748,
+        "ci_upper": 4728.546237374924,
+        "positive_net_under_assumptions": false,
+        "exploratory_conditional_interval_excludes0": true,
+        "eligible_for_headline_promotion": false,
+        "reason": "Fraction optimized on same policy-calibration support; conditional interval omits search uncertainty. Retain predeclared10% headline; prospective experiment determines campaign size. Include no-contact option with0 net; grid endpoints are constrained optima."
+      },
+      {
+        "cost": 5.0,
+        "calibration_selected_fraction": 0.01,
+        "paired_net_gain_vs10": 29266.95448268285,
+        "ci_lower": 25685.86261135475,
+        "ci_upper": 33008.08002891406,
+        "positive_net_under_assumptions": false,
+        "exploratory_conditional_interval_excludes0": true,
+        "eligible_for_headline_promotion": false,
+        "reason": "Fraction optimized on same policy-calibration support; conditional interval omits search uncertainty. Retain predeclared10% headline; prospective experiment determines campaign size. Include no-contact option with0 net; grid endpoints are constrained optima."
+      }
+    ],
+    "promoted_headline_fraction": 0.1
+  },
+  "policies": [
+    {
+      "partition": "calibration",
+      "prior": 0.01,
+      "policy": "risk",
+      "intended_fraction": 0.1,
+      "threshold": 0.018455386870436012,
+      "raw_count": 2015,
+      "contacts": 10002.777015052046,
+      "achieved_contact_fraction": 0.10002777015052046,
+      "mean_value": 39.175934779156556,
+      "sample_precision": 0.7548387096774194,
+      "deployment_precision": 0.03068155232596225,
+      "actual_churners": 306.90072639225184,
+      "actual_value": 12096.791498516948,
+      "value_recall": 0.27310210352675646,
+      "model_expected_churners": 304.39601745451773,
+      "model_expected_value": 11808.897869273176,
+      "model_expected_net": -6500.370549175361,
+      "actual_gross": 8709.689878932202,
+      "net": -6293.087136119844,
+      "break_even_contact_cost": 0.3708659978473888,
+      "break_even_success": 0.34450772010475694,
+      "observed_expected_churn_ratio": 1.0082284550194824
+    },
+    {
+      "partition": "calibration",
+      "prior": 0.01,
+      "policy": "value",
+      "intended_fraction": 0.1,
+      "threshold": 76.76,
+      "raw_count": 884,
+      "contacts": 10007.674834339172,
+      "achieved_contact_fraction": 0.10007674834339172,
+      "mean_value": 93.27775208120379,
+      "sample_precision": 0.4276018099547511,
+      "deployment_precision": 0.007621269446022554,
+      "actual_churners": 76.27118644067795,
+      "actual_value": 7062.756019632768,
+      "value_recall": 0.1594516633517611,
+      "model_expected_churners": 74.50286818053814,
+      "model_expected_value": 6879.196944281744,
+      "model_expected_net": -10054.653034456314,
+      "actual_gross": 5085.1843341355925,
+      "net": -9922.49050020358,
+      "break_even_contact_cost": 0.008511900670803261,
+      "break_even_success": 0.590250966266703,
+      "observed_expected_churn_ratio": 1.0237349018007569
+    },
+    {
+      "partition": "calibration",
+      "prior": 0.01,
+      "policy": "sample_rv",
+      "intended_fraction": 0.1,
+      "threshold": 34.97351948545642,
+      "raw_count": 1368,
+      "contacts": 10008.206715528051,
+      "achieved_contact_fraction": 0.10008206715528051,
+      "mean_value": 78.28802981983466,
+      "sample_precision": 0.6337719298245614,
+      "deployment_precision": 0.01747960171934943,
+      "actual_churners": 174.93946731234865,
+      "actual_value": 12237.797148230426,
+      "value_recall": 0.2762855046418892,
+      "model_expected_churners": 178.53762396453982,
+      "model_expected_value": 12306.837972283665,
+      "model_expected_net": -6147.283375483812,
+      "actual_gross": 8811.213946725906,
+      "net": -6196.992768802145,
+      "break_even_contact_cost": 0.3808088756612797,
+      "break_even_success": 0.34066149809254925,
+      "observed_expected_churn_ratio": 0.9798465075747518
+    },
+    {
+      "partition": "calibration",
+      "prior": 0.01,
+      "policy": "bayes",
+      "intended_fraction": 0.1,
+      "threshold": 0.8544340365225732,
+      "raw_count": 1769,
+      "contacts": 10011.416724111115,
+      "achieved_contact_fraction": 0.10011416724111115,
+      "mean_value": 62.39505886822686,
+      "sample_precision": 0.7190503109101187,
+      "deployment_precision": 0.02563659097553293,
+      "actual_churners": 256.65859564164646,
+      "actual_value": 14007.363492060129,
+      "value_recall": 0.3162359568662904,
+      "model_expected_churners": 257.4604173768679,
+      "model_expected_value": 13919.270439574622,
+      "model_expected_net": -4989.542007617387,
+      "actual_gross": 10085.301714283294,
+      "net": -4926.115009827821,
+      "break_even_contact_cost": 0.5079502586318325,
+      "break_even_success": 0.29768899631135914,
+      "observed_expected_churn_ratio": 0.9968856504491417
+    },
+    {
+      "partition": "calibration",
+      "prior": 0.01,
+      "policy": "profit_gate",
+      "intended_fraction": 0.1,
+      "threshold": 1.3888888888888886,
+      "raw_count": 686,
+      "contacts": 2760.8611610883145,
+      "achieved_contact_fraction": 0.027608611610883144,
+      "mean_value": 59.67893010610477,
+      "sample_precision": 0.8032069970845481,
+      "deployment_precision": 0.04026945332126737,
+      "actual_churners": 111.17836965294592,
+      "actual_value": 6121.854143123486,
+      "value_recall": 0.1382094784535209,
+      "model_expected_churners": 122.39353372472239,
+      "model_expected_value": 6343.836807111078,
+      "model_expected_net": -3193.298659968338,
+      "actual_gross": 4407.734983048909,
+      "net": -3353.126178039405,
+      "break_even_contact_cost": -0.21452184024988186,
+      "break_even_success": 0.3521473587198287,
+      "observed_expected_churn_ratio": 0.9083680017197583
+    },
+    {
+      "partition": "calibration",
+      "prior": 0.02,
+      "policy": "risk",
+      "intended_fraction": 0.1,
+      "threshold": 0.036833373400463214,
+      "raw_count": 1988,
+      "contacts": 10010.588980010609,
+      "achieved_contact_fraction": 0.10010588980010608,
+      "mean_value": 39.34474671188435,
+      "sample_precision": 0.7565392354124748,
+      "deployment_precision": 0.060629907264128764,
+      "actual_churners": 606.9410815173526,
+      "actual_value": 23896.972827542373,
+      "value_recall": 0.2697539073862553,
+      "model_expected_churners": 600.6489752941116,
+      "model_expected_value": 23386.21166833779,
+      "model_expected_net": 1827.483421192599,
+      "actual_gross": 17205.820435830505,
+      "net": 2195.231455819896,
+      "break_even_contact_cost": 1.2192909388451956,
+      "break_even_success": 0.17448268783221277,
+      "observed_expected_churn_ratio": 1.0104755131233847
+    },
+    {
+      "partition": "calibration",
+      "prior": 0.02,
+      "policy": "value",
+      "intended_fraction": 0.1,
+      "threshold": 76.6825,
+      "raw_count": 885,
+      "contacts": 10003.057836798878,
+      "achieved_contact_fraction": 0.10003057836798879,
+      "mean_value": 93.24030352577796,
+      "sample_precision": 0.4271186440677966,
+      "deployment_precision": 0.015249574217214727,
+      "actual_churners": 152.5423728813559,
+      "actual_value": 14125.512039265535,
+      "value_recall": 0.1594516633517611,
+      "model_expected_churners": 149.3000575001294,
+      "model_expected_value": 13787.61273766841,
+      "model_expected_net": -5075.976665677623,
+      "actual_gross": 10170.368668271185,
+      "net": -4832.689168527693,
+      "break_even_contact_cost": 0.5168788137214028,
+      "break_even_success": 0.2950346900128485,
+      "observed_expected_churn_ratio": 1.0217167724883407
+    },
+    {
+      "partition": "calibration",
+      "prior": 0.02,
+      "policy": "sample_rv",
+      "intended_fraction": 0.1,
+      "threshold": 35.03243182491035,
+      "raw_count": 1363,
+      "contacts": 10005.700601454577,
+      "achieved_contact_fraction": 0.10005700601454577,
+      "mean_value": 78.25813177283025,
+      "sample_precision": 0.6353631694790902,
+      "deployment_precision": 0.03492762748896199,
+      "actual_churners": 349.47538337368843,
+      "actual_value": 24439.6651197054,
+      "value_recall": 0.27587992876042094,
+      "model_expected_churners": 354.79264359469846,
+      "model_expected_value": 24495.656458143072,
+      "model_expected_net": 2631.1720484084326,
+      "actual_gross": 17596.558886187886,
+      "net": 2590.858284733309,
+      "break_even_contact_cost": 1.2589382181150477,
+      "break_even_success": 0.17055267110472425,
+      "observed_expected_churn_ratio": 0.985013048277618
+    },
+    {
+      "partition": "calibration",
+      "prior": 0.02,
+      "policy": "bayes",
+      "intended_fraction": 0.1,
+      "threshold": 1.711493684172072,
+      "raw_count": 1732,
+      "contacts": 10002.407226415613,
+      "achieved_contact_fraction": 0.10002407226415613,
+      "mean_value": 62.537555005241884,
+      "sample_precision": 0.7176674364896074,
+      "deployment_precision": 0.050149348416780086,
+      "actual_churners": 501.6142050040355,
+      "actual_value": 27599.405151997576,
+      "value_recall": 0.3115477192452982,
+      "model_expected_churners": 504.8721235801644,
+      "model_expected_value": 27548.64761874997,
+      "model_expected_net": 4832.619059084365,
+      "actual_gross": 19871.571709438256,
+      "net": 4869.164483022643,
+      "break_even_contact_cost": 1.4867992646973562,
+      "break_even_success": 0.1509936651793882,
+      "observed_expected_churn_ratio": 0.9935470420647783
+    },
+    {
+      "partition": "calibration",
+      "prior": 0.02,
+      "policy": "profit_gate",
+      "intended_fraction": 0.1,
+      "threshold": 1.711493684172072,
+      "raw_count": 1732,
+      "contacts": 10002.407226415613,
+      "achieved_contact_fraction": 0.10002407226415613,
+      "mean_value": 62.537555005241884,
+      "sample_precision": 0.7176674364896074,
+      "deployment_precision": 0.050149348416780086,
+      "actual_churners": 501.6142050040355,
+      "actual_value": 27599.405151997576,
+      "value_recall": 0.3115477192452982,
+      "model_expected_churners": 504.8721235801644,
+      "model_expected_value": 27548.64761874997,
+      "model_expected_net": 4832.619059084365,
+      "actual_gross": 19871.571709438256,
+      "net": 4869.164483022643,
+      "break_even_contact_cost": 1.4867992646973562,
+      "break_even_success": 0.1509936651793882,
+      "observed_expected_churn_ratio": 0.9935470420647783
+    },
+    {
+      "partition": "calibration",
+      "prior": 0.05,
+      "policy": "risk",
+      "intended_fraction": 0.1,
+      "threshold": 0.09130717136936546,
+      "raw_count": 1900,
+      "contacts": 10009.591142738092,
+      "achieved_contact_fraction": 0.10009591142738092,
+      "mean_value": 39.49456812882928,
+      "sample_precision": 0.7610526315789473,
+      "deployment_precision": 0.1457439920965677,
+      "actual_churners": 1458.8377723970946,
+      "actual_value": 57283.157956668685,
+      "value_recall": 0.2586495921094387,
+      "model_expected_churners": 1441.393615836446,
+      "model_expected_value": 56369.04169346519,
+      "model_expected_net": 25576.118876556844,
+      "actual_gross": 41243.87372880146,
+      "net": 26234.282586063367,
+      "break_even_contact_cost": 3.6209145020969418,
+      "break_even_success": 0.07278458488857503,
+      "observed_expected_churn_ratio": 1.0121022851558321
+    },
+    {
+      "partition": "calibration",
+      "prior": 0.05,
+      "policy": "value",
+      "intended_fraction": 0.1,
+      "threshold": 76.0375,
+      "raw_count": 896,
+      "contacts": 10048.374946155831,
+      "achieved_contact_fraction": 0.1004837494615583,
+      "mean_value": 93.02553643918945,
+      "sample_precision": 0.42745535714285715,
+      "deployment_precision": 0.03845401121191488,
+      "actual_churners": 386.40032284100084,
+      "actual_value": 35699.708770480225,
+      "value_recall": 0.16119424000498053,
+      "model_expected_churners": 379.9219806651357,
+      "model_expected_value": 35018.75530985029,
+      "model_expected_net": 10165.12887693638,
+      "actual_gross": 25703.790314745765,
+      "net": 10655.415368589935,
+      "break_even_contact_cost": 2.060411800483852,
+      "break_even_success": 0.11709070733838715,
+      "observed_expected_churn_ratio": 1.017051769851598
+    },
+    {
+      "partition": "calibration",
+      "prior": 0.05,
+      "policy": "sample_rv",
+      "intended_fraction": 0.1,
+      "threshold": 35.22377171896487,
+      "raw_count": 1330,
+      "contacts": 10004.9427827691,
+      "achieved_contact_fraction": 0.100049427827691,
+      "mean_value": 78.20122080453483,
+      "sample_precision": 0.6345864661654136,
+      "deployment_precision": 0.08510724729932563,
+      "actual_churners": 851.4931396287329,
+      "actual_value": 59876.642117261916,
+      "value_recall": 0.2703599035553816,
+      "model_expected_churners": 868.3569017512281,
+      "model_expected_value": 60271.75466708019,
+      "model_expected_net": 28390.720577528642,
+      "actual_gross": 43111.182324428584,
+      "net": 28106.23954165948,
+      "break_even_contact_cost": 3.8092354101279957,
+      "break_even_success": 0.06961044431512461,
+      "observed_expected_churn_ratio": 0.9805796878121361
+    },
+    {
+      "partition": "calibration",
+      "prior": 0.05,
+      "policy": "bayes",
+      "intended_fraction": 0.1,
+      "threshold": 4.259485055979885,
+      "raw_count": 1658,
+      "contacts": 10014.997961442135,
+      "achieved_contact_fraction": 0.10014997961442136,
+      "mean_value": 62.84269721959571,
+      "sample_precision": 0.7177322074788902,
+      "deployment_precision": 0.11987670655287223,
+      "actual_churners": 1200.5649717514125,
+      "actual_value": 67246.52707154964,
+      "value_recall": 0.30363700986928194,
+      "model_expected_churners": 1208.8990510353005,
+      "model_expected_value": 66932.74975030066,
+      "model_expected_net": 33176.58185877434,
+      "actual_gross": 48417.499491515744,
+      "net": 33402.50153007361,
+      "break_even_contact_cost": 4.335247960975494,
+      "break_even_success": 0.06202302109415308,
+      "observed_expected_churn_ratio": 0.993106058544135
+    },
+    {
+      "partition": "calibration",
+      "prior": 0.05,
+      "policy": "profit_gate",
+      "intended_fraction": 0.1,
+      "threshold": 4.259485055979885,
+      "raw_count": 1658,
+      "contacts": 10014.997961442135,
+      "achieved_contact_fraction": 0.10014997961442136,
+      "mean_value": 62.84269721959571,
+      "sample_precision": 0.7177322074788902,
+      "deployment_precision": 0.11987670655287223,
+      "actual_churners": 1200.5649717514125,
+      "actual_value": 67246.52707154964,
+      "value_recall": 0.30363700986928194,
+      "model_expected_churners": 1208.8990510353005,
+      "model_expected_value": 66932.74975030066,
+      "model_expected_net": 33176.58185877434,
+      "actual_gross": 48417.499491515744,
+      "net": 33402.50153007361,
+      "break_even_contact_cost": 4.335247960975494,
+      "break_even_success": 0.06202302109415308,
+      "observed_expected_churn_ratio": 0.993106058544135
+    }
+  ],
+  "overlap": [
+    {
+      "region": "both",
+      "raw_count": 1224,
+      "contacts": 5630.824531051683,
+      "achieved_contact_fraction": 0.056308245310516834,
+      "mean_value": 50.330744062678725,
+      "sample_precision": 0.7794117647058824,
+      "deployment_precision": 0.0683714953892489,
+      "actual_churners": 384.98789346246974,
+      "actual_value": 18709.53436910815,
+      "value_recall": 0.21119704315131885,
+      "model_expected_churners": 383.8135261746769,
+      "model_expected_value": 18409.625957302156,
+      "model_expected_net": 2624.10615820587,
+      "actual_gross": 13470.864745757868,
+      "net": 2840.040214706185,
+      "break_even_contact_cost": 1.5043737731560503,
+      "break_even_success": 0.15783432959490523,
+      "observed_expected_churn_ratio": 1.0030597339794074,
+      "variable_net_without_allocated_fixed": 7840.040214706185,
+      "net_with_proportional_fixed_allocation": 5882.469182268538
+    },
+    {
+      "region": "rv_only",
+      "raw_count": 508,
+      "contacts": 4371.582695363928,
+      "achieved_contact_fraction": 0.04371582695363928,
+      "mean_value": 78.26055861539612,
+      "sample_precision": 0.5688976377952756,
+      "deployment_precision": 0.026678280995404296,
+      "actual_churners": 116.62631154156577,
+      "actual_value": 8889.870782889426,
+      "value_recall": 0.10035067609397938,
+      "model_expected_churners": 121.05859740548752,
+      "model_expected_value": 9139.021661447812,
+      "model_expected_net": -2791.487099121503,
+      "actual_gross": 6400.706963680387,
+      "net": -2970.875731683541,
+      "break_even_contact_cost": 0.3204118648300625,
+      "break_even_success": 0.29282961237067157,
+      "observed_expected_churn_ratio": 0.9633872689844923,
+      "variable_net_without_allocated_fixed": 2029.1242683164592,
+      "net_with_proportional_fixed_allocation": 509.3319886675363
+    },
+    {
+      "region": "risk_only",
+      "raw_count": 764,
+      "contacts": 4379.764448958927,
+      "achieved_contact_fraction": 0.04379764448958927,
+      "mean_value": 25.220648463718053,
+      "sample_precision": 0.7198952879581152,
+      "deployment_precision": 0.05067696919354679,
+      "actual_churners": 221.95318805488296,
+      "actual_value": 5187.438458434221,
+      "value_recall": 0.05855686423493643,
+      "model_expected_churners": 216.8354491194347,
+      "model_expected_value": 4976.5857110356355,
+      "model_expected_net": -5796.622737013269,
+      "actual_gross": 3734.9556900726384,
+      "net": -5644.808758886288,
+      "break_even_contact_cost": -0.2888384351875507,
+      "break_even_success": 0.502269115207442,
+      "observed_expected_churn_ratio": 1.0236019477268652,
+      "variable_net_without_allocated_fixed": -644.8087588862882,
+      "net_with_proportional_fixed_allocation": -2167.4454467997184
+    }
+  ],
+  "optimal_budget_results": [
+    {
+      "cost": 0.25,
+      "fraction": 0.3,
+      "calibration_oof_net": 25920.96947222077,
+      "frozen_threshold": 1.01437210454265,
+      "no_contact_net": 0.0,
+      "launch_allowed_by_assumed_calibration_net": true,
+      "evaluation_at_frozen_fraction": {
+        "prior": 0.02,
+        "cost": 0.25,
+        "intended_fraction": 0.3,
+        "threshold": 1.01437210454265,
+        "raw_count": 4057.0,
+        "contacts": 30004.18816433144,
+        "achieved_contact_fraction": 0.3000418816433144,
+        "mean_value": 57.801927619020525,
+        "sample_precision": 0.6324870594035001,
+        "deployment_precision": 0.03451226556830436,
+        "actual_churners": 1035.5125100887813,
+        "actual_value": 53350.720406222754,
+        "value_recall": 0.6022338224724123,
+        "model_expected_churners": 1047.6785436014402,
+        "model_expected_value": 53477.20152877761,
+        "model_expected_net": 26002.53805963702,
+        "actual_gross": 38412.51869248038,
+        "net": 25911.471651397518,
+        "break_even_contact_cost": 1.1135951590985125,
+        "break_even_success": 0.06508840069125725,
+        "observed_expected_churn_ratio": 0.9883876274960851
+      },
+      "posthoc_empirical_max_fraction_diagnostic_only": 0.3,
+      "posthoc_empirical_max_net_diagnostic_only": 25911.471651397518
+    },
+    {
+      "cost": 1.0,
+      "fraction": 0.18,
+      "calibration_oof_net": 6009.390224575029,
+      "frozen_threshold": 1.3296292108091934,
+      "no_contact_net": 0.0,
+      "launch_allowed_by_assumed_calibration_net": true,
+      "evaluation_at_frozen_fraction": {
+        "prior": 0.02,
+        "cost": 1.0,
+        "intended_fraction": 0.18,
+        "threshold": 1.3296292108091934,
+        "raw_count": 2754.0,
+        "contacts": 18006.000464675984,
+        "achieved_contact_fraction": 0.18006000464675984,
+        "mean_value": 60.78915233239585,
+        "sample_precision": 0.6775599128540305,
+        "deployment_precision": 0.04182087165108363,
+        "actual_churners": 753.0266343825665,
+        "actual_value": 40161.82062144875,
+        "value_recall": 0.4533548294407908,
+        "model_expected_churners": 743.2999630596512,
+        "model_expected_value": 39565.657253356665,
+        "model_expected_net": 5481.272757740819,
+        "actual_gross": 28916.5108474431,
+        "net": 5910.5103827671155,
+        "break_even_contact_cost": 1.3282522620368862,
+        "break_even_success": 0.1591201689999902,
+        "observed_expected_churn_ratio": 1.013085795515013
+      },
+      "posthoc_empirical_max_fraction_diagnostic_only": 0.15,
+      "posthoc_empirical_max_net_diagnostic_only": 5917.4204480406515
+    },
+    {
+      "cost": 2.0,
+      "fraction": 0.03,
+      "calibration_oof_net": -1891.4441011486588,
+      "frozen_threshold": 2.680008864411434,
+      "no_contact_net": 0.0,
+      "launch_allowed_by_assumed_calibration_net": false,
+      "evaluation_at_frozen_fraction": {
+        "prior": 0.02,
+        "cost": 2.0,
+        "intended_fraction": 0.03,
+        "threshold": 2.680008864411434,
+        "raw_count": 715.0,
+        "contacts": 3009.1818310409953,
+        "achieved_contact_fraction": 0.030091818310409954,
+        "mean_value": 60.864035846457725,
+        "sample_precision": 0.8,
+        "deployment_precision": 0.07670899551364915,
+        "actual_churners": 230.83131557707827,
+        "actual_value": 12851.268200157385,
+        "value_recall": 0.14506773878345267,
+        "model_expected_churners": 247.28811386515554,
+        "model_expected_value": 13107.529680892992,
+        "model_expected_net": -1580.9422918390355,
+        "actual_gross": 9252.913104113317,
+        "net": -1765.4505579686738,
+        "break_even_contact_cost": 1.413312103722913,
+        "break_even_success": 0.23815988625644513,
+        "observed_expected_churn_ratio": 0.9334509126587013
+      },
+      "posthoc_empirical_max_fraction_diagnostic_only": 0.03,
+      "posthoc_empirical_max_net_diagnostic_only": -1765.4505579686738
+    },
+    {
+      "cost": 5.0,
+      "fraction": 0.01,
+      "calibration_oof_net": -5732.581368528379,
+      "frozen_threshold": 4.481670516111727,
+      "no_contact_net": 0.0,
+      "launch_allowed_by_assumed_calibration_net": false,
+      "evaluation_at_frozen_fraction": {
+        "prior": 0.02,
+        "cost": 5.0,
+        "intended_fraction": 0.01,
+        "threshold": 4.481670516111727,
+        "raw_count": 307.0,
+        "contacts": 1018.0874806945048,
+        "achieved_contact_fraction": 0.010180874806945048,
+        "mean_value": 57.28639764534808,
+        "sample_precision": 0.8469055374592834,
+        "deployment_precision": 0.10305924319070613,
+        "actual_churners": 104.92332526230831,
+        "actual_value": 5836.705811138014,
+        "value_recall": 0.06588592664774207,
+        "model_expected_churners": 123.71248896524577,
+        "model_expected_value": 6462.784829543348,
+        "model_expected_net": -5437.232326201314,
+        "actual_gross": 4202.42818401937,
+        "net": -5888.009219453154,
+        "break_even_contact_cost": -0.7834020465869531,
+        "break_even_success": 0.4802193856325049,
+        "observed_expected_churn_ratio": 0.8481223370405566
+      },
+      "posthoc_empirical_max_fraction_diagnostic_only": 0.01,
+      "posthoc_empirical_max_net_diagnostic_only": -5888.009219453154
+    }
+  ],
+  "paired_intervals": [
+    {
+      "regime": "deployment",
+      "prior": 0.01,
+      "policy": "bayes",
+      "metric": "value_recall",
+      "lower": 0.302368904147885,
+      "upper": 0.331075421960618
+    },
+    {
+      "regime": "deployment",
+      "prior": 0.01,
+      "policy": "bayes",
+      "metric": "net",
+      "lower": -5828.477048726409,
+      "upper": -3976.572275046632
+    },
+    {
+      "regime": "deployment",
+      "prior": 0.01,
+      "policy": "bayes",
+      "metric": "value_difference_vs_risk",
+      "lower": 0.031957333589913484,
+      "upper": 0.056503411413223605
+    },
+    {
+      "regime": "deployment",
+      "prior": 0.01,
+      "policy": "bayes",
+      "metric": "relative_value_gain_vs_risk",
+      "lower": 0.11496744354823771,
+      "upper": 0.21054276995605398
+    },
+    {
+      "regime": "deployment",
+      "prior": 0.01,
+      "policy": "bayes",
+      "metric": "net_difference_vs_risk",
+      "lower": 525.0962941373463,
+      "upper": 2333.3071220546403
+    },
+    {
+      "regime": "deployment",
+      "prior": 0.01,
+      "policy": "profit_gate",
+      "metric": "value_recall",
+      "lower": 0.1263691634796704,
+      "upper": 0.14899689301756236
+    },
+    {
+      "regime": "deployment",
+      "prior": 0.01,
+      "policy": "profit_gate",
+      "metric": "net",
+      "lower": -3907.8857655300276,
+      "upper": -2827.136323715808
+    },
+    {
+      "regime": "deployment",
+      "prior": 0.01,
+      "policy": "profit_gate",
+      "metric": "value_difference_vs_risk",
+      "lower": -0.14512064954504686,
+      "upper": -0.12638797395682536
+    },
+    {
+      "regime": "deployment",
+      "prior": 0.01,
+      "policy": "profit_gate",
+      "metric": "relative_value_gain_vs_risk",
+      "lower": -0.5278096887296716,
+      "upper": -0.4667675028813182
+    },
+    {
+      "regime": "deployment",
+      "prior": 0.01,
+      "policy": "profit_gate",
+      "metric": "net_difference_vs_risk",
+      "lower": 2200.948881909417,
+      "upper": 3724.465449045867
+    },
+    {
+      "regime": "deployment",
+      "prior": 0.01,
+      "policy": "risk",
+      "metric": "value_recall",
+      "lower": 0.25992080514185734,
+      "upper": 0.2877529692842722
+    },
+    {
+      "regime": "deployment",
+      "prior": 0.01,
+      "policy": "risk",
+      "metric": "net",
+      "lower": -7189.833049803041,
+      "upper": -5399.626541027249
+    },
+    {
+      "regime": "deployment",
+      "prior": 0.01,
+      "policy": "risk",
+      "metric": "value_difference_vs_risk",
+      "lower": 0.0,
+      "upper": 0.0
+    },
+    {
+      "regime": "deployment",
+      "prior": 0.01,
+      "policy": "risk",
+      "metric": "relative_value_gain_vs_risk",
+      "lower": 0.0,
+      "upper": 0.0
+    },
+    {
+      "regime": "deployment",
+      "prior": 0.01,
+      "policy": "risk",
+      "metric": "net_difference_vs_risk",
+      "lower": 0.0,
+      "upper": 0.0
+    },
+    {
+      "regime": "deployment",
+      "prior": 0.01,
+      "policy": "sample_rv",
+      "metric": "value_recall",
+      "lower": 0.2605232150243226,
+      "upper": 0.2909892863620925
+    },
+    {
+      "regime": "deployment",
+      "prior": 0.01,
+      "policy": "sample_rv",
+      "metric": "net",
+      "lower": -7070.901850618026,
+      "upper": -5258.49234030632
+    },
+    {
+      "regime": "deployment",
+      "prior": 0.01,
+      "policy": "sample_rv",
+      "metric": "value_difference_vs_risk",
+      "lower": -0.014578970074877056,
+      "upper": 0.02011659371920129
+    },
+    {
+      "regime": "deployment",
+      "prior": 0.01,
+      "policy": "sample_rv",
+      "metric": "relative_value_gain_vs_risk",
+      "lower": -0.052810148926000694,
+      "upper": 0.07599609534785957
+    },
+    {
+      "regime": "deployment",
+      "prior": 0.01,
+      "policy": "sample_rv",
+      "metric": "net_difference_vs_risk",
+      "lower": -1002.7670793346523,
+      "upper": 1325.1913122462777
+    },
+    {
+      "regime": "deployment",
+      "prior": 0.01,
+      "policy": "value",
+      "metric": "value_recall",
+      "lower": 0.14712481320308052,
+      "upper": 0.17128870420057105
+    },
+    {
+      "regime": "deployment",
+      "prior": 0.01,
+      "policy": "value",
+      "metric": "net",
+      "lower": -11000.144409046292,
+      "upper": -8949.070925146985
+    },
+    {
+      "regime": "deployment",
+      "prior": 0.01,
+      "policy": "value",
+      "metric": "value_difference_vs_risk",
+      "lower": -0.13257171973903029,
+      "upper": -0.0947804333892525
+    },
+    {
+      "regime": "deployment",
+      "prior": 0.01,
+      "policy": "value",
+      "metric": "relative_value_gain_vs_risk",
+      "lower": -0.4706368917796989,
+      "upper": -0.35951509759253786
+    },
+    {
+      "regime": "deployment",
+      "prior": 0.01,
+      "policy": "value",
+      "metric": "net_difference_vs_risk",
+      "lower": -4966.929708260133,
+      "upper": -2175.147618824721
+    },
+    {
+      "regime": "deployment",
+      "prior": 0.02,
+      "policy": "bayes",
+      "metric": "value_recall",
+      "lower": 0.2978905853051116,
+      "upper": 0.32600525172968614
+    },
+    {
+      "regime": "deployment",
+      "prior": 0.02,
+      "policy": "bayes",
+      "metric": "net",
+      "lower": 3647.533114363038,
+      "upper": 6095.32213340843
+    },
+    {
+      "regime": "deployment",
+      "prior": 0.02,
+      "policy": "bayes",
+      "metric": "value_difference_vs_risk",
+      "lower": 0.0303298755416383,
+      "upper": 0.055042003557027
+    },
+    {
+      "regime": "deployment",
+      "prior": 0.02,
+      "policy": "bayes",
+      "metric": "relative_value_gain_vs_risk",
+      "lower": 0.11105109499500491,
+      "upper": 0.20644165746197493
+    },
+    {
+      "regime": "deployment",
+      "prior": 0.02,
+      "policy": "bayes",
+      "metric": "net_difference_vs_risk",
+      "lower": 1598.6153062419553,
+      "upper": 3792.7808417464116
+    },
+    {
+      "regime": "deployment",
+      "prior": 0.02,
+      "policy": "profit_gate",
+      "metric": "value_recall",
+      "lower": 0.2978905853051116,
+      "upper": 0.32600525172968614
+    },
+    {
+      "regime": "deployment",
+      "prior": 0.02,
+      "policy": "profit_gate",
+      "metric": "net",
+      "lower": 3647.533114363038,
+      "upper": 6095.32213340843
+    },
+    {
+      "regime": "deployment",
+      "prior": 0.02,
+      "policy": "profit_gate",
+      "metric": "value_difference_vs_risk",
+      "lower": 0.0303298755416383,
+      "upper": 0.055042003557027
+    },
+    {
+      "regime": "deployment",
+      "prior": 0.02,
+      "policy": "profit_gate",
+      "metric": "relative_value_gain_vs_risk",
+      "lower": 0.11105109499500491,
+      "upper": 0.20644165746197493
+    },
+    {
+      "regime": "deployment",
+      "prior": 0.02,
+      "policy": "profit_gate",
+      "metric": "net_difference_vs_risk",
+      "lower": 1598.6153062419553,
+      "upper": 3792.7808417464116
+    },
+    {
+      "regime": "deployment",
+      "prior": 0.02,
+      "policy": "risk",
+      "metric": "value_recall",
+      "lower": 0.25669151371666016,
+      "upper": 0.28434877780542844
+    },
+    {
+      "regime": "deployment",
+      "prior": 0.02,
+      "policy": "risk",
+      "metric": "net",
+      "lower": 1109.4169728322229,
+      "upper": 3330.3408799547506
+    },
+    {
+      "regime": "deployment",
+      "prior": 0.02,
+      "policy": "risk",
+      "metric": "value_difference_vs_risk",
+      "lower": 0.0,
+      "upper": 0.0
+    },
+    {
+      "regime": "deployment",
+      "prior": 0.02,
+      "policy": "risk",
+      "metric": "relative_value_gain_vs_risk",
+      "lower": 0.0,
+      "upper": 0.0
+    },
+    {
+      "regime": "deployment",
+      "prior": 0.02,
+      "policy": "risk",
+      "metric": "net_difference_vs_risk",
+      "lower": 0.0,
+      "upper": 0.0
+    },
+    {
+      "regime": "deployment",
+      "prior": 0.02,
+      "policy": "sample_rv",
+      "metric": "value_recall",
+      "lower": 0.2595836418879694,
+      "upper": 0.2900463877027793
+    },
+    {
+      "regime": "deployment",
+      "prior": 0.02,
+      "policy": "sample_rv",
+      "metric": "net",
+      "lower": 1383.3110128821934,
+      "upper": 3956.092048981109
+    },
+    {
+      "regime": "deployment",
+      "prior": 0.02,
+      "policy": "sample_rv",
+      "metric": "value_difference_vs_risk",
+      "lower": -0.011534853165938668,
+      "upper": 0.02341676909482008
+    },
+    {
+      "regime": "deployment",
+      "prior": 0.02,
+      "policy": "sample_rv",
+      "metric": "relative_value_gain_vs_risk",
+      "lower": -0.04216284161933056,
+      "upper": 0.0898685897471203
+    },
+    {
+      "regime": "deployment",
+      "prior": 0.02,
+      "policy": "sample_rv",
+      "metric": "net_difference_vs_risk",
+      "lower": -1056.321812874474,
+      "upper": 1968.0220006913494
+    },
+    {
+      "regime": "deployment",
+      "prior": 0.02,
+      "policy": "value",
+      "metric": "value_recall",
+      "lower": 0.14712481320308052,
+      "upper": 0.17128870420057105
+    },
+    {
+      "regime": "deployment",
+      "prior": 0.02,
+      "policy": "value",
+      "metric": "net",
+      "lower": -6154.842615076426,
+      "upper": -3678.894127579676
+    },
+    {
+      "regime": "deployment",
+      "prior": 0.02,
+      "policy": "value",
+      "metric": "value_difference_vs_risk",
+      "lower": -0.12983957532706533,
+      "upper": -0.09201332430858315
+    },
+    {
+      "regime": "deployment",
+      "prior": 0.02,
+      "policy": "value",
+      "metric": "relative_value_gain_vs_risk",
+      "lower": -0.4634409139300035,
+      "upper": -0.35169452343292784
+    },
+    {
+      "regime": "deployment",
+      "prior": 0.02,
+      "policy": "value",
+      "metric": "net_difference_vs_risk",
+      "lower": -8724.02579620199,
+      "upper": -5160.969435025095
+    },
+    {
+      "regime": "deployment",
+      "prior": 0.05,
+      "policy": "bayes",
+      "metric": "value_recall",
+      "lower": 0.2893646417329848,
+      "upper": 0.31883547488392033
+    },
+    {
+      "regime": "deployment",
+      "prior": 0.05,
+      "policy": "bayes",
+      "metric": "net",
+      "lower": 30941.09480276823,
+      "upper": 35902.386420047456
+    },
+    {
+      "regime": "deployment",
+      "prior": 0.05,
+      "policy": "bayes",
+      "metric": "value_difference_vs_risk",
+      "lower": 0.03336163961422341,
+      "upper": 0.058365447000610686
+    },
+    {
+      "regime": "deployment",
+      "prior": 0.05,
+      "policy": "bayes",
+      "metric": "relative_value_gain_vs_risk",
+      "lower": 0.12718959663000118,
+      "upper": 0.2336373409646904
+    },
+    {
+      "regime": "deployment",
+      "prior": 0.05,
+      "policy": "bayes",
+      "metric": "net_difference_vs_risk",
+      "lower": 5061.584312042044,
+      "upper": 9416.616325098696
+    },
+    {
+      "regime": "deployment",
+      "prior": 0.05,
+      "policy": "profit_gate",
+      "metric": "value_recall",
+      "lower": 0.2893646417329848,
+      "upper": 0.31883547488392033
+    },
+    {
+      "regime": "deployment",
+      "prior": 0.05,
+      "policy": "profit_gate",
+      "metric": "net",
+      "lower": 30941.09480276823,
+      "upper": 35902.386420047456
+    },
+    {
+      "regime": "deployment",
+      "prior": 0.05,
+      "policy": "profit_gate",
+      "metric": "value_difference_vs_risk",
+      "lower": 0.03336163961422341,
+      "upper": 0.058365447000610686
+    },
+    {
+      "regime": "deployment",
+      "prior": 0.05,
+      "policy": "profit_gate",
+      "metric": "relative_value_gain_vs_risk",
+      "lower": 0.12718959663000118,
+      "upper": 0.2336373409646904
+    },
+    {
+      "regime": "deployment",
+      "prior": 0.05,
+      "policy": "profit_gate",
+      "metric": "net_difference_vs_risk",
+      "lower": 5061.584312042044,
+      "upper": 9416.616325098696
+    },
+    {
+      "regime": "deployment",
+      "prior": 0.05,
+      "policy": "risk",
+      "metric": "value_recall",
+      "lower": 0.24531477005724076,
+      "upper": 0.27212232462975716
+    },
+    {
+      "regime": "deployment",
+      "prior": 0.05,
+      "policy": "risk",
+      "metric": "net",
+      "lower": 24047.061503721732,
+      "upper": 28262.313741009744
+    },
+    {
+      "regime": "deployment",
+      "prior": 0.05,
+      "policy": "risk",
+      "metric": "value_difference_vs_risk",
+      "lower": 0.0,
+      "upper": 0.0
+    },
+    {
+      "regime": "deployment",
+      "prior": 0.05,
+      "policy": "risk",
+      "metric": "relative_value_gain_vs_risk",
+      "lower": 0.0,
+      "upper": 0.0
+    },
+    {
+      "regime": "deployment",
+      "prior": 0.05,
+      "policy": "risk",
+      "metric": "net_difference_vs_risk",
+      "lower": 0.0,
+      "upper": 0.0
+    },
+    {
+      "regime": "deployment",
+      "prior": 0.05,
+      "policy": "sample_rv",
+      "metric": "value_recall",
+      "lower": 0.2543233264401758,
+      "upper": 0.28488199180739443
+    },
+    {
+      "regime": "deployment",
+      "prior": 0.05,
+      "policy": "sample_rv",
+      "metric": "net",
+      "lower": 25124.14289728451,
+      "upper": 30781.11153447652
+    },
+    {
+      "regime": "deployment",
+      "prior": 0.05,
+      "policy": "sample_rv",
+      "metric": "value_difference_vs_risk",
+      "lower": -0.004328454340482677,
+      "upper": 0.02970329162950937
+    },
+    {
+      "regime": "deployment",
+      "prior": 0.05,
+      "policy": "sample_rv",
+      "metric": "relative_value_gain_vs_risk",
+      "lower": -0.016674310751001453,
+      "upper": 0.11844249971285008
+    },
+    {
+      "regime": "deployment",
+      "prior": 0.05,
+      "policy": "sample_rv",
+      "metric": "net_difference_vs_risk",
+      "lower": -848.6658584006358,
+      "upper": 4994.176051716339
+    },
+    {
+      "regime": "deployment",
+      "prior": 0.05,
+      "policy": "value",
+      "metric": "value_recall",
+      "lower": 0.14897176341726498,
+      "upper": 0.17306385836076194
+    },
+    {
+      "regime": "deployment",
+      "prior": 0.05,
+      "policy": "value",
+      "metric": "net",
+      "lower": 8304.70680905266,
+      "upper": 12902.74856554623
+    },
+    {
+      "regime": "deployment",
+      "prior": 0.05,
+      "policy": "value",
+      "metric": "value_difference_vs_risk",
+      "lower": -0.11662082461825986,
+      "upper": -0.07843068031927287
+    },
+    {
+      "regime": "deployment",
+      "prior": 0.05,
+      "policy": "value",
+      "metric": "relative_value_gain_vs_risk",
+      "lower": -0.43237246408775887,
+      "upper": -0.31439098324364523
+    },
+    {
+      "regime": "deployment",
+      "prior": 0.05,
+      "policy": "value",
+      "metric": "net_difference_vs_risk",
+      "lower": -18470.87641402472,
+      "upper": -12258.54465568862
+    },
+    {
+      "regime": "sample",
+      "prior": 0.4956,
+      "policy": "bayes",
+      "metric": "value_recall",
+      "lower": 0.20663949670370949,
+      "upper": 0.2252224025248334
+    },
+    {
+      "regime": "sample",
+      "prior": 0.4956,
+      "policy": "bayes",
+      "metric": "value_difference_vs_risk",
+      "lower": 0.06303931671558993,
+      "upper": 0.08389934578143977
+    },
+    {
+      "regime": "sample",
+      "prior": 0.4956,
+      "policy": "bayes",
+      "metric": "relative_value_gain_vs_risk",
+      "lower": 0.433293961486717,
+      "upper": 0.6037777622415262
+    },
+    {
+      "regime": "sample",
+      "prior": 0.4956,
+      "policy": "profit_gate",
+      "metric": "value_recall",
+      "lower": 0.20663949670370949,
+      "upper": 0.2252224025248334
+    },
+    {
+      "regime": "sample",
+      "prior": 0.4956,
+      "policy": "profit_gate",
+      "metric": "value_difference_vs_risk",
+      "lower": 0.06303931671558993,
+      "upper": 0.08389934578143977
+    },
+    {
+      "regime": "sample",
+      "prior": 0.4956,
+      "policy": "profit_gate",
+      "metric": "relative_value_gain_vs_risk",
+      "lower": 0.433293961486717,
+      "upper": 0.6037777622415262
+    },
+    {
+      "regime": "sample",
+      "prior": 0.4956,
+      "policy": "risk",
+      "metric": "value_recall",
+      "lower": 0.1361811742979592,
+      "upper": 0.14931926915231492
+    },
+    {
+      "regime": "sample",
+      "prior": 0.4956,
+      "policy": "risk",
+      "metric": "value_difference_vs_risk",
+      "lower": 0.0,
+      "upper": 0.0
+    },
+    {
+      "regime": "sample",
+      "prior": 0.4956,
+      "policy": "risk",
+      "metric": "relative_value_gain_vs_risk",
+      "lower": 0.0,
+      "upper": 0.0
+    },
+    {
+      "regime": "sample",
+      "prior": 0.4956,
+      "policy": "sample_rv",
+      "metric": "value_recall",
+      "lower": 0.20663949670370949,
+      "upper": 0.2252224025248334
+    },
+    {
+      "regime": "sample",
+      "prior": 0.4956,
+      "policy": "sample_rv",
+      "metric": "value_difference_vs_risk",
+      "lower": 0.06303931671558993,
+      "upper": 0.08389934578143977
+    },
+    {
+      "regime": "sample",
+      "prior": 0.4956,
+      "policy": "sample_rv",
+      "metric": "relative_value_gain_vs_risk",
+      "lower": 0.433293961486717,
+      "upper": 0.6037777622415262
+    },
+    {
+      "regime": "sample",
+      "prior": 0.4956,
+      "policy": "value",
+      "metric": "value_recall",
+      "lower": 0.1669180492570717,
+      "upper": 0.1905306163377879
+    },
+    {
+      "regime": "sample",
+      "prior": 0.4956,
+      "policy": "value",
+      "metric": "value_difference_vs_risk",
+      "lower": 0.023191546747663577,
+      "upper": 0.05035461074964176
+    },
+    {
+      "regime": "sample",
+      "prior": 0.4956,
+      "policy": "value",
+      "metric": "relative_value_gain_vs_risk",
+      "lower": 0.16285639729836654,
+      "upper": 0.36491011474818846
+    }
+  ],
+  "calibration_uncertainty_intervals": {
+    "net": {
+      "lower": 3552.5968558131312,
+      "upper": 6357.866035762326
+    },
+    "net_difference_vs_risk": {
+      "lower": 1576.7712194645953,
+      "upper": 3894.263885840838
+    },
+    "value_recall": {
+      "lower": 0.29214558482093034,
+      "upper": 0.3380420582410074
+    },
+    "relative_value_gain_vs_risk": {
+      "lower": 0.09156020403837074,
+      "upper": 0.23381828555887313
+    }
+  },
+  "warning": "All deployment dollars use unverified prior shift, uniform20% prevention,6 months60% margin,$1 contact,$5k fixed. Test achieved budget differs from calibration target: report actual contact mass; posthoc quota curves/optima are diagnostics, never test-selected policy. Calibration-CV uncertainty excludes refitting base classifier and real treatment effects."
+}

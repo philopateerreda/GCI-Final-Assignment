@@ -1,0 +1,252 @@
+[
+  {
+    "slide_number": 6,
+    "filename": "operational_signals.png",
+    "source_csv": "operational_segments.csv",
+    "axis_scale": {
+      "sample_churn_percent_ticks": [
+        0,
+        10,
+        20,
+        30,
+        40,
+        50,
+        60
+      ],
+      "sample_churn_percent_limits": [
+        0,
+        65
+      ]
+    },
+    "predeclared_bin_edges": {
+      "usage_change_finite": [
+        -100,
+        0,
+        100
+      ],
+      "overage_revenue_finite": [
+        -1,
+        0,
+        5,
+        20,
+        100
+      ],
+      "customer_care_calls_finite": [
+        -1,
+        0,
+        1,
+        3
+      ]
+    },
+    "rendered_numeric_labels": [
+      "0",
+      "10",
+      "20",
+      "30",
+      "40",
+      "50",
+      "60",
+      "\u2212100",
+      "100",
+      "5",
+      "1",
+      "3"
+    ],
+    "sha256": "bbd62fdbb35b08605da5751f906b167a31b3b96219db9103d9ed4765e4df3e9d",
+    "source_sha256": "6b4cfca10126c4866a03bf5a9bb5a63a28c3a87935c917ca2fe9f8314689a00b",
+    "source_records": [
+      {
+        "dimension": "usage_change",
+        "segment": "Below \u2212100",
+        "customers": 13535,
+        "churn_rate": 0.5366826745474695,
+        "monthly_recurring": 53.1950837950962
+      },
+      {
+        "dimension": "usage_change",
+        "segment": "\u2212100 to 0",
+        "customers": 19699,
+        "churn_rate": 0.5075384537286156,
+        "monthly_recurring": 40.17264899233433
+      },
+      {
+        "dimension": "usage_change",
+        "segment": "0 to 100",
+        "customers": 14737,
+        "churn_rate": 0.4535522833683925,
+        "monthly_recurring": 42.127613829137545
+      },
+      {
+        "dimension": "usage_change",
+        "segment": "Above 100",
+        "customers": 11492,
+        "churn_rate": 0.4681517577445179,
+        "monthly_recurring": 53.7425298033432
+      },
+      {
+        "dimension": "overage_revenue",
+        "segment": null,
+        "customers": 25474,
+        "churn_rate": 0.488223286488184,
+        "monthly_recurring": 44.11141412158573
+      },
+      {
+        "dimension": "overage_revenue",
+        "segment": "0\u20135",
+        "customers": 11148,
+        "churn_rate": 0.4757804090419806,
+        "monthly_recurring": 43.53839836742259
+      },
+      {
+        "dimension": "overage_revenue",
+        "segment": "5\u201320",
+        "customers": 11147,
+        "churn_rate": 0.5029155826679824,
+        "monthly_recurring": 45.73991253251871
+      },
+      {
+        "dimension": "overage_revenue",
+        "segment": "20\u2013100",
+        "customers": 10756,
+        "churn_rate": 0.5166418743027148,
+        "monthly_recurring": 52.21038916263639
+      },
+      {
+        "dimension": "overage_revenue",
+        "segment": ">100",
+        "customers": 1262,
+        "churn_rate": 0.5475435816164818,
+        "monthly_recurring": 61.5592842049683
+      },
+      {
+        "dimension": "customer_care_calls",
+        "segment": null,
+        "customers": 33381,
+        "churn_rate": 0.5174800035948594,
+        "monthly_recurring": 41.63623616004562
+      },
+      {
+        "dimension": "customer_care_calls",
+        "segment": "0\u20131",
+        "customers": 9704,
+        "churn_rate": 0.4938169826875515,
+        "monthly_recurring": 48.08723739459308
+      },
+      {
+        "dimension": "customer_care_calls",
+        "segment": "1\u20133",
+        "customers": 7388,
+        "churn_rate": 0.4608825121819166,
+        "monthly_recurring": 51.45422903954793
+      },
+      {
+        "dimension": "customer_care_calls",
+        "segment": ">3",
+        "customers": 9527,
+        "churn_rate": 0.4477799937021098,
+        "monthly_recurring": 55.71128869047689
+      },
+      {
+        "dimension": "tenure",
+        "segment": "6\u201312 months",
+        "customers": 19354,
+        "churn_rate": 0.4695670145706314,
+        "monthly_recurring": 48.61881688466029
+      },
+      {
+        "dimension": "tenure",
+        "segment": "13\u201324 months",
+        "customers": 25795,
+        "churn_rate": 0.5174258577243652,
+        "monthly_recurring": 45.16301540621532
+      },
+      {
+        "dimension": "tenure",
+        "segment": "25\u201336 months",
+        "customers": 11464,
+        "churn_rate": 0.4971214235868806,
+        "monthly_recurring": 44.29398251964395
+      },
+      {
+        "dimension": "tenure",
+        "segment": ">36 months",
+        "customers": 3387,
+        "churn_rate": 0.4732801889577797,
+        "monthly_recurring": 45.46743971419768
+      }
+    ],
+    "scope": "Unchanged v1 chart; labels inspected against full-size PowerPoint render and frozen source tables."
+  },
+  {
+    "slide_number": 8,
+    "filename": "model_validation.png",
+    "source_csv": "test_metrics.csv",
+    "axis_scale": {
+      "probability_ticks": [
+        0.0,
+        0.2,
+        0.4,
+        0.6,
+        0.8,
+        1.0
+      ]
+    },
+    "reference_auc": 0.5,
+    "rendered_numeric_labels": [
+      "0.0",
+      "0.2",
+      "0.4",
+      "0.6",
+      "0.8",
+      "1.0",
+      "0.619",
+      "0.698",
+      "0.500"
+    ],
+    "sha256": "d8343df876f87d80a3e6bf6d041a0fc2a380867f0adbe572a418665ad8bc7543",
+    "source_sha256": "6587ffff247e33d8240bf3433a3fc7d9bd2abe1869e1ff4105baa6a6591c632a",
+    "source_records": [
+      {
+        "model": "Constant prior baseline",
+        "roc_auc": 0.5,
+        "average_precision": 0.4956666666666666,
+        "accuracy": 0.5043333333333333,
+        "precision_at_05": 0.0,
+        "recall_at_05": 0.0,
+        "log_loss": 0.693109629534617,
+        "brier": 0.2499812247222223
+      },
+      {
+        "model": "Logistic regression (60k train)",
+        "roc_auc": 0.6193292385072477,
+        "average_precision": 0.5983310411277303,
+        "accuracy": 0.586,
+        "precision_at_05": 0.5868424783779952,
+        "recall_at_05": 0.5566913248150639,
+        "log_loss": 0.6723622281111374,
+        "brier": 0.2395172105345395
+      },
+      {
+        "model": "LightGBM wider leaves raw (75k refit)",
+        "roc_auc": 0.6978109022411016,
+        "average_precision": 0.6882568171077789,
+        "accuracy": 0.6399333333333334,
+        "precision_at_05": 0.6366935483870968,
+        "recall_at_05": 0.6371217215870881,
+        "log_loss": 0.6280562533817082,
+        "brier": 0.2195041262762683
+      },
+      {
+        "model": "LightGBM wider leaves calibrated (75k refit)",
+        "roc_auc": 0.6978109022411016,
+        "average_precision": 0.6882568171077789,
+        "accuracy": 0.6402,
+        "precision_at_05": 0.6357580602184919,
+        "recall_at_05": 0.6418291862811029,
+        "log_loss": 0.6278974402506128,
+        "brier": 0.2194628194179078
+      }
+    ],
+    "scope": "Unchanged v1 chart; labels inspected against full-size PowerPoint render and frozen source tables."
+  }
+]

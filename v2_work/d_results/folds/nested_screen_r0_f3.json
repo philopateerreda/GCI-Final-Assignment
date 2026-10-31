@@ -1,0 +1,73 @@
+{
+  "outer_repeat": 0,
+  "outer_fold": 3,
+  "selection_population": "outer development only",
+  "development_n": 48000,
+  "selected_groups": [
+    "g3_billing_gaps",
+    "g4_call_care",
+    "g5_equipment_cycle"
+  ],
+  "records": [
+    {
+      "group": "g1_temporal",
+      "inner_paired_auc_mean": -0.00029349122042154896,
+      "inner_paired_auc_differences": [
+        -0.00010596123765715948,
+        -0.0013529160826376563,
+        0.0005784036590301689
+      ],
+      "keep": false,
+      "reason": "non-positive inner paired AUC"
+    },
+    {
+      "group": "g3_billing_gaps",
+      "inner_paired_auc_mean": 1.918376042335061e-05,
+      "inner_paired_auc_differences": [
+        0.001173074188492662,
+        -0.0015002711145073455,
+        0.00038474820728473524
+      ],
+      "keep": true,
+      "reason": "positive inner paired AUC"
+    },
+    {
+      "group": "g4_call_care",
+      "inner_paired_auc_mean": 0.00024292484893380836,
+      "inner_paired_auc_differences": [
+        0.00013394775537511894,
+        -0.0008650349792406198,
+        0.001459861770666926
+      ],
+      "keep": true,
+      "reason": "positive inner paired AUC"
+    },
+    {
+      "group": "g5_equipment_cycle",
+      "inner_paired_auc_mean": 0.00045217003593504373,
+      "inner_paired_auc_differences": [
+        0.000346151502224501,
+        -0.0004539253786619568,
+        0.001464283984242587
+      ],
+      "keep": true,
+      "reason": "positive inner paired AUC"
+    },
+    {
+      "group": "g6_tenure_pricing",
+      "inner_paired_auc_mean": -0.0006534041929250703,
+      "inner_paired_auc_differences": [
+        -0.0007719184750081265,
+        -0.000408671913943337,
+        -0.0007796221898237476
+      ],
+      "keep": false,
+      "reason": "non-positive inner paired AUC"
+    },
+    {
+      "group": "g2_range",
+      "keep": false,
+      "reason": "Neither supplied CSV contains _Range columns; totmrc_Range, ovrrev_Range, mou_Range cannot be tested. No invented fields or reconstructed volatility."
+    }
+  ]
+}
