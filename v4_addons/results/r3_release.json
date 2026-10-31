@@ -1,0 +1,290 @@
+{
+  "base": "e8f6520",
+  "branch": "release/v4",
+  "clone": {
+    "bytes": 32602884,
+    "commits": 8,
+    "files": 786,
+    "path": "local temp directory outside the project",
+    "telecom": 0
+  },
+  "commits": [
+    {
+      "commit": "9077624",
+      "files": 46,
+      "subject": "chore(v4): add provenance tooling and boundary checks"
+    },
+    {
+      "commit": "ebe942a",
+      "files": 8,
+      "subject": "docs(v3): refresh status text and manifest after WP8"
+    },
+    {
+      "commit": "6a7a786",
+      "files": 5,
+      "subject": "docs(v4): add yardstick reconciling pilot sizes and profit"
+    },
+    {
+      "commit": "7b1d635",
+      "files": 20,
+      "subject": "docs(v4): add ledger dry-run and integration proposal v4"
+    },
+    {
+      "commit": "60f85dd",
+      "files": 21,
+      "subject": "docs(v4): add reproducibility supplement and monitor wrap-up"
+    },
+    {
+      "commit": "2569954",
+      "files": 31,
+      "subject": "docs(v4): record regeneration check and close model track at M1"
+    },
+    {
+      "commit": "788ece6",
+      "files": 1,
+      "subject": "docs: rewrite README for v4"
+    },
+    {
+      "commit": "4fa266e",
+      "files": 33,
+      "subject": "chore(release): add v4 release receipt and hashes"
+    }
+  ],
+  "ignored": {
+    "buckets": {
+      ".pre_v4 backups": 2,
+      "caches and regenerable intermediates": 4088,
+      "internal readiness docs": 4,
+      "per-row v2 artifacts": 2,
+      "release_candidate copies": 6,
+      "snapshots": 2,
+      "telecom raw data": 2,
+      "third-party sources": 6,
+      "v1_frozen": 68
+    },
+    "bytes": 542863590,
+    "files": 4180
+  },
+  "numbers": {
+    "acknowledged_discrepancies": {
+      "computed": true,
+      "inputs": [],
+      "note": "acknowledged discrepancies (SE convention, D0)",
+      "sha256_of_source": null,
+      "source_file": null,
+      "source_key": null,
+      "tag": "[E]",
+      "value": 1
+    },
+    "bound_numbers": {
+      "computed": true,
+      "inputs": [],
+      "note": "numbers checked by check_numbers in the build environment",
+      "sha256_of_source": null,
+      "source_file": null,
+      "source_key": null,
+      "tag": "[E]",
+      "value": 1097
+    },
+    "cache_files": {
+      "computed": true,
+      "inputs": [],
+      "note": "regenerable caches and intermediates among the ignored files",
+      "sha256_of_source": null,
+      "source_file": null,
+      "source_key": null,
+      "tag": "[E]",
+      "value": 4088
+    },
+    "clone_missing_sources": {
+      "computed": true,
+      "inputs": [],
+      "note": "bindings whose source is gitignored: v1_frozen (11), two per-row split CSVs, one copyrighted source text (2)",
+      "sha256_of_source": null,
+      "source_file": null,
+      "source_key": null,
+      "tag": "[E]",
+      "value": 15
+    },
+    "commit_count": {
+      "computed": true,
+      "inputs": [],
+      "note": "commits on release/v4 before this report commit",
+      "sha256_of_source": null,
+      "source_file": null,
+      "source_key": null,
+      "tag": "[E]",
+      "value": 8
+    },
+    "deliverable_count": {
+      "formula": "4",
+      "inputs": [],
+      "note": "frozen deliverables checked against the receipt",
+      "sha256_of_source": null,
+      "source_file": null,
+      "source_key": null,
+      "tag": "[R]",
+      "value": 4
+    },
+    "ignored_bytes": {
+      "computed": true,
+      "inputs": [],
+      "note": "bytes of ignored files, none committed",
+      "sha256_of_source": null,
+      "source_file": null,
+      "source_key": null,
+      "tag": "[E]",
+      "value": 542863590
+    },
+    "ignored_files": {
+      "computed": true,
+      "inputs": [],
+      "note": "ignored files in the work tree, none committed",
+      "sha256_of_source": null,
+      "source_file": null,
+      "source_key": null,
+      "tag": "[E]",
+      "value": 4180
+    },
+    "ledger_rows": {
+      "sha256_of_source": "97a3c93fbfd1b534b714c6f7b5fb57fa6f364ee11ac2fd0a3a514ae6a6c60e20",
+      "source_encoding": "utf-8",
+      "source_file": "v4_addons/results/f3_fallback.json",
+      "source_key": "numbers.ledger_rows.value",
+      "tag": "[E]",
+      "value": 278
+    },
+    "readme_distinct": {
+      "computed": true,
+      "inputs": [],
+      "note": "distinct numeric tokens in the README",
+      "sha256_of_source": "341ed4b36538dab66a6ce33eec16168032e5639244187299e87de18911d33301",
+      "source_file": "v4_addons/results/readme_bound.json",
+      "source_key": "tokens_distinct",
+      "tag": "[E]",
+      "value": 105
+    },
+    "readme_paths": {
+      "computed": true,
+      "inputs": [],
+      "note": "relative README paths resolved against the git index",
+      "sha256_of_source": null,
+      "source_file": null,
+      "source_key": null,
+      "tag": "[E]",
+      "value": 24
+    },
+    "readme_tokens": {
+      "computed": true,
+      "inputs": [],
+      "note": "numeric tokens rendered from the README",
+      "sha256_of_source": "341ed4b36538dab66a6ce33eec16168032e5639244187299e87de18911d33301",
+      "source_file": "v4_addons/results/readme_bound.json",
+      "source_key": "tokens_total",
+      "tag": "[E]",
+      "value": 149
+    },
+    "tree_bytes": {
+      "computed": true,
+      "inputs": [],
+      "note": "bytes in the release tree verified in the clean clone",
+      "sha256_of_source": null,
+      "source_file": null,
+      "source_key": null,
+      "tag": "[E]",
+      "value": 32602884
+    },
+    "tree_files": {
+      "computed": true,
+      "inputs": [],
+      "note": "files in the release tree verified in the clean clone",
+      "sha256_of_source": null,
+      "source_file": null,
+      "source_key": null,
+      "tag": "[E]",
+      "value": 786
+    }
+  },
+  "numbers_check": "check_numbers: 1097 bound numbers checked; 0 problems; 1 acknowledged discrepancies",
+  "provenance": {
+    "created_utc": "2026-10-31T11:18:32.461968+00:00",
+    "input_files": [
+      {
+        "path": "README.md",
+        "present": true,
+        "sha256": "fce1e3c3604ad455544319c73217bd82e59817abff595be119848ecc3e00a36c",
+        "size": 9888
+      },
+      {
+        "path": "v4_addons/RELEASE_RECEIPT.md",
+        "present": true,
+        "sha256": "6a9daf78ff741a1845b146be55079c50bbed84e31753bae89286f87e08492600",
+        "size": 3588
+      },
+      {
+        "path": "v4_addons/results/f3_fallback.json",
+        "present": true,
+        "sha256": "97a3c93fbfd1b534b714c6f7b5fb57fa6f364ee11ac2fd0a3a514ae6a6c60e20",
+        "size": 11971
+      },
+      {
+        "path": "v4_addons/results/readme_bound.json",
+        "present": true,
+        "sha256": "341ed4b36538dab66a6ce33eec16168032e5639244187299e87de18911d33301",
+        "size": 44468
+      }
+    ],
+    "python_version": "3.11.9 (tags/v3.11.9:de54cf5, Apr  2 2024, 10:12:12) [MSC v.1938 64 bit (AMD64)]",
+    "row_counts": {
+      "commits": 8,
+      "files": 786
+    },
+    "runtime": {
+      "env": {
+        "MKL_NUM_THREADS": "6",
+        "NUMEXPR_NUM_THREADS": "6",
+        "OMP_NUM_THREADS": "6",
+        "OPENBLAS_NUM_THREADS": "6"
+      },
+      "function_sha256": "77f490da30fa85a8826efca565835a7127fa2d629110a92afe8b0a497a437bca",
+      "pools": [
+        {
+          "architecture": "Haswell",
+          "filepath": "C:\\Users\\FGstore\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\numpy.libs\\libscipy_openblas64_-860d95b1c38e637ce4509f5fa24fbf2a.dll",
+          "internal_api": "openblas",
+          "num_threads": 6,
+          "prefix": "libscipy_openblas",
+          "threading_layer": "pthreads",
+          "user_api": "blas",
+          "version": "0.3.30"
+        },
+        {
+          "architecture": "Haswell",
+          "filepath": "C:\\Users\\FGstore\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\scipy.libs\\libscipy_openblas-64eda39e79589aedb16f58e5547eb599.dll",
+          "internal_api": "openblas",
+          "num_threads": 6,
+          "prefix": "libscipy_openblas",
+          "threading_layer": "pthreads",
+          "user_api": "blas",
+          "version": "0.3.30"
+        }
+      ],
+      "source": "v3_addons/src/common.py",
+      "thread_cap": 6
+    },
+    "script": "v4_addons/tools/r3_release.py",
+    "script_sha256": "55572830fa8a68f504dfaca58569de062181f30386fccce30af5bcd5cb93d4fd",
+    "seed": 20261056,
+    "tags_used": [
+      "[E]",
+      "[A]",
+      "[R]"
+    ]
+  },
+  "readme_check": "check_readme check: PASS; tokens=149; distinct=105; bound=105; paths=24",
+  "tag": "v4.0.0",
+  "tree": {
+    "bytes": 32602884,
+    "files": 786
+  }
+}

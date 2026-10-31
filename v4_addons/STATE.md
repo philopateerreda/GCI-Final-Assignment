@@ -1,8 +1,8 @@
 # v4 STATE
 
-**Project status:** READY_FOR_CEO_FALLBACK_A
+**Project status:** RELEASED_FALLBACK_A_v4.0.0
 
-_Last update (UTC): 2026-10-31T10:54:13.360536+00:00_
+_Last update (UTC): 2026-10-31T11:19:18.758461+00:00_
 
 | Card | Status | Date | Report | Next gate | Note |
 |---|---|---|---|---|---|
@@ -31,12 +31,16 @@ _Last update (UTC): 2026-10-31T10:54:13.360536+00:00_
 | F5 | COMPLETED_ACCEPTED | 2026-10-31 | reports/F5_report.md | none; F6 disclosure report | CEO_BRIEF (450 words) + CEO_QA (260 words); all 10/10 expected rows match; no PDF (no LaTeX toolchain); fallback A wording |
 | F6 | COMPLETED_ACCEPTED | 2026-10-31 | DISCLOSURE_CHECK.md | none; F7 release package | references.txt untouched (SHA and size match D0); disclosure quoted verbatim; HBS 403/200, Columbia 200; no URL invented |
 | F7 | COMPLETED_ACCEPTED | 2026-10-31 | RELEASE_RECEIPT.md | CEO review 10-20 Nov; account holder upload by 28 Nov 2026, 11:30 UTC | release_candidate: 6 read-only copies verified; receipt and 5-line checklist written; STATE READY_FOR_CEO_FALLBACK_A |
+| R0 | COMPLETED_ACCEPTED | 2026-10-31 | reports/R0_release_preflight.md |  | preconditions pass; boundary clean; 5 of 5 receipt hashes match; 0 files over 5 MB |
+| R1 | COMPLETED_ACCEPTED | 2026-10-31 | reports/R1_prepush_checks.md |  | 0 secrets; 0 provider columns in derived CSVs; 0 local paths; README 149 tokens bound; 0 EOL mismatches |
+| R3 | COMPLETED_ACCEPTED | 2026-10-31 | reports/R3_release_report.md |  | tag v4.0.0; release/v4 verified in a clean clone; 15 local-only bindings disclosed |
 
 ## Authorization record
 
 - **2026-10-31, account holder (philopateer), quoted verbatim:** "I don't want to take decisions, just tell him what you see is the smartest move."
 - This sentence is the account holder's authorization for the two gate files `v4_addons/gates/H0_DECISIONS.md` and `v4_addons/gates/H3_OPTION.txt` (v4 Closeout Directive, section 0; G6 amended for exactly these two files). If the account holder later creates, edits or deletes any gate file, their file wins.
 - `H1_APPROVED.txt` and `H2_APPROVED.txt` were not created; Track M stays killed. H4 (upload and submission) is never the agent's step.
+- **2026-10-31, account holder (philopateer):** asked for the v4 work to be pushed with commits and a better README, and delegated the release decisions to the orchestrator ("I don't want to take decisions, just tell him what you see is the smartest move."). This is the authorization for the v4 release directive, including its section-0 amendment to G1 for `README.md`, `.gitignore`, the release receipt, commits, one branch and one tag. If the account holder later changes any gate file or the repository, their action wins.
 
 ## Log
 
@@ -78,3 +82,7 @@ _Last update (UTC): 2026-10-31T10:54:13.360536+00:00_
 - 2026-10-31T10:49:44.264669+00:00 F5 -> COMPLETED_ACCEPTED (CEO_BRIEF (450 words) + CEO_QA (260 words); all 10/10 expected rows match; no PDF (no LaTeX toolchain); fallback A wording)
 - 2026-10-31T10:51:59.172874+00:00 F6 -> COMPLETED_ACCEPTED (references.txt untouched (SHA and size match D0); disclosure quoted verbatim; HBS 403/200, Columbia 200; no URL invented)
 - 2026-10-31T10:54:13.359311+00:00 F7 -> COMPLETED_ACCEPTED (release_candidate: 6 read-only copies verified; receipt and 5-line checklist written; STATE READY_FOR_CEO_FALLBACK_A)
+- 2026-10-31T11:19:18.758461+00:00 R0 -> COMPLETED_ACCEPTED (preconditions pass; boundary clean; 5 of 5 receipt hashes match; 0 files over 5 MB)
+- 2026-10-31T11:19:18.758461+00:00 R1 -> COMPLETED_ACCEPTED (0 secrets; 0 provider columns in derived CSVs; 0 local paths; README 149 tokens bound; 0 EOL mismatches)
+- 2026-10-31T11:19:18.758461+00:00 R3 -> COMPLETED_ACCEPTED (tag v4.0.0; release/v4 verified in a clean clone; 15 local-only bindings disclosed)
+- 2026-10-31T11:19:18.758461+00:00 release -> RELEASED_FALLBACK_A_v4.0.0 (branch release/v4; annotated tag v4.0.0; clean-clone verification passed)

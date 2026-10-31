@@ -1,0 +1,103 @@
+{
+  "report": "v4_addons/reports/R3_release_report.md",
+  "report_sha256": "352a05966a61753b4adf2924af8b71d1d908bf5fd188856fae5541942ecfafd4",
+  "results_json": "v4_addons/results/r3_release.json",
+  "tokens": [
+    {
+      "token": "8",
+      "name": "commit_count",
+      "spec": "int",
+      "value": 8
+    },
+    {
+      "token": "4",
+      "name": "deliverable_count",
+      "spec": "int",
+      "value": 4
+    },
+    {
+      "token": "4",
+      "name": "deliverable_count",
+      "spec": "int",
+      "value": 4
+    },
+    {
+      "token": "278",
+      "name": "ledger_rows",
+      "spec": "int",
+      "value": 278
+    },
+    {
+      "token": "149",
+      "name": "readme_tokens",
+      "spec": "int",
+      "value": 149
+    },
+    {
+      "token": "105",
+      "name": "readme_distinct",
+      "spec": "int",
+      "value": 105
+    },
+    {
+      "token": "24",
+      "name": "readme_paths",
+      "spec": "int",
+      "value": 24
+    },
+    {
+      "token": "8",
+      "name": "commit_count",
+      "spec": "int",
+      "value": 8
+    },
+    {
+      "token": "786",
+      "name": "tree_files",
+      "spec": "int",
+      "value": 786
+    },
+    {
+      "token": "32,602,884",
+      "name": "tree_bytes",
+      "spec": "int",
+      "value": 32602884
+    },
+    {
+      "token": "15",
+      "name": "clone_missing_sources",
+      "spec": "int",
+      "value": 15
+    },
+    {
+      "token": "1",
+      "name": "acknowledged_discrepancies",
+      "spec": "int",
+      "value": 1
+    },
+    {
+      "token": "15",
+      "name": "clone_missing_sources",
+      "spec": "int",
+      "value": 15
+    },
+    {
+      "token": "4,180",
+      "name": "ignored_files",
+      "spec": "int",
+      "value": 4180
+    },
+    {
+      "token": "542,863,590",
+      "name": "ignored_bytes",
+      "spec": "int",
+      "value": 542863590
+    },
+    {
+      "token": "4,088",
+      "name": "cache_files",
+      "spec": "int",
+      "value": 4088
+    }
+  ]
+}
