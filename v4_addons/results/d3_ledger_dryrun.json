@@ -1,0 +1,352 @@
+{
+  "claim_id_convention": "C0001 = first data row; CSV line = data-row index + 2 (header is line 1)",
+  "numbers": {
+    "existing_rows_rerender_mismatch": {
+      "computed": true,
+      "inputs": [],
+      "note": "existing rows that do not re-render (chart-axis or textual formats)",
+      "sha256_of_source": "b4dce03b43f6bd1b9ef3142759e0cb88682527af2f9f8824902521d88729c5b4",
+      "source_file": "analysis_outputs/claims_ledger.csv",
+      "source_key": "all rows",
+      "tag": "[E]",
+      "value": 3
+    },
+    "existing_rows_rerender_ok": {
+      "computed": true,
+      "inputs": [],
+      "note": "existing rows whose displayed_text re-renders from formatter/scale/exact_value",
+      "sha256_of_source": "b4dce03b43f6bd1b9ef3142759e0cb88682527af2f9f8824902521d88729c5b4",
+      "source_file": "analysis_outputs/claims_ledger.csv",
+      "source_key": "all rows",
+      "tag": "[E]",
+      "value": 275
+    },
+    "ledger_rows_original": {
+      "sha256_of_source": "b4dce03b43f6bd1b9ef3142759e0cb88682527af2f9f8824902521d88729c5b4",
+      "source_file": "analysis_outputs/claims_ledger.csv",
+      "source_key": "rowcount",
+      "tag": "[E]",
+      "value": 278
+    },
+    "rows_added_A": {
+      "computed": true,
+      "inputs": [],
+      "note": "rows added for option A",
+      "sha256_of_source": "1b2e8dfaea6a92bb1e174162e0d7ab5d53502cd42cf40fb8533a676a71c911ea",
+      "source_file": "v4_addons/results/integration_spec.json",
+      "source_key": "spec.options.A.edits[*].add",
+      "tag": "[E]",
+      "value": 0
+    },
+    "rows_added_B_PRIME": {
+      "computed": true,
+      "inputs": [],
+      "note": "rows added for option B_PRIME",
+      "sha256_of_source": "1b2e8dfaea6a92bb1e174162e0d7ab5d53502cd42cf40fb8533a676a71c911ea",
+      "source_file": "v4_addons/results/integration_spec.json",
+      "source_key": "spec.options.B_PRIME.edits[*].add",
+      "tag": "[E]",
+      "value": 18
+    },
+    "rows_added_C": {
+      "computed": true,
+      "inputs": [],
+      "note": "rows added for option C",
+      "sha256_of_source": "1b2e8dfaea6a92bb1e174162e0d7ab5d53502cd42cf40fb8533a676a71c911ea",
+      "source_file": "v4_addons/results/integration_spec.json",
+      "source_key": "spec.options.C.edits[*].add",
+      "tag": "[E]",
+      "value": 25
+    },
+    "rows_added_R": {
+      "computed": true,
+      "inputs": [],
+      "note": "rows added for option R",
+      "sha256_of_source": "1b2e8dfaea6a92bb1e174162e0d7ab5d53502cd42cf40fb8533a676a71c911ea",
+      "source_file": "v4_addons/results/integration_spec.json",
+      "source_key": "spec.options.R.edits[*].add",
+      "tag": "[E]",
+      "value": 18
+    },
+    "rows_retired_A": {
+      "computed": true,
+      "inputs": [],
+      "note": "rows retired for option A",
+      "sha256_of_source": "1b2e8dfaea6a92bb1e174162e0d7ab5d53502cd42cf40fb8533a676a71c911ea",
+      "source_file": "v4_addons/results/integration_spec.json",
+      "source_key": "spec.options.A.edits[*].retire",
+      "tag": "[E]",
+      "value": 0
+    },
+    "rows_retired_B_PRIME": {
+      "computed": true,
+      "inputs": [],
+      "note": "rows retired for option B_PRIME",
+      "sha256_of_source": "1b2e8dfaea6a92bb1e174162e0d7ab5d53502cd42cf40fb8533a676a71c911ea",
+      "source_file": "v4_addons/results/integration_spec.json",
+      "source_key": "spec.options.B_PRIME.edits[*].retire",
+      "tag": "[E]",
+      "value": 0
+    },
+    "rows_retired_C": {
+      "computed": true,
+      "inputs": [],
+      "note": "rows retired for option C",
+      "sha256_of_source": "1b2e8dfaea6a92bb1e174162e0d7ab5d53502cd42cf40fb8533a676a71c911ea",
+      "source_file": "v4_addons/results/integration_spec.json",
+      "source_key": "spec.options.C.edits[*].retire",
+      "tag": "[E]",
+      "value": 0
+    },
+    "rows_retired_R": {
+      "computed": true,
+      "inputs": [],
+      "note": "rows retired for option R",
+      "sha256_of_source": "1b2e8dfaea6a92bb1e174162e0d7ab5d53502cd42cf40fb8533a676a71c911ea",
+      "source_file": "v4_addons/results/integration_spec.json",
+      "source_key": "spec.options.R.edits[*].retire",
+      "tag": "[E]",
+      "value": 0
+    },
+    "rows_total_A": {
+      "formula": "ledger_rows_original - rows_retired_A + rows_added_A",
+      "inputs": [
+        "ledger_rows_original",
+        "rows_added_A",
+        "rows_retired_A"
+      ],
+      "sha256_of_source": null,
+      "source_file": null,
+      "source_key": null,
+      "tag": "[E]",
+      "value": 278
+    },
+    "rows_total_B_PRIME": {
+      "formula": "ledger_rows_original - rows_retired_B_PRIME + rows_added_B_PRIME",
+      "inputs": [
+        "ledger_rows_original",
+        "rows_added_B_PRIME",
+        "rows_retired_B_PRIME"
+      ],
+      "sha256_of_source": null,
+      "source_file": null,
+      "source_key": null,
+      "tag": "[E]",
+      "value": 296
+    },
+    "rows_total_C": {
+      "formula": "ledger_rows_original - rows_retired_C + rows_added_C",
+      "inputs": [
+        "ledger_rows_original",
+        "rows_added_C",
+        "rows_retired_C"
+      ],
+      "sha256_of_source": null,
+      "source_file": null,
+      "source_key": null,
+      "tag": "[E]",
+      "value": 303
+    },
+    "rows_total_R": {
+      "formula": "ledger_rows_original - rows_retired_R + rows_added_R",
+      "inputs": [
+        "ledger_rows_original",
+        "rows_added_R",
+        "rows_retired_R"
+      ],
+      "sha256_of_source": null,
+      "source_file": null,
+      "source_key": null,
+      "tag": "[E]",
+      "value": 296
+    }
+  },
+  "option_A_reproduces_original": true,
+  "options": {
+    "A": {
+      "added_tokens": [],
+      "file": "v4_addons/ledger_dryrun/claims_ledger_A.csv",
+      "option": "A",
+      "retired": [],
+      "rows_added": 0,
+      "rows_original": 278,
+      "rows_retired": 0,
+      "rows_total": 278,
+      "sha256": "b4dce03b43f6bd1b9ef3142759e0cb88682527af2f9f8824902521d88729c5b4",
+      "slides_touched": []
+    },
+    "B_PRIME": {
+      "added_tokens": [
+        "6",
+        "24",
+        "\u22126.2k",
+        "1.1",
+        "90%",
+        "76.0%",
+        "25.4%",
+        "5,000",
+        "55.6%",
+        "17.9%",
+        "10,000",
+        "158,000",
+        "20%",
+        "7.6%",
+        "91.9%",
+        "0.5%",
+        "6.8",
+        "4.0"
+      ],
+      "file": "v4_addons/ledger_dryrun/claims_ledger_B_PRIME.csv",
+      "option": "B_PRIME",
+      "retired": [],
+      "rows_added": 18,
+      "rows_original": 278,
+      "rows_retired": 0,
+      "rows_total": 296,
+      "sha256": "759383e8033c3f9b29974ffde6ba1e519f65f89a0417625c7cc4d92ae2e3583d",
+      "slides_touched": [
+        11,
+        13
+      ]
+    },
+    "C": {
+      "added_tokens": [
+        "6",
+        "24",
+        "\u22126.2k",
+        "1.1",
+        "90%",
+        "76.0%",
+        "25.4%",
+        "5,000",
+        "55.6%",
+        "17.9%",
+        "10,000",
+        "158,000",
+        "20%",
+        "7.6%",
+        "91.9%",
+        "0.5%",
+        "6.8",
+        "4.0",
+        "17%",
+        "93%",
+        "69%",
+        "6",
+        "24",
+        "6",
+        "14"
+      ],
+      "file": "v4_addons/ledger_dryrun/claims_ledger_C.csv",
+      "option": "C",
+      "retired": [],
+      "rows_added": 25,
+      "rows_original": 278,
+      "rows_retired": 0,
+      "rows_total": 303,
+      "sha256": "d9b8884a5bf3f2185e0dc4c658a8b8bf39d3d231487879925ae38c23c23e2ae8",
+      "slides_touched": [
+        5,
+        11,
+        12,
+        13,
+        15
+      ]
+    },
+    "R": {
+      "added_tokens": [
+        "6",
+        "24",
+        "\u22126.2k",
+        "1.1",
+        "90%",
+        "76.0%",
+        "25.4%",
+        "5,000",
+        "55.6%",
+        "17.9%",
+        "10,000",
+        "158,000",
+        "20%",
+        "7.6%",
+        "91.9%",
+        "0.5%",
+        "6.8",
+        "4.0"
+      ],
+      "file": "v4_addons/ledger_dryrun/claims_ledger_R.csv",
+      "option": "R",
+      "retired": [],
+      "rows_added": 18,
+      "rows_original": 278,
+      "rows_retired": 0,
+      "rows_total": 296,
+      "sha256": "759383e8033c3f9b29974ffde6ba1e519f65f89a0417625c7cc4d92ae2e3583d",
+      "slides_touched": [
+        11,
+        13
+      ]
+    }
+  },
+  "original_sha256": "b4dce03b43f6bd1b9ef3142759e0cb88682527af2f9f8824902521d88729c5b4",
+  "provenance": {
+    "created_utc": "2026-10-31T08:45:55.065366+00:00",
+    "input_files": [
+      {
+        "path": "analysis_outputs/claims_ledger.csv",
+        "present": true,
+        "sha256": "b4dce03b43f6bd1b9ef3142759e0cb88682527af2f9f8824902521d88729c5b4",
+        "size": 33168
+      },
+      {
+        "path": "v4_addons/results/integration_spec.json",
+        "present": true,
+        "sha256": "1b2e8dfaea6a92bb1e174162e0d7ab5d53502cd42cf40fb8533a676a71c911ea",
+        "size": 47490
+      }
+    ],
+    "python_version": "3.11.9 (tags/v3.11.9:de54cf5, Apr  2 2024, 10:12:12) [MSC v.1938 64 bit (AMD64)]",
+    "row_counts": {},
+    "runtime": {
+      "env": {
+        "MKL_NUM_THREADS": "6",
+        "NUMEXPR_NUM_THREADS": "6",
+        "OMP_NUM_THREADS": "6",
+        "OPENBLAS_NUM_THREADS": "6"
+      },
+      "function_sha256": "77f490da30fa85a8826efca565835a7127fa2d629110a92afe8b0a497a437bca",
+      "pools": [
+        {
+          "architecture": "Haswell",
+          "filepath": "C:\\Users\\FGstore\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\numpy.libs\\libscipy_openblas64_-860d95b1c38e637ce4509f5fa24fbf2a.dll",
+          "internal_api": "openblas",
+          "num_threads": 6,
+          "prefix": "libscipy_openblas",
+          "threading_layer": "pthreads",
+          "user_api": "blas",
+          "version": "0.3.30"
+        },
+        {
+          "architecture": "Haswell",
+          "filepath": "C:\\Users\\FGstore\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\scipy.libs\\libscipy_openblas-64eda39e79589aedb16f58e5547eb599.dll",
+          "internal_api": "openblas",
+          "num_threads": 6,
+          "prefix": "libscipy_openblas",
+          "threading_layer": "pthreads",
+          "user_api": "blas",
+          "version": "0.3.30"
+        }
+      ],
+      "source": "v3_addons/src/common.py",
+      "thread_cap": 6
+    },
+    "script": "v4_addons/tools/d3_ledger_dryrun.py",
+    "script_sha256": "9f5bc3656ade198882815904754f56ed81b2a58659aa573ff1ec67675e130fde",
+    "seed": 20261032,
+    "tags_used": [
+      "[E]",
+      "[A]",
+      "[R]"
+    ]
+  }
+}

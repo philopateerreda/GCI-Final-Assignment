@@ -1,0 +1,127 @@
+{
+  "report": "v4_addons/reports/D4_report.md",
+  "report_sha256": "661361b2d1d7cc4dd95303494ac1a2b125ee3d7a2f72b2269c6443f4577433df",
+  "results_json": "v4_addons/results/d4_proposal.json",
+  "tokens": [
+    {
+      "token": "278",
+      "name": "rows_total_A",
+      "spec": "int",
+      "value": 278
+    },
+    {
+      "token": "296",
+      "name": "rows_total_B_PRIME",
+      "spec": "int",
+      "value": 296
+    },
+    {
+      "token": "303",
+      "name": "rows_total_C",
+      "spec": "int",
+      "value": 303
+    },
+    {
+      "token": "296",
+      "name": "rows_total_R",
+      "spec": "int",
+      "value": 296
+    },
+    {
+      "token": "48.3",
+      "name": "len_delta_pct_slide11",
+      "spec": "f1",
+      "value": 48.34437086092715
+    },
+    {
+      "token": "260.7",
+      "name": "len_delta_pct_slide13",
+      "spec": "f1",
+      "value": 260.73059360730593
+    },
+    {
+      "token": "42.7",
+      "name": "len_delta_pct_slide12",
+      "spec": "f1",
+      "value": 42.666666666666664
+    },
+    {
+      "token": "41.6",
+      "name": "len_delta_pct_slide5",
+      "spec": "f1",
+      "value": 41.5929203539823
+    },
+    {
+      "token": "8.4",
+      "name": "len_delta_pct_slide15",
+      "spec": "f1",
+      "value": 8.426966292134832
+    },
+    {
+      "token": "1.0",
+      "name": "days_B_PRIME",
+      "spec": "f1",
+      "value": 1.0
+    },
+    {
+      "token": "1.5",
+      "name": "days_C",
+      "spec": "f1",
+      "value": 1.5
+    },
+    {
+      "token": "4.0",
+      "name": "days_R",
+      "spec": "f1",
+      "value": 4.0
+    },
+    {
+      "token": "1.1",
+      "name": "deff_default",
+      "spec": "f1",
+      "value": 1.1
+    },
+    {
+      "token": "1.1",
+      "name": "deff_default",
+      "spec": "f1",
+      "value": 1.1
+    },
+    {
+      "token": "15%",
+      "name": "length_flag_threshold_pct",
+      "spec": "pc0",
+      "value": 15
+    },
+    {
+      "token": "48.3%",
+      "name": "len_delta_pct_slide11",
+      "spec": "pc1",
+      "value": 48.34437086092715
+    },
+    {
+      "token": "260.7%",
+      "name": "len_delta_pct_slide13",
+      "spec": "pc1",
+      "value": 260.73059360730593
+    },
+    {
+      "token": "42.7%",
+      "name": "len_delta_pct_slide12",
+      "spec": "pc1",
+      "value": 42.666666666666664
+    },
+    {
+      "token": "41.6%",
+      "name": "len_delta_pct_slide5",
+      "spec": "pc1",
+      "value": 41.5929203539823
+    },
+    {
+      "token": "8.4%",
+      "name": "len_delta_pct_slide15",
+      "spec": "pc1",
+      "value": 8.426966292134832
+    }
+  ]
+}

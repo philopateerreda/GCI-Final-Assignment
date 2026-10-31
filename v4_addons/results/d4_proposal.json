@@ -1,0 +1,480 @@
+{
+  "numbers": {
+    "binary_enrolled_per_arm": {
+      "sha256_of_source": "0104de65780d83c0c5b8be9a3d842c50e8f99e12745ea9c1e5b8296eafd776cc",
+      "source_file": "v4_addons/results/yardstick.json",
+      "source_key": "numbers.binary_enrolled_per_arm.value",
+      "tag": "[E]",
+      "value": 7872
+    },
+    "binary_relative_prevention_assumption": {
+      "sha256_of_source": "0104de65780d83c0c5b8be9a3d842c50e8f99e12745ea9c1e5b8296eafd776cc",
+      "source_file": "v4_addons/results/yardstick.json",
+      "source_key": "numbers.binary_relative_prevention_assumption.value",
+      "tag": "[A]",
+      "value": 0.2
+    },
+    "days_A": {
+      "formula": "0",
+      "inputs": [],
+      "note": "effort estimate, option A",
+      "sha256_of_source": null,
+      "source_file": null,
+      "source_key": null,
+      "tag": "[A]",
+      "value": 0
+    },
+    "days_B_PRIME": {
+      "formula": "1.0",
+      "inputs": [],
+      "note": "effort estimate: one slide-edit QA cycle (export, geometry, renders, receipt, hashes) per brief section 7",
+      "sha256_of_source": null,
+      "source_file": null,
+      "source_key": null,
+      "tag": "[A]",
+      "value": 1.0
+    },
+    "days_C": {
+      "formula": "1.5",
+      "inputs": [],
+      "note": "effort estimate: B' plus footer/reference-page typography and M9 append",
+      "sha256_of_source": null,
+      "source_file": null,
+      "source_key": null,
+      "tag": "[A]",
+      "value": 1.5
+    },
+    "days_R": {
+      "formula": "4.0",
+      "inputs": [],
+      "note": "effort estimate: M6 regeneration (<= 3 days) plus one integration QA cycle",
+      "sha256_of_source": null,
+      "source_file": null,
+      "source_key": null,
+      "tag": "[A]",
+      "value": 4.0
+    },
+    "deff_default": {
+      "sha256_of_source": "0104de65780d83c0c5b8be9a3d842c50e8f99e12745ea9c1e5b8296eafd776cc",
+      "source_file": "v4_addons/results/yardstick.json",
+      "source_key": "numbers.deff_default.value",
+      "tag": "[A]",
+      "value": 1.1
+    },
+    "dq_7872_g20_p_extend": {
+      "sha256_of_source": "0104de65780d83c0c5b8be9a3d842c50e8f99e12745ea9c1e5b8296eafd776cc",
+      "source_file": "v4_addons/results/yardstick.json",
+      "source_key": "numbers.dq_7872_g20_p_extend.value",
+      "tag": "[E]",
+      "value": 0.919
+    },
+    "e4_effect_power_5000_deff1p1": {
+      "sha256_of_source": "0104de65780d83c0c5b8be9a3d842c50e8f99e12745ea9c1e5b8296eafd776cc",
+      "source_file": "v4_addons/results/yardstick.json",
+      "source_key": "numbers.e4_effect_power_5000_deff1p1.value",
+      "tag": "[E]",
+      "value": 0.556
+    },
+    "e4_effect_power_7872_deff1p1": {
+      "sha256_of_source": "0104de65780d83c0c5b8be9a3d842c50e8f99e12745ea9c1e5b8296eafd776cc",
+      "source_file": "v4_addons/results/yardstick.json",
+      "source_key": "numbers.e4_effect_power_7872_deff1p1.value",
+      "tag": "[E]",
+      "value": 0.76
+    },
+    "e4_profit_power_5000_deff1p1": {
+      "sha256_of_source": "0104de65780d83c0c5b8be9a3d842c50e8f99e12745ea9c1e5b8296eafd776cc",
+      "source_file": "v4_addons/results/yardstick.json",
+      "source_key": "numbers.e4_profit_power_5000_deff1p1.value",
+      "tag": "[E]",
+      "value": 0.179
+    },
+    "e4_profit_power_7872_deff1p1": {
+      "sha256_of_source": "0104de65780d83c0c5b8be9a3d842c50e8f99e12745ea9c1e5b8296eafd776cc",
+      "source_file": "v4_addons/results/yardstick.json",
+      "source_key": "numbers.e4_profit_power_7872_deff1p1.value",
+      "tag": "[E]",
+      "value": 0.254
+    },
+    "ledger_rows_original": {
+      "sha256_of_source": "71189a56972d73af14f58a31063ebd8bb2a8cbc7a01c3a60a738214d33dcbc7b",
+      "source_file": "v4_addons/results/d3_ledger_dryrun.json",
+      "source_key": "numbers.ledger_rows_original.value",
+      "tag": "[E]",
+      "value": 278
+    },
+    "len_after_slide11": {
+      "computed": true,
+      "inputs": [],
+      "note": "characters after the proposed edit",
+      "sha256_of_source": "1b2e8dfaea6a92bb1e174162e0d7ab5d53502cd42cf40fb8533a676a71c911ea",
+      "source_file": "v4_addons/results/integration_spec.json",
+      "source_key": "spec.options.*.edits[slide=11].length_after",
+      "tag": "[E]",
+      "value": 224
+    },
+    "len_after_slide12": {
+      "computed": true,
+      "inputs": [],
+      "note": "characters after the proposed edit",
+      "sha256_of_source": "1b2e8dfaea6a92bb1e174162e0d7ab5d53502cd42cf40fb8533a676a71c911ea",
+      "source_file": "v4_addons/results/integration_spec.json",
+      "source_key": "spec.options.*.edits[slide=12].length_after",
+      "tag": "[E]",
+      "value": 214
+    },
+    "len_after_slide13": {
+      "computed": true,
+      "inputs": [],
+      "note": "characters after the proposed edit",
+      "sha256_of_source": "1b2e8dfaea6a92bb1e174162e0d7ab5d53502cd42cf40fb8533a676a71c911ea",
+      "source_file": "v4_addons/results/integration_spec.json",
+      "source_key": "spec.options.*.edits[slide=13].length_after",
+      "tag": "[E]",
+      "value": 790
+    },
+    "len_after_slide15": {
+      "computed": true,
+      "inputs": [],
+      "note": "characters after the proposed edit",
+      "sha256_of_source": "1b2e8dfaea6a92bb1e174162e0d7ab5d53502cd42cf40fb8533a676a71c911ea",
+      "source_file": "v4_addons/results/integration_spec.json",
+      "source_key": "spec.options.*.edits[slide=15].length_after",
+      "tag": "[E]",
+      "value": 193
+    },
+    "len_after_slide5": {
+      "computed": true,
+      "inputs": [],
+      "note": "characters after the proposed edit",
+      "sha256_of_source": "1b2e8dfaea6a92bb1e174162e0d7ab5d53502cd42cf40fb8533a676a71c911ea",
+      "source_file": "v4_addons/results/integration_spec.json",
+      "source_key": "spec.options.*.edits[slide=5].length_after",
+      "tag": "[E]",
+      "value": 160
+    },
+    "len_before_slide11": {
+      "computed": true,
+      "inputs": [],
+      "note": "characters in the original text element",
+      "sha256_of_source": "1b2e8dfaea6a92bb1e174162e0d7ab5d53502cd42cf40fb8533a676a71c911ea",
+      "source_file": "v4_addons/results/integration_spec.json",
+      "source_key": "spec.options.*.edits[slide=11].length_before",
+      "tag": "[E]",
+      "value": 151
+    },
+    "len_before_slide12": {
+      "computed": true,
+      "inputs": [],
+      "note": "characters in the original text element",
+      "sha256_of_source": "1b2e8dfaea6a92bb1e174162e0d7ab5d53502cd42cf40fb8533a676a71c911ea",
+      "source_file": "v4_addons/results/integration_spec.json",
+      "source_key": "spec.options.*.edits[slide=12].length_before",
+      "tag": "[E]",
+      "value": 150
+    },
+    "len_before_slide13": {
+      "computed": true,
+      "inputs": [],
+      "note": "characters in the original text element",
+      "sha256_of_source": "1b2e8dfaea6a92bb1e174162e0d7ab5d53502cd42cf40fb8533a676a71c911ea",
+      "source_file": "v4_addons/results/integration_spec.json",
+      "source_key": "spec.options.*.edits[slide=13].length_before",
+      "tag": "[E]",
+      "value": 219
+    },
+    "len_before_slide15": {
+      "computed": true,
+      "inputs": [],
+      "note": "characters in the original text element",
+      "sha256_of_source": "1b2e8dfaea6a92bb1e174162e0d7ab5d53502cd42cf40fb8533a676a71c911ea",
+      "source_file": "v4_addons/results/integration_spec.json",
+      "source_key": "spec.options.*.edits[slide=15].length_before",
+      "tag": "[E]",
+      "value": 178
+    },
+    "len_before_slide5": {
+      "computed": true,
+      "inputs": [],
+      "note": "characters in the original text element",
+      "sha256_of_source": "1b2e8dfaea6a92bb1e174162e0d7ab5d53502cd42cf40fb8533a676a71c911ea",
+      "source_file": "v4_addons/results/integration_spec.json",
+      "source_key": "spec.options.*.edits[slide=5].length_before",
+      "tag": "[E]",
+      "value": 113
+    },
+    "len_delta_pct_slide11": {
+      "formula": "100 * (len_after_slide11 - len_before_slide11) / len_before_slide11",
+      "inputs": [
+        "len_after_slide11",
+        "len_before_slide11"
+      ],
+      "sha256_of_source": null,
+      "source_file": null,
+      "source_key": null,
+      "tag": "[E]",
+      "value": 48.34437086092715
+    },
+    "len_delta_pct_slide12": {
+      "formula": "100 * (len_after_slide12 - len_before_slide12) / len_before_slide12",
+      "inputs": [
+        "len_after_slide12",
+        "len_before_slide12"
+      ],
+      "sha256_of_source": null,
+      "source_file": null,
+      "source_key": null,
+      "tag": "[E]",
+      "value": 42.666666666666664
+    },
+    "len_delta_pct_slide13": {
+      "formula": "100 * (len_after_slide13 - len_before_slide13) / len_before_slide13",
+      "inputs": [
+        "len_after_slide13",
+        "len_before_slide13"
+      ],
+      "sha256_of_source": null,
+      "source_file": null,
+      "source_key": null,
+      "tag": "[E]",
+      "value": 260.73059360730593
+    },
+    "len_delta_pct_slide15": {
+      "formula": "100 * (len_after_slide15 - len_before_slide15) / len_before_slide15",
+      "inputs": [
+        "len_after_slide15",
+        "len_before_slide15"
+      ],
+      "sha256_of_source": null,
+      "source_file": null,
+      "source_key": null,
+      "tag": "[E]",
+      "value": 8.426966292134832
+    },
+    "len_delta_pct_slide5": {
+      "formula": "100 * (len_after_slide5 - len_before_slide5) / len_before_slide5",
+      "inputs": [
+        "len_after_slide5",
+        "len_before_slide5"
+      ],
+      "sha256_of_source": null,
+      "source_file": null,
+      "source_key": null,
+      "tag": "[E]",
+      "value": 41.5929203539823
+    },
+    "length_flag_threshold_pct": {
+      "formula": "15",
+      "inputs": [],
+      "note": "brief D4: flag text-length growth above +15%",
+      "sha256_of_source": null,
+      "source_file": null,
+      "source_key": null,
+      "tag": "[R]",
+      "value": 15
+    },
+    "max_per_arm_one_list": {
+      "sha256_of_source": "0104de65780d83c0c5b8be9a3d842c50e8f99e12745ea9c1e5b8296eafd776cc",
+      "source_file": "v4_addons/results/yardstick.json",
+      "source_key": "numbers.max_per_arm_one_list.value",
+      "tag": "[E]",
+      "value": 5000.0
+    },
+    "net_5pct_6_24": {
+      "sha256_of_source": "0104de65780d83c0c5b8be9a3d842c50e8f99e12745ea9c1e5b8296eafd776cc",
+      "source_file": "v4_addons/results/yardstick.json",
+      "source_key": "numbers.net_5pct_6_24.value",
+      "tag": "[E]",
+      "value": -6166.359913496997
+    },
+    "pdf_max_bytes": {
+      "formula": "10000000",
+      "inputs": [],
+      "note": "assignment cap (handoff section 1)",
+      "sha256_of_source": null,
+      "source_file": null,
+      "source_key": null,
+      "tag": "[E]",
+      "value": 10000000
+    },
+    "pdf_max_pages": {
+      "formula": "15",
+      "inputs": [],
+      "note": "assignment cap (README.docx; handoff section 1)",
+      "sha256_of_source": null,
+      "source_file": null,
+      "source_key": null,
+      "tag": "[E]",
+      "value": 15
+    },
+    "rows_added_A": {
+      "sha256_of_source": "71189a56972d73af14f58a31063ebd8bb2a8cbc7a01c3a60a738214d33dcbc7b",
+      "source_file": "v4_addons/results/d3_ledger_dryrun.json",
+      "source_key": "numbers.rows_added_A.value",
+      "tag": "[E]",
+      "value": 0
+    },
+    "rows_added_B_PRIME": {
+      "sha256_of_source": "71189a56972d73af14f58a31063ebd8bb2a8cbc7a01c3a60a738214d33dcbc7b",
+      "source_file": "v4_addons/results/d3_ledger_dryrun.json",
+      "source_key": "numbers.rows_added_B_PRIME.value",
+      "tag": "[E]",
+      "value": 18
+    },
+    "rows_added_C": {
+      "sha256_of_source": "71189a56972d73af14f58a31063ebd8bb2a8cbc7a01c3a60a738214d33dcbc7b",
+      "source_file": "v4_addons/results/d3_ledger_dryrun.json",
+      "source_key": "numbers.rows_added_C.value",
+      "tag": "[E]",
+      "value": 25
+    },
+    "rows_added_R": {
+      "sha256_of_source": "71189a56972d73af14f58a31063ebd8bb2a8cbc7a01c3a60a738214d33dcbc7b",
+      "source_file": "v4_addons/results/d3_ledger_dryrun.json",
+      "source_key": "numbers.rows_added_R.value",
+      "tag": "[E]",
+      "value": 18
+    },
+    "rows_retired_A": {
+      "sha256_of_source": "71189a56972d73af14f58a31063ebd8bb2a8cbc7a01c3a60a738214d33dcbc7b",
+      "source_file": "v4_addons/results/d3_ledger_dryrun.json",
+      "source_key": "numbers.rows_retired_A.value",
+      "tag": "[E]",
+      "value": 0
+    },
+    "rows_retired_B_PRIME": {
+      "sha256_of_source": "71189a56972d73af14f58a31063ebd8bb2a8cbc7a01c3a60a738214d33dcbc7b",
+      "source_file": "v4_addons/results/d3_ledger_dryrun.json",
+      "source_key": "numbers.rows_retired_B_PRIME.value",
+      "tag": "[E]",
+      "value": 0
+    },
+    "rows_retired_C": {
+      "sha256_of_source": "71189a56972d73af14f58a31063ebd8bb2a8cbc7a01c3a60a738214d33dcbc7b",
+      "source_file": "v4_addons/results/d3_ledger_dryrun.json",
+      "source_key": "numbers.rows_retired_C.value",
+      "tag": "[E]",
+      "value": 0
+    },
+    "rows_retired_R": {
+      "sha256_of_source": "71189a56972d73af14f58a31063ebd8bb2a8cbc7a01c3a60a738214d33dcbc7b",
+      "source_file": "v4_addons/results/d3_ledger_dryrun.json",
+      "source_key": "numbers.rows_retired_R.value",
+      "tag": "[E]",
+      "value": 0
+    },
+    "rows_total_A": {
+      "sha256_of_source": "71189a56972d73af14f58a31063ebd8bb2a8cbc7a01c3a60a738214d33dcbc7b",
+      "source_file": "v4_addons/results/d3_ledger_dryrun.json",
+      "source_key": "numbers.rows_total_A.value",
+      "tag": "[E]",
+      "value": 278
+    },
+    "rows_total_B_PRIME": {
+      "sha256_of_source": "71189a56972d73af14f58a31063ebd8bb2a8cbc7a01c3a60a738214d33dcbc7b",
+      "source_file": "v4_addons/results/d3_ledger_dryrun.json",
+      "source_key": "numbers.rows_total_B_PRIME.value",
+      "tag": "[E]",
+      "value": 296
+    },
+    "rows_total_C": {
+      "sha256_of_source": "71189a56972d73af14f58a31063ebd8bb2a8cbc7a01c3a60a738214d33dcbc7b",
+      "source_file": "v4_addons/results/d3_ledger_dryrun.json",
+      "source_key": "numbers.rows_total_C.value",
+      "tag": "[E]",
+      "value": 303
+    },
+    "rows_total_R": {
+      "sha256_of_source": "71189a56972d73af14f58a31063ebd8bb2a8cbc7a01c3a60a738214d33dcbc7b",
+      "source_file": "v4_addons/results/d3_ledger_dryrun.json",
+      "source_key": "numbers.rows_total_R.value",
+      "tag": "[E]",
+      "value": 296
+    },
+    "slide11_net_lower": {
+      "sha256_of_source": "0104de65780d83c0c5b8be9a3d842c50e8f99e12745ea9c1e5b8296eafd776cc",
+      "source_file": "v4_addons/results/yardstick.json",
+      "source_key": "numbers.slide11_net_lower.value",
+      "tag": "[E]",
+      "value": 2761.36950443581
+    },
+    "slide11_net_upper": {
+      "sha256_of_source": "0104de65780d83c0c5b8be9a3d842c50e8f99e12745ea9c1e5b8296eafd776cc",
+      "source_file": "v4_addons/results/yardstick.json",
+      "source_key": "numbers.slide11_net_upper.value",
+      "tag": "[E]",
+      "value": 4660.637082299275
+    }
+  },
+  "placeholders": [
+    "[DECISION NEEDED: maximum number of extensions and cost per extension]",
+    "[DECISION NEEDED: is a Floor contact free? if not, the $12,872 envelope is understated]",
+    "[DECISION NEEDED: action if the harm gate trips; owner]"
+  ],
+  "provenance": {
+    "created_utc": "2026-10-31T08:49:53.215331+00:00",
+    "input_files": [
+      {
+        "path": "v4_addons/results/d3_ledger_dryrun.json",
+        "present": true,
+        "sha256": "71189a56972d73af14f58a31063ebd8bb2a8cbc7a01c3a60a738214d33dcbc7b",
+        "size": 10715
+      },
+      {
+        "path": "v4_addons/results/integration_spec.json",
+        "present": true,
+        "sha256": "1b2e8dfaea6a92bb1e174162e0d7ab5d53502cd42cf40fb8533a676a71c911ea",
+        "size": 47490
+      },
+      {
+        "path": "v4_addons/results/yardstick.json",
+        "present": true,
+        "sha256": "0104de65780d83c0c5b8be9a3d842c50e8f99e12745ea9c1e5b8296eafd776cc",
+        "size": 57898
+      }
+    ],
+    "python_version": "3.11.9 (tags/v3.11.9:de54cf5, Apr  2 2024, 10:12:12) [MSC v.1938 64 bit (AMD64)]",
+    "row_counts": {},
+    "runtime": {
+      "env": {
+        "MKL_NUM_THREADS": "6",
+        "NUMEXPR_NUM_THREADS": "6",
+        "OMP_NUM_THREADS": "6",
+        "OPENBLAS_NUM_THREADS": "6"
+      },
+      "function_sha256": "77f490da30fa85a8826efca565835a7127fa2d629110a92afe8b0a497a437bca",
+      "pools": [
+        {
+          "architecture": "Haswell",
+          "filepath": "C:\\Users\\FGstore\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\numpy.libs\\libscipy_openblas64_-860d95b1c38e637ce4509f5fa24fbf2a.dll",
+          "internal_api": "openblas",
+          "num_threads": 6,
+          "prefix": "libscipy_openblas",
+          "threading_layer": "pthreads",
+          "user_api": "blas",
+          "version": "0.3.30"
+        },
+        {
+          "architecture": "Haswell",
+          "filepath": "C:\\Users\\FGstore\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\scipy.libs\\libscipy_openblas-64eda39e79589aedb16f58e5547eb599.dll",
+          "internal_api": "openblas",
+          "num_threads": 6,
+          "prefix": "libscipy_openblas",
+          "threading_layer": "pthreads",
+          "user_api": "blas",
+          "version": "0.3.30"
+        }
+      ],
+      "source": "v3_addons/src/common.py",
+      "thread_cap": 6
+    },
+    "script": "v4_addons/tools/d4_proposal.py",
+    "script_sha256": "dcc3781629209fba39479ed70a64723a17da824589815bfaf1363dd19d9798e9",
+    "seed": 20261033,
+    "tags_used": [
+      "[E]",
+      "[A]",
+      "[R]"
+    ]
+  }
+}

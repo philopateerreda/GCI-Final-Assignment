@@ -1,0 +1,199 @@
+{
+  "report": "v4_addons/reports/D3_report.md",
+  "report_sha256": "09160b8666d243b14ba89edf66a00a2b5e2e6c776eb7219096dbc821120f705a",
+  "results_json": "v4_addons/results/d3_ledger_dryrun.json",
+  "tokens": [
+    {
+      "token": "278",
+      "name": "ledger_rows_original",
+      "spec": "int",
+      "value": 278
+    },
+    {
+      "token": "0",
+      "name": "rows_retired_A",
+      "spec": "int",
+      "value": 0
+    },
+    {
+      "token": "0",
+      "name": "rows_added_A",
+      "spec": "int",
+      "value": 0
+    },
+    {
+      "token": "278",
+      "name": "rows_total_A",
+      "spec": "int",
+      "value": 278
+    },
+    {
+      "token": "0",
+      "name": "rows_retired_B_PRIME",
+      "spec": "int",
+      "value": 0
+    },
+    {
+      "token": "18",
+      "name": "rows_added_B_PRIME",
+      "spec": "int",
+      "value": 18
+    },
+    {
+      "token": "296",
+      "name": "rows_total_B_PRIME",
+      "spec": "int",
+      "value": 296
+    },
+    {
+      "token": "0",
+      "name": "rows_retired_C",
+      "spec": "int",
+      "value": 0
+    },
+    {
+      "token": "25",
+      "name": "rows_added_C",
+      "spec": "int",
+      "value": 25
+    },
+    {
+      "token": "303",
+      "name": "rows_total_C",
+      "spec": "int",
+      "value": 303
+    },
+    {
+      "token": "0",
+      "name": "rows_retired_R",
+      "spec": "int",
+      "value": 0
+    },
+    {
+      "token": "18",
+      "name": "rows_added_R",
+      "spec": "int",
+      "value": 18
+    },
+    {
+      "token": "296",
+      "name": "rows_total_R",
+      "spec": "int",
+      "value": 296
+    },
+    {
+      "token": "275",
+      "name": "existing_rows_rerender_ok",
+      "spec": "int",
+      "value": 275
+    },
+    {
+      "token": "3",
+      "name": "existing_rows_rerender_mismatch",
+      "spec": "int",
+      "value": 3
+    },
+    {
+      "token": "0",
+      "name": "rows_retired_A",
+      "spec": "int",
+      "value": 0
+    },
+    {
+      "token": "0",
+      "name": "rows_added_A",
+      "spec": "int",
+      "value": 0
+    },
+    {
+      "token": "278",
+      "name": "rows_total_A",
+      "spec": "int",
+      "value": 278
+    },
+    {
+      "token": "0",
+      "name": "rows_retired_B_PRIME",
+      "spec": "int",
+      "value": 0
+    },
+    {
+      "token": "18",
+      "name": "rows_added_B_PRIME",
+      "spec": "int",
+      "value": 18
+    },
+    {
+      "token": "296",
+      "name": "rows_total_B_PRIME",
+      "spec": "int",
+      "value": 296
+    },
+    {
+      "token": "0",
+      "name": "rows_retired_C",
+      "spec": "int",
+      "value": 0
+    },
+    {
+      "token": "25",
+      "name": "rows_added_C",
+      "spec": "int",
+      "value": 25
+    },
+    {
+      "token": "303",
+      "name": "rows_total_C",
+      "spec": "int",
+      "value": 303
+    },
+    {
+      "token": "0",
+      "name": "rows_retired_R",
+      "spec": "int",
+      "value": 0
+    },
+    {
+      "token": "18",
+      "name": "rows_added_R",
+      "spec": "int",
+      "value": 18
+    },
+    {
+      "token": "296",
+      "name": "rows_total_R",
+      "spec": "int",
+      "value": 296
+    },
+    {
+      "token": "296",
+      "name": "rows_total_B_PRIME",
+      "spec": "int",
+      "value": 296
+    },
+    {
+      "token": "303",
+      "name": "rows_total_C",
+      "spec": "int",
+      "value": 303
+    },
+    {
+      "token": "275",
+      "name": "existing_rows_rerender_ok",
+      "spec": "int",
+      "value": 275
+    },
+    {
+      "token": "278",
+      "name": "ledger_rows_original",
+      "spec": "int",
+      "value": 278
+    },
+    {
+      "token": "3",
+      "name": "existing_rows_rerender_mismatch",
+      "spec": "int",
+      "value": 3
+    }
+  ]
+}

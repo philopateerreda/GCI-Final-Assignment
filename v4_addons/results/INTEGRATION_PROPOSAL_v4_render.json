@@ -1,0 +1,403 @@
+{
+  "report": "v4_addons/INTEGRATION_PROPOSAL_v4.md",
+  "report_sha256": "6f7e56fbb1d76e942eb5b49f3850d60b726aa2783b8034921f8dc7f22d927950",
+  "results_json": "v4_addons/results/d4_proposal.json",
+  "tokens": [
+    {
+      "token": "91.9%",
+      "name": "dq_7872_g20_p_extend",
+      "spec": "pct1",
+      "value": 0.919
+    },
+    {
+      "token": "15",
+      "name": "pdf_max_pages",
+      "spec": "int",
+      "value": 15
+    },
+    {
+      "token": "10,000,000",
+      "name": "pdf_max_bytes",
+      "spec": "int",
+      "value": 10000000
+    },
+    {
+      "token": "15%",
+      "name": "length_flag_threshold_pct",
+      "spec": "pc0",
+      "value": 15
+    },
+    {
+      "token": "278",
+      "name": "ledger_rows_original",
+      "spec": "int",
+      "value": 278
+    },
+    {
+      "token": "0",
+      "name": "rows_retired_A",
+      "spec": "int",
+      "value": 0
+    },
+    {
+      "token": "0",
+      "name": "rows_added_A",
+      "spec": "int",
+      "value": 0
+    },
+    {
+      "token": "278",
+      "name": "rows_total_A",
+      "spec": "int",
+      "value": 278
+    },
+    {
+      "token": "0.0",
+      "name": "days_A",
+      "spec": "f1",
+      "value": 0
+    },
+    {
+      "token": "0",
+      "name": "rows_retired_B_PRIME",
+      "spec": "int",
+      "value": 0
+    },
+    {
+      "token": "18",
+      "name": "rows_added_B_PRIME",
+      "spec": "int",
+      "value": 18
+    },
+    {
+      "token": "296",
+      "name": "rows_total_B_PRIME",
+      "spec": "int",
+      "value": 296
+    },
+    {
+      "token": "1.0",
+      "name": "days_B_PRIME",
+      "spec": "f1",
+      "value": 1.0
+    },
+    {
+      "token": "15%",
+      "name": "length_flag_threshold_pct",
+      "spec": "pc0",
+      "value": 15
+    },
+    {
+      "token": "151",
+      "name": "len_before_slide11",
+      "spec": "int",
+      "value": 151
+    },
+    {
+      "token": "224",
+      "name": "len_after_slide11",
+      "spec": "int",
+      "value": 224
+    },
+    {
+      "token": "48.3%",
+      "name": "len_delta_pct_slide11",
+      "spec": "pc1",
+      "value": 48.34437086092715
+    },
+    {
+      "token": "15%",
+      "name": "length_flag_threshold_pct",
+      "spec": "pc0",
+      "value": 15
+    },
+    {
+      "token": "219",
+      "name": "len_before_slide13",
+      "spec": "int",
+      "value": 219
+    },
+    {
+      "token": "790",
+      "name": "len_after_slide13",
+      "spec": "int",
+      "value": 790
+    },
+    {
+      "token": "260.7%",
+      "name": "len_delta_pct_slide13",
+      "spec": "pc1",
+      "value": 260.73059360730593
+    },
+    {
+      "token": "0",
+      "name": "rows_retired_C",
+      "spec": "int",
+      "value": 0
+    },
+    {
+      "token": "25",
+      "name": "rows_added_C",
+      "spec": "int",
+      "value": 25
+    },
+    {
+      "token": "303",
+      "name": "rows_total_C",
+      "spec": "int",
+      "value": 303
+    },
+    {
+      "token": "1.5",
+      "name": "days_C",
+      "spec": "f1",
+      "value": 1.5
+    },
+    {
+      "token": "15%",
+      "name": "length_flag_threshold_pct",
+      "spec": "pc0",
+      "value": 15
+    },
+    {
+      "token": "151",
+      "name": "len_before_slide11",
+      "spec": "int",
+      "value": 151
+    },
+    {
+      "token": "224",
+      "name": "len_after_slide11",
+      "spec": "int",
+      "value": 224
+    },
+    {
+      "token": "48.3%",
+      "name": "len_delta_pct_slide11",
+      "spec": "pc1",
+      "value": 48.34437086092715
+    },
+    {
+      "token": "15%",
+      "name": "length_flag_threshold_pct",
+      "spec": "pc0",
+      "value": 15
+    },
+    {
+      "token": "219",
+      "name": "len_before_slide13",
+      "spec": "int",
+      "value": 219
+    },
+    {
+      "token": "790",
+      "name": "len_after_slide13",
+      "spec": "int",
+      "value": 790
+    },
+    {
+      "token": "260.7%",
+      "name": "len_delta_pct_slide13",
+      "spec": "pc1",
+      "value": 260.73059360730593
+    },
+    {
+      "token": "15%",
+      "name": "length_flag_threshold_pct",
+      "spec": "pc0",
+      "value": 15
+    },
+    {
+      "token": "150",
+      "name": "len_before_slide12",
+      "spec": "int",
+      "value": 150
+    },
+    {
+      "token": "214",
+      "name": "len_after_slide12",
+      "spec": "int",
+      "value": 214
+    },
+    {
+      "token": "42.7%",
+      "name": "len_delta_pct_slide12",
+      "spec": "pc1",
+      "value": 42.666666666666664
+    },
+    {
+      "token": "15%",
+      "name": "length_flag_threshold_pct",
+      "spec": "pc0",
+      "value": 15
+    },
+    {
+      "token": "113",
+      "name": "len_before_slide5",
+      "spec": "int",
+      "value": 113
+    },
+    {
+      "token": "160",
+      "name": "len_after_slide5",
+      "spec": "int",
+      "value": 160
+    },
+    {
+      "token": "41.6%",
+      "name": "len_delta_pct_slide5",
+      "spec": "pc1",
+      "value": 41.5929203539823
+    },
+    {
+      "token": "178",
+      "name": "len_before_slide15",
+      "spec": "int",
+      "value": 178
+    },
+    {
+      "token": "193",
+      "name": "len_after_slide15",
+      "spec": "int",
+      "value": 193
+    },
+    {
+      "token": "8.4%",
+      "name": "len_delta_pct_slide15",
+      "spec": "pc1",
+      "value": 8.426966292134832
+    },
+    {
+      "token": "0",
+      "name": "rows_retired_R",
+      "spec": "int",
+      "value": 0
+    },
+    {
+      "token": "18",
+      "name": "rows_added_R",
+      "spec": "int",
+      "value": 18
+    },
+    {
+      "token": "296",
+      "name": "rows_total_R",
+      "spec": "int",
+      "value": 296
+    },
+    {
+      "token": "4.0",
+      "name": "days_R",
+      "spec": "f1",
+      "value": 4.0
+    },
+    {
+      "token": "15%",
+      "name": "length_flag_threshold_pct",
+      "spec": "pc0",
+      "value": 15
+    },
+    {
+      "token": "151",
+      "name": "len_before_slide11",
+      "spec": "int",
+      "value": 151
+    },
+    {
+      "token": "224",
+      "name": "len_after_slide11",
+      "spec": "int",
+      "value": 224
+    },
+    {
+      "token": "48.3%",
+      "name": "len_delta_pct_slide11",
+      "spec": "pc1",
+      "value": 48.34437086092715
+    },
+    {
+      "token": "15%",
+      "name": "length_flag_threshold_pct",
+      "spec": "pc0",
+      "value": 15
+    },
+    {
+      "token": "219",
+      "name": "len_before_slide13",
+      "spec": "int",
+      "value": 219
+    },
+    {
+      "token": "790",
+      "name": "len_after_slide13",
+      "spec": "int",
+      "value": 790
+    },
+    {
+      "token": "260.7%",
+      "name": "len_delta_pct_slide13",
+      "spec": "pc1",
+      "value": 260.73059360730593
+    },
+    {
+      "token": "20%",
+      "name": "binary_relative_prevention_assumption",
+      "spec": "pct0",
+      "value": 0.2
+    },
+    {
+      "token": "\u2212$6.2k",
+      "name": "net_5pct_6_24",
+      "spec": "usdk1",
+      "value": -6166.359913496997
+    },
+    {
+      "token": "$2.8k",
+      "name": "slide11_net_lower",
+      "spec": "usdk1",
+      "value": 2761.36950443581
+    },
+    {
+      "token": "$4.7k",
+      "name": "slide11_net_upper",
+      "spec": "usdk1",
+      "value": 4660.637082299275
+    },
+    {
+      "token": "76.0%",
+      "name": "e4_effect_power_7872_deff1p1",
+      "spec": "pct1",
+      "value": 0.76
+    },
+    {
+      "token": "25.4%",
+      "name": "e4_profit_power_7872_deff1p1",
+      "spec": "pct1",
+      "value": 0.254
+    },
+    {
+      "token": "7,872",
+      "name": "binary_enrolled_per_arm",
+      "spec": "int",
+      "value": 7872
+    },
+    {
+      "token": "55.6%",
+      "name": "e4_effect_power_5000_deff1p1",
+      "spec": "pct1",
+      "value": 0.556
+    },
+    {
+      "token": "17.9%",
+      "name": "e4_profit_power_5000_deff1p1",
+      "spec": "pct1",
+      "value": 0.179
+    },
+    {
+      "token": "5,000",
+      "name": "max_per_arm_one_list",
+      "spec": "int",
+      "value": 5000.0
+    }
+  ]
+}
