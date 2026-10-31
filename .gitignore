@@ -52,3 +52,21 @@ v2_work/a_bootstrap_calibration.csv
 v2_work/b_assignments_test.csv
 v2_work/b_assignments_calibration.csv
 v2_work/c_subgroup_robustness.csv
+
+# Release housekeeping (git history is the backup)
+*.pre_v4
+.env
+*.log
+
+# v4 internal readiness material (kept local)
+v4_addons/CEO_BRIEF*
+v4_addons/CEO_QA*
+v4_addons/HUMAN_CHECKLIST.md
+v4_addons/DISCLOSURE_CHECK.md
+v4_addons/release_candidate/
+
+# v4 snapshots and regenerable intermediates
+v4_addons/snapshots/
+v4_addons/m1_work/cache/
+v4_addons/m1_work/folds/
+v4_addons/m1_work/oof/

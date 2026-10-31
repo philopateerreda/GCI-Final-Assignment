@@ -1,0 +1,226 @@
+{
+  "project_status": "READY_FOR_CEO_FALLBACK_A",
+  "cards": {
+    "D0": {
+      "status": "COMPLETED_ACCEPTED",
+      "date": "2026-10-31",
+      "report": "reports/D0_report.md",
+      "next_gate": "none",
+      "note": "hashes match; 42/43 section-9 checks reproduce; SE(gamma-hat) convention discrepancy acknowledged"
+    },
+    "D1": {
+      "status": "COMPLETED_ACCEPTED",
+      "date": "2026-10-31",
+      "report": "reports/D1_report.md",
+      "next_gate": "none",
+      "note": "2 docs refreshed with .pre_v4 backups; addendum + MANIFEST_v4 (344 files)"
+    },
+    "D2": {
+      "status": "COMPLETED_ACCEPTED",
+      "date": "2026-10-31",
+      "report": "reports/D2_report.md",
+      "next_gate": "none",
+      "note": "YARDSTICK.md + yardstick.json; 2 G10 definition discrepancies reported (SE convention; pi* fully loaded)"
+    },
+    "D3": {
+      "status": "COMPLETED_ACCEPTED",
+      "date": "2026-10-31",
+      "report": "reports/D3_report.md",
+      "next_gate": "none",
+      "note": "A reproduces hash; B' 296 rows (+18); C 303 rows (+25); 0 retired"
+    },
+    "D4": {
+      "status": "COMPLETED_ACCEPTED",
+      "date": "2026-10-31",
+      "report": "reports/D4_report.md",
+      "next_gate": "H3_OPTION.txt",
+      "note": "INTEGRATION_PROPOSAL_v4.md; B' recommended; 3 DECISION NEEDED placeholders"
+    },
+    "D5": {
+      "status": "COMPLETED_ACCEPTED",
+      "date": "2026-10-31",
+      "report": "reports/D5_report.md",
+      "next_gate": "none",
+      "note": "WP1-WP5 commands/seeds/hashes; WP2 identities + WP3 closed forms re-checked; 485 numbers bound"
+    },
+    "D6": {
+      "status": "COMPLETED_ACCEPTED",
+      "date": "2026-10-31",
+      "report": "reports/D6_report.md",
+      "next_gate": "none",
+      "note": "queue lift 1.007/0.979/0.972/1.027 vs section 9; Floor + harm-gate DECISION NEEDED; HBS 403 is bot-block only, no edit"
+    },
+    "D7": {
+      "status": "COMPLETED_ACCEPTED",
+      "date": "2026-10-31",
+      "report": "reports/D7_report.md",
+      "next_gate": "none",
+      "note": "pi*(gamma) from exact v2 replay; 1.546417% is startup-included; startup-excluded 1.0361%; exclusive day-60 trigger table; label vs EM precision; variants deferred"
+    },
+    "D8": {
+      "status": "COMPLETED_ACCEPTED",
+      "date": "2026-10-31",
+      "report": "reports/D8_report.md",
+      "next_gate": "none",
+      "note": "Track D summary: 8 cards accepted; 4 open decisions; 4 gates unopened; check_numbers 0 problems; boundary clean"
+    },
+    "M0": {
+      "status": "COMPLETED_ACCEPTED",
+      "date": "2026-10-31",
+      "report": "reports/M0_report.md",
+      "next_gate": "H1_APPROVED.txt",
+      "note": "GO; final_metrics byte-identical; 52/278 ledger rows regeneration-dependent, 25 narrative, 201 unaffected; effort 1.5 d; check_numbers 0 problems; boundary clean"
+    },
+    "M1": {
+      "status": "COMPLETED_REJECTED",
+      "date": "2026-10-31",
+      "report": "reports/M1_report.md",
+      "next_gate": "none",
+      "note": "frozen model already refit on all 75k non-test rows; DeltaS=0 < +0.0015; curve upper 0.000943 < gate; Track M KILL"
+    },
+    "M2": {
+      "status": "NOT_RUN_KILLED_BY_M1_GATE",
+      "date": "2026-10-31",
+      "report": null,
+      "next_gate": null,
+      "note": "Track M killed at the M1 gate (DeltaS = 0 below the +0.0015 gate); not run."
+    },
+    "M3": {
+      "status": "NOT_RUN_KILLED_BY_M1_GATE",
+      "date": "2026-10-31",
+      "report": null,
+      "next_gate": null,
+      "note": "Track M killed at the M1 gate; not run."
+    },
+    "M4": {
+      "status": "NOT_RUN_KILLED_BY_M1_GATE",
+      "date": "2026-10-31",
+      "report": null,
+      "next_gate": null,
+      "note": "Track M killed at the M1 gate; not run."
+    },
+    "M5": {
+      "status": "NOT_RUN_KILLED_BY_M1_GATE",
+      "date": "2026-10-31",
+      "report": null,
+      "next_gate": null,
+      "note": "Track M killed at the M1 gate; not run."
+    },
+    "M6": {
+      "status": "NOT_RUN_KILLED_BY_M1_GATE",
+      "date": "2026-10-31",
+      "report": null,
+      "next_gate": null,
+      "note": "Track M killed at the M1 gate; not run."
+    },
+    "I": {
+      "status": "NOT_STARTED",
+      "date": null,
+      "report": null,
+      "next_gate": null,
+      "note": null
+    },
+    "F0": {
+      "status": "COMPLETED_ACCEPTED",
+      "date": "2026-10-31",
+      "report": "reports/F0_report.md",
+      "next_gate": null,
+      "note": "H0 + H3 written by delegation; M closure note; extrapolations bound, reviewer range omitted"
+    },
+    "F1": {
+      "status": "COMPLETED_ACCEPTED",
+      "date": "2026-10-31",
+      "report": "reports/F1_report.md",
+      "next_gate": "none; F2 builds the B_PRIME candidate on copies",
+      "note": "placeholders resolved; final slide 11/13 text; final ledger 296 rows (0 retired, 18 added, 0 changed); hash unchanged; A reproduces original"
+    },
+    "F2": {
+      "status": "STOPPED_GUARDRAIL",
+      "date": "2026-10-31",
+      "report": "reports/F2_report.md",
+      "next_gate": "none; fallback A applies (F3 verifies frozen hashes, no promotion)",
+      "note": "build pipeline cannot run: 0 LaTeX sources, 0 LaTeX engines; Office export forbidden for new/edited PDFs; fallback A"
+    },
+    "F3": {
+      "status": "COMPLETED_ACCEPTED",
+      "date": "2026-10-31",
+      "report": "reports/F3_report.md",
+      "next_gate": "none; fallback A release continues with F5",
+      "note": "fallback A applied: frozen v2 hashes unchanged; no promotion; visual QA not performed in F3; ledger 278 rows Option A hash"
+    },
+    "F4": {
+      "status": "COMPLETED_ACCEPTED",
+      "date": "2026-10-31",
+      "report": "reports/F4_report.md",
+      "next_gate": "none; F5 continues",
+      "note": "F4 skipped under fallback A; notebook byte-identical (0 cells added or executed)"
+    },
+    "F5": {
+      "status": "COMPLETED_ACCEPTED",
+      "date": "2026-10-31",
+      "report": "reports/F5_report.md",
+      "next_gate": "none; F6 disclosure report",
+      "note": "CEO_BRIEF (450 words) + CEO_QA (260 words); all 10/10 expected rows match; no PDF (no LaTeX toolchain); fallback A wording"
+    },
+    "F6": {
+      "status": "COMPLETED_ACCEPTED",
+      "date": "2026-10-31",
+      "report": "DISCLOSURE_CHECK.md",
+      "next_gate": "none; F7 release package",
+      "note": "references.txt untouched (SHA and size match D0); disclosure quoted verbatim; HBS 403/200, Columbia 200; no URL invented"
+    },
+    "F7": {
+      "status": "COMPLETED_ACCEPTED",
+      "date": "2026-10-31",
+      "report": "RELEASE_RECEIPT.md",
+      "next_gate": "CEO review 10-20 Nov; account holder upload by 28 Nov 2026, 11:30 UTC",
+      "note": "release_candidate: 6 read-only copies verified; receipt and 5-line checklist written; STATE READY_FOR_CEO_FALLBACK_A"
+    }
+  },
+  "blockers": [],
+  "log": [
+    "2026-10-31T08:22:52.827121+00:00 D0 -> COMPLETED_ACCEPTED (hashes match; 42/43 section-9 checks reproduce; SE(gamma-hat) convention discrepancy acknowledged)",
+    "2026-10-31T08:29:16.384758+00:00 D1 -> COMPLETED_ACCEPTED (2 docs refreshed with .pre_v4 backups; addendum + MANIFEST_v4 (344 files))",
+    "2026-10-31T08:38:30.980424+00:00 D2 -> COMPLETED_ACCEPTED (YARDSTICK.md + yardstick.json; 2 G10 definition discrepancies reported (SE convention; pi* fully loaded))",
+    "2026-10-31T08:47:18.475649+00:00 D3 -> COMPLETED_ACCEPTED (A reproduces hash; B' 296 rows (+18); C 303 rows (+25); 0 retired)",
+    "2026-10-31T08:48:06.132529+00:00 D3 -> COMPLETED_ACCEPTED (A reproduces hash; B' 296 rows (+18); C 303 rows (+25); 0 retired)",
+    "2026-10-31T08:51:30.496286+00:00 D4 -> COMPLETED_ACCEPTED (INTEGRATION_PROPOSAL_v4.md; B' recommended; 3 DECISION NEEDED placeholders)",
+    "2026-10-31T08:57:32.641763+00:00 D5 -> COMPLETED_ACCEPTED (WP1-WP5 commands/seeds/hashes; WP2 identities + WP3 closed forms re-checked; 485 numbers bound)",
+    "2026-10-31T09:00:33.375717+00:00 D6 -> COMPLETED_ACCEPTED (queue lift 1.007/0.979/0.972/1.027 vs section 9; Floor + harm-gate DECISION NEEDED; HBS 403 is bot-block only, no edit)",
+    "2026-10-31T09:09:48.278898+00:00 D7 -> COMPLETED_ACCEPTED (pi*(gamma) from exact v2 replay; 1.546417% is startup-included; startup-excluded 1.0361%; exclusive day-60 trigger table; label vs EM precision; variants deferred)",
+    "2026-10-31T09:13:46.950934+00:00 D8 -> COMPLETED_ACCEPTED (Track D summary: 8 cards accepted; 4 open decisions; 4 gates unopened; check_numbers 0 problems; boundary clean)",
+    "2026-10-31T09:26:49.470580+00:00 M0 -> COMPLETED_ACCEPTED (GO; final_metrics byte-identical; 52/278 ledger rows regeneration-dependent, 25 narrative, 201 unaffected; effort 1.5 d; check_numbers 0 problems; boundary clean)",
+    "2026-10-31T09:42:07.848154+00:00 M1 -> COMPLETED_REJECTED (frozen model already refit on all 75k non-test rows; DeltaS=0 < +0.0015; curve upper 0.000943 < gate; Track M KILL)",
+    "2026-10-31T09:42:08.082007+00:00 M2 -> NOT_STARTED (not run \u2014 Track M killed at M1)",
+    "2026-10-31T10:27:31.360782+00:00 M2 -> NOT_RUN_KILLED_BY_M1_GATE (Track M killed at the M1 gate (DeltaS = 0 below the +0.0015 gate); not run.)",
+    "2026-10-31T10:27:31.360782+00:00 M3 -> NOT_RUN_KILLED_BY_M1_GATE (Track M killed at the M1 gate; not run.)",
+    "2026-10-31T10:27:31.360782+00:00 M4 -> NOT_RUN_KILLED_BY_M1_GATE (Track M killed at the M1 gate; not run.)",
+    "2026-10-31T10:27:31.360782+00:00 M5 -> NOT_RUN_KILLED_BY_M1_GATE (Track M killed at the M1 gate; not run.)",
+    "2026-10-31T10:27:31.360782+00:00 M6 -> NOT_RUN_KILLED_BY_M1_GATE (Track M killed at the M1 gate; not run.)",
+    "2026-10-31T10:27:31.360782+00:00 F0 -> COMPLETED_ACCEPTED (H0 + H3 written by delegation; M closure note; extrapolations bound, reviewer range omitted)",
+    "2026-10-31T10:28:33.012196+00:00 M2 -> NOT_RUN_KILLED_BY_M1_GATE (Track M killed at the M1 gate (DeltaS = 0 below the +0.0015 gate); not run.)",
+    "2026-10-31T10:28:33.012196+00:00 M3 -> NOT_RUN_KILLED_BY_M1_GATE (Track M killed at the M1 gate; not run.)",
+    "2026-10-31T10:28:33.012196+00:00 M4 -> NOT_RUN_KILLED_BY_M1_GATE (Track M killed at the M1 gate; not run.)",
+    "2026-10-31T10:28:33.012196+00:00 M5 -> NOT_RUN_KILLED_BY_M1_GATE (Track M killed at the M1 gate; not run.)",
+    "2026-10-31T10:28:33.012196+00:00 M6 -> NOT_RUN_KILLED_BY_M1_GATE (Track M killed at the M1 gate; not run.)",
+    "2026-10-31T10:28:33.012196+00:00 F0 -> COMPLETED_ACCEPTED (H0 + H3 written by delegation; M closure note; extrapolations bound, reviewer range omitted)",
+    "2026-10-31T10:37:04.670833+00:00 F1 -> COMPLETED_ACCEPTED (placeholders resolved; final slide 11/13 text; final ledger 296 rows (0 retired, 18 added, 0 changed); hash unchanged; A reproduces original)",
+    "2026-10-31T10:37:28.343745+00:00 F1 -> COMPLETED_ACCEPTED (placeholders resolved; final slide 11/13 text; final ledger 296 rows (0 retired, 18 added, 0 changed); hash unchanged; A reproduces original)",
+    "2026-10-31T10:37:53.815948+00:00 F1 -> COMPLETED_ACCEPTED (placeholders resolved; final slide 11/13 text; final ledger 296 rows (0 retired, 18 added, 0 changed); hash unchanged; A reproduces original)",
+    "2026-10-31T10:38:21.045135+00:00 F1 -> COMPLETED_ACCEPTED (placeholders resolved; final slide 11/13 text; final ledger 296 rows (0 retired, 18 added, 0 changed); hash unchanged; A reproduces original)",
+    "2026-10-31T10:41:17.742368+00:00 F2 -> STOPPED_GUARDRAIL (build pipeline cannot run: 0 LaTeX sources, 0 LaTeX engines; Office export forbidden for new/edited PDFs; fallback A)",
+    "2026-10-31T10:42:58.224383+00:00 F3 -> COMPLETED_ACCEPTED (fallback A applied: frozen v2 hashes unchanged; no promotion; visual QA not performed in F3; ledger 278 rows Option A hash)",
+    "2026-10-31T10:43:27.333553+00:00 F4 -> COMPLETED_ACCEPTED (F4 skipped under fallback A; notebook byte-identical (0 cells added or executed))",
+    "2026-10-31T10:48:31.269721+00:00 F5 -> COMPLETED_ACCEPTED (CEO_BRIEF (472 words) + CEO_QA (260 words); all 10/10 expected rows match; no PDF (no LaTeX toolchain); fallback A wording)",
+    "2026-10-31T10:49:05.682075+00:00 F5 -> COMPLETED_ACCEPTED (CEO_BRIEF (450 words) + CEO_QA (260 words); all 10/10 expected rows match; no PDF (no LaTeX toolchain); fallback A wording)",
+    "2026-10-31T10:49:21.379929+00:00 F5 -> COMPLETED_ACCEPTED (CEO_BRIEF (450 words) + CEO_QA (260 words); all 10/10 expected rows match; no PDF (no LaTeX toolchain); fallback A wording)",
+    "2026-10-31T10:49:44.264669+00:00 F5 -> COMPLETED_ACCEPTED (CEO_BRIEF (450 words) + CEO_QA (260 words); all 10/10 expected rows match; no PDF (no LaTeX toolchain); fallback A wording)",
+    "2026-10-31T10:51:59.172874+00:00 F6 -> COMPLETED_ACCEPTED (references.txt untouched (SHA and size match D0); disclosure quoted verbatim; HBS 403/200, Columbia 200; no URL invented)",
+    "2026-10-31T10:54:13.359311+00:00 F7 -> COMPLETED_ACCEPTED (release_candidate: 6 read-only copies verified; receipt and 5-line checklist written; STATE READY_FOR_CEO_FALLBACK_A)"
+  ],
+  "authorization": [
+    "**2026-10-31, account holder (philopateer), quoted verbatim:** \"I don't want to take decisions, just tell him what you see is the smartest move.\"",
+    "This sentence is the account holder's authorization for the two gate files `v4_addons/gates/H0_DECISIONS.md` and `v4_addons/gates/H3_OPTION.txt` (v4 Closeout Directive, section 0; G6 amended for exactly these two files). If the account holder later creates, edits or deletes any gate file, their file wins.",
+    "`H1_APPROVED.txt` and `H2_APPROVED.txt` were not created; Track M stays killed. H4 (upload and submission) is never the agent's step."
+  ]
+}

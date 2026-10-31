@@ -1,0 +1,361 @@
+{
+  "report": "v4_addons/reports/D0_report.md",
+  "report_sha256": "329a07c4ba16cb5170197d04f4a1f02a580cb585343eb92520331ecb817671cf",
+  "results_json": "v4_addons/results/d0_checks.json",
+  "tokens": [
+    {
+      "token": "93660.01994885807",
+      "name": "G",
+      "spec": "raw",
+      "value": 93660.01994885807
+    },
+    {
+      "token": "14984.92153410634",
+      "name": "K",
+      "spec": "raw",
+      "value": 14984.92153410634
+    },
+    {
+      "token": "0.1599927219990843",
+      "name": "g_star",
+      "spec": "raw",
+      "value": 0.1599927219990843
+    },
+    {
+      "token": "3747.082455665277",
+      "name": "net_at_20",
+      "spec": "raw",
+      "value": 3747.082455665277
+    },
+    {
+      "token": "2761.36950443581",
+      "name": "slide11_net_lower",
+      "spec": "raw",
+      "value": 2761.36950443581
+    },
+    {
+      "token": "4660.637082299275",
+      "name": "slide11_net_upper",
+      "spec": "raw",
+      "value": 4660.637082299275
+    },
+    {
+      "token": "0.9300037463815178",
+      "name": "p_positive_6_14",
+      "spec": "raw",
+      "value": 0.9300037463815178
+    },
+    {
+      "token": "0.6850373137534997",
+      "name": "p_positive_6_24",
+      "spec": "raw",
+      "value": 0.6850373137534997
+    },
+    {
+      "token": "0.16823329149846597",
+      "name": "p_positive_2_18",
+      "spec": "raw",
+      "value": 0.16823329149846597
+    },
+    {
+      "token": "-1172.9190819783926",
+      "name": "net_5pct_6_14",
+      "spec": "raw",
+      "value": -1172.9190819783926
+    },
+    {
+      "token": "-6166.359913496997",
+      "name": "net_5pct_6_24",
+      "spec": "raw",
+      "value": -6166.359913496997
+    },
+    {
+      "token": "-13202.279123826023",
+      "name": "net_5pct_2_18",
+      "spec": "raw",
+      "value": -13202.279123826023
+    },
+    {
+      "token": "195.7130475430422",
+      "name": "evpi_6_14",
+      "spec": "raw",
+      "value": 195.7130475430422
+    },
+    {
+      "token": "1093.2864143914449",
+      "name": "evpi_6_24",
+      "spec": "raw",
+      "value": 1093.2864143914449
+    },
+    {
+      "token": "832.3583536234751",
+      "name": "evpi_2_18",
+      "spec": "raw",
+      "value": 832.3583536234751
+    },
+    {
+      "token": "45.27087200565012",
+      "name": "evsi_7872_6_14",
+      "spec": "raw",
+      "value": 45.27087200565012
+    },
+    {
+      "token": "531.2203023304611",
+      "name": "evsi_7872_6_24",
+      "spec": "raw",
+      "value": 531.2203023304611
+    },
+    {
+      "token": "455.44761065250725",
+      "name": "evsi_7872_2_18",
+      "spec": "raw",
+      "value": 455.44761065250725
+    },
+    {
+      "token": "0.786",
+      "name": "e4_effect_7872_deff1p0",
+      "spec": "raw",
+      "value": 0.786
+    },
+    {
+      "token": "0.279",
+      "name": "e4_profit_7872_deff1p0",
+      "spec": "raw",
+      "value": 0.279
+    },
+    {
+      "token": "0.76",
+      "name": "e4_effect_7872_deff1p1",
+      "spec": "raw",
+      "value": 0.76
+    },
+    {
+      "token": "0.254",
+      "name": "e4_profit_7872_deff1p1",
+      "spec": "raw",
+      "value": 0.254
+    },
+    {
+      "token": "0.725",
+      "name": "e4_effect_7872_deff1p25",
+      "spec": "raw",
+      "value": 0.725
+    },
+    {
+      "token": "0.216",
+      "name": "e4_profit_7872_deff1p25",
+      "spec": "raw",
+      "value": 0.216
+    },
+    {
+      "token": "0.556",
+      "name": "e4_effect_5000_deff1p1",
+      "spec": "raw",
+      "value": 0.556
+    },
+    {
+      "token": "0.179",
+      "name": "e4_profit_5000_deff1p1",
+      "spec": "raw",
+      "value": 0.179
+    },
+    {
+      "token": "0.076",
+      "name": "dq_7872_g20_deff1p1_p_scale",
+      "spec": "raw",
+      "value": 0.076
+    },
+    {
+      "token": "0.919",
+      "name": "dq_7872_g20_deff1p1_p_extend",
+      "spec": "raw",
+      "value": 0.919
+    },
+    {
+      "token": "0.005",
+      "name": "dq_7872_g20_deff1p1_p_stop",
+      "spec": "raw",
+      "value": 0.005
+    },
+    {
+      "token": "0.832",
+      "name": "e1_binary_power_7872",
+      "spec": "raw",
+      "value": 0.832
+    },
+    {
+      "token": "0.839877574130021",
+      "name": "e1_normal_approx_7872",
+      "spec": "raw",
+      "value": 0.839877574130021
+    },
+    {
+      "token": "0.04842492833163853",
+      "name": "selected_control_churn",
+      "spec": "raw",
+      "value": 0.04842492833163853
+    },
+    {
+      "token": "2.4212464165819263",
+      "name": "transport_ratio",
+      "spec": "raw",
+      "value": 2.4212464165819263
+    },
+    {
+      "token": "0.015464173262384629",
+      "name": "pi_star_g20_startup_excluded",
+      "spec": "raw",
+      "value": 0.015464173262384629
+    },
+    {
+      "token": "1.0074319321515355",
+      "name": "queue_billing_lift_exact",
+      "spec": "raw",
+      "value": 1.0074319321515355
+    },
+    {
+      "token": "0.9797681103472066",
+      "name": "queue_network_lift_exact",
+      "spec": "raw",
+      "value": 0.9797681103472066
+    },
+    {
+      "token": "0.9712900471903978",
+      "name": "queue_handset_lift_exact",
+      "spec": "raw",
+      "value": 0.9712900471903978
+    },
+    {
+      "token": "1.0274432688312296",
+      "name": "queue_residual_lift_exact",
+      "spec": "raw",
+      "value": 1.0274432688312296
+    },
+    {
+      "token": "0.06770666750982451",
+      "name": "se_gamma_hat_difference_scaled",
+      "spec": "raw",
+      "value": 0.06770666750982451
+    },
+    {
+      "token": "0.0605922379589923",
+      "name": "se_gamma_hat_delta_full",
+      "spec": "raw",
+      "value": 0.0605922379589923
+    },
+    {
+      "token": "0.04000727800091572",
+      "name": "gap_assumption_to_break_even",
+      "spec": "raw",
+      "value": 0.04000727800091572
+    },
+    {
+      "token": "6.77 pp",
+      "name": "se_gamma_hat_difference_scaled",
+      "spec": "pp2",
+      "value": 0.06770666750982451
+    },
+    {
+      "token": "6.8 pp",
+      "name": "brief_quote_se_gamma_hat",
+      "spec": "pp1",
+      "value": 0.068
+    },
+    {
+      "token": "6.06 pp",
+      "name": "se_gamma_hat_delta_full",
+      "spec": "pp2",
+      "value": 0.0605922379589923
+    },
+    {
+      "token": "4.0 pp",
+      "name": "gap_assumption_to_break_even",
+      "spec": "pp1",
+      "value": 0.04000727800091572
+    },
+    {
+      "token": "1.69",
+      "name": "se_over_gap_difference_scaled",
+      "spec": "f2",
+      "value": 1.6923587630299364
+    },
+    {
+      "token": "1.51",
+      "name": "se_over_gap_full",
+      "spec": "f2",
+      "value": 1.5145303801374694
+    },
+    {
+      "token": "0.979",
+      "name": "brief_quote_queue_network_lift",
+      "spec": "f3",
+      "value": 0.979
+    },
+    {
+      "token": "0.972",
+      "name": "brief_quote_queue_handset_lift",
+      "spec": "f3",
+      "value": 0.972
+    },
+    {
+      "token": "0.980",
+      "name": "queue_network_lift_exact",
+      "spec": "f3",
+      "value": 0.9797681103472066
+    },
+    {
+      "token": "0.971",
+      "name": "queue_handset_lift_exact",
+      "spec": "f3",
+      "value": 0.9712900471903978
+    },
+    {
+      "token": "0.9525",
+      "name": "v2_80k_adjusted_power_test",
+      "spec": "f4",
+      "value": 0.9525
+    },
+    {
+      "token": "0.3725",
+      "name": "v2_80k_unadjusted_power_test",
+      "spec": "f4",
+      "value": 0.3725
+    },
+    {
+      "token": "0.9725",
+      "name": "v2_80k_adjusted_power_calibration",
+      "spec": "f4",
+      "value": 0.9725
+    },
+    {
+      "token": "0.5025",
+      "name": "v2_80k_unadjusted_power_calibration",
+      "spec": "f4",
+      "value": 0.5025
+    },
+    {
+      "token": "80,000",
+      "name": "v2_grid_adjusted_calibration",
+      "spec": "int",
+      "value": 80000
+    },
+    {
+      "token": "4,246",
+      "name": "v3_outside_file_count",
+      "spec": "int",
+      "value": 4246
+    },
+    {
+      "token": "6",
+      "name": "threads",
+      "spec": "int",
+      "value": 6
+    },
+    {
+      "token": "20,261,028",
+      "name": "seed",
+      "spec": "int",
+      "value": 20261028
+    }
+  ]
+}

@@ -1,0 +1,1574 @@
+{
+  "deliverable_hashes": {
+    "philopateer.ipynb": {
+      "actual": "aaa170b19923c087f9b38f85b546626b7465a3d17f5ae7037812c6aed5736b35",
+      "handoff": "aaa170b19923c087f9b38f85b546626b7465a3d17f5ae7037812c6aed5736b35",
+      "match": true,
+      "size": 1857125
+    },
+    "philopateer.pdf": {
+      "actual": "a51d2c0ff8aa6ebb0f679e680d6424b01cd7b95b9a0d23ae7a2eecc56de210ea",
+      "handoff": "a51d2c0ff8aa6ebb0f679e680d6424b01cd7b95b9a0d23ae7a2eecc56de210ea",
+      "match": true,
+      "size": 846608
+    },
+    "philopateer.pptx": {
+      "actual": "a50a66fd77d062bdc45aeefb00ce8652b20b952de06dcb27e8ab4f15c37e46bc",
+      "handoff": "a50a66fd77d062bdc45aeefb00ce8652b20b952de06dcb27e8ab4f15c37e46bc",
+      "match": true,
+      "size": 1310666
+    },
+    "references.txt": {
+      "actual": "b12fb18aafc83e2d599e15d04c689ee5cd85c10082c1761ab0c6f1d01606d361",
+      "handoff": "b12fb18aafc83e2d599e15d04c689ee5cd85c10082c1761ab0c6f1d01606d361",
+      "match": true,
+      "size": 18843
+    }
+  },
+  "deliverable_hashes_all_match": true,
+  "notes": [
+    "G, K, g_star, net_at_20 recomputed from deployment_policies.bayes with prevention 0.2 and startup 5000.",
+    "Prior table recomputed in closed form (scipy beta sf/ppf) and compared with WP3 closed_form values.",
+    "SE(gamma-hat): two formulas reported; see matches_expected flags (G10 - discrepancy reported, not tuned).",
+    "v2 80,000/arm adjusted power: pilot_test rows give 0.9525/0.3725 (review quote); pilot_calibration rows give 0.9725/0.5025. Both grids select 80,000."
+  ],
+  "numbers": {
+    "G": {
+      "expected": 93660.01994886,
+      "expected_tolerance": 1e-06,
+      "formula": "bayes_actual_gross / prevention_assumption",
+      "inputs": [
+        "bayes_actual_gross",
+        "prevention_assumption"
+      ],
+      "matches_expected": true,
+      "note": "gross contribution per unit prevention, 100k cohort, nominal 10% contact (brief section 9)",
+      "sha256_of_source": null,
+      "source_file": null,
+      "source_key": null,
+      "tag": "[E]",
+      "value": 93660.01994885807
+    },
+    "K": {
+      "expected": 14984.92153411,
+      "expected_tolerance": 1e-06,
+      "formula": "bayes_contacts + startup_cost",
+      "inputs": [
+        "bayes_contacts",
+        "startup_cost"
+      ],
+      "matches_expected": true,
+      "note": "variable contact cost at $1 per weighted contact plus $5,000 startup",
+      "sha256_of_source": null,
+      "source_file": null,
+      "source_key": null,
+      "tag": "[E]",
+      "value": 14984.92153410634
+    },
+    "bayes_actual_gross": {
+      "sha256_of_source": "1d14a4fea10ab391631379f82cd6a82e5a65ede4f01db5b540c9aec3612eea1e",
+      "source_file": "v2_work/final_metrics.json",
+      "source_key": "deployment_policies.bayes.actual_gross",
+      "tag": "[E]",
+      "value": 18732.003989771616
+    },
+    "bayes_break_even_success": {
+      "sha256_of_source": "1d14a4fea10ab391631379f82cd6a82e5a65ede4f01db5b540c9aec3612eea1e",
+      "source_file": "v2_work/final_metrics.json",
+      "source_key": "deployment_policies.bayes.break_even_success",
+      "tag": "[E]",
+      "value": 0.1599927219990843
+    },
+    "bayes_contacts": {
+      "sha256_of_source": "1d14a4fea10ab391631379f82cd6a82e5a65ede4f01db5b540c9aec3612eea1e",
+      "source_file": "v2_work/final_metrics.json",
+      "source_key": "deployment_policies.bayes.contacts",
+      "tag": "[E]",
+      "value": 9984.92153410634
+    },
+    "bayes_net": {
+      "sha256_of_source": "1d14a4fea10ab391631379f82cd6a82e5a65ede4f01db5b540c9aec3612eea1e",
+      "source_file": "v2_work/final_metrics.json",
+      "source_key": "deployment_policies.bayes.net",
+      "tag": "[E]",
+      "value": 3747.082455665277
+    },
+    "brief_quote_queue_handset_lift": {
+      "formula": "0.972",
+      "inputs": [],
+      "note": "v4 brief section 9 reviewer arithmetic",
+      "sha256_of_source": null,
+      "source_file": null,
+      "source_key": null,
+      "tag": "[R]",
+      "value": 0.972
+    },
+    "brief_quote_queue_network_lift": {
+      "formula": "0.979",
+      "inputs": [],
+      "note": "v4 brief section 9 reviewer arithmetic",
+      "sha256_of_source": null,
+      "source_file": null,
+      "source_key": null,
+      "tag": "[R]",
+      "value": 0.979
+    },
+    "brief_quote_se_gamma_hat": {
+      "formula": "0.068",
+      "inputs": [],
+      "note": "v4 brief section 9: \"SE(gamma-hat) at 7,872/arm (delta method) ~ 6.8 pp\"",
+      "sha256_of_source": null,
+      "source_file": null,
+      "source_key": null,
+      "tag": "[R]",
+      "value": 0.068
+    },
+    "control_incremental_contact_cost": {
+      "sha256_of_source": "1d14a4fea10ab391631379f82cd6a82e5a65ede4f01db5b540c9aec3612eea1e",
+      "source_file": "v2_work/final_metrics.json",
+      "source_key": "pilot_calibration.spec.cost_assumptions.control_incremental_contact",
+      "tag": "[A]",
+      "value": 0.0
+    },
+    "deployment_prior": {
+      "formula": "0.02",
+      "inputs": [],
+      "note": "hypothetical 2% deployment prior (final_metrics prior_stress row 2 / a_spec)",
+      "sha256_of_source": null,
+      "source_file": null,
+      "source_key": null,
+      "tag": "[A]",
+      "value": 0.02
+    },
+    "dq_7872_g0_deff1p1_p_extend": {
+      "sha256_of_source": "1ad721f80356881cf37a4e5a1f15f7856760983d9aff0f5b7c1c750879423be0",
+      "source_file": "v3_addons/results/wp2_decision_quality.csv",
+      "source_key": "where(n_per_arm=7872;gamma=0.0;deff=1.1).p_extend",
+      "tag": "[E]",
+      "value": 0.475
+    },
+    "dq_7872_g0_deff1p1_p_stop": {
+      "sha256_of_source": "1ad721f80356881cf37a4e5a1f15f7856760983d9aff0f5b7c1c750879423be0",
+      "source_file": "v3_addons/results/wp2_decision_quality.csv",
+      "source_key": "where(n_per_arm=7872;gamma=0.0;deff=1.1).p_stop",
+      "tag": "[E]",
+      "value": 0.525
+    },
+    "dq_7872_g20_deff1p1_p_extend": {
+      "sha256_of_source": "1ad721f80356881cf37a4e5a1f15f7856760983d9aff0f5b7c1c750879423be0",
+      "source_file": "v3_addons/results/wp2_decision_quality.csv",
+      "source_key": "where(n_per_arm=7872;gamma=0.2;deff=1.1).p_extend",
+      "tag": "[E]",
+      "value": 0.919
+    },
+    "dq_7872_g20_deff1p1_p_scale": {
+      "sha256_of_source": "1ad721f80356881cf37a4e5a1f15f7856760983d9aff0f5b7c1c750879423be0",
+      "source_file": "v3_addons/results/wp2_decision_quality.csv",
+      "source_key": "where(n_per_arm=7872;gamma=0.2;deff=1.1).p_scale",
+      "tag": "[E]",
+      "value": 0.076
+    },
+    "dq_7872_g20_deff1p1_p_stop": {
+      "sha256_of_source": "1ad721f80356881cf37a4e5a1f15f7856760983d9aff0f5b7c1c750879423be0",
+      "source_file": "v3_addons/results/wp2_decision_quality.csv",
+      "source_key": "where(n_per_arm=7872;gamma=0.2;deff=1.1).p_stop",
+      "tag": "[E]",
+      "value": 0.005
+    },
+    "e1_binary_power_7872": {
+      "sha256_of_source": "175374f8c495aa598915568c6d4686cba61bfd26d09f1672bc364bddc0228bea",
+      "source_file": "v3_addons/results/wp1_power.csv",
+      "source_key": "where(method=E1_churn;n_per_arm=7872;gamma=0.2;deff=1.0).effect_power",
+      "tag": "[E]",
+      "value": 0.832
+    },
+    "e1_normal_approx_7872": {
+      "expected": 0.84,
+      "expected_tolerance": 0.01,
+      "formula": "norm_cdf((p0 - p1) / sqrt(p0 * (1 - p0) / enrolled_per_arm + p1 * (1 - p1) / enrolled_per_arm) - norm_ppf(0.975))",
+      "inputs": [
+        "enrolled_per_arm",
+        "p0",
+        "p1"
+      ],
+      "matches_expected": true,
+      "note": "two-sample normal approximation, no follow-up loss",
+      "sha256_of_source": null,
+      "source_file": null,
+      "source_key": null,
+      "tag": "[E]",
+      "value": 0.839877574130021
+    },
+    "e4_effect_5000_deff1p1": {
+      "sha256_of_source": "175374f8c495aa598915568c6d4686cba61bfd26d09f1672bc364bddc0228bea",
+      "source_file": "v3_addons/results/wp1_power.csv",
+      "source_key": "where(method=E4_V_stratified;n_per_arm=5000;gamma=0.2;deff=1.1).effect_power",
+      "tag": "[E]",
+      "value": 0.556
+    },
+    "e4_effect_7872_deff1p0": {
+      "sha256_of_source": "175374f8c495aa598915568c6d4686cba61bfd26d09f1672bc364bddc0228bea",
+      "source_file": "v3_addons/results/wp1_power.csv",
+      "source_key": "where(method=E4_V_stratified;n_per_arm=7872;gamma=0.2;deff=1.0).effect_power",
+      "tag": "[E]",
+      "value": 0.786
+    },
+    "e4_effect_7872_deff1p1": {
+      "sha256_of_source": "175374f8c495aa598915568c6d4686cba61bfd26d09f1672bc364bddc0228bea",
+      "source_file": "v3_addons/results/wp1_power.csv",
+      "source_key": "where(method=E4_V_stratified;n_per_arm=7872;gamma=0.2;deff=1.1).effect_power",
+      "tag": "[E]",
+      "value": 0.76
+    },
+    "e4_effect_7872_deff1p25": {
+      "sha256_of_source": "175374f8c495aa598915568c6d4686cba61bfd26d09f1672bc364bddc0228bea",
+      "source_file": "v3_addons/results/wp1_power.csv",
+      "source_key": "where(method=E4_V_stratified;n_per_arm=7872;gamma=0.2;deff=1.25).effect_power",
+      "tag": "[E]",
+      "value": 0.725
+    },
+    "e4_profit_5000_deff1p1": {
+      "sha256_of_source": "175374f8c495aa598915568c6d4686cba61bfd26d09f1672bc364bddc0228bea",
+      "source_file": "v3_addons/results/wp1_power.csv",
+      "source_key": "where(method=E4_V_stratified;n_per_arm=5000;gamma=0.2;deff=1.1).profit_power",
+      "tag": "[E]",
+      "value": 0.179
+    },
+    "e4_profit_7872_deff1p0": {
+      "sha256_of_source": "175374f8c495aa598915568c6d4686cba61bfd26d09f1672bc364bddc0228bea",
+      "source_file": "v3_addons/results/wp1_power.csv",
+      "source_key": "where(method=E4_V_stratified;n_per_arm=7872;gamma=0.2;deff=1.0).profit_power",
+      "tag": "[E]",
+      "value": 0.279
+    },
+    "e4_profit_7872_deff1p1": {
+      "sha256_of_source": "175374f8c495aa598915568c6d4686cba61bfd26d09f1672bc364bddc0228bea",
+      "source_file": "v3_addons/results/wp1_power.csv",
+      "source_key": "where(method=E4_V_stratified;n_per_arm=7872;gamma=0.2;deff=1.1).profit_power",
+      "tag": "[E]",
+      "value": 0.254
+    },
+    "e4_profit_7872_deff1p25": {
+      "sha256_of_source": "175374f8c495aa598915568c6d4686cba61bfd26d09f1672bc364bddc0228bea",
+      "source_file": "v3_addons/results/wp1_power.csv",
+      "source_key": "where(method=E4_V_stratified;n_per_arm=7872;gamma=0.2;deff=1.25).profit_power",
+      "tag": "[E]",
+      "value": 0.216
+    },
+    "enrolled_per_arm": {
+      "sha256_of_source": "1d14a4fea10ab391631379f82cd6a82e5a65ede4f01db5b540c9aec3612eea1e",
+      "source_file": "v2_work/final_metrics.json",
+      "source_key": "pilot_calibration.spec.normal_binary_reference.enrolled_per_arm",
+      "tag": "[E]",
+      "value": 7872
+    },
+    "evpi12_2_18": {
+      "expected": 9988.3,
+      "expected_tolerance": 0.005,
+      "formula": "12 * evpi_2_18",
+      "inputs": [
+        "evpi_2_18"
+      ],
+      "matches_expected": true,
+      "note": "12 identical cohorts assumed",
+      "sha256_of_source": null,
+      "source_file": null,
+      "source_key": null,
+      "tag": "[A]",
+      "value": 9988.3002434817
+    },
+    "evpi12_6_14": {
+      "expected": 2348.56,
+      "expected_tolerance": 0.005,
+      "formula": "12 * evpi_6_14",
+      "inputs": [
+        "evpi_6_14"
+      ],
+      "matches_expected": true,
+      "note": "12 identical cohorts assumed",
+      "sha256_of_source": null,
+      "source_file": null,
+      "source_key": null,
+      "tag": "[A]",
+      "value": 2348.5565705165063
+    },
+    "evpi12_6_24": {
+      "expected": 13119.44,
+      "expected_tolerance": 0.005,
+      "formula": "12 * evpi_6_24",
+      "inputs": [
+        "evpi_6_24"
+      ],
+      "matches_expected": true,
+      "note": "12 identical cohorts assumed",
+      "sha256_of_source": null,
+      "source_file": null,
+      "source_key": null,
+      "tag": "[A]",
+      "value": 13119.436972697338
+    },
+    "evpi_2_18": {
+      "expected": 832.36,
+      "expected_tolerance": 0.005,
+      "formula": "G * beta_mean(prior_2_18_a, prior_2_18_b) * beta_sf(g_star, prior_2_18_a + 1, prior_2_18_b) - K * beta_sf(g_star, prior_2_18_a, prior_2_18_b) - max(expected_net_2_18, 0)",
+      "inputs": [
+        "G",
+        "K",
+        "expected_net_2_18",
+        "g_star",
+        "prior_2_18_a",
+        "prior_2_18_b"
+      ],
+      "matches_expected": true,
+      "note": "EVPI per cohort = E[(G*gamma-K)^+] - (E[net])^+ for Beta prior, closed form",
+      "sha256_of_source": null,
+      "source_file": null,
+      "source_key": null,
+      "tag": "[E]",
+      "value": 832.3583536234751
+    },
+    "evpi_2_18_vs_wp3": {
+      "expected": 0.0,
+      "expected_tolerance": 1e-06,
+      "formula": "abs(evpi_2_18 - evpi_2_18_wp3)",
+      "inputs": [
+        "evpi_2_18",
+        "evpi_2_18_wp3"
+      ],
+      "matches_expected": true,
+      "sha256_of_source": null,
+      "source_file": null,
+      "source_key": null,
+      "tag": "[E]",
+      "value": 2.2737367544323206e-13
+    },
+    "evpi_2_18_wp3": {
+      "sha256_of_source": "96aa9a75869c53079e1442a26f1f3d08f5261d735e61a5195a658955843a5dd1",
+      "source_file": "v3_addons/results/wp3_roi_band.json",
+      "source_key": "priors[2].closed_form.evpi_per_cohort",
+      "tag": "[E]",
+      "value": 832.3583536234748
+    },
+    "evpi_6_14": {
+      "expected": 195.71,
+      "expected_tolerance": 0.005,
+      "formula": "G * beta_mean(prior_6_14_a, prior_6_14_b) * beta_sf(g_star, prior_6_14_a + 1, prior_6_14_b) - K * beta_sf(g_star, prior_6_14_a, prior_6_14_b) - max(expected_net_6_14, 0)",
+      "inputs": [
+        "G",
+        "K",
+        "expected_net_6_14",
+        "g_star",
+        "prior_6_14_a",
+        "prior_6_14_b"
+      ],
+      "matches_expected": true,
+      "note": "EVPI per cohort = E[(G*gamma-K)^+] - (E[net])^+ for Beta prior, closed form",
+      "sha256_of_source": null,
+      "source_file": null,
+      "source_key": null,
+      "tag": "[E]",
+      "value": 195.7130475430422
+    },
+    "evpi_6_14_vs_wp3": {
+      "expected": 0.0,
+      "expected_tolerance": 1e-06,
+      "formula": "abs(evpi_6_14 - evpi_6_14_wp3)",
+      "inputs": [
+        "evpi_6_14",
+        "evpi_6_14_wp3"
+      ],
+      "matches_expected": true,
+      "sha256_of_source": null,
+      "source_file": null,
+      "source_key": null,
+      "tag": "[E]",
+      "value": 0.0
+    },
+    "evpi_6_14_wp3": {
+      "sha256_of_source": "96aa9a75869c53079e1442a26f1f3d08f5261d735e61a5195a658955843a5dd1",
+      "source_file": "v3_addons/results/wp3_roi_band.json",
+      "source_key": "priors[0].closed_form.evpi_per_cohort",
+      "tag": "[E]",
+      "value": 195.7130475430422
+    },
+    "evpi_6_24": {
+      "expected": 1093.29,
+      "expected_tolerance": 0.005,
+      "formula": "G * beta_mean(prior_6_24_a, prior_6_24_b) * beta_sf(g_star, prior_6_24_a + 1, prior_6_24_b) - K * beta_sf(g_star, prior_6_24_a, prior_6_24_b) - max(expected_net_6_24, 0)",
+      "inputs": [
+        "G",
+        "K",
+        "expected_net_6_24",
+        "g_star",
+        "prior_6_24_a",
+        "prior_6_24_b"
+      ],
+      "matches_expected": true,
+      "note": "EVPI per cohort = E[(G*gamma-K)^+] - (E[net])^+ for Beta prior, closed form",
+      "sha256_of_source": null,
+      "source_file": null,
+      "source_key": null,
+      "tag": "[E]",
+      "value": 1093.2864143914449
+    },
+    "evpi_6_24_vs_wp3": {
+      "expected": 0.0,
+      "expected_tolerance": 1e-06,
+      "formula": "abs(evpi_6_24 - evpi_6_24_wp3)",
+      "inputs": [
+        "evpi_6_24",
+        "evpi_6_24_wp3"
+      ],
+      "matches_expected": true,
+      "sha256_of_source": null,
+      "source_file": null,
+      "source_key": null,
+      "tag": "[E]",
+      "value": 9.094947017729282e-13
+    },
+    "evpi_6_24_wp3": {
+      "sha256_of_source": "96aa9a75869c53079e1442a26f1f3d08f5261d735e61a5195a658955843a5dd1",
+      "source_file": "v3_addons/results/wp3_roi_band.json",
+      "source_key": "priors[1].closed_form.evpi_per_cohort",
+      "tag": "[E]",
+      "value": 1093.2864143914458
+    },
+    "evsi_7872_2_18": {
+      "note": "numerical preposterior value per cohort; not funding proof",
+      "sha256_of_source": "cd64fe05f11e974916e461d6f12764cff53ecd7f62fb8a1e461d966611c2e405",
+      "source_file": "v3_addons/results/wp2_evsi.json",
+      "source_key": "scenarios[4].evsi_per_cohort",
+      "tag": "[E]",
+      "value": 455.44761065250725
+    },
+    "evsi_7872_2_18_vs_expected": {
+      "expected": 0.0,
+      "expected_tolerance": 0.005,
+      "formula": "abs(evsi_7872_2_18 - 455.45)",
+      "inputs": [
+        "evsi_7872_2_18"
+      ],
+      "matches_expected": true,
+      "sha256_of_source": null,
+      "source_file": null,
+      "source_key": null,
+      "tag": "[E]",
+      "value": 0.00238934749273767
+    },
+    "evsi_7872_6_14": {
+      "note": "numerical preposterior value per cohort; not funding proof",
+      "sha256_of_source": "cd64fe05f11e974916e461d6f12764cff53ecd7f62fb8a1e461d966611c2e405",
+      "source_file": "v3_addons/results/wp2_evsi.json",
+      "source_key": "scenarios[0].evsi_per_cohort",
+      "tag": "[E]",
+      "value": 45.27087200565012
+    },
+    "evsi_7872_6_14_vs_expected": {
+      "expected": 0.0,
+      "expected_tolerance": 0.005,
+      "formula": "abs(evsi_7872_6_14 - 45.27)",
+      "inputs": [
+        "evsi_7872_6_14"
+      ],
+      "matches_expected": true,
+      "sha256_of_source": null,
+      "source_file": null,
+      "source_key": null,
+      "tag": "[E]",
+      "value": 0.0008720056501161366
+    },
+    "evsi_7872_6_24": {
+      "note": "numerical preposterior value per cohort; not funding proof",
+      "sha256_of_source": "cd64fe05f11e974916e461d6f12764cff53ecd7f62fb8a1e461d966611c2e405",
+      "source_file": "v3_addons/results/wp2_evsi.json",
+      "source_key": "scenarios[2].evsi_per_cohort",
+      "tag": "[E]",
+      "value": 531.2203023304611
+    },
+    "evsi_7872_6_24_vs_expected": {
+      "expected": 0.0,
+      "expected_tolerance": 0.005,
+      "formula": "abs(evsi_7872_6_24 - 531.22)",
+      "inputs": [
+        "evsi_7872_6_24"
+      ],
+      "matches_expected": true,
+      "sha256_of_source": null,
+      "source_file": null,
+      "source_key": null,
+      "tag": "[E]",
+      "value": 0.00030233046106786787
+    },
+    "expected_net_2_18": {
+      "formula": "G * beta_mean(prior_2_18_a, prior_2_18_b) - K",
+      "inputs": [
+        "G",
+        "K",
+        "prior_2_18_a",
+        "prior_2_18_b"
+      ],
+      "sha256_of_source": null,
+      "source_file": null,
+      "source_key": null,
+      "tag": "[E]",
+      "value": -5618.919539220531
+    },
+    "expected_net_2_18_vs_wp3": {
+      "expected": 0.0,
+      "expected_tolerance": 1e-06,
+      "formula": "abs(expected_net_2_18 - expected_net_2_18_wp3)",
+      "inputs": [
+        "expected_net_2_18",
+        "expected_net_2_18_wp3"
+      ],
+      "matches_expected": true,
+      "sha256_of_source": null,
+      "source_file": null,
+      "source_key": null,
+      "tag": "[E]",
+      "value": 0.0
+    },
+    "expected_net_2_18_wp3": {
+      "sha256_of_source": "96aa9a75869c53079e1442a26f1f3d08f5261d735e61a5195a658955843a5dd1",
+      "source_file": "v3_addons/results/wp3_roi_band.json",
+      "source_key": "priors[2].closed_form.expected_net",
+      "tag": "[E]",
+      "value": -5618.919539220531
+    },
+    "expected_net_6_14": {
+      "formula": "G * beta_mean(prior_6_14_a, prior_6_14_b) - K",
+      "inputs": [
+        "G",
+        "K",
+        "prior_6_14_a",
+        "prior_6_14_b"
+      ],
+      "sha256_of_source": null,
+      "source_file": null,
+      "source_key": null,
+      "tag": "[E]",
+      "value": 13113.08445055108
+    },
+    "expected_net_6_14_vs_wp3": {
+      "expected": 0.0,
+      "expected_tolerance": 1e-06,
+      "formula": "abs(expected_net_6_14 - expected_net_6_14_wp3)",
+      "inputs": [
+        "expected_net_6_14",
+        "expected_net_6_14_wp3"
+      ],
+      "matches_expected": true,
+      "sha256_of_source": null,
+      "source_file": null,
+      "source_key": null,
+      "tag": "[E]",
+      "value": 0.0
+    },
+    "expected_net_6_14_wp3": {
+      "sha256_of_source": "96aa9a75869c53079e1442a26f1f3d08f5261d735e61a5195a658955843a5dd1",
+      "source_file": "v3_addons/results/wp3_roi_band.json",
+      "source_key": "priors[0].closed_form.expected_net",
+      "tag": "[E]",
+      "value": 13113.08445055108
+    },
+    "expected_net_6_24": {
+      "formula": "G * beta_mean(prior_6_24_a, prior_6_24_b) - K",
+      "inputs": [
+        "G",
+        "K",
+        "prior_6_24_a",
+        "prior_6_24_b"
+      ],
+      "sha256_of_source": null,
+      "source_file": null,
+      "source_key": null,
+      "tag": "[E]",
+      "value": 3747.082455665277
+    },
+    "expected_net_6_24_vs_wp3": {
+      "expected": 0.0,
+      "expected_tolerance": 1e-06,
+      "formula": "abs(expected_net_6_24 - expected_net_6_24_wp3)",
+      "inputs": [
+        "expected_net_6_24",
+        "expected_net_6_24_wp3"
+      ],
+      "matches_expected": true,
+      "sha256_of_source": null,
+      "source_file": null,
+      "source_key": null,
+      "tag": "[E]",
+      "value": 0.0
+    },
+    "expected_net_6_24_wp3": {
+      "sha256_of_source": "96aa9a75869c53079e1442a26f1f3d08f5261d735e61a5195a658955843a5dd1",
+      "source_file": "v3_addons/results/wp3_roi_band.json",
+      "source_key": "priors[1].closed_form.expected_net",
+      "tag": "[E]",
+      "value": 3747.082455665277
+    },
+    "g_star": {
+      "expected": 0.159992722,
+      "expected_tolerance": 1e-06,
+      "formula": "K / G",
+      "inputs": [
+        "G",
+        "K"
+      ],
+      "matches_expected": true,
+      "note": "break-even prevention = K/G",
+      "sha256_of_source": null,
+      "source_file": null,
+      "source_key": null,
+      "tag": "[E]",
+      "value": 0.1599927219990843
+    },
+    "g_star_vs_stored": {
+      "formula": "abs(g_star - bayes_break_even_success)",
+      "inputs": [
+        "bayes_break_even_success",
+        "g_star"
+      ],
+      "note": "closed form vs stored break_even_success",
+      "sha256_of_source": null,
+      "source_file": null,
+      "source_key": null,
+      "tag": "[E]",
+      "value": 0.0
+    },
+    "gap_assumption_to_break_even": {
+      "formula": "prevention_assumption - g_star",
+      "inputs": [
+        "g_star",
+        "prevention_assumption"
+      ],
+      "note": "20% assumed prevention minus break-even",
+      "sha256_of_source": null,
+      "source_file": null,
+      "source_key": null,
+      "tag": "[E]",
+      "value": 0.04000727800091572
+    },
+    "net_5pct_2_18": {
+      "expected": -13202.28,
+      "expected_tolerance": 0.005,
+      "formula": "G * beta_ppf(0.05, prior_2_18_a, prior_2_18_b) - K",
+      "inputs": [
+        "G",
+        "K",
+        "prior_2_18_a",
+        "prior_2_18_b"
+      ],
+      "matches_expected": true,
+      "sha256_of_source": null,
+      "source_file": null,
+      "source_key": null,
+      "tag": "[E]",
+      "value": -13202.279123826023
+    },
+    "net_5pct_2_18_vs_wp3": {
+      "expected": 0.0,
+      "expected_tolerance": 1e-06,
+      "formula": "abs(net_5pct_2_18 - net_5pct_2_18_wp3)",
+      "inputs": [
+        "net_5pct_2_18",
+        "net_5pct_2_18_wp3"
+      ],
+      "matches_expected": true,
+      "sha256_of_source": null,
+      "source_file": null,
+      "source_key": null,
+      "tag": "[E]",
+      "value": 0.0
+    },
+    "net_5pct_2_18_wp3": {
+      "sha256_of_source": "96aa9a75869c53079e1442a26f1f3d08f5261d735e61a5195a658955843a5dd1",
+      "source_file": "v3_addons/results/wp3_roi_band.json",
+      "source_key": "priors[2].closed_form.net_5pct",
+      "tag": "[E]",
+      "value": -13202.279123826023
+    },
+    "net_5pct_6_14": {
+      "expected": -1172.92,
+      "expected_tolerance": 0.005,
+      "formula": "G * beta_ppf(0.05, prior_6_14_a, prior_6_14_b) - K",
+      "inputs": [
+        "G",
+        "K",
+        "prior_6_14_a",
+        "prior_6_14_b"
+      ],
+      "matches_expected": true,
+      "sha256_of_source": null,
+      "source_file": null,
+      "source_key": null,
+      "tag": "[E]",
+      "value": -1172.9190819783926
+    },
+    "net_5pct_6_14_vs_wp3": {
+      "expected": 0.0,
+      "expected_tolerance": 1e-06,
+      "formula": "abs(net_5pct_6_14 - net_5pct_6_14_wp3)",
+      "inputs": [
+        "net_5pct_6_14",
+        "net_5pct_6_14_wp3"
+      ],
+      "matches_expected": true,
+      "sha256_of_source": null,
+      "source_file": null,
+      "source_key": null,
+      "tag": "[E]",
+      "value": 0.0
+    },
+    "net_5pct_6_14_wp3": {
+      "sha256_of_source": "96aa9a75869c53079e1442a26f1f3d08f5261d735e61a5195a658955843a5dd1",
+      "source_file": "v3_addons/results/wp3_roi_band.json",
+      "source_key": "priors[0].closed_form.net_5pct",
+      "tag": "[E]",
+      "value": -1172.9190819783926
+    },
+    "net_5pct_6_24": {
+      "expected": -6166.36,
+      "expected_tolerance": 0.005,
+      "formula": "G * beta_ppf(0.05, prior_6_24_a, prior_6_24_b) - K",
+      "inputs": [
+        "G",
+        "K",
+        "prior_6_24_a",
+        "prior_6_24_b"
+      ],
+      "matches_expected": true,
+      "sha256_of_source": null,
+      "source_file": null,
+      "source_key": null,
+      "tag": "[E]",
+      "value": -6166.359913496997
+    },
+    "net_5pct_6_24_vs_wp3": {
+      "expected": 0.0,
+      "expected_tolerance": 1e-06,
+      "formula": "abs(net_5pct_6_24 - net_5pct_6_24_wp3)",
+      "inputs": [
+        "net_5pct_6_24",
+        "net_5pct_6_24_wp3"
+      ],
+      "matches_expected": true,
+      "sha256_of_source": null,
+      "source_file": null,
+      "source_key": null,
+      "tag": "[E]",
+      "value": 0.0
+    },
+    "net_5pct_6_24_wp3": {
+      "sha256_of_source": "96aa9a75869c53079e1442a26f1f3d08f5261d735e61a5195a658955843a5dd1",
+      "source_file": "v3_addons/results/wp3_roi_band.json",
+      "source_key": "priors[1].closed_form.net_5pct",
+      "tag": "[E]",
+      "value": -6166.359913496997
+    },
+    "net_at_20": {
+      "expected": 3747.082456,
+      "expected_tolerance": 1e-06,
+      "formula": "G * 0.2 - K",
+      "inputs": [
+        "G",
+        "K"
+      ],
+      "matches_expected": true,
+      "sha256_of_source": null,
+      "source_file": null,
+      "source_key": null,
+      "tag": "[E]",
+      "value": 3747.082455665277
+    },
+    "net_at_20_vs_stored": {
+      "formula": "abs(net_at_20 - bayes_net)",
+      "inputs": [
+        "bayes_net",
+        "net_at_20"
+      ],
+      "sha256_of_source": null,
+      "source_file": null,
+      "source_key": null,
+      "tag": "[E]",
+      "value": 0.0
+    },
+    "p0": {
+      "sha256_of_source": "1d14a4fea10ab391631379f82cd6a82e5a65ede4f01db5b540c9aec3612eea1e",
+      "source_file": "v2_work/final_metrics.json",
+      "source_key": "pilot_calibration.spec.normal_binary_reference.p0",
+      "tag": "[A]",
+      "value": 0.04771148430230854
+    },
+    "p1": {
+      "sha256_of_source": "1d14a4fea10ab391631379f82cd6a82e5a65ede4f01db5b540c9aec3612eea1e",
+      "source_file": "v2_work/final_metrics.json",
+      "source_key": "pilot_calibration.spec.normal_binary_reference.p1",
+      "tag": "[A]",
+      "value": 0.03816918744184683
+    },
+    "p_positive_2_18": {
+      "expected": 0.168233,
+      "expected_tolerance": 1e-06,
+      "formula": "beta_sf(g_star, prior_2_18_a, prior_2_18_b)",
+      "inputs": [
+        "g_star",
+        "prior_2_18_a",
+        "prior_2_18_b"
+      ],
+      "matches_expected": true,
+      "sha256_of_source": null,
+      "source_file": null,
+      "source_key": null,
+      "tag": "[E]",
+      "value": 0.16823329149846597
+    },
+    "p_positive_2_18_vs_wp3": {
+      "expected": 0.0,
+      "expected_tolerance": 1e-09,
+      "formula": "abs(p_positive_2_18 - p_positive_2_18_wp3)",
+      "inputs": [
+        "p_positive_2_18",
+        "p_positive_2_18_wp3"
+      ],
+      "matches_expected": true,
+      "sha256_of_source": null,
+      "source_file": null,
+      "source_key": null,
+      "tag": "[E]",
+      "value": 0.0
+    },
+    "p_positive_2_18_wp3": {
+      "sha256_of_source": "96aa9a75869c53079e1442a26f1f3d08f5261d735e61a5195a658955843a5dd1",
+      "source_file": "v3_addons/results/wp3_roi_band.json",
+      "source_key": "priors[2].closed_form.p_positive",
+      "tag": "[E]",
+      "value": 0.16823329149846597
+    },
+    "p_positive_6_14": {
+      "expected": 0.930004,
+      "expected_tolerance": 1e-06,
+      "formula": "beta_sf(g_star, prior_6_14_a, prior_6_14_b)",
+      "inputs": [
+        "g_star",
+        "prior_6_14_a",
+        "prior_6_14_b"
+      ],
+      "matches_expected": true,
+      "sha256_of_source": null,
+      "source_file": null,
+      "source_key": null,
+      "tag": "[E]",
+      "value": 0.9300037463815178
+    },
+    "p_positive_6_14_vs_wp3": {
+      "expected": 0.0,
+      "expected_tolerance": 1e-09,
+      "formula": "abs(p_positive_6_14 - p_positive_6_14_wp3)",
+      "inputs": [
+        "p_positive_6_14",
+        "p_positive_6_14_wp3"
+      ],
+      "matches_expected": true,
+      "sha256_of_source": null,
+      "source_file": null,
+      "source_key": null,
+      "tag": "[E]",
+      "value": 0.0
+    },
+    "p_positive_6_14_wp3": {
+      "sha256_of_source": "96aa9a75869c53079e1442a26f1f3d08f5261d735e61a5195a658955843a5dd1",
+      "source_file": "v3_addons/results/wp3_roi_band.json",
+      "source_key": "priors[0].closed_form.p_positive",
+      "tag": "[E]",
+      "value": 0.9300037463815178
+    },
+    "p_positive_6_24": {
+      "expected": 0.685037,
+      "expected_tolerance": 1e-06,
+      "formula": "beta_sf(g_star, prior_6_24_a, prior_6_24_b)",
+      "inputs": [
+        "g_star",
+        "prior_6_24_a",
+        "prior_6_24_b"
+      ],
+      "matches_expected": true,
+      "sha256_of_source": null,
+      "source_file": null,
+      "source_key": null,
+      "tag": "[E]",
+      "value": 0.6850373137534997
+    },
+    "p_positive_6_24_vs_wp3": {
+      "expected": 0.0,
+      "expected_tolerance": 1e-09,
+      "formula": "abs(p_positive_6_24 - p_positive_6_24_wp3)",
+      "inputs": [
+        "p_positive_6_24",
+        "p_positive_6_24_wp3"
+      ],
+      "matches_expected": true,
+      "sha256_of_source": null,
+      "source_file": null,
+      "source_key": null,
+      "tag": "[E]",
+      "value": 0.0
+    },
+    "p_positive_6_24_wp3": {
+      "sha256_of_source": "96aa9a75869c53079e1442a26f1f3d08f5261d735e61a5195a658955843a5dd1",
+      "source_file": "v3_addons/results/wp3_roi_band.json",
+      "source_key": "priors[1].closed_form.p_positive",
+      "tag": "[E]",
+      "value": 0.6850373137534997
+    },
+    "pi_star_g20_startup_excluded": {
+      "note": "gamma=0.2, $1 variable cost, startup excluded; exact v2 functions on non-test scores",
+      "sha256_of_source": "3a4d94fe806c00421f53688c2000bfb2293ecc16320dbb795d9b8375a8a9338e",
+      "source_file": "v3_addons/results/wp5_label_shift.json",
+      "source_key": "break_even.first_crossing.prior_star",
+      "tag": "[E]",
+      "value": 0.015464173262384629
+    },
+    "pi_star_vs_expected": {
+      "expected": 0.0,
+      "expected_tolerance": 1e-08,
+      "formula": "abs(pi_star_g20_startup_excluded - 0.01546417)",
+      "inputs": [
+        "pi_star_g20_startup_excluded"
+      ],
+      "matches_expected": true,
+      "sha256_of_source": null,
+      "source_file": null,
+      "source_key": null,
+      "tag": "[E]",
+      "value": 3.262384629804105e-09
+    },
+    "prevention_assumption": {
+      "sha256_of_source": "1d14a4fea10ab391631379f82cd6a82e5a65ede4f01db5b540c9aec3612eea1e",
+      "source_file": "v2_work/final_metrics.json",
+      "source_key": "pilot_calibration.spec.normal_binary_reference.relative_prevention_assumption",
+      "tag": "[A]",
+      "value": 0.2
+    },
+    "prior_2_18_a": {
+      "sha256_of_source": "96aa9a75869c53079e1442a26f1f3d08f5261d735e61a5195a658955843a5dd1",
+      "source_file": "v3_addons/results/wp3_roi_band.json",
+      "source_key": "priors[2].a",
+      "tag": "[A]",
+      "value": 2
+    },
+    "prior_2_18_b": {
+      "sha256_of_source": "96aa9a75869c53079e1442a26f1f3d08f5261d735e61a5195a658955843a5dd1",
+      "source_file": "v3_addons/results/wp3_roi_band.json",
+      "source_key": "priors[2].b",
+      "tag": "[A]",
+      "value": 18
+    },
+    "prior_6_14_a": {
+      "sha256_of_source": "96aa9a75869c53079e1442a26f1f3d08f5261d735e61a5195a658955843a5dd1",
+      "source_file": "v3_addons/results/wp3_roi_band.json",
+      "source_key": "priors[0].a",
+      "tag": "[A]",
+      "value": 6
+    },
+    "prior_6_14_b": {
+      "sha256_of_source": "96aa9a75869c53079e1442a26f1f3d08f5261d735e61a5195a658955843a5dd1",
+      "source_file": "v3_addons/results/wp3_roi_band.json",
+      "source_key": "priors[0].b",
+      "tag": "[A]",
+      "value": 14
+    },
+    "prior_6_24_a": {
+      "sha256_of_source": "96aa9a75869c53079e1442a26f1f3d08f5261d735e61a5195a658955843a5dd1",
+      "source_file": "v3_addons/results/wp3_roi_band.json",
+      "source_key": "priors[1].a",
+      "tag": "[A]",
+      "value": 6
+    },
+    "prior_6_24_b": {
+      "sha256_of_source": "96aa9a75869c53079e1442a26f1f3d08f5261d735e61a5195a658955843a5dd1",
+      "source_file": "v3_addons/results/wp3_roi_band.json",
+      "source_key": "priors[1].b",
+      "tag": "[A]",
+      "value": 24
+    },
+    "queue_billing_count": {
+      "sha256_of_source": "1d14a4fea10ab391631379f82cd6a82e5a65ede4f01db5b540c9aec3612eea1e",
+      "source_file": "v2_work/final_metrics.json",
+      "source_key": "pilot_test.queues[0].raw_count",
+      "tag": "[E]",
+      "value": 582
+    },
+    "queue_billing_count_share": {
+      "formula": "queue_billing_count / queue_total",
+      "inputs": [
+        "queue_billing_count",
+        "queue_total"
+      ],
+      "sha256_of_source": null,
+      "source_file": null,
+      "source_key": null,
+      "tag": "[E]",
+      "value": 0.23233532934131737
+    },
+    "queue_billing_lift_exact": {
+      "formula": "queue_billing_value_share / queue_billing_count_share",
+      "inputs": [
+        "queue_billing_count_share",
+        "queue_billing_value_share"
+      ],
+      "note": "exact value share / count share from final_metrics",
+      "sha256_of_source": null,
+      "source_file": null,
+      "source_key": null,
+      "tag": "[E]",
+      "value": 1.0074319321515355
+    },
+    "queue_billing_lift_quoted": {
+      "expected": 1.007,
+      "expected_tolerance": 0.0005,
+      "formula": "round(queue_billing_value_share, 3) / queue_billing_count_share",
+      "inputs": [
+        "queue_billing_count_share",
+        "queue_billing_value_share"
+      ],
+      "matches_expected": true,
+      "note": "reviewer arithmetic: published one-decimal percentage share / exact count share",
+      "sha256_of_source": null,
+      "source_file": null,
+      "source_key": null,
+      "tag": "[E]",
+      "value": 1.0071649484536083
+    },
+    "queue_billing_value_share": {
+      "sha256_of_source": "1d14a4fea10ab391631379f82cd6a82e5a65ede4f01db5b540c9aec3612eea1e",
+      "source_file": "v2_work/final_metrics.json",
+      "source_key": "pilot_test.queues[0].share_at_risk_value",
+      "tag": "[E]",
+      "value": 0.23406202974538667
+    },
+    "queue_handset_count": {
+      "sha256_of_source": "1d14a4fea10ab391631379f82cd6a82e5a65ede4f01db5b540c9aec3612eea1e",
+      "source_file": "v2_work/final_metrics.json",
+      "source_key": "pilot_test.queues[2].raw_count",
+      "tag": "[E]",
+      "value": 791
+    },
+    "queue_handset_count_share": {
+      "formula": "queue_handset_count / queue_total",
+      "inputs": [
+        "queue_handset_count",
+        "queue_total"
+      ],
+      "sha256_of_source": null,
+      "source_file": null,
+      "source_key": null,
+      "tag": "[E]",
+      "value": 0.3157684630738523
+    },
+    "queue_handset_lift_exact": {
+      "formula": "queue_handset_value_share / queue_handset_count_share",
+      "inputs": [
+        "queue_handset_count_share",
+        "queue_handset_value_share"
+      ],
+      "note": "exact value share / count share from final_metrics",
+      "sha256_of_source": null,
+      "source_file": null,
+      "source_key": null,
+      "tag": "[E]",
+      "value": 0.9712900471903978
+    },
+    "queue_handset_lift_quoted": {
+      "expected": 0.972,
+      "expected_tolerance": 0.0005,
+      "formula": "round(queue_handset_value_share, 3) / queue_handset_count_share",
+      "inputs": [
+        "queue_handset_count_share",
+        "queue_handset_value_share"
+      ],
+      "matches_expected": true,
+      "note": "reviewer arithmetic: published one-decimal percentage share / exact count share",
+      "sha256_of_source": null,
+      "source_file": null,
+      "source_key": null,
+      "tag": "[E]",
+      "value": 0.9722313527180784
+    },
+    "queue_handset_value_share": {
+      "sha256_of_source": "1d14a4fea10ab391631379f82cd6a82e5a65ede4f01db5b540c9aec3612eea1e",
+      "source_file": "v2_work/final_metrics.json",
+      "source_key": "pilot_test.queues[2].share_at_risk_value",
+      "tag": "[E]",
+      "value": 0.3067027654002414
+    },
+    "queue_network_count": {
+      "sha256_of_source": "1d14a4fea10ab391631379f82cd6a82e5a65ede4f01db5b540c9aec3612eea1e",
+      "source_file": "v2_work/final_metrics.json",
+      "source_key": "pilot_test.queues[1].raw_count",
+      "tag": "[E]",
+      "value": 266
+    },
+    "queue_network_count_share": {
+      "formula": "queue_network_count / queue_total",
+      "inputs": [
+        "queue_network_count",
+        "queue_total"
+      ],
+      "sha256_of_source": null,
+      "source_file": null,
+      "source_key": null,
+      "tag": "[E]",
+      "value": 0.106187624750499
+    },
+    "queue_network_lift_exact": {
+      "formula": "queue_network_value_share / queue_network_count_share",
+      "inputs": [
+        "queue_network_count_share",
+        "queue_network_value_share"
+      ],
+      "note": "exact value share / count share from final_metrics",
+      "sha256_of_source": null,
+      "source_file": null,
+      "source_key": null,
+      "tag": "[E]",
+      "value": 0.9797681103472066
+    },
+    "queue_network_lift_quoted": {
+      "expected": 0.979,
+      "expected_tolerance": 0.0005,
+      "formula": "round(queue_network_value_share, 3) / queue_network_count_share",
+      "inputs": [
+        "queue_network_count_share",
+        "queue_network_value_share"
+      ],
+      "matches_expected": true,
+      "note": "reviewer arithmetic: published one-decimal percentage share / exact count share",
+      "sha256_of_source": null,
+      "source_file": null,
+      "source_key": null,
+      "tag": "[E]",
+      "value": 0.9793984962406015
+    },
+    "queue_network_value_share": {
+      "sha256_of_source": "1d14a4fea10ab391631379f82cd6a82e5a65ede4f01db5b540c9aec3612eea1e",
+      "source_file": "v2_work/final_metrics.json",
+      "source_key": "pilot_test.queues[1].share_at_risk_value",
+      "tag": "[E]",
+      "value": 0.10403924844405467
+    },
+    "queue_residual_count": {
+      "sha256_of_source": "1d14a4fea10ab391631379f82cd6a82e5a65ede4f01db5b540c9aec3612eea1e",
+      "source_file": "v2_work/final_metrics.json",
+      "source_key": "pilot_test.queues[3].raw_count",
+      "tag": "[E]",
+      "value": 866
+    },
+    "queue_residual_count_share": {
+      "formula": "queue_residual_count / queue_total",
+      "inputs": [
+        "queue_residual_count",
+        "queue_total"
+      ],
+      "sha256_of_source": null,
+      "source_file": null,
+      "source_key": null,
+      "tag": "[E]",
+      "value": 0.3457085828343313
+    },
+    "queue_residual_lift_exact": {
+      "formula": "queue_residual_value_share / queue_residual_count_share",
+      "inputs": [
+        "queue_residual_count_share",
+        "queue_residual_value_share"
+      ],
+      "note": "exact value share / count share from final_metrics",
+      "sha256_of_source": null,
+      "source_file": null,
+      "source_key": null,
+      "tag": "[E]",
+      "value": 1.0274432688312296
+    },
+    "queue_residual_lift_quoted": {
+      "expected": 1.027,
+      "expected_tolerance": 0.0005,
+      "formula": "round(queue_residual_value_share, 3) / queue_residual_count_share",
+      "inputs": [
+        "queue_residual_count_share",
+        "queue_residual_value_share"
+      ],
+      "matches_expected": true,
+      "note": "reviewer arithmetic: published one-decimal percentage share / exact count share",
+      "sha256_of_source": null,
+      "source_file": null,
+      "source_key": null,
+      "tag": "[E]",
+      "value": 1.026876443418014
+    },
+    "queue_residual_value_share": {
+      "sha256_of_source": "1d14a4fea10ab391631379f82cd6a82e5a65ede4f01db5b540c9aec3612eea1e",
+      "source_file": "v2_work/final_metrics.json",
+      "source_key": "pilot_test.queues[3].share_at_risk_value",
+      "tag": "[E]",
+      "value": 0.35519595641031726
+    },
+    "queue_total": {
+      "expected": 2505,
+      "expected_tolerance": 0,
+      "formula": "queue_billing_count + queue_network_count + queue_handset_count + queue_residual_count",
+      "inputs": [
+        "queue_billing_count",
+        "queue_handset_count",
+        "queue_network_count",
+        "queue_residual_count"
+      ],
+      "matches_expected": true,
+      "sha256_of_source": null,
+      "source_file": null,
+      "source_key": null,
+      "tag": "[E]",
+      "value": 2505
+    },
+    "se_gamma_hat_delta_full": {
+      "discrepancy_note": "the 6.8 pp quote corresponds to SE(p0hat-p1hat)/p0 with p0 held fixed (see se_gamma_hat_difference_scaled); the full two-arm delta method gives 6.06 pp; conclusion unchanged (both exceed the 4.0 pp gap several-fold)",
+      "expected": 0.068,
+      "expected_tolerance": 0.0015,
+      "formula": "sqrt((p1 * (1 - p1) / enrolled_per_arm) / p0**2 + (p1**2 / p0**4) * (p0 * (1 - p0) / enrolled_per_arm))",
+      "inputs": [
+        "enrolled_per_arm",
+        "p0",
+        "p1"
+      ],
+      "matches_expected": false,
+      "note": "full delta method for gamma-hat = 1 - p1hat/p0hat, both arms random, n=7,872/arm, DEFF 1",
+      "sha256_of_source": null,
+      "source_file": null,
+      "source_key": null,
+      "tag": "[E]",
+      "value": 0.0605922379589923
+    },
+    "se_gamma_hat_difference_scaled": {
+      "expected": 0.068,
+      "expected_tolerance": 0.0015,
+      "formula": "sqrt(p0 * (1 - p0) / enrolled_per_arm + p1 * (1 - p1) / enrolled_per_arm) / p0",
+      "inputs": [
+        "enrolled_per_arm",
+        "p0",
+        "p1"
+      ],
+      "matches_expected": true,
+      "note": "SE of the absolute churn difference divided by p0 (p0 treated as known); this is the convention that reproduces the 6.8 pp quote",
+      "sha256_of_source": null,
+      "source_file": null,
+      "source_key": null,
+      "tag": "[E]",
+      "value": 0.06770666750982451
+    },
+    "se_over_gap_difference_scaled": {
+      "formula": "se_gamma_hat_difference_scaled / gap_assumption_to_break_even",
+      "inputs": [
+        "gap_assumption_to_break_even",
+        "se_gamma_hat_difference_scaled"
+      ],
+      "sha256_of_source": null,
+      "source_file": null,
+      "source_key": null,
+      "tag": "[E]",
+      "value": 1.6923587630299364
+    },
+    "se_over_gap_full": {
+      "formula": "se_gamma_hat_delta_full / gap_assumption_to_break_even",
+      "inputs": [
+        "gap_assumption_to_break_even",
+        "se_gamma_hat_delta_full"
+      ],
+      "note": "standard errors per gap, full delta method",
+      "sha256_of_source": null,
+      "source_file": null,
+      "source_key": null,
+      "tag": "[E]",
+      "value": 1.5145303801374694
+    },
+    "seed": {
+      "sha256_of_source": "1d14a4fea10ab391631379f82cd6a82e5a65ede4f01db5b540c9aec3612eea1e",
+      "source_file": "v2_work/final_metrics.json",
+      "source_key": "pilot_calibration.spec.seed",
+      "tag": "[E]",
+      "value": 20261028
+    },
+    "selected_control_churn": {
+      "sha256_of_source": "c1ec315ff45436d914af3061f9e9d201d34e7d9b8dddd825c2672d9bba2f5369",
+      "source_file": "v3_addons/results/inventory.json",
+      "source_key": "population.selected_control_churn",
+      "tag": "[E]",
+      "value": 0.04842492833163853
+    },
+    "slide11_lower_vs_expected": {
+      "expected": 0.0,
+      "expected_tolerance": 0.005,
+      "formula": "abs(slide11_net_lower - 2761.37)",
+      "inputs": [
+        "slide11_net_lower"
+      ],
+      "matches_expected": true,
+      "sha256_of_source": null,
+      "source_file": null,
+      "source_key": null,
+      "tag": "[E]",
+      "value": 0.0004955641898050089
+    },
+    "slide11_net_lower": {
+      "note": "conditional on prevention = 0.2; descriptive row-resampling interval",
+      "sha256_of_source": "1d14a4fea10ab391631379f82cd6a82e5a65ede4f01db5b540c9aec3612eea1e",
+      "source_file": "v2_work/final_metrics.json",
+      "source_key": "deployment_intervals.net.lower",
+      "tag": "[E]",
+      "value": 2761.36950443581
+    },
+    "slide11_net_upper": {
+      "note": "conditional on prevention = 0.2",
+      "sha256_of_source": "1d14a4fea10ab391631379f82cd6a82e5a65ede4f01db5b540c9aec3612eea1e",
+      "source_file": "v2_work/final_metrics.json",
+      "source_key": "deployment_intervals.net.upper",
+      "tag": "[E]",
+      "value": 4660.637082299275
+    },
+    "slide11_upper_vs_expected": {
+      "expected": 0.0,
+      "expected_tolerance": 0.005,
+      "formula": "abs(slide11_net_upper - 4660.64)",
+      "inputs": [
+        "slide11_net_upper"
+      ],
+      "matches_expected": true,
+      "sha256_of_source": null,
+      "source_file": null,
+      "source_key": null,
+      "tag": "[E]",
+      "value": 0.002917700725447503
+    },
+    "startup_cost": {
+      "sha256_of_source": "1d14a4fea10ab391631379f82cd6a82e5a65ede4f01db5b540c9aec3612eea1e",
+      "source_file": "v2_work/final_metrics.json",
+      "source_key": "pilot_calibration.spec.cost_assumptions.startup_stage1",
+      "tag": "[A]",
+      "value": 5000.0
+    },
+    "threads": {
+      "sha256_of_source": "1d14a4fea10ab391631379f82cd6a82e5a65ede4f01db5b540c9aec3612eea1e",
+      "source_file": "v2_work/final_metrics.json",
+      "source_key": "pilot_calibration.spec.threads",
+      "tag": "[E]",
+      "value": 6
+    },
+    "transport_ratio": {
+      "expected": 2.42,
+      "expected_tolerance": 0.005,
+      "formula": "selected_control_churn / deployment_prior",
+      "inputs": [
+        "deployment_prior",
+        "selected_control_churn"
+      ],
+      "matches_expected": true,
+      "note": "assumption, not measurement",
+      "sha256_of_source": null,
+      "source_file": null,
+      "source_key": null,
+      "tag": "[A]",
+      "value": 2.4212464165819263
+    },
+    "treated_contact_cost": {
+      "sha256_of_source": "1d14a4fea10ab391631379f82cd6a82e5a65ede4f01db5b540c9aec3612eea1e",
+      "source_file": "v2_work/final_metrics.json",
+      "source_key": "pilot_calibration.spec.cost_assumptions.treated_contact",
+      "tag": "[A]",
+      "value": 1.0
+    },
+    "v2_80k_adjusted_power_calibration": {
+      "note": "pilot_calibration: planning (calibration partition)",
+      "sha256_of_source": "1d14a4fea10ab391631379f82cd6a82e5a65ede4f01db5b540c9aec3612eea1e",
+      "source_file": "v2_work/final_metrics.json",
+      "source_key": "pilot_calibration.power_rows[23].simulated_power",
+      "tag": "[E]",
+      "value": 0.9725
+    },
+    "v2_80k_adjusted_power_test": {
+      "note": "pilot_test: descriptive (test partition, reused v1 probabilities)",
+      "sha256_of_source": "1d14a4fea10ab391631379f82cd6a82e5a65ede4f01db5b540c9aec3612eea1e",
+      "source_file": "v2_work/final_metrics.json",
+      "source_key": "pilot_test.power_rows[23].simulated_power",
+      "tag": "[E]",
+      "value": 0.9525
+    },
+    "v2_80k_unadjusted_power_calibration": {
+      "note": "pilot_calibration: planning (calibration partition)",
+      "sha256_of_source": "1d14a4fea10ab391631379f82cd6a82e5a65ede4f01db5b540c9aec3612eea1e",
+      "source_file": "v2_work/final_metrics.json",
+      "source_key": "pilot_calibration.power_rows[22].simulated_power",
+      "tag": "[E]",
+      "value": 0.5025
+    },
+    "v2_80k_unadjusted_power_test": {
+      "note": "pilot_test: descriptive (test partition, reused v1 probabilities)",
+      "sha256_of_source": "1d14a4fea10ab391631379f82cd6a82e5a65ede4f01db5b540c9aec3612eea1e",
+      "source_file": "v2_work/final_metrics.json",
+      "source_key": "pilot_test.power_rows[22].simulated_power",
+      "tag": "[E]",
+      "value": 0.3725
+    },
+    "v2_grid_adjusted_calibration": {
+      "sha256_of_source": "1d14a4fea10ab391631379f82cd6a82e5a65ede4f01db5b540c9aec3612eea1e",
+      "source_file": "v2_work/final_metrics.json",
+      "source_key": "pilot_calibration.simulated_required_enrolled_per_arm_grid.adjusted_contribution",
+      "tag": "[E]",
+      "value": 80000
+    },
+    "v2_grid_adjusted_test": {
+      "sha256_of_source": "1d14a4fea10ab391631379f82cd6a82e5a65ede4f01db5b540c9aec3612eea1e",
+      "source_file": "v2_work/final_metrics.json",
+      "source_key": "pilot_test.simulated_required_enrolled_per_arm_grid.adjusted_contribution",
+      "tag": "[E]",
+      "value": 80000
+    },
+    "v3_manifest_file_count": {
+      "note": "old v3 manifest size (predates WP8)",
+      "sha256_of_source": "e72d418b0a77f98ffd37862c555370683878a8df241777d6039b0fe79865f755",
+      "source_file": "v3_addons/results/wp7_final_verification.json",
+      "source_key": "file_count",
+      "tag": "[E]",
+      "value": 118
+    },
+    "v3_outside_file_count": {
+      "note": "v3 directory diff excluded v3_addons/",
+      "sha256_of_source": "e72d418b0a77f98ffd37862c555370683878a8df241777d6039b0fe79865f755",
+      "source_file": "v3_addons/results/wp7_final_verification.json",
+      "source_key": "directory_diff.files_after",
+      "tag": "[E]",
+      "value": 4246
+    }
+  },
+  "provenance": {
+    "created_utc": "2026-10-31T08:17:08.673020+00:00",
+    "input_files": [
+      {
+        "path": "FINAL_ASSESSMENT_HANDOFF.md",
+        "present": true,
+        "sha256": "07c3965e8a5730e895164e5ac18c3b0a1cadf5f4f026214e868c18d1585ec6ab",
+        "size": 54432
+      },
+      {
+        "path": "philopateer.ipynb",
+        "present": true,
+        "sha256": "aaa170b19923c087f9b38f85b546626b7465a3d17f5ae7037812c6aed5736b35",
+        "size": 1857125
+      },
+      {
+        "path": "philopateer.pdf",
+        "present": true,
+        "sha256": "a51d2c0ff8aa6ebb0f679e680d6424b01cd7b95b9a0d23ae7a2eecc56de210ea",
+        "size": 846608
+      },
+      {
+        "path": "philopateer.pptx",
+        "present": true,
+        "sha256": "a50a66fd77d062bdc45aeefb00ce8652b20b952de06dcb27e8ab4f15c37e46bc",
+        "size": 1310666
+      },
+      {
+        "path": "references.txt",
+        "present": true,
+        "sha256": "b12fb18aafc83e2d599e15d04c689ee5cd85c10082c1761ab0c6f1d01606d361",
+        "size": 18843
+      },
+      {
+        "path": "v2_work/final_metrics.json",
+        "present": true,
+        "sha256": "1d14a4fea10ab391631379f82cd6a82e5a65ede4f01db5b540c9aec3612eea1e",
+        "size": 155122
+      },
+      {
+        "path": "v3_addons/results/inventory.json",
+        "present": true,
+        "sha256": "c1ec315ff45436d914af3061f9e9d201d34e7d9b8dddd825c2672d9bba2f5369",
+        "size": 23203
+      },
+      {
+        "path": "v3_addons/results/wp1_power.csv",
+        "present": true,
+        "sha256": "175374f8c495aa598915568c6d4686cba61bfd26d09f1672bc364bddc0228bea",
+        "size": 167320
+      },
+      {
+        "path": "v3_addons/results/wp2_decision_quality.csv",
+        "present": true,
+        "sha256": "1ad721f80356881cf37a4e5a1f15f7856760983d9aff0f5b7c1c750879423be0",
+        "size": 17005
+      },
+      {
+        "path": "v3_addons/results/wp2_evsi.json",
+        "present": true,
+        "sha256": "cd64fe05f11e974916e461d6f12764cff53ecd7f62fb8a1e461d966611c2e405",
+        "size": 60310
+      },
+      {
+        "path": "v3_addons/results/wp3_roi_band.json",
+        "present": true,
+        "sha256": "96aa9a75869c53079e1442a26f1f3d08f5261d735e61a5195a658955843a5dd1",
+        "size": 96482
+      },
+      {
+        "path": "v3_addons/results/wp5_label_shift.json",
+        "present": true,
+        "sha256": "3a4d94fe806c00421f53688c2000bfb2293ecc16320dbb795d9b8375a8a9338e",
+        "size": 1079813
+      }
+    ],
+    "python_version": "3.11.9 (tags/v3.11.9:de54cf5, Apr  2 2024, 10:12:12) [MSC v.1938 64 bit (AMD64)]",
+    "row_counts": {},
+    "runtime": {
+      "env": {
+        "MKL_NUM_THREADS": "6",
+        "NUMEXPR_NUM_THREADS": "6",
+        "OMP_NUM_THREADS": "6",
+        "OPENBLAS_NUM_THREADS": "6"
+      },
+      "function_sha256": "77f490da30fa85a8826efca565835a7127fa2d629110a92afe8b0a497a437bca",
+      "pools": [
+        {
+          "architecture": "Haswell",
+          "filepath": "C:\\Users\\FGstore\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\numpy.libs\\libscipy_openblas64_-860d95b1c38e637ce4509f5fa24fbf2a.dll",
+          "internal_api": "openblas",
+          "num_threads": 6,
+          "prefix": "libscipy_openblas",
+          "threading_layer": "pthreads",
+          "user_api": "blas",
+          "version": "0.3.30"
+        },
+        {
+          "architecture": "Haswell",
+          "filepath": "C:\\Users\\FGstore\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\scipy.libs\\libscipy_openblas-64eda39e79589aedb16f58e5547eb599.dll",
+          "internal_api": "openblas",
+          "num_threads": 6,
+          "prefix": "libscipy_openblas",
+          "threading_layer": "pthreads",
+          "user_api": "blas",
+          "version": "0.3.30"
+        }
+      ],
+      "source": "v3_addons/src/common.py",
+      "thread_cap": 6
+    },
+    "script": "v4_addons/tools/d0_preflight.py",
+    "script_sha256": "c617d5cd7ded00d19efa1b39f93ec073bb03c089c47730477adb6120197c22d7",
+    "seed": 20261028,
+    "tags_used": [
+      "[E]",
+      "[A]",
+      "[R]"
+    ]
+  },
+  "section9_checks": 43,
+  "section9_failures": [
+    "se_gamma_hat_delta_full"
+  ]
+}
