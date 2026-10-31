@@ -1,0 +1,163 @@
+{
+  "report": "v4_addons/reports/F6_report.md",
+  "report_sha256": "dcb6746032a2c319831e161c4f11987178b20ac379fab59d4658123d1f4e4eb5",
+  "results_json": "v4_addons/results/f6_disclosure.json",
+  "tokens": [
+    {
+      "token": "120",
+      "name": "references_lines",
+      "spec": "int",
+      "value": 120
+    },
+    {
+      "token": "18,843",
+      "name": "references_bytes",
+      "spec": "int",
+      "value": 18843
+    },
+    {
+      "token": "18,843",
+      "name": "frozen_reference_bytes",
+      "spec": "int",
+      "value": 18843
+    },
+    {
+      "token": "1",
+      "name": "references_sha_matches_frozen",
+      "spec": "int",
+      "value": 1
+    },
+    {
+      "token": "1",
+      "name": "references_bytes_match_frozen",
+      "spec": "int",
+      "value": 1
+    },
+    {
+      "token": "0",
+      "name": "references_edits",
+      "spec": "int",
+      "value": 0
+    },
+    {
+      "token": "75",
+      "name": "disclosure_line",
+      "spec": "int",
+      "value": 75
+    },
+    {
+      "token": "71",
+      "name": "disclosure_words",
+      "spec": "int",
+      "value": 71
+    },
+    {
+      "token": "1",
+      "name": "qoder_mentions",
+      "spec": "int",
+      "value": 1
+    },
+    {
+      "token": "2",
+      "name": "hbs_url_count",
+      "spec": "int",
+      "value": 2
+    },
+    {
+      "token": "403",
+      "name": "hbs_status_script",
+      "spec": "int",
+      "value": 403
+    },
+    {
+      "token": "200",
+      "name": "hbs_status_browser",
+      "spec": "int",
+      "value": 200
+    },
+    {
+      "token": "200",
+      "name": "columbia_status",
+      "spec": "int",
+      "value": 200
+    },
+    {
+      "token": "33",
+      "name": "tool_script_count",
+      "spec": "int",
+      "value": 33
+    },
+    {
+      "token": "36",
+      "name": "url_line_s4",
+      "spec": "int",
+      "value": 36
+    },
+    {
+      "token": "40",
+      "name": "url_line_s5",
+      "spec": "int",
+      "value": 40
+    },
+    {
+      "token": "86",
+      "name": "url_line_columbia",
+      "spec": "int",
+      "value": 86
+    },
+    {
+      "token": "1",
+      "name": "references_sha_matches_frozen",
+      "spec": "int",
+      "value": 1
+    },
+    {
+      "token": "1",
+      "name": "references_bytes_match_frozen",
+      "spec": "int",
+      "value": 1
+    },
+    {
+      "token": "0",
+      "name": "references_edits",
+      "spec": "int",
+      "value": 0
+    },
+    {
+      "token": "75",
+      "name": "disclosure_line",
+      "spec": "int",
+      "value": 75
+    },
+    {
+      "token": "71",
+      "name": "disclosure_words",
+      "spec": "int",
+      "value": 71
+    },
+    {
+      "token": "33",
+      "name": "tool_script_count",
+      "spec": "int",
+      "value": 33
+    },
+    {
+      "token": "403",
+      "name": "hbs_status_script",
+      "spec": "int",
+      "value": 403
+    },
+    {
+      "token": "200",
+      "name": "hbs_status_browser",
+      "spec": "int",
+      "value": 200
+    },
+    {
+      "token": "200",
+      "name": "columbia_status",
+      "spec": "int",
+      "value": 200
+    }
+  ]
+}

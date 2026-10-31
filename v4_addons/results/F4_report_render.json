@@ -1,0 +1,55 @@
+{
+  "report": "v4_addons/reports/F4_report.md",
+  "report_sha256": "755b99580a629e0e788a4173361c1acfbbecf7fa2a5efa4f889f429d8528e8c7",
+  "results_json": "v4_addons/results/f4_skip.json",
+  "tokens": [
+    {
+      "token": "0",
+      "name": "cells_added",
+      "spec": "int",
+      "value": 0
+    },
+    {
+      "token": "0",
+      "name": "cells_executed",
+      "spec": "int",
+      "value": 0
+    },
+    {
+      "token": "6",
+      "name": "max_cells_allowed",
+      "spec": "int",
+      "value": 6
+    },
+    {
+      "token": "1,857,125",
+      "name": "notebook_bytes",
+      "spec": "int",
+      "value": 1857125
+    },
+    {
+      "token": "1",
+      "name": "notebook_sha_matches_frozen",
+      "spec": "int",
+      "value": 1
+    },
+    {
+      "token": "6",
+      "name": "max_cells_allowed",
+      "spec": "int",
+      "value": 6
+    },
+    {
+      "token": "1",
+      "name": "notebook_sha_matches_frozen",
+      "spec": "int",
+      "value": 1
+    },
+    {
+      "token": "1,857,125",
+      "name": "notebook_bytes",
+      "spec": "int",
+      "value": 1857125
+    }
+  ]
+}

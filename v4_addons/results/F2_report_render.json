@@ -1,0 +1,103 @@
+{
+  "report": "v4_addons/reports/F2_report.md",
+  "report_sha256": "87bf0c3b9a523c2a5ec475ab6bf7351a5fd6bf883814b4d207655998dfe1710a",
+  "results_json": "v4_addons/results/f2_pipeline_probe.json",
+  "tokens": [
+    {
+      "token": "0",
+      "name": "latex_source_files",
+      "spec": "int",
+      "value": 0
+    },
+    {
+      "token": "5",
+      "name": "latex_engines_probed",
+      "spec": "int",
+      "value": 5
+    },
+    {
+      "token": "0",
+      "name": "latex_engines_found",
+      "spec": "int",
+      "value": 0
+    },
+    {
+      "token": "2",
+      "name": "office_export_scripts",
+      "spec": "int",
+      "value": 2
+    },
+    {
+      "token": "4",
+      "name": "deliverables_expected",
+      "spec": "int",
+      "value": 4
+    },
+    {
+      "token": "0",
+      "name": "candidate_files_created",
+      "spec": "int",
+      "value": 0
+    },
+    {
+      "token": "15",
+      "name": "frozen_pdf_pages",
+      "spec": "int",
+      "value": 15
+    },
+    {
+      "token": "846,608",
+      "name": "frozen_pdf_bytes",
+      "spec": "int",
+      "value": 846608
+    },
+    {
+      "token": "15",
+      "name": "frozen_pptx_slides",
+      "spec": "int",
+      "value": 15
+    },
+    {
+      "token": "15",
+      "name": "pdf_page_cap",
+      "spec": "int",
+      "value": 15
+    },
+    {
+      "token": "10,000,000",
+      "name": "pdf_byte_cap",
+      "spec": "int",
+      "value": 10000000
+    },
+    {
+      "token": "0",
+      "name": "latex_source_files",
+      "spec": "int",
+      "value": 0
+    },
+    {
+      "token": "15",
+      "name": "pdf_page_cap",
+      "spec": "int",
+      "value": 15
+    },
+    {
+      "token": "10,000,000",
+      "name": "pdf_byte_cap",
+      "spec": "int",
+      "value": 10000000
+    },
+    {
+      "token": "0",
+      "name": "latex_source_files",
+      "spec": "int",
+      "value": 0
+    },
+    {
+      "token": "0",
+      "name": "latex_engines_found",
+      "spec": "int",
+      "value": 0
+    }
+  ]
+}

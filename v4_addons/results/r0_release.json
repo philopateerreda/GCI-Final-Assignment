@@ -1,0 +1,339 @@
+{
+  "boundary": {
+    "accepted_changes": [
+      ".gitignore",
+      "README.md",
+      "v3_addons/HANDBACK.md",
+      "v3_addons/reports/WP7_report.md",
+      "v3_addons/HANDBACK.md.pre_v4",
+      "v3_addons/reports/WP7_report.md.pre_v4"
+    ],
+    "baseline": "baseline_2026-10-31.json",
+    "card": "R0",
+    "checked_utc": "2026-10-31T11:09:11.540932+00:00",
+    "clean": true,
+    "files_checked": 4571,
+    "gate_files_present": [
+      "H0_DECISIONS.md",
+      "H3_OPTION.txt"
+    ],
+    "phase": "pre2",
+    "unexpected": []
+  },
+  "deliverable_count": 4,
+  "facts": {
+    "attributes": "# Hash-bound evidence bundle: keep file bytes exactly as produced.\n* -text",
+    "autocrlf": "true",
+    "branch": "main",
+    "head": "e8f652013672c0a603338740425dba69bf663ba3",
+    "identity": "philopateer reda <filopateerredakamel2004@gmail.com>",
+    "ignore": ".gitignore:16:/telecom/*.csv\ttelecom/Client.csv\n.gitignore:16:/telecom/*.csv\ttelecom/Record.csv",
+    "log": "e8f6520 Initial commit: Company A churn targeting, frozen evaluation, and v3 audit",
+    "remote": "origin\thttps://github.com/philopateerreda/GCI-Final-Assignment.git (fetch)\norigin\thttps://github.com/philopateerreda/GCI-Final-Assignment.git (push)",
+    "status": "M .gitignore\n M README.md\n M v3_addons/HANDBACK.md\n M v3_addons/reports/WP7_report.md\n?? v4_addons/",
+    "status_count": 5,
+    "telecom_tracked": "",
+    "work_tree": "true"
+  },
+  "integrity": [
+    {
+      "bytes": 846608,
+      "bytes_match": true,
+      "path": "philopateer.pdf",
+      "receipt_bytes": 846608,
+      "receipt_sha256": "a51d2c0ff8aa6ebb0f679e680d6424b01cd7b95b9a0d23ae7a2eecc56de210ea",
+      "sha256": "a51d2c0ff8aa6ebb0f679e680d6424b01cd7b95b9a0d23ae7a2eecc56de210ea",
+      "sha256_match": true
+    },
+    {
+      "bytes": 1310666,
+      "bytes_match": true,
+      "path": "philopateer.pptx",
+      "receipt_bytes": 1310666,
+      "receipt_sha256": "a50a66fd77d062bdc45aeefb00ce8652b20b952de06dcb27e8ab4f15c37e46bc",
+      "sha256": "a50a66fd77d062bdc45aeefb00ce8652b20b952de06dcb27e8ab4f15c37e46bc",
+      "sha256_match": true
+    },
+    {
+      "bytes": 1857125,
+      "bytes_match": true,
+      "path": "philopateer.ipynb",
+      "receipt_bytes": 1857125,
+      "receipt_sha256": "aaa170b19923c087f9b38f85b546626b7465a3d17f5ae7037812c6aed5736b35",
+      "sha256": "aaa170b19923c087f9b38f85b546626b7465a3d17f5ae7037812c6aed5736b35",
+      "sha256_match": true
+    },
+    {
+      "bytes": 18843,
+      "bytes_match": true,
+      "path": "references.txt",
+      "receipt_bytes": 18843,
+      "receipt_sha256": "b12fb18aafc83e2d599e15d04c689ee5cd85c10082c1761ab0c6f1d01606d361",
+      "sha256": "b12fb18aafc83e2d599e15d04c689ee5cd85c10082c1761ab0c6f1d01606d361",
+      "sha256_match": true
+    },
+    {
+      "bytes": 33168,
+      "bytes_match": true,
+      "path": "analysis_outputs/claims_ledger.csv",
+      "receipt_bytes": 33168,
+      "receipt_sha256": "b4dce03b43f6bd1b9ef3142759e0cb88682527af2f9f8824902521d88729c5b4",
+      "sha256": "b4dce03b43f6bd1b9ef3142759e0cb88682527af2f9f8824902521d88729c5b4",
+      "sha256_match": true
+    }
+  ],
+  "numbers": {
+    "accepted_changes": {
+      "computed": true,
+      "inputs": [
+        "v4_addons/results/boundary_log.jsonl"
+      ],
+      "note": "accepted changes in the last R0 preflight boundary run",
+      "sha256_of_source": null,
+      "source_file": null,
+      "source_key": null,
+      "tag": "[E]",
+      "value": 6
+    },
+    "boundary_files": {
+      "computed": true,
+      "inputs": [
+        "v4_addons/results/boundary_log.jsonl"
+      ],
+      "note": "files scanned by boundary_check in the last R0 preflight run",
+      "sha256_of_source": null,
+      "source_file": null,
+      "source_key": null,
+      "tag": "[E]",
+      "value": 4571
+    },
+    "boundary_unexpected": {
+      "computed": true,
+      "inputs": [
+        "v4_addons/results/boundary_log.jsonl"
+      ],
+      "note": "unexpected changes in the last R0 preflight boundary run",
+      "sha256_of_source": null,
+      "source_file": null,
+      "source_key": null,
+      "tag": "[E]",
+      "value": 0
+    },
+    "candidate_files": {
+      "computed": true,
+      "inputs": [],
+      "note": "tracked plus non-ignored untracked files: the eventual push set",
+      "sha256_of_source": null,
+      "source_file": null,
+      "source_key": null,
+      "tag": "[E]",
+      "value": 782
+    },
+    "deliverable_count": {
+      "formula": "5",
+      "inputs": [],
+      "note": "receipt entries checked: four deliverables plus the ledger",
+      "sha256_of_source": null,
+      "source_file": null,
+      "source_key": null,
+      "tag": "[R]",
+      "value": 5
+    },
+    "deliverable_hash_matches": {
+      "computed": true,
+      "inputs": [
+        "v4_addons/RELEASE_RECEIPT.md"
+      ],
+      "note": "deliverables and ledger whose bytes and SHA-256 equal the release receipt",
+      "sha256_of_source": null,
+      "source_file": null,
+      "source_key": null,
+      "tag": "[E]",
+      "value": 5
+    },
+    "gate_files": {
+      "computed": true,
+      "inputs": [
+        "v4_addons/results/boundary_log.jsonl"
+      ],
+      "note": "gate files present at preflight",
+      "sha256_of_source": null,
+      "source_file": null,
+      "source_key": null,
+      "tag": "[E]",
+      "value": 2
+    },
+    "ipynb_bytes": {
+      "sha256_of_source": "97a3c93fbfd1b534b714c6f7b5fb57fa6f364ee11ac2fd0a3a514ae6a6c60e20",
+      "source_encoding": "utf-8",
+      "source_file": "v4_addons/results/f3_fallback.json",
+      "source_key": "numbers.ipynb_bytes.value",
+      "tag": "[E]",
+      "value": 1857125
+    },
+    "ledger_rows": {
+      "sha256_of_source": "97a3c93fbfd1b534b714c6f7b5fb57fa6f364ee11ac2fd0a3a514ae6a6c60e20",
+      "source_encoding": "utf-8",
+      "source_file": "v4_addons/results/f3_fallback.json",
+      "source_key": "numbers.ledger_rows.value",
+      "tag": "[E]",
+      "value": 278
+    },
+    "over_50mb": {
+      "computed": true,
+      "inputs": [],
+      "note": "candidate files over 50 MB at preflight (none)",
+      "sha256_of_source": null,
+      "source_file": null,
+      "source_key": null,
+      "tag": "[E]",
+      "value": 0
+    },
+    "over_5mb": {
+      "computed": true,
+      "inputs": [],
+      "note": "candidate files over 5 MB at preflight (none)",
+      "sha256_of_source": null,
+      "source_file": null,
+      "source_key": null,
+      "tag": "[E]",
+      "value": 0
+    },
+    "pdf_bytes": {
+      "sha256_of_source": "97a3c93fbfd1b534b714c6f7b5fb57fa6f364ee11ac2fd0a3a514ae6a6c60e20",
+      "source_encoding": "utf-8",
+      "source_file": "v4_addons/results/f3_fallback.json",
+      "source_key": "numbers.pdf_bytes.value",
+      "tag": "[E]",
+      "value": 846608
+    },
+    "pptx_bytes": {
+      "sha256_of_source": "97a3c93fbfd1b534b714c6f7b5fb57fa6f364ee11ac2fd0a3a514ae6a6c60e20",
+      "source_encoding": "utf-8",
+      "source_file": "v4_addons/results/f3_fallback.json",
+      "source_key": "numbers.pptx_bytes.value",
+      "tag": "[E]",
+      "value": 1310666
+    },
+    "references_bytes": {
+      "sha256_of_source": "97a3c93fbfd1b534b714c6f7b5fb57fa6f364ee11ac2fd0a3a514ae6a6c60e20",
+      "source_encoding": "utf-8",
+      "source_file": "v4_addons/results/f3_fallback.json",
+      "source_key": "numbers.references_bytes.value",
+      "tag": "[E]",
+      "value": 18843
+    },
+    "telecom_tracked_files": {
+      "computed": true,
+      "inputs": [],
+      "note": "tracked files under telecom/ (must be zero)",
+      "sha256_of_source": null,
+      "source_file": null,
+      "source_key": null,
+      "tag": "[E]",
+      "value": 0
+    }
+  },
+  "provenance": {
+    "created_utc": "2026-10-31T11:11:50.197422+00:00",
+    "input_files": [
+      {
+        "path": ".gitattributes",
+        "present": true,
+        "sha256": "327ddbf439c69a487622898b8170ab8f4a48e637d0eff36fc904caf6b734f5d0",
+        "size": 75
+      },
+      {
+        "path": "analysis_outputs/claims_ledger.csv",
+        "present": true,
+        "sha256": "b4dce03b43f6bd1b9ef3142759e0cb88682527af2f9f8824902521d88729c5b4",
+        "size": 33168
+      },
+      {
+        "path": "philopateer.ipynb",
+        "present": true,
+        "sha256": "aaa170b19923c087f9b38f85b546626b7465a3d17f5ae7037812c6aed5736b35",
+        "size": 1857125
+      },
+      {
+        "path": "philopateer.pdf",
+        "present": true,
+        "sha256": "a51d2c0ff8aa6ebb0f679e680d6424b01cd7b95b9a0d23ae7a2eecc56de210ea",
+        "size": 846608
+      },
+      {
+        "path": "philopateer.pptx",
+        "present": true,
+        "sha256": "a50a66fd77d062bdc45aeefb00ce8652b20b952de06dcb27e8ab4f15c37e46bc",
+        "size": 1310666
+      },
+      {
+        "path": "references.txt",
+        "present": true,
+        "sha256": "b12fb18aafc83e2d599e15d04c689ee5cd85c10082c1761ab0c6f1d01606d361",
+        "size": 18843
+      },
+      {
+        "path": "v4_addons/RELEASE_RECEIPT.md",
+        "present": true,
+        "sha256": "6a9daf78ff741a1845b146be55079c50bbed84e31753bae89286f87e08492600",
+        "size": 3588
+      }
+    ],
+    "python_version": "3.11.9 (tags/v3.11.9:de54cf5, Apr  2 2024, 10:12:12) [MSC v.1938 64 bit (AMD64)]",
+    "row_counts": {
+      "deliverables": 4,
+      "ledger_rows": 278
+    },
+    "runtime": {
+      "env": {
+        "MKL_NUM_THREADS": "6",
+        "NUMEXPR_NUM_THREADS": "6",
+        "OMP_NUM_THREADS": "6",
+        "OPENBLAS_NUM_THREADS": "6"
+      },
+      "function_sha256": "77f490da30fa85a8826efca565835a7127fa2d629110a92afe8b0a497a437bca",
+      "pools": [
+        {
+          "architecture": "Haswell",
+          "filepath": "C:\\Users\\FGstore\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\numpy.libs\\libscipy_openblas64_-860d95b1c38e637ce4509f5fa24fbf2a.dll",
+          "internal_api": "openblas",
+          "num_threads": 6,
+          "prefix": "libscipy_openblas",
+          "threading_layer": "pthreads",
+          "user_api": "blas",
+          "version": "0.3.30"
+        },
+        {
+          "architecture": "Haswell",
+          "filepath": "C:\\Users\\FGstore\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\scipy.libs\\libscipy_openblas-64eda39e79589aedb16f58e5547eb599.dll",
+          "internal_api": "openblas",
+          "num_threads": 6,
+          "prefix": "libscipy_openblas",
+          "threading_layer": "pthreads",
+          "user_api": "blas",
+          "version": "0.3.30"
+        }
+      ],
+      "source": "v3_addons/src/common.py",
+      "thread_cap": 6
+    },
+    "script": "v4_addons/tools/r0_release.py",
+    "script_sha256": "8a9dd0b76046edc5d9beb6bc5dbbc8e0f5b38ee3c47d7f57a9c42e02cee11d16",
+    "seed": 20261054,
+    "tags_used": [
+      "[E]",
+      "[A]",
+      "[R]"
+    ]
+  },
+  "receipt": {
+    "path": "v4_addons/RELEASE_RECEIPT.md",
+    "sha256": "6a9daf78ff741a1845b146be55079c50bbed84e31753bae89286f87e08492600"
+  },
+  "size_rule": {
+    "candidates": 782,
+    "over_50mb": [],
+    "over_5mb": []
+  }
+}

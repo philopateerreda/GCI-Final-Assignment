@@ -1,0 +1,133 @@
+{
+  "report": "v4_addons/reports/R1_prepush_checks.md",
+  "report_sha256": "2cfbb09bbdef1e9c4766140aba50633da82692f7e4a9aeea42cb5942502b9c17",
+  "results_json": "v4_addons/results/r1_precommit.json",
+  "tokens": [
+    {
+      "token": "162",
+      "name": "staged_files",
+      "spec": "int",
+      "value": 162
+    },
+    {
+      "token": "2,886,094",
+      "name": "staged_bytes",
+      "spec": "int",
+      "value": 2886094
+    },
+    {
+      "token": "0",
+      "name": "credential_hits",
+      "spec": "int",
+      "value": 0
+    },
+    {
+      "token": "74",
+      "name": "token_files",
+      "spec": "int",
+      "value": 74
+    },
+    {
+      "token": "1",
+      "name": "password_files",
+      "spec": "int",
+      "value": 1
+    },
+    {
+      "token": "1",
+      "name": "secret_files",
+      "spec": "int",
+      "value": 1
+    },
+    {
+      "token": "1",
+      "name": "api_key_files",
+      "spec": "int",
+      "value": 1
+    },
+    {
+      "token": "0",
+      "name": "readme_local_paths",
+      "spec": "int",
+      "value": 0
+    },
+    {
+      "token": "0",
+      "name": "telecom_tracked_count",
+      "spec": "int",
+      "value": 0
+    },
+    {
+      "token": "100",
+      "name": "raw_columns",
+      "spec": "int",
+      "value": 100
+    },
+    {
+      "token": "116",
+      "name": "csv_scanned",
+      "spec": "int",
+      "value": 116
+    },
+    {
+      "token": "0",
+      "name": "raw_column_hits",
+      "spec": "int",
+      "value": 0
+    },
+    {
+      "token": "0",
+      "name": "blob_mismatches",
+      "spec": "int",
+      "value": 0
+    },
+    {
+      "token": "149",
+      "name": "readme_tokens",
+      "spec": "int",
+      "value": 149
+    },
+    {
+      "token": "105",
+      "name": "readme_distinct",
+      "spec": "int",
+      "value": 105
+    },
+    {
+      "token": "24",
+      "name": "readme_paths",
+      "spec": "int",
+      "value": 24
+    },
+    {
+      "token": "162",
+      "name": "staged_files",
+      "spec": "int",
+      "value": 162
+    },
+    {
+      "token": "2,886,094",
+      "name": "staged_bytes",
+      "spec": "int",
+      "value": 2886094
+    },
+    {
+      "token": "646,624",
+      "name": "largest_bytes",
+      "spec": "int",
+      "value": 646624
+    },
+    {
+      "token": "0",
+      "name": "over_5mb",
+      "spec": "int",
+      "value": 0
+    },
+    {
+      "token": "0",
+      "name": "over_50mb",
+      "spec": "int",
+      "value": 0
+    }
+  ]
+}

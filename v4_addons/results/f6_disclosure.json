@@ -1,0 +1,234 @@
+{
+  "disclosure": {
+    "line": 75,
+    "words": 71
+  },
+  "links": {
+    "columbia": 200,
+    "hbs_browser": 200,
+    "hbs_count": 2,
+    "hbs_script": 403
+  },
+  "numbers": {
+    "columbia_status": {
+      "sha256_of_source": "abbc8faac3c8e71b323be946fbbaedaff4698c98ffe30496b172a7532a29db28",
+      "source_encoding": "utf-8",
+      "source_file": "v4_addons/results/d6_text_blocks.json",
+      "source_key": "numbers.http_status_ok.value",
+      "tag": "[E]",
+      "value": 200
+    },
+    "disclosure_line": {
+      "computed": true,
+      "inputs": [],
+      "note": "line of the AI-use disclosure paragraph in references.txt",
+      "sha256_of_source": "b12fb18aafc83e2d599e15d04c689ee5cd85c10082c1761ab0c6f1d01606d361",
+      "source_file": "references.txt",
+      "source_key": null,
+      "tag": "[E]",
+      "value": 75
+    },
+    "disclosure_words": {
+      "computed": true,
+      "inputs": [],
+      "note": "whitespace word count of the disclosure paragraph",
+      "sha256_of_source": "b12fb18aafc83e2d599e15d04c689ee5cd85c10082c1761ab0c6f1d01606d361",
+      "source_file": "references.txt",
+      "source_key": null,
+      "tag": "[E]",
+      "value": 71
+    },
+    "frozen_reference_bytes": {
+      "computed": true,
+      "inputs": [],
+      "note": "references.txt size recorded in the D0 frozen hash receipt",
+      "sha256_of_source": "508f0853b4f91cb04ca1750b3232bcc7e651837fac2f815e05dcc038203e6e67",
+      "source_file": "v4_addons/results/d0_checks.json",
+      "source_key": null,
+      "tag": "[E]",
+      "value": 18843
+    },
+    "hbs_status_browser": {
+      "sha256_of_source": "abbc8faac3c8e71b323be946fbbaedaff4698c98ffe30496b172a7532a29db28",
+      "source_encoding": "utf-8",
+      "source_file": "v4_addons/results/d6_text_blocks.json",
+      "source_key": "numbers.http_status_ok.value",
+      "tag": "[E]",
+      "value": 200
+    },
+    "hbs_status_script": {
+      "sha256_of_source": "abbc8faac3c8e71b323be946fbbaedaff4698c98ffe30496b172a7532a29db28",
+      "source_encoding": "utf-8",
+      "source_file": "v4_addons/results/d6_text_blocks.json",
+      "source_key": "numbers.http_status_blocked.value",
+      "tag": "[E]",
+      "value": 403
+    },
+    "hbs_url_count": {
+      "sha256_of_source": "abbc8faac3c8e71b323be946fbbaedaff4698c98ffe30496b172a7532a29db28",
+      "source_encoding": "utf-8",
+      "source_file": "v4_addons/results/d6_text_blocks.json",
+      "source_key": "numbers.hbs_url_count.value",
+      "tag": "[E]",
+      "value": 2
+    },
+    "qoder_mentions": {
+      "computed": true,
+      "inputs": [],
+      "note": "lines in references.txt that name Qoder",
+      "sha256_of_source": "b12fb18aafc83e2d599e15d04c689ee5cd85c10082c1761ab0c6f1d01606d361",
+      "source_file": "references.txt",
+      "source_key": null,
+      "tag": "[E]",
+      "value": 1
+    },
+    "references_bytes": {
+      "computed": true,
+      "inputs": [],
+      "note": "byte size of the frozen references.txt",
+      "sha256_of_source": "b12fb18aafc83e2d599e15d04c689ee5cd85c10082c1761ab0c6f1d01606d361",
+      "source_file": "references.txt",
+      "source_key": null,
+      "tag": "[E]",
+      "value": 18843
+    },
+    "references_bytes_match_frozen": {
+      "computed": true,
+      "inputs": [],
+      "note": "current references.txt size equals the D0 handoff record",
+      "sha256_of_source": "b12fb18aafc83e2d599e15d04c689ee5cd85c10082c1761ab0c6f1d01606d361",
+      "source_file": "references.txt",
+      "source_key": null,
+      "tag": "[E]",
+      "value": 1
+    },
+    "references_edits": {
+      "computed": true,
+      "inputs": [],
+      "note": "edits detected against the D0 frozen record",
+      "sha256_of_source": "b12fb18aafc83e2d599e15d04c689ee5cd85c10082c1761ab0c6f1d01606d361",
+      "source_file": "references.txt",
+      "source_key": null,
+      "tag": "[E]",
+      "value": 0
+    },
+    "references_lines": {
+      "sha256_of_source": "b12fb18aafc83e2d599e15d04c689ee5cd85c10082c1761ab0c6f1d01606d361",
+      "source_encoding": "utf-8",
+      "source_file": "references.txt",
+      "source_key": "linecount",
+      "tag": "[E]",
+      "value": 120
+    },
+    "references_sha_matches_frozen": {
+      "computed": true,
+      "inputs": [],
+      "note": "current references.txt SHA-256 equals the D0 handoff record",
+      "sha256_of_source": "b12fb18aafc83e2d599e15d04c689ee5cd85c10082c1761ab0c6f1d01606d361",
+      "source_file": "references.txt",
+      "source_key": null,
+      "tag": "[E]",
+      "value": 1
+    },
+    "tool_script_count": {
+      "computed": true,
+      "inputs": [],
+      "note": "Python tool scripts written under v4_addons/tools by the Qoder agent",
+      "sha256_of_source": null,
+      "source_file": null,
+      "source_key": null,
+      "tag": "[E]",
+      "value": 33
+    },
+    "url_line_columbia": {
+      "computed": true,
+      "inputs": [],
+      "note": "line of the S4 accessible Columbia copy",
+      "sha256_of_source": "b12fb18aafc83e2d599e15d04c689ee5cd85c10082c1761ab0c6f1d01606d361",
+      "source_file": "references.txt",
+      "source_key": null,
+      "tag": "[E]",
+      "value": 86
+    },
+    "url_line_s4": {
+      "computed": true,
+      "inputs": [],
+      "note": "line of the S4 HBS item link",
+      "sha256_of_source": "b12fb18aafc83e2d599e15d04c689ee5cd85c10082c1761ab0c6f1d01606d361",
+      "source_file": "references.txt",
+      "source_key": null,
+      "tag": "[E]",
+      "value": 36
+    },
+    "url_line_s5": {
+      "computed": true,
+      "inputs": [],
+      "note": "line of the S5 HBS item link",
+      "sha256_of_source": "b12fb18aafc83e2d599e15d04c689ee5cd85c10082c1761ab0c6f1d01606d361",
+      "source_file": "references.txt",
+      "source_key": null,
+      "tag": "[E]",
+      "value": 40
+    }
+  },
+  "provenance": {
+    "created_utc": "2026-10-31T10:51:59.132976+00:00",
+    "input_files": [
+      {
+        "path": "references.txt",
+        "present": true,
+        "sha256": "b12fb18aafc83e2d599e15d04c689ee5cd85c10082c1761ab0c6f1d01606d361",
+        "size": 18843
+      },
+      {
+        "path": "v4_addons/results/d0_checks.json",
+        "present": true,
+        "sha256": "508f0853b4f91cb04ca1750b3232bcc7e651837fac2f815e05dcc038203e6e67",
+        "size": 55124
+      },
+      {
+        "path": "v4_addons/results/d6_text_blocks.json",
+        "present": true,
+        "sha256": "abbc8faac3c8e71b323be946fbbaedaff4698c98ffe30496b172a7532a29db28",
+        "size": 18437
+      }
+    ],
+    "python_version": "3.11.9 (tags/v3.11.9:de54cf5, Apr  2 2024, 10:12:12) [MSC v.1938 64 bit (AMD64)]",
+    "row_counts": {},
+    "runtime": {
+      "env": {
+        "MKL_NUM_THREADS": "6",
+        "NUMEXPR_NUM_THREADS": "6",
+        "OMP_NUM_THREADS": "6",
+        "OPENBLAS_NUM_THREADS": "6"
+      },
+      "function_sha256": "77f490da30fa85a8826efca565835a7127fa2d629110a92afe8b0a497a437bca",
+      "pools": [
+        {
+          "architecture": "Haswell",
+          "filepath": "C:\\Users\\FGstore\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\numpy.libs\\libscipy_openblas64_-860d95b1c38e637ce4509f5fa24fbf2a.dll",
+          "internal_api": "openblas",
+          "num_threads": 6,
+          "prefix": "libscipy_openblas",
+          "threading_layer": "pthreads",
+          "user_api": "blas",
+          "version": "0.3.30"
+        }
+      ],
+      "source": "v3_addons/src/common.py",
+      "thread_cap": 6
+    },
+    "script": "v4_addons/tools/f6_disclosure.py",
+    "script_sha256": "0e85ba9f49095c3904e6caf72c9c888ddd0118a92841d798b5b63b3003799aaf",
+    "seed": 20261048,
+    "tags_used": [
+      "[E]",
+      "[A]",
+      "[R]"
+    ]
+  },
+  "references_edited": false,
+  "replacement_sentence": false,
+  "status": "COMPLETED_ACCEPTED",
+  "url_invented": false
+}

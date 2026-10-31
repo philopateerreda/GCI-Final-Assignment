@@ -1,0 +1,217 @@
+{
+  "report": "v4_addons/reports/F5_report.md",
+  "report_sha256": "f6b2b5ca80b256f26ac20969ae876b7fd143842406260d51d2fff592713c1292",
+  "results_json": "v4_addons/results/f5_ceo.json",
+  "tokens": [
+    {
+      "token": "0.6978",
+      "name": "auc",
+      "spec": "f4",
+      "value": 0.6978109022411016
+    },
+    {
+      "token": "0.6899",
+      "name": "auc_lower",
+      "spec": "f4",
+      "value": 0.689902981889822
+    },
+    {
+      "token": "0.7055",
+      "name": "auc_upper",
+      "spec": "f4",
+      "value": 0.7054949137349805
+    },
+    {
+      "token": "42.44%",
+      "name": "value_gain_sample",
+      "spec": "pct2",
+      "value": 0.42437287197665974
+    },
+    {
+      "token": "15.37%",
+      "name": "value_gain_deployment",
+      "spec": "pct2",
+      "value": 0.1537449338584349
+    },
+    {
+      "token": "$3,747",
+      "name": "net_per_100k",
+      "spec": "usd0",
+      "value": 3747.082455665277
+    },
+    {
+      "token": "$3,747.08",
+      "name": "net_per_100k",
+      "spec": "usd2",
+      "value": 3747.082455665277
+    },
+    {
+      "token": "16.0%",
+      "name": "break_even",
+      "spec": "pct1",
+      "value": 0.1599927219990843
+    },
+    {
+      "token": "0.685",
+      "name": "p_positive_central",
+      "spec": "f3",
+      "value": 0.6850373137534997
+    },
+    {
+      "token": "0.930",
+      "name": "p_positive_upper",
+      "spec": "f3",
+      "value": 0.9300037463815178
+    },
+    {
+      "token": "0.168",
+      "name": "p_positive_lower",
+      "spec": "f3",
+      "value": 0.16823329149846597
+    },
+    {
+      "token": "\u2212$6,166.36",
+      "name": "net_5pct",
+      "spec": "usd2",
+      "value": -6166.359913496997
+    },
+    {
+      "token": "7,872",
+      "name": "pilot_per_arm",
+      "spec": "int",
+      "value": 7872
+    },
+    {
+      "token": "$12,872",
+      "name": "stage1_cost",
+      "spec": "usd0",
+      "value": 12872.0
+    },
+    {
+      "token": "5,000",
+      "name": "max_per_arm_one_list",
+      "spec": "int",
+      "value": 5000.0
+    },
+    {
+      "token": "76.0%",
+      "name": "e4_effect_power",
+      "spec": "pct1",
+      "value": 0.76
+    },
+    {
+      "token": "25.4%",
+      "name": "e4_profit_power",
+      "spec": "pct1",
+      "value": 0.254
+    },
+    {
+      "token": "7.6%",
+      "name": "p_scale",
+      "spec": "pct1",
+      "value": 0.076
+    },
+    {
+      "token": "91.9%",
+      "name": "p_extend",
+      "spec": "pct1",
+      "value": 0.919
+    },
+    {
+      "token": "0.5%",
+      "name": "p_stop",
+      "spec": "pct1",
+      "value": 0.005
+    },
+    {
+      "token": "4.842493%",
+      "name": "selected_control_churn",
+      "spec": "pct6",
+      "value": 0.04842492833163853
+    },
+    {
+      "token": "2%",
+      "name": "deployment_prior",
+      "spec": "pct0",
+      "value": 0.02
+    },
+    {
+      "token": "2.42\u00d7",
+      "name": "transport_ratio",
+      "spec": "x2",
+      "value": 2.4212464165819263
+    },
+    {
+      "token": "0.001085",
+      "name": "best_rejected_gain",
+      "spec": "f6",
+      "value": 0.001085100273
+    },
+    {
+      "token": "75,000",
+      "name": "refit_rows",
+      "spec": "int",
+      "value": 75000
+    },
+    {
+      "token": "0.0006",
+      "name": "lc_gain_last_step",
+      "spec": "f4",
+      "value": 0.0006412360779057269
+    },
+    {
+      "token": "450",
+      "name": "brief_words",
+      "spec": "int",
+      "value": 450
+    },
+    {
+      "token": "260",
+      "name": "qa_words",
+      "spec": "int",
+      "value": 260
+    },
+    {
+      "token": "450",
+      "name": "brief_word_cap",
+      "spec": "int",
+      "value": 450
+    },
+    {
+      "token": "450",
+      "name": "brief_words",
+      "spec": "int",
+      "value": 450
+    },
+    {
+      "token": "260",
+      "name": "qa_words",
+      "spec": "int",
+      "value": 260
+    },
+    {
+      "token": "10",
+      "name": "expected_rows_matched",
+      "spec": "int",
+      "value": 10
+    },
+    {
+      "token": "10",
+      "name": "expected_rows_total",
+      "spec": "int",
+      "value": 10
+    },
+    {
+      "token": "0.004",
+      "name": "extrap_double_gain",
+      "spec": "f3",
+      "value": 0.0036673541098952863
+    },
+    {
+      "token": "0.0037",
+      "name": "extrap_double_gain",
+      "spec": "f4",
+      "value": 0.0036673541098952863
+    }
+  ]
+}

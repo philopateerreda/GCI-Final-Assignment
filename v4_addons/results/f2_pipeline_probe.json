@@ -1,0 +1,233 @@
+{
+  "candidate_dir_created": false,
+  "engine_dirs": [],
+  "engines_found": {},
+  "engines_probed": [
+    "pdflatex",
+    "xelatex",
+    "lualatex",
+    "tectonic",
+    "latexmk"
+  ],
+  "fallback": {
+    "cards_continue": [
+      "F5",
+      "F6",
+      "F7"
+    ],
+    "corrections": "CEO brief only",
+    "deck": "frozen v2 unchanged",
+    "notebook": "F4 skipped",
+    "option": "A"
+  },
+  "latex_files": [],
+  "numbers": {
+    "candidate_files_created": {
+      "computed": true,
+      "inputs": [],
+      "note": "no candidate file was created: the stop condition was met first",
+      "sha256_of_source": null,
+      "source_file": null,
+      "source_key": null,
+      "tag": "[E]",
+      "value": 0
+    },
+    "deliverables_expected": {
+      "formula": "4",
+      "inputs": [],
+      "note": "PPTX, PDF, notebook and references (the four deliverables)",
+      "sha256_of_source": null,
+      "source_file": null,
+      "source_key": null,
+      "tag": "[R]",
+      "value": 4
+    },
+    "frozen_pdf_bytes": {
+      "computed": true,
+      "inputs": [],
+      "note": "byte size of the unchanged frozen PDF",
+      "sha256_of_source": null,
+      "source_file": null,
+      "source_key": null,
+      "tag": "[E]",
+      "value": 846608
+    },
+    "frozen_pdf_pages": {
+      "computed": true,
+      "inputs": [],
+      "note": "page count of the unchanged frozen PDF",
+      "sha256_of_source": null,
+      "source_file": null,
+      "source_key": null,
+      "tag": "[E]",
+      "value": 15
+    },
+    "frozen_pptx_slides": {
+      "computed": true,
+      "inputs": [],
+      "note": "slide count of the unchanged frozen PPTX",
+      "sha256_of_source": null,
+      "source_file": null,
+      "source_key": null,
+      "tag": "[E]",
+      "value": 15
+    },
+    "latex_engines_found": {
+      "computed": true,
+      "inputs": [],
+      "note": "engines actually available to build a PDF",
+      "sha256_of_source": null,
+      "source_file": null,
+      "source_key": null,
+      "tag": "[E]",
+      "value": 0
+    },
+    "latex_engines_probed": {
+      "formula": "5",
+      "inputs": [],
+      "note": "engines probed on PATH and in standard install directories",
+      "sha256_of_source": null,
+      "source_file": null,
+      "source_key": null,
+      "tag": "[R]",
+      "value": 5
+    },
+    "latex_source_files": {
+      "computed": true,
+      "inputs": [],
+      "note": "count of .tex/.sty/.cls/.bib/.ltx files outside .git and __pycache__",
+      "sha256_of_source": null,
+      "source_file": null,
+      "source_key": null,
+      "tag": "[E]",
+      "value": 0
+    },
+    "office_export_scripts": {
+      "computed": true,
+      "inputs": [],
+      "note": "PowerPoint COM export scripts present in the handoff",
+      "sha256_of_source": null,
+      "source_file": null,
+      "source_key": null,
+      "tag": "[E]",
+      "value": 2
+    },
+    "pdf_byte_cap": {
+      "formula": "10000000",
+      "inputs": [],
+      "note": "brief cap: candidate PDF below 10,000,000 bytes",
+      "sha256_of_source": null,
+      "source_file": null,
+      "source_key": null,
+      "tag": "[R]",
+      "value": 10000000
+    },
+    "pdf_page_cap": {
+      "formula": "15",
+      "inputs": [],
+      "note": "brief cap: candidate PDF at most 15 pages",
+      "sha256_of_source": null,
+      "source_file": null,
+      "source_key": null,
+      "tag": "[R]",
+      "value": 15
+    }
+  },
+  "office_export_scripts": [
+    "export_and_verify.py",
+    "v2_work/export_and_verify_v2.py"
+  ],
+  "provenance": {
+    "created_utc": "2026-10-31T10:41:17.723595+00:00",
+    "input_files": [
+      {
+        "path": "export_and_verify.py",
+        "present": true,
+        "sha256": "01cf2c219d9294943aed2ab76c4d78b9161d3f55675c17f0523b6bef96ae6b7c",
+        "size": 7309
+      },
+      {
+        "path": "FINAL_ASSESSMENT_HANDOFF.md",
+        "present": true,
+        "sha256": "07c3965e8a5730e895164e5ac18c3b0a1cadf5f4f026214e868c18d1585ec6ab",
+        "size": 54432
+      },
+      {
+        "path": "philopateer.pdf",
+        "present": true,
+        "sha256": "a51d2c0ff8aa6ebb0f679e680d6424b01cd7b95b9a0d23ae7a2eecc56de210ea",
+        "size": 846608
+      },
+      {
+        "path": "philopateer.pptx",
+        "present": true,
+        "sha256": "a50a66fd77d062bdc45aeefb00ce8652b20b952de06dcb27e8ab4f15c37e46bc",
+        "size": 1310666
+      },
+      {
+        "path": "v2_work/export_and_verify_v2.py",
+        "present": true,
+        "sha256": "01cf2c219d9294943aed2ab76c4d78b9161d3f55675c17f0523b6bef96ae6b7c",
+        "size": 7309
+      },
+      {
+        "path": "v3_addons/INTEGRATION_PROPOSAL.md",
+        "present": true,
+        "sha256": "6d2a5eea5b7bbb0ba65f3362ccae9a2ce0ce267bec419e6c64a0ffdaca16a29e",
+        "size": 11400
+      },
+      {
+        "path": "v4_addons/INTEGRATION_PROPOSAL_v4.md",
+        "present": true,
+        "sha256": "1c2cf76f16866d4c444476e9f9c878674e0a57239c267186eaa127e482e08b6f",
+        "size": 21914
+      }
+    ],
+    "python_version": "3.11.9 (tags/v3.11.9:de54cf5, Apr  2 2024, 10:12:12) [MSC v.1938 64 bit (AMD64)]",
+    "row_counts": {},
+    "runtime": {
+      "env": {
+        "MKL_NUM_THREADS": "6",
+        "NUMEXPR_NUM_THREADS": "6",
+        "OMP_NUM_THREADS": "6",
+        "OPENBLAS_NUM_THREADS": "6"
+      },
+      "function_sha256": "77f490da30fa85a8826efca565835a7127fa2d629110a92afe8b0a497a437bca",
+      "pools": [
+        {
+          "architecture": "Haswell",
+          "filepath": "C:\\Users\\FGstore\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\numpy.libs\\libscipy_openblas64_-860d95b1c38e637ce4509f5fa24fbf2a.dll",
+          "internal_api": "openblas",
+          "num_threads": 6,
+          "prefix": "libscipy_openblas",
+          "threading_layer": "pthreads",
+          "user_api": "blas",
+          "version": "0.3.30"
+        },
+        {
+          "architecture": "Haswell",
+          "filepath": "C:\\Users\\FGstore\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\scipy.libs\\libscipy_openblas-64eda39e79589aedb16f58e5547eb599.dll",
+          "internal_api": "openblas",
+          "num_threads": 6,
+          "prefix": "libscipy_openblas",
+          "threading_layer": "pthreads",
+          "user_api": "blas",
+          "version": "0.3.30"
+        }
+      ],
+      "source": "v3_addons/src/common.py",
+      "thread_cap": 6
+    },
+    "script": "v4_addons/tools/f2_pipeline_probe.py",
+    "script_sha256": "37368c35f56282d8bf7fd315ac43789ec1e38dc101f9735efb31a0be68b16533",
+    "seed": 20261044,
+    "tags_used": [
+      "[E]",
+      "[A]",
+      "[R]"
+    ]
+  },
+  "python_pptx_version": "1.0.2",
+  "status": "STOPPED_GUARDRAIL",
+  "stop_condition": "the build pipeline in the handoff cannot be run: no LaTeX source exists, no LaTeX engine is installed, and the only export path is PowerPoint COM, which the standing instruction forbids for any new or edited PDF"
+}

@@ -1,0 +1,139 @@
+{
+  "report": "v4_addons/reports/F3_report.md",
+  "report_sha256": "bf908e0338bf88168a9ae27c760698310f265f10b92073714c0cab671fbc1139",
+  "results_json": "v4_addons/results/f3_fallback.json",
+  "tokens": [
+    {
+      "token": "4",
+      "name": "deliverables_checked",
+      "spec": "int",
+      "value": 4
+    },
+    {
+      "token": "0",
+      "name": "frozen_hash_mismatches",
+      "spec": "int",
+      "value": 0
+    },
+    {
+      "token": "278",
+      "name": "ledger_rows",
+      "spec": "int",
+      "value": 278
+    },
+    {
+      "token": "1",
+      "name": "ledger_sha_matches_option_a",
+      "spec": "int",
+      "value": 1
+    },
+    {
+      "token": "15",
+      "name": "pdf_page_count",
+      "spec": "int",
+      "value": 15
+    },
+    {
+      "token": "846,608",
+      "name": "pdf_bytes",
+      "spec": "int",
+      "value": 846608
+    },
+    {
+      "token": "0",
+      "name": "geometry_issue_count",
+      "spec": "int",
+      "value": 0
+    },
+    {
+      "token": "15",
+      "name": "geometry_slide_count",
+      "spec": "int",
+      "value": 15
+    },
+    {
+      "token": "1",
+      "name": "geometry_hash_matches_pptx",
+      "spec": "int",
+      "value": 1
+    },
+    {
+      "token": "15",
+      "name": "visual_slides_reviewed",
+      "spec": "int",
+      "value": 15
+    },
+    {
+      "token": "0",
+      "name": "visual_clipping_issues",
+      "spec": "int",
+      "value": 0
+    },
+    {
+      "token": "0",
+      "name": "render_hash_mismatches",
+      "spec": "int",
+      "value": 0
+    },
+    {
+      "token": "1",
+      "name": "contact_sheet_hash_match",
+      "spec": "int",
+      "value": 1
+    },
+    {
+      "token": "1",
+      "name": "delivery_checks_hash_match",
+      "spec": "int",
+      "value": 1
+    },
+    {
+      "token": "0",
+      "name": "candidate_qa_cycles",
+      "spec": "int",
+      "value": 0
+    },
+    {
+      "token": "0",
+      "name": "promotions",
+      "spec": "int",
+      "value": 0
+    },
+    {
+      "token": "0",
+      "name": "pre_v4_deliverable_backups",
+      "spec": "int",
+      "value": 0
+    },
+    {
+      "token": "2",
+      "name": "gates_present",
+      "spec": "int",
+      "value": 2
+    },
+    {
+      "token": "278",
+      "name": "ledger_rows",
+      "spec": "int",
+      "value": 278
+    },
+    {
+      "token": "15",
+      "name": "visual_slides_reviewed",
+      "spec": "int",
+      "value": 15
+    },
+    {
+      "token": "0",
+      "name": "render_hash_mismatches",
+      "spec": "int",
+      "value": 0
+    },
+    {
+      "token": "15",
+      "name": "pdf_page_count",
+      "spec": "int",
+      "value": 15
+    }
+  ]
+}

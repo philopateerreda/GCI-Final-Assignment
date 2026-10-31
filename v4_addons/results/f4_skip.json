@@ -1,0 +1,124 @@
+{
+  "notebook": {
+    "frozen_sha256": "aaa170b19923c087f9b38f85b546626b7465a3d17f5ae7037812c6aed5736b35",
+    "match": true,
+    "path": "philopateer.ipynb",
+    "sha256": "aaa170b19923c087f9b38f85b546626b7465a3d17f5ae7037812c6aed5736b35",
+    "words": "F4 skipped"
+  },
+  "numbers": {
+    "cells_added": {
+      "computed": true,
+      "inputs": [],
+      "note": "no notebook cell was appended",
+      "sha256_of_source": null,
+      "source_file": null,
+      "source_key": null,
+      "tag": "[E]",
+      "value": 0
+    },
+    "cells_executed": {
+      "computed": true,
+      "inputs": [],
+      "note": "no notebook cell was executed",
+      "sha256_of_source": null,
+      "source_file": null,
+      "source_key": null,
+      "tag": "[E]",
+      "value": 0
+    },
+    "max_cells_allowed": {
+      "formula": "6",
+      "inputs": [],
+      "note": "brief cap if the supplement had been built",
+      "sha256_of_source": null,
+      "source_file": null,
+      "source_key": null,
+      "tag": "[R]",
+      "value": 6
+    },
+    "notebook_bytes": {
+      "computed": true,
+      "inputs": [],
+      "note": "byte size of the unchanged notebook",
+      "sha256_of_source": null,
+      "source_file": null,
+      "source_key": null,
+      "tag": "[E]",
+      "value": 1857125
+    },
+    "notebook_sha_matches_frozen": {
+      "computed": true,
+      "inputs": [],
+      "note": "notebook sha256 equals the frozen v2 record",
+      "sha256_of_source": null,
+      "source_file": null,
+      "source_key": null,
+      "tag": "[E]",
+      "value": 1
+    }
+  },
+  "provenance": {
+    "created_utc": "2026-10-31T10:43:27.309661+00:00",
+    "input_files": [
+      {
+        "path": "philopateer.ipynb",
+        "present": true,
+        "sha256": "aaa170b19923c087f9b38f85b546626b7465a3d17f5ae7037812c6aed5736b35",
+        "size": 1857125
+      },
+      {
+        "path": "v4_addons/results/d0_checks.json",
+        "present": true,
+        "sha256": "508f0853b4f91cb04ca1750b3232bcc7e651837fac2f815e05dcc038203e6e67",
+        "size": 55124
+      }
+    ],
+    "python_version": "3.11.9 (tags/v3.11.9:de54cf5, Apr  2 2024, 10:12:12) [MSC v.1938 64 bit (AMD64)]",
+    "row_counts": {},
+    "runtime": {
+      "env": {
+        "MKL_NUM_THREADS": "6",
+        "NUMEXPR_NUM_THREADS": "6",
+        "OMP_NUM_THREADS": "6",
+        "OPENBLAS_NUM_THREADS": "6"
+      },
+      "function_sha256": "77f490da30fa85a8826efca565835a7127fa2d629110a92afe8b0a497a437bca",
+      "pools": [
+        {
+          "architecture": "Haswell",
+          "filepath": "C:\\Users\\FGstore\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\numpy.libs\\libscipy_openblas64_-860d95b1c38e637ce4509f5fa24fbf2a.dll",
+          "internal_api": "openblas",
+          "num_threads": 6,
+          "prefix": "libscipy_openblas",
+          "threading_layer": "pthreads",
+          "user_api": "blas",
+          "version": "0.3.30"
+        },
+        {
+          "architecture": "Haswell",
+          "filepath": "C:\\Users\\FGstore\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\scipy.libs\\libscipy_openblas-64eda39e79589aedb16f58e5547eb599.dll",
+          "internal_api": "openblas",
+          "num_threads": 6,
+          "prefix": "libscipy_openblas",
+          "threading_layer": "pthreads",
+          "user_api": "blas",
+          "version": "0.3.30"
+        }
+      ],
+      "source": "v3_addons/src/common.py",
+      "thread_cap": 6
+    },
+    "script": "v4_addons/tools/f4_skip.py",
+    "script_sha256": "830f6d4cb9617eb61dad8310dc559bbdc5c1f4194efc5006954672293b50305c",
+    "seed": 20261046,
+    "tags_used": [
+      "[E]",
+      "[A]",
+      "[R]"
+    ]
+  },
+  "reason": "F2 stopped at its build-pipeline guardrail; no slide number was added; fallback A keeps the notebook frozen",
+  "skipped": true,
+  "status": "COMPLETED_ACCEPTED"
+}

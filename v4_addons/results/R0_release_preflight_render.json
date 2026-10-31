@@ -1,0 +1,97 @@
+{
+  "report": "v4_addons/reports/R0_release_preflight.md",
+  "report_sha256": "b0503ffc6caad0b1c44367a68d0caa93b783746e3fd351afe4d45c19eba00e36",
+  "results_json": "v4_addons/results/r0_release.json",
+  "tokens": [
+    {
+      "token": "846,608",
+      "name": "pdf_bytes",
+      "spec": "int",
+      "value": 846608
+    },
+    {
+      "token": "1,310,666",
+      "name": "pptx_bytes",
+      "spec": "int",
+      "value": 1310666
+    },
+    {
+      "token": "1,857,125",
+      "name": "ipynb_bytes",
+      "spec": "int",
+      "value": 1857125
+    },
+    {
+      "token": "18,843",
+      "name": "references_bytes",
+      "spec": "int",
+      "value": 18843
+    },
+    {
+      "token": "278",
+      "name": "ledger_rows",
+      "spec": "int",
+      "value": 278
+    },
+    {
+      "token": "0",
+      "name": "telecom_tracked_files",
+      "spec": "int",
+      "value": 0
+    },
+    {
+      "token": "5",
+      "name": "deliverable_hash_matches",
+      "spec": "int",
+      "value": 5
+    },
+    {
+      "token": "5",
+      "name": "deliverable_count",
+      "spec": "int",
+      "value": 5
+    },
+    {
+      "token": "4,571",
+      "name": "boundary_files",
+      "spec": "int",
+      "value": 4571
+    },
+    {
+      "token": "6",
+      "name": "accepted_changes",
+      "spec": "int",
+      "value": 6
+    },
+    {
+      "token": "0",
+      "name": "boundary_unexpected",
+      "spec": "int",
+      "value": 0
+    },
+    {
+      "token": "2",
+      "name": "gate_files",
+      "spec": "int",
+      "value": 2
+    },
+    {
+      "token": "782",
+      "name": "candidate_files",
+      "spec": "int",
+      "value": 782
+    },
+    {
+      "token": "0",
+      "name": "over_5mb",
+      "spec": "int",
+      "value": 0
+    },
+    {
+      "token": "0",
+      "name": "over_50mb",
+      "spec": "int",
+      "value": 0
+    }
+  ]
+}

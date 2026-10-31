@@ -1,0 +1,374 @@
+{
+  "gates": [
+    "H0_DECISIONS.md",
+    "H3_OPTION.txt"
+  ],
+  "geometry": {
+    "bound_to_pptx": true,
+    "issue_count": 0,
+    "pptx_sha256": "a50a66fd77d062bdc45aeefb00ce8652b20b952de06dcb27e8ab4f15c37e46bc",
+    "slide_count": 15
+  },
+  "hashes": {
+    "philopateer.ipynb": {
+      "bytes": 1857125,
+      "frozen_sha256": "aaa170b19923c087f9b38f85b546626b7465a3d17f5ae7037812c6aed5736b35",
+      "match": true,
+      "path": "philopateer.ipynb",
+      "sha256": "aaa170b19923c087f9b38f85b546626b7465a3d17f5ae7037812c6aed5736b35"
+    },
+    "philopateer.pdf": {
+      "bytes": 846608,
+      "frozen_sha256": "a51d2c0ff8aa6ebb0f679e680d6424b01cd7b95b9a0d23ae7a2eecc56de210ea",
+      "match": true,
+      "path": "philopateer.pdf",
+      "sha256": "a51d2c0ff8aa6ebb0f679e680d6424b01cd7b95b9a0d23ae7a2eecc56de210ea"
+    },
+    "philopateer.pptx": {
+      "bytes": 1310666,
+      "frozen_sha256": "a50a66fd77d062bdc45aeefb00ce8652b20b952de06dcb27e8ab4f15c37e46bc",
+      "match": true,
+      "path": "philopateer.pptx",
+      "sha256": "a50a66fd77d062bdc45aeefb00ce8652b20b952de06dcb27e8ab4f15c37e46bc"
+    },
+    "references.txt": {
+      "bytes": 18843,
+      "frozen_sha256": "b12fb18aafc83e2d599e15d04c689ee5cd85c10082c1761ab0c6f1d01606d361",
+      "match": true,
+      "path": "references.txt",
+      "sha256": "b12fb18aafc83e2d599e15d04c689ee5cd85c10082c1761ab0c6f1d01606d361"
+    }
+  },
+  "ledger": {
+    "option_a_sha256": "b4dce03b43f6bd1b9ef3142759e0cb88682527af2f9f8824902521d88729c5b4",
+    "rows": 278,
+    "sha256": "b4dce03b43f6bd1b9ef3142759e0cb88682527af2f9f8824902521d88729c5b4"
+  },
+  "numbers": {
+    "candidate_qa_cycles": {
+      "computed": true,
+      "inputs": [],
+      "note": "no candidate existed, so no candidate QA cycle ran",
+      "sha256_of_source": null,
+      "source_file": null,
+      "source_key": null,
+      "tag": "[E]",
+      "value": 0
+    },
+    "contact_sheet_hash_match": {
+      "computed": true,
+      "inputs": [],
+      "note": "contact sheet still matches the v2 visual receipt",
+      "sha256_of_source": null,
+      "source_file": null,
+      "source_key": null,
+      "tag": "[E]",
+      "value": 1
+    },
+    "deliverables_checked": {
+      "formula": "4",
+      "inputs": [],
+      "note": "the four deliverables named in the brief",
+      "sha256_of_source": null,
+      "source_file": null,
+      "source_key": null,
+      "tag": "[R]",
+      "value": 4
+    },
+    "delivery_checks_hash_match": {
+      "computed": true,
+      "inputs": [],
+      "note": "delivery checks still match the v2 visual receipt",
+      "sha256_of_source": null,
+      "source_file": null,
+      "source_key": null,
+      "tag": "[E]",
+      "value": 1
+    },
+    "frozen_hash_mismatches": {
+      "computed": true,
+      "inputs": [],
+      "note": "deliverable hashes that differ from the D0 frozen record",
+      "sha256_of_source": null,
+      "source_file": null,
+      "source_key": null,
+      "tag": "[E]",
+      "value": 0
+    },
+    "gates_present": {
+      "computed": true,
+      "inputs": [],
+      "note": "gate files present: H0_DECISIONS.md and H3_OPTION.txt only",
+      "sha256_of_source": null,
+      "source_file": null,
+      "source_key": null,
+      "tag": "[E]",
+      "value": 2
+    },
+    "geometry_hash_matches_pptx": {
+      "computed": true,
+      "inputs": [],
+      "note": "the geometry receipt is bound to the sha256 of the unchanged PPTX",
+      "sha256_of_source": null,
+      "source_file": null,
+      "source_key": null,
+      "tag": "[E]",
+      "value": 1
+    },
+    "geometry_issue_count": {
+      "sha256_of_source": "31569f42fac021a6790e23ff56092b2913680d33cbb701ec407de1e61bd938a7",
+      "source_file": "v2_work/office_geometry_check.json",
+      "source_key": "issue_count",
+      "tag": "[E]",
+      "value": 0
+    },
+    "geometry_slide_count": {
+      "sha256_of_source": "31569f42fac021a6790e23ff56092b2913680d33cbb701ec407de1e61bd938a7",
+      "source_file": "v2_work/office_geometry_check.json",
+      "source_key": "slide_count",
+      "tag": "[E]",
+      "value": 15
+    },
+    "ipynb_bytes": {
+      "computed": true,
+      "inputs": [],
+      "note": "byte size of the unchanged frozen notebook",
+      "sha256_of_source": null,
+      "source_file": null,
+      "source_key": null,
+      "tag": "[E]",
+      "value": 1857125
+    },
+    "ledger_rows": {
+      "computed": true,
+      "inputs": [],
+      "note": "data rows in the unchanged claims ledger",
+      "sha256_of_source": null,
+      "source_file": null,
+      "source_key": null,
+      "tag": "[E]",
+      "value": 278
+    },
+    "ledger_sha_matches_option_a": {
+      "computed": true,
+      "inputs": [],
+      "note": "ledger sha256 equals the Option A original recorded by D3",
+      "sha256_of_source": null,
+      "source_file": null,
+      "source_key": null,
+      "tag": "[E]",
+      "value": 1
+    },
+    "pdf_bytes": {
+      "computed": true,
+      "inputs": [],
+      "note": "byte size of the unchanged frozen PDF",
+      "sha256_of_source": null,
+      "source_file": null,
+      "source_key": null,
+      "tag": "[E]",
+      "value": 846608
+    },
+    "pdf_page_count": {
+      "computed": true,
+      "inputs": [],
+      "note": "page count of the unchanged frozen PDF",
+      "sha256_of_source": null,
+      "source_file": null,
+      "source_key": null,
+      "tag": "[E]",
+      "value": 15
+    },
+    "pptx_bytes": {
+      "computed": true,
+      "inputs": [],
+      "note": "byte size of the unchanged frozen PPTX",
+      "sha256_of_source": null,
+      "source_file": null,
+      "source_key": null,
+      "tag": "[E]",
+      "value": 1310666
+    },
+    "pre_v4_deliverable_backups": {
+      "computed": true,
+      "inputs": [],
+      "note": "no deliverable was edited, so no pre-v4 backup exists or is needed",
+      "sha256_of_source": null,
+      "source_file": null,
+      "source_key": null,
+      "tag": "[E]",
+      "value": 0
+    },
+    "promotions": {
+      "computed": true,
+      "inputs": [],
+      "note": "no file was promoted over a project-root deliverable",
+      "sha256_of_source": null,
+      "source_file": null,
+      "source_key": null,
+      "tag": "[E]",
+      "value": 0
+    },
+    "references_bytes": {
+      "computed": true,
+      "inputs": [],
+      "note": "byte size of the unchanged references file",
+      "sha256_of_source": null,
+      "source_file": null,
+      "source_key": null,
+      "tag": "[E]",
+      "value": 18843
+    },
+    "render_hash_mismatches": {
+      "computed": true,
+      "inputs": [],
+      "note": "renders that differ from the v2 visual receipt",
+      "sha256_of_source": null,
+      "source_file": null,
+      "source_key": null,
+      "tag": "[E]",
+      "value": 0
+    },
+    "visual_clipping_issues": {
+      "sha256_of_source": "215663ceb1cd699c467ca60dc5807e555a467a413f85ff08e1956d95ab3d6b3b",
+      "source_file": "v2_work/visual_review.json",
+      "source_key": "clipped_text_or_unintended_overlaps",
+      "tag": "[E]",
+      "value": 0
+    },
+    "visual_slides_reviewed": {
+      "computed": true,
+      "inputs": [],
+      "note": "slides covered by the existing v2 visual receipt",
+      "sha256_of_source": null,
+      "source_file": null,
+      "source_key": null,
+      "tag": "[E]",
+      "value": 15
+    }
+  },
+  "path": "FALLBACK_A",
+  "promotion": false,
+  "provenance": {
+    "created_utc": "2026-10-31T10:42:58.210723+00:00",
+    "input_files": [
+      {
+        "path": "analysis_outputs/claims_ledger.csv",
+        "present": true,
+        "sha256": "b4dce03b43f6bd1b9ef3142759e0cb88682527af2f9f8824902521d88729c5b4",
+        "size": 33168
+      },
+      {
+        "path": "philopateer.ipynb",
+        "present": true,
+        "sha256": "aaa170b19923c087f9b38f85b546626b7465a3d17f5ae7037812c6aed5736b35",
+        "size": 1857125
+      },
+      {
+        "path": "philopateer.pdf",
+        "present": true,
+        "sha256": "a51d2c0ff8aa6ebb0f679e680d6424b01cd7b95b9a0d23ae7a2eecc56de210ea",
+        "size": 846608
+      },
+      {
+        "path": "philopateer.pptx",
+        "present": true,
+        "sha256": "a50a66fd77d062bdc45aeefb00ce8652b20b952de06dcb27e8ab4f15c37e46bc",
+        "size": 1310666
+      },
+      {
+        "path": "references.txt",
+        "present": true,
+        "sha256": "b12fb18aafc83e2d599e15d04c689ee5cd85c10082c1761ab0c6f1d01606d361",
+        "size": 18843
+      },
+      {
+        "path": "v2_work/office_geometry_check.json",
+        "present": true,
+        "sha256": "31569f42fac021a6790e23ff56092b2913680d33cbb701ec407de1e61bd938a7",
+        "size": 1510
+      },
+      {
+        "path": "v2_work/visual_review.json",
+        "present": true,
+        "sha256": "215663ceb1cd699c467ca60dc5807e555a467a413f85ff08e1956d95ab3d6b3b",
+        "size": 2403
+      },
+      {
+        "path": "v4_addons/results/d0_checks.json",
+        "present": true,
+        "sha256": "508f0853b4f91cb04ca1750b3232bcc7e651837fac2f815e05dcc038203e6e67",
+        "size": 55124
+      },
+      {
+        "path": "v4_addons/results/d3_ledger_dryrun.json",
+        "present": true,
+        "sha256": "71189a56972d73af14f58a31063ebd8bb2a8cbc7a01c3a60a738214d33dcbc7b",
+        "size": 10715
+      }
+    ],
+    "python_version": "3.11.9 (tags/v3.11.9:de54cf5, Apr  2 2024, 10:12:12) [MSC v.1938 64 bit (AMD64)]",
+    "row_counts": {},
+    "runtime": {
+      "env": {
+        "MKL_NUM_THREADS": "6",
+        "NUMEXPR_NUM_THREADS": "6",
+        "OMP_NUM_THREADS": "6",
+        "OPENBLAS_NUM_THREADS": "6"
+      },
+      "function_sha256": "77f490da30fa85a8826efca565835a7127fa2d629110a92afe8b0a497a437bca",
+      "pools": [
+        {
+          "architecture": "Haswell",
+          "filepath": "C:\\Users\\FGstore\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\numpy.libs\\libscipy_openblas64_-860d95b1c38e637ce4509f5fa24fbf2a.dll",
+          "internal_api": "openblas",
+          "num_threads": 6,
+          "prefix": "libscipy_openblas",
+          "threading_layer": "pthreads",
+          "user_api": "blas",
+          "version": "0.3.30"
+        },
+        {
+          "architecture": "Haswell",
+          "filepath": "C:\\Users\\FGstore\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\scipy.libs\\libscipy_openblas-64eda39e79589aedb16f58e5547eb599.dll",
+          "internal_api": "openblas",
+          "num_threads": 6,
+          "prefix": "libscipy_openblas",
+          "threading_layer": "pthreads",
+          "user_api": "blas",
+          "version": "0.3.30"
+        }
+      ],
+      "source": "v3_addons/src/common.py",
+      "thread_cap": 6
+    },
+    "script": "v4_addons/tools/f3_fallback.py",
+    "script_sha256": "ed48051a87d2edbf0e1af5c853739026ce5c298d2d18da9c60480ce8fcae98ee",
+    "seed": 20261045,
+    "tags_used": [
+      "[E]",
+      "[A]",
+      "[R]"
+    ]
+  },
+  "qa": {
+    "geometry": "v2 receipt bound to the unchanged PPTX hash",
+    "presentation": "no text changed; no candidate",
+    "receipt": "deliverable and ledger hashes equal the frozen v2 values",
+    "source_claim": "ledger unchanged and Option A hash reproduced",
+    "visual": "visual QA not performed in F3 (no candidate; prior v2 receipt re-verified)"
+  },
+  "rollback": {
+    "applicable": false,
+    "reason": "no artifact was modified; live files equal the frozen hashes"
+  },
+  "status": "COMPLETED_ACCEPTED",
+  "visual": {
+    "contact_sheet_match": true,
+    "delivery_checks_match": true,
+    "note": "the existing v2 visual receipt remains the only visual approval; F3 performed no new visual review",
+    "render_hash_mismatches": [],
+    "slides_reviewed": 15,
+    "status": "passed"
+  }
+}

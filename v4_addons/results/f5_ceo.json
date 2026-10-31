@@ -1,0 +1,690 @@
+{
+  "brief_words": 450,
+  "corrections_scope": "brief only; frozen v2 deck unchanged",
+  "expected": {
+    "matched": 10,
+    "rows": [
+      {
+        "bound": [
+          "0.6978",
+          "0.6899",
+          "0.7055"
+        ],
+        "expected": [
+          "0.6978",
+          "0.6899",
+          "0.7055"
+        ],
+        "label": "auc / interval",
+        "match": true
+      },
+      {
+        "bound": [
+          "42.44%",
+          "15.37%"
+        ],
+        "expected": [
+          "42.44%",
+          "15.37%"
+        ],
+        "label": "value capture gains",
+        "match": true
+      },
+      {
+        "bound": [
+          "$3,747.08",
+          "16.0%"
+        ],
+        "expected": [
+          "$3,747.08",
+          "16.0%"
+        ],
+        "label": "net / break-even",
+        "match": true
+      },
+      {
+        "bound": [
+          "0.685",
+          "0.930",
+          "0.168"
+        ],
+        "expected": [
+          "0.685",
+          "0.930",
+          "0.168"
+        ],
+        "label": "P(net>0)",
+        "match": true
+      },
+      {
+        "bound": [
+          "\u2212$6,166.36"
+        ],
+        "expected": [
+          "\u2212$6,166.36"
+        ],
+        "label": "5th percentile",
+        "match": true
+      },
+      {
+        "bound": [
+          "7,872",
+          "$12,872",
+          "5,000"
+        ],
+        "expected": [
+          "7,872",
+          "$12,872",
+          "5,000"
+        ],
+        "label": "pilot",
+        "match": true
+      },
+      {
+        "bound": [
+          "76.0%",
+          "25.4%"
+        ],
+        "expected": [
+          "76.0%",
+          "25.4%"
+        ],
+        "label": "E4 power",
+        "match": true
+      },
+      {
+        "bound": [
+          "7.6%",
+          "91.9%",
+          "0.5%"
+        ],
+        "expected": [
+          "7.6%",
+          "91.9%",
+          "0.5%"
+        ],
+        "label": "decision row",
+        "match": true
+      },
+      {
+        "bound": [
+          "4.842493%",
+          "2%",
+          "2.42\u00d7"
+        ],
+        "expected": [
+          "4.842493%",
+          "2%",
+          "2.42\u00d7"
+        ],
+        "label": "transport",
+        "match": true
+      },
+      {
+        "bound": [
+          "0.001085"
+        ],
+        "expected": [
+          "0.001085"
+        ],
+        "label": "best rejected AUC gain",
+        "match": true
+      }
+    ],
+    "total": 10
+  },
+  "fallback": "A",
+  "numbers": {
+    "arm_80k": {
+      "sha256_of_source": "1d14a4fea10ab391631379f82cd6a82e5a65ede4f01db5b540c9aec3612eea1e",
+      "source_encoding": "utf-8",
+      "source_file": "v2_work/final_metrics.json",
+      "source_key": "pilot_calibration.simulated_required_enrolled_per_arm_grid.adjusted_contribution",
+      "tag": "[E]",
+      "value": 80000
+    },
+    "ascarza_control_churn": {
+      "sha256_of_source": "0cfda524a29346e7db5640034deda927f4150d2f2b1eaa86688a0fd504aea326",
+      "source_encoding": "cp1252",
+      "source_file": "v3_addons/results/sources/ascarza_2016_source.txt",
+      "source_key": "line:14:regex:only (\\d+)%",
+      "tag": "[E]",
+      "value": 6.0
+    },
+    "ascarza_treatment_churn": {
+      "sha256_of_source": "0cfda524a29346e7db5640034deda927f4150d2f2b1eaa86688a0fd504aea326",
+      "source_encoding": "cp1252",
+      "source_file": "v3_addons/results/sources/ascarza_2016_source.txt",
+      "source_key": "line:16:regex:(\\d+)% did so",
+      "tag": "[E]",
+      "value": 10.0
+    },
+    "auc": {
+      "sha256_of_source": "1d14a4fea10ab391631379f82cd6a82e5a65ede4f01db5b540c9aec3612eea1e",
+      "source_encoding": "utf-8",
+      "source_file": "v2_work/final_metrics.json",
+      "source_key": "v1.selected_test_metrics.roc_auc",
+      "tag": "[E]",
+      "value": 0.6978109022411016
+    },
+    "auc_lower": {
+      "sha256_of_source": "1d14a4fea10ab391631379f82cd6a82e5a65ede4f01db5b540c9aec3612eea1e",
+      "source_encoding": "utf-8",
+      "source_file": "v2_work/final_metrics.json",
+      "source_key": "v1.bootstrap_intervals.auc.lower",
+      "tag": "[E]",
+      "value": 0.689902981889822
+    },
+    "auc_pairs_in_ten": {
+      "formula": "round(auc * 10)",
+      "inputs": [
+        "auc"
+      ],
+      "note": "AUC expressed as correct ranking pairs out of ten",
+      "sha256_of_source": null,
+      "source_file": null,
+      "source_key": null,
+      "tag": "[E]",
+      "value": 7
+    },
+    "auc_upper": {
+      "sha256_of_source": "1d14a4fea10ab391631379f82cd6a82e5a65ede4f01db5b540c9aec3612eea1e",
+      "source_encoding": "utf-8",
+      "source_file": "v2_work/final_metrics.json",
+      "source_key": "v1.bootstrap_intervals.auc.upper",
+      "tag": "[E]",
+      "value": 0.7054949137349805
+    },
+    "best_rejected_gain": {
+      "sha256_of_source": "1d14a4fea10ab391631379f82cd6a82e5a65ede4f01db5b540c9aec3612eea1e",
+      "source_encoding": "utf-8",
+      "source_file": "v2_work/final_metrics.json",
+      "source_key": "strongest_nonpromoted_or_promoted_cv_candidate.mean_auc_gain",
+      "tag": "[E]",
+      "value": 0.001085100273
+    },
+    "break_even": {
+      "sha256_of_source": "1d14a4fea10ab391631379f82cd6a82e5a65ede4f01db5b540c9aec3612eea1e",
+      "source_encoding": "utf-8",
+      "source_file": "v2_work/final_metrics.json",
+      "source_key": "deployment_policies.bayes.break_even_success",
+      "tag": "[E]",
+      "value": 0.1599927219990843
+    },
+    "brief_word_cap": {
+      "formula": "450",
+      "inputs": [],
+      "note": "brief length cap",
+      "sha256_of_source": null,
+      "source_file": null,
+      "source_key": null,
+      "tag": "[R]",
+      "value": 450
+    },
+    "brief_words": {
+      "computed": true,
+      "inputs": [],
+      "note": "whitespace word count of CEO_BRIEF.md",
+      "sha256_of_source": null,
+      "source_file": null,
+      "source_key": null,
+      "tag": "[E]",
+      "value": 450
+    },
+    "calibration_rows": {
+      "sha256_of_source": "3fdc66b678ce25c825ccb9d07dff2ecd38af4a05d6e54b5825efed35f2cf08b0",
+      "source_encoding": "utf-8",
+      "source_file": "v4_addons/results/m1_baseline.json",
+      "source_key": "numbers.frozen_calibration_customers.value",
+      "tag": "[E]",
+      "value": 10000
+    },
+    "cohort_size": {
+      "sha256_of_source": "0104de65780d83c0c5b8be9a3d842c50e8f99e12745ea9c1e5b8296eafd776cc",
+      "source_encoding": "utf-8",
+      "source_file": "v4_addons/results/yardstick.json",
+      "source_key": "numbers.cohort_size.value",
+      "tag": "[E]",
+      "value": 100000
+    },
+    "deployment_prior": {
+      "sha256_of_source": "0104de65780d83c0c5b8be9a3d842c50e8f99e12745ea9c1e5b8296eafd776cc",
+      "source_encoding": "utf-8",
+      "source_file": "v4_addons/results/yardstick.json",
+      "source_key": "numbers.deployment_prior.value",
+      "tag": "[E]",
+      "value": 0.02
+    },
+    "e4_effect_power": {
+      "sha256_of_source": "175374f8c495aa598915568c6d4686cba61bfd26d09f1672bc364bddc0228bea",
+      "source_encoding": "utf-8",
+      "source_file": "v3_addons/results/wp1_power.csv",
+      "source_key": "where(method=E4_V_stratified;n_per_arm=7872;gamma=0.2;deff=1.1).effect_power",
+      "tag": "[E]",
+      "value": 0.76
+    },
+    "e4_profit_power": {
+      "sha256_of_source": "175374f8c495aa598915568c6d4686cba61bfd26d09f1672bc364bddc0228bea",
+      "source_encoding": "utf-8",
+      "source_file": "v3_addons/results/wp1_power.csv",
+      "source_key": "where(method=E4_V_stratified;n_per_arm=7872;gamma=0.2;deff=1.1).profit_power",
+      "tag": "[E]",
+      "value": 0.254
+    },
+    "expected_rows_matched": {
+      "computed": true,
+      "inputs": [],
+      "note": "expected-value rows whose bound values equal the brief table",
+      "sha256_of_source": null,
+      "source_file": null,
+      "source_key": null,
+      "tag": "[E]",
+      "value": 10
+    },
+    "expected_rows_total": {
+      "formula": "10",
+      "inputs": [],
+      "note": "expected-value table rows in the directive",
+      "sha256_of_source": null,
+      "source_file": null,
+      "source_key": null,
+      "tag": "[R]",
+      "value": 10
+    },
+    "extrap_10k_gain": {
+      "sha256_of_source": "1e7683f395bdddd679effb248f12b1cd32379b55a2acba36a0ad67d9a004f607",
+      "source_encoding": "utf-8",
+      "source_file": "v4_addons/results/f0_closeout.json",
+      "source_key": "numbers.extrap_10k_gain.value",
+      "tag": "[E]",
+      "value": 0.000794459161633309
+    },
+    "extrap_double_gain": {
+      "sha256_of_source": "1e7683f395bdddd679effb248f12b1cd32379b55a2acba36a0ad67d9a004f607",
+      "source_encoding": "utf-8",
+      "source_file": "v4_addons/results/f0_closeout.json",
+      "source_key": "numbers.extrap_double_gain.value",
+      "tag": "[E]",
+      "value": 0.0036673541098952863
+    },
+    "gamma_assumption": {
+      "sha256_of_source": "175374f8c495aa598915568c6d4686cba61bfd26d09f1672bc364bddc0228bea",
+      "source_encoding": "utf-8",
+      "source_file": "v3_addons/results/wp1_power.csv",
+      "source_key": "where(method=E4_V_stratified;n_per_arm=7872;gamma=0.2;deff=1.1).gamma",
+      "tag": "[E]",
+      "value": 0.2
+    },
+    "improvement_rounds": {
+      "formula": "3",
+      "inputs": [],
+      "note": "three improvement rounds: v2 candidates, v3 challenger, v4 data-volume audit",
+      "sha256_of_source": null,
+      "source_file": null,
+      "source_key": null,
+      "tag": "[R]",
+      "value": 3
+    },
+    "interval_level": {
+      "sha256_of_source": "0104de65780d83c0c5b8be9a3d842c50e8f99e12745ea9c1e5b8296eafd776cc",
+      "source_encoding": "utf-8",
+      "source_file": "v4_addons/results/yardstick.json",
+      "source_key": "numbers.interval_level.value",
+      "tag": "[E]",
+      "value": 0.95
+    },
+    "lc_gain_last_step": {
+      "sha256_of_source": "3fdc66b678ce25c825ccb9d07dff2ecd38af4a05d6e54b5825efed35f2cf08b0",
+      "source_encoding": "utf-8",
+      "source_file": "v4_addons/results/m1_baseline.json",
+      "source_key": "numbers.curve_gain_67500_over_60000.value",
+      "tag": "[E]",
+      "value": 0.0006412360779057269
+    },
+    "lc_size_60000": {
+      "sha256_of_source": "3fdc66b678ce25c825ccb9d07dff2ecd38af4a05d6e54b5825efed35f2cf08b0",
+      "source_encoding": "utf-8",
+      "source_file": "v4_addons/results/m1_baseline.json",
+      "source_key": "numbers.curve_size_60000.value",
+      "tag": "[E]",
+      "value": 60000
+    },
+    "lc_size_67500": {
+      "sha256_of_source": "3fdc66b678ce25c825ccb9d07dff2ecd38af4a05d6e54b5825efed35f2cf08b0",
+      "source_encoding": "utf-8",
+      "source_file": "v4_addons/results/m1_baseline.json",
+      "source_key": "numbers.curve_size_67500.value",
+      "tag": "[E]",
+      "value": 67500
+    },
+    "list_size": {
+      "sha256_of_source": "0104de65780d83c0c5b8be9a3d842c50e8f99e12745ea9c1e5b8296eafd776cc",
+      "source_encoding": "utf-8",
+      "source_file": "v4_addons/results/yardstick.json",
+      "source_key": "numbers.list_size.value",
+      "tag": "[E]",
+      "value": 10000.0
+    },
+    "max_per_arm_one_list": {
+      "sha256_of_source": "0104de65780d83c0c5b8be9a3d842c50e8f99e12745ea9c1e5b8296eafd776cc",
+      "source_encoding": "utf-8",
+      "source_file": "v4_addons/results/yardstick.json",
+      "source_key": "numbers.max_per_arm_one_list.value",
+      "tag": "[E]",
+      "value": 5000.0
+    },
+    "net_5pct": {
+      "sha256_of_source": "96aa9a75869c53079e1442a26f1f3d08f5261d735e61a5195a658955843a5dd1",
+      "source_encoding": "utf-8",
+      "source_file": "v3_addons/results/wp3_roi_band.json",
+      "source_key": "priors[1].closed_form.net_5pct",
+      "tag": "[E]",
+      "value": -6166.359913496997
+    },
+    "net_per_100k": {
+      "sha256_of_source": "1d14a4fea10ab391631379f82cd6a82e5a65ede4f01db5b540c9aec3612eea1e",
+      "source_encoding": "utf-8",
+      "source_file": "v2_work/final_metrics.json",
+      "source_key": "deployment_policies.bayes.net",
+      "tag": "[E]",
+      "value": 3747.082455665277
+    },
+    "p_extend": {
+      "sha256_of_source": "1ad721f80356881cf37a4e5a1f15f7856760983d9aff0f5b7c1c750879423be0",
+      "source_encoding": "utf-8",
+      "source_file": "v3_addons/results/wp2_decision_quality.csv",
+      "source_key": "where(n_per_arm=7872;gamma=0.2;deff=1.1;method=E3_observed).p_extend",
+      "tag": "[E]",
+      "value": 0.919
+    },
+    "p_positive_central": {
+      "sha256_of_source": "96aa9a75869c53079e1442a26f1f3d08f5261d735e61a5195a658955843a5dd1",
+      "source_encoding": "utf-8",
+      "source_file": "v3_addons/results/wp3_roi_band.json",
+      "source_key": "priors[1].closed_form.p_positive",
+      "tag": "[E]",
+      "value": 0.6850373137534997
+    },
+    "p_positive_lower": {
+      "sha256_of_source": "96aa9a75869c53079e1442a26f1f3d08f5261d735e61a5195a658955843a5dd1",
+      "source_encoding": "utf-8",
+      "source_file": "v3_addons/results/wp3_roi_band.json",
+      "source_key": "priors[2].closed_form.p_positive",
+      "tag": "[E]",
+      "value": 0.16823329149846597
+    },
+    "p_positive_upper": {
+      "sha256_of_source": "96aa9a75869c53079e1442a26f1f3d08f5261d735e61a5195a658955843a5dd1",
+      "source_encoding": "utf-8",
+      "source_file": "v3_addons/results/wp3_roi_band.json",
+      "source_key": "priors[0].closed_form.p_positive",
+      "tag": "[E]",
+      "value": 0.9300037463815178
+    },
+    "p_scale": {
+      "sha256_of_source": "1ad721f80356881cf37a4e5a1f15f7856760983d9aff0f5b7c1c750879423be0",
+      "source_encoding": "utf-8",
+      "source_file": "v3_addons/results/wp2_decision_quality.csv",
+      "source_key": "where(n_per_arm=7872;gamma=0.2;deff=1.1;method=E3_observed).p_scale",
+      "tag": "[E]",
+      "value": 0.076
+    },
+    "p_stop": {
+      "sha256_of_source": "1ad721f80356881cf37a4e5a1f15f7856760983d9aff0f5b7c1c750879423be0",
+      "source_encoding": "utf-8",
+      "source_file": "v3_addons/results/wp2_decision_quality.csv",
+      "source_key": "where(n_per_arm=7872;gamma=0.2;deff=1.1;method=E3_observed).p_stop",
+      "tag": "[E]",
+      "value": 0.005
+    },
+    "pilot_per_arm": {
+      "sha256_of_source": "1d14a4fea10ab391631379f82cd6a82e5a65ede4f01db5b540c9aec3612eea1e",
+      "source_encoding": "utf-8",
+      "source_file": "v2_work/final_metrics.json",
+      "source_key": "v1.pilot.per_arm_with_10pct_allowance",
+      "tag": "[E]",
+      "value": 7872
+    },
+    "prevention_assumption": {
+      "sha256_of_source": "1d14a4fea10ab391631379f82cd6a82e5a65ede4f01db5b540c9aec3612eea1e",
+      "source_encoding": "utf-8",
+      "source_file": "v2_work/final_metrics.json",
+      "source_key": "pilot_calibration.spec.normal_binary_reference.relative_prevention_assumption",
+      "tag": "[E]",
+      "value": 0.2
+    },
+    "prior_2_18_mean": {
+      "sha256_of_source": "96aa9a75869c53079e1442a26f1f3d08f5261d735e61a5195a658955843a5dd1",
+      "source_encoding": "utf-8",
+      "source_file": "v3_addons/results/wp3_roi_band.json",
+      "source_key": "priors[2].gamma_mean",
+      "tag": "[E]",
+      "value": 0.1
+    },
+    "prior_6_14_mean": {
+      "sha256_of_source": "96aa9a75869c53079e1442a26f1f3d08f5261d735e61a5195a658955843a5dd1",
+      "source_encoding": "utf-8",
+      "source_file": "v3_addons/results/wp3_roi_band.json",
+      "source_key": "priors[0].gamma_mean",
+      "tag": "[E]",
+      "value": 0.3
+    },
+    "prior_6_24_mean": {
+      "sha256_of_source": "96aa9a75869c53079e1442a26f1f3d08f5261d735e61a5195a658955843a5dd1",
+      "source_encoding": "utf-8",
+      "source_file": "v3_addons/results/wp3_roi_band.json",
+      "source_key": "priors[1].gamma_mean",
+      "tag": "[E]",
+      "value": 0.2
+    },
+    "qa_words": {
+      "computed": true,
+      "inputs": [],
+      "note": "whitespace word count of CEO_QA.md",
+      "sha256_of_source": null,
+      "source_file": null,
+      "source_key": null,
+      "tag": "[E]",
+      "value": 260
+    },
+    "random_pairs_denominator": {
+      "formula": "10",
+      "inputs": [],
+      "note": "AUC pair illustration uses ten random pairs",
+      "sha256_of_source": null,
+      "source_file": null,
+      "source_key": null,
+      "tag": "[R]",
+      "value": 10
+    },
+    "refit_rows": {
+      "sha256_of_source": "3fdc66b678ce25c825ccb9d07dff2ecd38af4a05d6e54b5825efed35f2cf08b0",
+      "source_encoding": "utf-8",
+      "source_file": "v4_addons/results/m1_baseline.json",
+      "source_key": "numbers.frozen_refit_customers.value",
+      "tag": "[E]",
+      "value": 75000
+    },
+    "selected_control_churn": {
+      "sha256_of_source": "c1ec315ff45436d914af3061f9e9d201d34e7d9b8dddd825c2672d9bba2f5369",
+      "source_encoding": "utf-8",
+      "source_file": "v3_addons/results/inventory.json",
+      "source_key": "population.selected_control_churn",
+      "tag": "[E]",
+      "value": 0.04842492833163853
+    },
+    "stage1_cost": {
+      "sha256_of_source": "1d14a4fea10ab391631379f82cd6a82e5a65ede4f01db5b540c9aec3612eea1e",
+      "source_encoding": "utf-8",
+      "source_file": "v2_work/final_metrics.json",
+      "source_key": "pilot_calibration.spec.stage1_cost",
+      "tag": "[E]",
+      "value": 12872.0
+    },
+    "startup_stage1": {
+      "sha256_of_source": "1d14a4fea10ab391631379f82cd6a82e5a65ede4f01db5b540c9aec3612eea1e",
+      "source_encoding": "utf-8",
+      "source_file": "v2_work/final_metrics.json",
+      "source_key": "pilot_calibration.spec.cost_assumptions.startup_stage1",
+      "tag": "[E]",
+      "value": 5000.0
+    },
+    "transport_ratio": {
+      "formula": "selected_control_churn / deployment_prior",
+      "inputs": [
+        "deployment_prior",
+        "selected_control_churn"
+      ],
+      "note": "selected control churn divided by the assumed deployment churn",
+      "sha256_of_source": null,
+      "source_file": null,
+      "source_key": null,
+      "tag": "[A]",
+      "value": 2.4212464165819263
+    },
+    "treated_contact_cost": {
+      "sha256_of_source": "1d14a4fea10ab391631379f82cd6a82e5a65ede4f01db5b540c9aec3612eea1e",
+      "source_encoding": "utf-8",
+      "source_file": "v2_work/final_metrics.json",
+      "source_key": "pilot_calibration.spec.cost_assumptions.treated_contact",
+      "tag": "[E]",
+      "value": 1.0
+    },
+    "v2_candidate_count": {
+      "sha256_of_source": "40a951d0c38267b0b2058e939e6cadc05e138fb4c542e34285f730d09c8483db",
+      "source_encoding": "utf-8",
+      "source_file": "v2_work/d_results/gate_d.csv",
+      "source_key": "rowcount",
+      "tag": "[E]",
+      "value": 11
+    },
+    "value_gain_deployment": {
+      "sha256_of_source": "1d14a4fea10ab391631379f82cd6a82e5a65ede4f01db5b540c9aec3612eea1e",
+      "source_encoding": "utf-8",
+      "source_file": "v2_work/final_metrics.json",
+      "source_key": "deployment_relative_value_gain",
+      "tag": "[E]",
+      "value": 0.1537449338584349
+    },
+    "value_gain_sample": {
+      "sha256_of_source": "1d14a4fea10ab391631379f82cd6a82e5a65ede4f01db5b540c9aec3612eea1e",
+      "source_encoding": "utf-8",
+      "source_file": "v2_work/final_metrics.json",
+      "source_key": "v1.value_capture_relative_gain_over_risk",
+      "tag": "[E]",
+      "value": 0.42437287197665974
+    }
+  },
+  "pdf": null,
+  "pdf_reason": "no LaTeX toolchain; .md delivered as the directive permits",
+  "provenance": {
+    "created_utc": "2026-10-31T10:48:31.251763+00:00",
+    "input_files": [
+      {
+        "path": "v2_work/d_results/gate_d.csv",
+        "present": true,
+        "sha256": "40a951d0c38267b0b2058e939e6cadc05e138fb4c542e34285f730d09c8483db",
+        "size": 2696
+      },
+      {
+        "path": "v2_work/final_metrics.json",
+        "present": true,
+        "sha256": "1d14a4fea10ab391631379f82cd6a82e5a65ede4f01db5b540c9aec3612eea1e",
+        "size": 155122
+      },
+      {
+        "path": "v3_addons/results/inventory.json",
+        "present": true,
+        "sha256": "c1ec315ff45436d914af3061f9e9d201d34e7d9b8dddd825c2672d9bba2f5369",
+        "size": 23203
+      },
+      {
+        "path": "v3_addons/results/sources/ascarza_2016_source.txt",
+        "present": true,
+        "sha256": "0cfda524a29346e7db5640034deda927f4150d2f2b1eaa86688a0fd504aea326",
+        "size": 135867
+      },
+      {
+        "path": "v3_addons/results/wp1_power.csv",
+        "present": true,
+        "sha256": "175374f8c495aa598915568c6d4686cba61bfd26d09f1672bc364bddc0228bea",
+        "size": 167320
+      },
+      {
+        "path": "v3_addons/results/wp2_decision_quality.csv",
+        "present": true,
+        "sha256": "1ad721f80356881cf37a4e5a1f15f7856760983d9aff0f5b7c1c750879423be0",
+        "size": 17005
+      },
+      {
+        "path": "v3_addons/results/wp3_roi_band.json",
+        "present": true,
+        "sha256": "96aa9a75869c53079e1442a26f1f3d08f5261d735e61a5195a658955843a5dd1",
+        "size": 96482
+      },
+      {
+        "path": "v4_addons/results/f0_closeout.json",
+        "present": true,
+        "sha256": "1e7683f395bdddd679effb248f12b1cd32379b55a2acba36a0ad67d9a004f607",
+        "size": 17927
+      },
+      {
+        "path": "v4_addons/results/m1_baseline.json",
+        "present": true,
+        "sha256": "3fdc66b678ce25c825ccb9d07dff2ecd38af4a05d6e54b5825efed35f2cf08b0",
+        "size": 32149
+      },
+      {
+        "path": "v4_addons/results/yardstick.json",
+        "present": true,
+        "sha256": "0104de65780d83c0c5b8be9a3d842c50e8f99e12745ea9c1e5b8296eafd776cc",
+        "size": 57898
+      }
+    ],
+    "python_version": "3.11.9 (tags/v3.11.9:de54cf5, Apr  2 2024, 10:12:12) [MSC v.1938 64 bit (AMD64)]",
+    "row_counts": {},
+    "runtime": {
+      "env": {
+        "MKL_NUM_THREADS": "6",
+        "NUMEXPR_NUM_THREADS": "6",
+        "OMP_NUM_THREADS": "6",
+        "OPENBLAS_NUM_THREADS": "6"
+      },
+      "function_sha256": "77f490da30fa85a8826efca565835a7127fa2d629110a92afe8b0a497a437bca",
+      "pools": [
+        {
+          "architecture": "Haswell",
+          "filepath": "C:\\Users\\FGstore\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\numpy.libs\\libscipy_openblas64_-860d95b1c38e637ce4509f5fa24fbf2a.dll",
+          "internal_api": "openblas",
+          "num_threads": 6,
+          "prefix": "libscipy_openblas",
+          "threading_layer": "pthreads",
+          "user_api": "blas",
+          "version": "0.3.30"
+        },
+        {
+          "architecture": "Haswell",
+          "filepath": "C:\\Users\\FGstore\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\scipy.libs\\libscipy_openblas-64eda39e79589aedb16f58e5547eb599.dll",
+          "internal_api": "openblas",
+          "num_threads": 6,
+          "prefix": "libscipy_openblas",
+          "threading_layer": "pthreads",
+          "user_api": "blas",
+          "version": "0.3.30"
+        }
+      ],
+      "source": "v3_addons/src/common.py",
+      "thread_cap": 6
+    },
+    "script": "v4_addons/tools/f5_ceo.py",
+    "script_sha256": "90461834ee7e85d284c122928476311f1553338db20d1e18836d182d49d5ac14",
+    "seed": 20261047,
+    "tags_used": [
+      "[E]",
+      "[A]",
+      "[R]"
+    ]
+  },
+  "qa_words": 260,
+  "status": "COMPLETED_ACCEPTED"
+}

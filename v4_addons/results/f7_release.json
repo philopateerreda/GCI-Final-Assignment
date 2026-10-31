@@ -1,0 +1,477 @@
+{
+  "checklist_lines": 5,
+  "copies_verified": 6,
+  "fallback": "A",
+  "numbers": {
+    "brief_words": {
+      "sha256_of_source": "0f347aeddbf279145bef0af994e3aeb17f764a628a31fa1b7d0027f0419568a0",
+      "source_encoding": "utf-8",
+      "source_file": "v4_addons/results/f5_ceo.json",
+      "source_key": "numbers.brief_words.value",
+      "tag": "[E]",
+      "value": 450
+    },
+    "brief_words_match": {
+      "computed": true,
+      "inputs": [],
+      "note": "released brief length equals the F5 record",
+      "sha256_of_source": null,
+      "source_file": null,
+      "source_key": null,
+      "tag": "[E]",
+      "value": 1
+    },
+    "brief_words_recount": {
+      "computed": true,
+      "inputs": [],
+      "note": "whitespace word count of the released brief",
+      "sha256_of_source": null,
+      "source_file": null,
+      "source_key": null,
+      "tag": "[E]",
+      "value": 450
+    },
+    "candidate_qa_cycles": {
+      "sha256_of_source": "97a3c93fbfd1b534b714c6f7b5fb57fa6f364ee11ac2fd0a3a514ae6a6c60e20",
+      "source_encoding": "utf-8",
+      "source_file": "v4_addons/results/f3_fallback.json",
+      "source_key": "numbers.candidate_qa_cycles.value",
+      "tag": "[E]",
+      "value": 0
+    },
+    "cells_added": {
+      "sha256_of_source": "e77e7863ff61cd9eee31861461167632ca4bec1891cd330d9fd1462fab91f429",
+      "source_encoding": "utf-8",
+      "source_file": "v4_addons/results/f4_skip.json",
+      "source_key": "numbers.cells_added.value",
+      "tag": "[E]",
+      "value": 0
+    },
+    "checklist_lines": {
+      "computed": true,
+      "inputs": [],
+      "note": "lines in HUMAN_CHECKLIST.md",
+      "sha256_of_source": null,
+      "source_file": null,
+      "source_key": null,
+      "tag": "[R]",
+      "value": 5
+    },
+    "copies_read_only": {
+      "computed": true,
+      "inputs": [],
+      "note": "release copies carrying the read-only attribute",
+      "sha256_of_source": null,
+      "source_file": null,
+      "source_key": null,
+      "tag": "[E]",
+      "value": 6
+    },
+    "copies_verified": {
+      "computed": true,
+      "inputs": [],
+      "note": "release copies whose SHA-256 equals the source",
+      "sha256_of_source": null,
+      "source_file": null,
+      "source_key": null,
+      "tag": "[E]",
+      "value": 6
+    },
+    "copy_hash_mismatches": {
+      "computed": true,
+      "inputs": [],
+      "note": "copy hash mismatches",
+      "sha256_of_source": null,
+      "source_file": null,
+      "source_key": null,
+      "tag": "[E]",
+      "value": 0
+    },
+    "deck_edits": {
+      "computed": true,
+      "inputs": [],
+      "note": "deck, LaTeX or PDF edits in v4 closeout",
+      "sha256_of_source": null,
+      "source_file": null,
+      "source_key": null,
+      "tag": "[E]",
+      "value": 0
+    },
+    "deliverable_count": {
+      "computed": true,
+      "inputs": [],
+      "note": "frozen deliverables in the release folder",
+      "sha256_of_source": null,
+      "source_file": null,
+      "source_key": null,
+      "tag": "[R]",
+      "value": 4
+    },
+    "expected_rows_matched": {
+      "sha256_of_source": "0f347aeddbf279145bef0af994e3aeb17f764a628a31fa1b7d0027f0419568a0",
+      "source_encoding": "utf-8",
+      "source_file": "v4_addons/results/f5_ceo.json",
+      "source_key": "numbers.expected_rows_matched.value",
+      "tag": "[E]",
+      "value": 10
+    },
+    "expected_rows_total": {
+      "sha256_of_source": "0f347aeddbf279145bef0af994e3aeb17f764a628a31fa1b7d0027f0419568a0",
+      "source_encoding": "utf-8",
+      "source_file": "v4_addons/results/f5_ceo.json",
+      "source_key": "numbers.expected_rows_total.value",
+      "tag": "[E]",
+      "value": 10
+    },
+    "frozen_hash_mismatches": {
+      "sha256_of_source": "97a3c93fbfd1b534b714c6f7b5fb57fa6f364ee11ac2fd0a3a514ae6a6c60e20",
+      "source_encoding": "utf-8",
+      "source_file": "v4_addons/results/f3_fallback.json",
+      "source_key": "numbers.frozen_hash_mismatches.value",
+      "tag": "[E]",
+      "value": 0
+    },
+    "frozen_match_count": {
+      "computed": true,
+      "inputs": [],
+      "note": "deliverable copies equal to the D0 frozen hashes",
+      "sha256_of_source": null,
+      "source_file": null,
+      "source_key": null,
+      "tag": "[E]",
+      "value": 4
+    },
+    "gates_present": {
+      "sha256_of_source": "97a3c93fbfd1b534b714c6f7b5fb57fa6f364ee11ac2fd0a3a514ae6a6c60e20",
+      "source_encoding": "utf-8",
+      "source_file": "v4_addons/results/f3_fallback.json",
+      "source_key": "numbers.gates_present.value",
+      "tag": "[E]",
+      "value": 2
+    },
+    "geometry_hash_matches_pptx": {
+      "sha256_of_source": "97a3c93fbfd1b534b714c6f7b5fb57fa6f364ee11ac2fd0a3a514ae6a6c60e20",
+      "source_encoding": "utf-8",
+      "source_file": "v4_addons/results/f3_fallback.json",
+      "source_key": "numbers.geometry_hash_matches_pptx.value",
+      "tag": "[E]",
+      "value": 1
+    },
+    "geometry_issue_count": {
+      "sha256_of_source": "97a3c93fbfd1b534b714c6f7b5fb57fa6f364ee11ac2fd0a3a514ae6a6c60e20",
+      "source_encoding": "utf-8",
+      "source_file": "v4_addons/results/f3_fallback.json",
+      "source_key": "numbers.geometry_issue_count.value",
+      "tag": "[E]",
+      "value": 0
+    },
+    "geometry_slide_count": {
+      "sha256_of_source": "97a3c93fbfd1b534b714c6f7b5fb57fa6f364ee11ac2fd0a3a514ae6a6c60e20",
+      "source_encoding": "utf-8",
+      "source_file": "v4_addons/results/f3_fallback.json",
+      "source_key": "numbers.geometry_slide_count.value",
+      "tag": "[E]",
+      "value": 15
+    },
+    "ipynb_bytes": {
+      "sha256_of_source": "97a3c93fbfd1b534b714c6f7b5fb57fa6f364ee11ac2fd0a3a514ae6a6c60e20",
+      "source_encoding": "utf-8",
+      "source_file": "v4_addons/results/f3_fallback.json",
+      "source_key": "numbers.ipynb_bytes.value",
+      "tag": "[E]",
+      "value": 1857125
+    },
+    "ledger_rows": {
+      "sha256_of_source": "97a3c93fbfd1b534b714c6f7b5fb57fa6f364ee11ac2fd0a3a514ae6a6c60e20",
+      "source_encoding": "utf-8",
+      "source_file": "v4_addons/results/f3_fallback.json",
+      "source_key": "numbers.ledger_rows.value",
+      "tag": "[E]",
+      "value": 278
+    },
+    "ledger_rows_match": {
+      "computed": true,
+      "inputs": [],
+      "note": "recounted ledger rows equal the F3 receipt",
+      "sha256_of_source": null,
+      "source_file": null,
+      "source_key": null,
+      "tag": "[E]",
+      "value": 1
+    },
+    "ledger_rows_recount": {
+      "computed": true,
+      "inputs": [],
+      "note": "data rows recounted from the Option A ledger copy",
+      "sha256_of_source": null,
+      "source_file": null,
+      "source_key": null,
+      "tag": "[E]",
+      "value": 278
+    },
+    "ledger_sha_match": {
+      "computed": true,
+      "inputs": [],
+      "note": "ledger SHA-256 equals the Option A original",
+      "sha256_of_source": null,
+      "source_file": null,
+      "source_key": null,
+      "tag": "[E]",
+      "value": 1
+    },
+    "new_model_fits": {
+      "computed": true,
+      "inputs": [],
+      "note": "model fits, refits, rescores or simulations in v4 closeout",
+      "sha256_of_source": null,
+      "source_file": null,
+      "source_key": null,
+      "tag": "[E]",
+      "value": 0
+    },
+    "new_test_reads": {
+      "computed": true,
+      "inputs": [],
+      "note": "new test-split reads in v4 closeout",
+      "sha256_of_source": null,
+      "source_file": null,
+      "source_key": null,
+      "tag": "[E]",
+      "value": 0
+    },
+    "new_visual_reviews": {
+      "computed": true,
+      "inputs": [],
+      "note": "new slide visual inspections in v4 closeout",
+      "sha256_of_source": null,
+      "source_file": null,
+      "source_key": null,
+      "tag": "[E]",
+      "value": 0
+    },
+    "pdf_bytes": {
+      "sha256_of_source": "97a3c93fbfd1b534b714c6f7b5fb57fa6f364ee11ac2fd0a3a514ae6a6c60e20",
+      "source_encoding": "utf-8",
+      "source_file": "v4_addons/results/f3_fallback.json",
+      "source_key": "numbers.pdf_bytes.value",
+      "tag": "[E]",
+      "value": 846608
+    },
+    "pdf_pages": {
+      "sha256_of_source": "97a3c93fbfd1b534b714c6f7b5fb57fa6f364ee11ac2fd0a3a514ae6a6c60e20",
+      "source_encoding": "utf-8",
+      "source_file": "v4_addons/results/f3_fallback.json",
+      "source_key": "numbers.pdf_page_count.value",
+      "tag": "[E]",
+      "value": 15
+    },
+    "pptx_bytes": {
+      "sha256_of_source": "97a3c93fbfd1b534b714c6f7b5fb57fa6f364ee11ac2fd0a3a514ae6a6c60e20",
+      "source_encoding": "utf-8",
+      "source_file": "v4_addons/results/f3_fallback.json",
+      "source_key": "numbers.pptx_bytes.value",
+      "tag": "[E]",
+      "value": 1310666
+    },
+    "promotions": {
+      "sha256_of_source": "97a3c93fbfd1b534b714c6f7b5fb57fa6f364ee11ac2fd0a3a514ae6a6c60e20",
+      "source_encoding": "utf-8",
+      "source_file": "v4_addons/results/f3_fallback.json",
+      "source_key": "numbers.promotions.value",
+      "tag": "[E]",
+      "value": 0
+    },
+    "qa_words": {
+      "sha256_of_source": "0f347aeddbf279145bef0af994e3aeb17f764a628a31fa1b7d0027f0419568a0",
+      "source_encoding": "utf-8",
+      "source_file": "v4_addons/results/f5_ceo.json",
+      "source_key": "numbers.qa_words.value",
+      "tag": "[E]",
+      "value": 260
+    },
+    "qa_words_match": {
+      "computed": true,
+      "inputs": [],
+      "note": "released Q&A length equals the F5 record",
+      "sha256_of_source": null,
+      "source_file": null,
+      "source_key": null,
+      "tag": "[E]",
+      "value": 1
+    },
+    "qa_words_recount": {
+      "computed": true,
+      "inputs": [],
+      "note": "whitespace word count of the released Q&A",
+      "sha256_of_source": null,
+      "source_file": null,
+      "source_key": null,
+      "tag": "[E]",
+      "value": 260
+    },
+    "references_bytes": {
+      "sha256_of_source": "97a3c93fbfd1b534b714c6f7b5fb57fa6f364ee11ac2fd0a3a514ae6a6c60e20",
+      "source_encoding": "utf-8",
+      "source_file": "v4_addons/results/f3_fallback.json",
+      "source_key": "numbers.references_bytes.value",
+      "tag": "[E]",
+      "value": 18843
+    },
+    "release_files": {
+      "computed": true,
+      "inputs": [],
+      "note": "files in the release folder",
+      "sha256_of_source": null,
+      "source_file": null,
+      "source_key": null,
+      "tag": "[E]",
+      "value": 6
+    },
+    "render_hash_mismatches": {
+      "sha256_of_source": "97a3c93fbfd1b534b714c6f7b5fb57fa6f364ee11ac2fd0a3a514ae6a6c60e20",
+      "source_encoding": "utf-8",
+      "source_file": "v4_addons/results/f3_fallback.json",
+      "source_key": "numbers.render_hash_mismatches.value",
+      "tag": "[E]",
+      "value": 0
+    },
+    "size_mismatches": {
+      "computed": true,
+      "inputs": [],
+      "note": "deliverable copies whose size differs from the F3 receipt",
+      "sha256_of_source": null,
+      "source_file": null,
+      "source_key": null,
+      "tag": "[E]",
+      "value": 0
+    },
+    "uploads": {
+      "computed": true,
+      "inputs": [],
+      "note": "portal uploads or submissions performed",
+      "sha256_of_source": null,
+      "source_file": null,
+      "source_key": null,
+      "tag": "[E]",
+      "value": 0
+    },
+    "visual_clipping_issues": {
+      "sha256_of_source": "97a3c93fbfd1b534b714c6f7b5fb57fa6f364ee11ac2fd0a3a514ae6a6c60e20",
+      "source_encoding": "utf-8",
+      "source_file": "v4_addons/results/f3_fallback.json",
+      "source_key": "numbers.visual_clipping_issues.value",
+      "tag": "[E]",
+      "value": 0
+    },
+    "visual_slides_reviewed": {
+      "sha256_of_source": "97a3c93fbfd1b534b714c6f7b5fb57fa6f364ee11ac2fd0a3a514ae6a6c60e20",
+      "source_encoding": "utf-8",
+      "source_file": "v4_addons/results/f3_fallback.json",
+      "source_key": "numbers.visual_slides_reviewed.value",
+      "tag": "[E]",
+      "value": 15
+    }
+  },
+  "provenance": {
+    "created_utc": "2026-10-31T10:54:13.315471+00:00",
+    "input_files": [
+      {
+        "path": "philopateer.ipynb",
+        "present": true,
+        "sha256": "aaa170b19923c087f9b38f85b546626b7465a3d17f5ae7037812c6aed5736b35",
+        "size": 1857125
+      },
+      {
+        "path": "philopateer.pdf",
+        "present": true,
+        "sha256": "a51d2c0ff8aa6ebb0f679e680d6424b01cd7b95b9a0d23ae7a2eecc56de210ea",
+        "size": 846608
+      },
+      {
+        "path": "philopateer.pptx",
+        "present": true,
+        "sha256": "a50a66fd77d062bdc45aeefb00ce8652b20b952de06dcb27e8ab4f15c37e46bc",
+        "size": 1310666
+      },
+      {
+        "path": "references.txt",
+        "present": true,
+        "sha256": "b12fb18aafc83e2d599e15d04c689ee5cd85c10082c1761ab0c6f1d01606d361",
+        "size": 18843
+      },
+      {
+        "path": "v4_addons/CEO_BRIEF.md",
+        "present": true,
+        "sha256": "02f5a1ea0e0862b6eef6da7b9c4e55f2e0e2bf7d1599d7f9f671009fab2e81c1",
+        "size": 2929
+      },
+      {
+        "path": "v4_addons/CEO_QA.md",
+        "present": true,
+        "sha256": "763217d07fb8987de8affd550b064324337de1e03615b164dee480fbb9e20dae",
+        "size": 1632
+      },
+      {
+        "path": "v4_addons/ledger_dryrun/claims_ledger_A_final.csv",
+        "present": true,
+        "sha256": "b4dce03b43f6bd1b9ef3142759e0cb88682527af2f9f8824902521d88729c5b4",
+        "size": 33168
+      },
+      {
+        "path": "v4_addons/results/f3_fallback.json",
+        "present": true,
+        "sha256": "97a3c93fbfd1b534b714c6f7b5fb57fa6f364ee11ac2fd0a3a514ae6a6c60e20",
+        "size": 11971
+      },
+      {
+        "path": "v4_addons/results/f4_skip.json",
+        "present": true,
+        "sha256": "e77e7863ff61cd9eee31861461167632ca4bec1891cd330d9fd1462fab91f429",
+        "size": 3960
+      },
+      {
+        "path": "v4_addons/results/f5_ceo.json",
+        "present": true,
+        "sha256": "0f347aeddbf279145bef0af994e3aeb17f764a628a31fa1b7d0027f0419568a0",
+        "size": 23610
+      }
+    ],
+    "python_version": "3.11.9 (tags/v3.11.9:de54cf5, Apr  2 2024, 10:12:12) [MSC v.1938 64 bit (AMD64)]",
+    "row_counts": {},
+    "runtime": {
+      "env": {
+        "MKL_NUM_THREADS": "6",
+        "NUMEXPR_NUM_THREADS": "6",
+        "OMP_NUM_THREADS": "6",
+        "OPENBLAS_NUM_THREADS": "6"
+      },
+      "function_sha256": "77f490da30fa85a8826efca565835a7127fa2d629110a92afe8b0a497a437bca",
+      "pools": [
+        {
+          "architecture": "Haswell",
+          "filepath": "C:\\Users\\FGstore\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\numpy.libs\\libscipy_openblas64_-860d95b1c38e637ce4509f5fa24fbf2a.dll",
+          "internal_api": "openblas",
+          "num_threads": 6,
+          "prefix": "libscipy_openblas",
+          "threading_layer": "pthreads",
+          "user_api": "blas",
+          "version": "0.3.30"
+        }
+      ],
+      "source": "v3_addons/src/common.py",
+      "thread_cap": 6
+    },
+    "script": "v4_addons/tools/f7_release.py",
+    "script_sha256": "310e2ad84b03f886f3c38d27c59a613d898dc264020a5319e3db6b9c52d34ce6",
+    "seed": 20261049,
+    "tags_used": [
+      "[E]",
+      "[A]",
+      "[R]"
+    ]
+  },
+  "read_only": 6,
+  "release_files": 6,
+  "release_folder": "v4_addons/release_candidate",
+  "status": "READY_FOR_CEO_FALLBACK_A"
+}

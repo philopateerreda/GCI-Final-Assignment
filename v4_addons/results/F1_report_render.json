@@ -1,0 +1,205 @@
+{
+  "report": "v4_addons/reports/F1_report.md",
+  "report_sha256": "f175d5ddd93855ef3a2787dd14b4d0ded4e73015563183386bf9ff1c619cefe3",
+  "results_json": "v4_addons/results/f1_decisions.json",
+  "tokens": [
+    {
+      "token": "7,872",
+      "name": "pilot_per_arm",
+      "spec": "int",
+      "value": 7872
+    },
+    {
+      "token": "$1",
+      "name": "treated_contact_cost",
+      "spec": "usd0",
+      "value": 1.0
+    },
+    {
+      "token": "$7,872",
+      "name": "extension_variable_cost",
+      "spec": "usd0",
+      "value": 7872.0
+    },
+    {
+      "token": "$5,000",
+      "name": "startup_stage1",
+      "spec": "usd0",
+      "value": 5000.0
+    },
+    {
+      "token": "$12,872",
+      "name": "stage1_cost",
+      "spec": "usd0",
+      "value": 12872.0
+    },
+    {
+      "token": "$0",
+      "name": "control_incremental_contact",
+      "spec": "usd0",
+      "value": 0.0
+    },
+    {
+      "token": "0",
+      "name": "rows_retired_final",
+      "spec": "int",
+      "value": 0
+    },
+    {
+      "token": "18",
+      "name": "rows_added_final",
+      "spec": "int",
+      "value": 18
+    },
+    {
+      "token": "0",
+      "name": "rows_changed_final",
+      "spec": "int",
+      "value": 0
+    },
+    {
+      "token": "296",
+      "name": "rows_total_final",
+      "spec": "int",
+      "value": 296
+    },
+    {
+      "token": "296",
+      "name": "rows_total_d3_b_prime",
+      "spec": "int",
+      "value": 296
+    },
+    {
+      "token": "151",
+      "name": "len_before_slide11",
+      "spec": "int",
+      "value": 151
+    },
+    {
+      "token": "289",
+      "name": "len_after_slide11",
+      "spec": "int",
+      "value": 289
+    },
+    {
+      "token": "91.4%",
+      "name": "len_delta_pct_slide11",
+      "spec": "pc1",
+      "value": 91.3907284768212
+    },
+    {
+      "token": "219",
+      "name": "len_before_slide13",
+      "spec": "int",
+      "value": 219
+    },
+    {
+      "token": "941",
+      "name": "len_after_slide13",
+      "spec": "int",
+      "value": 941
+    },
+    {
+      "token": "329.7%",
+      "name": "len_delta_pct_slide13",
+      "spec": "pc1",
+      "value": 329.68036529680364
+    },
+    {
+      "token": "4.3\u00d7",
+      "name": "slide13_growth_ratio",
+      "spec": "x1",
+      "value": 4.296803652968037
+    },
+    {
+      "token": "0",
+      "name": "decision_needed_count",
+      "spec": "int",
+      "value": 0
+    },
+    {
+      "token": "0",
+      "name": "unbound_tokens_count",
+      "spec": "int",
+      "value": 0
+    },
+    {
+      "token": "0",
+      "name": "rows_retired_final",
+      "spec": "int",
+      "value": 0
+    },
+    {
+      "token": "18",
+      "name": "rows_added_final",
+      "spec": "int",
+      "value": 18
+    },
+    {
+      "token": "0",
+      "name": "rows_changed_final",
+      "spec": "int",
+      "value": 0
+    },
+    {
+      "token": "296",
+      "name": "rows_total_final",
+      "spec": "int",
+      "value": 296
+    },
+    {
+      "token": "278",
+      "name": "ledger_rows_original",
+      "spec": "int",
+      "value": 278
+    },
+    {
+      "token": "91.4%",
+      "name": "len_delta_pct_slide11",
+      "spec": "pc1",
+      "value": 91.3907284768212
+    },
+    {
+      "token": "15%",
+      "name": "length_flag_threshold_pct",
+      "spec": "pc0",
+      "value": 15
+    },
+    {
+      "token": "329.7%",
+      "name": "len_delta_pct_slide13",
+      "spec": "pc1",
+      "value": 329.68036529680364
+    },
+    {
+      "token": "4.3\u00d7",
+      "name": "slide13_growth_ratio",
+      "spec": "x1",
+      "value": 4.296803652968037
+    },
+    {
+      "token": "6.8 pp",
+      "name": "se_gamma_hat_pp",
+      "spec": "ppc1",
+      "value": 6.770666750982452
+    },
+    {
+      "token": "4.0 pp",
+      "name": "gap_assumption_pp",
+      "spec": "ppc1",
+      "value": 4.000727800091572
+    },
+    {
+      "token": "6.8",
+      "name": "se_gamma_hat_pp",
+      "spec": "f1",
+      "value": 6.770666750982452
+    },
+    {
+      "token": "4.0",
+      "name": "gap_assumption_pp",
+      "spec": "f1",
+      "value": 4.000727800091572
+    }
+  ]
+}

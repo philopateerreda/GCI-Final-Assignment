@@ -1,0 +1,253 @@
+{
+  "report": "v4_addons/RELEASE_RECEIPT.md",
+  "report_sha256": "9e52b9d78c504c90ecae1a570e2df9c9704735618272c70a39fec89ea8c48e09",
+  "results_json": "v4_addons/results/f7_release.json",
+  "tokens": [
+    {
+      "token": "6",
+      "name": "release_files",
+      "spec": "int",
+      "value": 6
+    },
+    {
+      "token": "6",
+      "name": "copies_verified",
+      "spec": "int",
+      "value": 6
+    },
+    {
+      "token": "6",
+      "name": "copies_read_only",
+      "spec": "int",
+      "value": 6
+    },
+    {
+      "token": "0",
+      "name": "copy_hash_mismatches",
+      "spec": "int",
+      "value": 0
+    },
+    {
+      "token": "4",
+      "name": "frozen_match_count",
+      "spec": "int",
+      "value": 4
+    },
+    {
+      "token": "4",
+      "name": "deliverable_count",
+      "spec": "int",
+      "value": 4
+    },
+    {
+      "token": "0",
+      "name": "size_mismatches",
+      "spec": "int",
+      "value": 0
+    },
+    {
+      "token": "15",
+      "name": "pdf_pages",
+      "spec": "int",
+      "value": 15
+    },
+    {
+      "token": "846,608",
+      "name": "pdf_bytes",
+      "spec": "int",
+      "value": 846608
+    },
+    {
+      "token": "15",
+      "name": "geometry_slide_count",
+      "spec": "int",
+      "value": 15
+    },
+    {
+      "token": "1,310,666",
+      "name": "pptx_bytes",
+      "spec": "int",
+      "value": 1310666
+    },
+    {
+      "token": "1,857,125",
+      "name": "ipynb_bytes",
+      "spec": "int",
+      "value": 1857125
+    },
+    {
+      "token": "0",
+      "name": "cells_added",
+      "spec": "int",
+      "value": 0
+    },
+    {
+      "token": "18,843",
+      "name": "references_bytes",
+      "spec": "int",
+      "value": 18843
+    },
+    {
+      "token": "278",
+      "name": "ledger_rows",
+      "spec": "int",
+      "value": 278
+    },
+    {
+      "token": "278",
+      "name": "ledger_rows_recount",
+      "spec": "int",
+      "value": 278
+    },
+    {
+      "token": "1",
+      "name": "ledger_sha_match",
+      "spec": "int",
+      "value": 1
+    },
+    {
+      "token": "1",
+      "name": "ledger_rows_match",
+      "spec": "int",
+      "value": 1
+    },
+    {
+      "token": "450",
+      "name": "brief_words",
+      "spec": "int",
+      "value": 450
+    },
+    {
+      "token": "450",
+      "name": "brief_words_recount",
+      "spec": "int",
+      "value": 450
+    },
+    {
+      "token": "260",
+      "name": "qa_words",
+      "spec": "int",
+      "value": 260
+    },
+    {
+      "token": "260",
+      "name": "qa_words_recount",
+      "spec": "int",
+      "value": 260
+    },
+    {
+      "token": "1",
+      "name": "brief_words_match",
+      "spec": "int",
+      "value": 1
+    },
+    {
+      "token": "1",
+      "name": "qa_words_match",
+      "spec": "int",
+      "value": 1
+    },
+    {
+      "token": "2",
+      "name": "gates_present",
+      "spec": "int",
+      "value": 2
+    },
+    {
+      "token": "0",
+      "name": "frozen_hash_mismatches",
+      "spec": "int",
+      "value": 0
+    },
+    {
+      "token": "0",
+      "name": "promotions",
+      "spec": "int",
+      "value": 0
+    },
+    {
+      "token": "0",
+      "name": "geometry_issue_count",
+      "spec": "int",
+      "value": 0
+    },
+    {
+      "token": "15",
+      "name": "geometry_slide_count",
+      "spec": "int",
+      "value": 15
+    },
+    {
+      "token": "1",
+      "name": "geometry_hash_matches_pptx",
+      "spec": "int",
+      "value": 1
+    },
+    {
+      "token": "15",
+      "name": "visual_slides_reviewed",
+      "spec": "int",
+      "value": 15
+    },
+    {
+      "token": "0",
+      "name": "visual_clipping_issues",
+      "spec": "int",
+      "value": 0
+    },
+    {
+      "token": "0",
+      "name": "render_hash_mismatches",
+      "spec": "int",
+      "value": 0
+    },
+    {
+      "token": "10",
+      "name": "expected_rows_matched",
+      "spec": "int",
+      "value": 10
+    },
+    {
+      "token": "10",
+      "name": "expected_rows_total",
+      "spec": "int",
+      "value": 10
+    },
+    {
+      "token": "0",
+      "name": "cells_added",
+      "spec": "int",
+      "value": 0
+    },
+    {
+      "token": "0",
+      "name": "new_model_fits",
+      "spec": "int",
+      "value": 0
+    },
+    {
+      "token": "0",
+      "name": "new_test_reads",
+      "spec": "int",
+      "value": 0
+    },
+    {
+      "token": "0",
+      "name": "deck_edits",
+      "spec": "int",
+      "value": 0
+    },
+    {
+      "token": "0",
+      "name": "new_visual_reviews",
+      "spec": "int",
+      "value": 0
+    },
+    {
+      "token": "0",
+      "name": "uploads",
+      "spec": "int",
+      "value": 0
+    }
+  ]
+}
