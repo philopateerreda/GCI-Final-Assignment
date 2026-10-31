@@ -1,6 +1,6 @@
 # v3 handback — supporting analysis complete, integration not applied
 
-[E] Company A · philopateer · local CPU only · frozen submission completed locally, **not submitted**. [E] No model promotion or AUC change: retained AUC **0.6978109022**. [R] Human integration gate remains closed; WP8 OFF.
+[E] Company A · philopateer · local CPU only · frozen submission completed locally, **not submitted**. [E] No model promotion or AUC change: retained AUC **0.6978109022**. [R] Human integration gate remains closed. [E] WP8 was executed; decision `rejected_keep_frozen_v2_stop_model_track`; the WP8 challenger track is closed.
 
 | Work package [E] | Terminal status [E] |
 |---|---|
@@ -12,6 +12,7 @@
 | WP5 | PARTIAL |
 | WP6 | DONE |
 | WP7 | DONE |
+| WP8 | COMPLETED_REJECTED (executed after this handback; see `reports/WP8_report.md`) |
 
 ## Five headlines
 
@@ -27,6 +28,6 @@
 
 [E] Outside directory diff: **4,246 → 4,246 files; 0 added, 0 removed, 0 changed.** All four delivery fingerprints remain frozen. Historical initialization stop records are retained but superseded by the authorized correction and compliant reruns.
 
-[E] Files created: **118 sandbox files**, listed completely in [results/wp7_files_created.csv](results/wp7_files_created.csv). Groups: `src/` scripts, `tests/` new-code checks, `results/` raw/summary/provenance/source evidence, `figures/` reviewed PNG drafts, `reports/WP0–WP7_report.md`, `protocol_addendum.md`, this handback and proposal; historical/scratch files are explicitly marked. [E] Final verification: [results/wp7_final_verification.json](results/wp7_final_verification.json).
+[E] Files created at WP7 time: **118 sandbox files**, listed in [results/wp7_files_created.csv](results/wp7_files_created.csv); the complete post-WP8 inventory of `v3_addons/` is `../v4_addons/MANIFEST_v4.json`. Groups: `src/` scripts, `tests/` new-code checks, `results/` raw/summary/provenance/source evidence, `figures/` reviewed PNG drafts, `reports/WP0–WP7_report.md`, `protocol_addendum.md`, this handback and proposal; historical/scratch files are explicitly marked. [E] Final verification: [results/wp7_final_verification.json](results/wp7_final_verification.json).
 
-[R] Remaining human action: select A/B/C, approve any separate integration/QA scope, and submit before **28 November 2026, 11:30 UTC**. Any new PDF must use LaTeX only. [E] No package installed, no cloud execution/upload, no new test-row computation, no frozen file edited, no WP8 run.
+[R] Remaining human action: select A/B/C, approve any separate integration/QA scope, and submit before **28 November 2026, 11:30 UTC**. Any new PDF must use LaTeX only. [E] No package installed, no cloud execution/upload, no new test-row computation, no frozen file edited. [E] WP8 was executed; decision `rejected_keep_frozen_v2_stop_model_track`; the WP8 challenger track is closed. Status vocabulary and caveats: `../v4_addons/WP8_status_addendum.md`.

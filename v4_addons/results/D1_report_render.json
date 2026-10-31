@@ -1,0 +1,97 @@
+{
+  "report": "v4_addons/reports/D1_report.md",
+  "report_sha256": "dce2930ddeea8dcf2b72eb43e5191ac7ca723ae78963363d576955d63124b3f0",
+  "results_json": "v4_addons/results/d1_refresh.json",
+  "tokens": [
+    {
+      "token": "50",
+      "name": "wp8_classifier_fits",
+      "spec": "raw",
+      "value": 50
+    },
+    {
+      "token": "385",
+      "name": "wp8_classifier_iterations_value",
+      "spec": "raw",
+      "value": 385
+    },
+    {
+      "token": "1",
+      "name": "wp8_classifier_iterations_distinct_count",
+      "spec": "raw",
+      "value": 1
+    },
+    {
+      "token": "385.0",
+      "name": "wp8_frozen_n_estimators",
+      "spec": "raw",
+      "value": 385.0
+    },
+    {
+      "token": "0.00027605323765323987",
+      "name": "wp8_mean_delta_auc",
+      "spec": "raw",
+      "value": 0.00027605323765323987
+    },
+    {
+      "token": "0.003",
+      "name": "wp8_gate_auc_threshold",
+      "spec": "raw",
+      "value": 0.003
+    },
+    {
+      "token": "7",
+      "name": "wp8_failed_gates",
+      "spec": "raw",
+      "value": 7
+    },
+    {
+      "token": "11",
+      "name": "wp8_total_gates",
+      "spec": "raw",
+      "value": 11
+    },
+    {
+      "token": "4",
+      "name": "wp8_corrected_df",
+      "spec": "raw",
+      "value": 4
+    },
+    {
+      "token": "344",
+      "name": "manifest_file_count",
+      "spec": "raw",
+      "value": 344
+    },
+    {
+      "token": "224",
+      "name": "manifest_wp8_file_count",
+      "spec": "raw",
+      "value": 224
+    },
+    {
+      "token": "118",
+      "name": "old_manifest_file_count",
+      "spec": "raw",
+      "value": 118
+    },
+    {
+      "token": "344",
+      "name": "manifest_file_count",
+      "spec": "int",
+      "value": 344
+    },
+    {
+      "token": "118",
+      "name": "old_manifest_file_count",
+      "spec": "int",
+      "value": 118
+    },
+    {
+      "token": "224",
+      "name": "manifest_wp8_file_count",
+      "spec": "int",
+      "value": 224
+    }
+  ]
+}

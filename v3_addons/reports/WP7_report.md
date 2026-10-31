@@ -45,6 +45,6 @@ Claims now allowed:
 [E/A] Supporting analyses and their acceptance limits; [R] ranked integration choices.
 
 Claims still forbidden:
-[R] Applied slide/notebook/reference edits, new test evaluation, new AUC gain, submission or WP8 execution.
+[R] Applied slide/notebook/reference edits, new test evaluation, new AUC gain, or submission. [E] WP8 was executed; decision `rejected_keep_frozen_v2_stop_model_track`; the WP8 challenger track is closed.
 
 Open questions for human: [E] None; integration remains a separate human decision.

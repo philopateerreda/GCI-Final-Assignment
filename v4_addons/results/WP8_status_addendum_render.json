@@ -1,0 +1,145 @@
+{
+  "report": "v4_addons/WP8_status_addendum.md",
+  "report_sha256": "c9291da78e0bd84b2bd62ad4f2190f118bb5a70dc36d63354d663a2afdd9f4df",
+  "results_json": "v4_addons/results/d1_refresh.json",
+  "tokens": [
+    {
+      "token": "7",
+      "name": "wp8_failed_gates",
+      "spec": "int",
+      "value": 7
+    },
+    {
+      "token": "11",
+      "name": "wp8_total_gates",
+      "spec": "int",
+      "value": 11
+    },
+    {
+      "token": "0.000276",
+      "name": "wp8_mean_delta_auc",
+      "spec": "f6",
+      "value": 0.00027605323765323987
+    },
+    {
+      "token": "0.003",
+      "name": "wp8_gate_auc_threshold",
+      "spec": "f3",
+      "value": 0.003
+    },
+    {
+      "token": "-0.000235",
+      "name": "wp8_iid_lower",
+      "spec": "f6",
+      "value": -0.0002348775232725589
+    },
+    {
+      "token": "0.000752",
+      "name": "wp8_iid_upper",
+      "spec": "f6",
+      "value": 0.0007515904588415223
+    },
+    {
+      "token": "-0.001110",
+      "name": "wp8_conservative_lower",
+      "spec": "f6",
+      "value": -0.0011099893161767278
+    },
+    {
+      "token": "0.001662",
+      "name": "wp8_conservative_upper",
+      "spec": "f6",
+      "value": 0.0016620957914832075
+    },
+    {
+      "token": "50",
+      "name": "wp8_classifier_fits",
+      "spec": "int",
+      "value": 50
+    },
+    {
+      "token": "50",
+      "name": "wp8_classifier_converged_true",
+      "spec": "int",
+      "value": 50
+    },
+    {
+      "token": "50",
+      "name": "wp8_classifier_fits",
+      "spec": "int",
+      "value": 50
+    },
+    {
+      "token": "385",
+      "name": "wp8_classifier_iterations_value",
+      "spec": "int",
+      "value": 385
+    },
+    {
+      "token": "1",
+      "name": "wp8_classifier_iterations_distinct_count",
+      "spec": "int",
+      "value": 1
+    },
+    {
+      "token": "385",
+      "name": "wp8_frozen_n_estimators",
+      "spec": "int",
+      "value": 385.0
+    },
+    {
+      "token": "48k",
+      "name": "wp8_dev_train_rows_k",
+      "spec": "intk",
+      "value": 48
+    },
+    {
+      "token": "60k",
+      "name": "wp8_refit_train_rows_k",
+      "spec": "intk",
+      "value": 60
+    },
+    {
+      "token": "0.1",
+      "name": "corrected_t_fold_term",
+      "spec": "f1",
+      "value": 0.1
+    },
+    {
+      "token": "0.25",
+      "name": "corrected_t_ratio_term",
+      "spec": "f2",
+      "value": 0.25
+    },
+    {
+      "token": "4",
+      "name": "wp8_corrected_df",
+      "spec": "int",
+      "value": 4
+    },
+    {
+      "token": "0.000499",
+      "name": "wp8_corrected_se",
+      "spec": "f6",
+      "value": 0.0004992148237453541
+    },
+    {
+      "token": "344",
+      "name": "manifest_file_count",
+      "spec": "int",
+      "value": 344
+    },
+    {
+      "token": "224",
+      "name": "manifest_wp8_file_count",
+      "spec": "int",
+      "value": 224
+    },
+    {
+      "token": "118",
+      "name": "old_manifest_file_count",
+      "spec": "int",
+      "value": 118
+    }
+  ]
+}

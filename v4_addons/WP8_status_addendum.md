@@ -1,0 +1,13 @@
+# WP8 status addendum (v4, 2026-10-31)
+
+The sealed WP8 report (`v3_addons/reports/WP8_report.md`) is not edited. This addendum supplies the status vocabulary and the caveats the v3 review asked for. Decision unchanged: `rejected_keep_frozen_v2_stop_model_track`; the WP8 challenger track is closed; no rerun, refit or rescoring (G8).
+
+1. **Status = `COMPLETED_REJECTED`.** The WP8 report's "Status: COMPLETED" describes execution; the preregistered decision was rejection: 7 of 11 gates failed. Mean paired ΔAUC 0.000276 against the preregistered gate 0.003; liberal IID interval [-0.000235, 0.000752]; conservative interval [-0.001110, 0.001662].
+2. **The `converged` flag is not a convergence diagnostic.** All 50 classifier fits report `converged=True` (50 of 50), and every one of them reports exactly 385 iterations (1 distinct value) — that is the frozen `n_estimators=385`, i.e. the fixed tree budget, not evidence that boosting converged. Future challengers should record `best_iteration` under early stopping on an inner validation set.
+3. **Calibration mismatch.** The sigmoid calibrator was fitted on the 48k-row development model and applied to the 60k-row outer refit (WP8 `limitations`: `48k development-to-calibration / 60k refit fit-size shift`). Calibrated and tail-loss gates were therefore not a fair test of the challenger; because the challenger is rejected on the raw AUC gate as well, this does not change the decision. Future challengers must cross-fit the calibrator on the refit model's own out-of-fold predictions.
+4. **`_Mean` feature window unspecified.** The challenger's contrast features use `_Mean` columns whose window is undocumented (WP8 `limitations`: `undated _Mean contrast proxies`). This limits reproducibility of the feature definitions; it is recorded, not repaired.
+5. **Corrected-t formula is ad hoc and exploratory.** SE = sqrt((0.1 + 0.25) × sample variance) with df = 4 (corrected SE 0.000499); WP8 `limitations`: `exploratory repeated-fold variance heuristic; no calibrated coverage`. The Nadeau–Bengio correction is a recognised heuristic but the df choice and the two-repeat design give no calibrated coverage. Any v4 preregistration must fix one inference convention before seeing results (brief §6, M2).
+
+Manifest: `MANIFEST_v4.json` lists 344 files under `v3_addons/` (224 WP8-related), superseding the 118-file WP7-era manifest.
+
+Sources: `v3_addons/results/wp8_model.json` (fit_inventory, intervals.auc, promotion, limitations), `v3_addons/prereg_wp8.md` (`line 29`, `line 46`), `v3_addons/reports/WP8_report.md` (`line 9`, `line 199`). All numbers are bound in `results/d1_refresh.json`.

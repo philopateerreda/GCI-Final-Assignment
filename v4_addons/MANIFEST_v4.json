@@ -1,0 +1,1613 @@
+{
+ "created_utc": "2026-10-31T08:27:14.972046+00:00",
+ "file_count": 344,
+ "files": {
+  "v3_addons/AGENTS.md": {
+   "sha256": "e0b6329f58062634ad4927c9b5bd035b4809bb62551121f6cc5b59ff5b6afac6",
+   "size": 2173
+  },
+  "v3_addons/HANDBACK.md": {
+   "sha256": "be74d9154298d30778e62792559d994bc085b91c7b1ff88463adb851106a248e",
+   "size": 3719
+  },
+  "v3_addons/HANDBACK.md.pre_v4": {
+   "sha256": "466fcf6b77650f204d489a12e7cce318d2b2d5714578cdb6807999747eba043b",
+   "size": 3273
+  },
+  "v3_addons/INTEGRATION_PROPOSAL.md": {
+   "sha256": "6d2a5eea5b7bbb0ba65f3362ccae9a2ce0ce267bec419e6c64a0ffdaca16a29e",
+   "size": 11400
+  },
+  "v3_addons/figures/runtime_validation.png": {
+   "sha256": "166ea6a7cc5c28b904ac03bb378ba8167f10031bf317330d352732d9877b3b97",
+   "size": 20848
+  },
+  "v3_addons/figures/wp1_power_curves.png": {
+   "sha256": "a27cdb509efab749f76d971ef7577888b5b0addde073d4614ea7753915d7cae0",
+   "size": 33113
+  },
+  "v3_addons/figures/wp2_decision_map.png": {
+   "sha256": "ebbb3f677bdc724fbb61b84f31eee054d769b1c74a5c10e89cb9d58b9c3d7650",
+   "size": 33274
+  },
+  "v3_addons/figures/wp3_net_curve.png": {
+   "sha256": "7f36752025300149e1c6a46b1f5aaa705c4ff1ca89dd0ae3bf75dad40d5c370b",
+   "size": 28627
+  },
+  "v3_addons/figures/wp5_em_recovery.png": {
+   "sha256": "390f433d202da86091be5389b94f2bdddde38e437a6713a0a816789970daf178",
+   "size": 32496
+  },
+  "v3_addons/prereg_wp8.md": {
+   "sha256": "15fd44322e73c281b85d173ac51fbfc631415b07a152f8a3041ae5892d32c779",
+   "size": 9190
+  },
+  "v3_addons/protocol_addendum.md": {
+   "sha256": "9c36323f3823f051022e2445d8ede5937ceadbe04b8553a0d25de887a2ad683b",
+   "size": 2774
+  },
+  "v3_addons/reports/STOP_REPORT.md": {
+   "sha256": "7232ba61244474cef52c5dd7a0d49767dad8e551936d68b97cbb2086f2a51273",
+   "size": 3319
+  },
+  "v3_addons/reports/WP0_report.md": {
+   "sha256": "7b9a068e0c3e4e8bafe76c7f021d0eb3f69ab38ad2c8b5004d34f8e6f362e37a",
+   "size": 3758
+  },
+  "v3_addons/reports/WP1_report.md": {
+   "sha256": "190044c7f6db2f9aff4da4cb15f83004f486064883b93c8ec64442ddcf2e5f8d",
+   "size": 4316
+  },
+  "v3_addons/reports/WP2_report.md": {
+   "sha256": "dbf0005a3895c2f55239c35aefb041ee481a6b8a0849ce0e0d56352b539c3ebd",
+   "size": 4323
+  },
+  "v3_addons/reports/WP3_report.md": {
+   "sha256": "b491ba1f9b986d1585d852dfcd9d0c2de2380b8c3f6b9cace1299c6b2c2111a5",
+   "size": 17775
+  },
+  "v3_addons/reports/WP4_report.md": {
+   "sha256": "169cb1c6f36d1f51ead1122e3127d83b04a51091f6f80074ff1c890c9741cf00",
+   "size": 2288
+  },
+  "v3_addons/reports/WP5_report.md": {
+   "sha256": "7eadb863a180e4f951734b6c6a326f0e0a0809517c44f5cd73abb9ce644fdf61",
+   "size": 15211
+  },
+  "v3_addons/reports/WP6_report.md": {
+   "sha256": "9836b61c380eb29b4bdc1ba6423e1dad2441aff5232e719753c94164c0d2aff0",
+   "size": 3336
+  },
+  "v3_addons/reports/WP7_report.md": {
+   "sha256": "95593fb1fed4fdf307b6a6a18578bd26ffa2fe0621f469f783e8e601bd23d58e",
+   "size": 4460
+  },
+  "v3_addons/reports/WP7_report.md.pre_v4": {
+   "sha256": "bd50eda47616aea40254190219e1dd7a803222f057770e79da00310d47aceb92",
+   "size": 4363
+  },
+  "v3_addons/reports/WP8_report.md": {
+   "sha256": "92e82438b5cec288b6029619bf7ba2bc1b1abea99d7728a455cf47d4ed6ced73",
+   "size": 23586
+  },
+  "v3_addons/results/final_new_code_tests.json": {
+   "sha256": "32ff1543fd942b966fcba72170cc75749fcbc9790f3e785bc3a43e3851649931",
+   "size": 35102
+  },
+  "v3_addons/results/inventory.json": {
+   "sha256": "c1ec315ff45436d914af3061f9e9d201d34e7d9b8dddd825c2672d9bba2f5369",
+   "size": 23203
+  },
+  "v3_addons/results/sources/ascarza_2016_source.pdf": {
+   "sha256": "9e02694d5c2699ec9b59dc4a03ad42d3eca8d3c39a461a7e362bce87d7ab9e8c",
+   "size": 967934
+  },
+  "v3_addons/results/sources/ascarza_2016_source.txt": {
+   "sha256": "0cfda524a29346e7db5640034deda927f4150d2f2b1eaa86688a0fd504aea326",
+   "size": 135867
+  },
+  "v3_addons/results/sources/bouckaert_frank_2004.pdf": {
+   "sha256": "ff5379a16cfb0f64bb80900c809f8c74ed01bf1c4c22cc9f54597f9e94fbb386",
+   "size": 87710
+  },
+  "v3_addons/results/sources/bouckaert_frank_2004.txt": {
+   "sha256": "f057ac41e049f2c29abc362db9c755e4bdd2f5567107aa0766c7974da9e13443",
+   "size": 31421
+  },
+  "v3_addons/results/sources/nadeau_bengio_source.pdf": {
+   "sha256": "e3a1ec656312feba41dec7fa474fe8b0780472bb77427655e1fee6c3f664df54",
+   "size": 674619
+  },
+  "v3_addons/results/sources/nadeau_bengio_source.txt": {
+   "sha256": "3ae5f35cbb5e329ce21b7b01d20f654fe3b41bf41a848de2943dfe6e2a761967",
+   "size": 227099
+  },
+  "v3_addons/results/stop_report.json": {
+   "sha256": "6debb38a5c69b9308e24aa48dfffbfcd27700633da723c986e86645e92ed3ac0",
+   "size": 4881
+  },
+  "v3_addons/results/wp1_capacity_mde.csv": {
+   "sha256": "fb9ea4470f3b77334d09dd4f1ac752609ce17c5ce0cd9f3aaf81c2f11da7f97a",
+   "size": 1291
+  },
+  "v3_addons/results/wp1_power.csv": {
+   "sha256": "175374f8c495aa598915568c6d4686cba61bfd26d09f1672bc364bddc0228bea",
+   "size": 167320
+  },
+  "v3_addons/results/wp1_power.json": {
+   "sha256": "1342bb553dfd24e4697d210d141392f32f0ac8b43f66ea3627db95622d714305",
+   "size": 542362
+  },
+  "v3_addons/results/wp1_simulation_samples.npz": {
+   "sha256": "b85da7f76a5c7562c3b207bad3b0b109913d62cd8575edf09580bb7753bfe068",
+   "size": 3627764
+  },
+  "v3_addons/results/wp1_tests.json": {
+   "sha256": "9f9129b81b4e43c39806149d49b00f7d80b62b123d8ebb6c8cb079f4f9e89330",
+   "size": 2492
+  },
+  "v3_addons/results/wp2_decision_quality.csv": {
+   "sha256": "1ad721f80356881cf37a4e5a1f15f7856760983d9aff0f5b7c1c750879423be0",
+   "size": 17005
+  },
+  "v3_addons/results/wp2_evsi.json": {
+   "sha256": "cd64fe05f11e974916e461d6f12764cff53ecd7f62fb8a1e461d966611c2e405",
+   "size": 60310
+  },
+  "v3_addons/results/wp2_posterior_a2_b18_n1000000.npz": {
+   "sha256": "b96a065eae9247d27a2b751c25f35d5afbfa40295ff0b9dcd9f7e90ee6c71aa0",
+   "size": 161933
+  },
+  "v3_addons/results/wp2_posterior_a2_b18_n7872.npz": {
+   "sha256": "b98e0881a684fe0d03713cf30616a78a4303f4e9038db5cc2d106cf547990087",
+   "size": 169225
+  },
+  "v3_addons/results/wp2_posterior_a6_b14_n1000000.npz": {
+   "sha256": "bb96345ba5648be965954be4408054773b52a22959242451794d7ddc17f5a3b1",
+   "size": 150431
+  },
+  "v3_addons/results/wp2_posterior_a6_b14_n7872.npz": {
+   "sha256": "c315589e35540421b9e197ca6daae23298f79e58a6e5964ac911baaf4342275a",
+   "size": 166604
+  },
+  "v3_addons/results/wp2_posterior_a6_b24_n1000000.npz": {
+   "sha256": "f93c4f0f40f8fd53e0eb18b858f527d105407f82cb0814c4b3bf0c138f962776",
+   "size": 163838
+  },
+  "v3_addons/results/wp2_posterior_a6_b24_n7872.npz": {
+   "sha256": "103bbeb77c06a43c43aef34b570c823a16efc64addf8c60c319c3c120ccc2774",
+   "size": 168263
+  },
+  "v3_addons/results/wp2_tests.json": {
+   "sha256": "a01ae1010569e609ff4a6926d0a1c1f20280314f93ec8d749fcc4db5daf39e5c",
+   "size": 2954
+  },
+  "v3_addons/results/wp3_net_curve.csv": {
+   "sha256": "f9148028b1a8158685de1556d82617d4f2750550084463ee88d13305283fabc1",
+   "size": 194136
+  },
+  "v3_addons/results/wp3_roi_band.json": {
+   "sha256": "96aa9a75869c53079e1442a26f1f3d08f5261d735e61a5195a658955843a5dd1",
+   "size": 96482
+  },
+  "v3_addons/results/wp4_protocol.json": {
+   "sha256": "1fd31cc4461349db720ba88de079a0f0f7d15f3963b283b121af6e7af77676e9",
+   "size": 6653
+  },
+  "v3_addons/results/wp5_break_even_grid.csv": {
+   "sha256": "fea512bd2b631e217327c4cbad34101d343f74f55e2ec37411a4dfae11ab4612",
+   "size": 88767
+  },
+  "v3_addons/results/wp5_calibration_oof.csv": {
+   "sha256": "88e58cc3c95e7dc65760f16f66e751a229e7263a27db9b1729c29e3e6ef68194",
+   "size": 1952387
+  },
+  "v3_addons/results/wp5_calibration_oof.json": {
+   "sha256": "a19d7ecadcc009b07806f3f78b7a4d016473656f0af545e5f102773d818f16b1",
+   "size": 1054830
+  },
+  "v3_addons/results/wp5_grid_00.json": {
+   "sha256": "fe9adc5f8421378ca2e08be6ffa9e80021895f35713899c681ad84d2f9827c75",
+   "size": 12216
+  },
+  "v3_addons/results/wp5_grid_00.npz": {
+   "sha256": "185e7c5ce2b61e0ecfca364c2560fc544f3940068faff4018bb25c78d72c610a",
+   "size": 1488102
+  },
+  "v3_addons/results/wp5_grid_01.json": {
+   "sha256": "95a6ac4cee86ba20ac741f3c9733a8bf7e520f216854dc98da666ed6f7667874",
+   "size": 12217
+  },
+  "v3_addons/results/wp5_grid_01.npz": {
+   "sha256": "e7fd6d825261d705184c9fc22a601348ac3af97e89c3b4db5bd6f5239d02e553",
+   "size": 1619891
+  },
+  "v3_addons/results/wp5_grid_02.json": {
+   "sha256": "194aaea39fc436e0cbb52cddd78bb79b54d3ae61bad604280b115639c549c57d",
+   "size": 12217
+  },
+  "v3_addons/results/wp5_grid_02.npz": {
+   "sha256": "dadcd75f742bd46c0a46e007393b9103bed4acb8baf37541d925528f309fc836",
+   "size": 1909739
+  },
+  "v3_addons/results/wp5_grid_03.json": {
+   "sha256": "41c96a39b5e8d38316e12d22cf80c670e3367e4ab3666181e991dde31136295b",
+   "size": 12218
+  },
+  "v3_addons/results/wp5_grid_03.npz": {
+   "sha256": "d45b524a1d0b94d26539e0a630955d14701efae56c1e0dee95f88339744c0f4a",
+   "size": 1948944
+  },
+  "v3_addons/results/wp5_grid_04.json": {
+   "sha256": "8eeec5f50c05fe39c125ed830a57fd56c73bf390aeea02444a28cec76c158940",
+   "size": 12215
+  },
+  "v3_addons/results/wp5_grid_04.npz": {
+   "sha256": "def731536c84f39e5521064cae066b73dcbb8db065a8a9bedf829bfc393e3c09",
+   "size": 1624665
+  },
+  "v3_addons/results/wp5_grid_05.json": {
+   "sha256": "f86fbfc88a21d5f8b660da16d7ef5b9eddee29cbc58502623e5f21102eef6bd0",
+   "size": 12216
+  },
+  "v3_addons/results/wp5_grid_05.npz": {
+   "sha256": "75658921ee20b24ffd0abd9d524ab232fcdba7d12fb180decbd32795862a4768",
+   "size": 1804655
+  },
+  "v3_addons/results/wp5_grid_06.json": {
+   "sha256": "ba42f801215dfe1e3be1929efe43249cfbcbd69cd69144167affad0c53cc113b",
+   "size": 12216
+  },
+  "v3_addons/results/wp5_grid_06.npz": {
+   "sha256": "b80a4b5a58f2c15ad1428a44fdd3522b863859e6b660205c85fccc03fe58505e",
+   "size": 1952918
+  },
+  "v3_addons/results/wp5_grid_07.json": {
+   "sha256": "c94d9d83cf26e6d80042b4f62a0e787437983e5dfd964fb8b898e13de325a655",
+   "size": 12217
+  },
+  "v3_addons/results/wp5_grid_07.npz": {
+   "sha256": "6cb1350c8561c4b6c18f2be8c86e59124c0bee427c3d0fca12e42ac92e7b5251",
+   "size": 1951196
+  },
+  "v3_addons/results/wp5_grid_08.json": {
+   "sha256": "c17a51148b4d53c52d4bd9e031c62cccb411104b84ce6c8ec5f6d33b3b9de447",
+   "size": 12215
+  },
+  "v3_addons/results/wp5_grid_08.npz": {
+   "sha256": "7ab9a38834be1c728bfd79d6be10a13b93c3985d361800ac35780a7fa84258df",
+   "size": 1800745
+  },
+  "v3_addons/results/wp5_grid_09.json": {
+   "sha256": "18327249dfdbe5191661e5c837c7c4ec31321abd3059a160b353486adf1e1bb4",
+   "size": 12216
+  },
+  "v3_addons/results/wp5_grid_09.npz": {
+   "sha256": "ac4ebc1ec1c820662c5e4d481b619bf9db461542398ffd5e07b65c9cef84363d",
+   "size": 1918741
+  },
+  "v3_addons/results/wp5_grid_10.json": {
+   "sha256": "fdf19d0657cec09a27c66c6d14fbcac5ca1af252b0109fc3463f26721f315a8f",
+   "size": 12214
+  },
+  "v3_addons/results/wp5_grid_10.npz": {
+   "sha256": "06e082d6234f991851b9eef6a522098483ec695d0c0b198292eaeb5a54550177",
+   "size": 1951666
+  },
+  "v3_addons/results/wp5_grid_11.json": {
+   "sha256": "7dcd772020b79244b85e576035de5889e18430520ca031f9917107f332e29408",
+   "size": 12215
+  },
+  "v3_addons/results/wp5_grid_11.npz": {
+   "sha256": "c675875dd602d00e29c3b2de980913252dbdc68371785abe1b42eb736a56206f",
+   "size": 1942550
+  },
+  "v3_addons/results/wp5_grid_12.json": {
+   "sha256": "a47739e2e104f8688338d34600cad8d729928d61e0ac277fc3c28440e754837c",
+   "size": 12216
+  },
+  "v3_addons/results/wp5_grid_12.npz": {
+   "sha256": "38b6a4e2128d0685f8532f311f742868c61ca107d8a0454c3d9c234b9836035b",
+   "size": 1914072
+  },
+  "v3_addons/results/wp5_grid_13.json": {
+   "sha256": "9b90026605a597e9ab9d15dd2f57ddcb6c13fbc05fa24860ca3a793cd8c826fa",
+   "size": 12217
+  },
+  "v3_addons/results/wp5_grid_13.npz": {
+   "sha256": "334be09658a15d7db2dab07d3d6df69968971611b3b67d823e6512d2e4722d1c",
+   "size": 1950342
+  },
+  "v3_addons/results/wp5_grid_14.json": {
+   "sha256": "264a9d2b3dba544519b2b635ff9e7446faa2ef6a4aa4227e4517e5d9a6a1b163",
+   "size": 12214
+  },
+  "v3_addons/results/wp5_grid_14.npz": {
+   "sha256": "13d6778a5241eda12d406a9f38629fe2e9686cd4e1f4e02e5e9e0d1ed4dcea1b",
+   "size": 1944446
+  },
+  "v3_addons/results/wp5_grid_15.json": {
+   "sha256": "25fcae8ecbaf7f7727ead6deb121c45038a9a1bed6bd6f3c66cc2c672803efa1",
+   "size": 12215
+  },
+  "v3_addons/results/wp5_grid_15.npz": {
+   "sha256": "9c6491d67733335d9b388ff42d768a5a4cbbd7fe60ef0cea860c12ff9b80be78",
+   "size": 1929197
+  },
+  "v3_addons/results/wp5_grid_16.json": {
+   "sha256": "155c2fdf82e413e02e62479cc6e5ef68de5c7b2a18831cfdbb0a39ebebbb7dc9",
+   "size": 12216
+  },
+  "v3_addons/results/wp5_grid_16.npz": {
+   "sha256": "a2a8fb4ceb818982ab52d88c5caadf79f2f057b41a53aa36abe91abff892c9c3",
+   "size": 1951664
+  },
+  "v3_addons/results/wp5_grid_17.json": {
+   "sha256": "902b16b3907801b29e442316c6d1dd6015f1feb70acdba98a396d069c65aa479",
+   "size": 12214
+  },
+  "v3_addons/results/wp5_grid_17.npz": {
+   "sha256": "d8cf9f0c562aeeb6a2acb1620db4bc096bc199b1692ea45c9ba07949eca65449",
+   "size": 1949753
+  },
+  "v3_addons/results/wp5_grid_18.json": {
+   "sha256": "2f2fb30fb2e91c6c2408adf99ac295c98b55f9d9e8223ea071c4ec1831b05d29",
+   "size": 12214
+  },
+  "v3_addons/results/wp5_grid_18.npz": {
+   "sha256": "d3a907ea1a654859864556957eb5c6c79992c42b5a7a157b7323289787405570",
+   "size": 1938677
+  },
+  "v3_addons/results/wp5_grid_19.json": {
+   "sha256": "434d9ee80b3983088c75700de3a83e17ec466966a32e99d1eb869b5cbb06e91f",
+   "size": 12215
+  },
+  "v3_addons/results/wp5_grid_19.npz": {
+   "sha256": "8d5f48fee400de4615511a1766211bcfe20810ed3bd8ac31cb1e1cce53c79438",
+   "size": 1922122
+  },
+  "v3_addons/results/wp5_label_shift.json": {
+   "sha256": "3a4d94fe806c00421f53688c2000bfb2293ecc16320dbb795d9b8375a8a9338e",
+   "size": 1079813
+  },
+  "v3_addons/results/wp5_label_shift_raw.csv": {
+   "sha256": "e9a5a77a018d7fab5ed64ec54ef5d8771e4d29bef194a8c26139010d5555e904",
+   "size": 1838998
+  },
+  "v3_addons/results/wp5_label_shift_summary.csv": {
+   "sha256": "7ff830d7a52f0392d25a9dc66bba4498d62c21d3d9dcfd9cad19b2c99ca929f7",
+   "size": 5719
+  },
+  "v3_addons/results/wp5_tests.json": {
+   "sha256": "98f28360681b04f3dc74293f41208da88a2e7b9aa4de0ea5e3b586787f15c66b",
+   "size": 2770
+  },
+  "v3_addons/results/wp6_citation_register.csv": {
+   "sha256": "f17a49c7a157d3180dc090fcfcf3efc91729804d3ea58055616bc0aa098b805f",
+   "size": 3342
+  },
+  "v3_addons/results/wp6_citations.json": {
+   "sha256": "26a248816181b2b00365547974e50e2802f49102548f98c5ff827ef50f5ddee1",
+   "size": 11097
+  },
+  "v3_addons/results/wp6_omnicampus_references_draft.txt": {
+   "sha256": "fea1bf2914ae6acc3409f6cc86baa95a011ebf51858e447e1f56ed22f85cbce5",
+   "size": 1102
+  },
+  "v3_addons/results/wp6_references_append_option_c.txt": {
+   "sha256": "42f6a6a7141bff2af8a5aa343264a34e173243cf3fb90840cc4c31dfadbaaa31",
+   "size": 657
+  },
+  "v3_addons/results/wp7_files_created.csv": {
+   "sha256": "f21aa0d9a657f81d9314a3a6a5f7af56238e493b18eb8d974a6ee64f19ffe8f5",
+   "size": 5665
+  },
+  "v3_addons/results/wp7_final_verification.json": {
+   "sha256": "e72d418b0a77f98ffd37862c555370683878a8df241777d6039b0fe79865f755",
+   "size": 11092
+  },
+  "v3_addons/results/wp7_readonly_deck_ledger.json": {
+   "sha256": "741759c8fae3e023b9913f43ae26a13d8c47fdc7fe21d444f7eff74e6e67db7a",
+   "size": 193264
+  },
+  "v3_addons/results/wp8/bootstrap.json": {
+   "sha256": "59efc6e59ca3bf279b70cf8b6c484d2cfa3bedb54eb073c0589e1c595a896d4b",
+   "size": 33079
+  },
+  "v3_addons/results/wp8/bootstrap.npz": {
+   "sha256": "35db50e1bdd42f626e2850d0e7fb9bf0e970e0efe70c8939d507e58c2250100f",
+   "size": 17525089
+  },
+  "v3_addons/results/wp8/cache/_run.lock": {
+   "sha256": "5feceb66ffc86f38d952786c6d696c79c2dbc239dd4e91b46729d73a27fb57e9",
+   "size": 1
+  },
+  "v3_addons/results/wp8/cache/r0_f0_development.json": {
+   "sha256": "ad2d7d9e727dea586c7a97130c7ef9ecce19237abe43b681aadebeed09d606d9",
+   "size": 39237
+  },
+  "v3_addons/results/wp8/cache/r0_f0_development.npz": {
+   "sha256": "658f2cf7689ecac7740f0537b4c626c25189184f6f007092159206ee64357aa3",
+   "size": 132923
+  },
+  "v3_addons/results/wp8/cache/r0_f0_development.started": {
+   "sha256": "e50b796185a17d41d1d3d3c4c234d149e2cd52b770b6710a3aa72fe4fc30403e",
+   "size": 64
+  },
+  "v3_addons/results/wp8/cache/r0_f0_inner0.json": {
+   "sha256": "c012783339b03b5be59a631765f244d2de195ba910406223c633385b799863f5",
+   "size": 39193
+  },
+  "v3_addons/results/wp8/cache/r0_f0_inner0.npz": {
+   "sha256": "a9289756ea0038ca7bf37ee7a79e190d71e567b56bf5d321adf428e29fdb460a",
+   "size": 176191
+  },
+  "v3_addons/results/wp8/cache/r0_f0_inner0.started": {
+   "sha256": "11c489cc1ac7606bb1ede5010950c63ac03e4a60a9269b794c5c7121ccb4e756",
+   "size": 64
+  },
+  "v3_addons/results/wp8/cache/r0_f0_inner1.json": {
+   "sha256": "e70a8b9bd4a4f87d9be464cda867ba4273622043796d66ada142f77d260474b9",
+   "size": 39227
+  },
+  "v3_addons/results/wp8/cache/r0_f0_inner1.npz": {
+   "sha256": "2280c4893227009abbf123e33d28a97e2cb13667ef890e2cf0fe2c38a30d0dba",
+   "size": 176151
+  },
+  "v3_addons/results/wp8/cache/r0_f0_inner1.started": {
+   "sha256": "d7ad0c3b8036974c397b3a6f01d15bf86944181000f98659b34fbac57f94d681",
+   "size": 64
+  },
+  "v3_addons/results/wp8/cache/r0_f0_inner2.json": {
+   "sha256": "de05092eb2b8fba91788c5ae4813685f5e8b307303fdacb3170ced41fc22c921",
+   "size": 39228
+  },
+  "v3_addons/results/wp8/cache/r0_f0_inner2.npz": {
+   "sha256": "e876bb5eebf560ba7f6d69e89b80eb29cf3541ba877fe14f5be2ec33673b024e",
+   "size": 176101
+  },
+  "v3_addons/results/wp8/cache/r0_f0_inner2.started": {
+   "sha256": "bc7e578687b4ae07a3537d8c484f23267d24ae1a50e146925ffed6208133a522",
+   "size": 64
+  },
+  "v3_addons/results/wp8/cache/r0_f0_outer.json": {
+   "sha256": "25d53c8c5497d6f067e7df71854b5521b180158f7f38e3ec5e303a6244867df4",
+   "size": 39457
+  },
+  "v3_addons/results/wp8/cache/r0_f0_outer.npz": {
+   "sha256": "d0571e239605ee6301ff24656777117887a9c4494d36493971b78c00f892749d",
+   "size": 165329
+  },
+  "v3_addons/results/wp8/cache/r0_f0_outer.started": {
+   "sha256": "a49ebcaa87ac57e9ddaa7fa14afad6061edeac916f932002d03b47f20256fca8",
+   "size": 64
+  },
+  "v3_addons/results/wp8/cache/r0_f0_sigmoid.json": {
+   "sha256": "744d08ef775250955b31158d9715427528b1a7a5fe0ce6feec27cf6bbb76c09a",
+   "size": 39875
+  },
+  "v3_addons/results/wp8/cache/r0_f0_sigmoid.npz": {
+   "sha256": "d7bcc1285f7feb52b2be3499423693b4811326f83aa88c1eb86f2a14d53d0dd6",
+   "size": 460231
+  },
+  "v3_addons/results/wp8/cache/r0_f0_sigmoid.started": {
+   "sha256": "4905cfef996e89df8b41ddc1f8672b46ea6431430b9332a004e821377d189dfc",
+   "size": 64
+  },
+  "v3_addons/results/wp8/cache/r0_f1_development.json": {
+   "sha256": "0b842538f48dd3a3dc404c5bf7a48f6c66d4206cfb7803129010f71cffd0a8e9",
+   "size": 39241
+  },
+  "v3_addons/results/wp8/cache/r0_f1_development.npz": {
+   "sha256": "74319c838ce2bf2a21488812d18c7cade40657be9efa6310e72fc942ad1df98b",
+   "size": 132921
+  },
+  "v3_addons/results/wp8/cache/r0_f1_development.started": {
+   "sha256": "05063367badccda26e0ff52c3d2aa9539617649bee68e4f228863fcd6ce32e51",
+   "size": 64
+  },
+  "v3_addons/results/wp8/cache/r0_f1_inner0.json": {
+   "sha256": "ee46e9733242bd397a99ef8a3d59920c153b77441eff266394d2158ed1643f45",
+   "size": 39227
+  },
+  "v3_addons/results/wp8/cache/r0_f1_inner0.npz": {
+   "sha256": "7a4b29adeb90834ae7c23d82de5c11fc2f26cb64f50d6cf782bf1dc24fcfb247",
+   "size": 176190
+  },
+  "v3_addons/results/wp8/cache/r0_f1_inner0.started": {
+   "sha256": "e412fdbf7cb9e9fa77f0c0c2839f2ffcf13ec2b1a364ea1936052cde379911aa",
+   "size": 64
+  },
+  "v3_addons/results/wp8/cache/r0_f1_inner1.json": {
+   "sha256": "c93082fee7e618475a570738e75a017ee075b30eb95139d5d152bd3722c34ab8",
+   "size": 39183
+  },
+  "v3_addons/results/wp8/cache/r0_f1_inner1.npz": {
+   "sha256": "3f98989ca900813f9096fbc299c25208a07c57a5dd70d0acd6c2bb2caf13ca08",
+   "size": 176092
+  },
+  "v3_addons/results/wp8/cache/r0_f1_inner1.started": {
+   "sha256": "c4cc64383085e51ad41be2fc81c64d0a6c986ec826e16ae453bae894ba6cde41",
+   "size": 64
+  },
+  "v3_addons/results/wp8/cache/r0_f1_inner2.json": {
+   "sha256": "0dad52e4186b360547da200d6745895544d5c242ca3702a9b029a8b4aa876070",
+   "size": 39243
+  },
+  "v3_addons/results/wp8/cache/r0_f1_inner2.npz": {
+   "sha256": "53da9fd9ab4bf32383ceb8e7c1d3ae328790bf7e8925cb39d2bdfda05bb12c1e",
+   "size": 176199
+  },
+  "v3_addons/results/wp8/cache/r0_f1_inner2.started": {
+   "sha256": "cf8d3df96c99f35fae558ef666fbed53db64bdb3d62940fe4b0b76f97d5e4123",
+   "size": 64
+  },
+  "v3_addons/results/wp8/cache/r0_f1_outer.json": {
+   "sha256": "9bd4a9f8c94cb532fabcbfab7521e61bd544afac44a9e93765754e64af9da229",
+   "size": 39459
+  },
+  "v3_addons/results/wp8/cache/r0_f1_outer.npz": {
+   "sha256": "f66ae27b7e5a3a468fd94fa7f8a6865610dc750ccc166e4d3eb08ba6bef1e58e",
+   "size": 165360
+  },
+  "v3_addons/results/wp8/cache/r0_f1_outer.started": {
+   "sha256": "81e0945666afdeea930cf418f275ded4baa3afc78ceb1db9504eebf7357fa769",
+   "size": 64
+  },
+  "v3_addons/results/wp8/cache/r0_f1_sigmoid.json": {
+   "sha256": "a369ab340be2b01df96485af3951e570e01df679a1d7c33d8793f3cde8b31059",
+   "size": 39880
+  },
+  "v3_addons/results/wp8/cache/r0_f1_sigmoid.npz": {
+   "sha256": "d79e8acfaabec7667b1db46115d2ce72576dda0cbe1a895a80831834552da26c",
+   "size": 460405
+  },
+  "v3_addons/results/wp8/cache/r0_f1_sigmoid.started": {
+   "sha256": "abd98b4f9885b19c978cd0f2e769f60a9c82df1913d763009d1f1893ac62f3dc",
+   "size": 64
+  },
+  "v3_addons/results/wp8/cache/r0_f2_development.json": {
+   "sha256": "ce18f5412171a7276ea27b9aba981f8d34b4624ed56513240d570083adbb3984",
+   "size": 39252
+  },
+  "v3_addons/results/wp8/cache/r0_f2_development.npz": {
+   "sha256": "5e7cbca870eacbbc493ef93c26c6e053474ad1a86dbcbcf9db04a783c94a9eb8",
+   "size": 132873
+  },
+  "v3_addons/results/wp8/cache/r0_f2_development.started": {
+   "sha256": "637a1f769b17652bd60c99a7612f0a775a9ab3d26d957b369b22690f9fdaa97b",
+   "size": 64
+  },
+  "v3_addons/results/wp8/cache/r0_f2_inner0.json": {
+   "sha256": "9631b7008cb4f264beb1e5479b33934b6748947d1e78fcb7f2144b735ef88950",
+   "size": 39252
+  },
+  "v3_addons/results/wp8/cache/r0_f2_inner0.npz": {
+   "sha256": "5f54ac9a5fcce90fec0cec950ca1828a884ed01019581b020908901327ec17e1",
+   "size": 176258
+  },
+  "v3_addons/results/wp8/cache/r0_f2_inner0.started": {
+   "sha256": "e0f17f2a068259040f86564c1595c9430b7b5795ebf4021f4ba872648f0896aa",
+   "size": 64
+  },
+  "v3_addons/results/wp8/cache/r0_f2_inner1.json": {
+   "sha256": "2b1a4ac17c909700f7976cfca1d166dea25d86fd4da11a3f41d115e8bd8a6462",
+   "size": 39230
+  },
+  "v3_addons/results/wp8/cache/r0_f2_inner1.npz": {
+   "sha256": "d193056f649e6ef3e9461ee24b5102d556751abddb40b784cf36e1052c31c881",
+   "size": 176164
+  },
+  "v3_addons/results/wp8/cache/r0_f2_inner1.started": {
+   "sha256": "aadbe482140b7815b3f91281868a81d9c1864d488d3e59f37e5097fc280273f5",
+   "size": 64
+  },
+  "v3_addons/results/wp8/cache/r0_f2_inner2.json": {
+   "sha256": "8dbdc5859b1485c30a1b3a97efbe7c58afafa8800bbc2101baa8e98c5e43574a",
+   "size": 39184
+  },
+  "v3_addons/results/wp8/cache/r0_f2_inner2.npz": {
+   "sha256": "26110661cc3e3dddc8472482e2b9d4d99264df84ab9faa87d785c2da1dcbef2d",
+   "size": 176149
+  },
+  "v3_addons/results/wp8/cache/r0_f2_inner2.started": {
+   "sha256": "98cb4b099d8bb086d27e9e44b532f95d5c206fa20e557493715ffe4cfe9f4e3e",
+   "size": 64
+  },
+  "v3_addons/results/wp8/cache/r0_f2_outer.json": {
+   "sha256": "5b0acba9a68ba8160f41cdc780e1e9f677d73cfa1669a1683af3c9b5b16bbaa3",
+   "size": 39455
+  },
+  "v3_addons/results/wp8/cache/r0_f2_outer.npz": {
+   "sha256": "409eb9f5bfad91ecd01da92cd1fe5a658b59c5ba2371e2bc9d13216140986609",
+   "size": 165434
+  },
+  "v3_addons/results/wp8/cache/r0_f2_outer.started": {
+   "sha256": "d97fb49749c14b0986f872edd4ba123892a0504a92decce5b8ad92dee0e5f238",
+   "size": 64
+  },
+  "v3_addons/results/wp8/cache/r0_f2_sigmoid.json": {
+   "sha256": "4a43dd24ff9d973568a99e05dc77e9317b4917e5821403ca8b5e547f6e62bdeb",
+   "size": 39887
+  },
+  "v3_addons/results/wp8/cache/r0_f2_sigmoid.npz": {
+   "sha256": "7e7f88327c02dec0aebeeea529e18271e4a2be5934e362a3c9f4f8812f049f58",
+   "size": 460249
+  },
+  "v3_addons/results/wp8/cache/r0_f2_sigmoid.started": {
+   "sha256": "929cdb694d4924ad006efb25094cbd8a46ae6d35011a20b53e70078569081da0",
+   "size": 64
+  },
+  "v3_addons/results/wp8/cache/r0_f3_development.json": {
+   "sha256": "f5b40b40566e3622a1d3efa1f4e5a549ab0ab295c8676efba51c9b831c1a7da2",
+   "size": 39191
+  },
+  "v3_addons/results/wp8/cache/r0_f3_development.npz": {
+   "sha256": "1bb6be856bd6b206684a047be38836503b6026b44ed457e785829df943ef33e8",
+   "size": 132872
+  },
+  "v3_addons/results/wp8/cache/r0_f3_development.started": {
+   "sha256": "b7ca8cf2aad6da7319868f547137ca8887f5e19f2920b6749e493dce4ca55f7c",
+   "size": 64
+  },
+  "v3_addons/results/wp8/cache/r0_f3_inner0.json": {
+   "sha256": "b92cfd68df0ad2e3d15226b61c619c2e8209708ab88847a49906c8f70c1073c6",
+   "size": 39217
+  },
+  "v3_addons/results/wp8/cache/r0_f3_inner0.npz": {
+   "sha256": "fbabbf744c3d9a6798e86a1eab5c6422aa8becbedb38c9713802dbbfc036fdc4",
+   "size": 176150
+  },
+  "v3_addons/results/wp8/cache/r0_f3_inner0.started": {
+   "sha256": "c96943e4c3ef8d19cdcc0212610d6fd0b23739477b1736bf8c9f6bb0f1e5abe0",
+   "size": 64
+  },
+  "v3_addons/results/wp8/cache/r0_f3_inner1.json": {
+   "sha256": "cb16b70c5e1ee666747fd01058d07f369d1151c5d26b1f8990871903c9dd5911",
+   "size": 39179
+  },
+  "v3_addons/results/wp8/cache/r0_f3_inner1.npz": {
+   "sha256": "d14efdb80e34fc2df2dfdcbd2a1d194280447f01bf050175fb27a6cf594335cd",
+   "size": 176183
+  },
+  "v3_addons/results/wp8/cache/r0_f3_inner1.started": {
+   "sha256": "fca5a60f653a1fc3ad820a62328e4400ce4ed0609dcaf818af9dd2ae5cd7a5f2",
+   "size": 64
+  },
+  "v3_addons/results/wp8/cache/r0_f3_inner2.json": {
+   "sha256": "690f4c9e8af42b1c6010c7de1e7c481442d6f505c7727d5493f71225022a2398",
+   "size": 39182
+  },
+  "v3_addons/results/wp8/cache/r0_f3_inner2.npz": {
+   "sha256": "257655b5d61f608d2f2ebab76b81d13b72b1b37db74170ba0e7b109821568858",
+   "size": 176137
+  },
+  "v3_addons/results/wp8/cache/r0_f3_inner2.started": {
+   "sha256": "2b5ca8497e4c4aa6f0806def78817862f473b31a545867bec1e684d4d7b1ce9d",
+   "size": 64
+  },
+  "v3_addons/results/wp8/cache/r0_f3_outer.json": {
+   "sha256": "31cbe220d3bd944d5789017ceb2eb659fb4c56355e5c4c3321eaea150a7d4a17",
+   "size": 39455
+  },
+  "v3_addons/results/wp8/cache/r0_f3_outer.npz": {
+   "sha256": "68fc346e5ee1fffdfd3074a8a48261c577887129a4c1be1f46641a71c05fa5ad",
+   "size": 165352
+  },
+  "v3_addons/results/wp8/cache/r0_f3_outer.started": {
+   "sha256": "9e1df4f8871a8d73d6d559c38800175e62148079e3dbc581b2d4234e8ddc50f7",
+   "size": 64
+  },
+  "v3_addons/results/wp8/cache/r0_f3_sigmoid.json": {
+   "sha256": "037e1a87883f2ad944adb05c65057719c42d7b4e946db895dfdf332b310a0c72",
+   "size": 39822
+  },
+  "v3_addons/results/wp8/cache/r0_f3_sigmoid.npz": {
+   "sha256": "2ae4d91a968981172539c68af1034496d13c3ed5862393d33b0ac36601652e45",
+   "size": 460353
+  },
+  "v3_addons/results/wp8/cache/r0_f3_sigmoid.started": {
+   "sha256": "fdcb220a13b787211a3905b1af5c1786c8864f11a679f0e65966374d89d38fcc",
+   "size": 64
+  },
+  "v3_addons/results/wp8/cache/r0_f4_development.json": {
+   "sha256": "68c4c288e085efc9a676245883f412853597e7d0e76d59e4b4e21f148b5d57a9",
+   "size": 39191
+  },
+  "v3_addons/results/wp8/cache/r0_f4_development.npz": {
+   "sha256": "0c78909fef5fb082cb744d9a52864edeeb35a19be32ba50adc934612bad99eb1",
+   "size": 132856
+  },
+  "v3_addons/results/wp8/cache/r0_f4_development.started": {
+   "sha256": "85091abb8ea5f87e2589e360ac6b49debd93617030605ee12d2cad704496952c",
+   "size": 64
+  },
+  "v3_addons/results/wp8/cache/r0_f4_inner0.json": {
+   "sha256": "77275f8de710ca93fb3dca372206ee1bfd44d320d07bd5c956dac4632975ad19",
+   "size": 39195
+  },
+  "v3_addons/results/wp8/cache/r0_f4_inner0.npz": {
+   "sha256": "45604991f114d037770755187c50340e36833452b93ef995e8c78f8b18c762a4",
+   "size": 176150
+  },
+  "v3_addons/results/wp8/cache/r0_f4_inner0.started": {
+   "sha256": "f6a2756a9a9e38dcf3750a00cf939b57dec4c638424e5a54ff242369ac092d9a",
+   "size": 64
+  },
+  "v3_addons/results/wp8/cache/r0_f4_inner1.json": {
+   "sha256": "a5dd4c3d2c31c3c46d93859c9e0bdf256274eb6fbe1a232b89f80d067669b10f",
+   "size": 39183
+  },
+  "v3_addons/results/wp8/cache/r0_f4_inner1.npz": {
+   "sha256": "56ba09d992a2a508aba0e337c3af1741388b6d188e47115effe61dbea092a814",
+   "size": 176138
+  },
+  "v3_addons/results/wp8/cache/r0_f4_inner1.started": {
+   "sha256": "55cb27797dd061aaa86efc69f6c1dd663e28c6afcd15591224aa403214d2a9b1",
+   "size": 64
+  },
+  "v3_addons/results/wp8/cache/r0_f4_inner2.json": {
+   "sha256": "d99fd853b9e5761e63ea21c7835569329ab6e0201292a645baf6553f4b615f39",
+   "size": 39193
+  },
+  "v3_addons/results/wp8/cache/r0_f4_inner2.npz": {
+   "sha256": "eef95968bc34bddb717934aa07c0b8bd2ec7d7dae2cb31493ac2b4f1e1a60c5f",
+   "size": 176191
+  },
+  "v3_addons/results/wp8/cache/r0_f4_inner2.started": {
+   "sha256": "bb44b59daa85e30e7c7af976c703cc3b4a3e8e1df5354cb9062d900c252d4168",
+   "size": 64
+  },
+  "v3_addons/results/wp8/cache/r0_f4_outer.json": {
+   "sha256": "92c073f1eef79cebf8e40736e0be98a6a49035cad481c9f9c6324c7093f2f322",
+   "size": 39420
+  },
+  "v3_addons/results/wp8/cache/r0_f4_outer.npz": {
+   "sha256": "729a4038b3a50c8dedf896ed3e99447d736edd9ebbb3dd3fd766d227f5786e29",
+   "size": 165381
+  },
+  "v3_addons/results/wp8/cache/r0_f4_outer.started": {
+   "sha256": "785ee366927626e5823c1a88be0d8886f6d2484cab72889441c7435cf4d1706e",
+   "size": 64
+  },
+  "v3_addons/results/wp8/cache/r0_f4_sigmoid.json": {
+   "sha256": "d4abe0a9d17b97f59564e3651f75c3074db1b4df0268dec54749c3e2918dd0c1",
+   "size": 39784
+  },
+  "v3_addons/results/wp8/cache/r0_f4_sigmoid.npz": {
+   "sha256": "d23fac6fe85b8e59a625308f19f1aefbf876c5138fa5e49456b5b02d36264aa6",
+   "size": 460289
+  },
+  "v3_addons/results/wp8/cache/r0_f4_sigmoid.started": {
+   "sha256": "f18549b0f1f5a791f5055322bd0357d373f55228472a5fa8b415d3a61d183a34",
+   "size": 64
+  },
+  "v3_addons/results/wp8/cache/r1_f0_development.json": {
+   "sha256": "767192a10c63910102b93377a56675384b534113d02fd55bab9404ab93f76bd3",
+   "size": 39202
+  },
+  "v3_addons/results/wp8/cache/r1_f0_development.npz": {
+   "sha256": "9e6bdbb3c79e2a52f847cc78add9c4046f85eb00fe3b6ab529849348c840e21b",
+   "size": 132912
+  },
+  "v3_addons/results/wp8/cache/r1_f0_development.started": {
+   "sha256": "9ce920025e6f1056c693993f736191ea93f311dfe4c80a39cc2ade0e62180f71",
+   "size": 64
+  },
+  "v3_addons/results/wp8/cache/r1_f0_inner0.json": {
+   "sha256": "51b951cf744049a56f0f72a4b38fd62e98db5d1365d1d01b06950349ad19d2d8",
+   "size": 39230
+  },
+  "v3_addons/results/wp8/cache/r1_f0_inner0.npz": {
+   "sha256": "8db879fdbd8a97eb03111dc3396aeb10a9532fbbafdcabb0d4811b23d9d3cc60",
+   "size": 176182
+  },
+  "v3_addons/results/wp8/cache/r1_f0_inner0.started": {
+   "sha256": "32ca95cb1bdd19de07a098b18d0b01ccc3db7c5c59d19afbd4c2bef4d8a2050b",
+   "size": 64
+  },
+  "v3_addons/results/wp8/cache/r1_f0_inner1.json": {
+   "sha256": "f1fa7332ab6fd5c8ba1763a3caf26c3c44b78fd0e9d63d505089f954a1eab217",
+   "size": 39196
+  },
+  "v3_addons/results/wp8/cache/r1_f0_inner1.npz": {
+   "sha256": "9743078857d2fed416215295a3742aa6273bd617e71a21a581f93aa93de5a71e",
+   "size": 176199
+  },
+  "v3_addons/results/wp8/cache/r1_f0_inner1.started": {
+   "sha256": "137c3e328d22019bf64059014fccefa9cbd435061ffc3ddb264a23695abc85ee",
+   "size": 64
+  },
+  "v3_addons/results/wp8/cache/r1_f0_inner2.json": {
+   "sha256": "e55783969ed1c149f38374d6b62fefa1c87531961b7015acba69ebbada01cd4c",
+   "size": 39179
+  },
+  "v3_addons/results/wp8/cache/r1_f0_inner2.npz": {
+   "sha256": "f598c4872b6c90b0b398828a70ffc1a7a44fcef191de269078325936c75e60f5",
+   "size": 176082
+  },
+  "v3_addons/results/wp8/cache/r1_f0_inner2.started": {
+   "sha256": "212f8505539f8e86472e72831276ac566430f71654ad3a1657898bd55112d1ad",
+   "size": 64
+  },
+  "v3_addons/results/wp8/cache/r1_f0_outer.json": {
+   "sha256": "bcd99c4e409a71ffd85de0bbd08c71fb44c88b6f3db3d996c2abd004a88c247d",
+   "size": 39469
+  },
+  "v3_addons/results/wp8/cache/r1_f0_outer.npz": {
+   "sha256": "d2d3427aa938d880ed5db5460c32c9bcb39161d3b86a276f009d09ef359ba977",
+   "size": 165418
+  },
+  "v3_addons/results/wp8/cache/r1_f0_outer.started": {
+   "sha256": "6e57f90e56c82c581afd6f4d9ec21a7d90f22b64e676a3c68b55e02d23e83f0b",
+   "size": 64
+  },
+  "v3_addons/results/wp8/cache/r1_f0_sigmoid.json": {
+   "sha256": "873068c8ccca997559fb175ea537402ccd426222bb850f4a71d19435bddb6339",
+   "size": 39847
+  },
+  "v3_addons/results/wp8/cache/r1_f0_sigmoid.npz": {
+   "sha256": "59bdcddf129698cf3f10db10876ed750f8769b44695b2827013652290d75003e",
+   "size": 460443
+  },
+  "v3_addons/results/wp8/cache/r1_f0_sigmoid.started": {
+   "sha256": "b349461c038153d4fdaa281cac18f6a15c9f0ee2dea22b6e5fb348fab9de3472",
+   "size": 64
+  },
+  "v3_addons/results/wp8/cache/r1_f1_development.json": {
+   "sha256": "3fb367bec826101180fb76c9ad75df4fb3cb421ad6257a95b9cb79fef034c5dc",
+   "size": 39191
+  },
+  "v3_addons/results/wp8/cache/r1_f1_development.npz": {
+   "sha256": "eaa89c06ce13fe4c5508a9ba05fc5b49f8e702f93c49b2d59cf06c0569a0d08f",
+   "size": 132876
+  },
+  "v3_addons/results/wp8/cache/r1_f1_development.started": {
+   "sha256": "bb5100c7a39e996b38abad143ce6cfe53aabf3ffaee6efce966b163e20acdc3d",
+   "size": 64
+  },
+  "v3_addons/results/wp8/cache/r1_f1_inner0.json": {
+   "sha256": "5969e8dbf399945568c7dd6ef22c0539baa5423865e8efcef5aa1ec850ca72db",
+   "size": 39184
+  },
+  "v3_addons/results/wp8/cache/r1_f1_inner0.npz": {
+   "sha256": "d34933727e6ff835d07ff56affe0bfbcc97d83bb7a541862abe379dd3d0c5d57",
+   "size": 176197
+  },
+  "v3_addons/results/wp8/cache/r1_f1_inner0.started": {
+   "sha256": "281b762c1f79914d74b4e94a1e5e34227bf71e6b475e4fa6cd9113cbdb83a919",
+   "size": 64
+  },
+  "v3_addons/results/wp8/cache/r1_f1_inner1.json": {
+   "sha256": "388bda834f337b08465b5d747b71d77129ff23df7ce9215294afb9e0f135d655",
+   "size": 39182
+  },
+  "v3_addons/results/wp8/cache/r1_f1_inner1.npz": {
+   "sha256": "45e668977618170b3d6737ac59a156d0c9dd0253caf73cba3b8a87514f5fe211",
+   "size": 176199
+  },
+  "v3_addons/results/wp8/cache/r1_f1_inner1.started": {
+   "sha256": "157636af9fc38931dd85dbb0d740e13f8924981d2720cdf3dd6a7fa99191bb46",
+   "size": 64
+  },
+  "v3_addons/results/wp8/cache/r1_f1_inner2.json": {
+   "sha256": "d1b1f492856f17bf78422a790b3d257c8c3d62370a56f1abe2e95aafcc0a27cc",
+   "size": 39195
+  },
+  "v3_addons/results/wp8/cache/r1_f1_inner2.npz": {
+   "sha256": "a897f8c6e39f011b9a8d756018489cbc39aaab7eb24e8b2c97f114fafec1cfa3",
+   "size": 176142
+  },
+  "v3_addons/results/wp8/cache/r1_f1_inner2.started": {
+   "sha256": "a5d3574f2fc70544a445c46f9a76dab2a666cf952ec0139b9a1a1c64633e159e",
+   "size": 64
+  },
+  "v3_addons/results/wp8/cache/r1_f1_outer.json": {
+   "sha256": "5e60220574f964cf753087c984643a0586bb3aa22ea1af810c280215acc4af98",
+   "size": 39407
+  },
+  "v3_addons/results/wp8/cache/r1_f1_outer.npz": {
+   "sha256": "bbd80450e2a0e740121042581bc9c26294ef339a238c53f6bf7feb4588047965",
+   "size": 165366
+  },
+  "v3_addons/results/wp8/cache/r1_f1_outer.started": {
+   "sha256": "bd53c840549d883ccee0b32a4e6b9de0461274f78cc395cd3af7ea8fe452476b",
+   "size": 64
+  },
+  "v3_addons/results/wp8/cache/r1_f1_sigmoid.json": {
+   "sha256": "e998e76e7a31121982751b35609caca5b90f3038db01ebb6336233ab5eef8f57",
+   "size": 39770
+  },
+  "v3_addons/results/wp8/cache/r1_f1_sigmoid.npz": {
+   "sha256": "72d6fb3d9c6e0d06df3d66879eaa19722c548608c25421fb7521ae8cbe0258cf",
+   "size": 460401
+  },
+  "v3_addons/results/wp8/cache/r1_f1_sigmoid.started": {
+   "sha256": "9d7a6f960a1a7630fc4edd51a9740e2d13d23160b2af98f8a7f8c074ee92ea46",
+   "size": 64
+  },
+  "v3_addons/results/wp8/cache/r1_f2_development.json": {
+   "sha256": "dd877a4151c011d16fcfab31647a55815fea02ffd7be54d959f6d62e60097ac5",
+   "size": 39239
+  },
+  "v3_addons/results/wp8/cache/r1_f2_development.npz": {
+   "sha256": "a6a6a0f0703d930e3051a5329348ad031bbc16b6eedcd54e5db96d2e5d81bea9",
+   "size": 132874
+  },
+  "v3_addons/results/wp8/cache/r1_f2_development.started": {
+   "sha256": "2bc58706be7f4472c878b61adf49a76010e57814b941026d1994375177a69c3c",
+   "size": 64
+  },
+  "v3_addons/results/wp8/cache/r1_f2_inner0.json": {
+   "sha256": "9d37ab887ec71453c2c8288f7798d9971e746be493c2c2c8c8966c93386d3a46",
+   "size": 39228
+  },
+  "v3_addons/results/wp8/cache/r1_f2_inner0.npz": {
+   "sha256": "b8b624d94ea8995a2b6cd998c687825ae3dceaa6a14318f6f49785418580d475",
+   "size": 176150
+  },
+  "v3_addons/results/wp8/cache/r1_f2_inner0.started": {
+   "sha256": "af2ebc51e02160a6fc66c63ee252a1b1f38a6e913cd6f36d299d9d5b557f6333",
+   "size": 64
+  },
+  "v3_addons/results/wp8/cache/r1_f2_inner1.json": {
+   "sha256": "4daa16265ed664fd01fd564584b905ddd17d3471b8330d6a3054537ab76dc661",
+   "size": 39227
+  },
+  "v3_addons/results/wp8/cache/r1_f2_inner1.npz": {
+   "sha256": "4eef2b79ab483b43782916cb945f697968b8f189646fb7c830553d0ba1fbbbfc",
+   "size": 176219
+  },
+  "v3_addons/results/wp8/cache/r1_f2_inner1.started": {
+   "sha256": "0cad046f7c5aa8e1eff1244698702cec8e69343590133b36e2db37adc82812a3",
+   "size": 64
+  },
+  "v3_addons/results/wp8/cache/r1_f2_inner2.json": {
+   "sha256": "8a2964a294bbecc9331285f87854815a9bac099163a64f4fb14afa565d9fde92",
+   "size": 39180
+  },
+  "v3_addons/results/wp8/cache/r1_f2_inner2.npz": {
+   "sha256": "1a6852b9981d29808eca8e20396d1d510c9b127e561b85d02a4b157d2b468e12",
+   "size": 176176
+  },
+  "v3_addons/results/wp8/cache/r1_f2_inner2.started": {
+   "sha256": "006e9e05c7df4446a05772168d03b47a0255fd7f6fe6c70f0100924a479c3ef5",
+   "size": 64
+  },
+  "v3_addons/results/wp8/cache/r1_f2_outer.json": {
+   "sha256": "5240034312547a5cb8a89de0317145377a673000b2d79e6cc49a0d300d583476",
+   "size": 39455
+  },
+  "v3_addons/results/wp8/cache/r1_f2_outer.npz": {
+   "sha256": "642d725d30ada5dac57b6c8af3837a56bfb693f04a22e0a260c57cf9e298a1b7",
+   "size": 165442
+  },
+  "v3_addons/results/wp8/cache/r1_f2_outer.started": {
+   "sha256": "b4b9716fdbf51cf8689fb9e738f6d27b7de4fa0517d42bd9a425a8a962dc6848",
+   "size": 64
+  },
+  "v3_addons/results/wp8/cache/r1_f2_sigmoid.json": {
+   "sha256": "d80facf9790596a7f8d0cea26c57f898d5970e1a00c529233accd30218a7b120",
+   "size": 39874
+  },
+  "v3_addons/results/wp8/cache/r1_f2_sigmoid.npz": {
+   "sha256": "bfedbf5258ef14656170ea96bfd7f75f741339ec570dac511ac5817026228ef1",
+   "size": 460510
+  },
+  "v3_addons/results/wp8/cache/r1_f2_sigmoid.started": {
+   "sha256": "3d59697c215bbfa35137b1d5148ea77788a33ca067fb47c0b4a34f123113855c",
+   "size": 64
+  },
+  "v3_addons/results/wp8/cache/r1_f3_development.json": {
+   "sha256": "cb188c003cc21243ee930f3836b4c404319f002b627fd150e80131c76d720608",
+   "size": 39250
+  },
+  "v3_addons/results/wp8/cache/r1_f3_development.npz": {
+   "sha256": "f16d27ae09aafe028a79707254fe2ef4c0cb9586e0e91b403ac6c64d8bbb5df9",
+   "size": 132923
+  },
+  "v3_addons/results/wp8/cache/r1_f3_development.started": {
+   "sha256": "073cdcc42346c2538f2e2db8c6634260c404e1b1d36f89958afc23c172704b48",
+   "size": 64
+  },
+  "v3_addons/results/wp8/cache/r1_f3_inner0.json": {
+   "sha256": "c19297efe54a49b231b220761bcd3acf64b0cc102d40b6319ef09d347aad571b",
+   "size": 39230
+  },
+  "v3_addons/results/wp8/cache/r1_f3_inner0.npz": {
+   "sha256": "e60906f22a5dcbaafa3813d5f5dd7c0815382457de6199dd2b747af6795f6a5c",
+   "size": 176126
+  },
+  "v3_addons/results/wp8/cache/r1_f3_inner0.started": {
+   "sha256": "b5be0411f6d1de84a832aeceadb2ebb9a4a3a423ae9f1dbc259e2b348b815fa9",
+   "size": 64
+  },
+  "v3_addons/results/wp8/cache/r1_f3_inner1.json": {
+   "sha256": "a564361f6e312d4d53b600ef11ee89764016feaaeaae01783b7250279ae3c40e",
+   "size": 39182
+  },
+  "v3_addons/results/wp8/cache/r1_f3_inner1.npz": {
+   "sha256": "69ed604a4ef5a7ea4c4a6e65f7c66b93e3ff992935d7fa3c895d8d0966f7df06",
+   "size": 176203
+  },
+  "v3_addons/results/wp8/cache/r1_f3_inner1.started": {
+   "sha256": "54ff23e027e6fee66843ad298bb7fa898ce520890476c1d9cc6a4deaf47a226e",
+   "size": 64
+  },
+  "v3_addons/results/wp8/cache/r1_f3_inner2.json": {
+   "sha256": "b3b8b1507f409ed813ff1926e49aab03c722d8c405c02c52603cd77cc8bbd29d",
+   "size": 39232
+  },
+  "v3_addons/results/wp8/cache/r1_f3_inner2.npz": {
+   "sha256": "73051db7456c88089116cdcd83ee5eb85a10aa59ab103a2fab0b9a6cabcd62af",
+   "size": 176184
+  },
+  "v3_addons/results/wp8/cache/r1_f3_inner2.started": {
+   "sha256": "c8050b4006c72cffa115028d850c758927498cd0a9db22e9c6dd5849fff47c4f",
+   "size": 64
+  },
+  "v3_addons/results/wp8/cache/r1_f3_outer.json": {
+   "sha256": "571a635075b8b66a554463d38336cc1b6ddaac974a5fb5a3794ee869c6bf7a28",
+   "size": 39471
+  },
+  "v3_addons/results/wp8/cache/r1_f3_outer.npz": {
+   "sha256": "ad9c9f9aec7a166af150e966c7b088a93e7c8bf6afecb6070724b18694f2898f",
+   "size": 165342
+  },
+  "v3_addons/results/wp8/cache/r1_f3_outer.started": {
+   "sha256": "86a970b84def6db22d6f414a5ff73361dff68166895fd1ad641c1b70709c3119",
+   "size": 64
+  },
+  "v3_addons/results/wp8/cache/r1_f3_sigmoid.json": {
+   "sha256": "e861ef00584dde090a7de81454f0d849ae58cbc9cbb57cbb02415f8156123747",
+   "size": 39900
+  },
+  "v3_addons/results/wp8/cache/r1_f3_sigmoid.npz": {
+   "sha256": "f60b37f2ec27ce9c3643326ba47c3b6902fc09050b75d349ce311ed848791ab3",
+   "size": 460111
+  },
+  "v3_addons/results/wp8/cache/r1_f3_sigmoid.started": {
+   "sha256": "898b349950a7d76156203c09d845589b07f2f7012f51f449ea934e99d7f26747",
+   "size": 64
+  },
+  "v3_addons/results/wp8/cache/r1_f4_development.json": {
+   "sha256": "7a262489d77760ebfc2fa8270cf1ddcd30f856f91be14ebfb149a270bd69440e",
+   "size": 39256
+  },
+  "v3_addons/results/wp8/cache/r1_f4_development.npz": {
+   "sha256": "e4adcc9adb0ea5eae00f0a0cb5f24fb7e6dbe79726a2e852f4916c14991b2676",
+   "size": 132872
+  },
+  "v3_addons/results/wp8/cache/r1_f4_development.started": {
+   "sha256": "a9bf576f557d6eb39338a2501c1efaf92fff33af842239ecbef515a02652d170",
+   "size": 64
+  },
+  "v3_addons/results/wp8/cache/r1_f4_inner0.json": {
+   "sha256": "42ed7cd31629ddbef269e696b568a7ce4db24c29a1833eb129c3a89f6738d85f",
+   "size": 39230
+  },
+  "v3_addons/results/wp8/cache/r1_f4_inner0.npz": {
+   "sha256": "94dd5c9dee7f517c0321c1b8dc5ea3606db57b2da57d451b991b08575857ecf0",
+   "size": 176242
+  },
+  "v3_addons/results/wp8/cache/r1_f4_inner0.started": {
+   "sha256": "fda5babb6e1eaf1455da0b079e5f6e4178e06374247f5afccd041564d1681bd3",
+   "size": 64
+  },
+  "v3_addons/results/wp8/cache/r1_f4_inner1.json": {
+   "sha256": "2f4e535740c3230eb8f7f7698ce4d195633894fe6fdb1a715afa27ba1ba4f7d5",
+   "size": 39196
+  },
+  "v3_addons/results/wp8/cache/r1_f4_inner1.npz": {
+   "sha256": "cdb50d146c977e8b75b73b6f660ca26f9a87121cfb10607ddfaf92a0c7e79a12",
+   "size": 176159
+  },
+  "v3_addons/results/wp8/cache/r1_f4_inner1.started": {
+   "sha256": "9519eec392956c853578b51f7a336644498858e888adc8114244f158ef6c709e",
+   "size": 64
+  },
+  "v3_addons/results/wp8/cache/r1_f4_inner2.json": {
+   "sha256": "1cd37bcf19b7b02b7ee6a69e0dc915ace2bf7b439311ecde115a6b8d2d62b459",
+   "size": 39228
+  },
+  "v3_addons/results/wp8/cache/r1_f4_inner2.npz": {
+   "sha256": "b80c504b2f63e4239bf082f70fb7a98da5749e36b37c878e5e0b50c61a889c86",
+   "size": 176147
+  },
+  "v3_addons/results/wp8/cache/r1_f4_inner2.started": {
+   "sha256": "b6f4d21136e150acddaeeba17ee05086d19f5103ce0769aa5ccd3717324de015",
+   "size": 64
+  },
+  "v3_addons/results/wp8/cache/r1_f4_outer.json": {
+   "sha256": "da93a37df1d6392659fa23dd66c1663648cb742fcc32ee05bfe9102ce521dae0",
+   "size": 39459
+  },
+  "v3_addons/results/wp8/cache/r1_f4_outer.npz": {
+   "sha256": "0d3f990d445f5600bedc1778d06294b999ba93ffa34c81d8c07056851e7d9afa",
+   "size": 165262
+  },
+  "v3_addons/results/wp8/cache/r1_f4_outer.started": {
+   "sha256": "d9a5caf5e2f4faed0bab2b33ebe92828b0c0fcf8deb67c1c043d4927bdd41006",
+   "size": 64
+  },
+  "v3_addons/results/wp8/cache/r1_f4_sigmoid.json": {
+   "sha256": "18a42e26ffdb15990934e4b2a829ba780dd8ff1aba8cd3cbc2c38c8e47206f77",
+   "size": 39894
+  },
+  "v3_addons/results/wp8/cache/r1_f4_sigmoid.npz": {
+   "sha256": "33631d3c2411fc2c243f0e2000de203ebf609f323958a3f4d3b96fe969672ea2",
+   "size": 460132
+  },
+  "v3_addons/results/wp8/cache/r1_f4_sigmoid.started": {
+   "sha256": "3646ebb6d2e1d559fb1653393f4d3eb2c3f5c36c8c5a8968b6b0b104bb2a6ae2",
+   "size": 64
+  },
+  "v3_addons/results/wp8/models/r0_f0_outer.txt": {
+   "sha256": "cb85283626059d57d4e7edb00358b0e6c537cd081d989eebe206c5f9bb6a4e5d",
+   "size": 1375142
+  },
+  "v3_addons/results/wp8/models/r0_f1_outer.txt": {
+   "sha256": "43ee748d65ac0d841266535dfa4d50b613e65aa429d2939d25a2079ad81a0527",
+   "size": 1375162
+  },
+  "v3_addons/results/wp8/models/r0_f2_outer.txt": {
+   "sha256": "cefc772587ab8ecb30be598e0c82ee8a5df6b15097e4c8097662a94d32e4021f",
+   "size": 1374249
+  },
+  "v3_addons/results/wp8/models/r0_f3_outer.txt": {
+   "sha256": "4af1264ca56bdd7f34c02c2ad45d73b16f37a147dce5b44fa916728f5392750a",
+   "size": 1375460
+  },
+  "v3_addons/results/wp8/models/r0_f4_outer.txt": {
+   "sha256": "0bc1b33b65d89087b3e5fab73b939da9a027b94fa23bccdfe69ace77cfea3814",
+   "size": 1374549
+  },
+  "v3_addons/results/wp8/models/r1_f0_outer.txt": {
+   "sha256": "f69c6f816356ac6d144fe416593abd1e3def161b3dfb9d89efbc19ab06fa0da2",
+   "size": 1375144
+  },
+  "v3_addons/results/wp8/models/r1_f1_outer.txt": {
+   "sha256": "dc6af8c3371cf9ec64fcb482aee1b35c30088a07bf6d81705aa86351482a4884",
+   "size": 1374710
+  },
+  "v3_addons/results/wp8/models/r1_f2_outer.txt": {
+   "sha256": "1e1f0ddd54a4e4a8bcb1079eee6a107aad93d1ba1c225bf4c8c1bf4beaa1308d",
+   "size": 1375099
+  },
+  "v3_addons/results/wp8/models/r1_f3_outer.txt": {
+   "sha256": "0b71d6e683ea30e9b0ba424105d488d4dbfe5e00ada19c86d7a3bb6c82a6df8c",
+   "size": 1374546
+  },
+  "v3_addons/results/wp8/models/r1_f4_outer.txt": {
+   "sha256": "0753b605fe068f27cdbf9cd999d4bab1525a7c4817ef23dad0ca12b70a51ff63",
+   "size": 1375296
+  },
+  "v3_addons/results/wp8/outside_snapshot.json": {
+   "sha256": "6feb7cb3e429879187b62319cfc869f4f5b9a7d94d2e620df7cc61bcc8fcd242",
+   "size": 898200
+  },
+  "v3_addons/results/wp8/prereg_receipt.json": {
+   "sha256": "c5eda54c108aa5956a83b92a264c89839c829bdc00f7d474fb1f4b003d07c8b4",
+   "size": 75818
+  },
+  "v3_addons/results/wp8/r0_f0.json": {
+   "sha256": "1ba140d498443a6a38bea72e18581386de1a96d8095d7f141485b5ed0da68b27",
+   "size": 37104
+  },
+  "v3_addons/results/wp8/r0_f0.npz": {
+   "sha256": "778f5eb09f775c52557af3f5fcc582c1185567d073892f31c1329a1bf8193d99",
+   "size": 1026361
+  },
+  "v3_addons/results/wp8/r0_f1.json": {
+   "sha256": "ec688d929d5825730b6703256fe881dc8a1faff585dc859f1b8ba527cbaa84a5",
+   "size": 37101
+  },
+  "v3_addons/results/wp8/r0_f1.npz": {
+   "sha256": "63c354864e2352b7fd50f3ce1a18abd5dbdba571de79691db679a52841a5e5c6",
+   "size": 1027047
+  },
+  "v3_addons/results/wp8/r0_f2.json": {
+   "sha256": "57d8d4ab14557d6cf1e0a4f9f5b10dff6eb6a3871341247d11151e37a2a46173",
+   "size": 37091
+  },
+  "v3_addons/results/wp8/r0_f2.npz": {
+   "sha256": "c31c3dfe1396b13950c636001fae47552dd74eaabd6848b690bd369d529b9dd5",
+   "size": 1026496
+  },
+  "v3_addons/results/wp8/r0_f3.json": {
+   "sha256": "a492e0d5e6bbcad6aaaa6ffdc52c0c871a9e0967df24d4f5753d57d7ac3d3220",
+   "size": 37095
+  },
+  "v3_addons/results/wp8/r0_f3.npz": {
+   "sha256": "c6eceb647b53fb1560ad7c97c6d10d676a3c82011addf3b5c3541c8ac0bd1415",
+   "size": 1026692
+  },
+  "v3_addons/results/wp8/r0_f4.json": {
+   "sha256": "ef0d828758d7e8b386c3f79ee0c91d109a5717967582684cddcd1f4762e3edfe",
+   "size": 37104
+  },
+  "v3_addons/results/wp8/r0_f4.npz": {
+   "sha256": "9f125ef7dd1d53036f8228267655b62e8bf8cdb9919a94462d335054ae5ae4b3",
+   "size": 1026005
+  },
+  "v3_addons/results/wp8/r1_f0.json": {
+   "sha256": "be4572a0da70775fece2408fc9aaca61671f77901407373e4b28159c2713e4be",
+   "size": 37105
+  },
+  "v3_addons/results/wp8/r1_f0.npz": {
+   "sha256": "d31bba61c9dd14408d24ef8c532314a0ba19b391f952db310d9bdb45d20b8cd3",
+   "size": 1026815
+  },
+  "v3_addons/results/wp8/r1_f1.json": {
+   "sha256": "0b5d80d506cd7ed52a6d0de6fed2b8839c113044cc43cec9d33184e59bac6cdd",
+   "size": 37107
+  },
+  "v3_addons/results/wp8/r1_f1.npz": {
+   "sha256": "4cd9752883995d4ed8a4ed2e5074614b601f7941226da4db047e1f4137879731",
+   "size": 1027103
+  },
+  "v3_addons/results/wp8/r1_f2.json": {
+   "sha256": "fdd6ea752dde1ec9b2ae5f50ce8f361e54865591219ec0139baa0a89e1ff2e8a",
+   "size": 37108
+  },
+  "v3_addons/results/wp8/r1_f2.npz": {
+   "sha256": "245dfa866796f6d5b10f76bdd712ebcf25506b5f93c5a7d63bd51b8b1a6d5923",
+   "size": 1027577
+  },
+  "v3_addons/results/wp8/r1_f3.json": {
+   "sha256": "222cd30e4854a164f7301652e4fd20da569d6b43c36faa100268a0bf38b69d19",
+   "size": 37091
+  },
+  "v3_addons/results/wp8/r1_f3.npz": {
+   "sha256": "94f2f521691c7ef7f62b60546b33baacb7ba1a5dce87fd206a6089a96dbb5b16",
+   "size": 1026428
+  },
+  "v3_addons/results/wp8/r1_f4.json": {
+   "sha256": "d6a27a6995e76696c2dad5393a01f314d62f565004e784246a880a8db8452a1b",
+   "size": 37112
+  },
+  "v3_addons/results/wp8/r1_f4.npz": {
+   "sha256": "91217fb719e7edfcbee022aae73d100a4e6ec195df42f4a0d476086064be4efe",
+   "size": 1026037
+  },
+  "v3_addons/results/wp8_files_created.csv": {
+   "sha256": "56bb18fb50c6621dd48448d461ea93122e84c862c12aeae4dca052740af9753e",
+   "size": 36199
+  },
+  "v3_addons/results/wp8_model.json": {
+   "sha256": "279e69cf17884813f75f2893feff36f236b3168ea197aab0bfe1b7db6002291f",
+   "size": 159693
+  },
+  "v3_addons/results/wp8_tests.json": {
+   "sha256": "b96e4067cc6d02f53ce2211a15a905eba84f314d4e22533e272da930cb7fb4c2",
+   "size": 8447
+  },
+  "v3_addons/results/wp8_verification.json": {
+   "sha256": "eeb8c9f6d18c5f1ca3cb89755e36fc1c9ab76696e28e2091c4b9403d5e043767",
+   "size": 8527
+  },
+  "v3_addons/results/write_boundary_before.json": {
+   "sha256": "e7616e3f66541f3fa5e6f6a625702c29034c5b9e6d1b7d452d1bf5e3e3f94bc1",
+   "size": 866828
+  },
+  "v3_addons/src/__validation_only__.png": {
+   "sha256": "3b52c6a80201aa7893e9070db9e84bd68a020aa155ea71975e6cdfb693179613",
+   "size": 24169
+  },
+  "v3_addons/src/common.py": {
+   "sha256": "5522fe7e7c49f945db5bd12bff6b850652ee12b002014a64f44217b01d13db0d",
+   "size": 7086
+  },
+  "v3_addons/src/png_drafts.py": {
+   "sha256": "4c9a2135d01750409d1d3be20d3cef404385dcdddf5306d0dcde5b746c0069c8",
+   "size": 22184
+  },
+  "v3_addons/src/reporting.py": {
+   "sha256": "189d0c2ebcb7616746332e56d568e180bd364346f0422ae1c20712dbdc4f4479",
+   "size": 941
+  },
+  "v3_addons/src/stop_report.py": {
+   "sha256": "1694d6ec92069d730b0e37d277f7ed2744e4f4b89182d14cd84bc0c50641f8ea",
+   "size": 6409
+  },
+  "v3_addons/src/wp0_preflight.py": {
+   "sha256": "93207f24f9f190a04709c3581fbb846990804d888b976d03145de583806f44e1",
+   "size": 9999
+  },
+  "v3_addons/src/wp1_power.py": {
+   "sha256": "cc9ac2c17be3c32d0c8cc1044467b9c3b0ed74dd0c7feb10e27c74ae8b0043f5",
+   "size": 18237
+  },
+  "v3_addons/src/wp2_decisions.py": {
+   "sha256": "a5a8eafe627124a74ef13b6398bb436901cb57f27852caecffdf771f0e68c221",
+   "size": 12560
+  },
+  "v3_addons/src/wp3_roi.py": {
+   "sha256": "ce71605f22204fa3326159ee4194064d298a12c6b8ad5401a0eb9dd39807bd48",
+   "size": 36500
+  },
+  "v3_addons/src/wp4_protocol.py": {
+   "sha256": "84d96c8bec305e9d52a1d5f269f4738fc0a7a5a3c5d743435f3890b6fc145aca",
+   "size": 6160
+  },
+  "v3_addons/src/wp5_labelshift.py": {
+   "sha256": "c5d7df3f0e47795effc220aa35646e4d6f0d9f4ce018545cc273eca5acbc7f0a",
+   "size": 69672
+  },
+  "v3_addons/src/wp6_citations.py": {
+   "sha256": "3f82e1869df450ff962e43aeb9d678855f9272e14b40040129ffb2082b9d96a5",
+   "size": 9977
+  },
+  "v3_addons/src/wp7_handback.py": {
+   "sha256": "9b476cf3f27b3baba53742b443d2a5429f8192b8124f5384d4e41805c79f35d9",
+   "size": 24372
+  },
+  "v3_addons/src/wp8_model.py": {
+   "sha256": "e678102b5e9448c1b0f4182391036b91e898389e958fc8472c7578897eb2696e",
+   "size": 86731
+  },
+  "v3_addons/src/wp8_release_audit.py": {
+   "sha256": "446c0aae67a9a5190278b34dd97d280b2221237f8a1da9b11c84e5f76a0744a3",
+   "size": 5825
+  },
+  "v3_addons/tests/final_seed_determinism_fixture.json": {
+   "sha256": "e02cd44401c7bf05bc1ad1a1df8a844f257a317dfdc89575a9b7eb3a2bbb3d99",
+   "size": 2836
+  },
+  "v3_addons/tests/seed_determinism_fixture.json": {
+   "sha256": "e2272cb8251c6e1f668bcb06dd57fe0a56510cf0562aee6beaabaaf76f1cc5ba",
+   "size": 2654
+  },
+  "v3_addons/tests/test_decisions.py": {
+   "sha256": "105cd3f52bdbd487ec0f6e39212b13ad4a1749593283d6b6284de51eea96aea5",
+   "size": 2523
+  },
+  "v3_addons/tests/test_final_validation.py": {
+   "sha256": "c2692ac51ef7a922f4e44e702f113fc1739c87fc93b873d20038276573926055",
+   "size": 13843
+  },
+  "v3_addons/tests/test_wp1.py": {
+   "sha256": "8210f294f3537507931c948bb2593656bef4cc6484325c8e98b830f537c13ea3",
+   "size": 3737
+  },
+  "v3_addons/tests/test_wp5.py": {
+   "sha256": "f7d87b69c779e0655fac9c2cdd9185e57e8421153acfdc1a56db0d98535b6851",
+   "size": 7490
+  },
+  "v3_addons/tests/test_wp8.py": {
+   "sha256": "b79db9352356fe8fd36f2f13407259f3877951ff03b322d48675dd979fce54ef",
+   "size": 31828
+  }
+ },
+ "old_manifest_file_count": 118,
+ "old_manifest_source": "v3_addons/results/wp7_final_verification.json",
+ "scope": "every file under v3_addons/ (excluding __pycache__), including WP8 outputs and the two *.pre_v4 backups",
+ "total_bytes": 111703080,
+ "wp8_file_count": 224,
+ "wp8_files": [
+  "v3_addons/prereg_wp8.md",
+  "v3_addons/reports/WP8_report.md",
+  "v3_addons/results/wp8/bootstrap.json",
+  "v3_addons/results/wp8/bootstrap.npz",
+  "v3_addons/results/wp8/cache/_run.lock",
+  "v3_addons/results/wp8/cache/r0_f0_development.json",
+  "v3_addons/results/wp8/cache/r0_f0_development.npz",
+  "v3_addons/results/wp8/cache/r0_f0_development.started",
+  "v3_addons/results/wp8/cache/r0_f0_inner0.json",
+  "v3_addons/results/wp8/cache/r0_f0_inner0.npz",
+  "v3_addons/results/wp8/cache/r0_f0_inner0.started",
+  "v3_addons/results/wp8/cache/r0_f0_inner1.json",
+  "v3_addons/results/wp8/cache/r0_f0_inner1.npz",
+  "v3_addons/results/wp8/cache/r0_f0_inner1.started",
+  "v3_addons/results/wp8/cache/r0_f0_inner2.json",
+  "v3_addons/results/wp8/cache/r0_f0_inner2.npz",
+  "v3_addons/results/wp8/cache/r0_f0_inner2.started",
+  "v3_addons/results/wp8/cache/r0_f0_outer.json",
+  "v3_addons/results/wp8/cache/r0_f0_outer.npz",
+  "v3_addons/results/wp8/cache/r0_f0_outer.started",
+  "v3_addons/results/wp8/cache/r0_f0_sigmoid.json",
+  "v3_addons/results/wp8/cache/r0_f0_sigmoid.npz",
+  "v3_addons/results/wp8/cache/r0_f0_sigmoid.started",
+  "v3_addons/results/wp8/cache/r0_f1_development.json",
+  "v3_addons/results/wp8/cache/r0_f1_development.npz",
+  "v3_addons/results/wp8/cache/r0_f1_development.started",
+  "v3_addons/results/wp8/cache/r0_f1_inner0.json",
+  "v3_addons/results/wp8/cache/r0_f1_inner0.npz",
+  "v3_addons/results/wp8/cache/r0_f1_inner0.started",
+  "v3_addons/results/wp8/cache/r0_f1_inner1.json",
+  "v3_addons/results/wp8/cache/r0_f1_inner1.npz",
+  "v3_addons/results/wp8/cache/r0_f1_inner1.started",
+  "v3_addons/results/wp8/cache/r0_f1_inner2.json",
+  "v3_addons/results/wp8/cache/r0_f1_inner2.npz",
+  "v3_addons/results/wp8/cache/r0_f1_inner2.started",
+  "v3_addons/results/wp8/cache/r0_f1_outer.json",
+  "v3_addons/results/wp8/cache/r0_f1_outer.npz",
+  "v3_addons/results/wp8/cache/r0_f1_outer.started",
+  "v3_addons/results/wp8/cache/r0_f1_sigmoid.json",
+  "v3_addons/results/wp8/cache/r0_f1_sigmoid.npz",
+  "v3_addons/results/wp8/cache/r0_f1_sigmoid.started",
+  "v3_addons/results/wp8/cache/r0_f2_development.json",
+  "v3_addons/results/wp8/cache/r0_f2_development.npz",
+  "v3_addons/results/wp8/cache/r0_f2_development.started",
+  "v3_addons/results/wp8/cache/r0_f2_inner0.json",
+  "v3_addons/results/wp8/cache/r0_f2_inner0.npz",
+  "v3_addons/results/wp8/cache/r0_f2_inner0.started",
+  "v3_addons/results/wp8/cache/r0_f2_inner1.json",
+  "v3_addons/results/wp8/cache/r0_f2_inner1.npz",
+  "v3_addons/results/wp8/cache/r0_f2_inner1.started",
+  "v3_addons/results/wp8/cache/r0_f2_inner2.json",
+  "v3_addons/results/wp8/cache/r0_f2_inner2.npz",
+  "v3_addons/results/wp8/cache/r0_f2_inner2.started",
+  "v3_addons/results/wp8/cache/r0_f2_outer.json",
+  "v3_addons/results/wp8/cache/r0_f2_outer.npz",
+  "v3_addons/results/wp8/cache/r0_f2_outer.started",
+  "v3_addons/results/wp8/cache/r0_f2_sigmoid.json",
+  "v3_addons/results/wp8/cache/r0_f2_sigmoid.npz",
+  "v3_addons/results/wp8/cache/r0_f2_sigmoid.started",
+  "v3_addons/results/wp8/cache/r0_f3_development.json",
+  "v3_addons/results/wp8/cache/r0_f3_development.npz",
+  "v3_addons/results/wp8/cache/r0_f3_development.started",
+  "v3_addons/results/wp8/cache/r0_f3_inner0.json",
+  "v3_addons/results/wp8/cache/r0_f3_inner0.npz",
+  "v3_addons/results/wp8/cache/r0_f3_inner0.started",
+  "v3_addons/results/wp8/cache/r0_f3_inner1.json",
+  "v3_addons/results/wp8/cache/r0_f3_inner1.npz",
+  "v3_addons/results/wp8/cache/r0_f3_inner1.started",
+  "v3_addons/results/wp8/cache/r0_f3_inner2.json",
+  "v3_addons/results/wp8/cache/r0_f3_inner2.npz",
+  "v3_addons/results/wp8/cache/r0_f3_inner2.started",
+  "v3_addons/results/wp8/cache/r0_f3_outer.json",
+  "v3_addons/results/wp8/cache/r0_f3_outer.npz",
+  "v3_addons/results/wp8/cache/r0_f3_outer.started",
+  "v3_addons/results/wp8/cache/r0_f3_sigmoid.json",
+  "v3_addons/results/wp8/cache/r0_f3_sigmoid.npz",
+  "v3_addons/results/wp8/cache/r0_f3_sigmoid.started",
+  "v3_addons/results/wp8/cache/r0_f4_development.json",
+  "v3_addons/results/wp8/cache/r0_f4_development.npz",
+  "v3_addons/results/wp8/cache/r0_f4_development.started",
+  "v3_addons/results/wp8/cache/r0_f4_inner0.json",
+  "v3_addons/results/wp8/cache/r0_f4_inner0.npz",
+  "v3_addons/results/wp8/cache/r0_f4_inner0.started",
+  "v3_addons/results/wp8/cache/r0_f4_inner1.json",
+  "v3_addons/results/wp8/cache/r0_f4_inner1.npz",
+  "v3_addons/results/wp8/cache/r0_f4_inner1.started",
+  "v3_addons/results/wp8/cache/r0_f4_inner2.json",
+  "v3_addons/results/wp8/cache/r0_f4_inner2.npz",
+  "v3_addons/results/wp8/cache/r0_f4_inner2.started",
+  "v3_addons/results/wp8/cache/r0_f4_outer.json",
+  "v3_addons/results/wp8/cache/r0_f4_outer.npz",
+  "v3_addons/results/wp8/cache/r0_f4_outer.started",
+  "v3_addons/results/wp8/cache/r0_f4_sigmoid.json",
+  "v3_addons/results/wp8/cache/r0_f4_sigmoid.npz",
+  "v3_addons/results/wp8/cache/r0_f4_sigmoid.started",
+  "v3_addons/results/wp8/cache/r1_f0_development.json",
+  "v3_addons/results/wp8/cache/r1_f0_development.npz",
+  "v3_addons/results/wp8/cache/r1_f0_development.started",
+  "v3_addons/results/wp8/cache/r1_f0_inner0.json",
+  "v3_addons/results/wp8/cache/r1_f0_inner0.npz",
+  "v3_addons/results/wp8/cache/r1_f0_inner0.started",
+  "v3_addons/results/wp8/cache/r1_f0_inner1.json",
+  "v3_addons/results/wp8/cache/r1_f0_inner1.npz",
+  "v3_addons/results/wp8/cache/r1_f0_inner1.started",
+  "v3_addons/results/wp8/cache/r1_f0_inner2.json",
+  "v3_addons/results/wp8/cache/r1_f0_inner2.npz",
+  "v3_addons/results/wp8/cache/r1_f0_inner2.started",
+  "v3_addons/results/wp8/cache/r1_f0_outer.json",
+  "v3_addons/results/wp8/cache/r1_f0_outer.npz",
+  "v3_addons/results/wp8/cache/r1_f0_outer.started",
+  "v3_addons/results/wp8/cache/r1_f0_sigmoid.json",
+  "v3_addons/results/wp8/cache/r1_f0_sigmoid.npz",
+  "v3_addons/results/wp8/cache/r1_f0_sigmoid.started",
+  "v3_addons/results/wp8/cache/r1_f1_development.json",
+  "v3_addons/results/wp8/cache/r1_f1_development.npz",
+  "v3_addons/results/wp8/cache/r1_f1_development.started",
+  "v3_addons/results/wp8/cache/r1_f1_inner0.json",
+  "v3_addons/results/wp8/cache/r1_f1_inner0.npz",
+  "v3_addons/results/wp8/cache/r1_f1_inner0.started",
+  "v3_addons/results/wp8/cache/r1_f1_inner1.json",
+  "v3_addons/results/wp8/cache/r1_f1_inner1.npz",
+  "v3_addons/results/wp8/cache/r1_f1_inner1.started",
+  "v3_addons/results/wp8/cache/r1_f1_inner2.json",
+  "v3_addons/results/wp8/cache/r1_f1_inner2.npz",
+  "v3_addons/results/wp8/cache/r1_f1_inner2.started",
+  "v3_addons/results/wp8/cache/r1_f1_outer.json",
+  "v3_addons/results/wp8/cache/r1_f1_outer.npz",
+  "v3_addons/results/wp8/cache/r1_f1_outer.started",
+  "v3_addons/results/wp8/cache/r1_f1_sigmoid.json",
+  "v3_addons/results/wp8/cache/r1_f1_sigmoid.npz",
+  "v3_addons/results/wp8/cache/r1_f1_sigmoid.started",
+  "v3_addons/results/wp8/cache/r1_f2_development.json",
+  "v3_addons/results/wp8/cache/r1_f2_development.npz",
+  "v3_addons/results/wp8/cache/r1_f2_development.started",
+  "v3_addons/results/wp8/cache/r1_f2_inner0.json",
+  "v3_addons/results/wp8/cache/r1_f2_inner0.npz",
+  "v3_addons/results/wp8/cache/r1_f2_inner0.started",
+  "v3_addons/results/wp8/cache/r1_f2_inner1.json",
+  "v3_addons/results/wp8/cache/r1_f2_inner1.npz",
+  "v3_addons/results/wp8/cache/r1_f2_inner1.started",
+  "v3_addons/results/wp8/cache/r1_f2_inner2.json",
+  "v3_addons/results/wp8/cache/r1_f2_inner2.npz",
+  "v3_addons/results/wp8/cache/r1_f2_inner2.started",
+  "v3_addons/results/wp8/cache/r1_f2_outer.json",
+  "v3_addons/results/wp8/cache/r1_f2_outer.npz",
+  "v3_addons/results/wp8/cache/r1_f2_outer.started",
+  "v3_addons/results/wp8/cache/r1_f2_sigmoid.json",
+  "v3_addons/results/wp8/cache/r1_f2_sigmoid.npz",
+  "v3_addons/results/wp8/cache/r1_f2_sigmoid.started",
+  "v3_addons/results/wp8/cache/r1_f3_development.json",
+  "v3_addons/results/wp8/cache/r1_f3_development.npz",
+  "v3_addons/results/wp8/cache/r1_f3_development.started",
+  "v3_addons/results/wp8/cache/r1_f3_inner0.json",
+  "v3_addons/results/wp8/cache/r1_f3_inner0.npz",
+  "v3_addons/results/wp8/cache/r1_f3_inner0.started",
+  "v3_addons/results/wp8/cache/r1_f3_inner1.json",
+  "v3_addons/results/wp8/cache/r1_f3_inner1.npz",
+  "v3_addons/results/wp8/cache/r1_f3_inner1.started",
+  "v3_addons/results/wp8/cache/r1_f3_inner2.json",
+  "v3_addons/results/wp8/cache/r1_f3_inner2.npz",
+  "v3_addons/results/wp8/cache/r1_f3_inner2.started",
+  "v3_addons/results/wp8/cache/r1_f3_outer.json",
+  "v3_addons/results/wp8/cache/r1_f3_outer.npz",
+  "v3_addons/results/wp8/cache/r1_f3_outer.started",
+  "v3_addons/results/wp8/cache/r1_f3_sigmoid.json",
+  "v3_addons/results/wp8/cache/r1_f3_sigmoid.npz",
+  "v3_addons/results/wp8/cache/r1_f3_sigmoid.started",
+  "v3_addons/results/wp8/cache/r1_f4_development.json",
+  "v3_addons/results/wp8/cache/r1_f4_development.npz",
+  "v3_addons/results/wp8/cache/r1_f4_development.started",
+  "v3_addons/results/wp8/cache/r1_f4_inner0.json",
+  "v3_addons/results/wp8/cache/r1_f4_inner0.npz",
+  "v3_addons/results/wp8/cache/r1_f4_inner0.started",
+  "v3_addons/results/wp8/cache/r1_f4_inner1.json",
+  "v3_addons/results/wp8/cache/r1_f4_inner1.npz",
+  "v3_addons/results/wp8/cache/r1_f4_inner1.started",
+  "v3_addons/results/wp8/cache/r1_f4_inner2.json",
+  "v3_addons/results/wp8/cache/r1_f4_inner2.npz",
+  "v3_addons/results/wp8/cache/r1_f4_inner2.started",
+  "v3_addons/results/wp8/cache/r1_f4_outer.json",
+  "v3_addons/results/wp8/cache/r1_f4_outer.npz",
+  "v3_addons/results/wp8/cache/r1_f4_outer.started",
+  "v3_addons/results/wp8/cache/r1_f4_sigmoid.json",
+  "v3_addons/results/wp8/cache/r1_f4_sigmoid.npz",
+  "v3_addons/results/wp8/cache/r1_f4_sigmoid.started",
+  "v3_addons/results/wp8/models/r0_f0_outer.txt",
+  "v3_addons/results/wp8/models/r0_f1_outer.txt",
+  "v3_addons/results/wp8/models/r0_f2_outer.txt",
+  "v3_addons/results/wp8/models/r0_f3_outer.txt",
+  "v3_addons/results/wp8/models/r0_f4_outer.txt",
+  "v3_addons/results/wp8/models/r1_f0_outer.txt",
+  "v3_addons/results/wp8/models/r1_f1_outer.txt",
+  "v3_addons/results/wp8/models/r1_f2_outer.txt",
+  "v3_addons/results/wp8/models/r1_f3_outer.txt",
+  "v3_addons/results/wp8/models/r1_f4_outer.txt",
+  "v3_addons/results/wp8/outside_snapshot.json",
+  "v3_addons/results/wp8/prereg_receipt.json",
+  "v3_addons/results/wp8/r0_f0.json",
+  "v3_addons/results/wp8/r0_f0.npz",
+  "v3_addons/results/wp8/r0_f1.json",
+  "v3_addons/results/wp8/r0_f1.npz",
+  "v3_addons/results/wp8/r0_f2.json",
+  "v3_addons/results/wp8/r0_f2.npz",
+  "v3_addons/results/wp8/r0_f3.json",
+  "v3_addons/results/wp8/r0_f3.npz",
+  "v3_addons/results/wp8/r0_f4.json",
+  "v3_addons/results/wp8/r0_f4.npz",
+  "v3_addons/results/wp8/r1_f0.json",
+  "v3_addons/results/wp8/r1_f0.npz",
+  "v3_addons/results/wp8/r1_f1.json",
+  "v3_addons/results/wp8/r1_f1.npz",
+  "v3_addons/results/wp8/r1_f2.json",
+  "v3_addons/results/wp8/r1_f2.npz",
+  "v3_addons/results/wp8/r1_f3.json",
+  "v3_addons/results/wp8/r1_f3.npz",
+  "v3_addons/results/wp8/r1_f4.json",
+  "v3_addons/results/wp8/r1_f4.npz",
+  "v3_addons/results/wp8_files_created.csv",
+  "v3_addons/results/wp8_model.json",
+  "v3_addons/results/wp8_tests.json",
+  "v3_addons/results/wp8_verification.json",
+  "v3_addons/src/wp8_model.py",
+  "v3_addons/src/wp8_release_audit.py",
+  "v3_addons/tests/test_wp8.py"
+ ]
+}
