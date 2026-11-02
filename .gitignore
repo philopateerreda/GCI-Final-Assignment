@@ -14,8 +14,8 @@ Thumbs.db
 
 # Supplied case data and course materials (not redistributed)
 /telecom/*.csv
-/*.docx
-/tutorial*.ipynb
+/docs/reference/*.docx
+/docs/reference/tutorial*.ipynb
 
 # Third-party literature (copyright)
 /versions/v2_work/literature_*.pdf
