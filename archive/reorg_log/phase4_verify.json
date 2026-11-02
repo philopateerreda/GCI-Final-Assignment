@@ -1,0 +1,75 @@
+{
+  "generated_utc": "2026-11-02T15:22:10.854475+00:00",
+  "head": "506a102caea387e0a94d0924493173af275cc3de",
+  "counts": {
+    "PASS": 8,
+    "FAIL": 0,
+    "PENDING": 2
+  },
+  "checks": [
+    {
+      "id": "V1",
+      "status": "PENDING",
+      "detail": "root=['.git', '.gitattributes', '.gitignore', 'archive', 'data', 'docs', 'evidence', 'finalA_reorg_log', 'pipeline', 'submission', 'versions']; missing=['README.md']; extra=[]; finalA_reorg_log exempt until R8",
+      "evidence": "directory listing"
+    },
+    {
+      "id": "V2",
+      "status": "PASS",
+      "detail": "plan_rows=4971 baseline_rows=4971 inventory_rows=4971 unchanged=1 moved=4970 edited_on_purpose=1 errors=0; baseline_bytes=575499423 plan_bytes=575499423 reconciled_bytes=575499828",
+      "errors": [],
+      "evidence": "move_plan.csv + moves.csv + inventory.csv + hash_manifest_before.csv"
+    },
+    {
+      "id": "V3",
+      "status": "PASS",
+      "detail": "frozen_rows=75 byte_identical=75 errors=0 F1/F2/F3",
+      "errors": [],
+      "evidence": "frozen_before.csv"
+    },
+    {
+      "id": "V4",
+      "status": "PASS",
+      "detail": "status_lines=1 (log-only) probes=7 not_ignored=[] tracked_but_ignored_before=8 after=8 new=[] lost=[] cv_manifest_ignored=6",
+      "errors": [],
+      "evidence": "git status --porcelain --ignored; git check-ignore; git ls-files -ci; pre-reorg comparison"
+    },
+    {
+      "id": "V5",
+      "status": "PENDING",
+      "detail": "renames_R100=789 additions=0 modifications=['.gitignore'] deletions=0 other=0; bad_mods=[] bad_adds=[]",
+      "evidence": "git diff -M --name-status pre-reorg..HEAD"
+    },
+    {
+      "id": "V6",
+      "status": "PASS",
+      "detail": "py_parsed=113 parse_errors=0 notebooks=15 code_cells=174 notebook_errors=0 nothing imported or executed",
+      "errors": [],
+      "evidence": "ast.parse in memory; json.loads on every .ipynb"
+    },
+    {
+      "id": "V7",
+      "status": "PASS",
+      "detail": "tracked=791 new_over_25MB=[] pre_existing_over_25MB=[] new_frozen_or_dataset_duplicates=[] pre_existing_duplicates=[] (F1 originals excluded)",
+      "evidence": "git ls-files + SHA256; pre-reorg tracked set"
+    },
+    {
+      "id": "V8",
+      "status": "PASS",
+      "detail": "G1-approved code edits: 0 (all scripts Tier C, byte-identical); py_changed=0 ps1_changed=0 ipynb_changed=0 csv_changed=0 json_changed=0 (content changes only; renames excluded)",
+      "evidence": "git diff -M --diff-filter=AM pre-reorg..HEAD by extension"
+    },
+    {
+      "id": "V9",
+      "status": "PASS",
+      "detail": "fsck_rc=0 fsck_errors=0 undo_whatif_rc=0 undo_tail='WOULD_MOVE archive/residue/__pycache__/restore_v1.cpython-311.pyc -> __pycache__/restore_v1.cpython-311.pyc\\nWOULD_MOVE archive/superseded/README_v2.md -> README.md\\nUNDO moves=4969 done=4969 WhatIf=True Batch='",
+      "evidence": "git fsck --no-dangling; undo_moves.ps1 -WhatIf"
+    },
+    {
+      "id": "V10",
+      "status": "PASS",
+      "detail": "old_paths_present=[] empty_dirs=[]",
+      "evidence": "directory listing after prune_empty_dirs.py"
+    }
+  ]
+}

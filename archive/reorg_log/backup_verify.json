@@ -1,0 +1,159 @@
+{
+  "source": "D:\\progs\\IDE\\MainProjs\\AI\\GCI2026\\finalA",
+  "backup": "D:\\progs\\IDE\\MainProjs\\AI\\GCI2026\\finalA_BACKUP_20261102",
+  "source_files": 6299,
+  "backup_files": 6299,
+  "source_bytes": 593544196,
+  "backup_bytes": 593544196,
+  "missing_in_backup": [],
+  "extra_in_backup": [],
+  "size_mismatch": [],
+  "sample": [
+    ".git/objects/45/4e929b2ec9a3c3eb683511e9360a5c0d123b5c",
+    ".git/objects/6a/7a7860908229a9cd69e2298f66a410c15bd7bf",
+    ".git/objects/be/318d71ace3f5b5061b334953e33c3ce838ff8d",
+    ".git/objects/fb/f76dfe8d892eadad4700a09b97e08eb5b0aa50",
+    "ENG_Company _A_ Dataset Overview.docx",
+    "README.docx",
+    "philopateer.ipynb",
+    "philopateer.pdf",
+    "philopateer.pptx",
+    "telecom/Client.csv",
+    "v1_frozen/sha256_manifest.json",
+    "v2_work/a_value_proxy_sensitivity_test.csv",
+    "v2_work/common.py",
+    "v2_work/d_results/cache/0d546693af18df3997685934d2c322d1ac1341b7df1bbaaf4c5e02f7c21d4cbb.npz",
+    "v2_work/d_results/folds/diagnostic_ceiling_asl_area_r0_f0_recipe.json",
+    "v2_work/d_results/oof/g1_temporal_r1_f3.npz",
+    "v2_work/d_results/oof/nested_lgbm_r1_f0.npz",
+    "v2_work/d_smoke_io/cache/141791ec94f8252aedafdac9747483d798efed22a8b7b20311cab88236a5f16e.npz",
+    "v2_work/d_smoke_io/cache/65d2c912a36244a7a226bd83fd605f070da7adf1b99262057f8449be54431419.npz",
+    "v2_work/d_smoke_io/cache/b2fc27cefd5a1225c8a9a9285ab371c6cd5ddb45152c4f0eeea8c1a2000ac8f5.npz"
+  ],
+  "hashes_equal": 20,
+  "hashes_bad": [],
+  "mtimes": [
+    {
+      "path": ".git/objects/45/4e929b2ec9a3c3eb683511e9360a5c0d123b5c",
+      "source_mtime_ns": 1793429796438178600,
+      "backup_mtime_ns": 1793429796438178600,
+      "equal": true
+    },
+    {
+      "path": ".git/objects/6a/7a7860908229a9cd69e2298f66a410c15bd7bf",
+      "source_mtime_ns": 1793445334876099700,
+      "backup_mtime_ns": 1793445334876099700,
+      "equal": true
+    },
+    {
+      "path": ".git/objects/be/318d71ace3f5b5061b334953e33c3ce838ff8d",
+      "source_mtime_ns": 1793429830985329400,
+      "backup_mtime_ns": 1793429830985329400,
+      "equal": true
+    },
+    {
+      "path": ".git/objects/fb/f76dfe8d892eadad4700a09b97e08eb5b0aa50",
+      "source_mtime_ns": 1793445338415356400,
+      "backup_mtime_ns": 1793445338415356400,
+      "equal": true
+    },
+    {
+      "path": "ENG_Company _A_ Dataset Overview.docx",
+      "source_mtime_ns": 1793176677209455300,
+      "backup_mtime_ns": 1793176677209455300,
+      "equal": true
+    },
+    {
+      "path": "README.docx",
+      "source_mtime_ns": 1793176675144637500,
+      "backup_mtime_ns": 1793176675144637500,
+      "equal": true
+    },
+    {
+      "path": "philopateer.ipynb",
+      "source_mtime_ns": 1793210087631345900,
+      "backup_mtime_ns": 1793210087631345900,
+      "equal": true
+    },
+    {
+      "path": "philopateer.pdf",
+      "source_mtime_ns": 1793212045787479400,
+      "backup_mtime_ns": 1793212045787479400,
+      "equal": true
+    },
+    {
+      "path": "philopateer.pptx",
+      "source_mtime_ns": 1793211969707646200,
+      "backup_mtime_ns": 1793211969707646200,
+      "equal": true
+    },
+    {
+      "path": "telecom/Client.csv",
+      "source_mtime_ns": 1775931494000000000,
+      "backup_mtime_ns": 1775931494000000000,
+      "equal": true
+    },
+    {
+      "path": "v1_frozen/sha256_manifest.json",
+      "source_mtime_ns": 1793196514945756200,
+      "backup_mtime_ns": 1793196514945756200,
+      "equal": true
+    },
+    {
+      "path": "v2_work/a_value_proxy_sensitivity_test.csv",
+      "source_mtime_ns": 1793209809725223300,
+      "backup_mtime_ns": 1793209809725223300,
+      "equal": true
+    },
+    {
+      "path": "v2_work/common.py",
+      "source_mtime_ns": 1793196689456155600,
+      "backup_mtime_ns": 1793196689456155600,
+      "equal": true
+    },
+    {
+      "path": "v2_work/d_results/cache/0d546693af18df3997685934d2c322d1ac1341b7df1bbaaf4c5e02f7c21d4cbb.npz",
+      "source_mtime_ns": 1793201895090580400,
+      "backup_mtime_ns": 1793201895090580400,
+      "equal": true
+    },
+    {
+      "path": "v2_work/d_results/folds/diagnostic_ceiling_asl_area_r0_f0_recipe.json",
+      "source_mtime_ns": 1793203581627939500,
+      "backup_mtime_ns": 1793203581627939500,
+      "equal": true
+    },
+    {
+      "path": "v2_work/d_results/oof/g1_temporal_r1_f3.npz",
+      "source_mtime_ns": 1793203599983267100,
+      "backup_mtime_ns": 1793203599983267100,
+      "equal": true
+    },
+    {
+      "path": "v2_work/d_results/oof/nested_lgbm_r1_f0.npz",
+      "source_mtime_ns": 1793206754156854700,
+      "backup_mtime_ns": 1793206754156854700,
+      "equal": true
+    },
+    {
+      "path": "v2_work/d_smoke_io/cache/141791ec94f8252aedafdac9747483d798efed22a8b7b20311cab88236a5f16e.npz",
+      "source_mtime_ns": 1793201100395427100,
+      "backup_mtime_ns": 1793201100395427100,
+      "equal": true
+    },
+    {
+      "path": "v2_work/d_smoke_io/cache/65d2c912a36244a7a226bd83fd605f070da7adf1b99262057f8449be54431419.npz",
+      "source_mtime_ns": 1793201168126972100,
+      "backup_mtime_ns": 1793201168126972100,
+      "equal": true
+    },
+    {
+      "path": "v2_work/d_smoke_io/cache/b2fc27cefd5a1225c8a9a9285ab371c6cd5ddb45152c4f0eeea8c1a2000ac8f5.npz",
+      "source_mtime_ns": 1793201113511837700,
+      "backup_mtime_ns": 1793201113511837700,
+      "equal": true
+    }
+  ],
+  "mtimes_equal": 20,
+  "pass": true
+}

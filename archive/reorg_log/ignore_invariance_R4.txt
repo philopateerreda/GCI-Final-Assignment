@@ -1,0 +1,6 @@
+batch=R4
+ignored_before=4180
+ignored_now=4180
+lost=0
+gained=0
+pass=True

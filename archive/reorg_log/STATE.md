@@ -1,0 +1,22 @@
+# STATE — finalA reorganization
+
+- **Phase:** Phase 5 complete; **R1–R7 committed**, **R8 next** (moves this log to `archive/reorg_log/` and commits the docs)
+- **Gate 1:** **approved** (7 decisions confirmed with guardrails; 2026-11-02)
+- **Last verified commit:** `506a102` `chore(reorg): R7_pipeline ...`; `origin/main` still `6b6f39a`; no push
+- **Backup:** `D:\progs\IDE\MainProjs\AI\GCI2026\finalA_BACKUP_20261102`
+- **Backup proof:** 6,299 files / 593,544,196 bytes; 20/20 SHA256 and 20/20 mtimes equal (`backup_verify.json`)
+- **Working-tree manifest:** 4,971 files / 575,499,423 bytes (`hash_manifest_before.csv`; excludes log)
+- **Frozen:** F1 5/5, F2 67/67 plus manifest, F3 2/2; Phase 4 V3 re-checked 75/75 byte-identical
+- **R1:** 2,373 files / 21,315,406 bytes; R100 1/1; D4 4,180 -> 4,180 (`batch_R1_proof.md`)
+- **R2:** 2,519 / 483,407,799; R100 722/722; F2 67/67 + manifest (`batch_R2_proof.md`)
+- **R3:** 60 / 15,473,401; R100 54/54 (`batch_R3_proof.md`)
+- **R4:** 6 / 2,761,409; R100 3/3; F1 5/5 (`batch_R4_proof.md`)
+- **R5:** 2 / 48,120,207; no tracked move; F3 2/2 (`batch_R5_proof.md`)
+- **R6:** 3 / 4,014,399; R100 3/3; F1 5/5 (`batch_R6_proof.md`)
+- **R7:** 6 / 405,172; R100 6/6 (`batch_R7_proof.md`)
+- **R1 recovery note:** the first R1 run was killed by an account-quota stop after the filesystem moves. Every destination was re-verified against the Phase-0 manifest (size, SHA256, mtime), and `moves.csv` was reconstructed with `recovered=yes` for those rows.
+- **Phase 4 at `506a102`:** 8 PASS / 0 FAIL / 2 PENDING (V1 needed README, V5 needed committed docs); full table `phase4_verify.md`
+- **Phase 5 docs written:** root `README.md` (67 lines), 7 folder READMEs (25-37 lines each), `versions/VERSIONS.md`, `PATH_MAP.md`, `path_map.csv`, `archive/unclear_status/README.md`, `archive/duplicates/README.md`
+- **Next action:** R8 `R8_log` — move `finalA_reorg_log/` to `archive/reorg_log/`, stage all docs, commit, re-run V1–V10; then Phase 6.1 pre-push audit and Gate 2.
+- **Gate 2:** not reached; no push before G2 and the exact word `push`.
+- **Rule reminder:** no project code execution; no deletion; no push before G2 + `push`.

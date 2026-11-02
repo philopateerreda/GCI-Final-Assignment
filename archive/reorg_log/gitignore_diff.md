@@ -1,0 +1,107 @@
+# Exact `.gitignore` diff
+
+```diff
+--- .gitignore (before)
++++ .gitignore (proposed)
+@@ -13,45 +13,42 @@
+ ~$*
+ 
+ # Supplied case data and course materials (not redistributed)
+-/telecom/*.csv
+-/*.docx
+-/tutorial*.ipynb
++/data/telecom/*.csv
++/docs/reference/*.docx
++/docs/reference/tutorial*.ipynb
+ 
+ # Third-party literature (copyright)
+-v2_work/literature_*.pdf
+-v2_work/literature_*.png
+-v3_addons/results/sources/
++/versions/v2_work/literature_*.pdf
++/versions/v2_work/literature_*.png
++/versions/v3_addons/results/sources/
+ 
+ # Immutable v1 snapshot (retained locally)
+-/v1_frozen/
++/versions/v1_frozen/
+ 
+ # Notebook backups
+-analysis_outputs/notebook_backups/
++/evidence/notebook_backups/
+ 
+ # Large regenerable intermediates
+-v2_work/d_results/cache/
+-v2_work/d_results/oof/
+-v2_work/d_results/cv_manifest.csv
+-v2_work/d_results/cv_manifest.json
+-v2_work/d_smoke/
+-v2_work/d_smoke_io/
+-v2_work/c_smoke/
+-v3_addons/results/*.npz
+-v3_addons/results/wp5_calibration_oof.csv
+-v3_addons/results/wp5_label_shift_raw.csv
+-v3_addons/results/wp8/*.npz
+-v3_addons/results/wp8/**/*.npz
+-v3_addons/results/wp8/models/
+-v3_addons/results/wp8/cache/
++/versions/v2_work/d_results/cache/
++/versions/v2_work/d_results/oof/
++/versions/v2_work/d_results/cv_manifest.csv
++/versions/v2_work/d_results/cv_manifest.json
++/versions/v3_addons/results/*.npz
++/versions/v3_addons/results/wp5_calibration_oof.csv
++/versions/v3_addons/results/wp5_label_shift_raw.csv
++/versions/v3_addons/results/wp8/*.npz
++/versions/v3_addons/results/wp8/**/*.npz
++/versions/v3_addons/results/wp8/models/
++/versions/v3_addons/results/wp8/cache/
+ 
+ # Large per-row v2 artifacts
+-v2_work/a_selected_test.csv
+-v2_work/a_selected_calibration.csv
+-v2_work/a_bootstrap_test.csv
+-v2_work/a_bootstrap_calibration.csv
+-v2_work/b_assignments_test.csv
+-v2_work/b_assignments_calibration.csv
+-v2_work/c_subgroup_robustness.csv
++/versions/v2_work/a_selected_test.csv
++/versions/v2_work/a_selected_calibration.csv
++/versions/v2_work/a_bootstrap_test.csv
++/versions/v2_work/a_bootstrap_calibration.csv
++/versions/v2_work/b_assignments_test.csv
++/versions/v2_work/b_assignments_calibration.csv
++/versions/v2_work/c_subgroup_robustness.csv
+ 
+ # Release housekeeping (git history is the backup)
+ *.pre_v4
+@@ -59,14 +56,19 @@
+ *.log
+ 
+ # v4 internal readiness material (kept local)
+-v4_addons/CEO_BRIEF*
+-v4_addons/CEO_QA*
+-v4_addons/HUMAN_CHECKLIST.md
+-v4_addons/DISCLOSURE_CHECK.md
+-v4_addons/release_candidate/
++/versions/v4_addons/CEO_BRIEF*
++/versions/v4_addons/CEO_QA*
++/versions/v4_addons/HUMAN_CHECKLIST.md
++/versions/v4_addons/DISCLOSURE_CHECK.md
++/versions/v4_addons/release_candidate/
+ 
+ # v4 snapshots and regenerable intermediates
+-v4_addons/snapshots/
+-v4_addons/m1_work/cache/
+-v4_addons/m1_work/folds/
+-v4_addons/m1_work/oof/
++/versions/v4_addons/snapshots/
++/versions/v4_addons/m1_work/folds/
++/versions/v4_addons/m1_work/oof/
++
++# Reorganization archive (git-ignored by design)
++/archive/residue/
++/archive/duplicates/
++/archive/reorg_log/extracted_text/
++/archive/reorg_log/verify_clone/
+```

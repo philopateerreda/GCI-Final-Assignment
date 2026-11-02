@@ -1,0 +1,16 @@
+path,bytes,code_cells,outputs,image_outputs,max_rows,flagged_outputs,applicant_tokens,executed,errors
+analysis_outputs/notebook_backups/philopateer-20261028-121046.ipynb,63304,9,5,0,74,2,,False,1
+analysis_outputs/notebook_backups/philopateer-20261028-121454.ipynb,1368527,9,42,9,859,14,Customer_ID|hnd_price|income|mou_Mean|ownrent|totmrc_Mean,True,1
+analysis_outputs/notebook_backups/philopateer-20261028-121816.ipynb,1369505,9,42,9,859,14,Customer_ID|hnd_price|income|mou_Mean|ownrent|totmrc_Mean,True,0
+analysis_outputs/notebook_backups/philopateer-20261028-122457.ipynb,1367660,9,42,9,859,14,Customer_ID|hnd_price|income|mou_Mean|ownrent|totmrc_Mean,True,0
+analysis_outputs/notebook_backups/philopateer-20261028-123510.ipynb,1372506,9,43,9,859,14,Customer_ID|hnd_price|income|mou_Mean|ownrent|totmrc_Mean,True,0
+analysis_outputs/notebook_backups/philopateer-20261028-205244.ipynb,1364089,9,42,9,859,14,Customer_ID|hnd_price|income|mou_Mean|ownrent|totmrc_Mean,True,0
+philopateer.ipynb,1857125,25,60,9,859,16,Customer_ID|hnd_price|income|mou_Mean|ownrent|totmrc_Mean,True,0
+tutorial (2).ipynb,1110775,16,17,5,803,2,Customer_ID|churn|creditcd|ethnic|hnd_price|income|marital|mou_Mean|ownrent|rev_Mean|totmrc_Mean,False,0
+v1_frozen/analysis_outputs/notebook_backups/philopateer-20261028-121046.ipynb,63304,9,5,0,74,2,,False,1
+v1_frozen/analysis_outputs/notebook_backups/philopateer-20261028-121454.ipynb,1368527,9,42,9,859,14,Customer_ID|hnd_price|income|mou_Mean|ownrent|totmrc_Mean,True,1
+v1_frozen/analysis_outputs/notebook_backups/philopateer-20261028-121816.ipynb,1369505,9,42,9,859,14,Customer_ID|hnd_price|income|mou_Mean|ownrent|totmrc_Mean,True,0
+v1_frozen/analysis_outputs/notebook_backups/philopateer-20261028-122457.ipynb,1367660,9,42,9,859,14,Customer_ID|hnd_price|income|mou_Mean|ownrent|totmrc_Mean,True,0
+v1_frozen/analysis_outputs/notebook_backups/philopateer-20261028-123510.ipynb,1372506,9,43,9,859,14,Customer_ID|hnd_price|income|mou_Mean|ownrent|totmrc_Mean,True,0
+v1_frozen/philopateer.ipynb,1364089,9,42,9,859,14,Customer_ID|hnd_price|income|mou_Mean|ownrent|totmrc_Mean,True,0
+v4_addons/release_candidate/philopateer.ipynb,1857125,25,60,9,859,16,Customer_ID|hnd_price|income|mou_Mean|ownrent|totmrc_Mean,True,0

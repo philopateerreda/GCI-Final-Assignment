@@ -1,0 +1,247 @@
+{
+  "files": 4971,
+  "bytes": 575499423,
+  "groups": 56,
+  "categories": {
+    "git_config": 2,
+    "course_reference": 3,
+    "doc": 3,
+    "superseded_readme": 1,
+    "residue": 2372,
+    "evidence": 60,
+    "pipeline_entry": 4,
+    "handin": 3,
+    "pipeline_metadata": 2,
+    "data": 2,
+    "version": 2519
+  },
+  "tracked": 791,
+  "ignored": 4180,
+  "new_paths_over_240_chars": 0,
+  "group_stats": {
+    "R-GIT": {
+      "files": 2,
+      "bytes": 1630
+    },
+    "R-COURSE": {
+      "files": 2,
+      "bytes": 1578466
+    },
+    "R-DOCS": {
+      "files": 3,
+      "bytes": 72168
+    },
+    "R-README": {
+      "files": 1,
+      "bytes": 9888
+    },
+    "R-PYCACHE": {
+      "files": 1,
+      "bytes": 4374
+    },
+    "E-CORE": {
+      "files": 15,
+      "bytes": 1096061
+    },
+    "E-CHARTS": {
+      "files": 9,
+      "bytes": 1635187
+    },
+    "E-MODELS": {
+      "files": 1,
+      "bytes": 1375735
+    },
+    "E-BACKUPS": {
+      "files": 6,
+      "bytes": 6905591
+    },
+    "E-RENDERS": {
+      "files": 15,
+      "bytes": 1621376
+    },
+    "E-TABLES": {
+      "files": 14,
+      "bytes": 2839451
+    },
+    "R-PIPE-C": {
+      "files": 4,
+      "bytes": 385983
+    },
+    "R-F1": {
+      "files": 3,
+      "bytes": 4014399
+    },
+    "R-META": {
+      "files": 2,
+      "bytes": 19189
+    },
+    "D-TELECOM": {
+      "files": 2,
+      "bytes": 48120207
+    },
+    "R-TUTORIAL": {
+      "files": 1,
+      "bytes": 1110775
+    },
+    "V1-FROZEN": {
+      "files": 68,
+      "bytes": 15477684
+    },
+    "V2-PYCACHE": {
+      "files": 21,
+      "bytes": 564565
+    },
+    "V2-CORE": {
+      "files": 65,
+      "bytes": 10069452
+    },
+    "V2-CODE": {
+      "files": 27,
+      "bytes": 712214
+    },
+    "V2-LOGS": {
+      "files": 8,
+      "bytes": 97449
+    },
+    "V2-DOCS": {
+      "files": 8,
+      "bytes": 57525
+    },
+    "V2-C-CAL": {
+      "files": 4,
+      "bytes": 612278
+    },
+    "V2-C-SMOKE": {
+      "files": 5,
+      "bytes": 546470
+    },
+    "V2-C-TEST": {
+      "files": 5,
+      "bytes": 609795
+    },
+    "V2-CHARTS": {
+      "files": 3,
+      "bytes": 1041933
+    },
+    "V2-D-ROOT": {
+      "files": 49,
+      "bytes": 154123375
+    },
+    "V2-D-CACHE": {
+      "files": 1392,
+      "bytes": 90406780
+    },
+    "V2-D-FOLDS": {
+      "files": 290,
+      "bytes": 631393
+    },
+    "V2-D-OOF": {
+      "files": 130,
+      "bytes": 65331686
+    },
+    "V2-D-SMOKE": {
+      "files": 243,
+      "bytes": 2817081
+    },
+    "V2-D-SMOKE-IO": {
+      "files": 1841,
+      "bytes": 11187208
+    },
+    "V2-LITERATURE": {
+      "files": 9,
+      "bytes": 24699219
+    },
+    "V3-DOCS": {
+      "files": 6,
+      "bytes": 32529
+    },
+    "V3-FIGURES": {
+      "files": 5,
+      "bytes": 148358
+    },
+    "V3-REPORTS": {
+      "files": 11,
+      "bytes": 86735
+    },
+    "V3-RESULTS": {
+      "files": 65,
+      "bytes": 10105816
+    },
+    "V3-SOURCES": {
+      "files": 6,
+      "bytes": 2124650
+    },
+    "V3-NPZ": {
+      "files": 38,
+      "bytes": 69813793
+    },
+    "V3-WP8-CACHE": {
+      "files": 121,
+      "bytes": 15232269
+    },
+    "V3-STARTED": {
+      "files": 60,
+      "bytes": 3840
+    },
+    "V3-WP8-MODELS": {
+      "files": 10,
+      "bytes": 13749357
+    },
+    "V3-SRC": {
+      "files": 15,
+      "bytes": 340822
+    },
+    "V3-TESTS": {
+      "files": 7,
+      "bytes": 64911
+    },
+    "V4-DOCS": {
+      "files": 15,
+      "bytes": 104370
+    },
+    "V4-MANIFEST": {
+      "files": 1,
+      "bytes": 65600
+    },
+    "V4-GATES": {
+      "files": 2,
+      "bytes": 5241
+    },
+    "V4-LEDGER": {
+      "files": 6,
+      "bytes": 209080
+    },
+    "V4-M0": {
+      "files": 12,
+      "bytes": 998295
+    },
+    "V4-M1-CACHE": {
+      "files": 200,
+      "bytes": 6181979
+    },
+    "V4-M1": {
+      "files": 3,
+      "bytes": 4857
+    },
+    "V4-RELEASE": {
+      "files": 6,
+      "bytes": 4037803
+    },
+    "V4-REPORTS": {
+      "files": 24,
+      "bytes": 123165
+    },
+    "V4-RESULTS": {
+      "files": 68,
+      "bytes": 947440
+    },
+    "V4-SNAPSHOTS": {
+      "files": 2,
+      "bytes": 872350
+    },
+    "V4-TOOLS": {
+      "files": 39,
+      "bytes": 469576
+    }
+  }
+}

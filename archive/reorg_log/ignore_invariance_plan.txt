@@ -1,0 +1,8 @@
+D4 planned ignore invariance
+ignored_before=4180
+ignored_after=4180
+lost=0
+gained=0
+tracked_newly_ignored=0
+preexisting_tracked_and_ignored=8
+pass=True

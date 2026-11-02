@@ -1,0 +1,19 @@
+prefix,files,bytes
+(root files),2,1630
+archive/residue,2372,21305518
+archive/superseded,1,9888
+data/telecom,2,48120207
+docs/(files),3,72168
+docs/reference,3,2689241
+evidence/(files),15,1096061
+evidence/charts,9,1635187
+evidence/models,1,1375735
+evidence/notebook_backups,6,6905591
+evidence/slide_renders,15,1621376
+evidence/tables,14,2839451
+pipeline/(files),6,405172
+submission/(files),3,4014399
+versions/v1_frozen,68,15477684
+versions/v2_work,1990,348393099
+versions/v3_addons,283,111699239
+versions/v4_addons,178,7837777

@@ -1,0 +1,48 @@
+43: OUT = ROOT / 'analysis_outputs'
+94: client_path = ROOT / 'telecom' / 'Client.csv'
+95: record_path = ROOT / 'telecom' / 'Record.csv'
+581: V2_WORK = V2_ROOT / 'v2_work'
+582: V2_WORK.mkdir(exist_ok=True)
+583: if str(V2_WORK) not in sys.path:
+584:     sys.path.insert(0, str(V2_WORK))
+587:     path = V2_WORK / (name + '.py')
+611:     "WORK = ROOT / 'v2_work'\n",
+635:     "    data = pd.read_csv(ROOT / 'telecom/Record.csv').merge(pd.read_csv(ROOT / 'telecom/Client.csv'), on='Customer_ID', validate='one_to_one')\n",
+636:     "    split = pd.read_csv(ROOT / 'v1_frozen/analysis_outputs/tables/split_manifest.csv')\n",
+644:     "    source = (ROOT / 'v1_frozen/analysis_pipeline.py').read_text(encoding='utf-8')\n",
+697:     "    bundle = joblib.load(ROOT / 'v1_frozen/analysis_outputs/models/selected_model.joblib')\n",
+922:     "    frozen = pd.read_csv(ROOT/'v1_frozen/analysis_outputs/tables/heldout_predictions.csv')\n",
+924:     "    bundle = joblib.load(ROOT/'v1_frozen/analysis_outputs/models/selected_model.joblib')\n",
+1040:     "    v1 = json.loads((ROOT / 'v1_frozen/analysis_outputs/summary.json').read_text(encoding='utf-8'))\n",
+1251:     'ceiling fits belong to workstream D. All generated artifacts stay in v2_work.\n',
+1342:     '    require(path.is_relative_to(WORK.resolve()), "Artifact paths must stay inside v2_work.")\n',
+1645:     '    manifest_path = ROOT / "v1_frozen/analysis_outputs/feature_manifest.json"\n',
+2027:     'scaling. Root deliverables and v1_frozen are read-only to this workstream.\n',
+2064:     '                        help="Read-only D CSV/JSON inside v2_work; C never fits sensitive ceilings.")\n',
+2075:     '    require(WORK.is_dir(), "v2_work must already exist; never create or modify root assets.")\n',
+2401:     '            raise ValueError("Artifacts must be in a dedicated child of v2_work")\n',
+2454:     '                                   "v2_work output directory; existing results were not changed.")\n',
+3312:     '    selection = json.loads((common.ROOT / "v1_frozen/analysis_outputs/model_selection.json").read_text(encoding="utf-8"))\n',
+3332:     '    frozen_manifest = json.loads((common.ROOT / "v1_frozen/analysis_outputs/feature_manifest.json").read_text(encoding="utf-8"))\n',
+3336:     '             common.ROOT / "v1_frozen/analysis_pipeline.py",\n',
+3337:     '             common.ROOT / "v1_frozen/analysis_outputs/model_selection.json",\n',
+3338:     '             common.ROOT / "v1_frozen/analysis_outputs/feature_manifest.json",\n',
+3339:     '             common.ROOT / "v1_frozen/analysis_outputs/tables/split_manifest.csv"]\n',
+3452:     '    parser.add_argument("--output-dir", type=Path, help="Dedicated child of v2_work; default d_results/d_smoke")\n',
+3670:     "    frozen = pd.read_csv(ROOT / 'v1_frozen/analysis_outputs/tables/heldout_predictions.csv').set_index('Customer_ID')\n",
+3719:     "BASELINE_FILES = ('v1_frozen/analysis_pipeline.py',\n",
+3720:     "                  'v1_frozen/analysis_outputs/models/selected_model.joblib',\n",
+3721:     "                  'v1_frozen/analysis_outputs/tables/split_manifest.csv',\n",
+3722:     "                  'v1_frozen/analysis_outputs/tables/heldout_predictions.csv',\n",
+3723:     "                  'v1_frozen/analysis_outputs/source_manifest.json')\n",
+3745:     "    originals = json.loads((ROOT / 'v1_frozen/analysis_outputs/source_manifest.json').read_text(encoding='utf-8'))\n",
+3873:     "    sources.extend(ROOT / 'telecom' / name for name in ('Client.csv', 'Record.csv'))\n",
+3874:     "    sources.extend(ROOT / 'v1_frozen' / name for name in ('analysis_pipeline.py', 'analysis_outputs/models/selected_model.joblib', 'analysis_outputs/tables/split_manifest.csv', 'analysis_outputs/tables/heldout_predi ...
+3990:     "    v1 = json.loads((ROOT / 'v1_frozen/analysis_outputs/summary.json').read_text(encoding='utf-8'))\n",
+4047:     "    target = ROOT / 'analysis_outputs/summary.json'\n",
+4184: _v2_baseline = V2_ROOT / 'v1_frozen'
+4187:     (_v2_baseline / 'analysis_pipeline.py').write_text('# %% Setup\nfrom pathlib import Path\nfrom hashlib import sha256\nimport importlib.metadata\nimport json\nimport os\nimport platform\nimport time\nimport warnings\n ...
+4188:     for _relative in ('analysis_outputs/summary.json', 'analysis_outputs/model_selection.json', 'analysis_outputs/feature_manifest.json', 'analysis_outputs/source_manifest.json', 'analysis_outputs/models/selected_model.j ...
+4193: assert (_v2_baseline / 'analysis_pipeline.py').read_text(encoding='utf-8') == '# %% Setup\nfrom pathlib import Path\nfrom hashlib import sha256\nimport importlib.metadata\nimport json\nimport os\nimport platform\nimport  ...
+4207: runpy.run_path(str(V2_WORK / 'generate_visuals.py'), run_name='__main__')
+4209:     shutil.copy2(V2_WORK / 'charts' / _v2_chart, V2_ROOT / 'analysis_outputs/charts' / _v2_chart)

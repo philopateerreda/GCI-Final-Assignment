@@ -1,0 +1,75 @@
+﻿## .qoder-office-pptx-locks  files=0  bytes=
+## analysis_outputs  files=60  bytes=15473401
+  analysis_outputs\charts  files=9  bytes=1635187
+  analysis_outputs\models  files=1  bytes=1375735
+  analysis_outputs\notebook_backups  files=6  bytes=6905591
+  analysis_outputs\slide_renders  files=15  bytes=1621376
+  analysis_outputs\tables  files=14  bytes=2839451
+## telecom  files=2  bytes=48120207
+## v1_frozen  files=68  bytes=15477684
+  v1_frozen\analysis_outputs  files=13  bytes=845101
+  v1_frozen\analysis_outputs\charts  files=9  bytes=882626
+  v1_frozen\analysis_outputs\models  files=1  bytes=1375735
+  v1_frozen\analysis_outputs\notebook_backups  files=5  bytes=5541502
+  v1_frozen\analysis_outputs\slide_renders  files=15  bytes=1340529
+  v1_frozen\analysis_outputs\tables  files=14  bytes=2839448
+## v2_work  files=4100  bytes=363508423
+  v2_work\charts  files=3  bytes=1041933
+  v2_work\c_calibration  files=4  bytes=612278
+  v2_work\c_smoke  files=5  bytes=546470
+  v2_work\c_test  files=5  bytes=609795
+  v2_work\d_results  files=49  bytes=154123375
+  v2_work\d_smoke  files=17  bytes=2055669
+  v2_work\d_smoke_io  files=49  bytes=3665430
+  v2_work\__pycache__  files=21  bytes=564565
+  v2_work\d_results\cache  files=1392  bytes=90406780
+  v2_work\d_results\folds  files=290  bytes=631393
+  v2_work\d_results\oof  files=130  bytes=65331686
+  v2_work\d_smoke\cache  files=156  bytes=592095
+  v2_work\d_smoke\folds  files=60  bytes=91400
+  v2_work\d_smoke\oof  files=10  bytes=77917
+  v2_work\d_smoke_io\cache  files=1372  bytes=5776607
+  v2_work\d_smoke_io\folds  files=290  bytes=619781
+  v2_work\d_smoke_io\oof  files=130  bytes=1125390
+## v3_addons  files=344  bytes=111703080
+  v3_addons\figures  files=5  bytes=148358
+  v3_addons\reports  files=11  bytes=86735
+  v3_addons\results  files=79  bytes=50749844
+  v3_addons\src  files=15  bytes=340822
+  v3_addons\tests  files=7  bytes=64911
+  v3_addons\results\sources  files=6  bytes=2124650
+  v3_addons\results\wp8  files=24  bytes=29169765
+  v3_addons\results\wp8\cache  files=181  bytes=15236109
+  v3_addons\results\wp8\models  files=10  bytes=13749357
+## v4_addons  files=378  bytes=14019756
+  v4_addons\gates  files=2  bytes=5241
+  v4_addons\ledger_dryrun  files=6  bytes=209080
+  v4_addons\m1_work  files=3  bytes=4857
+  v4_addons\release_candidate  files=6  bytes=4037803
+  v4_addons\reports  files=24  bytes=123165
+  v4_addons\results  files=68  bytes=947440
+  v4_addons\snapshots  files=2  bytes=872350
+  v4_addons\tools  files=39  bytes=469576
+  v4_addons\m0_sandbox\a_replay  files=11  bytes=843173
+  v4_addons\m0_sandbox\final_metrics  files=1  bytes=155122
+  v4_addons\m1_work\cache  files=200  bytes=6181979
+## __pycache__  files=1  bytes=4374
+## ROOT FILES
+  .gitattributes  bytes=75
+  .gitignore  bytes=1555
+  analysis_pipeline.py  bytes=353674
+  build_notebook.py  bytes=21249
+  ENG_Company _A_ Dataset Overview.docx  bytes=787254
+  export_and_verify.py  bytes=7309
+  FINAL_ASSESSMENT_HANDOFF.md  bytes=54432
+  FINAL_ASSESSMENT_READING_NOTE.md  bytes=13912
+  FINAL_V2_UPGRADE_REPORT.md  bytes=3824
+  philopateer.ipynb  bytes=1857125
+  philopateer.pdf  bytes=846608
+  philopateer.pptx  bytes=1310666
+  README.docx  bytes=791212
+  README.md  bytes=9888
+  references.txt  bytes=18843
+  requirements-python311.txt  bytes=346
+  restore_v1.py  bytes=3751
+  tutorial (2).ipynb  bytes=1110775
