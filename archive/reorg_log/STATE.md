@@ -1,8 +1,8 @@
 # STATE — finalA reorganization
 
-- **Phase:** Phase 5 complete; **R1–R7 committed**, **R8 next** (moves this log to `archive/reorg_log/` and commits the docs)
+- **Phase:** Phase 5 complete; **R1–R8 committed**; Phase 4 **10/10 PASS**; Phase 6.1 next
 - **Gate 1:** **approved** (7 decisions confirmed with guardrails; 2026-11-02)
-- **Last verified commit:** `506a102` `chore(reorg): R7_pipeline ...`; `origin/main` still `6b6f39a`; no push
+- **Last verified commit:** `fc93e64` `chore(reorg): R8_log ...`; `origin/main` still `6b6f39a`; no push
 - **Backup:** `D:\progs\IDE\MainProjs\AI\GCI2026\finalA_BACKUP_20261102`
 - **Backup proof:** 6,299 files / 593,544,196 bytes; 20/20 SHA256 and 20/20 mtimes equal (`backup_verify.json`)
 - **Working-tree manifest:** 4,971 files / 575,499,423 bytes (`hash_manifest_before.csv`; excludes log)
@@ -14,9 +14,11 @@
 - **R5:** 2 / 48,120,207; no tracked move; F3 2/2 (`batch_R5_proof.md`)
 - **R6:** 3 / 4,014,399; R100 3/3; F1 5/5 (`batch_R6_proof.md`)
 - **R7:** 6 / 405,172; R100 6/6 (`batch_R7_proof.md`)
+- **R8:** 108 added / 9,473,142 bytes (10 docs + 98 log files; log was untracked, so no renames); commit `fc93e64` (`batch_R8_proof.md`)
 - **R1 recovery note:** the first R1 run was killed by an account-quota stop after the filesystem moves. Every destination was re-verified against the Phase-0 manifest (size, SHA256, mtime), and `moves.csv` was reconstructed with `recovered=yes` for those rows.
-- **Phase 4 at `506a102`:** 8 PASS / 0 FAIL / 2 PENDING (V1 needed README, V5 needed committed docs); full table `phase4_verify.md`
+- **Phase 4 at `fc93e64`:** **10 PASS / 0 FAIL / 0 PENDING**; full table `phase4_verify.md`. Verifier fixes: V4 also exempts `archive/reorg_log/`; V5 treats the replacement root `README.md` and `archive/superseded/README_v2.md` as the approved README pair; V2 reports 4,969 moves + 1 unchanged + 1 edited so plan and `moves.csv` reconcile; V9 reports the single expected undo conflict instead of failing.
 - **Phase 5 docs written:** root `README.md` (67 lines), 7 folder READMEs (25-37 lines each), `versions/VERSIONS.md`, `PATH_MAP.md`, `path_map.csv`, `archive/unclear_status/README.md`, `archive/duplicates/README.md`
-- **Next action:** R8 `R8_log` — move `finalA_reorg_log/` to `archive/reorg_log/`, stage all docs, commit, re-run V1–V10; then Phase 6.1 pre-push audit and Gate 2.
+- **Undo scope:** `undo_moves.ps1` reverses R1–R7 (4,969 moves). R8 moved the log folder itself and is not self-logged; reverse it with `git revert fc93e64`. The dry run reports one `CONFLICT_OLD_EXISTS` (`archive/superseded/README_v2.md -> README.md`) because R8 wrote the replacement root README; a real undo stops there by design.
+- **Next action:** Phase 6.1 pre-push audit (remote/credentials, fast-forward, delta, tracked tree, secrets, notebook outputs, `push --dry-run`), then write `prepush_audit.md` and present Gate 2.
 - **Gate 2:** not reached; no push before G2 and the exact word `push`.
 - **Rule reminder:** no project code execution; no deletion; no push before G2 + `push`.

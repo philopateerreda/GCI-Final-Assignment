@@ -1,22 +1,22 @@
 {
-  "generated_utc": "2026-11-02T15:22:10.854475+00:00",
-  "head": "506a102caea387e0a94d0924493173af275cc3de",
+  "generated_utc": "2026-11-02T15:30:35.519066+00:00",
+  "head": "fc93e64f4b902d07d134ddb44fe5e0ace9b9ca93",
   "counts": {
-    "PASS": 8,
+    "PASS": 10,
     "FAIL": 0,
-    "PENDING": 2
+    "PENDING": 0
   },
   "checks": [
     {
       "id": "V1",
-      "status": "PENDING",
-      "detail": "root=['.git', '.gitattributes', '.gitignore', 'archive', 'data', 'docs', 'evidence', 'finalA_reorg_log', 'pipeline', 'submission', 'versions']; missing=['README.md']; extra=[]; finalA_reorg_log exempt until R8",
+      "status": "PASS",
+      "detail": "root=['.git', '.gitattributes', '.gitignore', 'README.md', 'archive', 'data', 'docs', 'evidence', 'pipeline', 'submission', 'versions']; missing=[]; extra=[]; finalA_reorg_log exempt until R8",
       "evidence": "directory listing"
     },
     {
       "id": "V2",
       "status": "PASS",
-      "detail": "plan_rows=4971 baseline_rows=4971 inventory_rows=4971 unchanged=1 moved=4970 edited_on_purpose=1 errors=0; baseline_bytes=575499423 plan_bytes=575499423 reconciled_bytes=575499828",
+      "detail": "plan_rows=4971 baseline_rows=4971 inventory_rows=4971 unchanged=1 moved=4969 (moves.csv rows=4969) edited_on_purpose=1 errors=0; baseline_bytes=575499423 plan_bytes=575499423 reconciled_bytes=575499828",
       "errors": [],
       "evidence": "move_plan.csv + moves.csv + inventory.csv + hash_manifest_before.csv"
     },
@@ -30,39 +30,39 @@
     {
       "id": "V4",
       "status": "PASS",
-      "detail": "status_lines=1 (log-only) probes=7 not_ignored=[] tracked_but_ignored_before=8 after=8 new=[] lost=[] cv_manifest_ignored=6",
+      "detail": "status_lines=5 (log-only) probes=7 not_ignored=[] tracked_but_ignored_before=8 after=8 new=[] lost=[] cv_manifest_ignored=6",
       "errors": [],
       "evidence": "git status --porcelain --ignored; git check-ignore; git ls-files -ci; pre-reorg comparison"
     },
     {
       "id": "V5",
-      "status": "PENDING",
-      "detail": "renames_R100=789 additions=0 modifications=['.gitignore'] deletions=0 other=0; bad_mods=[] bad_adds=[]",
+      "status": "PASS",
+      "detail": "renames_R100=788 additions=108 modifications=['.gitignore', 'README.md'] deletions=0 other=0; bad_mods=[] bad_adds=[]",
       "evidence": "git diff -M --name-status pre-reorg..HEAD"
     },
     {
       "id": "V6",
       "status": "PASS",
-      "detail": "py_parsed=113 parse_errors=0 notebooks=15 code_cells=174 notebook_errors=0 nothing imported or executed",
+      "detail": "py_parsed=114 parse_errors=0 notebooks=15 code_cells=174 notebook_errors=0 nothing imported or executed",
       "errors": [],
       "evidence": "ast.parse in memory; json.loads on every .ipynb"
     },
     {
       "id": "V7",
       "status": "PASS",
-      "detail": "tracked=791 new_over_25MB=[] pre_existing_over_25MB=[] new_frozen_or_dataset_duplicates=[] pre_existing_duplicates=[] (F1 originals excluded)",
+      "detail": "tracked=899 new_over_25MB=[] pre_existing_over_25MB=[] new_frozen_or_dataset_duplicates=[] pre_existing_duplicates=[] (F1 originals excluded)",
       "evidence": "git ls-files + SHA256; pre-reorg tracked set"
     },
     {
       "id": "V8",
       "status": "PASS",
-      "detail": "G1-approved code edits: 0 (all scripts Tier C, byte-identical); py_changed=0 ps1_changed=0 ipynb_changed=0 csv_changed=0 json_changed=0 (content changes only; renames excluded)",
-      "evidence": "git diff -M --diff-filter=AM pre-reorg..HEAD by extension"
+      "detail": "G1-approved code edits: 0 (all project scripts Tier C, byte-identical); py_modified=0 ps1_modified=0 ipynb_modified=0 py_added_outside_log=0 ps1_added_outside_log=0 ipynb_added_outside_log=0 code_deleted=0 (new reorg tooling under archive/reorg_log is documentation, not project code)",
+      "evidence": "git diff -M --diff-filter=M/A/D pre-reorg..HEAD by extension"
     },
     {
       "id": "V9",
       "status": "PASS",
-      "detail": "fsck_rc=0 fsck_errors=0 undo_whatif_rc=0 undo_tail='WOULD_MOVE archive/residue/__pycache__/restore_v1.cpython-311.pyc -> __pycache__/restore_v1.cpython-311.pyc\\nWOULD_MOVE archive/superseded/README_v2.md -> README.md\\nUNDO moves=4969 done=4969 WhatIf=True Batch='",
+      "detail": "fsck_rc=0 fsck_errors=0 undo_whatif_rc=0 undo_conflicts=1 undo_tail='WOULD_MOVE archive/residue/__pycache__/restore_v1.cpython-311.pyc -> __pycache__/restore_v1.cpython-311.pyc\\nCONFLICT_OLD_EXISTS archive/superseded/README_v2.md -> README.md\\nUNDO moves=4969 done=4968 conflicts=1 WhatIf=True Batch='",
       "evidence": "git fsck --no-dangling; undo_moves.ps1 -WhatIf"
     },
     {

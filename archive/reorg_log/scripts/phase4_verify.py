@@ -90,7 +90,7 @@ def check_v2() -> dict:
     inventory = {r["path"]: r for r in read_csv(LOG / "inventory.csv")}
     moves = {r["old_path"]: r for r in read_csv(LOG / "moves.csv")}
     errors: list[str] = []
-    unchanged = edited = 0
+    unchanged = edited = moved = 0
     reconciled_bytes = 0
     for row in plan:
         old = row["old_path"]
@@ -115,7 +115,9 @@ def check_v2() -> dict:
         if digest != base["sha256"]:
             errors.append(f"sha {new}")
             continue
-        if old not in moves:
+        if old in moves:
+            moved += 1
+        else:
             unchanged += 1
         reconciled_bytes += int(base["bytes"])
     baseline = read_csv(LOG / "hash_manifest_before.csv")
@@ -123,10 +125,13 @@ def check_v2() -> dict:
     plan_bytes = sum(int(inventory[r["old_path"]]["bytes"]) for r in plan if r["old_path"] in inventory)
     return {
         "id": "V2",
-        "status": "PASS" if not errors and len(plan) == len(baseline) == len(inventory) else "FAIL",
+        "status": "PASS"
+        if not errors and len(plan) == len(baseline) == len(inventory) and moved == len(moves)
+        else "FAIL",
         "detail": (
             f"plan_rows={len(plan)} baseline_rows={len(baseline)} inventory_rows={len(inventory)} "
-            f"unchanged={unchanged} moved={len(plan)-unchanged} edited_on_purpose={edited} errors={len(errors)}; "
+            f"unchanged={unchanged} moved={moved} (moves.csv rows={len(moves)}) "
+            f"edited_on_purpose={edited} errors={len(errors)}; "
             f"baseline_bytes={baseline_bytes} plan_bytes={plan_bytes} reconciled_bytes={reconciled_bytes}"
         ),
         "errors": errors[:20],
@@ -162,7 +167,11 @@ def check_v3() -> dict:
 def check_v4() -> dict:
     status = git("status", "--porcelain")
     status_lines = [l for l in status.splitlines() if l.strip()]
-    problems = [l for l in status_lines if "finalA_reorg_log" not in l]
+    problems = [
+        l
+        for l in status_lines
+        if "finalA_reorg_log" not in l and "archive/reorg_log/" not in l
+    ]
     probes = [
         "data/telecom/Client.csv",
         "data/telecom/Record.csv",
@@ -223,10 +232,19 @@ def check_v5() -> dict:
             modifies.append(parts[1])
         else:
             other.append(line)
-    bad_mods = [m for m in modifies if m != ".gitignore"]
+    # The old root README was archived and a new root README written in its
+    # place. Because the root path is reused, git cannot show that pair as one
+    # rename; V2 proves the old bytes at archive/superseded/README_v2.md.
+    approved_readme = {"README.md", "archive/superseded/README_v2.md"}
+    bad_mods = [
+        m for m in modifies
+        if m != ".gitignore"
+        and m not in approved_readme
+        and not m.startswith("archive/reorg_log/")
+    ]
 
     def allowed_add(p: str) -> bool:
-        if p == "README.md" or p.endswith("/README.md") or p.endswith("VERSIONS.md"):
+        if p in approved_readme or p.endswith("/README.md") or p.endswith("VERSIONS.md"):
             return True
         if p.startswith("archive/reorg_log/"):
             return True
@@ -363,12 +381,22 @@ def check_v9() -> dict:
         "-File", str(LOG / "scripts" / "undo_moves.ps1"), "-WhatIf",
     )
     tail = "\n".join((undo.stdout or "").strip().splitlines()[-3:])
+    conflicts = [
+        l for l in (undo.stdout or "").splitlines() if l.startswith("CONFLICT_OLD_EXISTS")
+    ]
+    # The only expected conflict is the root README: its new path is occupied
+    # by the replacement README written during the reorg. A real undo must
+    # move that file aside first; the dry run reports and continues.
+    known_conflicts = all(l.endswith("-> README.md") for l in conflicts)
     return {
         "id": "V9",
-        "status": "PASS" if fsck.returncode == 0 and undo.returncode == 0 else "FAIL",
+        "status": "PASS"
+        if fsck.returncode == 0 and undo.returncode == 0 and known_conflicts
+        else "FAIL",
         "detail": (
             f"fsck_rc={fsck.returncode} fsck_errors={len(fsck.stderr.strip().splitlines())} "
-            f"undo_whatif_rc={undo.returncode} undo_tail={tail!r}"
+            f"undo_whatif_rc={undo.returncode} undo_conflicts={len(conflicts)} "
+            f"undo_tail={tail!r}"
         ),
         "evidence": "git fsck --no-dangling; undo_moves.ps1 -WhatIf",
     }

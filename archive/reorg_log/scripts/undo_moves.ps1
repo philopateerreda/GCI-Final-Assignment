@@ -21,11 +21,21 @@ if ($Batch) {
 $moves = @($moves | Sort-Object { [int]$_.seq } -Descending)
 
 $done = 0
+$conflicts = 0
 foreach ($m in $moves) {
     $new = Join-Path $root $m.new_path
     $old = Join-Path $root $m.old_path
     if (-not (Test-Path -LiteralPath $new -PathType Leaf)) { throw "MISSING NEW: $new" }
-    if (Test-Path -LiteralPath $old) { throw "OLD ALREADY EXISTS: $old" }
+    if (Test-Path -LiteralPath $old) {
+        # A later file may legitimately reuse the old path (e.g. the new root
+        # README). Report it in a dry run; a real undo still stops.
+        if ($WhatIf) {
+            Write-Output ("CONFLICT_OLD_EXISTS {0} -> {1}" -f $m.new_path, $m.old_path)
+            $conflicts++
+            continue
+        }
+        throw "OLD ALREADY EXISTS: $old"
+    }
     if ($WhatIf) {
         Write-Output ("WOULD_MOVE {0} -> {1}" -f $m.new_path, $m.old_path)
         $done++
@@ -43,4 +53,4 @@ foreach ($m in $moves) {
     }
     $done++
 }
-Write-Output "UNDO moves=$($moves.Count) done=$done WhatIf=$WhatIf Batch=$Batch"
+Write-Output "UNDO moves=$($moves.Count) done=$done conflicts=$conflicts WhatIf=$WhatIf Batch=$Batch"

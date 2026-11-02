@@ -66,7 +66,9 @@ These path strings still name the **old** layout on purpose. Rewriting them woul
 
 ## Undo
 
-1. Filesystem: `archive/reorg_log/scripts/undo_moves.ps1 -WhatIf` (tested; 4,969 moves), then without `-WhatIf` to reverse newest-first.
+1. Filesystem: `archive/reorg_log/scripts/undo_moves.ps1 -WhatIf` (tested: 4,969 moves; 4,968 `WOULD_MOVE` + 1 reported conflict), then without `-WhatIf` to reverse newest-first.
+   - The log covers **R1–R7 only**: R8 moved this log folder itself, so its 108 moves cannot be logged inside it. Reverse R8 with `git revert fc93e64` (or `git mv archive/reorg_log finalA_reorg_log`) first.
+   - `archive/superseded/README_v2.md -> README.md` is the one conflict: the old path now holds the replacement root README written in R8. The dry run reports `CONFLICT_OLD_EXISTS` and continues; a real undo stops rather than overwrite. Revert or move that README aside first.
 2. Git: `git revert` the R1–R8 commits newest-first; never reset.
 3. Old layout: branch `pre-reorg` at `6b6f39a`, also `release/v4`; backup at `D:\progs\IDE\MainProjs\AI\GCI2026\finalA_BACKUP_20261102`.
 4. `moves.csv` is the append-only move log; `path_map.csv` is the sorted read-only view.
