@@ -13,7 +13,7 @@ Thumbs.db
 ~$*
 
 # Supplied case data and course materials (not redistributed)
-/telecom/*.csv
+/data/telecom/*.csv
 /docs/reference/*.docx
 /docs/reference/tutorial*.ipynb
 
