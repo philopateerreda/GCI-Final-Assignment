@@ -26,7 +26,7 @@ Thumbs.db
 /versions/v1_frozen/
 
 # Notebook backups
-analysis_outputs/notebook_backups/
+/evidence/notebook_backups/
 
 # Large regenerable intermediates
 /versions/v2_work/d_results/cache/
