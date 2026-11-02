@@ -33,9 +33,6 @@ v2_work/d_results/cache/
 v2_work/d_results/oof/
 v2_work/d_results/cv_manifest.csv
 v2_work/d_results/cv_manifest.json
-v2_work/d_smoke/
-v2_work/d_smoke_io/
-v2_work/c_smoke/
 v3_addons/results/*.npz
 v3_addons/results/wp5_calibration_oof.csv
 v3_addons/results/wp5_label_shift_raw.csv
@@ -67,6 +64,11 @@ v4_addons/release_candidate/
 
 # v4 snapshots and regenerable intermediates
 v4_addons/snapshots/
-v4_addons/m1_work/cache/
 v4_addons/m1_work/folds/
 v4_addons/m1_work/oof/
+
+# Reorganization archive (git-ignored by design)
+/archive/residue/
+/archive/duplicates/
+/archive/reorg_log/extracted_text/
+/archive/reorg_log/verify_clone/
